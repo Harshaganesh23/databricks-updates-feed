@@ -1,7 +1,7 @@
 """Orchestrator: run every fetcher, merge results into data/updates.json.
 
-Each fetcher is isolated in its own try/except so one broken source (most
-likely the LinkedIn bridge) never stops the others from updating.
+Each fetcher is isolated in its own try/except so one broken source never
+stops the others from updating.
 """
 
 import os
@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 
 import yaml
 
-from fetchers import blog, github_releases, linkedin_bridge, release_notes
+from fetchers import blog, github_releases, release_notes
 from fetchers.common import (
     archive_items, load_existing, load_seen_ids, merge, save, save_seen_ids,
     write_archive_index,
@@ -47,7 +47,6 @@ def main():
         "release_notes", release_notes.fetch,
         config["release_notes"]["index_url"], config["release_notes"]["base_url"],
     )
-    fresh += run_fetcher("linkedin", linkedin_bridge.fetch, config["linkedin"].get("bridge_feed_url", ""))
 
     existing = load_existing(DATA_PATH)
     seen_ids = load_seen_ids(SEEN_IDS_PATH)

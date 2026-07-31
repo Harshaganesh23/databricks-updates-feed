@@ -26,12 +26,6 @@ github_releases:
   auto_discover_orgs:
     - databrickslabs
 
-linkedin:
-  # Optional. Leave blank to skip this source entirely.
-  # Point this at a bridge feed (e.g. an RSS.app export) for the Databricks
-  # LinkedIn company page — LinkedIn has no public API for reading post feeds.
-  bridge_feed_url: ""
-
 retention:
   # How long an item stays on the live pages. Age is the intended binding
   # constraint — max_items is a generous safety cap on data.json's size, not
