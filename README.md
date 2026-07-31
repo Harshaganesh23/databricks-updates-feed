@@ -2,7 +2,7 @@
 
 A daily-refreshed dashboard aggregating Databricks updates from official sources into one page — no server, no database, no cost.
 
-**Live dashboard:** set after first deploy — `https://<your-username>.github.io/databricks-updates-feed/`
+**Live dashboard:** https://harshaganesh23.github.io/databricks-updates-feed/
 **RSS feed:** same URL + `feed.xml`
 
 ## Sources
