@@ -21,7 +21,7 @@ Every item is classified into one of Databricks' own top-level product categorie
 ## How it runs
 
 A GitHub Actions workflow (`.github/workflows/update.yml`) runs daily:
-1. Fetches all sources, merges new items into `data/updates.json`, deduped by URL. Items are categorized and their `first_seen` date is looked up in `data/seen_ids.json` — a permanent record of every item ID ever encountered, so a source re-fetching its full history (release notes fetch ~2000+ entries every run) never resets an old item's discovery date.
+1. Fetches all sources, merges new items into `data/updates.json`, deduped by URL. Items are categorized and their `first_seen` date is looked up in `data/seen_ids.json` - a permanent record of every item ID ever encountered, so a source re-fetching its full history (release notes fetch ~2000+ entries every run) never resets an old item's discovery date.
 2. Anything outside the live retention window (see **Retention & archival** below) moves into `data/archive/`.
 3. Builds the static dashboard + `feed.xml` into `dist/` (the archive is copied in too, so it's browsable via the site's Archive page).
 4. Deploys `dist/` to GitHub Pages.
@@ -33,16 +33,16 @@ Each fetcher fails independently — if one source breaks, the others still upda
 ## Retention & archival
 
 Controlled by `retention` in `config.yml`:
-- **Live pages**: items stay for **90 days** (or until a generous 600-item safety cap, whichever binds first — age is meant to be the real constraint).
+- **Live pages**: items stay for **90 days** (or until a generous 600-item safety cap, whichever binds first - age is meant to be the real constraint).
 - **Archive**: anything older moves to `data/archive/YYYY-MM.json`, one file per month, committed to git permanently. **Nothing is ever deleted** — the site's Archive page (`#/archive`) lists every month and lets you browse it with the same UI as the live pages, fetched on demand so the live `data.json` payload stays small.
 
-To change the window, edit `max_age_days`/`max_items` in `config.yml` — the archival logic itself doesn't need to change.
+To change the window, edit `max_age_days`/`max_items` in `config.yml` - the archival logic itself doesn't need to change.
 
 ![Retention and archival flow](docs/diagrams/retention-flow.svg)
 
 ## The "Latest Update" block
 
-The Dashboard's top section shows everything discovered in the most recent fetch run — the daily-skim view. It finds the newest `first_seen` date across the whole store and shows every item that shares it, reading from the full item set so narrowing the topbar's Source or Date Range filter never hides it, and labeling itself from that date rather than the browser's clock so it stays honest if a scheduled run doesn't fire.
+The Dashboard's top section shows everything discovered in the most recent fetch run - the daily-skim view. It finds the newest `first_seen` date across the whole store and shows every item that shares it, reading from the full item set so narrowing the topbar's Source or Date Range filter never hides it, and labeling itself from that date rather than the browser's clock so it stays honest if a scheduled run doesn't fire.
 
 ![Latest Update block flow](docs/diagrams/latest-update-flow.svg)
 
