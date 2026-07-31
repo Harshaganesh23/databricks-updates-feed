@@ -3,7 +3,12 @@ name: Update feed
 on:
   schedule:
     - cron: "0 13 * * *"  # ~06:00 US Pacific / 13:00 UTC, daily
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      skip_fetch:
+        description: "Skip fetching new data; just rebuild and redeploy the site from the current data store (e.g. after a code-only change)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,9 +35,11 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch sources and update data store
+        if: github.event.inputs.skip_fetch != 'true'
         run: python fetch_all.py
 
       - name: Commit updated data
+        if: github.event.inputs.skip_fetch != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
