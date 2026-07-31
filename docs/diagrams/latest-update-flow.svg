@@ -1,0 +1,25 @@
+<svg width="640" height="420" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8c9aa0"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="640" height="420" rx="16" fill="#f9f7f4" stroke="#e2dfd7" stroke-width="1"/>
+  <rect x="130" y="24" width="380" height="50" rx="10" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <text x="320.0" y="51.0" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b3139">Load data.json into state.items (full set)</text>
+  <path d="M320,74 L320,106" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="130" y="106" width="380" height="52" rx="10" fill="#edf2f8" stroke="#143d4a" stroke-width="1.5"/>
+  <text x="320.0" y="125.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#143d4a">Find the newest discovery date</text>
+  <text x="320.0" y="142.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" font-weight="700" fill="#143d4a">latestSeen = max(first_seen)</text>
+  <path d="M320,158 L320,190" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="130" y="190" width="380" height="52" rx="10" fill="#edf2f8" stroke="#143d4a" stroke-width="1.5"/>
+  <text x="320.0" y="209.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#143d4a">Keep only items that match it</text>
+  <text x="320.0" y="226.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" font-weight="700" fill="#143d4a">items.filter(i =&gt; i.first_seen === latestSeen)</text>
+  <path d="M320,242 L320,274" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="110" y="274" width="420" height="56" rx="10" fill="#faecec" stroke="#ff3621" stroke-width="2"/>
+  <text x="320.0" y="304.4" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ff3621">Render "Latest Update — {date}"</text>
+  <rect x="40" y="352" width="8" height="62" fill="#ff3621"/>
+  <rect x="48" y="352" width="552" height="62" fill="#faecec"/>
+  <text x="66" y="374" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" fill="#1b3139">Reads the full item set — ignores Source/Date Range filters, so it stays visible.</text>
+  <text x="66" y="394" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" fill="#1b3139">Date comes from the data, not the browser clock — honest if a run misses.</text>
+</svg>

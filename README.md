@@ -1,9 +1,13 @@
 # Databricks Updates Feed
 
+[![Update feed](https://github.com/Harshaganesh23/databricks-updates-feed/actions/workflows/update.yml/badge.svg)](https://github.com/Harshaganesh23/databricks-updates-feed/actions/workflows/update.yml)
+
 A daily-refreshed dashboard aggregating Databricks updates from official sources into one page.
 
 **Live dashboard:** https://harshaganesh23.github.io/databricks-updates-feed/
 **RSS feed:** same URL + `feed.xml`
+
+> Diagrams below (`docs/diagrams/`) use the same Navy `#1b3139` / Lava `#ff3621` / Oat `#f9f7f4` palette as the dashboard itself — pulled from Databricks' own live CSS, not invented. They're static SVGs rather than Mermaid, since GitHub strips custom CSS from READMEs and Mermaid's own theming didn't match closely enough.
 
 ## Sources
 
@@ -25,6 +29,8 @@ A GitHub Actions workflow (`.github/workflows/update.yml`) runs daily:
 
 Each fetcher fails independently — if one source breaks, the others still update.
 
+![Daily pipeline flow](docs/diagrams/pipeline-flow.svg)
+
 ## Retention & archival
 
 Controlled by `retention` in `config.yml`:
@@ -32,6 +38,14 @@ Controlled by `retention` in `config.yml`:
 - **Archive**: anything older moves to `data/archive/YYYY-MM.json`, one file per month, committed to git permanently. **Nothing is ever deleted** — the site's Archive page (`#/archive`) lists every month and lets you browse it with the same UI as the live pages, fetched on demand so the live `data.json` payload stays small.
 
 To change the window, edit `max_age_days`/`max_items` in `config.yml` — the archival logic itself doesn't need to change.
+
+![Retention and archival flow](docs/diagrams/retention-flow.svg)
+
+## The "Latest Update" block
+
+The Dashboard's top section shows everything discovered in the most recent fetch run — the daily-skim view. It finds the newest `first_seen` date across the whole store and shows every item that shares it, reading from the full item set so narrowing the topbar's Source or Date Range filter never hides it, and labeling itself from that date rather than the browser's clock so it stays honest if a scheduled run doesn't fire.
+
+![Latest Update block flow](docs/diagrams/latest-update-flow.svg)
 
 ## Local development
 

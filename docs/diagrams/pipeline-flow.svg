@@ -1,0 +1,60 @@
+<svg width="1020" height="852" viewBox="0 0 1020 852" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8c9aa0"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1020" height="852" rx="16" fill="#f9f7f4" stroke="#e2dfd7" stroke-width="1"/>
+  <rect x="300" y="20" width="400" height="54" rx="10" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <g transform="translate(492.0,28)"><path d="M8 2v8m0 0-3-3m3 3 3-3" stroke="#1b3139" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 11v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2" stroke="#1b3139" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="500.0" y="61.0" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b3139">Blog · GitHub Releases · Release Notes fetchers</text>
+  <path d="M500,74 L500,98" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="85" y="98" width="830" height="56" rx="10" fill="#eeede9" stroke="#143d4a" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="500.0" y="128.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b3139">Already in data/updates.json?</text>
+  <path d="M235.0,154 L235.0,196" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M750.0,154 L750.0,196" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="223.0" y="179.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" fill="#8c9aa0">YES</text>
+  <text x="762.0" y="179.0" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" fill="#8c9aa0">NO</text>
+  <rect x="95" y="196" width="280" height="50" rx="10" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <text x="235.0" y="214.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1b3139">Leave first_seen</text>
+  <text x="235.0" y="231.6" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1b3139">untouched</text>
+  <rect x="500" y="196" width="500" height="60" rx="10" fill="#eeede9" stroke="#143d4a" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="750.0" y="228.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b3139">ID already in seen_ids.json?</text>
+  <path d="M620.0,256 L620.0,302" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M880.0,256 L880.0,300" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="608.0" y="283.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" fill="#8c9aa0">YES</text>
+  <text x="892.0" y="283.0" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" fill="#8c9aa0">NO</text>
+  <rect x="500" y="302" width="240" height="50" rx="10" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <text x="620.0" y="320.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1b3139">Reuse original</text>
+  <text x="620.0" y="337.6" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1b3139">first_seen</text>
+  <rect x="760" y="300" width="240" height="54" rx="10" fill="#faecec" stroke="#ff3621" stroke-width="2"/>
+  <text x="880.0" y="320.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#ff3621">first_seen = today</text>
+  <text x="880.0" y="337.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" font-weight="700" fill="#ff3621">record in seen_ids.json</text>
+  <path d="M235.0,246 L235.0,402" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M620.0,352 L620.0,402" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M880.0,354 L880.0,402" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="100" y="402" width="800" height="50" rx="10" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <text x="500.0" y="429.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b3139">Merge into the live set</text>
+  <path d="M500,452 L500,478" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="250" y="478" width="500" height="60" rx="10" fill="#eeede9" stroke="#143d4a" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="500.0" y="510.1" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b3139">Within 90 days AND under 600-item cap?</text>
+  <path d="M345.0,538 L345.0,580" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M655.0,538 L655.0,580" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="333.0" y="563.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" fill="#8c9aa0">YES</text>
+  <text x="667.0" y="563.0" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" fill="#8c9aa0">NO</text>
+  <rect x="215" y="580" width="260" height="56" rx="10" fill="#faecec" stroke="#ff3621" stroke-width="2"/>
+  <g transform="translate(337.0,588)"><ellipse cx="8" cy="3.4" rx="5.5" ry="2" stroke="#ff3621" stroke-width="1.5" fill="none"/><path d="M2.5 3.4v9.2c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2V3.4" stroke="#ff3621" stroke-width="1.5" fill="none"/><path d="M2.5 8c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2" stroke="#ff3621" stroke-width="1.5" fill="none"/></g>
+  <text x="345.0" y="613.0" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ff3621">Stays live</text>
+  <text x="345.0" y="631.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" fill="#ff3621">data/updates.json</text>
+  <rect x="520" y="580" width="270" height="56" rx="10" fill="#edf2f8" stroke="#143d4a" stroke-width="1.5"/>
+  <g transform="translate(647.0,588)"><rect x="2" y="2.5" width="12" height="3" rx="0.8" stroke="#143d4a" stroke-width="1.5" fill="none"/><path d="M3 5.5v6.5a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V5.5" stroke="#143d4a" stroke-width="1.5" fill="none"/><path d="M6.3 8.3h3.4" stroke="#143d4a" stroke-width="1.5" stroke-linecap="round"/></g>
+  <text x="655.0" y="613.0" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#143d4a">Moves to archive</text>
+  <text x="655.0" y="631.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" fill="#143d4a">data/archive/YYYY-MM.json</text>
+  <path d="M345.0,636 L345.0,684" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="215" y="684" width="260" height="54" rx="10" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <text x="345.0" y="712.9" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1b3139">Build dist/ + feed.xml</text>
+  <path d="M345.0,738 L345.0,766" stroke="#8c9aa0" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="215" y="766" width="260" height="50" rx="10" fill="#ffffff" stroke="#e2dfd7" stroke-width="1.5"/>
+  <g transform="translate(337.0,774)"><path d="M4.5 12.5a3 3 0 0 1-.5-5.96 3.8 3.8 0 0 1 7.34-1.2A3.2 3.2 0 0 1 11.5 12.5h-7z" stroke="#1b3139" stroke-width="1.5" fill="none" stroke-linejoin="round"/></g>
+  <text x="345.0" y="805.0" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b3139">Deploy to GitHub Pages</text>
+</svg>
