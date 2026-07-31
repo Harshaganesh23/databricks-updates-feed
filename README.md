@@ -7,7 +7,6 @@ A daily-refreshed dashboard aggregating Databricks updates from official sources
 - **Live dashboard:** https://harshaganesh23.github.io/databricks-updates-feed/
 - **RSS feed:** https://harshaganesh23.github.io/databricks-updates-feed/feed.xml
 
-
 ## Sources
 
 | Source | Method |
