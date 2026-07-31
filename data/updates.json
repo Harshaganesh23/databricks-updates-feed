@@ -56,6 +56,34 @@
     ]
   },
   {
+    "id": "820c262629d10638",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontos",
+    "title": "databrickslabs/ontos: Ontos v1.0.2",
+    "url": "https://github.com/databrickslabs/ontos/releases/tag/v1.0.2",
+    "published": "2026-07-31",
+    "first_seen": "2026-07-31",
+    "summary": "What's changed\n\nSince v1.0.1. This release focuses on the Ask Ontos copilot, MCP correctness, and a move to npm-only frontend builds.\n\n✨ Features\n\nAsk Ontos copilot uplift (#280)\n\n- App-state awareness: adoption mode plus a mode-aware preamble so answers match how far along a workspace is\n\n- Context injection: the active role, current page, and focused entity are passed into the prompt\n\n- Context-scope toggle on the \"Asking about\" chip, with a per-scope prompt cap\n\n- Entity-aware starter prompts on detail pages, expanded from entity templates\n\n- Smart prompt ranking so the most relevant suggestions surface first\n\n- Ask Ontos honors an applied role override in its role label\n\n🐛 Bug Fixes\n\n- ontology-generator: retry without temperature for Claude endpoints that reject the parameter (#644)\n\n- mcp-tools: agent data access now actually works (#643)\n\n- mcp: comply with JSON-RPC and release the DB session for streaming clients (#642)\n\n- mcp: scoped tokens could not list or call read-scoped tools (#641)\n\n- compliance: app-entity loader yielded nothing while the repo was fail-closed (#640)\n\n- readiness: count output-port contracts via contractId (#639)\n\n- products: publish_product read a nonexistent port.data_contract_id (#638)\n\n- genie: space creation used the wrong API schema and notifications were never sent (#593)\n\n- genie: resolve table FQNs from contract schemas; sort data_sources.tables by identifier as the API requires\n\n- copilot: strip orphan asterisk runs, tighten the markdown rule, and fix post-rename issues after concepts became handbook\n\n🔧 Maintenance\n\n- frontend/docs: migrate to npm-only builds, dropping yarn from the frontend and docs site (#657)…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/ontos"
+    ]
+  },
+  {
+    "id": "e5907e734a58750a",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.3.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.3.0",
+    "published": "2026-07-31",
+    "first_seen": "2026-07-31",
+    "summary": "What's Changed\n\n- Add calculated (derived) channels to the query engine and reporting layer by @tombonfert in #63\n\n- Fix: preserve double timestamps for PointValueAggregator and unify event start_ts/end_ts type by @tombonfert in #65\n\n- Incremental persistence: single MERGE per fact table + fix stale-row & ordering bugs by @tombonfert in #66\n\n- CI: split test job into parallel query-engine and reporting shards by @tombonfert in #70\n\n- Add custom statistics (per-channel & cross-channel, multi-output) to StatsAggregator by @tombonfert in #67\n\n- Bump version to 0.3.0 in VERSION file by @tombonfert in #71\n\nFull Changelog: v0.2.0...v0.3.0\n\nWhat's Changed\n\n- Add calculated (derived) channels to the query engine and reporting layer by @tombonfert in #63\n\n- Fix: preserve double timestamps for PointValueAggregator and unify event start_ts/end_ts type by @tombonfert in #65\n\n- Incremental persistence: single MERGE per fact table + fix stale-row & ordering bugs by @tombonfert in #66\n\n- CI: split test job into parallel query-engine and reporting shards by @tombonfert in #70\n\n- Add custom statistics (per-channel & cross-channel, multi-output) to StatsAggregator by @tombonfert in #67\n\n- Bump version to 0.3.0 in VERSION file by @tombonfert in #71\n\nFull Changelog: v0.2.0...v0.3.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
     "id": "239d3a4cde9f6f29",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
