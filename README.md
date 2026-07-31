@@ -1,6 +1,6 @@
 # Databricks Updates Feed
 
-A daily-refreshed dashboard aggregating Databricks updates from official sources into one page — no server, no database, no cost.
+A daily-refreshed dashboard aggregating Databricks updates from official sources into one page.
 
 **Live dashboard:** https://harshaganesh23.github.io/databricks-updates-feed/
 **RSS feed:** same URL + `feed.xml`
@@ -12,7 +12,6 @@ A daily-refreshed dashboard aggregating Databricks updates from official sources
 | Databricks Blog | Native RSS (`databricks.com/feed`), enriched with each post's real meta description |
 | Databricks Release Notes | Parsed from the docs site's sidebar nav (no official RSS); recent months' pages are additionally fetched for real per-entry summaries |
 | GitHub Releases | Public Atom feed per repo — a small hand-picked list (Spark, Delta, MLflow, Databricks SDK, CLI) plus every non-archived, non-fork repo auto-discovered under `databrickslabs` (see `config.yml`) |
-| LinkedIn | Optional. No public API exists for reading a company page's feed — point `linkedin.bridge_feed_url` in `config.yml` at a bridge service (e.g. an RSS.app export) if you want this source. Left blank, it's skipped. |
 
 Every item is classified into one of Databricks' own top-level product categories (AI Assistant, Application Development, Artificial Intelligence, Business Intelligence, Customer Data Platform, Database, Data Engineering, Data Warehousing, Governance, Security, Sharing, Platform Overview) by keyword matching — see `CATEGORIES` in `fetchers/common.py`.
 
