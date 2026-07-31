@@ -7,7 +7,6 @@ A daily-refreshed dashboard aggregating Databricks updates from official sources
 **Live dashboard:** https://harshaganesh23.github.io/databricks-updates-feed/
 **RSS feed:** same URL + `feed.xml`
 
-> Diagrams below (`docs/diagrams/`) use the same Navy `#1b3139` / Lava `#ff3621` / Oat `#f9f7f4` palette as the dashboard itself — pulled from Databricks' own live CSS, not invented. They're static SVGs rather than Mermaid, since GitHub strips custom CSS from READMEs and Mermaid's own theming didn't match closely enough.
 
 ## Sources
 
