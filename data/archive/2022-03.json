@@ -1,0 +1,212 @@
+[
+  {
+    "id": "19f8196f0f085cd1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Better performance and cost for your DLT pipelines with Databricks enhanced autoscaling",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#better-performance-and-cost-for-your-dlt-pipelines-with-databricks-enhanced-autoscaling",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1ae86008fda1aa83",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Files in Repos enabled by default in new workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#files-in-repos-enabled-by-default-in-new-workspaces",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "20d1942c2fdc9adf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Feature Store is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#databricks-feature-store-is-generally-available",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f70ab65f73d20d13",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share an experiment from the experiment page",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#share-an-experiment-from-the-experiment-page",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b9a69b1cca82fe55",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "RStudio Workbench bug fix",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#rstudio-workbench-bug-fix",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "394f95d8c72fe2c5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New workspace language options",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#new-workspace-language-options",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f5ee3630922bd61c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.4 LTS and 10.4 LTS ML are GA; 10.4 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#databricks-runtime-104-lts-and-104-lts-ml-are-ga-104-photon-is-public-preview",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4b1e7d7c34102ca8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog is available in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#unity-catalog-is-available-in-public-preview",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "343bfd024f377d96",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing is available in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#delta-sharing-is-available-in-public-preview",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "18db584f61de6c34",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enhanced access control for DLT pipelines",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#enhanced-access-control-for-dlt-pipelines",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "20bde29dfc5294d9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Test DLT preview functionality with the new channel setting (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#test-dlt-preview-functionality-with-the-new-channel-setting-public-preview",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4e8655f34147b3df",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved error handling for DLT Python functions (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#improved-error-handling-for-dlt-python-functions-public-preview",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b935b97456e79d17",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improvements to Databricks Repos",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#improvements-to-databricks-repos",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "05faf70c141a99af",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Audit logging for cluster policy changes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#audit-logging-for-cluster-policy-changes",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "34ea17c454dcb35b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.4 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/march#databricks-runtime-104-beta",
+    "published": "2022-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

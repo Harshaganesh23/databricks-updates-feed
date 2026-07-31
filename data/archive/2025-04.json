@@ -1,0 +1,380 @@
+[
+  {
+    "id": "e1c22b808e5c7ccb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The DBRX and Mixtral models are retired on Foundation Model APIs pay-per-token",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#the-dbrx-and-mixtral-models-are-retired-on-foundation-model-apis-pay-per-token",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c5ef39f3201e71f6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The DBRX, Mistral and Mixtral model families are retired on Foundation Model Fine-tuning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#the-dbrx-mistral-and-mixtral-model-families-are-retired-on-foundation-model-fine-tuning",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0b12be363f88a0a9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deletion vectors on DLT tables now follow workspace settings",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#deletion-vectors-on-dlt-tables-now-follow-workspace-settings",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ed88ae2e9c8f0678",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT maintenance tasks managed by predictive optimization",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#dlt-maintenance-tasks-managed-by-predictive-optimization",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e926a8c19122936b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Claude 3.7 Sonnet now available in EU regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#claude-37-sonnet-now-available-in-eu-regions",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6f976c3f8168e4ec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Analytics raw data connector (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#google-analytics-raw-data-connector-public-preview",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "793cc0ceb2390a7c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share streaming tables and materialized views to all recipients using Delta Sharing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#share-streaming-tables-and-materialized-views-to-all-recipients-using-delta-sharing-public-preview",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e48a67ba87d29fc0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use vector search indexes to prototype tool-calling AI agents in AI Playground",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#use-vector-search-indexes-to-prototype-tool-calling-ai-agents-in-ai-playground",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9264ec30f6056617",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Gateway now supports custom model serving endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#ai-gateway-now-supports-custom-model-serving-endpoints",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "01ccdb186e8ab7c4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Strict enforcement of row-level security and column masking policies in Delta Sharing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#strict-enforcement-of-row-level-security-and-column-masking-policies-in-delta-sharing",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "49368cdccf0bd573",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Multi-file editor for ETL pipeline development in DLT",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#multi-file-editor-for-etl-pipeline-development-in-dlt",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c2b970a612a3e35e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Run a subset of tasks within a job",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#run-a-subset-of-tasks-within-a-job",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3bd02bdb07fbe117",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AWS PrivateLink now supported in us-west-1 region",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#aws-privatelink-now-supported-in-us-west-1-region",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "39acc79f77041de9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use Llama 4 Maverick on serving endpoints optimized for AI Functions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#use-llama-4-maverick-on-serving-endpoints-optimized-for-ai-functions",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "470cec213c9242a1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Run code in Databricks Assistant on serverless compute",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#run-code-in-databricks-assistant-on-serverless-compute",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "246cd5ef9b80a635",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Custom LLM for custom AI text agents is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#custom-llm-for-custom-ai-text-agents-is-in-beta",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a639b3e77632bd32",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python type error highlighting",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#python-type-error-highlighting",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6564414cc4441d87",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reference SQL output in downstream tasks of a job",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#reference-sql-output-in-downstream-tasks-of-a-job",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ef1f9fa34503f69f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Batch Unity Catalog Python UDFs (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#batch-unity-catalog-python-udfs-public-preview",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6f99b8510b64633a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Access UDF context information using TaskContext",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#access-udf-context-information-using-taskcontext",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e79543b741da0587",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 4 Maverick is available using Foundation Model APIs pay-per-token",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#meta-llama-4-maverick-is-available-using-foundation-model-apis-pay-per-token",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "49a5b4f6842abce2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant provides doc citations and follow-up suggestions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#databricks-assistant-provides-doc-citations-and-follow-up-suggestions",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "39d9120c3ae0ca0b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Salesforce ingestion and Workday Reports connectors are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#salesforce-ingestion-and-workday-reports-connectors-are-ga",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bb7f50524381b885",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The compute system tables are now generally available (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#the-compute-system-tables-are-now-generally-available-ga",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c6dd5e61df2c5313",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks multi-factor authentication (MFA) is now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#databricks-multi-factor-authentication-mfa-is-now-available-public-preview",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c47ae08cbe33f908",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The BROWSE privilege is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/april#the-browse-privilege-is-ga",
+    "published": "2025-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "14052cb4c57c4997",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.58.0",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.58.0",
+    "published": "2025-04-16",
+    "first_seen": "2026-07-30",
+    "summary": "- Added ability to create account groups from nested ws-local groups (#3818). The create_account_level_groups method has been added, enabling the creation of account level groups from workspace groups. This method retrieves valid workspace groups and recursively creates account level groups for each group, handling nested groups by checking if they already exist and creating them if necessary. The AccountGroupCreationContext dataclass is used to keep track of created, preexisting, and renamed groups. A new test function, test_create_account_level_groups_nested_groups, has been added to the test_account.py file to test the creation of account level groups from nested workspace-local groups. This function checks if the account level groups are created correctly, with the same members and membership as the corresponding workspace-local groups. The ComplexValue class has been modified to include the ref field, which references user objects, enabling the creation of account groups with members identified by their workspace-local user IDs. Integration tests have been added to verify the functionality of these changes.…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  }
+]

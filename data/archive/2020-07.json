@@ -1,0 +1,380 @@
+[
+  {
+    "id": "e143e53373ddedb1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Web terminal (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#web-terminal-public-preview",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "582d9a7f7f6d8651",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New, more secure global init script framework (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#new-more-secure-global-init-script-framework-public-preview",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "12e745d3a1a68759",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "IP access lists now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#ip-access-lists-now-ga",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d48e9591b9e0cc3f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New file upload dialog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#new-file-upload-dialog",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "910cef9375bf851d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SCIM API filter and sort improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#scim-api-filter-and-sort-improvements",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "80affac39d59c490",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.1 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#databricks-runtime-71-ga",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "be2e215ec96952a8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.1 ML GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#databricks-runtime-71-ml-ga",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6998aae47b8c40ab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.1 Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#databricks-runtime-71-genomics-ga",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b3dd725724e2227e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect 7.1 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#databricks-connect-71-public-preview",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fba88f6291b1a9b4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "IP Access List API updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#ip-access-list-api-updates",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8608f9389a44a7db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python notebooks now support multiple outputs per cell",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#python-notebooks-now-support-multiple-outputs-per-cell",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5cdc5b3e5f38f4b1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View notebook code and results cells side by side",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#view-notebook-code-and-results-cells-side-by-side",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9c2f30b4b69707bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Pause job schedules",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#pause-job-schedules",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d2e68de872dbddaf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs API endpoints validate run ID",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#jobs-api-endpoints-validate-run-id",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "735a5cb26b05cddd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Format SQL in notebooks automatically",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#format-sql-in-notebooks-automatically",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "07102da3a89e9def",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for r5.8xlarge and r5.16xlarge instances",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#support-for-r58xlarge-and-r516xlarge-instances",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4ba5436745bdb4d4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use password access control to configure which users are required to log in using SSO or authenticate using tokens (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#use-password-access-control-to-configure-which-users-are-required-to-log-in-using-sso-or-authenticate-using-tokens-public-preview",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6bf3cf58420a57cd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reproducible order of installation for Maven and CRAN libraries",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#reproducible-order-of-installation-for-maven-and-cran-libraries",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "69f2e932db3ce22e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Take control of your users' personal access tokens with the Token Management API (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#take-control-of-your-users-personal-access-tokens-with-the-token-management-api-public-preview",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ce91a692331307ff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Customer-managed VPC deployments (Public Preview) can now use regional VPC endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#customer-managed-vpc-deployments-public-preview-can-now-use-regional-vpc-endpoints",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f195480704b29d0c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Encrypt traffic between cluster worker nodes (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#encrypt-traffic-between-cluster-worker-nodes-public-preview",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "06f393585f33cc23",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Table access control supported on all accounts with the Premium plan (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#table-access-control-supported-on-all-accounts-with-the-premium-plan-public-preview",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c03e79919dd0f739",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "IAM credential passthrough supported on all accounts with the Premium plan (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#iam-credential-passthrough-supported-on-all-accounts-with-the-premium-plan-public-preview",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d6d681eb5abe3b0a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Restore cut notebook cells",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#restore-cut-notebook-cells",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "85ac74a02f3ab0f4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Assign jobs CAN MANAGE permission to non-admin users",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#assign-jobs-can-manage-permission-to-non-admin-users",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8f0388ad583f78bf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Non-admin Databricks users can view and filter by username using the SCIM API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#non-admin-databricks-users-can-view-and-filter-by-username-using-the-scim-api",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b712d1ef83dac551",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Link to view cluster specification when you view job run details",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/july#link-to-view-cluster-specification-when-you-view-job-run-details",
+    "published": "2020-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

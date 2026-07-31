@@ -1,0 +1,170 @@
+[
+  {
+    "id": "479f5c823875890b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SQL Driver for Go is Generally Available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#databricks-sql-driver-for-go-is-generally-available",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "550d4b37d07998a3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Prevent concurrent workspace updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#prevent-concurrent-workspace-updates",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "17f3ad11f5d0c215",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.7.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#databricks-terraform-provider-updated-to-version-170",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f5871a3ef6d75a7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 12.0 and 12.0 ML are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#databricks-runtime-120-and-120-ml-are-ga",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d0d85173f6b9696",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs are now available in global search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#jobs-are-now-available-in-global-search",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bee9df93275c82f7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Billable usage graphs can now aggregate by individual tags",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#billable-usage-graphs-can-now-aggregate-by-individual-tags",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "28cdc868ab5e1dd9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use SQL to specify schema- and catalog-level storage locations for Unity Catalog managed tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#use-sql-to-specify-schema--and-catalog-level-storage-locations-for-unity-catalog-managed-tables",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d581406e94c5256b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Capturing lineage data with Unity Catalog is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#capturing-lineage-data-with-unity-catalog-is-now-generally-available",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6dd1ad95537611bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.6.29",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#databricks-odbc-driver-2629",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cd63209f0779e959",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.32",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#databricks-jdbc-driver-2632",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ca07da167feeb2d5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect supports connecting to AtScale",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#partner-connect-supports-connecting-to-atscale",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ee4932fcc8020386",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved serverless SQL warehouse support for customer-managed keys",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/december#improved-serverless-sql-warehouse-support-for-customer-managed-keys",
+    "published": "2022-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

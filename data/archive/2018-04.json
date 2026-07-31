@@ -1,0 +1,100 @@
+[
+  {
+    "id": "92e7ac3aa89570c2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AWS account updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/april#aws-account-updates",
+    "published": "2018-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4c0c2a934e50f94d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Spark error tips",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/april#spark-error-tips",
+    "published": "2018-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9d1524c780946256",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI 0.7.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/april#databricks-cli-070",
+    "published": "2018-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6c9cdf6df7a9b131",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increase init script output truncation limit",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/april#increase-init-script-output-truncation-limit",
+    "published": "2018-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c8626f9f07986bd9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Clusters API: added UPSIZE_COMPLETED event type",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/april#clusters-api-added-upsize",
+    "published": "2018-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "88a58a98990c1138",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Command autocomplete",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/april#command-autocomplete",
+    "published": "2018-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "97c94c981a738a94",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless pools upgraded to Databricks Runtime 4.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/april#serverless-pools-upgraded-to-databricks-runtime-40",
+    "published": "2018-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

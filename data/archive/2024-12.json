@@ -1,0 +1,408 @@
+[
+  {
+    "id": "814d2e68175502dd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 16.1 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#databricks-runtime-161-is-ga",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9b89f8694158216c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The default format for new notebooks is now IPYNB (Jupyter) format",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#the-default-format-for-new-notebooks-is-now-ipynb-jupyter-format",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f1f8e5388eda90f2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python code executor for AI agents (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#python-code-executor-for-ai-agents-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "18c1cd00626e0cc8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "databricks-agents SDK 0.13.0 release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#databricks-agents-sdk-0130-release",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1983dd4e4f2489ae",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External groups are now labeled and immutable",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#external-groups-are-now-labeled-and-immutable",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "636dc2a9e027a1f0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "vector_search now supports vector embedding inputs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#vector",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c116e4878c60b46c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Specify response formats for ai_query",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#specify-response-formats-for-ai",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f49da0ccb071d9bf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Test clean rooms with collaborators within the same metastore",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#test-clean-rooms-with-collaborators-within-the-same-metastore",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "424f0cd4396595bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Assign compute resources to groups (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#assign-compute-resources-to-groups-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "da6bfeaac4119284",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Version 2.2 of the Jobs API is released",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#version-22-of-the-jobs-api-is-released",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6462e474052eab70",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog MANAGE privilege (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#unity-catalog-manage-privilege-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0a3d5bec96ad7a09",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.3 is now available for provisioned throughput workloads",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#meta-llama-33-is-now-available-for-provisioned-throughput-workloads",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a8404222c949ddc7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View streaming workload metrics for your job runs (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#view-streaming-workload-metrics-for-your-job-runs-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9051cf701f09de20",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View streaming workload metrics for your DLT pipeline updates (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#view-streaming-workload-metrics-for-your-dlt-pipeline-updates-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b047a66130aaa30c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse Federation supports Oracle (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#lakehouse-federation-supports-oracle-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ffa0d078db82793c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified login is now enabled on accounts without single sign-on",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#unified-login-is-now-enabled-on-accounts-without-single-sign-on",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a7bccbb8b8017cee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 16.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#databricks-runtime-161-beta",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8beea728a037f4ec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage serverless outbound network connections with serverless egress control",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#manage-serverless-outbound-network-connections-with-serverless-egress-control",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "41fcd43608367447",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Network access events system table is now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#network-access-events-system-table-is-now-available-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9e47d440b5cf0e4a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor and revoke personal access tokens in your account (Private Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#monitor-and-revoke-personal-access-tokens-in-your-account-private-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1f6fe0cea1ccc1a6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog can federate to Hive metastores and AWS Glue",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#unity-catalog-can-federate-to-hive-metastores-and-aws-glue",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f222f4fa82a71a1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Remove metastore-level storage to enforce catalog-level storage isolation",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#remove-metastore-level-storage-to-enforce-catalog-level-storage-isolation",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "42a56d91ca66a46e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.3 70B Instruct is now available on Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#meta-llama-33-70b-instruct-is-now-available-on-model-serving",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5eced8d4690acca5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "bamboolib is now deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#bamboolib-is-now-deprecated",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "582f036ad95a4f99",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Streamline AI Agent Evaluation using synthetic evaluation sets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#streamline-ai-agent-evaluation-using-synthetic-evaluation-sets",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "09afe4fa6f717416",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improve Databricks-to-Databricks Delta Sharing table read performance with history sharing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#improve-databricks-to-databricks-delta-sharing-table-read-performance-with-history-sharing-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7ef4f61e109253b5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Maximum personal access token lifetime now 730 days (two years)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#maximum-personal-access-token-lifetime-now-730-days-two-years",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c892474ec173ff04",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Model Training - serverless forecasting (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#mosaic-ai-model-training---serverless-forecasting-public-preview",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "19d117b8e42bfde0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Add serverless budget policies to model serving endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/december#add-serverless-budget-policies-to-model-serving-endpoints",
+    "published": "2024-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

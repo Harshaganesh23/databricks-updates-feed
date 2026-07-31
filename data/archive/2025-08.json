@@ -1,0 +1,772 @@
+[
+  {
+    "id": "61e284b364e77a1b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OLTP Database tab renamed to Lakebase Postgres in Compute section",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#oltp-database-tab-renamed-to-lakebase-postgres-in-compute-section",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3442e0ec7289d3cb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account SCIM 2.0 updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#account-scim-20-updates",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4c132149b30a2f48",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Track and navigate notebook runs with the new cell execution minimap",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#track-and-navigate-notebook-runs-with-the-new-cell-execution-minimap",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d293398ca9ce17b4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Admins can now manage a workspace's serverless base environments (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#admins-can-now-manage-a-workspaces-serverless-base-environments-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "32f5e10d229229cd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase synced tables supports syncing Apache Iceberg and foreign tables in Snapshot mode",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#lakebase-synced-tables-supports-syncing-apache-iceberg-and-foreign-tables-in-snapshot-mode",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bd69faea8fdea409",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External MCP servers are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#external-mcp-servers-are-in-beta",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c8c364bd71027b44",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Migrate Spark Declarative Pipelines on Lakeflow from legacy publishing mode is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#migrate-spark-declarative-pipelines-on-lakeflow-from-legacy-publishing-mode-is-now-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "01e4c2950537ec12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Governed tags are Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#governed-tags-are-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "36b97ad9112b65e7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 17.2 and Databricks Runtime 17.2 ML are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-runtime-172-and-databricks-runtime-172-ml-are-in-beta",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1121399ce4bb5e87",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New INSERT REPLACE commands (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#new-insert-replace-commands-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b938e49684eab38a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OAuth token federation is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#oauth-token-federation-is-now-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b39dc29205be574b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Microsoft SQL Server connector GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#microsoft-sql-server-connector-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "99fcbed8d76d7c95",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New table property to control Delta table compression",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#new-table-property-to-control-delta-table-compression",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc240f8fbe0d5321",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data type mapping update for Lakebase synced tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#data-type-mapping-update-for-lakebase-synced-tables",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "59210a00fb758494",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic liquid clustering is now available for Spark Declarative Pipelines on Lakeflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#automatic-liquid-clustering-is-now-available-for-spark-declarative-pipelines-on-lakeflow",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5c966d5a3d91e860",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Budget policy support for Lakebase database instances and synced tables (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#budget-policy-support-for-lakebase-database-instances-and-synced-tables-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9bf29448c1f9fdd8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Expanded region availability for Databricks Apps",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#expanded-region-availability-for-databricks-apps",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "78f5c96045479ef0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Salesforce Data Cloud File Sharing connector GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#salesforce-data-cloud-file-sharing-connector-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5bed205b94d81b45",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enhanced autocomplete for complex data types in notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#enhanced-autocomplete-for-complex-data-types-in-notebooks",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "22eb39684d900e59",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Declarative Automation Bundles support for Lakebase database resources",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#declarative-automation-bundles-support-for-lakebase-database-resources",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "322619dd4245e406",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant integrated with compute",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-assistant-integrated-with-compute",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "35b8a4121436d7fa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute runtime updated to 17.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-compute-runtime-updated-to-171",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "54fab45c3092419e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Set the run-as user for Spark Declarative Pipelines on Lakeflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#set-the-run-as-user-for-spark-declarative-pipelines-on-lakeflow",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9e2af83becd110d1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Vector Search reranker Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#mosaic-ai-vector-search-reranker-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ff23fb0e16e2c438",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Spark Declarative Pipelines on Lakeflow template in bundles in the workspace (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#spark-declarative-pipelines-on-lakeflow-template-in-bundles-in-the-workspace-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9c9876855ed6f58e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Token-based rate limits now available on AI Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#token-based-rate-limits-now-available-on-ai-gateway",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3781a883728eab2c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks-hosted models for Assistant are now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-hosted-models-for-assistant-are-now-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2598dbac4f2c3c33",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT OSS models now support function calling",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#openai-gpt-oss-models-now-support-function-calling",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9f91c77aaa360eb0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT OSS models now supported on provisioned throughput",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#openai-gpt-oss-models-now-supported-on-provisioned-throughput",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2207861ea8783cf0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless GPU compute now supports multinode workloads",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-gpu-compute-now-supports-multinode-workloads",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "186011bed9515912",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Schedule jobs for Serverless GPU compute workloads",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#schedule-jobs-for-serverless-gpu-compute-workloads",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d0b1303bccff88dd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant: User and workspace instructions now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-assistant-user-and-workspace-instructions-now-available",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "642755ec31953b80",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Single-node compute on standard access mode is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#single-node-compute-on-standard-access-mode-is-now-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "316f4ab792d7d11e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Column masks now retained when replacing a table",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#column-masks-now-retained-when-replacing-a-table",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c915ee5b51a19863",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Access requests in Unity Catalog (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#access-requests-in-unity-catalog-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2e344f47e8fd923a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Disable legacy features for new workspaces (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#disable-legacy-features-for-new-workspaces-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a8183586bd44cf30",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase Public Preview enabled by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#lakebase-public-preview-enabled-by-default",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a124f66c93f984b0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless workspaces are now Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-workspaces-are-now-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "22020f59ed6e92e5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ServiceNow connector GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#servicenow-connector-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2fddb8ea3c5cd9bf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create external Delta tables from third-party clients (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#create-external-delta-tables-from-third-party-clients-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dcbc0b007d62b4b3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Path credential vending (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#path-credential-vending-public-preview",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "de0590a5254e0561",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use OpenAI GPT OSS models for batch inference and structured outputs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#use-openai-gpt-oss-models-for-batch-inference-and-structured-outputs",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b0afeb79cb5b2480",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute is now available in ap-southeast-3",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#serverless-compute-is-now-available-in-ap-southeast-3",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ed8f3c8e0a365703",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.9.2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-odbc-driver-292",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5bd4f664ccaf5297",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Power BI Databricks connector supports M2M OAuth",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#power-bi-databricks-connector-supports-m2m-oauth",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "738b8ee6b2717621",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT OSS models now available on Mosaic AI Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#openai-gpt-oss-models-now-available-on-mosaic-ai-model-serving",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d0c5b057cfc7d11",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "PrivateLink connections from serverless compute to resources in your VPC through an NLB is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#privatelink-connections-from-serverless-compute-to-resources-in-your-vpc-through-an-nlb-is-generally-available",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d73adb155e5348fc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs in continuous mode can now have task-level retries for failed tasks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#jobs-in-continuous-mode-can-now-have-task-level-retries-for-failed-tasks",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c1a20154f6461bda",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 17.1 is now is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#databricks-runtime-171-is-now-is-now-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c51775a4a65e9b1c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Playground is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#ai-playground-is-now-ga",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6a61de35aff2e16b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Edit mode in Assistant does multi-cell code refactoring and more",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/august#edit-mode-in-assistant-does-multi-cell-code-refactoring-and-more",
+    "published": "2025-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e8bf154000e68d6d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.60.0",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.60.0",
+    "published": "2025-08-29",
+    "first_seen": "2026-07-30",
+    "summary": "- Added handling for exception in create-missing-principals because there are no UC roles (#4373). The create-missing-principals functionality has been enhanced to handle exceptions more robustly, particularly when no University Controller (UC) roles are present. This update introduces more informative error handling, allowing the code to exit gracefully with a descriptive message instead of failing when encountering missing UC roles. The changes involve catching NotFound exceptions when loading UC-compatible roles, logging warning messages, and ensuring the code continues to run smoothly even when the UC roles file is not found. Additionally, test fixtures have been modified to support scenarios with no UC roles, enabling more comprehensive testing of the enhanced exception handling capabilities. Overall, these updates improve the reliability and usability of the create-missing-principals functionality in scenarios where UC roles are absent.…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  },
+  {
+    "id": "89416f7d51ee7b71",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/sandbox",
+    "title": "databrickslabs/sandbox: ka-chat-bot/v0.3.0: Rewrite ka chatbot app with websocket  (#534)",
+    "url": "https://github.com/databrickslabs/sandbox/releases/tag/ka-chat-bot%2Fv0.3.0",
+    "published": "2025-08-12",
+    "first_seen": "2026-07-30",
+    "summary": "The current ka chatbot is using HTTP whose connection gets killed by\n\ndatabricks app's network proxy after 60s. This PR migrate ka chatbot to\n\nuse web socket for communication to bypass the network proxy timeout.\n\nTested the ka chatbot app against a KA endpoint.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/sandbox"
+    ]
+  },
+  {
+    "id": "6bd32bf46e07a7a6",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.59.2",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.59.2",
+    "published": "2025-08-07",
+    "first_seen": "2026-07-30",
+    "summary": "- Added force_refresh parameter for Assessment (#4183). The assessment workflow has been enhanced with the introduction of a force-refresh parameter, allowing users to forcefully rerun the assessment and obtain new results, even if it was previously run. This parameter, which defaults to false, provides users with more control over the assessment workflow, enabling them to manually trigger a refresh of the assessment data when needed. The force-refresh parameter can be set to true to overwrite existing results, and its usage is optional, allowing users to choose when to refresh the assessment data. The addition of this parameter modifies the behavior of the assessment workflow, which previously would not update the output of previously run assessments. With this update, users can now force a complete refresh of the assessment data, which can be useful in scenarios where the assessment results need to be recalculated. However, users are advised to use this option with caution, as the process can be time-consuming and resource-intensive for large workspaces.…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  },
+  {
+    "id": "d54d260773f8cac5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.7.3",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.7.3",
+    "published": "2025-08-07",
+    "first_seen": "2026-07-30",
+    "summary": "- Added property id to get service principal id (#170). The service principal functionality has been enhanced with the introduction of a new id property, which returns the service principal ID as a string, simplifying its usage in tests. The create method has been updated to utilize this id property, ensuring consistency throughout the code. Additionally, the id property is now directly used when creating secrets, updating group memberships, and updating workspace assignments, with the exception of the workspace_assignment.update method. The logging of account links has also been updated to use the id property. Furthermore, test cases have been updated to include service principals in group members, and a new function make_run_as has been introduced to create service principals for testing purposes, along with a new test case test_make_run_as_no_args to verify its functionality, addressing issues related to no-cheat in linked pull requests and improving overall testing capabilities.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  }
+]

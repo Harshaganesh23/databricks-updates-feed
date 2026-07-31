@@ -1,0 +1,254 @@
+[
+  {
+    "id": "9293f5f5fedfbe18",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Vector Search is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#mosaic-ai-vector-search-is-public-preview",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8e16d672ea140d63",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "IAM policies for storage credentials now require an external ID",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#iam-policies-for-storage-credentials-now-require-an-external-id",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8716c51e94398b18",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Access controls lists can no longer be disabled",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#access-controls-lists-can-no-longer-be-disabled",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2050f7623c73e910",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI assistive features are enabled by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#ai-assistive-features-are-enabled-by-default",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d4a0811cfded02e0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New behaviors and actions in Catalog Explorer for volumes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#new-behaviors-and-actions-in-catalog-explorer-for-volumes",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f5d1f04295faca34",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.2 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#databricks-runtime-142-is-ga",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e275db54154ed6d0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SQL Connector for Python version 3.0.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#databricks-sql-connector-for-python-version-300",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "eca87bbab192f7df",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Libraries in workspace files supported on no-isolation shared clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#libraries-in-workspace-files-supported-on-no-isolation-shared-clusters",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1308be85f34733f1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deprecation of workspace libraries",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#deprecation-of-workspace-libraries",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9d786e2fb484e180",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delegate the ability to create a storage credential in Unity Catalog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#delegate-the-ability-to-create-a-storage-credential-in-unity-catalog",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6b528328b2d3779d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Search for Databricks Marketplace listings using global workspace search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#search-for-databricks-marketplace-listings-using-global-workspace-search",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "665f8ee307d267b3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Consume data products in Databricks Marketplace using external platforms",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#consume-data-products-in-databricks-marketplace-using-external-platforms",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "96603f28c5e04505",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic enablement of Unity Catalog for new workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#automatic-enablement-of-unity-catalog-for-new-workspaces",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "58b8ed4b7e43cc87",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Authentication using OAuth is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#authentication-using-oauth-is-ga",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1543108da78f4025",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.2 (beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#databricks-runtime-142-beta",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b65f2c0910c41bc6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Marketplace includes Databricks Solution Accelerators",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#databricks-marketplace-includes-databricks-solution-accelerators",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "354c45d014de4fbf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse Federation adds support for Google BigQuery",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/november#lakehouse-federation-adds-support-for-google-bigquery",
+    "published": "2023-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "38ff45c5609904ac",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/discoverx",
+    "title": "databrickslabs/discoverx: v0.0.7",
+    "url": "https://github.com/databrickslabs/discoverx/releases/tag/v0.0.7",
+    "published": "2023-11-13",
+    "first_seen": "2026-07-30",
+    "summary": "- Added filtering for speedup intro message checks\n\n- Added tags metadata in table info\n\n- Added map function for arbitrary python code table processing support\n\n- Added AI example notebooks",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/discoverx"
+    ]
+  }
+]

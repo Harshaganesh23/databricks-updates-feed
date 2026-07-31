@@ -1,0 +1,184 @@
+[
+  {
+    "id": "084a49d175ba8a94",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.6 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#databricks-runtime-66-series-support-ends",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fb92f4a5d8f71768",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow Model Registry GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#mlflow-model-registry-ga",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "246e22fb72802b98",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Filter experiment runs based on whether a registered model is associated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#filter-experiment-runs-based-on-whether-a-registered-model-is-associated",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c9b599e6ec503bc7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner integrations gallery now available through the Data tab",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#partner-integrations-gallery-now-available-through-the-data-tab",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3a065c6045948e60",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster policies now use allowlist and blocklist as policy type names",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#cluster-policies-now-use-allowlist-and-blocklist-as-policy-type-names",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "702a5f099d5399fa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic retries when the creation of a job cluster fails",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#automatic-retries-when-the-creation-of-a-job-cluster-fails",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6768256b2ac7d36a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Navigate notebooks using the table of contents",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#navigate-notebooks-using-the-table-of-contents",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2853778b43f33fde",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SQL (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#databricks-sql-public-preview",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2f41f195c3d40150",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Web terminal available on Databricks Free Edition",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#web-terminal-available-on-databricks-free-edition",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "886f2bd93c9d72c9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Single Node clusters now support Databricks Container Services",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#single-node-clusters-now-support-databricks-container-services",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ab11c20c15fd6861",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.4 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#databricks-runtime-74-ga",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6ec21ed04c1f7d88",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver update",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#databricks-jdbc-driver-update",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9aa7f45a1073d51e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect 7.3 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/november#databricks-connect-73-beta",
+    "published": "2020-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

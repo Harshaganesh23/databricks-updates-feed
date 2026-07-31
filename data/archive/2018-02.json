@@ -1,0 +1,226 @@
+[
+  {
+    "id": "a1c5ba604ed30e2d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New line chart supports time-series data",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#new-line-chart-supports-time-series-data",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2fe4477ad5fb41ec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "More visualization improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#more-visualization-improvements",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a61fca5751370525",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delete job runs using Job API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#delete-job-runs-using-job-api",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8a87ee6addf31f85",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bring your own S3 bucket",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#bring-your-own-s3-bucket",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8aa5da190839af8b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "KaTeX math rendering library updated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#katex-math-rendering-library-updated",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6b899d3428ed090d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI: 0.5.0 release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#databricks-cli-050-release",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "72519f0fa7aa6c79",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DBUtils API library",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#dbutils-api-library",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c4575bd54927f531",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Filter for your jobs only",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#filter-for-your-jobs-only",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ba6bad8ad810d1a2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Spark-submit from the Create Job page",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#spark-submit-from-the-create-job-page",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "907767a740c219fc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Select Python 3 from the Create Cluster page",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#select-python-3-from-the-create-cluster-page",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3111f063ab73abf3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace UI improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#workspace-ui-improvements",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c47227007b599b5b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Autocomplete for SQL commands and database names",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#autocomplete-for-sql-commands-and-database-names",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4698f8ef9393f3b4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless pools now support R",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#serverless-pools-now-support-r",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "94cb6d2a05d7b03e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Distributed TensorFlow and Keras Libraries Support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#distributed-tensorflow-and-keras-libraries-support",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "826c34fb40e87643",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "XGBoost available as a Spark Package",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#xgboost-available-as-a-spark-package",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3dee80f0f352b92f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Table access control for SQL and Python (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/february#table-access-control-for-sql-and-python-beta",
+    "published": "2018-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2018.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

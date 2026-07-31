@@ -1,0 +1,436 @@
+[
+  {
+    "id": "55564a9270062453",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Trigger on update for pipelines (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#trigger-on-update-for-pipelines-ga",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7facff23ed657d0c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeflow jobs system tables are now generally available (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#lakeflow-jobs-system-tables-are-now-generally-available-ga",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6d46f7c6d5f7fd62",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-5.2 Codex now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#openai-gpt-52-codex-now-available-as-a-databricks-hosted-model",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "edb287ea3382a577",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View and restore your recent workspace tab sessions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#view-and-restore-your-recent-workspace-tab-sessions",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e473db70abf55894",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Paste images into notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#paste-images-into-notebooks",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6d7e4a7e91405843",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless workspaces are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#serverless-workspaces-are-now-generally-available",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4ba07c15fdccae83",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compute sizing for Databricks Apps is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#compute-sizing-for-databricks-apps-is-now-generally-available",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ecaebc5e6be5edb3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (01/27)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#databricks-runtime-maintenance-updates-0127",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c9a4f91d6f650a1b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Knowledge Assistant is now available in more regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#knowledge-assistant-is-now-available-in-more-regions",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "03fba5a7186b1741",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Managed MCP servers is now Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#managed-mcp-servers-is-now-public-preview",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1937ef216e758130",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Store and query MLflow traces in Unity Catalog (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#store-and-query-mlflow-traces-in-unity-catalog-beta",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "be6ce1ee0a549691",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Drive connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#google-drive-connector-beta",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5f724417d266e124",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Front-end PrivateLink for performance-intensive services (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#front-end-privatelink-for-performance-intensive-services-beta",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9496e58ac04fd692",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#lakebase-is-now-generally-available",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4f14a8d9c99906b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "You can now use custom base environments for Python, Python Wheels, and notebook tasks in serverless jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#you-can-now-use-custom-base-environments-for-python-python-wheels-and-notebook-tasks-in-serverless-jobs",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "184f5e085ceef37b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified Lakebase interface",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#unified-lakebase-interface",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "306198176b06b1b3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 18.0 is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#databricks-runtime-180-is-now-ga",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1c6544b9bea8d5ee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Ingest Salesforce formula fields incrementally (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#ingest-salesforce-formula-fields-incrementally-beta",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9687358d69ac4e80",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Knowledge Assistant is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#knowledge-assistant-is-now-generally-available",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fab3c08a177b2080",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Row filtering for managed ingestion connectors (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#row-filtering-for-managed-ingestion-connectors-beta",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4f0d7db639914bde",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-5.1 Codex Max and Codex Mini now available as Databricks-hosted models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#openai-gpt-51-codex-max-and-codex-mini-now-available-as-databricks-hosted-models",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8f281437b8f7cb94",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (01/09)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#databricks-runtime-maintenance-updates-0109",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cf0d8a09dcbd6e50",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create skills for Databricks Assistant",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#create-skills-for-databricks-assistant",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5c6f5e5becd16cbd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic email notifications for expiring personal access tokens (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/january#automatic-email-notifications-for-expiring-personal-access-tokens-ga",
+    "published": "2026-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2026.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0fe8b5e034e1addb",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: v0.12.0",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.12.0",
+    "published": "2026-01-26",
+    "first_seen": "2026-07-30",
+    "summary": "Analyzer\n\n- Extended the Analyzer to recognize more SQL-bearing file types, including Oracle package files (.pks, .pkb), Teradata utilities (.bteq, .fload, .mload, etc.), Hive scripts (.hql), and shell scripts with embedded SQL (.sh, .ksh, .bash, .csh), so more source assets are discovered without manual renaming.\n\nConverters\n\nGeneral\n\n-\nEnabled SSIS conversion so SSIS packages can be translated into Databricks notebooks via the BladeBridge-based converter, providing a new migration path for ETL workloads built on SSIS.\n\n-\nAdded Amazon Redshift conversion documentation describing supported features, known limitations, and a step-by-step workflow to convert Redshift SQL into Databricks SQL using the BladeBridge transpiler.\n\nMorpheus\n\nAll dialects\n\n-\nImplemented explicit support for multi-statement transactions (BEGIN TRANSACTION, COMMIT TRANSACTION, ROLLBACK TRANSACTION, and ATOMIC blocks) in the parser and generator, enabling transaction-aware translation and testing.\n\n-\nFixed generation of CASE expressions so CASE expressions now terminate with END while CASE statements remain terminated with END CASE, improving standards-compliant SQL output across dialects.\n\n-\nExpanded CREATE VIEW support to handle SCHEMABINDING and MATERIALIZED options, increasing coverage of advanced view definitions.\n\n-\nStandardized translation of DATE_xxx functions by mapping to DATE_ADD and adding synonyms such as DATE_FORMAT, DATE_PART, DATE_SUB, and DATE_TRUNC for consistent naming and mapping.\n\n-\nEnsured control-flow statements like LEAVE and ITERATE are always generated with labels by auto-labelling enclosing blocks or loops when needed, improving robustness of generated control-flow SQL.\n\nSnowflake…",
+    "category": "Data Warehousing",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "5ecca83133bc3a26",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/splunk-integration",
+    "title": "databrickslabs/splunk-integration: v1.4.2",
+    "url": "https://github.com/databrickslabs/splunk-integration/releases/tag/v1.4.2",
+    "published": "2026-01-14",
+    "first_seen": "2026-07-30",
+    "summary": "Release 1.4.2",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/splunk-integration"
+    ]
+  },
+  {
+    "id": "f3e16abafc1f8f70",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/splunk-integration",
+    "title": "databrickslabs/splunk-integration: v1.4.1",
+    "url": "https://github.com/databrickslabs/splunk-integration/releases/tag/v1.4.1",
+    "published": "2026-01-14",
+    "first_seen": "2026-07-30",
+    "summary": "Release 1.4.1",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/splunk-integration"
+    ]
+  },
+  {
+    "id": "e3705019529e72a7",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakeflow-community-connectors",
+    "title": "databrickslabs/lakeflow-community-connectors: test-v1.0.3",
+    "url": "https://github.com/databrickslabs/lakeflow-community-connectors/releases/tag/test-v1.0.3",
+    "published": "2026-01-09",
+    "first_seen": "2026-07-30",
+    "summary": "u",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/lakeflow-community-connectors"
+    ]
+  },
+  {
+    "id": "ae7701f5dad2d7b8",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakeflow-community-connectors",
+    "title": "databrickslabs/lakeflow-community-connectors: test-v1.0.2",
+    "url": "https://github.com/databrickslabs/lakeflow-community-connectors/releases/tag/test-v1.0.2",
+    "published": "2026-01-09",
+    "first_seen": "2026-07-30",
+    "summary": "u",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/lakeflow-community-connectors"
+    ]
+  },
+  {
+    "id": "3557481d39398d84",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakeflow-community-connectors",
+    "title": "databrickslabs/lakeflow-community-connectors: test-v1.0.1",
+    "url": "https://github.com/databrickslabs/lakeflow-community-connectors/releases/tag/test-v1.0.1",
+    "published": "2026-01-09",
+    "first_seen": "2026-07-30",
+    "summary": "u",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/lakeflow-community-connectors"
+    ]
+  },
+  {
+    "id": "cfb321b3c4e7b737",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakeflow-community-connectors",
+    "title": "databrickslabs/lakeflow-community-connectors: test-v1.0.0",
+    "url": "https://github.com/databrickslabs/lakeflow-community-connectors/releases/tag/test-v1.0.0",
+    "published": "2026-01-08",
+    "first_seen": "2026-07-30",
+    "summary": "test reslease",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/lakeflow-community-connectors"
+    ]
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "2396b4b5d82546f7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GA: Repos support for non-notebook files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#ga-repos-support-for-non-notebook-files",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e24c0d160326644f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deploy models for streaming inference with DLT notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#deploy-models-for-streaming-inference-with-dlt-notebooks",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "22b3b4f11e3651b7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect to Fivetran from the add data UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#connect-to-fivetran-from-the-add-data-ui",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0b767338c12db8ca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SQL Driver for Node.js is Generally Available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#databricks-sql-driver-for-nodejs-is-generally-available",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "393b5d0763e2f862",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect supports connecting to erwin Data Modeler by Quest",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#partner-connect-supports-connecting-to-erwin-data-modeler-by-quest",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1730425d9398fa71",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enforce user isolation cluster types on a workspace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#enforce-user-isolation-cluster-types-on-a-workspace",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1a06f4cbf96caf8a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 11.3 LTS and 11.3 LTS ML are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#databricks-runtime-113-lts-and-113-lts-ml-are-ga",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "da71b254d0d83b34",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Format Python code in notebooks (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#format-python-code-in-notebooks-public-preview",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "86d7ddb6dc6384bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "IP access lists no longer block PrivateLink traffic",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#ip-access-lists-no-longer-block-privatelink-traffic",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aaa471b49effa9b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AWS PrivateLink support is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#aws-privatelink-support-is-now-generally-available",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "faa7ea1c97c24864",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improvements to AWS PrivateLink support for updating workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#improvements-to-aws-privatelink-support-for-updating-workspaces",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ea5b45cecdc2b485",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Update a failed workspace with Databricks-managed VPC to use a customer-managed VPC",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#update-a-failed-workspace-with-databricks-managed-vpc-to-use-a-customer-managed-vpc",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a08df529f40a0869",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Personal Compute cluster policy is available by default to all users",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#personal-compute-cluster-policy-is-available-by-default-to-all-users",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d37b4a0b4162bb4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Add data UI provides a central UI for loading data to Databricks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#add-data-ui-provides-a-central-ui-for-loading-data-to-databricks",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "45243441df33760c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create or modify table from file upload page unifies experience for small file upload to Delta Lake",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#create-or-modify-table-from-file-upload-page-unifies-experience-for-small-file-upload-to-delta-lake",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "93a6143d2994d940",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect supports connecting to Hevo Data",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#partner-connect-supports-connecting-to-hevo-data",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "69ea3833c9218969",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enable admin protection for No Isolation Shared clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#enable-admin-protection-for-no-isolation-shared-clusters",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "85659e306639e22d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SQL persona integrated with new search experience",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#sql-persona-integrated-with-new-search-experience",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b0799a5ed0d8eb77",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks is a FedRAMPÂ® Authorized Cloud Service Offering (CSO) at the moderate impact Level",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#databricks-is-a-fedramp-authorized-cloud-service-offering-cso-at-the-moderate-impact-level",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c28a0a8fd0dd13ff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless SQL warehouses are available in regions eu-central-1 and us-east-2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#serverless-sql-warehouses-are-available-in-regions-eu-central-1-and-us-east-2",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "983b09799b7307fd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Privilege inheritance in now supported in Unity Catalog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#privilege-inheritance-in-now-supported-in-unity-catalog",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "01555c5aa8d4177b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Top navigation bar in the UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#top-navigation-bar-in-the-ui",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5901ed3bea2bb10f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 11.3 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#databricks-runtime-113-beta",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d14a580e14a0e25a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The account console is available in multiple languages",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/october#the-account-console-is-available-in-multiple-languages",
+    "published": "2022-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b58042636dc2985e",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.22",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.22",
+    "published": "2022-10-25",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Bump black from 22.8.0 to 22.10.0 by @dependabot in #262\n\n- Bump coverage from 6.4.4 to 6.5.0 by @dependabot in #260\n\n- Bump furo from 2022.9.15 to 2022.9.29 by @dependabot in #261\n\n- Bump pandas from 1.4.4 to 1.5.0 by @dependabot in #258\n\n- Bump pytz from 2022.2.1 to 2022.4 by @dependabot in #259\n\n- Bump jsonref from 0.2 to 0.3.0 by @dependabot in #264\n\n- Bump scipy from 1.9.1 to 1.9.2 by @dependabot in #263\n\n- Roadmap added by @souvik-databricks in #267\n\n- Bump pandas from 1.5.0 to 1.5.1 by @dependabot in #271\n\n- Bump scipy from 1.9.2 to 1.9.3 by @dependabot in #270\n\n- Bump pytz from 2022.4 to 2022.5 by @dependabot in #269\n\n- Bump numpy from 1.23.3 to 1.23.4 by @dependabot in #266\n\nFull Changelog: v0.1.21...v0.1.22",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  },
+  {
+    "id": "322a53473dfdd3e0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/delta-oms",
+    "title": "databrickslabs/delta-oms: v0.6.0",
+    "url": "https://github.com/databrickslabs/delta-oms/releases/tag/v0.6.0",
+    "published": "2022-10-05",
+    "first_seen": "2026-07-30",
+    "summary": "What’s Changed\n\n- Upgrade to Delta 2.1.0 and Spark 3.3 (#24) @himanishk\n\n- Updates to Demo notebooks (#23) @himanishk",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/delta-oms"
+    ]
+  },
+  {
+    "id": "e0a6fc35bf333c4f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/delta-oms",
+    "title": "databrickslabs/delta-oms: v0.5.0",
+    "url": "https://github.com/databrickslabs/delta-oms/releases/tag/v0.5.0",
+    "published": "2022-10-05",
+    "first_seen": "2026-07-30",
+    "summary": "What’s Changed\n\n- Upgrade to Delta 2.1.0 and Spark 3.3 (#24) @himanishk\n\n- Updates to Demo notebooks (#23) @himanishk",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/delta-oms"
+    ]
+  }
+]

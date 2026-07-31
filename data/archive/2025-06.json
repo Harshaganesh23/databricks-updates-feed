@@ -1,0 +1,688 @@
+[
+  {
+    "id": "dde8b6d39717e467",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bring your own data lineage (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#bring-your-own-data-lineage-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8cb015eb42033eb0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Databricks JDBC Driver is open source",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#new-databricks-jdbc-driver-is-open-source",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ed3d9c377dce089a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLfLow support for compliance security profile standards",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#mlflow-support-for-compliance-security-profile-standards",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a2ba95090a7a1db9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "File arrival triggers with file events is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#file-arrival-triggers-with-file-events-is-now-generally-available",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b61c77ac4bdf31de",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use PDFs in Information Extraction and Custom LLM (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#use-pdfs-in-information-extraction-and-custom-llm-beta",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d57f031dddce92c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Parse documents using ai_parse_document (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#parse-documents-using-ai",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "31405181bd4a1cf5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 17.0 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#databricks-runtime-170-is-ga",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "470c1acc2c891eda",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OIDC federation for Databricks-to-open Delta Sharing is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#oidc-federation-for-databricks-to-open-delta-sharing-is-generally-available",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "46e1a65d448181e9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Migrate Spark Declarative Pipelines on Lakeflow pipelines from legacy publishing mode",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#migrate-spark-declarative-pipelines-on-lakeflow-pipelines-from-legacy-publishing-mode",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "14e55b5a7b830100",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Custom rate limits for model serving endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#custom-rate-limits-for-model-serving-endpoints",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c030391334c390b0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing managed Iceberg tables in Delta Sharing is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#sharing-managed-iceberg-tables-in-delta-sharing-is-in-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8951379b83691b68",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Expanded feature support for FIPS-Compliant environments",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#expanded-feature-support-for-fips-compliant-environments",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8154f875582868bc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI documentation for Unity Catalog tables and columns now uses the same model as Databricks Assistant",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#ai-documentation-for-unity-catalog-tables-and-columns-now-uses-the-same-model-as-databricks-assistant",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9ae9e31e8fa99222",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs & Pipelines in the left navigation menu",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#jobs--pipelines-in-the-left-navigation-menu",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ae245307f171ba8c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Moving streaming tables and materialized views between pipelines is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#moving-streaming-tables-and-materialized-views-between-pipelines-is-in-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "08f2d8dbbe890a1e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Attribute-based access control (ABAC) in Unity Catalog is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#attribute-based-access-control-abac-in-unity-catalog-is-in-beta",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9b92a008be10c927",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic liquid clustering is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#automatic-liquid-clustering-is-now-ga",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "86cad0a6e7b0dcbf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase, a managed PostgreSQL OLTP database, is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#lakebase-a-managed-postgresql-oltp-database-is-in-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0b46e7e5bebb5da0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor and revoke personal access tokens in your account (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#monitor-and-revoke-personal-access-tokens-in-your-account-ga",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7064440a9d1582c2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Microsoft SharePoint connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#microsoft-sharepoint-connector-beta",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c78753132cfb80db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Gateway is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#ai-gateway-is-now-generally-available",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a58ef7384bd3aa07",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AUTO CDC APIs replace APPLY CHANGES",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#auto-cdc-apis-replace-apply-changes",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9689c0b7aae9ab8b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Jobs is now Lakeflow Jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#databricks-jobs-is-now-lakeflow-jobs",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "992df1bf20ce7bb6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT is now Spark Declarative Pipelines on Lakeflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#dlt-is-now-spark-declarative-pipelines-on-lakeflow",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0584206cd043c4aa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Managed Apache Iceberg tables are in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#managed-apache-iceberg-tables-are-in-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8bebf505195fdd2d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Foreign Apache Iceberg tables are in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#foreign-apache-iceberg-tables-are-in-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ee6e31062fff4ade",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Convert to Unity Catalog managed table from external table is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#convert-to-unity-catalog-managed-table-from-external-table-is-in-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6c8587812b50d1ec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow 3.0 is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#mlflow-30-is-generally-available",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b38f7f32640f6bd4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deployment jobs (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#deployment-jobs-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7379d3958e8753f3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless performance targets is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#serverless-performance-targets-is-now-ga",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f095d695e633658",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Model Context Protocol (MCP) for AI agents is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#model-context-protocol-mcp-for-ai-agents-is-in-beta",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "48a01bb457bc62bd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cross-platform view sharing is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#cross-platform-view-sharing-is-now-ga",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "54ff92ccdd738fc5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage network policies for serverless egress control (Generally Available)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#manage-network-policies-for-serverless-egress-control-generally-available",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dc10d8cd94e98dd0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Tag policies is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#tag-policies-is-in-beta",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "86c4fa2fbb612d35",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure PrivateLink connections from serverless compute to S3 Storage buckets (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#configure-privatelink-connections-from-serverless-compute-to-s3-storage-buckets-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "971166568ece6b25",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "PrivateLink connections from serverless compute to resources in your VPC through an NLB is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#privatelink-connections-from-serverless-compute-to-resources-in-your-vpc-through-an-nlb-is-in-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cafee55888678918",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless GPU compute is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#serverless-gpu-compute-is-in-beta",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "129bb6b7911ed1d3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Apps support for compliance security profile standards",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#databricks-apps-support-for-compliance-security-profile-standards",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d69644242789e845",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New consumer entitlement is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#new-consumer-entitlement-is-generally-available",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2a383a5dab3ca004",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New region: AWS Asia Pacific (Jakarta) (ap-southeast-3)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#new-region-aws-asia-pacific-jakarta-ap-southeast-3",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c29821d9acba2efa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Salesforce Data Cloud File Sharing connector (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#salesforce-data-cloud-file-sharing-connector-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bb847f6194d3e3a7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Corrected job_name values in system.billing.usage",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#corrected-job",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "62ef411233b11eea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Vector Search storage-optimized endpoints are Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#mosaic-ai-vector-search-storage-optimized-endpoints-are-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cdf182b9e66c6c85",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "History sharing now enabled by default to improve table read performance for Databricks-to-Databricks Delta Sharing (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#history-sharing-now-enabled-by-default-to-improve-table-read-performance-for-databricks-to-databricks-delta-sharing-ga",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8260246bee8d3c42",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog HTTP connections support OAuth User-to-Machine Per User credentials (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/june#unity-catalog-http-connections-support-oauth-user-to-machine-per-user-credentials-public-preview",
+    "published": "2025-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "025ead328011f609",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/blueprint",
+    "title": "databrickslabs/blueprint: v0.11.2",
+    "url": "https://github.com/databrickslabs/blueprint/releases/tag/v0.11.2",
+    "published": "2025-06-26",
+    "first_seen": "2026-07-30",
+    "summary": "- Allow login URLs as profile host when configuring the workspace/admin client for CLI commands (#250). The handling of the DATABRICKS_HOST environment variable has been modified to ensure consistent normalization of the host URL with the Databricks Go SDK, resolving a host normalization issue that previously arose from differences in SDK implementations. Two new methods, fix_databricks_host and _patch_databricks_host, have been introduced to emulate the Go SDK's host normalization and update the environment variable if necessary. The fix_databricks_host method normalizes the host URL by parsing it and creating a new URL instance with empty path, parameters, query, and fragment if the netloc is empty, while the _patch_databricks_host method checks and updates the DATABRICKS_HOST environment variable accordingly. This change enables the Python SDK to receive a normalized host URL, allowing the labs CLI integration to work correctly, and updates the needs_workspace_client and is_account checks to use the normalized host URL when creating workspace or account clients. Additionally, several unit tests have been added to verify the correctness of the normalization and patching functionality for different host value types and client scenarios.\n\nContributors: @asnare",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/blueprint"
+    ]
+  },
+  {
+    "id": "9aad7bb1ae3a6abe",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/blueprint",
+    "title": "databrickslabs/blueprint: v0.11.1",
+    "url": "https://github.com/databrickslabs/blueprint/releases/tag/v0.11.1",
+    "published": "2025-06-25",
+    "first_seen": "2026-07-30",
+    "summary": "- Expose the number of available CPUs for concurrent processing (#244). The library now provides a method to determine the number of logical CPUs available for the current process, considering factors such as containerized environments where the available CPU quota may differ from the total number of CPUs present. This method checks for the availability of the process_cpu_count attribute, and if not available, attempts to use the sched_getaffinity function on Linux or falls back to the total number of CPUs in the system, defaulting to 1 if unknown. The gather method has been updated to utilize this new method, allowing for more accurate determination of the available CPU count and improved concurrency. Additionally, several test cases have been added to verify the correct behavior of the method, including scenarios where the count is retrieved from different sources, ensuring a reliable way to determine the available CPU count for configuring concurrent processing in downstream applications.…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/blueprint"
+    ]
+  },
+  {
+    "id": "a2bf87845f2baa8d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/kasal",
+    "title": "databrickslabs/kasal: marketplace: config: add comprehensive user API scopes to manifest",
+    "url": "https://github.com/databrickslabs/kasal/releases/tag/marketplace",
+    "published": "2025-06-09",
+    "first_seen": "2026-07-30",
+    "summary": "Added extensive API permissions for SQL, vector search, serving endpoints,\n\nfiles, and dashboard services to support full application functionality.",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/kasal"
+    ]
+  },
+  {
+    "id": "f11a0ef6071030c6",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: v0.2.8",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.8",
+    "published": "2025-06-06",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Added SQL Queries API coverage\n\n- Updated Jobs to 2.2\n\n- Added additional tasks for jobs: for_each_task, condition_task, sql_query_task, sql_file_task, run_job_task\n\n- Removing the Python SQL connector as db_sql_query supersedes it.\n\n- Added db_sql_query to simplify execution of SQL\n\n- Adjusted db_repl to handle multi-line expressions (R only)\n\n- Removed RStudio Addins to send lines/selection/files to console\n\n- Moved arrow to Suggests\n\nFull Changelog: v0.2.7...v0.2.8",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  }
+]

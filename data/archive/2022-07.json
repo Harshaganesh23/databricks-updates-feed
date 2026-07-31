@@ -1,0 +1,170 @@
+[
+  {
+    "id": "a0a5fd51eb306100",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 11.1 and 11.1 ML are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#databricks-runtime-111-and-111-ml-are-ga",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5cdb13803233bd9d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Photon is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#photon-is-ga",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3f757994c6909c4e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notification upon notebook completion",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#notification-upon-notebook-completion",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e4199e61d8be6971",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased limit for the number of jobs in your Databricks workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#increased-limit-for-the-number-of-jobs-in-your-databricks-workspaces",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bdc14dfd50e549bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Verbose audit logs now record when Databricks SQL queries are run",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#verbose-audit-logs-now-record-when-databricks-sql-queries-are-run",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "85526665d93b83a0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SQL Serverless supports instance profiles whose name does not match its associated role",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#databricks-sql-serverless-supports-instance-profiles-whose-name-does-not-match-its-associated-role",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5147db76d9fff163",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure your workspace to use IMDS v2 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#configure-your-workspace-to-use-imds-v2-public-preview",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3b4d54814e0d52de",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.27",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#databricks-jdbc-driver-2627",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f194b9d52b04b9c7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.6.25",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#databricks-odbc-driver-2625",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8be18181f4b59041",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 11.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#databricks-runtime-111-beta",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "77318b5c9c1dc8e6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved notebook visualizations",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/july#improved-notebook-visualizations",
+    "published": "2022-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2022.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "96a44d629d0c9b98",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-sync",
+    "title": "databrickslabs/databricks-sync: Release 0.3.1",
+    "url": "https://github.com/databrickslabs/databricks-sync/releases/tag/0.3.1",
+    "published": "2022-07-12",
+    "first_seen": "2026-07-30",
+    "summary": "Resolves issues:\n\n- #111 - Windows path issues\n\n- #112 (partially fixes the global init scripts being empty but showing up as a dependency in terraform. Resolved both issues for cluster policy and global init scripts)\n\n- Issue with new source field from notebook_task in jobs.",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-sync"
+    ]
+  }
+]

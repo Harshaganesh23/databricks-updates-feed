@@ -1,0 +1,618 @@
+[
+  {
+    "id": "d155ad8a27265234",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant on the documentation site",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#databricks-assistant-on-the-documentation-site",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d48b627fc076344",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant Agent mode is now in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#databricks-assistant-agent-mode-is-now-in-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "97b9c42889d18a98",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Single-use refresh tokens for OAuth applications",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#single-use-refresh-tokens-for-oauth-applications",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "757ac32c388afad9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Update request parameters for Delta Sharing recipient audit log events",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#update-request-parameters-for-delta-sharing-recipient-audit-log-events",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "abffb98045c3d157",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Haiku 4.5 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#anthropic-claude-haiku-45-now-available-as-a-databricks-hosted-model",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3ad65811a554d7eb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Databricks accounts will not have access to legacy features",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#new-databricks-accounts-will-not-have-access-to-legacy-features",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "87f996423138fbdb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MySQL connector in Lakeflow Connect (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#mysql-connector-in-lakeflow-connect-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6d82dfe0c64ef5a7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Ads connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#meta-ads-connector-beta",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cf95af2956c49fcc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase Autoscaling metrics dashboard",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#lakebase-autoscaling-metrics-dashboard",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "82dd73aee6bfa1a3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View latest scheduled notebook job results",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#view-latest-scheduled-notebook-job-results",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3b38572b157a77ef",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect to Lakebase Autoscaling from the SQL editor with read-write access",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#connect-to-lakebase-autoscaling-from-the-sql-editor-with-read-write-access",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d6badbb25955dd40",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Context based ingress control is now in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#context-based-ingress-control-is-now-in-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ead9707934dc74f7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase Autoscaling ACL support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#lakebase-autoscaling-acl-support",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "52b422596c422ded",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Login required to download ODBC driver",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#login-required-to-download-odbc-driver",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8912b7935a4530cf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Flexible node types are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#flexible-node-types-are-now-generally-available",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b27200c91a76239d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New resource types for Databricks Apps",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#new-resource-types-for-databricks-apps",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6cc83d84c3ca1c7f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Run read-only queries on Lakebase (Provisioned) readable secondaries from SQL editor",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#run-read-only-queries-on-lakebase-provisioned-readable-secondaries-from-sql-editor",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4d34573cb3cb179f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing to external Iceberg clients is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#delta-sharing-to-external-iceberg-clients-is-in-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "986c543dc320a769",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase (Autoscaling) now in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#lakebase-autoscaling-now-in-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "934f34e396164d49",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Disable legacy features settings are now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#disable-legacy-features-settings-are-now-ga",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "df9b0e09a0eefd8d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-5.2 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#openai-gpt-52-now-available-as-a-databricks-hosted-model",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2b683346fcd8c034",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Confluence connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#confluence-connector-beta",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d744205858614672",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "PostgreSQL connector in Lakeflow Connect (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#postgresql-connector-in-lakeflow-connect-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fd5a11fae840823a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Customizable SharePoint connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#customizable-sharepoint-connector-beta",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b3d9a2317c35b2f0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "NetSuite connector (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#netsuite-connector-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "41db7a944e262779",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jira connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#jira-connector-beta",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1f1e96453fec1f82",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Microsoft Dynamics 365 connector (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#microsoft-dynamics-365-connector-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "650dcef673b88cce",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Change owner for materialized views or streaming tables defined in Databricks SQL",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#change-owner-for-materialized-views-or-streaming-tables-defined-in-databricks-sql",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c19e118dc6865f0d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Discover files in Auto Loader efficiently using file events",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#discover-files-in-auto-loader-efficiently-using-file-events",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ec54c51cb2eea927",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ForEachBatch for Spark Declarative Pipelines on Lakeflow is available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#foreachbatch-for-spark-declarative-pipelines-on-lakeflow-is-available-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "425f840577065655",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 18.0 and Databricks Runtime 18.0 ML are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#databricks-runtime-180-and-databricks-runtime-180-ml-are-in-beta",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "27e117bbf397a012",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (12/09)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#databricks-runtime-maintenance-updates-1209",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "08d20fd8d2c63d09",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New columns in Lakeflow system tables (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#new-columns-in-lakeflow-system-tables-public-preview",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d19cdc1936759be0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New token expiration policy for open Delta Sharing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#new-token-expiration-policy-for-open-delta-sharing",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d65ff8de1dd75088",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Expanded regional availability for C5 and TISAX compliance",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#expanded-regional-availability-for-c5-and-tisax-compliance",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f9a89f577303bedc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Vector Search reranker is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#vector-search-reranker-is-now-generally-available",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c39d214f74d9824e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Built-in Excel file format support (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/december#built-in-excel-file-format-support-beta",
+    "published": "2025-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9d827581c64daea4",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/blueprint",
+    "title": "databrickslabs/blueprint: v0.12.0",
+    "url": "https://github.com/databrickslabs/blueprint/releases/tag/v0.12.0",
+    "published": "2025-12-30",
+    "first_seen": "2026-07-30",
+    "summary": "-\nTRACE-level logging support #318\n\nAdded support for TRACE-level logs by mapping them to DEBUG, since Python lacks native TRACE support. Introduced a new method to translate Databricks CLI log levels to Python levels, defaulting to INFO when unknown. Improved error logging for better debugging and reporting.\n\n-\nPython 3.14 compatibility #315\n\nThe project now supports Python 3.10–3.14. CI tests have been updated accordingly, and project metadata now reflects Python 3.14 and beta development status. Minimum requirements remain: Python 3.10+ and databricks-sdk 0.16.0+.\n\n-\nLine-based subprocess streaming #320\n\nAdded real-time, line-based reading of subprocess output via a new readlines function. It decodes UTF-8 safely, manages memory efficiently, and handles very long lines without blocking. Also added pytest-asyncio to improve async code testing.\n\n-\nHatch upgrade #311\n\nUpgraded Hatch from 1.9.4 → 1.14.2 to fix compatibility issues (notably with Click 8.3.0) and improve build performance. Removed the old Click version constraint so newer versions can be installed.\n\nContributors: @asnare, @sundarshankar89",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/blueprint"
+    ]
+  },
+  {
+    "id": "1d24725aae8f737b",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: v0.11.3",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.11.3",
+    "published": "2025-12-29",
+    "first_seen": "2026-07-30",
+    "summary": "Analyzer\n\n- Optimized SAS Analyzer performance by consolidating regex operations, delivering roughly a 7x speed improvement for large-scale SAS analysis workloads.\n\n- Added support for new SSIS components Microsoft.Pivot, Microsoft.UnPivot, and ExtensibleFileTask, broadening coverage for SSIS package migrations analysis.\n\nConverters – Morpheus\n\n-\nCore\n\n- Significantly improved ANTLR parsing performance by merging grammars, refactoring ambiguous rules, and updating the Scala integration and build pipeline for the new grammar workflow.\n\n- Allowed the STREAMS token to be used as an identifier so patterns like SELECT * FROM streams.foo.bar now parse correctly in Snowflake-oriented SQL.\n\n- Updated the error reporting to align to the following:\n\n-\n\n- Info: no error, the input was fully translated\n\n- Hint: the input was fully translated but some irrelevant bits have been elided\n\n- Warning: the input was translated but with unsupported bits\n\n- Error: the input couldn't be translated\n\n-\nMSSQL / T-SQL / SQL Server\n\n-\nAdded full support for SQL Server T-SQL CREATE INDEX and table-level index directives, parsing them into a new index IR and translating to CLUSTER BY AUTO in Databricks SQL so index statements are no longer rejected.\n\n-\nExtended grammar and parsing to handle T-SQL computed columns, QUOTENAME calls, GROUP options in query hints, DROP INDEX statements, and additional keywords like PARAMETERS, STREAMS, PROCEDURES, and VIEWS, improving coverage of real-world T-SQL workloads.\n\n-\nImproved DML parsing so INSERT targets use proper dot identifiers instead of expression-like forms, preventing misinterpretation as function calls and preserving case sensitivity where required.\n\n-…",
+    "category": "Data Warehousing",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "236ddf5e7e90dbb3",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.12.0",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.12.0",
+    "published": "2025-12-20",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- AI-Assisted rules generation from data profiles (#963). AI-assisted data quality rule generation was added, leveraging summary statistics from a profiler to create rules. The DQGenerator class includes a generate_dq_rules_ai_assisted method that can generate rules with or without user-provided input, using summary statistics to inform the rule creation process. This method offers flexibility in rule generation, allowing for both automated and user-guided creation of data quality rules.\n\n- Added new checks for JSON validation (#616). DQX now includes three new quality checks for JSON data validation, especially useful for validating data coming from streaming systems such as Kafka: is_valid_json, has_json_keys, and has_valid_json_schema. The is_valid_json check verifies whether values in a specified column are valid JSON strings, while the has_json_keys check confirms the presence of specific keys in the outermost JSON object, allowing for optional parameters to require all keys to be present. The has_valid_json_schema check ensures that JSON strings conform to an expected schema, ignoring extra fields not defined in the schema.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "0d83485de16399d7",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: v0.2.11",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.11",
+    "published": "2025-12-13",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Added Lakebase workspace database helpers (db_lakebase_<method>) including credential generation, instance listing, instance lookup by name or UID, and catalog retrieval (#113)\n\n- Moving all filesystem related calls to {fs} (#140)\n\n- The DBI backend now always respects a staging volume when specified, even for small data (#143)\n\nFull Changelog: v0.2.9...v0.2.11",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  },
+  {
+    "id": "d896dacfee30957a",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: v0.11.2",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.11.2",
+    "published": "2025-12-11",
+    "first_seen": "2026-07-30",
+    "summary": "Analyzer\n\n- Normalized complexity categories in the analyzer from “COMPLEX/VERY_COMPLEX” to “HIGH/VERY_HIGH” for clearer reports.\n\nConverters\n\nMorpheus\n\nSnowflake\n\n- Implemented full support for DECLARE, LET, and assignment statements to better handle procedural Snowflake scripts.\n\n- Added support for DROP PROCEDURE statements, improving Snowflake DDL coverage.\n\nTSQL/Synapse\n\n- Cleaned up grammar by removing duplicate and unsupported rules for TSQL special functions, reducing ambiguity and improving parser stability.\n\n- Implemented full support for DECLARE, LET, and assignment statements in TSQL, enabling richer stored procedure conversion.\n\n- Added support for TSQL DROP PROCEDURE statements to improve parity with source DDL.\n\n- Updated handling of options such as ANSI_NULLS and QUOTED_IDENTIFIER to emit informative comments instead of errors when they do not apply to Databricks SQL.\n\n- Enhanced handling of SET NOCOUNT by emitting comments explaining its behavior in Databricks SQL and warning when NOCOUNT OFF is used.\n\n- Allowed PRECISION to be used as an identifier (for example, c.precision), fixing parsing issues with such column names.\n\n- Improved handling of EXEC statements by detecting well‑known stored procedures like sp_executesql and issuing more specific diagnostics.\n\n- Added translation of OBJECT_ID() checks into EXISTS queries against catalog metadata to preserve control flow in procedural TSQL.\n\n- Added warnings for unsupported PRINT statements by generating explanatory comments rather than hard errors.\n\n- Added parsing support for the Synapse RENAME OBJECT syntax, currently surfaced as an unsupported but recognized construct.\n\nGeneric Morpheus engine…",
+    "category": "Data Warehousing",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "bbac55fdb955b8f0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.11.1",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.11.1",
+    "published": "2025-12-02",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Hotfix to update log level for spark connect to suppress dlt telemetry warnings in non-dlt serverless clusters.\n\nContributors: @mwojtyczka",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "df4693facd267977",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.11.0",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.11.0",
+    "published": "2025-12-01",
+    "first_seen": "2026-07-30",
+    "summary": "- Generationg of DQX rules from ODCS Data Contracts (#932). The Data Contract Quality Rules Generation feature has been introduced, enabling users to generate data quality rules directly from data contracts following the Open Data Contract Standard (ODCS). This feature supports three types of rule generation: predefined rules derived from schema properties and constraints, explicit DQX rules embedded in the contract, and text-based rules defined in natural language and processed by a Large Language Model (LLM) to generate appropriate checks. The feature provides rich metadata tracing generated rules back to the source contract for lineage and governance, and it can be used to implement federated data governance, standardize data contracts, and maintain version-controlled quality rules alongside schema definitions.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  }
+]

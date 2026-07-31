@@ -1,0 +1,212 @@
+[
+  {
+    "id": "3debdc0a45f8000b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow tracking UI enhancement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#mlflow-tracking-ui-enhancement",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ce3e7c0eb5f12044",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebook usability improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#notebook-usability-improvements",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2da00c3c969b4f97",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect now supports Databricks Runtime 6.5",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#databricks-connect-now-supports-databricks-runtime-65",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "daf2f38dcd272b2e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.1 and 6.1 ML support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#databricks-runtime-61-and-61-ml-support-ends",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "be2c14a9a69246c1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.5 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#databricks-runtime-65-ga",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dd6f8d9ecd71c091",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.5 for Machine Learning GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#databricks-runtime-65-for-machine-learning-ga",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dfd1628fde251a5f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.5 for Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#databricks-runtime-65-for-genomics-ga",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a9507db9ad52fc74",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Authenticate to S3 buckets automatically using your IAM credentials (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#authenticate-to-s3-buckets-automatically-using-your-iam-credentials-public-preview",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b195ec76b78a5cc8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "IAM role renamed to instance profile",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#iam-role-renamed-to-instance-profile",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c3ff0f0d0b25e9dc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easier notebook title changes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#easier-notebook-title-changes",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4fd8bd501bcf3e59",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster termination reporting enhancement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#cluster-termination-reporting-enhancement",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e2adb17c73817889",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DBFS REST API delete endpoint size limit",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#dbfs-rest-api-delete-endpoint-size-limit",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1f96ee3062c73012",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.0 and 6.0 ML support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/april#databricks-runtime-60-and-60-ml-support-ends",
+    "published": "2020-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "09d89c94b73f5451",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/feature-factory",
+    "title": "databrickslabs/feature-factory: 0.12.6",
+    "url": "https://github.com/databrickslabs/feature-factory/releases/tag/v0.12.6",
+    "published": "2020-04-17",
+    "first_seen": "2026-07-30",
+    "summary": "Additions to comprehensive demo\n\nPlease check out the Demo section where you'll find a Databricks Archive which includes everying needed\n\nto get the example up and running including:\n\n- TPC-DS generator scripts\n\n- TPC-DS library\n\n- Enhancement table scripts\n\n- A detailed demo of how to use basic thru advanced features.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/feature-factory"
+    ]
+  },
+  {
+    "id": "5a82288137be5680",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dataframe-rules-engine",
+    "title": "databrickslabs/dataframe-rules-engine: v0.1",
+    "url": "https://github.com/databrickslabs/dataframe-rules-engine/releases/tag/2_11-0.1",
+    "published": "2020-04-07",
+    "first_seen": "2026-07-30",
+    "summary": "Initial Release",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dataframe-rules-engine"
+    ]
+  }
+]

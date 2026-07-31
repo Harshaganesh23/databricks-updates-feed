@@ -1,0 +1,688 @@
+[
+  {
+    "id": "1d6a4c7fd7de4edf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse Federation available on single user clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#lakehouse-federation-available-on-single-user-clusters",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5987e9ff8212fdff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-runtime-141-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "35a55d331da0be78",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GPU model serving optimized for LLMs in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#gpu-model-serving-optimized-for-llms-in-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "74d85a21a2a1af3c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Prevent runs of a job from being skipped when you reach concurrency limits",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#prevent-runs-of-a-job-from-being-skipped-when-you-reach-concurrency-limits",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2825f4a27d7b7d8c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.27.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-terraform-provider-updated-to-version-1270",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1adbe1361e98e361",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI updated to version 0.206.0 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-cli-updated-to-version-02060-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ca385d7991462784",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SDK for Go updated to version 0.21.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-sdk-for-go-updated-to-version-0210-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4bbcfb3d8c4a5362",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Inference tables for model serving endpoints is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#inference-tables-for-model-serving-endpoints-is-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7d72a56e568fc959",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.7.5",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-odbc-driver-275",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e41e9a5da9399e41",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks extension for Visual Studio Code updated to version 1.1.3",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-extension-for-visual-studio-code-updated-to-version-113",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ba832cc67c4958aa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Running jobs as a service principal is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#running-jobs-as-a-service-principal-is-ga",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5a32224e7a2ddac1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI updated to version 0.205.2 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-cli-updated-to-version-02052-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1ee3aacebeaf6079",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI updated to version 0.205.1 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-cli-updated-to-version-02051-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "363a8ace1c698c82",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SDK for Go updated to version 0.20.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-sdk-for-go-updated-to-version-0200-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "66b8a288d230b7a4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SDK for Python updated to version 0.9.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-sdk-for-python-updated-to-version-090-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3b6b5b399021d54a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SDK for Python updated to version 0.7.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-sdk-for-python-updated-to-version-071-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "86d564bda4f86b54",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.26.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-terraform-provider-updated-to-version-1260",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "54250e827b2e689a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect for Databricks Runtime 14.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-connect-for-databricks-runtime-140",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "98087fb7799f73ec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure Tableau and Power BI OAuth with SAML SSO",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#configure-tableau-and-power-bi-oauth-with-saml-sso",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c05da43a61c8a63c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeview dashboards in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#lakeview-dashboards-in-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2fd3ab5d3d9bc43c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Fleet clusters now support Graviton instances",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#fleet-clusters-now-support-graviton-instances",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b6fa78c40887e168",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect V2 is Public Preview for Scala",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-connect-v2-is-public-preview-for-scala",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d9a7532657730bc6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GPU model serving in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#gpu-model-serving-in-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c36507d117852f6a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "On-demand feature computation now available in Unity Catalog (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#on-demand-feature-computation-now-available-in-unity-catalog-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5268da3dea8bab1b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified login for accounts created before June 21, 2023 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#unified-login-for-accounts-created-before-june-21-2023-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "19f5699325ad6ff4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.0 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-runtime-140-is-ga",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "eb1c0e06ffb85ba9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account email notifications upgrade",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#account-email-notifications-upgrade",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4b01ac726996eb78",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.25.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-terraform-provider-updated-to-version-1251",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fdec2b21e7699bca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SDK for Go updated to version 0.19.2 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-sdk-for-go-updated-to-version-0192-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2826eb4729059705",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI updated to version 0.205.0 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-cli-updated-to-version-02050-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "429126c283354dae",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reserved location for /Workspace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#reserved-location-for-workspace",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc96da683b97d745",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Declarative Automation Bundles (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#declarative-automation-bundles-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6dd33489efd5d85c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.25.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-terraform-provider-updated-to-version-1250",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8a3ff0c1d7444846",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks extension for Visual Studio Code updated to version 1.1.2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-extension-for-visual-studio-code-updated-to-version-112",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e8f50603e8d24916",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect supports Snowplow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#partner-connect-supports-snowplow",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "25231dc10d6942ba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI updated to version 0.204.1 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-cli-updated-to-version-02041-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ab315665217640b7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Filter sensitive data with row filters and column masks (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#filter-sensitive-data-with-row-filters-and-column-masks-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "16c3c76f1472ed92",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "System tables now include Marketplace schema (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#system-tables-now-include-marketplace-schema-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c9c8b3d8ae61d3d3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Pricing system table is now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#pricing-system-table-is-now-available-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "46a47d1c96b187fb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SDK for Go updated to version 0.19.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-sdk-for-go-updated-to-version-0191-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d33e3feb7f3d287d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.7.3",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-odbc-driver-273",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5b5a70087c902670",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI updated to version 0.204.0 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-cli-updated-to-version-02040-public-preview",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9fb400eee08f8f62",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data Explorer is now Catalog Explorer",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#data-explorer-is-now-catalog-explorer",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ff5313a95443ef2b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SDK for Go updated to version 0.19.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-sdk-for-go-updated-to-version-0190-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ed53d614de171238",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SDK for Python updated to version 0.8.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#databricks-sdk-for-python-updated-to-version-080-beta",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "95ed8792322609ec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delegate allowlist privileges in Unity Catalog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#delegate-allowlist-privileges-in-unity-catalog",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6591fc80e47b8617",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GitHub apps integration in Repos is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/september#github-apps-integration-in-repos-is-ga",
+    "published": "2023-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3116fbcc289d9dd5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.26: Improved performance of constructing the `asofJoin()` function",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.26",
+    "published": "2023-09-22",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- [tox] update env to avoid exit 1 error by @R7L208 in #350\n\n- [chore] Fix codecov reporting by @R7L208 in #352\n\n- [Issue 362] Improve Performance constructing the asofJoin() by @tnixon in #363\n\nFull Changelog: v0.1.25...v0.1.26",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  },
+  {
+    "id": "9a8c6256de8e7b07",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.25: Fix AS OF JOIN reverted logic",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.25",
+    "published": "2023-09-22",
+    "first_seen": "2026-07-30",
+    "summary": "Updating to include AS OF join fix for Delta Live Tables",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  }
+]

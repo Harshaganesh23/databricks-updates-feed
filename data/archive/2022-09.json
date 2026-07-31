@@ -1,0 +1,226 @@
+[
+  {
+    "id": "4e0996c6ea9eebe8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New reference solution for natural language processing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#new-reference-solution-for-natural-language-processing",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2369fc351b15b18f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "More regions for Unity Catalog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#more-regions-for-unity-catalog",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "67e5b8b5a0fe35eb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Protect and control access to some types of encrypted data with customer-managed keys (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#protect-and-control-access-to-some-types-of-encrypted-data-with-customer-managed-keys-ga",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ca49ee32e45ca101",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compliance security profile workspaces support i4i instance types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#compliance-security-profile-workspaces-support-i4i-instance-types",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "90bc5a1656e43720",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Audit logs now include events for web terminal",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#audit-logs-now-include-events-for-web-terminal",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2376bfed1c45bac0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Audit logs now include events for managing credentials for Git repos",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#audit-logs-now-include-events-for-managing-credentials-for-git-repos",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "89dcd991b03b36b5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Select cluster policies directly in the DLT UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#select-cluster-policies-directly-in-the-dlt-ui",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "88764b3ad12289c9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New data trasformation card on workspace landing pages",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#new-data-trasformation-card-on-workspace-landing-pages",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d6cb2721688101a1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Orchestrate Databricks SQL tasks in your Databricks workflows (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#orchestrate-databricks-sql-tasks-in-your-databricks-workflows-public-preview",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "da861bfa8198ec44",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta cache is now disk cache",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#delta-cache-is-now-disk-cache",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b560c0ba0fbca950",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Capture and view lineage data with Unity Catalog (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#capture-and-view-lineage-data-with-unity-catalog-public-preview",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d014fcfed17d228a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Search for tables using Catalog Explorer (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#search-for-tables-using-catalog-explorer-public-preview",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d053bd04dc75af1f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View and organize assets in the workspace browser across personas",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#view-and-organize-assets-in-the-workspace-browser-across-personas",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "29456b04dd19bf58",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 11.2 and 11.2 ML are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#databricks-runtime-112-and-112-ml-are-ga",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "942d1e944681fd67",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for AWS Graviton instances is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/september#support-for-aws-graviton-instances-is-ga",
+    "published": "2022-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "218d551f8854d168",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.21",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.21",
+    "published": "2022-09-24",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Bump scipy from 1.9.0 to 1.9.1 by @dependabot in #249\n\n- Migrate unit tests to chispa and increase test coverage by @R7L208 in #240\n\n- Bump numpy from 1.23.2 to 1.23.3 by @dependabot in #254\n\n- Bump pandas from 1.4.3 to 1.4.4 by @dependabot in #253\n\n- Bump black from 22.6.0 to 22.8.0 by @dependabot in #252\n\n- Bump coverage from 6.4.3 to 6.4.4 by @dependabot in #251\n\n- Bump furo from 2022.6.21 to 2022.9.15 by @dependabot in #257\n\n- Bump ipython from 8.4.0 to 8.5.0 by @dependabot in #255\n\n- Add IntervalsDF by @R7L208 in #256\n\nFull Changelog: v0.1.20...v0.1.21",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  }
+]

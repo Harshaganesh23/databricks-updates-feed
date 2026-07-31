@@ -1,0 +1,86 @@
+[
+  {
+    "id": "8b7d1cc02534e347",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Library UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/november#library-ui",
+    "published": "2018-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3bca912fd7ff5f89",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Custom Spark heap memory settings enabled",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/november#custom-spark-heap-memory-settings-enabled",
+    "published": "2018-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7d3168afde777ee9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs and idle execution context eviction",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/november#jobs-and-idle-execution-context-eviction",
+    "published": "2018-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c191104256c77065",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.0 for Machine Learning (Beta) release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/november#databricks-runtime-50-for-machine-learning-beta-release",
+    "published": "2018-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d729f2134fb89dca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.0 release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/november#databricks-runtime-50-release",
+    "published": "2018-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "818ed4278313921f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "displayHTML support for unrestricted loading of third-party content",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/november#displayhtml-support-for-unrestricted-loading-of-third-party-content",
+    "published": "2018-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

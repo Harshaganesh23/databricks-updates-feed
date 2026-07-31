@@ -1,0 +1,268 @@
+[
+  {
+    "id": "f7d06b6ad8c3c785",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Mosaic AI: a data-native and collaborative solution for the full ML lifecycle",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#databricks-mosaic-ai-a-data-native-and-collaborative-solution-for-the-full-ml-lifecycle",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b89d1daa4b210e8d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SQL Analytics is renamed to Databricks SQL",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#sql-analytics-is-renamed-to-databricks-sql",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "29c9ce9db1ca03b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create and manage ETL pipelines using DLT (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#create-and-manage-etl-pipelines-using-dlt-public-preview",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "82abb0288bd5d45f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reduced scope of required egress rules for customer-managed VPCs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#reduced-scope-of-required-egress-rules-for-customer-managed-vpcs",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "04db487989d545e6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspaces in the eu-west-2 region now support AWS PrivateLink",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#workspaces-in-the-eu-west-2-region-now-support-aws-privatelink",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "426eee7320cd8268",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Encrypt Databricks SQL queries and query history using your own key (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#encrypt-databricks-sql-queries-and-query-history-using-your-own-key-public-preview",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2e19af65f2a88bb2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased limit for the number of terminated all-purpose clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#increased-limit-for-the-number-of-terminated-all-purpose-clusters",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "66970ebc2d529b80",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased limit for the number of pinned clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#increased-limit-for-the-number-of-pinned-clusters",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "340c68c899df79bd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage where notebook results are stored (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#manage-where-notebook-results-are-stored-public-preview",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "64053ddb6021487c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The new improved account console is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#the-new-improved-account-console-is-ga",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1fd159c404ff6e9c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Customer-managed keys for workspace storage (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#customer-managed-keys-for-workspace-storage-public-preview",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "159e98d28893e416",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Changes to the Account API for customer-managed keys",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#changes-to-the-account-api-for-customer-managed-keys",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "86158b12d505b9e4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Cloud Storage connector (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#google-cloud-storage-connector-ga",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "44fd936cc21507ba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.4 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#databricks-runtime-74-series-support-ends",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e7b5542e6b02fd24",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Better governance with enhanced audit logging",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#better-governance-with-enhanced-audit-logging",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a6b85a8ff431c9bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use SSO to authenticate to the account console (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#use-sso-to-authenticate-to-the-account-console-public-preview",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9cb43eabe86c7b85",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Repos users can now integrate with Azure DevOps using personal access tokens",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#repos-users-can-now-integrate-with-azure-devops-using-personal-access-tokens",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "936f984f0fb4f2f9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs service stability and scalability improvements (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#jobs-service-stability-and-scalability-improvements-public-preview",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6969896e4ede89ea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Service principals provide API-only access to Databricks resources (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/may#service-principals-provide-api-only-access-to-databricks-resources-public-preview",
+    "published": "2021-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

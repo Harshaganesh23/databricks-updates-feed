@@ -1,0 +1,198 @@
+[
+  {
+    "id": "03897fd88d40c031",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Copy and paste notebook cells between tabs and windows",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#copy-and-paste-notebook-cells-between-tabs-and-windows",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6ec52367939f98e1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Additional data type support for Databricks Feature Store automatic feature lookup",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#additional-data-type-support-for-databricks-feature-store-automatic-feature-lookup",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ae20b56905ae0183",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 11.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#databricks-runtime-110-beta",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "db74d71153dcdbb1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved workspace search (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#improved-workspace-search-public-preview",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fcaeb012eb8a3b22",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Explore SQL cell results in Python notebooks natively using Python",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#explore-sql-cell-results-in-python-notebooks-natively-using-python",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1d8e7b70e379a04d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Repos: Support for more files in a repo",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#databricks-repos-support-for-more-files-in-a-repo",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "20f566e796c66631",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Repos: Fix to issue with MLflow experiment data loss",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#databricks-repos-fix-to-issue-with-mlflow-experiment-data-loss",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "72b24ec026fe497f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Upgrade wizard makes it easier to copy databases and multiple tables to Unity Catalog (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#upgrade-wizard-makes-it-easier-to-copy-databases-and-multiple-tables-to-unity-catalog-public-preview",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5c28ec90e57d8ab6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Power BI Desktop system-wide HTTP proxy support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#power-bi-desktop-system-wide-http-proxy-support",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "535509e0b540f3ce",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Streamline billing and account management by signing up for Databricks using AWS Marketplace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#streamline-billing-and-account-management-by-signing-up-for-databricks-using-aws-marketplace",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5cd98b43d94a17ff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.5 and 10.5 ML are GA; 10.5 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#databricks-runtime-105-and-105-ml-are-ga-105-photon-is-public-preview",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4b1320605ab20718",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Authenticate to the account console using SAML 2.0 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#authenticate-to-the-account-console-using-saml-20-public-preview",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dcc8f21b39d5c69c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.25",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#databricks-jdbc-driver-2625",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2d0946d1446805bc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "See the user a pipeline runs as in the DLT UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/may#see-the-user-a-pipeline-runs-as-in-the-dlt-ui",
+    "published": "2022-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

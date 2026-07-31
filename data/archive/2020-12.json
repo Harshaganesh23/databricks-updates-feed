@@ -1,0 +1,198 @@
+[
+  {
+    "id": "8463d57354d373a1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.5 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#databricks-runtime-75-ga",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ee26c29f4e73d331",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Existing Databricks accounts migrate to E2 platform today",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#existing-databricks-accounts-migrate-to-e2-platform-today",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "43f966ceba56e11b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs API now supports updating existing jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#jobs-api-now-supports-updating-existing-jobs",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "626ee52756dbf822",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New global init script framework is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#new-global-init-script-framework-is-ga",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9d68413a9e1ef089",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New account console enables customers on the E2 platform to create and manage multiple workspaces (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#new-account-console-enables-customers-on-the-e2-platform-to-create-and-manage-multiple-workspaces-public-preview",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c15050967701d56c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.5 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#databricks-runtime-75-beta",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "68e78b7c69dd47ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Auto-AZ: automatic selection of availability zone (AZ) when you launch clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#auto-az-automatic-selection-of-availability-zone-az-when-you-launch-clusters",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7d5d01fdfb791085",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs API end_time field now uses epoch time",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#jobs-api-end",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "acb61323bc9c9af3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Find DBFS files using new visual browser",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#find-dbfs-files-using-new-visual-browser",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6ec3510953c181c2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Visibility controls for jobs, clusters, notebooks, and other workspace objects are now enabled by default on new workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#visibility-controls-for-jobs-clusters-notebooks-and-other-workspace-objects-are-now-enabled-by-default-on-new-workspaces",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "04db6941adb6c3d1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved display of nested runs in MLflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#improved-display-of-nested-runs-in-mlflow",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d868c599004be0e1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Admins can now lock user accounts (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#admins-can-now-lock-user-accounts-public-preview",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc978753372dd43e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Updated NVIDIA driver",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#updated-nvidia-driver",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3ef4e3f0d15d1f58",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use your own keys to secure notebooks (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/december#use-your-own-keys-to-secure-notebooks-public-preview",
+    "published": "2020-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

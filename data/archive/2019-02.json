@@ -1,0 +1,72 @@
+[
+  {
+    "id": "c602086fe22a56eb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Managed MLflow on Databricks Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/february#managed-mlflow-on-databricks-public-preview",
+    "published": "2019-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2019.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "81e587b4d77b5c1f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Azure Data Lake Storage connector is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/february#azure-data-lake-storage-connector-is-generally-available",
+    "published": "2019-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2019.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "619de372d61503a2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python 3 now the default when you create clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/february#python-3-now-the-default-when-you-create-clusters",
+    "published": "2019-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "497ec022ca3b4f32",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Additional cluster instance types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/february#additional-cluster-instance-types",
+    "published": "2019-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6c9752afdfcd8fa3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Lake generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/february#delta-lake-generally-available",
+    "published": "2019-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2019.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

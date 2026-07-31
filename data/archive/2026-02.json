@@ -1,0 +1,646 @@
+[
+  {
+    "id": "7ffb856b43141d10",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ISMAP compliance support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#ismap-compliance-support",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6e19532e0b202c7a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "HITRUST compliance controls (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#hitrust-compliance-controls-public-preview",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "29f197706883135d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (02/26)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#databricks-runtime-maintenance-updates-0226",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "24f23f60af821bdc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python unit testing in the workspace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#python-unit-testing-in-the-workspace",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0bdf9a75d72c6778",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless outbound IPs available through public JSON endpoint (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#serverless-outbound-ips-available-through-public-json-endpoint-public-preview",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8f9a86a54fc93fcc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC Driver renamed from Simba Spark ODBC Driver",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#databricks-odbc-driver-renamed-from-simba-spark-odbc-driver",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f6f11e5a1c21a474",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-5.3 Codex now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#openai-gpt-53-codex-now-available-as-a-databricks-hosted-model",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c4668c19861e8816",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "COMMENT ON streaming tables is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#comment-on-streaming-tables-is-now-ga",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a52058b18c946dc7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Personal access tokens preserved when CAN USE permission is revoked",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#personal-access-tokens-preserved-when-can-use-permission-is-revoked",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0d0c2d083021f300",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "JAR tasks on serverless compute is now in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#jar-tasks-on-serverless-compute-is-now-in-public-preview",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b4de18f31cfc6569",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ADBC driver is now the default driver for new Power BI connections",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#adbc-driver-is-now-the-default-driver-for-new-power-bi-connections",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "534b6813d8346c83",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 3.1 Pro Preview now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#google-gemini-31-pro-preview-now-available-as-a-databricks-hosted-model",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "437005bfc01a8fda",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (02/19)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#databricks-runtime-maintenance-updates-0219",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "eb03b9dcd6aa3c5b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "TikTok Ads connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#tiktok-ads-connector-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4a45fd1959101f29",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Discover page and domains (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#discover-page-and-domains-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8792d90773193177",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Scoped personal access tokens (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#scoped-personal-access-tokens-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d6c1d9a4df340304",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Qwen3-Embedding-0.6B now available in Public Preview as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#qwen3-embedding-06b-now-available-in-public-preview-as-a-databricks-hosted-model",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6c132968926a6745",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Sonnet 4.6 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#anthropic-claude-sonnet-46-now-available-as-a-databricks-hosted-model",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cca13e8c001d0826",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 18.1 and Databricks Runtime 18.1 ML are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#databricks-runtime-181-and-databricks-runtime-181-ml-are-in-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8044725127f46b80",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Gateway (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#ai-gateway-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e6644fdf3fb59657",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "File events enabled by default on new external locations",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#file-events-enabled-by-default-on-new-external-locations",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fea4fba719b32485",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "HubSpot connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#hubspot-connector-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5eecb856762a720c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure default Python package repositories for Spark Declarative Pipelines on Lakeflow (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#configure-default-python-package-repositories-for-spark-declarative-pipelines-on-lakeflow-public-preview",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a6d99d4030d09835",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Supervisor Agent is now Generally Available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#supervisor-agent-is-now-generally-available",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "94ab6c1a3446001c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New documentation for authoring and deploying agents on Databricks Apps",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#new-documentation-for-authoring-and-deploying-agents-on-databricks-apps",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9c1db59d11cdbed8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deploy Databricks apps from Git repositories (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#deploy-databricks-apps-from-git-repositories-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "14ed41925ffa915c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Query tags for SQL warehouses (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#query-tags-for-sql-warehouses-public-preview",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2f067363ca7d706a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Agent Bricks: Multi-Agent Supervisor is now Supervisor Agent",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#agent-bricks-multi-agent-supervisor-is-now-supervisor-agent",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6e4245df6ab0740f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Ads connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#google-ads-connector-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "306d56e2638473be",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Decrypt query history system table fields (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#decrypt-query-history-system-table-fields-public-preview",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4933c8071f1717cc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Applying filters, masks, tags, and comments to pipeline-created datasets is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#applying-filters-masks-tags-and-comments-to-pipeline-created-datasets-is-now-ga",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "02c2175963042d73",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Opus 4.6 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#anthropic-claude-opus-46-now-available-as-a-databricks-hosted-model",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aafd183d0b13006b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Default SQL warehouse settings (General Availability)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#default-sql-warehouse-settings-general-availability",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7cebc9d246a4c569",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect Databricks Assistant to MCP servers",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#connect-databricks-assistant-to-mcp-servers",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6283e58261525a2a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Select tables and create pivot tables in Google Sheets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#select-tables-and-create-pivot-tables-in-google-sheets",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7a370f87df553601",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Regional model hosting for Genie Agents in Japan and Korea",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#regional-model-hosting-for-genie-agents-in-japan-and-korea",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6141719f575ed7b7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Tag Databricks Apps (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#tag-databricks-apps-public-preview",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "127fef0a0d0e089b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zendesk Support connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#zendesk-support-connector-beta",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aa407cefe84e731b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data Quality Monitoring Anomaly Detection public preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/february#data-quality-monitoring-anomaly-detection-public-preview",
+    "published": "2026-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2026.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b8048875a027f806",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: v0.12.2",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.12.2",
+    "published": "2026-02-26",
+    "first_seen": "2026-07-30",
+    "summary": "Assessment\n\nProfiler\n\n- Enhanced Synapse profiler extraction and monitoring by correctly handling batched pipeline/trigger runs, adding serverless‑pool routine listing via sys.objects, reconnecting to master for server‑level DMVs, stripping whitespace from credential fields, replacing deprecated DataFrame.union() with pd.concat(), and clarifying Azure auth, DMV permissions, and serverless catalog view behavior.\n\nAnalyzer\n\n- Added support for a new --generate-json switch to produce a JSON report alongside the existing Excel report, enabling programmatic consumption of analyzer results without changing default behavior.\n\nConverters\n\nMorpheus\n\nSnowflake\n\n-\nAdded transpilation support for seven Snowflake geospatial functions (ST_MAKEPOINT, ST_POINT, ST_X, ST_Y, ST_CENTROID, TRY_TO_GEOGRAPHY, HAVERSINE) to Databricks SQL, including SRID handling, argument normalization, and custom SQL for Haversine distance.\n\n-\nIntroduced support for Snowflake SPLIT_TO_TABLE by mapping it to Databricks POSEXPLODE(SPLIT(...)), including column renaming, regex‑safe delimiter handling, and both TABLE() and LATERAL invocation forms.\n\n-\nImplemented Snowflake JSON helpers CHECK_JSON, GET_PATH, and IFF for Databricks SQL, using TRY_PARSE_JSON‑based validation, GET_JSON_OBJECT path translation, and direct IF‑style semantics.\n\nSynapse / TSQL\n\n- Added IR support for executing stored procedures and immediate SQL strings via T‑SQL EXEC/EXECUTE, including positional and named parameters, output parameters, AS USER, and AT <data_source> constructs, plus parity tests for Snowflake EXECUTE IMMEDIATE.\n\nOther / General…",
+    "category": "Data Warehousing",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "eac81c0b2509260c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/geobrix",
+    "title": "databrickslabs/geobrix: v0.2.0",
+    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.2.0",
+    "published": "2026-02-24",
+    "first_seen": "2026-07-30",
+    "summary": "GeoBrix v0.2.0 (Beta)\n\nThis beta release standardizes APIs across Scala, Python, and SQL and includes several fixes and improvements. See the Beta Release Notes page in the docs for the full migration table.\n\nHighlights\n\n- API standardization — Function names now use a single underscore between prefix and compound (e.g. rst_boundingbox, bng_cellarea, st_legacyaswkb). Geometry-related names use _geom (e.g. bng_geomkring). SQL functions keep the gbx_ prefix (e.g. gbx_rst_boundingbox).\n\n- Python package — Imports are now databricks.labs.gbx.* (replacing geobrix.*) to align with the Scala package and published artifact.\n\n- Readers — Reader names updated for consistency (e.g. shapefile_ogr, geojson_ogr, gpkg_ogr, gtiff_gdal). GDAL raster reader uses column name source (not path).\n\n- RasterX — rst_bandmetadata now requires a band argument: rst_bandmetadata(tile, band).\n\n- Fixes — BNG aggregators fixed for correct behavior with multiple partitions; improved error handling; init script updated for NumPy 2.x / GDAL compatibility.\n\nRequirements\n\n- Databricks Runtime 17.1+ (LTS recommended)\n\n- Scala 2.13, Python 3.12+\n\nFull Changelog: https://github.com/databrickslabs/geobrix/commits/v0.2.0",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/geobrix"
+    ]
+  },
+  {
+    "id": "b283434bef2f33b9",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontos",
+    "title": "databrickslabs/ontos: pre_issue_62_ui_refactor",
+    "url": "https://github.com/databrickslabs/ontos/releases/tag/pre_issue_62_ui_refactor",
+    "published": "2026-02-15",
+    "first_seen": "2026-07-30",
+    "summary": "Last commit before UI refactoring for persona-based views",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/ontos"
+    ]
+  },
+  {
+    "id": "4146f30fd4eba151",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: v0.12.1",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.12.1",
+    "published": "2026-02-12",
+    "first_seen": "2026-07-30",
+    "summary": "Synapse Profiler\n\n- Fixed several critical errors in the Synapse profiler extraction pipeline, including a type mismatch when initializing the credential manager and handling of empty or partial result sets from Spark data pools.\n\n- Added support for an env secret type in the Synapse profiler, allowing profiler configurations to resolve secrets from environment variables.\n\n- Enhanced the credential manager backing the profiler so it can resolve nested credential structures (for example, workspace config, JDBC settings, and profiler options) instead of only flat key–value maps.\n\n- Introduced recursive, type-aware resolution of dictionaries, lists, and strings in profiler-related credentials while preserving primitive values and maintaining backward compatibility with existing configurations.\n\n- Enhanced the credential manager to support nested credential structures\n\nAnalyzer\n\n- Expanded SQL parsing to cover additional TSQL constructs (including CREATE STATISTICS, THROW, and DROP TEMPORARY TABLE IF EXISTS), improving handling of error management, statistics, and temporary tables.\n\n- Fixed crashes caused by special characters in mapping names by treating them as escaped literals instead of regex symbols.\n\n- Improved reliability of MERGE into partitioned targets with enhanced handling and added test coverage.\n\n- Added Jupyter Notebook detection to the Lakebridge analyze command by mapping notebook assets to the JUPYTERNB type and updating local dev tooling ignores.\n\n- Simplified analyze filepath handling: --report-file now directly controls the Excel filename with consistent relative-path semantics, and --source-directory behavior and prompt text are aligned with the implementation.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "60dd73ad0eb4b0dc",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.13.0",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.13.0",
+    "published": "2026-02-09",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- New DQX Data Quality Dashboard (#1019). The data quality dashboard has been significantly enhanced to provide a centralized view of data quality metrics across all tables, allowing users to monitor and track data quality issues with greater ease. The dashboard now consists of three tabs - Data Quality Summary, Data Quality by Table (Time Series), and Data Quality by Table (Full Snapshot) - each catering to different monitoring scenarios, and offers customizable parameters for reporting column names and filtering tables with data quality issues. Additionally, the installation process for the dashboard has been simplified, with options to import it directly to a Workspace or deploy it automatically using the Databricks CLI.\n\n- DQX App Skeleton (#982). The DQX application (frontend and backend) has been built with a core set of features, including configuration management and AI-assisted rule generation based on natural-language input from users. A comprehensive README documents the application architecture as well as development and deployment workflows. Future versions of DQX will introduce additional functionality (loading/saving rules, rules authoring in graphical form) and provide a streamlined, user-friendly way to deploy the application directly into a Databricks workspace.\n\n- Added Decimal support to check functions and to min_max generator (#1013) (#1017). The data quality checks have been enhanced to support Python's Decimal type, in addition to int and float, for min/max validation checks, enabling proper data quality checks for decimal-precise financial and scientific data where floating-point precision issues would cause false positives.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "dfc43c9e48f5bd2b",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/sandbox",
+    "title": "databrickslabs/sandbox: conversational-agent-app/v0.1.3",
+    "url": "https://github.com/databrickslabs/sandbox/releases/tag/conversational-agent-app%2Fv0.1.3",
+    "published": "2026-02-06",
+    "first_seen": "2026-07-30",
+    "summary": "Next version of conversational-agent-app",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "databrickslabs/sandbox"
+    ]
+  },
+  {
+    "id": "e6038d8a950c0131",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: Version 0.2.12",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.12",
+    "published": "2026-02-03",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Fixed dbplyr::compute interaction for DBI backend (#184)\n\n- Added OAuth M2M support for workspace-level service principal authentication (#173, #103)\n\n- DBI connections accept http_path as an alternative to warehouse_id and extract the warehouse ID from /sql/1.0/warehouses/<id>.\n\n- Added RStudio/Positron Connections Pane support for the DBI backend.\n\n- Added DBI helpers for dbCreateTable(), dbReadTable(), and dbRemoveTable() with Id/AsIs support, plus offline tests for DBI table helpers.\n\n- Optimized SQL result fetching for single-chunk external links by using the inline link from the initial response when available.\n\n- Increment version of testthat required (>= 3.3.0)\n\nNew Contributors\n\n- @m-muecke made their first contribution in #155\n\nFull Changelog: v0.2.11...v0.2.12",
+    "category": "Data Warehousing",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "5f23dd45ffe44987",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI-generated comments (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#ai-generated-comments-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e1b7bb1107c1fcc8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks - out of order syntax highlighting",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#notebooks---out-of-order-syntax-highlighting",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "73e74795cf2fd11e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks Assistant automatically diagnoses errors",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#notebooks-assistant-automatically-diagnoses-errors",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "31281037b876f405",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Catalog Explorer improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#catalog-explorer-improvements",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e6eccf5e79b91ad3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serve multiple external models from a single model serving endpoint",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#serve-multiple-external-models-from-a-single-model-serving-endpoint",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c899e676e0285c65",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#databricks-assistant-is-now-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fab6457f6149fef5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant now gives titles to threads",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#databricks-assistant-now-gives-titles-to-threads",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f69ba318593397a8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless notebooks environment manager",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#serverless-notebooks-environment-manager",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8c2ab66cd2e285b2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks debugging console",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#notebooks-debugging-console",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d5162c2b75fa5db2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Quickly add a periodic schedule to a Databricks workflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#quickly-add-a-periodic-schedule-to-a-databricks-workflow",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3beda76de1efcdb2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Emergency access for single sign-on GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#emergency-access-for-single-sign-on-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c1729e96f5b6b695",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.3 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#databricks-runtime-153-is-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "233230a5dbd56c71",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Geos is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#databricks-geos-is-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "019e1da40105a1e2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New improved catalog creation UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#new-improved-catalog-creation-ui",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5e2f115c17e05eeb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The billing system tables are enabled by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#the-billing-system-tables-are-enabled-by-default",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "adb76d6c624fc254",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse Monitoring is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#lakehouse-monitoring-is-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "16489738155c64a4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Volume sharing using Delta Sharing is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#volume-sharing-using-delta-sharing-is-now-generally-available",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aab1b7d0cec2da59",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create budgets to monitor account spending (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#create-budgets-to-monitor-account-spending-public-preview",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4ce9a1b6319549c5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Importable cost management dashboard added to account console (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#importable-cost-management-dashboard-added-to-account-console-public-preview",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "70482101c4c8d4a0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified login is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#unified-login-is-now-generally-available",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "112ef7331797f36d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Customer managed keys (CMK) for Databricks Vector Search are now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#customer-managed-keys-cmk-for-databricks-vector-search-are-now-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c0966485eb8c8063",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Agent Framework (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#mosaic-ai-agent-framework-public-preview",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e172946b8771d157",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Predictive optimization is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#predictive-optimization-is-now-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d9de84b465df6c65",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Route optimization is available for serving endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#route-optimization-is-available-for-serving-endpoints",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c6862c078c545139",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Column mapping is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#column-mapping-is-now-ga",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d9a2659e06fca99f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workflow system tables are now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#workflow-system-tables-are-now-available-public-preview",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "921eafa799d03e13",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Function calling is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#function-calling-is-public-preview",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "93d9667b24f4abba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Query a vector search index using vector_search()",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#query-a-vector-search-index-using-vector",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "652b336e76a8acd4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Vector Search now supports hybrid search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#mosaic-ai-vector-search-now-supports-hybrid-search",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "02cd50ae5048fa8c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GTE is now supported in Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#gte-is-now-supported-in-model-serving",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a9ee67fd24236619",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Route optimized serving endpoints enforce network restrictions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#route-optimized-serving-endpoints-enforce-network-restrictions",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ba8b26c2ec393fef",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant: Threads & queries experience enabled by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#databricks-assistant-threads--queries-experience-enabled-by-default",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a26b2c571601bf91",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New entry points for in-product help",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#new-entry-points-for-in-product-help",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c5e3b66e94bd2192",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved notebook Markdown editor",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#improved-notebook-markdown-editor",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e61a841adba36eb3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Quickly access Catalog Explorer tables from notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#quickly-access-catalog-explorer-tables-from-notebooks",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "322091973b82a67f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.8.2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#databricks-odbc-driver-282",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "575ee19291945cc4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The new Databricks Notebook UI is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/june#the-new-databricks-notebook-ui-is-now-generally-available",
+    "published": "2024-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e56c329f706fe373",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbldatagen",
+    "title": "databrickslabs/dbldatagen: release 0.4.0",
+    "url": "https://github.com/databrickslabs/dbldatagen/releases/tag/release%2Fv0.4.0",
+    "published": "2024-06-07",
+    "first_seen": "2026-07-30",
+    "summary": "This release adds the following new features:\n\n- various bug fixes\n\n- support for Constraints\n\n- support for standard datasets\n\nThe new standard dataset feature allows creation of synthetic data sets in just a couple of lines of code for benchmarking / optimization and other purposes",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbldatagen"
+    ]
+  }
+]

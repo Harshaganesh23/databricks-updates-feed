@@ -1,0 +1,226 @@
+[
+  {
+    "id": "d2243f80ecc575fb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enhanced notifications for your Databricks jobs (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#enhanced-notifications-for-your-databricks-jobs-public-preview",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "52e233b35deaa74c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 12.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#databricks-runtime-120-beta",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "161e616910a324a5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Upload data UI can now be disabled via admin settings",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#upload-data-ui-can-now-be-disabled-via-admin-settings",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d531449c8374f313",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect support for Unity Catalog is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#partner-connect-support-for-unity-catalog-is-ga",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f5add36ec6d0002d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Work with large repositories with Sparse Checkout",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#work-with-large-repositories-with-sparse-checkout",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f671b11e6c36669b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.6.5",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#databricks-terraform-provider-updated-to-version-165",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "95c34a677d24ea27",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to versions 1.6.3 and 1.6.4",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#databricks-terraform-provider-updated-to-versions-163-and-164",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e42d7ab9eeeb678c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Specify a cloud storage location for Unity Catalog managed tables at the catalog and schema levels",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#specify-a-cloud-storage-location-for-unity-catalog-managed-tables-at-the-catalog-and-schema-levels",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ea587362f856a419",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Access recent objects from the search field in the top bar of your workspace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#access-recent-objects-from-the-search-field-in-the-top-bar-of-your-workspace",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "387202b39bb71e96",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create or modify table from file upload page now supports multiple files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#create-or-modify-table-from-file-upload-page-now-supports-multiple-files",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2b3c43cc0b3b714b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create or modify table from file upload page now supports overwrite",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#create-or-modify-table-from-file-upload-page-now-supports-overwrite",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a7c2d75201f6e38a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Search for jobs by name with the Jobs API 2.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#search-for-jobs-by-name-with-the-jobs-api-21",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1b93b904663de17c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.6.2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#databricks-terraform-provider-updated-to-version-162",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c4cbec90aa796f47",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Search for tables in Unity Catalog is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/november#search-for-tables-in-unity-catalog-is-ga",
+    "published": "2022-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4bd9f1eb712ab540",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tika-ocr",
+    "title": "databrickslabs/tika-ocr: tika-ocr-0.1.2",
+    "url": "https://github.com/databrickslabs/tika-ocr/releases/tag/tika-ocr-0.1.2",
+    "published": "2022-11-01",
+    "first_seen": "2026-07-30",
+    "summary": "[maven-release-plugin] copy for tag tika-ocr-0.1.2",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tika-ocr"
+    ]
+  },
+  {
+    "id": "162bad8f4e1bbeca",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tika-ocr",
+    "title": "databrickslabs/tika-ocr: tika-ocr-0.1.0",
+    "url": "https://github.com/databrickslabs/tika-ocr/releases/tag/tika-ocr-0.1.0",
+    "published": "2022-11-01",
+    "first_seen": "2026-07-30",
+    "summary": "[maven-release-plugin] copy for tag tika-ocr-0.1.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tika-ocr"
+    ]
+  }
+]

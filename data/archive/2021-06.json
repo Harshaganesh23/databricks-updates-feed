@@ -1,0 +1,338 @@
+[
+  {
+    "id": "ffe267ef5c50d4dc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Correction: Repos for Git is enabled by default in new and existing workspaces in some regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#correction-repos-for-git-is-enabled-by-default-in-new-and-existing-workspaces-in-some-regions",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1d4706d9d2b33d8a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Change to Feature Store permissions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#change-to-feature-store-permissions",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "428d6b737f0ebe3b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved access to results in the MLflow runs table",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#improved-access-to-results-in-the-mlflow-runs-table",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ec0acd7526f32334",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Better cost visibility for DLT",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#better-cost-visibility-for-dlt",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "60da43d2209157fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enhanced data quality constraints for DLT",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#enhanced-data-quality-constraints-for-dlt",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1f88c0310618d926",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "API changes for updating and replacing IP address lists",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#api-changes-for-updating-and-replacing-ip-address-lists",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "49b8c988e9de932e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.6.17",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#databricks-odbc-driver-2617",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0bf34292fa910733",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use an API to download usage data directly",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#use-an-api-to-download-usage-data-directly",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7184f2b1bdd19da9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.5 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#databricks-runtime-75-series-support-ends",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e4d46a676335cd26",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Optimize performance and control costs by using different pools for the driver node and worker nodes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#optimize-performance-and-control-costs-by-using-different-pools-for-the-driver-node-and-worker-nodes",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fb0b46d10ea22730",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Photon runtimes now support i3.xlarge instances (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#photon-runtimes-now-support-i3xlarge-instances-public-preview",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b8b313bbfdad3f36",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Registry-wide permissions for Model Registry",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#registry-wide-permissions-for-model-registry",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cb7a9bcb81cb8539",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "A user's home directory is no longer protected when you delete a user using the SCIM API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#a-users-home-directory-is-no-longer-protected-when-you-delete-a-user-using-the-scim-api",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fceb2d07f80ee2af",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Accelerate SQL workloads with Photon (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#accelerate-sql-workloads-with-photon-public-preview",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8a8dcf808fef077b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.3 and 8.3 ML are GA; 8.3 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#databricks-runtime-83-and-83-ml-are-ga-83-photon-is-public-preview",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cfc081840b756f87",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python and SQL table access control (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#python-and-sql-table-access-control-ga",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5a0ca5a97e6ece70",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs UI and API now show the owner of a job run",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#jobs-ui-and-api-now-show-the-owner-of-a-job-run",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1ec0bf10999cf355",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Protect sensitive Spark configuration properties and environment variables using secrets (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#protect-sensitive-spark-configuration-properties-and-environment-variables-using-secrets-public-preview",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "98b3c7fa85d79028",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Repos for Git is enabled by default in new and existing workspaces in some regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#repos-for-git-is-enabled-by-default-in-new-and-existing-workspaces-in-some-regions",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dc5a24077952f770",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Redesigned Workspace Settings UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#redesigned-workspace-settings-ui",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4d7386d59b1a00bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Updates to ListTokens and ListAllTokens database queries expired tokens",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#updates-to-listtokens-and-listalltokens-database-queries-expired-tokens",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d3879acdb6ea28c4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Confirmation now required when granting or revoking Admin permissions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#confirmation-now-required-when-granting-or-revoking-admin-permissions",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dc5a747240c0cb3c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Changes to keyboard shortcuts in the web UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/june#changes-to-keyboard-shortcuts-in-the-web-ui",
+    "published": "2021-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1f2af7234c432b0e",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/feature-factory",
+    "title": "databrickslabs/feature-factory: 0.12.7",
+    "url": "https://github.com/databrickslabs/feature-factory/releases/tag/v0.12.7",
+    "published": "2021-06-22",
+    "first_seen": "2026-07-30",
+    "summary": "Periodic License, security, tests review.\n\nUpgraded to Databricks 7.3 LTS python version, 3.7.5",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/feature-factory"
+    ]
+  }
+]

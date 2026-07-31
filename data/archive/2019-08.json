@@ -1,0 +1,86 @@
+[
+  {
+    "id": "4ad28bc91efed6e2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace library installation enhancement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/august#workspace-library-installation-enhancement",
+    "published": "2019-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b9c7637294a9e096",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Clusters UI now reflects more consistent interactive and automated cluster terminology",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/august#clusters-ui-now-reflects-more-consistent-interactive-and-automated-cluster-terminology",
+    "published": "2019-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2709d4e1c5f3f487",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.5 and Databricks Runtime 5.5 ML are LTS",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/august#databricks-runtime-55-and-databricks-runtime-55-ml-are-lts",
+    "published": "2019-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b3506958f380bbe9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Instance allocation notifications for pools",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/august#instance-allocation-notifications-for-pools",
+    "published": "2019-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "09205ed13d445117",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New cluster events",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/august#new-cluster-events",
+    "published": "2019-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f33b598e459c7d64",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/august#mlflow-updates",
+    "published": "2019-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2019.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

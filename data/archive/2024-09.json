@@ -1,0 +1,324 @@
+[
+  {
+    "id": "a744fb959c9b96a1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.1 405B Instruct now supported on Databricks Function Calling",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#meta-llama-31-405b-instruct-now-supported-on-databricks-function-calling",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3bf17eff16121f69",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "vector_search() now available to all customers (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#vector",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2b3a4977a8bbdca3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External models now supports instance profiles for Amazon Bedrock",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#external-models-now-supports-instance-profiles-for-amazon-bedrock",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3e2bf92b945969d4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Emergency access no longer requires single sign-on",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#emergency-access-no-longer-requires-single-sign-on",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6707298a6759c4c1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.2 3B and 1B models are supported in Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#meta-llama-32-3b-and-1b-models-are-supported-in-model-serving",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e5d2040da065009a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.2 3B and 1B models are supported in Foundation Model Fine-tuning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#meta-llama-32-3b-and-1b-models-are-supported-in-foundation-model-fine-tuning",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3193974a84034c7e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Publish to Power BI is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#publish-to-power-bi-is-now-generally-available",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4df8dd1806fab24f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use @ to reference tables in Databricks Assistant prompts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#use--to-reference-tables-in-databricks-assistant-prompts",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7b6c7777ced896d7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Prototype and export tool-calling AI agents in AI Playground",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#prototype-and-export-tool-calling-ai-agents-in-ai-playground",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8278a772ef9b5a54",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Control external access to data in Unity Catalog using the new EXTERNAL USE SCHEMA privilege",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#control-external-access-to-data-in-unity-catalog-using-the-new-external-use-schema-privilege",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6ff3f0d542c1aec5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GTE v1.5 (English) embedding models are now supported in Foundation Model API provisioned throughput",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#gte-v15-english-embedding-models-are-now-supported-in-foundation-model-api-provisioned-throughput",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d6d2a74b1b5c8bee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant Quick Fix debugs code inline",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#databricks-assistant-quick-fix-debugs-code-inline",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a4d7d674a1c07816",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Gateway is now Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#ai-gateway-is-now-public-preview",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "09b85c549fbf8d88",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.1 70B and 8B models supported in Foundation Model Fine-tuning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#meta-llama-31-70b-and-8b-models-supported-in-foundation-model-fine-tuning",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "78c1fe864fd29377",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Extended AI-generated comments support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#extended-ai-generated-comments-support",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3316a362d21807fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor clean room usage in the billable usage table",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#monitor-clean-room-usage-in-the-billable-usage-table",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cdb01c2c652c37a7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks extension for Visual Studio Code is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#databricks-extension-for-visual-studio-code-is-ga",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6b8ef251dda933bd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Function calling is now supported on Foundation Model APIs provisioned throughput",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#function-calling-is-now-supported-on-foundation-model-apis-provisioned-throughput",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d874f604c0a4f9ea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Foundation Model APIs pay-per-token available in eu-central-1 and eu-west-1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#foundation-model-apis-pay-per-token-available-in-eu-central-1-and-eu-west-1",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0c65e1daca830129",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "System tables are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/september#system-tables-are-now-generally-available",
+    "published": "2024-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "191aabb40781ce52",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.12.1",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.12.1",
+    "published": "2024-09-26",
+    "first_seen": "2026-07-30",
+    "summary": "- Bump actions/checkout from 4.1.7 to 4.2.0 (#295). In this version 4.2.0 release of the actions/checkout library, the team has added Ref and Commit outputs, which provide the ref and commit that were checked out, respectively. The update also includes dependency updates to braces, minor-npm-dependencies, docker/build-push-action, and docker/login-action, all of which were automatically resolved by Dependabot. These updates improve compatibility and stability for users of the library. This release is a result of contributions from new team members @yasonk and @lucacome. Users can find a detailed commit history, pull requests, and release notes in the associated links. The team strongly encourages all users to upgrade to this new version to access the latest features and improvements.…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "f421f8b51985a821",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.12.0",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.12.0",
+    "published": "2024-09-19",
+    "first_seen": "2026-07-30",
+    "summary": "- Added method to detect rows are written to the MockBackend (#292). In this commit, the MockBackend class in the 'backends.py' file has been updated with a new method, 'has_rows_written_for', which allows for differentiation between a table that has never been written to and one with zero rows. This method checks if a specific table has been written to by iterating over the table stubs in the _save_table attribute and returning True if the given full name matches any of the stub full names. Additionally, the class has been supplemented with the rows_written_for method, which takes a table name and mode as input and returns a list of rows written to that table in the given mode. Furthermore, several new test cases have been added to test the functionality of the MockBackend class, including checking if the has_rows_written_for method correctly identifies when there are no rows written, when there are zero rows written, and when rows are written after the first and second write operations. These changes improve the overall testing coverage of the project and aid in testing the functionality of the MockBackend class. The new methods are accompanied by documentation strings that explain their purpose and functionality.\n\nContributors: @JCZuurmond",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "7eec2471bac6493e",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.11.0",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.11.0",
+    "published": "2024-09-18",
+    "first_seen": "2026-07-30",
+    "summary": "- Added filter spec implementation (#276). In this commit, a new FilterHandler class has been introduced to handle filter files with the suffix .filter.json, which can parse filter specifications in the header of the filter file and validate the filter columns and types. The commit also adds support for three types of filters: DATE_RANGE_PICKER, MULTI_SELECT, and DROPDOWN, which can be linked with multiple visualization widgets. Additionally, a FilterTile class has been added to the Tile class, which represents a filter tile in the dashboard and includes methods to validate the tile, create widgets, and generate filter encodings and queries. The DashboardMetadata class has been updated to include a new method get_datasets() to retrieve the datasets for the dashboard. These changes enhance the functionality of the dashboard by adding support for filtering data using various filter types and linking them with multiple visualization widgets, improving the customization and interactivity of the dashboard, and making it more user-friendly and efficient.…",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  }
+]

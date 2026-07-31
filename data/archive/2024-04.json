@@ -1,0 +1,380 @@
+[
+  {
+    "id": "e0e8a776dcb16df6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.1 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#databricks-runtime-151-is-ga",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "deee817f04610a65",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant: Threads & history",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#databricks-assistant-threads--history",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aee5f619321a6a12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cancel pending serving endpoint updates in Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#cancel-pending-serving-endpoint-updates-in-model-serving",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fca8e77bc3bf6e37",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data lineage now captures reads on tables with column masks and row-level security",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#data-lineage-now-captures-reads-on-tables-with-column-masks-and-row-level-security",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "eb76db5a398b7bfe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3 is supported in Model Serving for AWS",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#meta-llama-3-is-supported-in-model-serving-for-aws",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e97bbacccc97e063",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks now automatically detect SQL",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#notebooks-now-automatically-detect-sql",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d316edc254c9d66b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New columns added to the billable usage system table (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#new-columns-added-to-the-billable-usage-system-table-public-preview",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "08130366af6cf2a8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing supports tables that use column mapping (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#delta-sharing-supports-tables-that-use-column-mapping-public-preview",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "949488efa7bb990b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Get serving endpoint schemas (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#get-serving-endpoint-schemas-public-preview",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9e9412b478965cd6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Creation and installation of workspace libraries is no longer available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#creation-and-installation-of-workspace-libraries-is-no-longer-available",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "45aa7db77fbe1ced",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs created through the UI are now queued by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#jobs-created-through-the-ui-are-now-queued-by-default",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "963322294637e536",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configuring access to resources from serving endpoints is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#configuring-access-to-resources-from-serving-endpoints-is-ga",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "998cac19b5abf26c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute for workflows is in public preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#serverless-compute-for-workflows-is-in-public-preview",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "26ff782f26aab2f6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse Federation supports foreign tables with case-sensitive identifiers",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#lakehouse-federation-supports-foreign-tables-with-case-sensitive-identifiers",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ed53851c82111384",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compute cloning now clones any libraries installed on the original compute",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#compute-cloning-now-clones-any-libraries-installed-on-the-original-compute",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5facda8310258bfc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Route optimization is available for serving endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#route-optimization-is-available-for-serving-endpoints",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a505ca382c7ee4d3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT notebook developer experience improvements (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#dlt-notebook-developer-experience-improvements-public-preview",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "70c2eca0eb177b0e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks on AWS GovCloud (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/april#databricks-on-aws-govcloud-public-preview",
+    "published": "2024-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "868e959f80de6740",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pylint-plugin",
+    "title": "databrickslabs/pylint-plugin: v0.4.0",
+    "url": "https://github.com/databrickslabs/pylint-plugin/releases/tag/v0.4.0",
+    "published": "2024-04-26",
+    "first_seen": "2026-07-30",
+    "summary": "- Added checks for missing mock usage (#44). This change introduces new checks to a PyLint plugin for use with Databricks, specifically targeting the usage of mock objects in Python code. Two new checks, R8921 and R8922, have been developed to ensure the proper assignment and utilization of mock objects. R8921 checks for instances where a mock object is not assigned to a variable, suggesting an assignment to enable assertions. R8922 checks for situations where a mock object is used after creation, recommending an assertion, return value, or side effect for correct usage. To disable these checks on specific lines, users can add comments # pylint: disable=mock-no-assign or # pylint: disable=mock-no-usage. The commit also includes documentation and examples to guide users in implementing and disabling these checks, enhancing the overall quality and reliability of the code.\n\nContributors: @nfx",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/pylint-plugin"
+    ]
+  },
+  {
+    "id": "b9c027a8eae812c0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.27",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.27",
+    "published": "2024-04-22",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Update LICENSE by @nfx in #366\n\n- Api-reference docs compile by @josh-melton-db in #374\n\n- Enhancements to Intervals - make_disjoint and init by @R7L208 in #351\n\n- Test code and version support update by @jtisbell4 in #378\n\n- Revert \"Test code and version support update\" by @tnixon in #386\n\n- Added tokei.rs badge by @nfx in #388\n\n- fix timestamp col type checking by @tnixon in #398\n\n- Issue397 with range stats not recog timestamp by @tnixon in #400\n\nNew Contributors\n\n- @josh-melton-db made their first contribution in #374\n\n- @jtisbell4 made their first contribution in #378\n\nFull Changelog: v0.1.26...v0.1.27",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  },
+  {
+    "id": "175a09e7a46b58bf",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pylint-plugin",
+    "title": "databrickslabs/pylint-plugin: v0.3.0",
+    "url": "https://github.com/databrickslabs/pylint-plugin/releases/tag/v0.3.0",
+    "published": "2024-04-22",
+    "first_seen": "2026-07-30",
+    "summary": "- Added integration with eradicate to highlight dead code (#39). This release integrates the eradicate project, a tool for identifying dead code in Python, into the project's code analysis and testing workflow. This integration will help enforce dead code removal, improve code quality, and make debugging easier by identifying and highlighting dead code. The C8920 check in the Pylint plugin reports any commented out code, and it can be disabled on a specific line by adding # pylint: disable=dead-code at the end of it.\n\nContributors: @nfx",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/pylint-plugin"
+    ]
+  },
+  {
+    "id": "12f70cae09a12517",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pylint-plugin",
+    "title": "databrickslabs/pylint-plugin: v0.2.0",
+    "url": "https://github.com/databrickslabs/pylint-plugin/releases/tag/v0.2.0",
+    "published": "2024-04-19",
+    "first_seen": "2026-07-30",
+    "summary": "- Added documentation on how to enable specific checkers and how to silence specific warnings (#37). The latest release introduces new documentation in the README file for enabling specific checkers and disabling specific warnings for the pylint plugin for Databricks. The plugin offers checkers such as databricks-airflow, databricks-dbutils, databricks-legacy, databricks-notebooks, spark, and mocking, each with unique checks and codes. Users can use these checkers by adding the corresponding module name to the load-plugins configuration in their pylintrc or pyproject.toml file. The release also explains how to disable certain checks on specific lines using a comment with the disable directive followed by the corresponding symbol. Additionally, it includes information on how to use the Databricks SDK instead of internal APIs, legacy CLI, and dbutils. The docs.py script has also been updated with the new instructions on how to enable or disable specific checkers and warnings.\n\nContributors: @nfx",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/pylint-plugin"
+    ]
+  },
+  {
+    "id": "1fc6063e9c7c3c15",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pylint-plugin",
+    "title": "databrickslabs/pylint-plugin: v0.1.1",
+    "url": "https://github.com/databrickslabs/pylint-plugin/releases/tag/v0.1.1",
+    "published": "2024-04-17",
+    "first_seen": "2026-07-30",
+    "summary": "- Fixed ToC for mocking checker (#29). In this release, we have made significant improvements to the mocking checker in our open-source library, which is specifically designed for identifying common mistakes and issues in Spark code written in Python. We have added two new rules, R8918: explicit-dependency-required and R8919: obscure-mock, which respectively check for the requirement of explicit dependencies and the use of obscure mocks. This update enhances the accuracy and quality of the code review process for Spark code written in Python, ensuring that the code meets the highest standards of quality and reliability. Additionally, we have fixed an issue in the Table of Contents (ToC) for the mocking checker, making it easier for users to navigate and utilize this feature.\n\n- Fixed project urls for PyPI (#32). In this release, the pyproject.toml configuration file for the Python project has been updated to fix project URLs for PyPI. Specifically, the URLs for the Issues and Source fields have been changed from \"https://github.com/databrickslabs/pylint/issues\" and \"https://github.com/databrickslabs/pylint\" to \"https://github.com/databrickslabs/pylint-plugin/issues\" and \"https://github.com/databrickslabs/pylint-plugin\", respectively. This modification ensures that users can correctly report issues and access the source code for the pylint-plugin project on GitHub. The rest of the file remains unchanged. This enhancement provides a seamless experience for users who want to contribute to the project or seek support for any issues they encounter.…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/pylint-plugin"
+    ]
+  },
+  {
+    "id": "2c1da0f8991acc30",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pylint-plugin",
+    "title": "databrickslabs/pylint-plugin: v0.1.0",
+    "url": "https://github.com/databrickslabs/pylint-plugin/releases/tag/v0.1.0",
+    "published": "2024-04-16",
+    "first_seen": "2026-07-30",
+    "summary": "- Added checks for mocking best practices (#27). A new mocking checker has been added to the pylint plugin for Databricks to improve the quality of unit tests by enforcing best practices in mocking. This checker introduces two rules: explicit-dependency-required and obscure-mock. The explicit-dependency-required rule encourages injecting dependencies through constructors instead of using mock.patch, promoting code readability, maintainability, and dependency inversion for unit testing. The obscure-mock rule recommends using create_autospec(ConcreteType) over MagicMock to create mock objects that behave like concrete classes, resulting in more robust and maintainable unit tests. These rules can be configured to specify package names containing project code. This addition helps developers create reliable, maintainable, and testable code by adhering to recommended mocking practices.\n\nContributors: @nfx",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/pylint-plugin"
+    ]
+  },
+  {
+    "id": "cd3a7fc0863b0140",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pylint-plugin",
+    "title": "databrickslabs/pylint-plugin: v0.0.1",
+    "url": "https://github.com/databrickslabs/pylint-plugin/releases/tag/v0.0.1",
+    "published": "2024-04-16",
+    "first_seen": "2026-07-30",
+    "summary": "Initial public release\n\nContributors:",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/pylint-plugin"
+    ]
+  },
+  {
+    "id": "5d7d4d351a7d025c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dlt-meta",
+    "title": "databrickslabs/dlt-meta: v0.0.7",
+    "url": "https://github.com/databrickslabs/dlt-meta/releases/tag/v0.0.7",
+    "published": "2024-04-15",
+    "first_seen": "2026-07-30",
+    "summary": "Enhancement\n\n1. Mismatched Keys: Update read_dlt_delta() with key \"source_database\" instead of \"database\" #33\n\n2. Create dlt-meta cli documentation #45\n\n- Readme and docs to include above features",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/dlt-meta"
+    ]
+  },
+  {
+    "id": "5c8b4f04bf95fa54",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tika-ocr",
+    "title": "databrickslabs/tika-ocr: tika-ocr-0.1.6",
+    "url": "https://github.com/databrickslabs/tika-ocr/releases/tag/tika-ocr-0.1.6",
+    "published": "2024-04-03",
+    "first_seen": "2026-07-30",
+    "summary": "[maven-release-plugin] copy for tag tika-ocr-0.1.6",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tika-ocr"
+    ]
+  }
+]

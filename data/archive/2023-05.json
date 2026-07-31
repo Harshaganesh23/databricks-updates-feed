@@ -1,0 +1,478 @@
+[
+  {
+    "id": "8b6e380cfabad836",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.24: Update AS OF Join Optimization for Delta Live tables",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.24",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Currently, tempo uses the underlying jvm objects to detect the size of the data frames in memory. This is not compatible with Delta Live Tables so we have updated the logic to skip the optimization and checks if not using the SQL optimization for small tables.\n\nWhat's Changed\n\n- Update asofjoin tolerance tests to ensure inclusive range by @nina-hu in #316\n\n- Tox support by @R7L208 in #318\n\n- [Tox Support] Additional Changes for tox default environment name for type checking and flake8 configuration by @R7L208 in #321\n\n- Update tolerance type by @nina-hu in #323\n\n- Update AS OF join to avoid get plan bytes logic by @rportilla-databricks in #334\n\n- [mypy, coverage] Complete Type Checking for the Project and updates to Coverage configuration by @R7L208 in #324\n\nFull Changelog: v0.1.23...v0.1.24",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  },
+  {
+    "id": "16cb9bf98236f510",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create or modify table UI supports Avro, Parquet, and text file uploads",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#create-or-modify-table-ui-supports-avro-parquet-and-text-file-uploads",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a441e343495c58e4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use the add data UI to load data using Unity Catalog external locations (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#use-the-add-data-ui-to-load-data-using-unity-catalog-external-locations-public-preview",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "37e29ac86c5880e6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Run Databricks notebooks on SQL warehouses (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#run-databricks-notebooks-on-sql-warehouses-public-preview",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a86323c36ff97583",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Prevent Enter key from accepting autocomplete suggestion",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#prevent-enter-key-from-accepting-autocomplete-suggestion",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "59db61220eb7c2fa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.17.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#databricks-terraform-provider-updated-to-version-1170",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "115c9f29aae7e0ba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Upload data UI supports new column data types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#upload-data-ui-supports-new-column-data-types",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f86e53dc5e861d45",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure your workspace to use IMDS v2 (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#configure-your-workspace-to-use-imds-v2-ga",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "28019d2c16553785",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "M7g and R7g Graviton3 instances are now supported on Databricks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#m7g-and-r7g-graviton3-instances-are-now-supported-on-databricks",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f659101841af2d1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bind Unity Catalog catalogs to specific workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#bind-unity-catalog-catalogs-to-specific-workspaces",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "009100155f13df08",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "All users can connect to Fivetran using Partner Connect (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#all-users-can-connect-to-fivetran-using-partner-connect-public-preview",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e0c1339eb2eb7d85",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Authentication using OAuth tokens for service principals (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#authentication-using-oauth-tokens-for-service-principals-public-preview",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f31879707217ef20",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Schedule automatic cluster update (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#schedule-automatic-cluster-update-public-preview",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6a98e5aeec4b5c40",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.16.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#databricks-terraform-provider-updated-to-version-1161",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f4ec818df0b7cb57",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.33",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#databricks-jdbc-driver-2633",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "32ab82452d77667a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect supports Alation",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#partner-connect-supports-alation",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ba51ef165830561a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New default theme for editor",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#new-default-theme-for-editor",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8009ff44cc862829",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.16.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#databricks-terraform-provider-updated-to-version-1160",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5a97b7b4c2f507e0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New region: Europe (Paris)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#new-region-europe-paris",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "06e7c55ad9cb82f1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compliance security profile now supports more EC2 instance types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#compliance-security-profile-now-supports-more-ec2-instance-types",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "313499d498e7055e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 13.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#databricks-runtime-131-beta",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5a16d66ac64f0c94",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Run file-based SQL queries in a Databricks workflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#run-file-based-sql-queries-in-a-databricks-workflow",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "59aa13f5bdd67743",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.15.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#databricks-terraform-provider-updated-to-version-1150",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ba97c46e976fbeee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account nicknames now available in the account console",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#account-nicknames-now-available-in-the-account-console",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "65d2c257f90f0b70",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share notebooks using Delta Sharing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#share-notebooks-using-delta-sharing",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "af40a7acf3887a51",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deprecation of cluster-scoped init scripts on DBFS",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#deprecation-of-cluster-scoped-init-scripts-on-dbfs",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4d76874ef9b6c6d9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New region: South America (SÃ£o Paulo)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#new-region-south-america-s",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d4a98881eb483739",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified navigation (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#unified-navigation-public-preview",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7ad95cdc3f64f796",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AWS fleet instance types now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/may#aws-fleet-instance-types-now-available",
+    "published": "2023-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "640ee17751264b02",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/delta-oms",
+    "title": "databrickslabs/delta-oms: v0.7.0-rc1",
+    "url": "https://github.com/databrickslabs/delta-oms/releases/tag/v0.7.0-rc1",
+    "published": "2023-05-24",
+    "first_seen": "2026-07-30",
+    "summary": "DeltaOMS Unity Catalog Support",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/delta-oms"
+    ]
+  },
+  {
+    "id": "25837edf5751eeb5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dlt-meta",
+    "title": "databrickslabs/dlt-meta: v0.0.2",
+    "url": "https://github.com/databrickslabs/dlt-meta/releases/tag/v0.0.2",
+    "published": "2023-05-18",
+    "first_seen": "2026-07-30",
+    "summary": "v0.0.2\n\nNew Features\n\n- Table properties support for bronze, quarantine and silver tables using create_streaming_live_table api call\n\n- Support for track history column using apply_changes api\n\n- Support for delta as source\n\n- Validation for bronze/silver onboarding\n\nBug Fixes\n\n- Input schema parsing issue in onboarding\n\nUpdates\n\n- Readme and docs to include above features",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/dlt-meta"
+    ]
+  },
+  {
+    "id": "b37092eb5f31af23",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbx",
+    "title": "databrickslabs/dbx: Release v0.8.14",
+    "url": "https://github.com/databrickslabs/dbx/releases/tag/v0.8.14",
+    "published": "2023-05-11",
+    "first_seen": "2026-07-30",
+    "summary": "Release for version refs/tags/v0.8.14. Please refer to CHANGELOG.md for detailed information.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbx"
+    ]
+  },
+  {
+    "id": "dd3b51f36bced62e",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbx",
+    "title": "databrickslabs/dbx: Release v0.8.13",
+    "url": "https://github.com/databrickslabs/dbx/releases/tag/v0.8.13",
+    "published": "2023-05-10",
+    "first_seen": "2026-07-30",
+    "summary": "Release for version refs/tags/v0.8.13. Please refer to CHANGELOG.md for detailed information.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbx"
+    ]
+  },
+  {
+    "id": "0b93f282db96ffd7",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbx",
+    "title": "databrickslabs/dbx: Release v0.8.12",
+    "url": "https://github.com/databrickslabs/dbx/releases/tag/v0.8.12",
+    "published": "2023-05-06",
+    "first_seen": "2026-07-30",
+    "summary": "Release for version refs/tags/v0.8.12. Please refer to CHANGELOG.md for detailed information.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbx"
+    ]
+  }
+]

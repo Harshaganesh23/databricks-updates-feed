@@ -1,0 +1,436 @@
+[
+  {
+    "id": "7d08514b058f83ba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Additional metadata for the table tooltip in notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#additional-metadata-for-the-table-tooltip-in-notebooks",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c1cb78f567b8c094",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant can use Databricks-hosted models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#databricks-assistant-can-use-databricks-hosted-models",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a2b17fa480351a5a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "FedRAMP Moderate and PCI-DSS now support serverless compute in us-west-2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#fedramp-moderate-and-pci-dss-now-support-serverless-compute-in-us-west-2",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f8ef95345ce16218",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Emergency access for workspaces without unified login",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#emergency-access-for-workspaces-without-unified-login",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ab622255f93e9f3e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic cluster update and enhanced security and compliance UI are generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#automatic-cluster-update-and-enhanced-security-and-compliance-ui-are-generally-available",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2ba7427a701991c8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Expanded support for Python debugger in notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#expanded-support-for-python-debugger-in-notebooks",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "90d6e55f545fc35f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved web terminal experience",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#improved-web-terminal-experience",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "676adcd8f3db6d63",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Query history and query profile support for DLT",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#query-history-and-query-profile-support-for-dlt",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "503c377ce23ffd69",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Model Training rebrand",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#mosaic-ai-model-training-rebrand",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0bc8e593f655b5df",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reuse SQL outputs as _sqldf in subsequent SQL cells",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#reuse-sql-outputs-as-",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "963eb985bc1730f1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Warehouses system table is now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#warehouses-system-table-is-now-available-public-preview",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a404fadbbd4493de",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cross-platform view sharing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#cross-platform-view-sharing-public-preview",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c6d2213bd62a8f68",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Clean Rooms public preview is ungated, with new features",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#clean-rooms-public-preview-is-ungated-with-new-features",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "94c4ff8be0fcfae5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 16.0 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#databricks-runtime-160-is-ga",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f5f01bf8684d225f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Breaking change: Hosted RStudio is end-of-life",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#breaking-change-hosted-rstudio-is-end-of-life",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "68bae4af77ebcdd4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Predictive optimization enabled for all new Databricks accounts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#predictive-optimization-enabled-for-all-new-databricks-accounts",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6fb6d5037232d493",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Updated and unified read-only code blocks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#updated-and-unified-read-only-code-blocks",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "828dc4b7776a7401",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased Quick Fix recommendations",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#increased-quick-fix-recommendations",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "02a20461957fe10c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Foundation Model APIs pay-per-token available in all Model Serving supported regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#foundation-model-apis-pay-per-token-available-in-all-model-serving-supported-regions",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "34d3b074fed33705",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog-governed access to external cloud services using service credentials (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#unity-catalog-governed-access-to-external-cloud-services-using-service-credentials-public-preview",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e75c1d8e2c4bddb0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.2 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/november#databricks-runtime-142-series-support-ends",
+    "published": "2024-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dfaa75e1900413fe",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.14.1",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.14.1",
+    "published": "2024-11-19",
+    "first_seen": "2026-07-30",
+    "summary": "Release v0.14.1 (#352)\n\n* Changes to work with Databricks SDK `v0.38.0`\n\n([#350](#350)). In this\n\nrelease, we have upgraded the Databricks SDK to version 0.38.0 from\n\nversion 0.37.0 to ensure compatibility with the latest SDK and address\n\nseveral issues. The update includes changes to make the code compatible\n\nwith the new SDK version, removing the need for `.as_dict()` method\n\ncalls when creating or updating dashboards and utilizing a\n\n`sdk_dashboard` variable for interacting with the Databricks workspace.\n\nWe also updated the dependencies to \"databricks-labs-blueprint[yaml]\"\n\npackage version greater than or equal to 0.4.2 and `sqlglot` package\n\nversion greater than or equal to 22.3.1. The `test_core.py` file has\n\nbeen updated to address multiple issues\n\n([#349](#349) to\n\n[#332](#332)) related to\n\nthe Databricks SDK and the `test_dashboards.py` file has been revised to\n\nwork with the new SDK version. These changes improve integration with\n\nDatabricks' lakeview dashboards, simplify the code, and ensure\n\ncompatibility with the latest SDK version, resolving issues\n\n[#349](#349) to\n\n[#332](#332).\n\n* Specify the minimum required version of `databricks-sdk` as 0.37.0\n\n([#331](#331)). In this\n\nrelease, we have updated the minimum required version of the\n\n`databricks-sdk` package to 0.37.0 from 0.29.0 in the `pyproject.toml`\n\nfile to ensure compatibility with the latest version. This change was\n\nmade necessary due to updates made in issue\n\n[#320](#320). To\n\naccommodate any patch release of `databricks-sdk` with a major and minor\n\nversion of 0.37, we have updated the dependency constraint to use the\n\n`~=` operator, resolving issue\n\n[#330](#330). These changes\n\nare intended to enhance the compatibility and stability of our software.",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "9e248f378829148d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.29",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.29",
+    "published": "2024-11-18",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Fixed release workflows by @nfx in #416\n\nFull Changelog: v0.1.28...v0.1.29",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  },
+  {
+    "id": "0d36120646d181d9",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.28",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.28",
+    "published": "2024-11-18",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Unify PyPI releases via GitHub OIDC by @nfx in #410\n\n- CI/CD overhaul by @jtisbell4 in #403\n\n- Update Docs Dependencies by @R7L208 in #411\n\n- [GH] Decouple distribution and docs release workflows by @R7L208 in #412\n\n- adding configuration for DBR 15.4 LTS by @tnixon in #413\n\n- Timeseries split by @tnixon in #414\n\n- [Chore] Release on new tag by @tnixon in #415\n\nFull Changelog: v0.1.27...v0.1.28",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  },
+  {
+    "id": "7fa99c8db24a524f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v0.4.3",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.4.3",
+    "published": "2024-11-15",
+    "first_seen": "2026-07-30",
+    "summary": "v0.4.3 [DBR 13.3 LTS]\n\nThis release includes a number of enhancements and fixes, detailed below.\n\nRaster checkpointing functions\n\nFuse-based checkpointing for raster operations is disabled by default but can be enabled and managed through:\n\n- spark configs spark.databricks.labs.mosaic.raster.use.checkpoint and spark.databricks.labs.mosaic.raster.checkpoint.\n\n- python: mos.enable_gdal(spark, with_checkpoint_path=path).\n\n- scala: MosaicGDAL.enableGDALWithCheckpoint(spark, path).\n\nThis feature is designed to improve performance and reduce memory usage for raster operations by writing intermediate data to a fuse directory. This is particularly useful for large rasters or when working with many rasters in a single operation.\n\nEnhancements and fixes to the raster processing APIs\n\n- Added RST_Write, a function that permits writing each raster 'tile' in a DataFrame to a specified location (e.g. fuse directory) using the appropriate GDAL driver and tile data / path. This is useful for formalizing the path when writing a Lakehouse table and allows removal of interim checkpointed data.\n\n- Python bindings added for RST_Avg, RST_Max, RST_Median, RST_Min, and RST_PixelCount.\n\n- RST_PixelCount now supports optional 'countNoData' and 'countMask' parameters (defaults are false, can now be true) to optionally get full pixel counts where mask is 0.0 and noData is what is configured in the tile.\n\n- RST_Clip now exposes the GDAL Warp option CUTLINE_ALL_TOUCHED which determines whether or not any given pixel is included whether the clipping geometry crosses the centre point of the pixel (false) or any part of the pixel (true). The default is true but this is now configurable.…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "996cd780093c3929",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.5.0",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.5.0",
+    "published": "2024-11-15",
+    "first_seen": "2026-07-30",
+    "summary": "- Added make_run_as fixture (#82). A new pytest fixture, make_run_as, has been added to create an account service principal via the acc fixture and assign it to a workspace with default permissions, which is removed after the test is complete. The fixture creates a service principal with a random display name and assigns it to the workspace. Users can optionally assign the service principal to account groups for specific actions using the account_groups argument. The returned object contains properties for the workspace client, SQL backend, and SQL execution functions, as well as the display name and application ID of the ephemeral service principal. If desired, the ws fixture can be overridden to make all workspace fixtures provided by the plugin run as the ephemeral service principal, allowing for testing with lower privilege ephemeral service principals and improving security and isolation. This feature is not currently supported with Databricks Metadata Service authentication on Azure Databricks.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  },
+  {
+    "id": "2ea64ce7234b452a",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.14.0",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.14.0",
+    "published": "2024-11-15",
+    "first_seen": "2026-07-30",
+    "summary": "- Added nightly tests run at 4:45am UTC (#318). A new nightly workflow has been added to the codebase, designed to automate a series of jobs every day at 4:45am UTC on the larger environment. The workflow includes permissions for writing id-tokens, accessing issues, reading contents and pull-requests. It checks out the code with a full fetch-depth, installs Python 3.10, and uses hatch 1.9.4. The key step in this workflow is the execution of nightly tests using the databrickslabs/sandbox/acceptance action, which creates issues if necessary. The workflow utilizes several secrets, including VAULT_URI, GITHUB_TOKEN, ARM_CLIENT_ID, and ARM_TENANT_ID, and sets the TEST_NIGHTLY environment variable to true. Additionally, the workflow is part of a concurrency group called \"single-acceptance-job-per-repo\", ensuring that only one acceptance job runs at a time per repository.\n\n- Bump codecov/codecov-action from 4 to 5 (#319). In this version update, the Codecov GitHub Action has been upgraded from 4 to 5, bringing improved functionality and new features. This new version utilizes the Codecov Wrapper to encapsulate the CLI, enabling faster updates. Additionally, an opt-out feature has been introduced for tokens in public repositories, allowing contributors and other members to upload coverage reports without requiring access to the Codecov token. The upgrade also includes changes to the arguments: file is now deprecated and replaced with files, and plugin is deprecated and replaced with plugins. New arguments have been added, including binary, gcov_args, gcov_executable, gcov_ignore, gcov_include, report_type, skip_validation, and swift_project. Comprehensive documentation on these changes can be found in the release notes and changelog.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "adeead2a6c6ece86",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: v0.2.5",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.5",
+    "published": "2024-11-14",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\nNow on CRAN 🥳 🚀\n\n- Add support for Workbench managed credentials and custom .databrickscfg from DATABRICKS_CONFIG_FILE by @tnederlof in #66\n\n- Adding db_repl() a remote REPL to a Databricks cluster\n\n- Removing deprecated RStudio add-in for browsing Databricks compute\n\n- Removal of notebook_use_posit_repo() and notebook_enable_htmlwidgets() as they are incompatible with CRAN (#64)\n\n- Removing {kntir} engine due to many render edge cases not being solvable\n\n- Adding shortcuts for REPL under addins\n\n- Added db_context_command_run_and_wait\n\n- Adjusted tests to use {withr} (#68)\n\nNew Contributors\n\n- @tnederlof made their first contribution in #66\n\nFull Changelog: v0.2.4...v0.2.5",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  },
+  {
+    "id": "74d6154f2f290efd",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/blueprint",
+    "title": "databrickslabs/blueprint: v0.9.3",
+    "url": "https://github.com/databrickslabs/blueprint/releases/tag/v0.9.3",
+    "published": "2024-11-14",
+    "first_seen": "2026-07-30",
+    "summary": "- Fixed issue when Databricks SDK config objects were overridden for installation config files (#170). This commit addresses an issue where Databricks SDK config objects were being overridden during installation config files creation, which has been resolved by modifying the _marshal method in the installation class to handle databricks.sdk.core.Config instances more carefully, and by introducing a new helper function get_databricks_sdk_config in the paths.py file, which retrieves the Databricks SDK configuration and improves the reliability and robustness of the SDK configuration. This fixes bug #169 and ensures that the SDK configuration is not accidentally modified during the installation process, preventing unexpected behavior and errors. The changes are isolated to the paths.py file and do not affect other parts of the codebase.\n\nContributors: @FastLee",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/blueprint"
+    ]
+  },
+  {
+    "id": "9500a49fffc7c323",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.13.0",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.13.0",
+    "published": "2024-11-08",
+    "first_seen": "2026-07-30",
+    "summary": "- Added escape_name function to escape individual SQL names and escape_full_name function to escape dot-separated full names (#316). Two new functions, escape_name and escape_full_name, have been added to the databricks.labs.lsql.escapes module for escaping SQL names. The escape_name function takes a single name as an input and returns it enclosed in backticks, while escape_full_name handles dot-separated full names by escaping each individual component. These functions have been ported from the databrickslabs/ucx repository and are designed to provide a consistent way to escape names and full names in SQL statements, improving the robustness of the system by preventing issues caused by unescaped special characters in SQL names. The test suite includes various cases, including single names, full names with different combinations of escaped and unescaped components, and special characters, with a specific focus on the scenario where the column name contains a period.…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "a70371a761c1de04",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.4.0",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.4.0",
+    "published": "2024-11-04",
+    "first_seen": "2026-07-30",
+    "summary": "- Added Volume Fixture (#72). This commit introduces a Managed Volume fixture, make_volume, to the Unity Catalog in the test suite, facilitating the creation and use of a random volume for testing purposes. The fixture, when called without arguments, generates a volume with a random name. Alternatively, specifying the name argument creates a volume with the given name, using the MANAGED volume type, and associating it with a randomly generated catalog and schema. This promotes test isolation and prevents unintended interference. Additionally, this PR resolves issue #70 and includes unit and integration tests that have been manually verified to ensure the fixture's proper functioning. The commit also demonstrates a bug fix related to table retrieval in the test_remove_after_property_table test case.\n\nContributors: @christophergrant",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  }
+]

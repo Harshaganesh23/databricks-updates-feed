@@ -1,0 +1,156 @@
+[
+  {
+    "id": "d5c510e8e452c8b5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Libraries API supports Python wheel files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#libraries-api-supports-python-wheel-files",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1b6bf46d748cf769",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "IPython notebook export",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#ipython-notebook-export",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d48b46ed881a4f51",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New instance types (beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#new-instance-types-beta",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c7a091dad05ff359",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster mode and High Concurrency clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#cluster-mode-and-high-concurrency-clusters",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "63a0295dc3d9aeb3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Table access control",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#table-access-control",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bae51b0402722b28",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "RStudio integration",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#rstudio-integration",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "573d87bdbd84c8c7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "R Markdown support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#r-markdown-support",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "04ee5d9891b077bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Home page redesign, with ability to drop files to import data",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#home-page-redesign-with-ability-to-drop-files-to-import-data",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3c42814a6c657db9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Widget default behavior",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#widget-default-behavior",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b6e2c5c6725f870a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Table creation UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#table-creation-ui",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0570b85e4a6e62db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Multi-line JSON data import",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/july#multi-line-json-data-import",
+    "published": "2018-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

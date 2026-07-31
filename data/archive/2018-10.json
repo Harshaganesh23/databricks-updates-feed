@@ -1,0 +1,30 @@
+[
+  {
+    "id": "c198c296b853015c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SCIM provisioning using OneLogin",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/october#scim-provisioning-using-onelogin",
+    "published": "2018-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "57631fa89d7ee0b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Copy notebook file path without opening notebook",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/october#copy-notebook-file-path-without-opening-notebook",
+    "published": "2018-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

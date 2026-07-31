@@ -1,0 +1,282 @@
+[
+  {
+    "id": "c73db98ffc1356d2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Authenticate to Power BI and Tableau using OAuth",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#authenticate-to-power-bi-and-tableau-using-oauth",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9b23a5da9034cf7e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Audit logs include entries for OAuth SSO authentication to the account console (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#audit-logs-include-entries-for-oauth-sso-authentication-to-the-account-console-public-preview",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8ac3b417535095a0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account SCIM is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#account-scim-is-now-ga",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2ddc2bd925086f06",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easier creation and editing of Databricks jobs in the UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#easier-creation-and-editing-of-databricks-jobs-in-the-ui",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d26c0fce66f4ab2f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improvements to the Databricks Jobs UI when viewing job runs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#improvements-to-the-databricks-jobs-ui-when-viewing-job-runs",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "94d22ccd359fb9c0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "REST API Reference is now available for browsing API documentation",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#rest-api-reference-is-now-available-for-browsing-api-documentation",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0c1180b54063385c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New account console home screen provides better account management experience",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#new-account-console-home-screen-provides-better-account-management-experience",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9d08e8c25eeb330a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.9.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#databricks-terraform-provider-updated-to-version-191",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e202af5d35fcf505",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account users can update email preferences in the account console",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#account-users-can-update-email-preferences-in-the-account-console",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9a9fbd555c9133b5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Region support consolidated onto one page",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#region-support-consolidated-onto-one-page",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "be3819b5ad9a69b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 12.1 and Databricks Runtime 12.1 ML are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#databricks-runtime-121-and-databricks-runtime-121-ml-are-ga",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f5323be4ce90bd4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster policies now support limiting the max number of clusters per user",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#cluster-policies-now-support-limiting-the-max-number-of-clusters-per-user",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cebdf3a7f905b9ea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.9.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#databricks-terraform-provider-updated-to-version-190",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a62c72a4dafc2ffa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect supports connecting to Privacera",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#partner-connect-supports-connecting-to-privacera",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f4b158ae78c0c10e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.8.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#databricks-terraform-provider-updated-to-version-180",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6a0385a9587550ff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 12.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#databricks-runtime-121-beta",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1d2339c19c6fb67d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect supports Sigma",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#partner-connect-supports-sigma",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "65e09a971b5c244c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New left and right sidebars in Databricks notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/january#new-left-and-right-sidebars-in-databricks-notebooks",
+    "published": "2023-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3d794278892877fa",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/feature-factory",
+    "title": "databrickslabs/feature-factory: 0.13.0",
+    "url": "https://github.com/databrickslabs/feature-factory/releases/tag/v0.13.0",
+    "published": "2023-01-16",
+    "first_seen": "2026-07-30",
+    "summary": "added a feature dict as an abstract class\n\nsimplified joining by moving Joiner class to DataSource\n\nimproved unit test code coverage",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/feature-factory"
+    ]
+  },
+  {
+    "id": "5f5be4fde1a1c03a",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-sync",
+    "title": "databrickslabs/databricks-sync: Release 0.3.2",
+    "url": "https://github.com/databrickslabs/databricks-sync/releases/tag/0.3.2",
+    "published": "2023-01-12",
+    "first_seen": "2026-07-30",
+    "summary": "- Resolved #120",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/databricks-sync"
+    ]
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "5f4294ec241ccbd7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enable cost attribution of fine-grained access control on dedicated compute (formerly single user compute)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#enable-cost-attribution-of-fine-grained-access-control-on-dedicated-compute-formerly-single-user-compute",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e51583ef11689c0e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant helps optimize SQL queries",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#databricks-assistant-helps-optimize-sql-queries",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "857cd89bfb56e06a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.1 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#databricks-runtime-151-series-support-ends",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5404858c3a7ef931",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Llama 2 70B Chat model retirement in Foundation Model APIs pay-per-token",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#llama-2-70b-chat-model-retirement-in-foundation-model-apis-pay-per-token",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4f796427c090ff75",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enable a metastore to be assigned automatically to new workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#enable-a-metastore-to-be-assigned-automatically-to-new-workspaces",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0a5f43c8d4409289",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure an encryption algorithm on an external location",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#configure-an-encryption-algorithm-on-an-external-location",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c3c80b9352994201",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Structured outputs supported on Mosaic AI Model Serving (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#structured-outputs-supported-on-mosaic-ai-model-serving-public-preview",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a7a74b83d53b183d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Fine-grained access control on dedicated compute (formerly single user compute) is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#fine-grained-access-control-on-dedicated-compute-formerly-single-user-compute-is-generally-available",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d38d57a7bc0ea79",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Functions now available in EU regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#ai-functions-now-available-in-eu-regions",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2e7132777c52b305",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Attribute serverless usage with serverless budget policies (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#attribute-serverless-usage-with-serverless-budget-policies-public-preview",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8c036b9c1a393028",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute automatically enabled on eligible accounts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#serverless-compute-automatically-enabled-on-eligible-accounts",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d3bc275e9e4fa4c4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The billable usage system table now attributes networking costs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#the-billable-usage-system-table-now-attributes-networking-costs",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7d2194d36f8fa0f2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant Autocomplete is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#databricks-assistant-autocomplete-is-now-generally-available",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e8b89ffa31c7fdc9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Filters on notebook results tables now persist",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#filters-on-notebook-results-tables-now-persist",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f1048f3ecd857728",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improvements to comments in notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#improvements-to-comments-in-notebooks",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "528c22629f2a5a9a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 16.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#databricks-runtime-160-beta",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5445fe41f2489caa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Model Serving now supports batch inference",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#mosaic-ai-model-serving-now-supports-batch-inference",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aee04f0b793696f3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create secure data and AI apps for your users with Databricks Apps (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#create-secure-data-and-ai-apps-for-your-users-with-databricks-apps-public-preview",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6b5d7789163dcad3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "More reliable reloading of modified Python modules with improvements to autoreload",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#more-reliable-reloading-of-modified-python-modules-with-improvements-to-autoreload",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "34d360a60b8b9b21",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Salesforce ingestion connector simplification",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#salesforce-ingestion-connector-simplification",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c0930f3248dc70be",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compliance security profile with serverless compute support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#compliance-security-profile-with-serverless-compute-support",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "582d7fce2e860acc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute is now available in the eu-west-2 region",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/october#serverless-compute-is-now-available-in-the-eu-west-2-region",
+    "published": "2024-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fddeb2032595d9fd",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.3.1",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.3.1",
+    "published": "2024-10-11",
+    "first_seen": "2026-07-30",
+    "summary": "- Updated databrickslabs/sandbox requirement to acceptance/v0.3.1 (#64). In this pull request, we are updating the requirement for the databrickslabs/sandbox package to version acceptance/v0.3.1. This update is necessary to resolve any conflicts and ensure compatibility with the latest version of the package. The update includes several bug fixes, dependency updates, and the addition of install instructions in the changelog. The package also includes new git-related libraries and modifications to the README to explain how to use the package with the databricks labs sandbox command. Additionally, there are dependency updates for golang.org/x/crypto in the go-libs and runtime-packages directories. Keeping dependencies up-to-date is important for taking advantage of new features and bug fixes, so it is recommended to merge this pull request and address any conflicts or issues that may arise. This update is generated by Dependabot, a tool used to keep dependencies up-to-date, and it will handle any conflicts as long as the pull request is not modified. The databrickslabs/sandbox package is used for building and testing the project.\n\n- Updating make_schema fixture to include location to create managed schema (#66). In this update, the make_schema fixture has been enhanced to include an optional location parameter, enabling users to specify the location for creating a managed schema. This change addresses issue #6…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  },
+  {
+    "id": "91629d894b1016d8",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.3.0",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.3.0",
+    "published": "2024-10-08",
+    "first_seen": "2026-07-30",
+    "summary": "- Documentation: fix make_query() parameter name (#61). The make_query() fixture's documentation has been updated to correct the name of the query parameter to sql_query. The sql_query parameter is used to specify the SQL query stored in the fixture, with the default value being \"SELECT * FROM \". This change aims to enhance clarity and consistency in the naming of the argument, making it easier for users of the make_query() fixture to comprehend its purpose and usage. By correcting the parameter name, the documentation provides a clearer and more consistent user experience.\n\n- Removed references to UCX (#56). This release includes changes to remove references to UCX in fixture names and descriptions within the testing process. The create function in catalog.py now appends a random string to \"dummy_t\", \"dummy_s\", or dummy_c for table, schema, and catalog names, respectively, instead of using \"ucx_t\", \"ucx_S\", and \"ucx_C\". The test_catalog_fixture function has also been updated to replace dummy with dummy_c and dummy_s for catalogs and schemas. Additionally, the description of a test query in redash.py has been updated to remove the reference to UCX. Lastly, fixture names in the unit tests for a catalog have been updated to use dummy instead of \"ucx\". These changes improve the independence of the testing process by removing technology-specific references, without affecting functionality.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  },
+  {
+    "id": "bb6b0ddf40e30d95",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pylint-plugin",
+    "title": "databrickslabs/pylint-plugin: v0.5.0",
+    "url": "https://github.com/databrickslabs/pylint-plugin/releases/tag/v0.5.0",
+    "published": "2024-10-03",
+    "first_seen": "2026-07-30",
+    "summary": "- Added checker for multiline list comprehensions ban (#48). A new checker, readability, has been implemented in the PyLint plugin for Databricks, introducing a new code rule R8923 that flags multiline list comprehensions. This change aims to improve code readability by suggesting a rewrite as a for loop when list comprehensions span multiple lines. The checker can be used by adding databricks.labs.pylint.readability to the load-plugins configuration in the pylintrc or pyproject.toml file. The commit also includes updates to the README file, documenting the new checker and the R8923 check, along with examples and instructions for using and disabling it. Additionally, new test functions have been added to test_readability.py to demonstrate the ability to enforce a ban on multiline list comprehensions.\n\n- Bump sigstore/gh-action-sigstore-python from 2.1.1 to 3.0.0 (#47). In version 3.0.0 of sigstore/gh-action-sigstore-python, several changes and bug fixes have been implemented. Notable updates include the addition of recursive globbing with **, and the removal of certain settings such as fulcio-url, rekor-url, ctfe, and rekor-root-pubkey. The output settings signature, certificate, and bundle have also been removed, and inputs are now parsed according to POSIX shell lexing rules. The release-signing-artifacts setting no longer causes a hard error when used under the incorrect event. Additionally, the default suffix has changed from .sigstore to .sigstore.json, and release-signing-artifacts now defaults to true. This version also supports CI runners that use PEP 668 to constrain global package prefixes.\n\nDependency updates:\n\n- Bump sigstore/gh-action-sigstore-python from 2.1.1 to 3.0.0 (#47).\n\nContributors: @dependabot[bot], @nfx",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/pylint-plugin"
+    ]
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "e546017249b00082",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow Model Registry Webhooks on Databricks (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#mlflow-model-registry-webhooks-on-databricks-public-preview",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f69c21e22322bc4c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Breaking change: cluster idempotency token cleared on cluster termination",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#breaking-change-cluster-idempotency-token-cleared-on-cluster-termination",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d840f26409570ab9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.3 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#databricks-runtime-103-beta",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3bb511aad1d27cee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View information on recent job runs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#view-information-on-recent-job-runs",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5caf356df113a986",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use Markdown in Databricks Repos file editor",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#use-markdown-in-databricks-repos-file-editor",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3d484daae997ff00",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved cluster management for jobs that orchestrate multiple tasks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#improved-cluster-management-for-jobs-that-orchestrate-multiple-tasks",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f59e178e1a5f08eb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Add or rotate the customer-managed key for managed services on a running workspace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#add-or-rotate-the-customer-managed-key-for-managed-services-on-a-running-workspace",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b80d29c00744d8b7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing Private Preview adds functionality and new terms",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#delta-sharing-private-preview-adds-functionality-and-new-terms",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "84db0924608b3405",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Address AWS GuardDuty alerts related to Databricks access to your S3 bucket",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#address-aws-guardduty-alerts-related-to-databricks-access-to-your-s3-bucket",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "281965820d4f291d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.3 and Databricks Runtime 8.4 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#databricks-runtime-83-and-databricks-runtime-84-series-support-ends",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1c959e698b71617c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.22",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#databricks-jdbc-driver-2622",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "01741418d8c76940",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for G5 family of GPU-accelerated EC2 instances (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#support-for-g5-family-of-gpu-accelerated-ec2-instances-public-preview",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "682116f4f0754cba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Share button replaces Permissions icon in notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#new-share-button-replaces-permissions-icon-in-notebooks",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b17be73c40d897e7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New workspace language options",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/january#new-workspace-language-options",
+    "published": "2022-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

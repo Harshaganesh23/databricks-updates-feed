@@ -1,0 +1,240 @@
+[
+  {
+    "id": "4f2661d190de41f4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.2 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#databricks-runtime-82-series-support-ends",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ed41a507014b5d81",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.0 and 10.0 ML are GA; 10.0 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#databricks-runtime-100-and-100-ml-are-ga-100-photon-is-public-preview",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9681bbca024bac65",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Limit the set of VPC endpoints your workspace can use for AWS PrivateLink connections (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#limit-the-set-of-vpc-endpoints-your-workspace-can-use-for-aws-privatelink-connections-public-preview",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "729b76203aa07a7b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "User interface improvements for DLT (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#user-interface-improvements-for-dlt-public-preview",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9c43689d8673b4d4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Specify a fixed-size cluster when you create a new pipeline in DLT (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#specify-a-fixed-size-cluster-when-you-create-a-new-pipeline-in-dlt-public-preview",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9a6616ee07a29026",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View data quality metrics for tables in DLT triggered pipelines (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#view-data-quality-metrics-for-tables-in-dlt-triggered-pipelines-public-preview",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d5da52bda3ff294",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs orchestration is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#jobs-orchestration-is-now-ga",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0a231db18511cb64",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connector for Power BI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#databricks-connector-for-power-bi",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "041b91806b30a0d8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Repos now supports arbitrary file types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#repos-now-supports-arbitrary-file-types",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "06f766a36a50d6a5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "More detailed job run output with the Jobs API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#more-detailed-job-run-output-with-the-jobs-api",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5b925400a9be8aa7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved readability of notebook paths in the Jobs UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#improved-readability-of-notebook-paths-in-the-jobs-ui",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d9efeb7f092a0b95",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Open your DLT pipeline in a new tab or window",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#open-your-dlt-pipeline-in-a-new-tab-or-window",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9bfe9cda61f1bac6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New escape sequence for $ in legacy input widgets in SQL",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#new-escape-sequence-for--in-legacy-input-widgets-in-sql",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5056f253247958ae",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Faster model deployment with automatically generated batch inference notebook",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/october#faster-model-deployment-with-automatically-generated-batch-inference-notebook",
+    "published": "2021-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2d6af01b314bc65e",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/delta-oms",
+    "title": "databrickslabs/delta-oms: v0.4.0",
+    "url": "https://github.com/databrickslabs/delta-oms/releases/tag/v0.4.0",
+    "published": "2021-10-27",
+    "first_seen": "2026-07-30",
+    "summary": "What’s Changed\n\n- Use Autoloader for Delta Log ingestion. Provides better scalability and performance",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/delta-oms"
+    ]
+  },
+  {
+    "id": "54bf97affbbf6b0c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/delta-oms",
+    "title": "databrickslabs/delta-oms: v0.3.1",
+    "url": "https://github.com/databrickslabs/delta-oms/releases/tag/v0.3.1",
+    "published": "2021-10-05",
+    "first_seen": "2026-07-30",
+    "summary": "What’s Changed\n\n- Added extra filter for change data feed. (#20) @himanishk",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/delta-oms"
+    ]
+  },
+  {
+    "id": "4b6a1b26a5f91846",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/delta-oms",
+    "title": "databrickslabs/delta-oms: v0.3.0",
+    "url": "https://github.com/databrickslabs/delta-oms/releases/tag/v0.3.0",
+    "published": "2021-10-04",
+    "first_seen": "2026-07-30",
+    "summary": "What’s Changed\n\n- Enable full Spark conf based project configuration (#17) @himanishk\n\n- Update build.sbt to simplify snapshot jar name and added Maven Central badge (#16) @himanishk",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/delta-oms"
+    ]
+  }
+]

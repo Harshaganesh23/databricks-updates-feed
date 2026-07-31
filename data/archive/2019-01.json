@@ -1,0 +1,100 @@
+[
+  {
+    "id": "33c5f37e4fc21fc8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Upcoming change: Python 3 to become the default when you create clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/january#upcoming-change-python-3-to-become-the-default-when-you-create-clusters",
+    "published": "2019-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "05554a085c87ce8c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.2 for Machine Learning (Beta) release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/january#databricks-runtime-52-for-machine-learning-beta-release",
+    "published": "2019-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2dfb44648c602437",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.2 release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/january#databricks-runtime-52-release",
+    "published": "2019-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ee8f68f5d83137c8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster configuration JSON view",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/january#cluster-configuration-json-view",
+    "published": "2019-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f15c5593b14bca70",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Library UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/january#library-ui",
+    "published": "2019-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "40fdcce16107281f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster Events",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/january#cluster-events",
+    "published": "2019-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "99e4f2ec49de5f26",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/january#cluster-ui",
+    "published": "2019-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "7602b2be5c126364",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use tags to better manage your Databricks jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#use-tags-to-better-manage-your-databricks-jobs",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "eec5dbf6ae081d15",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.0 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#databricks-runtime-100-series-support-ends",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "46c593113e874d30",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Get a visual overview of your job runs with the new jobs matrix view",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#get-a-visual-overview-of-your-job-runs-with-the-new-jobs-matrix-view",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "610f47d943d5ab12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Save time and resources when your Databricks job runs are unsuccessful",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#save-time-and-resources-when-your-databricks-job-runs-are-unsuccessful",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "73855388b58a6088",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View the run history for job tasks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#view-the-run-history-for-job-tasks",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c765598cc02e959c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Assign a new cluster in the jobs UI when the Single User access no longer exists",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#assign-a-new-cluster-in-the-jobs-ui-when-the-single-user-access-no-longer-exists",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "29ef1bc0c2d33836",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.5 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#databricks-runtime-105-beta",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "41f20c4db1a87fd4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Feature Store now supports publishing features to AWS DynamoDB",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#feature-store-now-supports-publishing-features-to-aws-dynamodb",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5da8ea52d4a8a31e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The DLT UI is enhanced to disable unauthorized actions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#the-dlt-ui-is-enhanced-to-disable-unauthorized-actions",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "eb3538f5d6af4d19",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AutoML is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#automl-is-generally-available",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b6d710584cb54fb7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use datasets from Unity Catalog with AutoML",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#use-datasets-from-unity-catalog-with-automl",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "205dc9bc56a0aa7f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT is GA on AWS and Azure, and in Public Preview on GCP",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#dlt-is-ga-on-aws-and-azure-and-in-public-preview-on-gcp",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ac60cc20a0ef406a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT SQL interface: non-breaking change to table names",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/april#dlt-sql-interface-non-breaking-change-to-table-names",
+    "published": "2022-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "90468e879f34e447",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-sync",
+    "title": "databrickslabs/databricks-sync: 0.3.0",
+    "url": "https://github.com/databrickslabs/databricks-sync/releases/tag/0.3.0",
+    "published": "2022-04-11",
+    "first_seen": "2026-07-30",
+    "summary": "Release v0.3.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/databricks-sync"
+    ]
+  }
+]

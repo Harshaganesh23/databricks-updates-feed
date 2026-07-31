@@ -1,0 +1,268 @@
+[
+  {
+    "id": "40226ea276cab1a9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Billable usage logs delivered to your own S3 bucket (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#billable-usage-logs-delivered-to-your-own-s3-bucket-public-preview",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ddab36979bd2b6ce",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect now supports Databricks Runtime 6.6",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#databricks-connect-now-supports-databricks-runtime-66",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b049d2744c93e93c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.0 ML GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#databricks-runtime-70-ml-ga",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "30e84fa8dbb28523",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.0 GA, powered by Apache Spark 3.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#databricks-runtime-70-ga-powered-by-apache-spark-30",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b489d7415ef9a8da",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.0 for Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#databricks-runtime-70-for-genomics-ga",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "87b500682e11c793",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Stage-dependent access controls for MLflow models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#stage-dependent-access-controls-for-mlflow-models",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "122f55b7879bf3cf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks now support disabling auto-scroll",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#notebooks-now-support-disabling-auto-scroll",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7cfc769e25831322",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Skipping instance profile validation now available in the UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#skipping-instance-profile-validation-now-available-in-the-ui",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a6640d07582e10cd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account ID is displayed in account console",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#account-id-is-displayed-in-account-console",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "813a822b81d0b657",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Internet Explorer 11 support ends on August 15",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#internet-explorer-11-support-ends-on-august-15",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bad305fbf402f0b2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.2 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#databricks-runtime-62-series-support-ends",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2a4e6051f6fe02a5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Simplify and control cluster creation using cluster policies (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#simplify-and-control-cluster-creation-using-cluster-policies-public-preview",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bfb4d9859dd830f9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SCIM Me endpoint now returns SCIM compliant response",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#scim-me-endpoint-now-returns-scim-compliant-response",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "33296dd9507d8567",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "G4 family of GPU-accelerated EC2 instances now available for machine learning application deployments (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#g4-family-of-gpu-accelerated-ec2-instances-now-available-for-machine-learning-application-deployments-beta",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "65b2ba7546115fae",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deploy multiple workspaces in your Databricks account (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#deploy-multiple-workspaces-in-your-databricks-account-public-preview",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3dd7c9f8cc257694",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deploy Databricks workspaces in your own VPC (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#deploy-databricks-workspaces-in-your-own-vpc-public-preview",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "17ece5b871fd97f2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Secure cluster connectivity with no open ports on your VPCs and no public IP addresses on Databricks workers (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#secure-cluster-connectivity-with-no-open-ports-on-your-vpcs-and-no-public-ip-addresses-on-databricks-workers-public-preview",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ac5bcc0441e1666d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Restrict access to Databricks using IP access lists (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#restrict-access-to-databricks-using-ip-access-lists-public-preview",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c1ff3e65809e2c94",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Encrypt locally attached disks (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/june#encrypt-locally-attached-disks-public-preview",
+    "published": "2020-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

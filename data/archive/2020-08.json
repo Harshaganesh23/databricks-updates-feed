@@ -1,0 +1,212 @@
+[
+  {
+    "id": "38489c40418d1203",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Token Management API is GA and admins can use the Admin Console to grant and revoke user access to tokens",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#token-management-api-is-ga-and-admins-can-use-the-admin-console-to-grant-and-revoke-user-access-to-tokens",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2046dfccbfed582b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Message size limits for Shiny apps increased",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#message-size-limits-for-shiny-apps-increased",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0eef33eef8c67061",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved instructions for setting up a cluster in local mode",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#improved-instructions-for-setting-up-a-cluster-in-local-mode",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e200d1bae9a1fbce",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View version of notebook associated with a run",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#view-version-of-notebook-associated-with-a-run",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e0d3501f1a26cc9c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.2 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#databricks-runtime-72-ga",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3c9f386ab20ef577",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.2 ML GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#databricks-runtime-72-ml-ga",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9d84c5ba5ae1791b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.2 Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#databricks-runtime-72-genomics-ga",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f690f15274b0f597",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Permissions API (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#permissions-api-public-preview",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f3f275afa1e8480c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect 7.1 (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#databricks-connect-71-ga",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d513ff42bbd07b59",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Repeatable installation order for cluster libraries",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#repeatable-installation-order-for-cluster-libraries",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "073d84f269d05f4c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Customer-managed VPC is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#customer-managed-vpc-is-ga",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "141ea4b6d9b446cd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Secure cluster connectivity (no public IPs) is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#secure-cluster-connectivity-no-public-ips-is-ga",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cf6eed0f3db77735",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Multi-workspace API (Account API) adds pricing tier",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#multi-workspace-api-account-api-adds-pricing-tier",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9a626118e7d70656",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create model from MLflow registered models page (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#create-model-from-mlflow-registered-models-page-public-preview",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f39a65d95fd4b8f6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Container Services supports GPU images",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/august#databricks-container-services-supports-gpu-images",
+    "published": "2020-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

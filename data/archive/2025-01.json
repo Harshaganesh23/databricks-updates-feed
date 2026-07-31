@@ -1,0 +1,506 @@
+[
+  {
+    "id": "36bc82f3d94a1ab0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "State store reader is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#state-store-reader-is-now-ga",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4b5e8c801a9fa7e3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Predictive optimization can now be enabled at the catalog or schema level",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#predictive-optimization-can-now-be-enabled-at-the-catalog-or-schema-level",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5e099cd416658d2a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Filtering full datasets for large tables is now supported",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#filtering-full-datasets-for-large-tables-is-now-supported",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dd5558a7e2f8b65d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks on AWS GovCloud DoD is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#databricks-on-aws-govcloud-dod-is-now-ga",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7d7b6663cb3ceb8a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Meta Llama 3.1 405B model family is retired on Foundation Model Fine-tuning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#the-meta-llama-31-405b-model-family-is-retired-on-foundation-model-fine-tuning",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0bd3388d90d2f330",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Clean Rooms is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#clean-rooms-is-ga",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e90480aad601157a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect AI agent tools to external services (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#connect-ai-agent-tools-to-external-services-public-preview",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e8364d7f1d6253c2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified login UI update",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#unified-login-ui-update",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d265f3cfc1c9c648",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT now supports publishing to tables in multiple schemas and catalogs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#dlt-now-supports-publishing-to-tables-in-multiple-schemas-and-catalogs",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e3194ed79a0adfcd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 16.2 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#databricks-runtime-162-beta",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ee9a9c35ef3cead6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Comments now support email notifications and @ mentions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#comments-now-support-email-notifications-and--mentions",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "95a7b0d4a2c48103",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Shortcut to adjust font size",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#shortcut-to-adjust-font-size",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "57aa4eb074038fa9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OAuth token federation is now available in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#oauth-token-federation-is-now-available-in-public-preview",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5fe8411ff2777d29",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Custom Python AI agents now support AI Gateway and streaming output",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#custom-python-ai-agents-now-support-ai-gateway-and-streaming-output",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0628ec5ba11a25f8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Import workspace files with drag-and-drop",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#import-workspace-files-with-drag-and-drop",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "65101729261237ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.3 now powers AI Functions that use Foundation Model APIs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#meta-llama-33-now-powers-ai-functions-that-use-foundation-model-apis",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "88e643645c2e69de",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebook output improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#notebook-output-improvements",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8594d722b28effe9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Faster notebook load times",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#faster-notebook-load-times",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "31f6b48039d19adb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks are now supported as workspace files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#notebooks-are-now-supported-as-workspace-files",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2bd7d7d3535aeb0b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Failed tasks in continuous jobs are now automatically retried",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#failed-tasks-in-continuous-jobs-are-now-automatically-retried",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fdab39a6d0308f39",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks: Databricks Assistant chat history available only to user who initiates it",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#notebooks-databricks-assistant-chat-history-available-only-to-user-who-initiates-it",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7975e1a181131f2e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Stats collection is now automated by predictive optimization",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#stats-collection-is-now-automated-by-predictive-optimization",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d33ae6dea896aa37",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Update to Databricks Marketplace and Partner Connect UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#update-to-databricks-marketplace-and-partner-connect-ui",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fac0c85d90702dbe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "EXPLAIN now shows stats used in query planning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#explain-now-shows-stats-used-in-query-planning",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "02867620e8688eb8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.7.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#databricks-jdbc-driver-271",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "19e2eb36be20e41b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse Federation supports Teradata (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#lakehouse-federation-supports-teradata-public-preview",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dde0bd555eb70960",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "databricks-agents SDK 0.14.0 release: Custom evaluation metrics",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#databricks-agents-sdk-0140-release-custom-evaluation-metrics",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c1ae09beb9492998",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Gateway now supports provisioned throughput (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#ai-gateway-now-supports-provisioned-throughput-public-preview",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c944c3bb96aa340a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.2 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#databricks-runtime-152-series-support-ends",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d5fa956dfd0dc27c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.3 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#databricks-runtime-153-series-support-ends",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b6e0f89fa463df7d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 2, 3 and Code Llama model family retirements on Foundation Model Fine-tuning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/january#meta-llama-2-3-and-code-llama-model-family-retirements-on-foundation-model-fine-tuning",
+    "published": "2025-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6bc9058ed3c4bbc1",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.55.0",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.55.0",
+    "published": "2025-01-24",
+    "first_seen": "2026-07-30",
+    "summary": "- Introducing UCX docs! (#3458). In this release, we introduced the new documents for UCX, you can find them here: https://databrickslabs.github.io/ucx/\n\n- Hosted Runner for release (#3532). In this release, we have made improvements to the release job's security and control by moving the release.yml file to a new location within a hosted runner group labeled \"linux-ubuntu-latest.\" This change ensures that the release job now runs in a protected runner group, enhancing the overall security and reliability of the release process. The job's environment remains set to \"release,\" and it retains the same authentication and artifact signing permissions as before the move, ensuring a seamless transition while improving the security and control of the release process.\n\nContributors: @sundarshankar89, @renardeinside",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  },
+  {
+    "id": "fac54cf73c2eeb6f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.54.0",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.54.0",
+    "published": "2025-01-24",
+    "first_seen": "2026-07-30",
+    "summary": "-\nImplement disposition field in SQL backend (#3477). This commit adds a query_statement_disposition configuration option for the SQL backend in the UCX tool, allowing users to specify the disposition of SQL statements during assessment results export and preventing failures when dealing with large workspaces and a large number of findings. The new configuration option is added to the config.yml file and used by the SqlBackend definition. The databricks labs install ucx and databricks labs ucx export-assessment commands have been modified to support this new functionality. A new Disposition enum has been added to the databricks.sdk.service.sql module. This change resolves issue #3447 and is related to pull request #3455. The functionality has been manually tested.\n\n-…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  },
+  {
+    "id": "ade50df6553248d9",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: Version 0.2.6",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.6",
+    "published": "2025-01-21",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Fix: db_volume_delete by @vladimirobucina in #74\n\n- Fixes for dev httr2 by @hadley in #75\n\n- Attempting to fix git actions changes for Databricks org. by @zacdav-db in #76\n\nNew Contributors\n\n- @vladimirobucina made their first contribution in #74\n\n- @hadley made their first contribution in #75\n\nFull Changelog: v0.2.5...v0.2.6",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  },
+  {
+    "id": "afd89ff096ad448b",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/blueprint",
+    "title": "databrickslabs/blueprint: v0.10.1",
+    "url": "https://github.com/databrickslabs/blueprint/releases/tag/v0.10.1",
+    "published": "2025-01-14",
+    "first_seen": "2026-07-30",
+    "summary": "- patch hosted runner (#185). In this release, we have implemented a temporary fix to address issues with publishing artifacts in the release workflow. This fix involves changing the runner used for the job from ubuntu-latest to a protected runner group labeled \"linux-ubuntu-latest\". This ensures that the job runs on a designated hosted runner with the specified configuration, enhancing the reliability and security of the release process. The permissions section of the job remains unchanged, allowing authentication to PyPI and signing of release artifacts with sigstore-python. It is worth noting that this is a stopgap measure, and further changes to the release workflow may be made in the future.\n\nContributors: @sundarshankar89",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/blueprint"
+    ]
+  },
+  {
+    "id": "64bd37c794c9c364",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/blueprint",
+    "title": "databrickslabs/blueprint: v0.10.0",
+    "url": "https://github.com/databrickslabs/blueprint/releases/tag/v0.10.0",
+    "published": "2025-01-13",
+    "first_seen": "2026-07-30",
+    "summary": "- Fixed incorrect script for no-pylint-disable (#178). In this release, we have updated the script used in the no-cheat GitHub workflow to address false positives in stacked pull requests. The updated script fetches the base reference from the remote repository and generates a diff between the base reference and the current branch, saving it to a file. It then runs the \"no_cheat.py\" script against this diff file and saves the results to a separate file. If the count of cheats (instances where linting has been intentionally disabled) is greater than one, the script outputs the contents of the results file and exits with a non-zero status, indicating an error. This change enhances the accuracy of the script and ensures it functions correctly in a stacked pull request scenario. The no_cheat function, which checks for the presence of certain pylint disable tags in a given diff text, has been updated to the latest version from the ucx project to improve accuracy. The function identifies tags by looking for lines starting with - or \"+\" followed by the disable tag and a list of codes, and counts the number of times each code is added and removed, reporting any net additions.…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/blueprint"
+    ]
+  }
+]

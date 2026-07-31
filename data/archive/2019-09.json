@@ -1,0 +1,86 @@
+[
+  {
+    "id": "f68f032202d1b2d6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.2 support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/september#databricks-runtime-52-support-ends",
+    "published": "2019-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c11bba29ffb56e8e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Launch pool-backed automated clusters that use Databricks Light (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/september#launch-pool-backed-automated-clusters-that-use-databricks-light-public-preview",
+    "published": "2019-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "413c979e6d93e3f6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Beta support for m5a and r5a instances",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/september#beta-support-for-m5a-and-r5a-instances",
+    "published": "2019-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c8ddebf8eb0d11bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "pandas DataFrames now render in notebooks without scaling",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/september#pandas-dataframes-now-render-in-notebooks-without-scaling",
+    "published": "2019-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2019.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "86e43c6a6778dc8d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python version selector display now dynamic",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/september#python-version-selector-display-now-dynamic",
+    "published": "2019-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "63d07a5c7a94c808",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.0 Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/september#databricks-runtime-60-beta",
+    "published": "2019-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

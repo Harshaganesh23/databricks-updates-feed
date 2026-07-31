@@ -1,0 +1,282 @@
+[
+  {
+    "id": "abe191c01020f21e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create tags for feature tables (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#create-tags-for-feature-tables-public-preview",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "08edd9398bcdffbe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Syntax highlighting and autocomplete for SQL commands in Python cells",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#syntax-highlighting-and-autocomplete-for-sql-commands-in-python-cells",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "589b6bbd1c64f135",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Rename, delete, and change permissions for MLflow experiments from experiment page (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#rename-delete-and-change-permissions-for-mlflow-experiments-from-experiment-page-public-preview",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7cf75a5af4a502fa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New data profiles in notebooks: tabular and graphic summaries of your data (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#new-data-profiles-in-notebooks-tabular-and-graphic-summaries-of-your-data-public-preview",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "097328cc4294e433",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved logging when schemas evolve while running a DLT pipeline",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#improved-logging-when-schemas-evolve-while-running-a-dlt-pipeline",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7beedfd425ed4bf5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Partner Connect GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#databricks-partner-connect-ga",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7fe481a2c6a2d4a2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Breaking change: remove escaping and quotes from $ in environment variable values for cluster creation",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#breaking-change-remove-escaping-and-quotes-from--in-environment-variable-values-for-cluster-creation",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0d90b9f87f8d8b3a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Ease of use improvements for Files in Repos",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#ease-of-use-improvements-for-files-in-repos",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "864119dc9f531bdf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for legacy SQL widgets ends on January 15, 2022",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#support-for-legacy-sql-widgets-ends-on-january-15-2022",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d52049882b2eedc1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "User interface improvements for Databricks jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#user-interface-improvements-for-databricks-jobs",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "13f28b514d553099",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing Connector for Power BI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#delta-sharing-connector-for-power-bi",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "92647bc50777feae",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.6.19",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#databricks-odbc-driver-2619",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3e661a2ed7741be9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.1 and 10.1 ML are GA; 10.1 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#databricks-runtime-101-and-101-ml-are-ga-101-photon-is-public-preview",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9256b70701de28f0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#databricks-runtime-101-beta",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "46658aa8cb973856",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Rename and delete MLflow experiments (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#rename-and-delete-mlflow-experiments-public-preview",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cf9fc225290d37c6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Photon support for additional cluster instance families",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#photon-support-for-additional-cluster-instance-families",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "51aa2951591df2fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "You can now create a cluster policy by cloning an existing policy",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#you-can-now-create-a-cluster-policy-by-cloning-an-existing-policy",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7d9a23f164953e44",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Single sign-on (SSO) in the account console is Generally Available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#single-sign-on-sso-in-the-account-console-is-generally-available",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "07d0812431da6ada",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Change the default language of notebooks and notebook cells more easily",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#change-the-default-language-of-notebooks-and-notebook-cells-more-easily",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ae451f02eeb99e61",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use Files in Repos from the web terminal",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/november#use-files-in-repos-from-the-web-terminal",
+    "published": "2021-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

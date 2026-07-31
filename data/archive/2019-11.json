@@ -1,0 +1,72 @@
+[
+  {
+    "id": "7efcd3b2715f2fc4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.2 ML Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/november#databricks-runtime-62-ml-beta",
+    "published": "2019-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "285f3df36ebe5320",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.2 Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/november#databricks-runtime-62-beta",
+    "published": "2019-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "36093c71025f0e40",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure clusters with your own container image using Databricks Container Services",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/november#configure-clusters-with-your-own-container-image-using-databricks-container-services",
+    "published": "2019-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "561b404d61ae23fc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster detail now shows only cluster ID in the HTTP path",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/november#cluster-detail-now-shows-only-cluster-id-in-the-http-path",
+    "published": "2019-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1d0aede2492f0ab2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Secrets referenced by Spark configuration properties and environment variables (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/november#secrets-referenced-by-spark-configuration-properties-and-environment-variables-public-preview",
+    "published": "2019-11-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — November 2019.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

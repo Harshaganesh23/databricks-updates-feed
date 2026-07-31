@@ -1,0 +1,170 @@
+[
+  {
+    "id": "f531ad2edc184903",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.1 for Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#databricks-runtime-61-for-genomics-ga",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "152af6a8fa4a7e5f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.1 for Machine Learning GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#databricks-runtime-61-for-machine-learning-ga",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e9ec0ff0f70d8bbe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow API calls are now rate limited",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#mlflow-api-calls-are-now-rate-limited",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d9dfe59b0020c644",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Pools of instances for quick cluster launch generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#pools-of-instances-for-quick-cluster-launch-generally-available",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "591a37ce15406a3f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New instance types (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#new-instance-types-beta",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "673fa9a2d4f2e80d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.1 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#databricks-runtime-61-ga",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "15d6af6ed61c54b3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.0 for Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#databricks-runtime-60-for-genomics-ga",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "87bbf04ddfbc9c07",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Non-admin Databricks users can read user and group names and IDs using SCIM API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#non-admin-databricks-users-can-read-user-and-group-names-and-ids-using-scim-api",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b9ad91e7d8c20748",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace API returns notebook and folder object IDs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#workspace-api-returns-notebook-and-folder-object-ids",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8ddabd508c4ae334",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.0 ML GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#databricks-runtime-60-ml-ga",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f3c087af51a7a58e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.0 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#databricks-runtime-60-ga",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9457c26b36c14ff5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account usage reports now show usage by user name",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/october#account-usage-reports-now-show-usage-by-user-name",
+    "published": "2019-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "id": "498a94d96cbec14b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.2 (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#databricks-runtime-82-ga",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b98d836e70744e0c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AWS PrivateLink for Databricks workspaces (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#aws-privatelink-for-databricks-workspaces-public-preview",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "17b0c79a135781b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Update running workspaces with new credentials or network configurations",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#update-running-workspaces-with-new-credentials-or-network-configurations",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "62cf464acd9803f5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks can now send in-product messages and product tours directly to your workspace (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#databricks-can-now-send-in-product-messages-and-product-tours-directly-to-your-workspace-public-preview",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2589b6c3de15e67c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easier job management with the enhanced jobs user interface",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#easier-job-management-with-the-enhanced-jobs-user-interface",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d0da484b9a29d890",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster policy changes are applied automatically to existing clusters at restart and edit",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#cluster-policy-changes-are-applied-automatically-to-existing-clusters-at-restart-and-edit",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ab6b6db3e5931c62",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Track retries in your job tasks when task attempts fail",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#track-retries-in-your-job-tasks-when-task-attempts-fail",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7794b47efbbd4bac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Quickly view cluster details when you create a new cluster",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#quickly-view-cluster-details-when-you-create-a-new-cluster",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "eafe080b11d673f8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow sidebar reflects the most recent experiment",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#mlflow-sidebar-reflects-the-most-recent-experiment",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "756b857749ee3a2b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Change to default channel for conda.yaml files in MLflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#change-to-default-channel-for-condayaml-files-in-mlflow",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "15d7a5108894c910",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New free trial and pay-as-you-go customers are now on the E2 version of the platform",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#new-free-trial-and-pay-as-you-go-customers-are-now-on-the-e2-version-of-the-platform",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "44c223d8d29fcc0f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.2 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#databricks-runtime-82-beta",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f682f1fb1d21b715",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "User and group limits",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#user-and-group-limits",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c0920ea041926e07",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easier monitoring of job run status",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#easier-monitoring-of-job-run-status",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "67d938130c3c5936",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Better governance with enhanced audit logging",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#better-governance-with-enhanced-audit-logging",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bf6c41b200599c89",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Global init scripts no longer run on model serving clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#global-init-scripts-no-longer-run-on-model-serving-clusters",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3efbd9901f7bed90",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.4 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/april#databricks-runtime-64-series-support-ends",
+    "published": "2021-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

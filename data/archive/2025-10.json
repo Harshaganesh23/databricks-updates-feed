@@ -1,0 +1,730 @@
+[
+  {
+    "id": "6f8487934fa77c26",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/sandbox",
+    "title": "databrickslabs/sandbox: judge-builder/v0.3.4: Add judge-builder repo into sandbox for DBX Marketplace listing (#600)",
+    "url": "https://github.com/databrickslabs/sandbox/releases/tag/judge-builder%2Fv0.3.4",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "As titled. This is nearly a direct copy of the existing judge-builder\n\nrepo here: https://github.com/databricks-solutions/judge-builder\n\nFollowed the guide for contributing\n\nhere.\n\n- Added code owners\n\n- Created the README in the expected format\n\n- Followed best practices for Databricks Apps on Marketplace\n\n- Completed a SDR (SDR-3817)",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/sandbox"
+    ]
+  },
+  {
+    "id": "cd4eee649ad613bc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Salesforce ingestion connector supports history tracking (SCD type 2)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#salesforce-ingestion-connector-supports-history-tracking-scd-type-2",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d6615ec1b64a535b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Skip cells when running notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#skip-cells-when-running-notebooks",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ea7e47a826f14d62",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved notebook debugger experience",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#improved-notebook-debugger-experience",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f70e15b475c2a235",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase (Autoscaling Beta) now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#lakebase-autoscaling-beta-now-available",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "10d6da264140382b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New compute policy form is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#new-compute-policy-form-is-now-generally-available",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ca28ba7bbe685ec2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Supervisor Agent now supports Unity Catalog functions and external MCP servers",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#supervisor-agent-now-supports-unity-catalog-functions-and-external-mcp-servers",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d56a40ad02c14444",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Feedback model deprecated for AI agents",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#feedback-model-deprecated-for-ai-agents",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "60a7d47878259e07",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Request logs and assessment logs tables deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#request-logs-and-assessment-logs-tables-deprecated",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "43f53e100b54e547",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Gemini 2.5 Pro and Flash models now supported on pay-per-token endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#gemini-25-pro-and-flash-models-now-supported-on-pay-per-token-endpoints",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "550bf190900d2caf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT 5 models are now generally available in Mosaic AI Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#-openai-gpt-5-models-are-now-generally-available-in-mosaic-ai-model-serving",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6435676e15aeccc4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute has been updated to version 17.3",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#serverless-compute-has-been-updated-to-version-173",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8cbd9b630750e128",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure compute to use AWS Capacity Blocks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#configure-compute-to-use-aws-capacity-blocks",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "80486c47a0d3ab75",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC Driver 2.7.5",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-jdbc-driver-275",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e2fca7391345f451",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zerobus Ingest connector in Lakeflow Connect (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#zerobus-ingest-connector-in-lakeflow-connect-public-preview",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "694bdb64338ec182",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ai_parse_document (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#ai",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dada0ed7c09541df",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Column drop behavior updated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#column-drop-behavior-updated",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e939607031513459",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 17.3 LTS is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-runtime-173-lts-is-now-ga",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "985a9ce6ab453473",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Alibaba Cloud Qwen3-Next Instruct now available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#alibaba-cloud-qwen3-next-instruct-now-available-in-beta",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "34fbf784b7a2ef9f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compatibility Mode (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#compatibility-mode-public-preview",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5468bf522aec2f92",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zstd is now the default compression for new managed tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#zstd-is-now-the-default-compression-for-new-managed-tables",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "76b276284a611379",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (10/21)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-runtime-maintenance-updates-1021",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ac3d4a30246652e1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified runs list (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#unified-runs-list-public-preview",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d4fffd66461b43d6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connector for Google Sheets offers additional features (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-connector-for-google-sheets-offers-additional-features-public-preview",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e49da22800088d4c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Dashboard and Genie Agents tagging (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#dashboard-and-genie-agents-tagging-public-preview",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc73e8a302e60dad",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs can now be triggered on source table update",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#jobs-can-now-be-triggered-on-source-table-update",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4dc8def837751fc0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Declarative Automation Bundles in the workspace is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#declarative-automation-bundles-in-the-workspace-is-ga",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b751b7eca07f83eb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SQL MCP server now available (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#sql-mcp-server-now-available-beta",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a8bca3892bd00640",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create backfill job runs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#create-backfill-job-runs",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a00b54ea4a648207",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved autoscaling behavior for Mosaic AI Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#improved-autoscaling-behavior-for-mosaic-ai-model-serving",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e046c225f99faa86",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data Classification (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#data-classification-public-preview",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5b404bd981b0e884",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Multimodal support is now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#multimodal-support-is-now-available",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b4811eaeca2895d9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Context based ingress control (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#context-based-ingress-control-beta",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4c65ea5b8e0052f8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The billable usage table now records the performance mode of serverless jobs and pipelines",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#the-billable-usage-table-now-records-the-performance-mode-of-serverless-jobs-and-pipelines",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b3551ee3d27cfb71",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Data Science Agent can now also use models served through Anthropic on Databricks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#the-data-science-agent-can-now-also-use-models-served-through-anthropic-on-databricks",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b670622b6468bd2e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (10/07)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-runtime-maintenance-updates-1007",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "97c54e7af276818e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 17.3 LTS and Databricks Runtime 17.3 LTS ML are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#databricks-runtime-173-lts-and-databricks-runtime-173-lts-ml-are-in-beta",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0064f090793770db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Model Serving now supports OpenAI GPT 5 models (preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#-mosaic-ai-model-serving-now-supports-openai-gpt-5-models-preview",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bd4be071272a02ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partition metadata is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#partition-metadata-is-generally-available",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2770fec4a25587cf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing recipients can apply row filters and column masks (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#delta-sharing-recipients-can-apply-row-filters-and-column-masks-ga",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b68cb03501de3806",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Certification status system tag is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#certification-status-system-tag-is-in-public-preview",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7717c9a1a2b34166",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Prompt caching is now supported for Claude models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#prompt-caching-is-now-supported-for-claude-models",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2cb521752df7747c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Sonnet 4.5 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#anthropic-claude-sonnet-45-now-available-as-a-databricks-hosted-model",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3ba79a21abb6cac1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebook improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#notebook-improvements",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f744e75868ba127f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Sonnet 4 is available for batch inference in US regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#anthropic-claude-sonnet-4-is-available-for-batch-inference-in-us-regions",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "04eb124de2c30801",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Convert to Unity Catalog managed table from external table",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#convert-to-unity-catalog-managed-table-from-external-table",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2c22107124304db6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Git email identity configuration for Git folders",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#git-email-identity-configuration-for-git-folders",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d1c8e220ed87faa6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New permissions for the Databricks GitHub App",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/october#new-permissions-for-the-databricks-github-app",
+    "published": "2025-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "79c8a34b8b422e83",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.7.4",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.7.4",
+    "published": "2025-10-17",
+    "first_seen": "2026-07-30",
+    "summary": "- Increased the number of random characters used when creating resources to minimize collisions (#214). The continuous integration workflow has been updated to install a newer version of the hatch tool, specifically version 1.15.0, replacing the previous version 1.9.4, to avoid compatibility issues with click. Additionally, the code has been modified to increase the number of random characters used when creating resources from 4 to 8, aiming to minimize collisions, particularly in larger projects that rely heavily on PyTester. This change affects various resource creation methods and is intended to reduce the likelihood of name collisions and improve the overall stability of the system. The changes are covered by regression testing and have been manually tested to ensure their correctness and effectiveness.\n\nContributors: @mwojtyczka",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  },
+  {
+    "id": "17e0cdacfdfe5a34",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/blueprint",
+    "title": "databrickslabs/blueprint: Release v0.11.4",
+    "url": "https://github.com/databrickslabs/blueprint/releases/tag/v0.11.4",
+    "published": "2025-10-06",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Added Password Prompt to operate with echo off in terminal (#265). The command-line interface now includes a secure password prompt feature, allowing users to enter sensitive information without it being visible on the screen. This is achieved through a new method that utilizes the getpass library to hide user input when entering passwords, taking a prompt message and an optional maximum number of attempts as parameters. The method repeatedly prompts the user for a password until a valid input is provided or the maximum number of attempts is reached, at which point it raises a ValueError. This addition enhances the security and usability of the interface, and its functionality is validated through new test methods that cover both successful password entry and the scenario where the maximum number of attempts is exceeded, ensuring the feature behaves as expected in various situations.\n\n- Sniff encoding properly in XML files with a standalone directive (#256). The XML file encoding detection has been improved to support a wider range of valid XML declarations. The regular expression used to match XML declarations has been updated to correctly handle cases where both encoding and standalone attributes are present, such as . This change enables more accurate detection of the encoding attribute in XML files, even when a standalone directive is present. Additionally, test functions have been added and modified to verify this functionality, including tests for XML files with a BOM prefix and those with an XML standalone declaration, ensuring that the code can correctly read these files and detect the encoding.\n\nFull Changelog: v0.11.3...v0.11.4",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/blueprint"
+    ]
+  },
+  {
+    "id": "d10909245b575ed9",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.60.1",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.60.1",
+    "published": "2025-10-03",
+    "first_seen": "2026-07-30",
+    "summary": "- Added CI fix for hatch dependency (#4433). A temporary fix has been implemented to address a dependency issue with hatch, specifically related to a problem with the Click library, as tracked in the Click project. To ensure compatibility and prevent errors in the testing process, which relies on hatch, the installation of hatch now includes a version constraint for the Click library, ensuring that a version less than 8.3.0 is installed. This adjustment provides a workaround for a known issue, allowing the testing framework to proceed without disruptions, and ensuring that the project's testing dependency on hatch remains functional until a more permanent solution is available.\n\n- Enhanced Assessment Export (#4432). The export functionality has been enhanced to handle large assessment exports by implementing a zip compression strategy, preventing export failures due to file size limitations. This is achieved by creating a zip archive containing the Excel file, which is generated using a ZipFile object and an ExcelWriter object writing to a BytesIO buffer. Error handling has been added to handle missing queries, allowing the export process to continue without interruption. Various functions, including those responsible for downloading and exporting assessment results, have been updated to work with the new zip file format, including changes to file names and download links. Additionally, test cases have been modified to verify the successful export of assessment results as zip files, ensuring that the new compression strategy is functioning correctly and transparently handling large exports.…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  },
+  {
+    "id": "83414bcee32357aa",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.9.3",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.9.3",
+    "published": "2025-10-03",
+    "first_seen": "2026-07-30",
+    "summary": "- Added support for running checks on multiple tables (#566). Added more flexibility and functionality in running data quality checks, allowing users to run checks on multiple tables in a single method call and as part of Workflows execution. Provided options to run checks for all configured run configs or for a specific run config, or for tables/views matching wildcard patterns. The CLI commands for running workflows have been updated to reflect and support these new functionalities. Additionally, new parameters have been added to configuration file to control the level of parallelism for these operations, such as profiler_max_parallelism and quality_checker_max_parallelism. A new demo has been added to showcases how to use the profiler and apply checks across multiple tables. The changes aim to improve scalability of DQX.\n\n- Added New Row-level Checks: IPv6 Address Validation (#578). DQX now includes 2 new row-level checks: validation of IPv6 address (is_valid_ipv6_address check function), and validation if IPv6 address is within provided CIDR block (is_ipv6_address_in_cidr check function).\n\n- Added New Dataset-level Check: Schema Validation check (#568). The has_valid_schema check function has been introduced to validate whether a DataFrame conforms to a specified schema, with results reported at the row level for consistency with other checks. This function can operate in non-strict mode, where it verifies the existence of expected columns with compatible types, or in strict mode, where it enforces an exact schema match, including column order and types. It accepts parameters such as the expected schema, which can be defined as a DDL string or a StructType object, and optional arguments to specify columns to validate and strict mode.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  }
+]

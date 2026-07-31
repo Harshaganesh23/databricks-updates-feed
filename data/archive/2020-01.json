@@ -1,0 +1,142 @@
+[
+  {
+    "id": "b5f2929947c875b7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "All cluster and pool tags now propagate to usage reports",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#all-cluster-and-pool-tags-now-propagate-to-usage-reports",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b6e3cfec8b5b6215",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster and pool tag propagation to EC2 instances is more accurate",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#cluster-and-pool-tag-propagation-to-ec2-instances-is-more-accurate",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c816c01ecc97a9c3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.3 for Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#databricks-runtime-63-for-genomics-ga",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ad9989afbeca80ab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.3 ML GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#databricks-runtime-63-ml-ga",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "78c8137efd3a1814",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.3 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#databricks-runtime-63-ga",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "12fd32545ad05599",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster worker machine images now use chrony for NTP",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#cluster-worker-machine-images-now-use-chrony-for-ntp",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "319ac667bd725f47",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster standard autoscaling step is now configurable",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#cluster-standard-autoscaling-step-is-now-configurable",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6d4a1139e75f6d47",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SCIM API supports pagination for Get Users and Get Groups (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#scim-api-supports-pagination-for-get-users-and-get-groups-public-preview",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f5c4d90f77497094",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "File browser swimlane widths increased to 240px",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#file-browser-swimlane-widths-increased-to-240px",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "96bd1159fb622a38",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 3.5 LTS support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/january#databricks-runtime-35-lts-support-ends",
+    "published": "2020-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

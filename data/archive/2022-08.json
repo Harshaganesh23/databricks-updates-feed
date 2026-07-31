@@ -1,0 +1,450 @@
+[
+  {
+    "id": "b77c4b64b91b4936",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account users can access the account console",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#account-users-can-access-the-account-console",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9e296cd597f52c3b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.6.26",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#databricks-odbc-driver-2626",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "eb8cc53bed6f1207",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.29",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#databricks-jdbc-driver-2629",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5d765c6fc529c247",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Feature Store client now available on PyPI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#databricks-feature-store-client-now-available-on-pypi",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1c0bdebd39fef4d3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#unity-catalog-is-ga",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "efdf9a41308764bc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#delta-sharing-is-ga",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a6bc9a23d7095c1b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 11.2 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#databricks-runtime-112-beta",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f2015a0252157d41",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reduced message volume in the DLT UI for continuous pipelines",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#reduced-message-volume-in-the-dlt-ui-for-continuous-pipelines",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4095230a63f587be",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easier cluster configuration for your DLT pipelines",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#easier-cluster-configuration-for-your-dlt-pipelines",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6bc1f0e80be4516d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Orchestrate dbt tasks in your Databricks workflows (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#orchestrate-dbt-tasks-in-your-databricks-workflows-public-preview",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a9d3dcae2ca510b4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Users can be members of multiple Databricks accounts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#users-can-be-members-of-multiple-databricks-accounts",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1b87adb611ea8732",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Identity federation is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#identity-federation-is-ga",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3abf88be27f967c4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner Connect supports connecting to Stardog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#partner-connect-supports-connecting-to-stardog",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ea4a8370bc835c3c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Feature Store integration with Serverless Real-Time Inference",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#databricks-feature-store-integration-with-serverless-real-time-inference",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ccb3d0a98ff57e8d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Additional data type support for Databricks Feature Store automatic feature lookup",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#additional-data-type-support-for-databricks-feature-store-automatic-feature-lookup",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f2868b016bb8de97",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bring your own key: Encrypt Git credentials",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#bring-your-own-key-encrypt-git-credentials",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "64c1430715708d4b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster UI preview and access mode replaces security mode",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#cluster-ui-preview-and-access-mode-replaces-security-mode",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3bd632311e0bf05f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog limitations (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#unity-catalog-limitations-public-preview",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "278676bff244d913",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless Real-Time Inference in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#serverless-real-time-inference-in-public-preview",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e55911d9b697ad7a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless SQL warehouses improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#serverless-sql-warehouses-improvements",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "df7201892535cd0f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share VPC endpoints among Databricks accounts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#share-vpc-endpoints-among-databricks-accounts",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4b6aaa96252a388d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AWS PrivateLink private access level ANY is deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#aws-privatelink-private-access-level-any-is-deprecated",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "86b24f0edb36dec3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improvements to AWS PrivateLink connectivity",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#improvements-to-aws-privatelink-connectivity",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d609bdc14edaed1b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved workspace search is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#improved-workspace-search-is-now-ga",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d6e1601094e724de",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use generated columns when you create DLT datasets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#use-generated-columns-when-you-create-dlt-datasets",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "67209278d950a15e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved editing for notebooks with Monaco-based editor (Experimental)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#improved-editing-for-notebooks-with-monaco-based-editor-experimental",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8be9ef56dd930751",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compliance controls FedRAMP Moderate, PCI-DSS, and HIPAA (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#compliance-controls-fedramp-moderate-pci-dss-and-hipaa-ga",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7add306801e3590e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Add security controls with the compliance security profile (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#add-security-controls-with-the-compliance-security-profile-ga",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5fc69f637a7c8abe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Add image hardening and monitoring agents with enhanced security monitoring (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#add-image-hardening-and-monitoring-agents-with-enhanced-security-monitoring-ga",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "96d555445c6c8250",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.3 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#databricks-runtime-103-series-support-ends",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8b1c64ad995e3eb9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT now supports refreshing only selected tables in pipeline updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#dlt-now-supports-refreshing-only-selected-tables-in-pipeline-updates",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8f8b9518f4332dc3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Job execution now waits for cluster libraries to finish installing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/august#job-execution-now-waits-for-cluster-libraries-to-finish-installing",
+    "published": "2022-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

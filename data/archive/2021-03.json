@@ -1,0 +1,254 @@
+[
+  {
+    "id": "679193271a13d67f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks now supports dark mode for viewing notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#databricks-now-supports-dark-mode-for-viewing-notebooks",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3026eefa1015ecf3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.1 (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#databricks-runtime-81-ga",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9f041955a854cb09",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easier job creation and management with the enhanced jobs user interface (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#easier-job-creation-and-management-with-the-enhanced-jobs-user-interface-public-preview",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "85018393feb70207",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Track job retry attempts with a new sequential value returned for each job run attempt",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#track-job-retry-attempts-with-a-new-sequential-value-returned-for-each-job-run-attempt",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cf81d19b28e93183",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased limit for the number of saved jobs in Premium and Enterprise workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#increased-limit-for-the-number-of-saved-jobs-in-premium-and-enterprise-workspaces",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "80979cb6d7c0741e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easier way to connect to Databricks from your favorite BI tools and SQL clients",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#easier-way-to-connect-to-databricks-from-your-favorite-bi-tools-and-sql-clients",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "32783340c342dee2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Repos let you use Git repositories to integrate Databricks with CI/CD systems",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#databricks-repos-let-you-use-git-repositories-to-integrate-databricks-with-cicd-systems",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7ef209549823aa0c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic retries for failed job clusters reverted",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#automatic-retries-for-failed-job-clusters-reverted",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "feca85e2f26550b5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.1 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#databricks-runtime-81-beta",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ca170e5ffef1dae4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Limit username and password authentication with password ACLs (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#limit-username-and-password-authentication-with-password-acls-ga",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "288a776fb4179ea7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Receive email notification about activity in Model Registry",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#receive-email-notification-about-activity-in-model-registry",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bc51916f502cd502",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Model Serving now supports additional model types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#model-serving-now-supports-additional-model-types",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc8853f855f4b726",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New options for searching Model Registry",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#new-options-for-searching-model-registry",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8283f1197d8d7536",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased limit for the number of terminated all-purpose clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#increased-limit-for-the-number-of-terminated-all-purpose-clusters",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1bcff1ba23ec65ba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased limit for the number of pinned clusters in a workspace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#increased-limit-for-the-number-of-pinned-clusters-in-a-workspace",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b25a1f8760a19c20",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.0 (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/march#databricks-runtime-80-ga",
+    "published": "2021-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "948694270bfd93b3",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dataframe-rules-engine",
+    "title": "databrickslabs/dataframe-rules-engine: v0.1.2 Scala 2_12 Spark 3.0.1",
+    "url": "https://github.com/databrickslabs/dataframe-rules-engine/releases/tag/2_12-0.1.1",
+    "published": "2021-03-26",
+    "first_seen": "2026-07-30",
+    "summary": "NOTE: namespace changed\n\nWAS - com.databricks\n\nNO - com.databricks.labs\n\nsame code with the upgraded dependencies",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dataframe-rules-engine"
+    ]
+  },
+  {
+    "id": "a37651625ba71911",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dataframe-rules-engine",
+    "title": "databrickslabs/dataframe-rules-engine: Deprecated -- v0.1.1 Scala 2_11 Spark 2.4.0",
+    "url": "https://github.com/databrickslabs/dataframe-rules-engine/releases/tag/2_11-0.1.1",
+    "published": "2021-03-26",
+    "first_seen": "2026-07-30",
+    "summary": "Hotfix -- patch to fix issued resolved in PR7",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dataframe-rules-engine"
+    ]
+  }
+]

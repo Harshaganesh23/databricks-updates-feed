@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ed296ff86b102595",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.4 for Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/february#databricks-runtime-64-for-genomics-ga",
+    "published": "2020-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cdc75d5243f44fa3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.4 ML GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/february#databricks-runtime-64-ml-ga",
+    "published": "2020-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f14f72e0e11ea91e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.4 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/february#databricks-runtime-64-ga",
+    "published": "2020-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4b49514c5f1fb47e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Clusters and Jobs UIs now reflect new cluster terminology and cluster pricing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/february#the-clusters-and-jobs-uis-now-reflect-new-cluster-terminology-and-cluster-pricing",
+    "published": "2020-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "21b2b6979396dc96",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New interactive charts offer rich client-side interactions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/february#new-interactive-charts-offer-rich-client-side-interactions",
+    "published": "2020-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cb2bdc6ae3c9815e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New data ingestion network adds partner integrations with Delta Lake (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/february#new-data-ingestion-network-adds-partner-integrations-with-delta-lake-public-preview",
+    "published": "2020-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2020.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1c7f86bad467b3cd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Flags to manage workspace security and notebook features now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/february#flags-to-manage-workspace-security-and-notebook-features-now-available",
+    "published": "2020-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

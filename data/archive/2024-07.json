@@ -1,0 +1,814 @@
+[
+  {
+    "id": "09eeb2bfc3874e83",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased limit for simultaneous tasks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#increased-limit-for-simultaneous-tasks",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bece2f1c07df564c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Embed and drag & drop images in notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#embed-and-drag--drop-images-in-notebooks",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5a8b57658d39e767",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Command palette available in notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#command-palette-available-in-notebooks",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "99b01e9b2f4fbac3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workflow system schema renamed to lakeflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#workflow-system-schema-renamed-to-lakeflow",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "25346aa961737860",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeflow Connect (gated Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#lakeflow-connect-gated-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fc6f683b9e2ae470",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for Cloudflare R2 storage is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#support-for-cloudflare-r2-storage-is-ga",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1b0a904b8198f388",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor Databricks Assistant activities with system tables (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#monitor-databricks-assistant-activities-with-system-tables-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7c1b26929f894a61",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing schemas using Delta Sharing is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#sharing-schemas-using-delta-sharing-is-now-ga",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6b9f26f0af1d597b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Agent Framework is available in eu-central-1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#mosaic-ai-agent-framework-is-available-in-eu-central-1",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "675a108c5b3e4385",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant can diagnose issues with jobs (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#databricks-assistant-can-diagnose-issues-with-jobs-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dcac9423945f5292",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Updates to Databricks Git folders authentication and sharing behaviors",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#updates-to-databricks-git-folders-authentication-and-sharing-behaviors",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d51cc719798c2915",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster library installation timeout",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#cluster-library-installation-timeout",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "39101e08f6cf3fff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compute plane outbound IP addresses must be added to a workspace IP allow list",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#compute-plane-outbound-ip-addresses-must-be-added-to-a-workspace-ip-allow-list",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7e08df1d47722c64",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 9.1 series support extended",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#databricks-runtime-91-series-support-extended",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ffe6479b784e30c4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Single sign-on (SSO) is supported in Lakehouse Federation for SQL Server",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#single-sign-on-sso-is-supported-in-lakehouse-federation-for-sql-server",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9a50b039656443df",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enable cross-Geo processing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#enable-cross-geo-processing",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3fa0a8393bf17f22",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Model sharing using Delta Sharing is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#model-sharing-using-delta-sharing-is-now-generally-available",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "34e89f98da14ee9d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share comments and primary key constraints using Delta Sharing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#share-comments-and-primary-key-constraints-using-delta-sharing",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2308b5f22ec141e2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Databricks JDBC Driver",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#new-databricks-jdbc-driver",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "97f24e062a212312",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.4 LTS (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#databricks-runtime-154-lts-beta",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "435715b7e4cf959c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Scala is GA on Unity Catalog standard compute",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#scala-is-ga-on-unity-catalog-standard-compute",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ef769a79d5d7da76",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Dedicated compute (formerly single user) supports fine-grained access control, materialized views, and streaming tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#dedicated-compute-formerly-single-user-supports-fine-grained-access-control-materialized-views-and-streaming-tables",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "068d83c276ba3864",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Node timeline system table is now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#node-timeline-system-table-is-now-available-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7077cd60be55624d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.1 is now supported in Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#meta-llama-31-is-now-supported-in-model-serving",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e5295795e6ff961d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog will soon drop support for storage credentials that use non-self-assuming IAM roles",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#unity-catalog-will-soon-drop-support-for-storage-credentials-that-use-non-self-assuming-iam-roles",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a5cbf0aa97b577ad",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks: toggle more visible cell titles",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#notebooks-toggle-more-visible-cell-titles",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "831f35f8fff8c50e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "/ in workspace asset names is deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#-in-workspace-asset-names-is-deprecated",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "70d8eb6c8b209d1d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing lets you share tables that use liquid clustering",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#delta-sharing-lets-you-share-tables-that-use-liquid-clustering",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dca8a8f3abee8d98",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Query history system table is now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#query-history-system-table-is-now-available-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "622facda2f303059",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Vulnerability scan reports are now emailed to admins",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#vulnerability-scan-reports-are-now-emailed-to-admins",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "79a15a25f0ed3bb1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partition metadata logging for Unity Catalog external tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#partition-metadata-logging-for-unity-catalog-external-tables",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "77ba6961584df94f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute for workflows is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#serverless-compute-for-workflows-is-ga",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fd0e5a3d206aa920",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute for notebooks is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#serverless-compute-for-notebooks-is-ga",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "247bb963ce080413",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect for Python now supports serverless compute",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#databricks-connect-for-python-now-supports-serverless-compute",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "973be99884213eeb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Filter data outputs using natural language prompts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#filter-data-outputs-using-natural-language-prompts",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8f593d1a67d4b639",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Plaintext secrets support for external models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#plaintext-secrets-support-for-external-models",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "828e0c56a8b51e86",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Forecast time series data using ai_forecast()",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#forecast-time-series-data-using-ai",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fde55e98a98301e6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SQL File task support for files with multi-statement SQL queries is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#sql-file-task-support-for-files-with-multi-statement-sql-queries-is-ga",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "767f65e196819199",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse Federation supports Salesforce Data Cloud (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#lakehouse-federation-supports-salesforce-data-cloud-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "59c50847720699f4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant system table now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#databricks-assistant-system-table-now-available-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8e3e99bb18c6ba8c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account SCIM API v2.1 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#account-scim-api-v21-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c27878ae95142af5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Foundation Model Fine-tuning available to all us-west-2 customers (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#foundation-model-fine-tuning-available-to-all-us-west-2-customers-public-preview",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "92942e6aef9262ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "UK Cyber Essentials Plus compliance controls",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#uk-cyber-essentials-plus-compliance-controls",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e6fc30fe97bb42d8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "End of life for Databricks-managed passwords",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#end-of-life-for-databricks-managed-passwords",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6db038eef08ffded",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sign-in with one-time passcodes and external accounts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#sign-in-with-one-time-passcodes-and-external-accounts",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1e685ccb5954268a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Resource quota increase for tables per Unity Catalog metastore",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#resource-quota-increase-for-tables-per-unity-catalog-metastore",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "91770003f288348f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant can diagnose notebook errors automatically",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#databricks-assistant-can-diagnose-notebook-errors-automatically",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ddb298f7e9228d6b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for the :param syntax with the SQL file task is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#support-for-the-param-syntax-with-the-sql-file-task-is-ga",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0e3dcc8700262af0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OAuth in Databricks on AWS GovCloud",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/july#oauth-in-databricks-on-aws-govcloud",
+    "published": "2024-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "49440c72778f17ef",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbldatagen",
+    "title": "databrickslabs/dbldatagen: Hotfix for serverless support",
+    "url": "https://github.com/databrickslabs/dbldatagen/releases/tag/v0.4.0-Hotfix1",
+    "published": "2024-07-26",
+    "first_seen": "2026-07-30",
+    "summary": "- fixed issues running on Databricks serverless",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbldatagen"
+    ]
+  },
+  {
+    "id": "1817d5173cdf3689",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v0.4.2",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.4.2",
+    "published": "2024-07-18",
+    "first_seen": "2026-07-30",
+    "summary": "v0.4.2 [DBR 13.3 LTS]\n\n- Geopandas now set to \"<0.14.4,>=0.14\" due to conflict with minimum numpy version in geopandas 0.14.4.\n\n- H3 python changed from \"==3.7.0\" to \"<4.0,>=3.7\" to pick up patches.\n\n- Fixes an issue with fallback logic when deserializing subdatasets from a zip.\n\n- Adjusts data used to speed up a long-running test.\n\n- Streamlines setup_gdal and setup_fuse_install functions:\n\n- init script and resource copy logic fixed to repo \"main\" (.so) / \"latest\" (.jar).\n\n- added apt-get lock handling for native installs.\n\n- removed support for UbuntuGIS PPA as GDAL version no longer compatible with jammy default (3.4.x).",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "13dd7d421145b991",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v0.4.1",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.4.1",
+    "published": "2024-07-18",
+    "first_seen": "2026-07-30",
+    "summary": "v0.4.1 [DBR 13.3 LTS]\n\n- Fixed python bindings for MosaicAnalyzer functions.\n\n- Added tiller functions, ST_AsGeoJSONTile and ST_AsMVTTile, for creating GeoJSON and MVT tiles as aggregations of geometries.\n\n- Added filter and convolve functions for raster data.\n\n- Raster tile schema changed to be <tile:struct<index_id:bigint, tile:binary, metadata:map<string, string>>.\n\n- Raster tile metadata will contain driver, parentPath and path.\n\n- Raster tile metadata will contain warnings and errors in case of failures.\n\n- All raster functions ensure rasters are TILED and not STRIPED when appropriate.\n\n- GDAL cache memory has been decreased to 512MB to reduce memory usage and competition with Spark.\n\n- Add RST_MakeTiles that allows for different raster creations.\n\n- Rasters can now be passed as file pointers using checkpoint location.\n\n- Added logic to handle zarr format for raster data.\n\n- Added RST_SeparateBands to separate bands from a raster for NetCDF and Zarr formats.",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "dd369de6150f6e78",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v0.4.0",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.4.0",
+    "published": "2024-07-18",
+    "first_seen": "2026-07-30",
+    "summary": "- First release for DBR 13.3 LTS which is Ubuntu Jammy and Spark 3.4.1. Not backwards compatible, meaning it will not run on prior DBRs; requires either a Photon DBR or a ML Runtime (Standard, non-Photon DBR no longer allowed).\n\n- New setup_fuse_install function to meet various requirements arising with Unity Catalog + Shared Access clusters; removed the scala equivalent function, making artifact setup and install python-first for scala and Spark SQL.\n\n- Removed OSS ESRI Geometry API for 0.4 series, JTS now the only vector provider.\n\n- MosaicAnalyzer functions now accept Spark DataFrames instead of MosaicFrame, which has been removed.\n\n- Docs for 0.3.x have been archived and linked from current docs; notebooks for 0.3.x have been separated from current notebooks.\n\n- This release targets Assigned (vs Shared Access) clusters and offers python and scala language bindings; SQL expressions will not register in this release within Unity Catalog.",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "2ee9debef3202bb0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v0.3.14",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.3.14",
+    "published": "2024-07-18",
+    "first_seen": "2026-07-30",
+    "summary": "- Fixes for Warning and Error messages on mosaic_enable call.\n\n- Performance improvements for raster functions.\n\n- Fix support for GDAL configuration via spark config (use 'spark.databricks.labs.mosaic.gdal.' prefix).",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "ae9e535d1f2d9702",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v0.3.13",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.3.13.2",
+    "published": "2024-07-18",
+    "first_seen": "2026-07-30",
+    "summary": "R bindings generation fixed and improved.\n\nRemove usage of /vsimem/ drivers for GDAL due to memory leaks.\n\nAdd support for MapAlgebra expressions via RST_MapAlgebra.\n\nAdd support for custom combine python functions via RST_DerivedBand.\n\nImprove test coverage.\n\nAllow for GDAL configuration via spark config (use 'spark.databricks.labs.mosaic.gdal.' prefix).",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "8485988a88b058df",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v0.3.12",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.3.12",
+    "published": "2024-07-18",
+    "first_seen": "2026-07-30",
+    "summary": "- Make JTS default Geometry Provider\n\n- Updated R bindings for sparkr and sparklyr\n\n- Add raster tile functions.\n\n- Expand the support for raster manipulation.\n\n- Add abstractions for running distributed gdal_translate, gdalwarp, gdalcalc, etc.\n\n- Add RST_BoundingBox, RST_Clip, RST_CombineAvg, RST_CombineAvgAgg, RST_FromBands, RST_FromFile, RST_GetNoData,\n\nRST_InitNoData, RST_Merge, RST_MergeAgg, RST_NDVI, RST_ReTile, RST_SetNoData, RST_Subdivide\n\n- Add RST_Tessellate that generates H3 tiles from rasters.\n\n- Add RST_ToOverlappingTiles that generates tiles with overlapping areas from rasters.\n\n- Add GDAL generic format reader.\n\nThis release is for DBR < 13, mainly DBR 12.2 LTS. Stay tuned for a release very soon that targets DBR 13.3 LTS.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "da6b0183dac6419a",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: Version 0.2.4",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.4",
+    "published": "2024-07-17",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Fixing volume write function adding bytes by @zacdav-db in #39\n\n- Adding tests and helpers by @zacdav-db in #40\n\n- Changing licence to Apache 2.0! by @zacdav-db in #42\n\n- Adding helpers that setup databricks notebook by @zacdav-db in #43\n\n- SQL Connector Bindings + SQL Execution API by @zacdav-db in #44\n\n- pkgdown docs fixes by @zacdav-db in #45\n\n- Adding U2M OAuth Support by @zacdav-db in #49\n\n- Fixing connection pane tests by @zacdav-db in #46\n\n- Adjusting add_lib_path to have after param by @zacdav-db in #50\n\n- Adding NEWS.md by @zacdav-db in #51\n\n- Update README.md by @zacdav-db in #48\n\n- Vector Search APIs by @zacdav-db in #55\n\n- Connection Pane Revisions by @zacdav-db in #56\n\nFull Changelog: v0.2.0...v0.2.4",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  },
+  {
+    "id": "4d1dedc0484b1ab5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbx",
+    "title": "databrickslabs/dbx: Release v0.8.19",
+    "url": "https://github.com/databrickslabs/dbx/releases/tag/v0.8.19",
+    "published": "2024-07-02",
+    "first_seen": "2026-07-30",
+    "summary": "Release for version refs/tags/v0.8.19. Please refer to CHANGELOG.md for detailed information.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbx"
+    ]
+  }
+]

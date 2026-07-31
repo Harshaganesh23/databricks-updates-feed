@@ -1,0 +1,128 @@
+[
+  {
+    "id": "b0becbad72bcaf00",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Command execution details",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#command-execution-details",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "71de928a22f2edaf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI 0.6.1 supports --profile",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#databricks-cli-061-supports---profile",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "768e906533edc471",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ACLs enabled by default for new Operational Security customers",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#acls-enabled-by-default-for-new-operational-security-customers",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0bcdc147fe1e1203",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New doc site theme",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#new-doc-site-theme",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9748d1d1360d005e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster event log",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#cluster-event-log",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4a599d24a9a9f0ab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI: 0.6.0 release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#databricks-cli-060-release",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "061e94fdc3da74f8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Job run management",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#job-run-management",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dc00c89225b024d4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Edit cluster permissions now requires edit mode",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#edit-cluster-permissions-now-requires-edit-mode",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc1c45486fc79c0b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ML Model Export",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/march#databricks-ml-model-export",
+    "published": "2018-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

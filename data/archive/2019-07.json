@@ -1,0 +1,184 @@
+[
+  {
+    "id": "5e330e207dd3bd79",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Coming soon: Databricks 6.0 will not support Python 2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#coming-soon-databricks-60-will-not-support-python-2",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9dfee3bddf6439d2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Ideas Portal",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#ideas-portal",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a6e5f6435103412e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Preload the Databricks Runtime version on pool idle instances",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#preload-the-databricks-runtime-version-on-pool-idle-instances",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "60e182940f1f6b56",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Custom cluster tags and pool tags play better together",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#custom-cluster-tags-and-pool-tags-play-better-together",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b30c7567abc91306",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow 1.1 brings several UI and API improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#mlflow-11-brings-several-ui-and-api-improvements",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "68c0c9c93f9b6a1e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "pandas DataFrame display renders like it does in Jupyter",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#pandas-dataframe-display-renders-like-it-does-in-jupyter",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "924935ca71f11100",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#new-regions",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "835a77d061623bd8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.5 with Conda (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#databricks-runtime-55-with-conda-beta",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a5b8d964fd7fa702",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Set permissions on pools (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#set-permissions-on-pools-public-preview",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "81f3e5ff529639d7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.5 for Machine Learning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#databricks-runtime-55-for-machine-learning",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9abea9d168186a81",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.5",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#databricks-runtime-55",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9135536cab0810dd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Keep a pool of instances on standby for quick cluster launch (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#keep-a-pool-of-instances-on-standby-for-quick-cluster-launch-public-preview",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9d0b13064b018c27",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Global series color",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/july#global-series-color",
+    "published": "2019-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

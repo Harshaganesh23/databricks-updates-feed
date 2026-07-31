@@ -1,0 +1,26 @@
+[
+  {
+    "id": "b57cd0b586e535d6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Native data profiling for notebook results tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#native-data-profiling-for-notebook-results-tables",
+    "published": "2026-05-01",
+    "first_seen": "2026-07-30",
+    "summary": "You can now view profiling statistics for columns in notebook results tables. From a results table, select column headers and click Open selection details to view profiling statistics. This feature is also available in the new Databricks SQL editor. See Select data.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "e2920f00e0cbe55e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Community connectors (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#community-connectors-beta",
+    "published": "2026-05-01",
+    "first_seen": "2026-07-30",
+    "summary": "Open-source connectors extend Lakeflow Connect to sources without managed connector support. They're built and maintained by the community. Use a registered connector or create your own. See Community connectors in Lakeflow Connect.On this page\n- Query-based connectors for Lakeflow Connect are now generally available\n- Databricks Apps horizontal scaling (Beta)\n- Lakeflow Designer updates for May 29, 2026\n- Workspace sidebar navigation updates\n- Anthropic Claude Opus 4.8 now available as a Databricks-hosted model\n- Cross-engine attribute-based access controls (Beta)\n- Real-time mode in Spark Declarative Pipelines on Lakeflow, and the update_flow API are now available (Public Preview)\n- Google Drive managed ingestion connector (Beta)\n- Workspace admin setting for serverless notebook execution timeout\n- Refresh policies and EXPLAIN CREATE MATERIALIZED VIEW for materialized views are now generally available\n- Removed legacy Assistant slash commands\n- Automatic identity management with Microsoft Entra ID is now GA\n- <a",
+    "category": "Governance",
+    "tags": []
+  }
+]

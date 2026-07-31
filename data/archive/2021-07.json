@@ -1,0 +1,296 @@
+[
+  {
+    "id": "647a9bad2410b885",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage MLflow experiment permissions with the Databricks REST API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#manage-mlflow-experiment-permissions-with-the-databricks-rest-api",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5b878711f204332c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks web interface is localized in Portuguese and French (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#databricks-web-interface-is-localized-in-portuguese-and-french-public-preview",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "940f9bbc8ae6c29a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.5 LTS for Machine Learning support ends, replaced by Extended Support version",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#databricks-runtime-55-lts-for-machine-learning-support-ends-replaced-by-extended-support-version",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a42cb056b3d87297",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Light 2.4 support ends September 5, replaced by Extended Support version",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#databricks-light-24-support-ends-september-5-replaced-by-extended-support-version",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "572e0765963f9d74",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reduced permissions for cross-account IAM roles",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#reduced-permissions-for-cross-account-iam-roles",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ad4aebdb15f9e435",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Feature freshness information available in Databricks Feature Store UI (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#feature-freshness-information-available-in-databricks-feature-store-ui-public-preview",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1d8273fda0eb5ad3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Display up to 10,000 result rows",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#display-up-to-10000-result-rows",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7397689f0b1a8eb6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bulk import and export notebooks in a folder as source files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#bulk-import-and-export-notebooks-in-a-folder-as-source-files",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "667ff2485bb37d7d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Autocomplete in SQL notebooks now uses all-caps for SQL keywords",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#autocomplete-in-sql-notebooks-now-uses-all-caps-for-sql-keywords",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e44d6141c36f0fd7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reorderable and resizable widgets in notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#reorderable-and-resizable-widgets-in-notebooks",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "64842b7daeea0f7c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks UI usability fixes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#databricks-ui-usability-fixes",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0504ae4a2a57194a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Quickly define pipeline settings when you create a new DLT pipeline",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#quickly-define-pipeline-settings-when-you-create-a-new-dlt-pipeline",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5e82d8fd744902dc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.4 and 8.4 ML are GA; 8.4 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#databricks-runtime-84-and-84-ml-are-ga-84-photon-is-public-preview",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "75040b7fe3117d7a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use Spark SQL with the DLT Python API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#use-spark-sql-with-the-dlt-python-api",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "96cc44e044c7e2af",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enhanced data processing and analysis with Databricks jobs (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#enhanced-data-processing-and-analysis-with-databricks-jobs-public-preview",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6e1cb5a738282859",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reduced cost for DLT default clusters (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#reduced-cost-for-dlt-default-clusters-public-preview",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1e2987b140dcf6ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sort pipelines by name in the DLT UI (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#sort-pipelines-by-name-in-the-dlt-ui-public-preview",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "feb188901d129495",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Changes to Compute page",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#changes-to-compute-page",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1df02f342a3d2df2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.5 LTS support ends, replaced by Databricks Runtime 5.5 Extended Support through the end of 2021",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#databricks-runtime-55-lts-support-ends-replaced-by-databricks-runtime-55-extended-support-through-the-end-of-2021",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2432dc46a618169d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Repos API (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#repos-api-public-preview",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e4598eb9b93126c2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.4 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/july#databricks-runtime-84-beta",
+    "published": "2021-07-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — July 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

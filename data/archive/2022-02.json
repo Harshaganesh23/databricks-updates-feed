@@ -1,0 +1,296 @@
+[
+  {
+    "id": "798e5d06f2cbd7f6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easier scheduling for your DLT pipelines (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#easier-scheduling-for-your-dlt-pipelines-public-preview",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e25edf9d5e444446",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easily browse the history of your DLT pipeline updates (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#easily-browse-the-history-of-your-dlt-pipeline-updates-public-preview",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "96a5dc6a711bda57",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Ensure job idempotency for the Jobs API Run now request",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#ensure-job-idempotency-for-the-jobs-api-run-now-request",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aa4270d72e94b2ce",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs service stability and scalability improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#jobs-service-stability-and-scalability-improvements",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8f0d2115db926797",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compare MLflow runs from different experiments",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#compare-mlflow-runs-from-different-experiments",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b91e17c9af6a9131",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improvements to MLflow compare runs display",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#improvements-to-mlflow-compare-runs-display",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9ae807d43b93d26b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved visibility into job run owners in the clusters UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#improved-visibility-into-job-run-owners-in-the-clusters-ui",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "44be9d27b3f9a03c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Drop dataset columns in AutoML",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#drop-dataset-columns-in-automl",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ac83b553ee15d130",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Experiments page is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#experiments-page-is-ga",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f42e3034d9d866a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for temporary tables in the DLT Python interface",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#support-for-temporary-tables-in-the-dlt-python-interface",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "62dd238e4bf59411",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "User interface improvements for DLT (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#user-interface-improvements-for-dlt-public-preview",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e49e20f6edbb1758",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 9.0 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#databricks-runtime-90-series-support-ends",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "043b6a1c3acb9866",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data Science & Engineering landing page updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#data-science--engineering-landing-page-updates",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dd8a9a7b3d6ed6d3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Repos now supports AWS CodeCommit for Git integration",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#databricks-repos-now-supports-aws-codecommit-for-git-integration",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "71723272d3e7b100",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved visualization for your DLT pipelines (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#improved-visualization-for-your-dlt-pipelines-public-preview",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3da91422663f2926",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Updated Markdown parser",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#updated-markdown-parser",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0606bf9a734e5d60",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT now supports change data capture processing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#dlt-now-supports-change-data-capture-processing-public-preview",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e185571e38ff9f6c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Select algorithm frameworks to use with AutoML",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#select-algorithm-frameworks-to-use-with-automl",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "727145a5acd05c4d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Customer-managed VPCs are now available in ap-northeast-2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#customer-managed-vpcs-are-now-available-in-ap-northeast-2",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5660fd7f06e97023",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks hosted MLflow models can now look up features from online stores",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#databricks-hosted-mlflow-models-can-now-look-up-features-from-online-stores",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1bad6ffddefb80a5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.3 and 10.3 ML are GA; 10.3 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/february#databricks-runtime-103-and-103-ml-are-ga-103-photon-is-public-preview",
+    "published": "2022-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

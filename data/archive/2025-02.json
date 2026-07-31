@@ -1,0 +1,422 @@
+[
+  {
+    "id": "7d1c36ba96859141",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.9.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#databricks-odbc-driver-291",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0c125a6f451953f7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Publish pipeline event logs as Unity Catalog tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#publish-pipeline-event-logs-as-unity-catalog-tables",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "23e373edbda183e0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "FedRAMP High and Department of Defense IL5 Authorization is now authorized",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#fedramp-high-and-department-of-defense-il5-authorization-is-now-authorized",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f0f1da48ed47f57",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant provides table insights and lineage",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#databricks-assistant-provides-table-insights-and-lineage",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2eeccd0f759e8acf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Import open Delta Sharing shares directly into Databricks using the Import provider dialog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#import-open-delta-sharing-shares-directly-into-databricks-using-the-import-provider-dialog",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b649a7ff37619416",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing from open sharing providers to Databricks using OAuth",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#delta-sharing-from-open-sharing-providers-to-databricks-using-oauth",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c899da0a9e6ae18d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Streaming reads on Unity Catalog views is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#streaming-reads-on-unity-catalog-views-is-ga",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5c140a8dd97b8275",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Event time ordering for initial snapshot stream processing is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#event-time-ordering-for-initial-snapshot-stream-processing-is-ga",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8e7975d2e97b6ee7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Asynchronous progress tracking is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#asynchronous-progress-tracking-is-ga",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3996695014ca05c6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow Tracing is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#mlflow-tracing-is-ga",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4c937283c0e7451f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New filter panel in Databricks Marketplace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#new-filter-panel-in-databricks-marketplace",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "af61a2c44d1f59f5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OAuth secret lifetime now configurable",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#oauth-secret-lifetime-now-configurable",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "517d2c836b60cd53",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Preview files in volumes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#preview-files-in-volumes",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fbfc7886d486589d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Model serving billing records are now logged at five-minute intervals",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#model-serving-billing-records-are-now-logged-at-five-minute-intervals",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "277b0d4793d6e6ad",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic liquid clustering (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#automatic-liquid-clustering-public-preview",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "014f19aec25f9f68",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.1 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#databricks-runtime-141-series-support-ends",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6cbba28b719028b8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute can now use instance profiles for data access",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#serverless-compute-can-now-use-instance-profiles-for-data-access",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "56ae6ff52737e374",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 16.2 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#databricks-runtime-162-is-ga",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "02210c657769ee71",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support of Scala streaming foreach, foreachBatch, and flatMapGroupsWithState on standard access mode compute (formerly shared access mode)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#support-of-scala-streaming-foreach-foreachbatch-and-flatmapgroupswithstate-on-standard-access-mode-compute-formerly-shared-access-mode",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "98af05eb4d7fc6b8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog-governed access to external cloud services using service credentials is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#unity-catalog-governed-access-to-external-cloud-services-using-service-credentials-is-now-ga",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1ce051dc53a0c3d0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Download as Excel is now supported in notebooks connected to SQL warehouses",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#download-as-excel-is-now-supported-in-notebooks-connected-to-sql-warehouses",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "402630eb8e424313",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Write data from pipelines to external services with DLT sinks (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/february#write-data-from-pipelines-to-external-services-with-dlt-sinks-public-preview",
+    "published": "2025-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1284a8d58d29e444",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.7.1",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.7.1",
+    "published": "2025-02-27",
+    "first_seen": "2026-07-30",
+    "summary": "- Set upper SDK limit to v1 (#109). In this change, the upper SDK limit is set to version 1.0 in the pyproject.toml file of a library project, allowing projects using this library to set their own appropriate SDK limits. The databricks-sdk dependency is updated from \"<0.42\" to \"<1.0\" as a result of this commit. Additionally, the create function in the ml.py file of the pytester library has been modified. Previously, the EndpointCoreConfigInput object was passed as an argument to the serving_endpoints.create method using the keyword argument served_models. Now, EndpointCoreConfigInput is passed as a keyword argument config, which contains the served_models parameter, aligning with the new SDK version 1.0 and ensuring consistent endpoint creation. These changes are intended to ensure compatibility with a variety of SDK versions and improve the library's usability for software engineers.\n\nContributors: @JCZuurmond",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  },
+  {
+    "id": "8adb33c734f5d2f9",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.16.0",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.16.0",
+    "published": "2025-02-27",
+    "first_seen": "2026-07-30",
+    "summary": "- Let page name adhere to naming restrictions (#370). In this release, a new method _clean_resource_name has been introduced to modify resource names according to the updated naming convention, allowing only alphanumeric characters, hyphens, and underscores. The as_lakeview method in the BaseHandler class now uses this new method to ensure the Page class name adheres to the new restrictions. Furthermore, test files for dashboards have been updated to reflect the change, with a new test function test_dashboard_metadata_as_lakeview_cleans_page_name verifying that page names are free of special characters, and an existing test function modified to handle invalid dashboard YAML files. These changes improve consistency, reliability, and adherence to best practices in dashboard naming within the project.\n\nContributors: @JCZuurmond",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "b62c1bbe8458a7d9",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.15.1",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.15.1",
+    "published": "2025-02-27",
+    "first_seen": "2026-07-30",
+    "summary": "- remove duplicate changelog entry (#366). In this update, we've improved resource name validation in the ucx project, first introduced in version 0.14.2. The validation now restricts resource names to alphanumeric characters, hyphens, and underscores, addressing usability issues and preventing problems caused by special characters. A new internal method, _is_valid_resource_name, checks if a name is valid according to the defined pattern. The TileMetadata class has been updated to ensure its id attribute follows the new validation rules, and Tile, Section, and Dashboard classes now call the validate method of the TileMetadata instance if it exists. These changes promote consistency and correctness in dashboard resources, simplifying management and interaction for users. As a part of this commit, we also removed a duplicate changelog entry related to this feature that was previously present in version 0.15.0.\n\nContributors: @JCZuurmond, @gueniai",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "5b99a5f0da71246e",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.15.0",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.15.0",
+    "published": "2025-02-27",
+    "first_seen": "2026-07-30",
+    "summary": "- Validate resource names (#357). The recent change in the ucx project enhances resource name validation to adhere to a new naming convention, restricting names to alphanumeric characters, hyphens, and underscores. A new method, _is_valid_resource_name(name: str) -> bool, is introduced for validating resource names, and the TileMetadata class has been updated with a __post_init__ method and a validate method for validation purposes. The Tile and FilterTile classes also receive a validate method to raise ValueError for invalid tiles and metadata issues. This commit introduces new tests for validating tile IDs, tile metadata, and filter specs while improving error messages for better user understanding. It also raises ValueError for tiles with empty content, tiles with names containing spaces, and filter tiles with invalid widget types, ensuring stricter validation for dashboard metadata and tile metadata in the ucx project.\n\nContributors: @JCZuurmond, @gueniai",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "8e42220da3eb5410",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.56.0",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.56.0",
+    "published": "2025-02-25",
+    "first_seen": "2026-07-30",
+    "summary": "- Added documentation to use Delta Live Tables migration (#3587). In this documentation update, we introduce a new section for migrating Delta Live Table pipelines to the Unity Catalog as part of the migration process. This workflow allows for the original and cloned pipelines to run independently after the cloned pipeline reaches the RUNNING state. The update includes an example of stopping and renaming an existing HMS DLT pipeline, and creating a new cloned pipeline. Additionally, known issues and limitations are outlined, such as supported streaming sources, maintenance pausing, and querying by timestamp. To streamline the migration process, the migrate-dlt-pipelines command is introduced with optional parameters for including or excluding specific pipeline IDs. This feature is intended for developers and administrators managing data pipelines and handling table aliasing issues. Relevant user documentation has been added and the changes have been manually tested.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  },
+  {
+    "id": "90532a3166281761",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.7.0",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.7.0",
+    "published": "2025-02-24",
+    "first_seen": "2026-07-30",
+    "summary": "- Let make_serving_endpoint reference a valid model version (#106). In this release, the make_serving_endpoint fixture has been updated to enhance its functionality and flexibility. The fixture now accepts optional keyword arguments for specifying the endpoint name, model name, and model version, with the model version defaulting to 1 and the latest version automatically retrieved for workspace local models. The served model input is created with the specified model name, model version, and workload size, and a mock endpoint object is returned if obtaining the served model fails. The remove method has been updated to accept a ServingEndpointDetailed object for deletion, and the fixture now maintains a logger instance for warning messages during model version retrieval. Unit tests have been added to ensure the changes work as expected, although integration tests have not been fixed yet. These updates address issues arising from changes in the make_model fixture and improve the robustness and flexibility of the make_serving_endpoint fixture.\n\nContributors: @mwojtyczka, @JCZuurmond",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  },
+  {
+    "id": "9b6e36f91cd8849d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dlt-meta",
+    "title": "databrickslabs/dlt-meta: v0.0.9",
+    "url": "https://github.com/databrickslabs/dlt-meta/releases/tag/v0.0.9",
+    "published": "2025-02-13",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\nEnhancements\n\n- Added apply_changes_from_snapshot api support in bronze layer: PR\n\n- Added dlt append_flow api support for silver layer: PR\n\n- Added support for file metadata columns for autoloader: PR\n\n- Added support for Bring your own custom transformation: Issue\n\n- Added support to Unify PyPI releases with GitHub OIDC: PR\n\n- Added demo for append_flow and file_metadata options: PR\n\n- Added Demo for silver fanout architecture: PR\n\n- Added hugo-theme-relearn themee: PR\n\n- Added unit tests to showcase silver layer fanout examples: PR\n\n- Added liquid cluster support: PR\n\nBug fixes\n\n- Fixed issue for No such file or directory: '/demo' :PR\n\n- Fixed issue DLT-META CLI onboard command issue for Azure: databricks.sdk.errors.platform.ResourceAlreadyExists :PR\n\n- Fixed issue Changed dbfs.create to mkdirs for CLI: PR\n\n- Fixed issue DLT-META CLI should use pypi lib instead of whl : PR\n\n- Fixed issue Onboarding with multiple partition columns errors out: PR\n\nNew Contributors\n\n- @mithilmehta121287 made their first contribution in #89\n\n- @dvanderwood made their first contribution in #101\n\n- @sravanivadali made their first contribution in #116\n\n- @harsha-pasala made their first contribution in #129\n\n- @dattawalake made their first contribution in #127\n\nFull Changelog: v0.0.8...v0.0.9",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/dlt-meta"
+    ]
+  },
+  {
+    "id": "cd537dc5fbfa2227",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: v0.6.0",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.6.0",
+    "published": "2025-02-03",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Added serverless support to spark fixture by @mwojtyczka in #91\n\n- Release v0.6.0 by @mwojtyczka in #96\n\n- Fix release pipeline to use known runners by @mwojtyczka in #97\n\nFull Changelog: v0.5.0...v0.6.0",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  }
+]

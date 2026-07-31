@@ -1,0 +1,30 @@
+[
+  {
+    "id": "713b042c00c0b8cb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster event log filtering",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/may#cluster-event-log-filtering",
+    "published": "2019-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "76d72e5b533cda63",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "JDBC/ODBC connectivity available without Premium plan or above",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/may#jdbcodbc-connectivity-available-without-premium-plan-or-above",
+    "published": "2019-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

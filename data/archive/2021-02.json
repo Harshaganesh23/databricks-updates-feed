@@ -1,0 +1,282 @@
+[
+  {
+    "id": "82fa86a0be4c2880",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Databricks Power BI connector (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#new-databricks-power-bi-connector-ga",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dccc67f26767e859",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Add and manage account admins using the SCIM API (E2 accounts, Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#add-and-manage-account-admins-using-the-scim-api-e2-accounts-public-preview",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f22b61a391d4bee1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Added modification_time to the DBFS REST API get-status and list responses",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#added-modification",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f4bc17c29189365a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easily copy long experiment names in MLflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#easily-copy-long-experiment-names-in-mlflow",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ab40e0debb739854",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Adjust memory size and number of cores for serving clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#adjust-memory-size-and-number-of-cores-for-serving-clusters",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b9f04a91765bbdef",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Web terminal is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#web-terminal-is-now-ga",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3976b6407c80b46f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Auto-AZ: automatic selection of availability zone (AZ) when you launch clusters, available on all deployment types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#auto-az-automatic-selection-of-availability-zone-az-when-you-launch-clusters-available-on-all-deployment-types",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a979077cefa60ed0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delegate account management beyond the account owner (E2 accounts, Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#delegate-account-management-beyond-the-account-owner-e2-accounts-public-preview",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5cc0405dd6622798",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Separate account-level and workspace-level audit logging configurations help you monitor account and workspace activity more effectively",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#separate-account-level-and-workspace-level-audit-logging-configurations-help-you-monitor-account-and-workspace-activity-more-effectively",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b6599086dbc0c6ec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.2 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#databricks-runtime-72-series-support-ends",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "33fcc880649cacd4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.6 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#databricks-runtime-76-ga",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "31e1cc5c473a121c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#databricks-runtime-80-beta",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1c3c34ff974e2dec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime for Genomics now deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#databricks-runtime-for-genomics-now-deprecated",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e5a67e645bc775f3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View more readable JSON in the MLflow run artifact display",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#view-more-readable-json-in-the-mlflow-run-artifact-display",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "239a605c58c2d609",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Provide comments in the Model Registry using REST API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#provide-comments-in-the-model-registry-using-rest-api",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "89de6bf6b3e06993",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easily specify default cluster values in API calls",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#easily-specify-default-cluster-values-in-api-calls",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e19b93db9c007333",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Tune cluster worker configuration according to current worker allocation",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#tune-cluster-worker-configuration-according-to-current-worker-allocation",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ffca9e3be2083d21",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Pass context specific information to a job's task with task parameter variables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#pass-context-specific-information-to-a-jobs-task-with-task-parameter-variables",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e9557617294ee4a7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Error messages from job failures no longer contain possibly sensitive information",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#error-messages-from-job-failures-no-longer-contain-possibly-sensitive-information",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "13248b235b4c86d0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Download usage data from the new account console for E2 accounts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/february#download-usage-data-from-the-new-account-console-for-e2-accounts",
+    "published": "2021-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

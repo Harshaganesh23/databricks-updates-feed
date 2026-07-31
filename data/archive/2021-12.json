@@ -1,0 +1,198 @@
+[
+  {
+    "id": "791964543d8dea06",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.4 Extended Support series end-of-support date extended",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#databricks-runtime-64-extended-support-series-end-of-support-date-extended",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5899e6f4585930ad",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.5 Extended Support series reaches end of support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#databricks-runtime-55-extended-support-series-reaches-end-of-support",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dce5fba4310542a0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.21",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#databricks-jdbc-driver-2621",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "88d249af8c3dcffb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connector for Tableau 2021.4",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#databricks-connector-for-tableau-20214",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "51dc7e81f284d936",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.2 and 10.2 ML are GA; 10.2 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#databricks-runtime-102-and-102-ml-are-ga-102-photon-is-public-preview",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d298c2f5f1ed4e2a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspaces in the ap-southeast-1 region now support AWS PrivateLink",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#workspaces-in-the-ap-southeast-1-region-now-support-aws-privatelink",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "448eff88f6b7cd28",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Updated Markdown parser",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#updated-markdown-parser",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dfa06920e819f6d5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "User interface improvements for DLT",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#user-interface-improvements-for-dlt",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "07060b44efb00189",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 8.3 series support extended",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#databricks-runtime-83-series-support-extended",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5538e877d3cde5bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.2 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#databricks-runtime-102-beta",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "25870ddc2693bc12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Revert of recent breaking change that removed escaping and quotes from $ in environment variable values for cluster creation",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#revert-of-recent-breaking-change-that-removed-escaping-and-quotes-from--in-environment-variable-values-for-cluster-creation",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6674273019a00b0a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "serverless SQL warehouses are available in region eu-west-1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/december#serverless-sql-warehouses-are-available-in-region-eu-west-1",
+    "published": "2021-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2021.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b44e343e1b796080",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-sync",
+    "title": "databrickslabs/databricks-sync: 0.2.1",
+    "url": "https://github.com/databrickslabs/databricks-sync/releases/tag/0.2.1",
+    "published": "2021-12-20",
+    "first_seen": "2026-07-30",
+    "summary": "added release tag for 0.2.1 with the dask updates for the critical is…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/databricks-sync"
+    ]
+  },
+  {
+    "id": "4a133d673e525462",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-sync",
+    "title": "databrickslabs/databricks-sync: 0.2.0",
+    "url": "https://github.com/databrickslabs/databricks-sync/releases/tag/0.2.0",
+    "published": "2021-12-20",
+    "first_seen": "2026-07-30",
+    "summary": "added release tag for 0.2.0 (#99)",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/databricks-sync"
+    ]
+  }
+]

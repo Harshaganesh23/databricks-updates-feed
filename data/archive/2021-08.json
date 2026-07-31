@@ -1,0 +1,352 @@
+[
+  {
+    "id": "f91bf2f7d30781f9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Repos GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#databricks-repos-ga",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "20b1f4d4b570d1db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless SQL provides instant compute, minimal management, and cost optimization for SQL queries (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#serverless-sql-provides-instant-compute-minimal-management-and-cost-optimization-for-sql-queries-public-preview",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fac36f8e53bb82ab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "User interface improvements for DLT (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#user-interface-improvements-for-dlt-public-preview",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "170a90f62b4ce044",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "More control over how tables are materialized in DLT pipelines (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#more-control-over-how-tables-are-materialized-in-dlt-pipelines-public-preview",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "12764d01288bc98a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Increased timeout for long-running notebook jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#increased-timeout-for-long-running-notebook-jobs",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e2ffb6009aead4b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs service stability and scalability improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#jobs-service-stability-and-scalability-improvements",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "44e7ce9d2999df99",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "User entitlements granted by group membership are displayed in the admin console",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#user-entitlements-granted-by-group-membership-are-displayed-in-the-admin-console",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "124121cad640180e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage MLflow experiment permissions (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#manage-mlflow-experiment-permissions-public-preview",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0c5fae4caa7e6dc5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved job creation from notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#improved-job-creation-from-notebooks",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3b6193c6aa7ba208",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved support for collapsing notebook headings",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#improved-support-for-collapsing-notebook-headings",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "185e5bd0caa697c2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 9.0 and 9.0 ML are GA; 9.0 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#databricks-runtime-90-and-90-ml-are-ga-90-photon-is-public-preview",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d414c298ec446c2c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Low-latency delivery of audit logs is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#low-latency-delivery-of-audit-logs-is-generally-available",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8ada8734d7e48e24",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 9.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#databricks-runtime-90-beta",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "59365c806fc1e5d0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage repos programmatically with the Databricks CLI (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#manage-repos-programmatically-with-the-databricks-cli-public-preview",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "76654905d94f41b8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage repos programmatically with the Databricks REST API (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#manage-repos-programmatically-with-the-databricks-rest-api-public-preview",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc86a27fbc5f7609",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.6 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#databricks-runtime-76-series-support-ends",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b046cf15ef93b203",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Log delivery APIs now report delivery status",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#log-delivery-apis-now-report-delivery-status",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "469fab4d63fd82aa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use the AWS EBS SSD gp3 volume type for all clusters in a workspace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#use-the-aws-ebs-ssd-gp3-volume-type-for-all-clusters-in-a-workspace",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8fffb47e86e0426a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Audit events are logged when you interact with Databricks Repos",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#audit-events-are-logged-when-you-interact-with-databricks-repos",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1913d6ceca79f199",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved job creation and management workflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#improved-job-creation-and-management-workflow",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5a5c636bddbf9a19",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Simplified instructions for setting Git credentials (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#simplified-instructions-for-setting-git-credentials-public-preview",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "db888c67f2f2ddf4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Import multiple notebooks in .html format",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#import-multiple-notebooks-in-html-format",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4fd22f76adeca74b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Usability improvements for DLT",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#usability-improvements-for-dlt",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "910a2022149df009",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure Databricks for SSO with Microsoft Entra ID in your Azure tenant",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/august#configure-databricks-for-sso-with-microsoft-entra-id-in-your-azure-tenant",
+    "published": "2021-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f66b704908d91f80",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dataframe-rules-engine",
+    "title": "databrickslabs/dataframe-rules-engine: v0.2.0",
+    "url": "https://github.com/databrickslabs/dataframe-rules-engine/releases/tag/2_12-0.2.0",
+    "published": "2021-08-15",
+    "first_seen": "2026-07-30",
+    "summary": "Major upgrade. Output reports have breaking changes, more details in DOCS. Breaking change required for additional functionality and WAY more flexibility.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dataframe-rules-engine"
+    ]
+  }
+]

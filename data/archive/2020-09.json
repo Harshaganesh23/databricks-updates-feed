@@ -1,0 +1,282 @@
+[
+  {
+    "id": "85d06a4c74aca561",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.3, 7.3 ML, and 7.3 Genomics are now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#databricks-runtime-73-73-ml-and-73-genomics-are-now-ga",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "86b81139cf3b1903",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Debugging hints for SAML credential passthrough misconfigurations",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#debugging-hints-for-saml-credential-passthrough-misconfigurations",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dbdfd7d22e31e22c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Single Node clusters (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#single-node-clusters-public-preview",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "061b8f5ca6f68395",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DBFS REST API rate limiting",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#dbfs-rest-api-rate-limiting",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f67d3e2d6aeaa994",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New sidebar icons",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#new-sidebar-icons",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6c85f06e4ac0c04b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Running jobs limit increase",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#running-jobs-limit-increase",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "538c96d894f68ada",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Artifact access control lists (ACLs) in MLflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#artifact-access-control-lists-acls-in-mlflow",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "65e8efc3c08f93c0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow usability improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#mlflow-usability-improvements",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "81f467ae19693b6f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Databricks Power BI connector (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#new-databricks-power-bi-connector-public-preview",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d2f1fc6ca507cd5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New JDBC and ODBC drivers bring faster and lower latency BI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#new-jdbc-and-odbc-drivers-bring-faster-and-lower-latency-bi",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1ad02186a1a846df",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow Model Serving (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#mlflow-model-serving-public-preview",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a27b5c63c239fc00",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Clusters UI improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#clusters-ui-improvements",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a1ebf97753e5e837",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Visibility controls for jobs, clusters, notebooks, and other workspace objects",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#visibility-controls-for-jobs-clusters-notebooks-and-other-workspace-objects",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c066b19cc9fcfd76",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Ability to create tokens no longer permitted by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#ability-to-create-tokens-no-longer-permitted-by-default",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bf5fa903b5e81633",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for c5.24xlarge instances",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#support-for-c524xlarge-instances",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a50ab9b4d09ed279",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow Model Registry supports sharing of models across workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#mlflow-model-registry-supports-sharing-of-models-across-workspaces",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "68c7c9b992cba073",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.3 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#databricks-runtime-73-beta",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f1f1b93bc5ffd33b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "E2 architectureânow GAâprovides better security, scalability, and management tools",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#e2-architecturenow-gaprovides-better-security-scalability-and-management-tools",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "893377e531ed4ab7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account API is generally available on the E2 version of the platform",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#account-api-is-generally-available-on-the-e2-version-of-the-platform",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "981d21de2c9b6519",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Secure cluster connectivity (no public IPs) is now the default on the E2 version of the platform",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/september#secure-cluster-connectivity-no-public-ips-is-now-the-default-on-the-e2-version-of-the-platform",
+    "published": "2020-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

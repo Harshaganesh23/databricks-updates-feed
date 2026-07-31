@@ -1,0 +1,478 @@
+[
+  {
+    "id": "7d21396e8c03fae7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor Unity Catalog object usage against quotas using the new Resource Quotas APIs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#monitor-unity-catalog-object-usage-against-quotas-using-the-new-resource-quotas-apis",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "40f2fabd7d8833e0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MPT 7B Instruct and MPT 30B Instruct model retirements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#mpt-7b-instruct-and-mpt-30b-instruct-model-retirements",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c5cafd4040a6e8bd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AskSupport replaced by Databricks assistant",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#asksupport-replaced-by-databricks-assistant",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c29d43417d661db3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeflow system tables are extend with additional columns",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#lakeflow-system-tables-are-extend-with-additional-columns",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2d98e7e151ebf0e5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python code formatting error highlights",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#python-code-formatting-error-highlights",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3fa55cf469a35533",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks on AWS GovCloud is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#databricks-on-aws-govcloud-is-now-ga",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "242cec771fda486a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing: More Delta Lake features now supported by the Python and Power BI connectors",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#delta-sharing-more-delta-lake-features-now-supported-by-the-python-and-power-bi-connectors",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7a663c749096bc1e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing adds support for TimestampNTZ",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#delta-sharing-adds-support-for-timestampntz",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "adb40012b4381626",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Databricks Jobs For each task is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#the-databricks-jobs-for-each-task-is-ga",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b34a2fd213b92e04",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.4 LTS is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#databricks-runtime-154-lts-is-ga",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9f502d13866fc9fa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Personalized notebook autocomplete",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#personalized-notebook-autocomplete",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "96cd294c3db3165d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Symlinks are now supported in workspace files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#symlinks-are-now-supported-in-workspace-files",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2fde6b04d42b54a1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure your workspace's default access mode for jobs compute",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#configure-your-workspaces-default-access-mode-for-jobs-compute",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8ed556d6dfaa261e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New slash commands for Databricks Assistant",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#new-slash-commands-for-databricks-assistant",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c4ff9f5b4b4085c8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace search now supports volumes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#workspace-search-now-supports-volumes",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "de66306f0cf6b2a6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.40",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#databricks-jdbc-driver-2640",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ac0c353567a16e10",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks personal access tokens revoked if unused after 90 days",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#databricks-personal-access-tokens-revoked-if-unused-after-90-days",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "381d6aa1b4bc17f0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless SQL warehouses with the compliance security profile is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#serverless-sql-warehouses-with-the-compliance-security-profile-is-now-ga",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "840c6f9c3c866ff1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Clusters API now supports partial configuration updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#clusters-api-now-supports-partial-configuration-updates",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fe498fe5a9ada8a4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Wrap lines in notebook cells",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#wrap-lines-in-notebook-cells",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b50449969433f666",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Specify columns to sync for Mosaic AI Vector Search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#specify-columns-to-sync-for-mosaic-ai-vector-search",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "beecd9feb835827e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Files can no longer have identical names in workspace folders",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#files-can-no-longer-have-identical-names-in-workspace-folders",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4973319e19df4749",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compute policy enforcement now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#compute-policy-enforcement-now-available",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b4199c5f273bf7bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Foundation Model APIs pay-per-token is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#foundation-model-apis-pay-per-token-is-now-ga",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "71c083a5b8a376f2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Collaborate on data projects securely and privately using Databricks Clean Rooms (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#collaborate-on-data-projects-securely-and-privately-using-databricks-clean-rooms-public-preview",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "73979ce90f52c3bc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Vector Search is now HIPAA-compliant",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#mosaic-ai-vector-search-is-now-hipaa-compliant",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7cfe30e889f96d08",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Format columns in notebook and query results tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#format-columns-in-notebook-and-query-results-tables",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f77d8e7849d83aee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Row filters and column masks are now GA, with improvements",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#row-filters-and-column-masks-are-now-ga-with-improvements",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "26b7d02f7558acc4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Canadian Centre for Cybersecurity (CCCS) Medium (Protected B) compliance controls",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#canadian-centre-for-cybersecurity-cccs-medium-protected-b-compliance-controls",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a93c46769a979c8b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse Federation is generally available (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#lakehouse-federation-is-generally-available-ga",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "13b9dd76c55b2e81",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.1 405B models supported in Foundation Model Fine-tuning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#meta-llama-31-405b-models-supported-in-foundation-model-fine-tuning",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "283bfae77d8fbdcc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create a new workspace with enhanced security and compliance features",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/august#create-a-new-workspace-with-enhanced-security-and-compliance-features",
+    "published": "2024-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a95cc77109a4824a",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tika-ocr",
+    "title": "databrickslabs/tika-ocr: tika-ocr-0.1.7",
+    "url": "https://github.com/databrickslabs/tika-ocr/releases/tag/tika-ocr-0.1.7",
+    "published": "2024-08-08",
+    "first_seen": "2026-07-30",
+    "summary": "[maven-release-plugin] copy for tag tika-ocr-0.1.7",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tika-ocr"
+    ]
+  },
+  {
+    "id": "e9a87ed17e53bc4e",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dlt-meta",
+    "title": "databrickslabs/dlt-meta: v0.0.8",
+    "url": "https://github.com/databrickslabs/dlt-meta/releases/tag/v0.0.8",
+    "published": "2024-08-06",
+    "first_seen": "2026-07-30",
+    "summary": "Enhancements\n\n- Added dlt append_flow api support: #58\n\n- Added dlt append_flow api support for silver layer: #63\n\n- Added support for file metadata columns for autoloader: #56\n\n- Added support for Bring your own custom transformation: #68\n\n- Added support to Unify PyPI releases with GitHub OIDC: #62\n\n- Added demo for append_flow and file_metadata options: #74\n\n- Added Demo for silver fanout architecture: #83\n\n- Added documentation in docs site for new features: #64\n\n- Added unit tests to showcase silver layer fanout examples: #67\n\nBug fixes\n\n- Fixed issue for No such file or directory: '/demo' :#59\n\n- Fixed issue DLT-META CLI onboard command issue for Azure: databricks.sdk.errors.platform.ResourceAlreadyExists :#51\n\n- Fixed issue Changed dbfs.create to mkdirs for CLI: #53\n\n- Fixed issue DLT-META CLI should use pypi lib instead of whl : #79\n\nFull Changelog: v0.0.7...v0.0.8",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/dlt-meta"
+    ]
+  }
+]

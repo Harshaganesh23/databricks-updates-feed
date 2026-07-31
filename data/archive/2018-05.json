@@ -1,0 +1,212 @@
+[
+  {
+    "id": "e4757c252342b802",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "General Data Protection Regulation (GDPR)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#general-data-protection-regulation-gdpr",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "67863a817a19117b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "HorovodEstimator",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#horovodestimator",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c1a383a7fabb9640",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLeap ML Model Export",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#mleap-ml-model-export",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b10c99b91ef2768c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebook cells: hide and show",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#notebook-cells-hide-and-show",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "370500b822202bb3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Doc site search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#doc-site-search",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "427047050bea6342",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 4.1 for Machine Learning (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#databricks-runtime-41-for-machine-learning-beta",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "52a554ceb56cd515",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New GPU cluster types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#new-gpu-cluster-types",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "05bf9d3b08f609ff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Secret management",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#secret-management",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2a83defc05e4900c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster pinning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#cluster-pinning",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bd12f6ecfc59afe1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster autostart",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#cluster-autostart",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "38fde71543786dee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace purging",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#workspace-purging",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bbe6e02a874ff1f5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks CLI 0.7.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#databricks-cli-071",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9600f3fb9c5d6f45",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Display() support for image data types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#display-support-for-image-data-types",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b96847fd6acfbdf3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Delta update",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#databricks-delta-update",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "81a2a0a7963fb577",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "S3 Select connector",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/may#s3-select-connector",
+    "published": "2018-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2018.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

@@ -1,0 +1,408 @@
+[
+  {
+    "id": "5eacd31964f74137",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.14.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#databricks-terraform-provider-updated-to-version-1140",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1e90f32f2a966e4e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.3 LTS ML support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#databricks-runtime-73-lts-ml-support-ends",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "74754ec1be3d78a7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "C7g Graviton 3 instances are now supported on Databricks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#c7g-graviton-3-instances-are-now-supported-on-databricks",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b79394f4fc2f69fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Distributed training with TorchDistributor",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#distributed-training-with-torchdistributor",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4de459077a6ad009",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 13.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#databricks-runtime-130-beta",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ec23af7a5fc2a49e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved file editor",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#improved-file-editor",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d78afd9b8a97d787",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks no longer creates a serverless starter SQL warehouse",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#databricks-no-longer-creates-a-serverless-starter-sql-warehouse",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d8186ec55e696e90",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "In SQL Warehouses API, enabling serverless compute now must be explicit",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#in-sql-warehouses-api-enabling-serverless-compute-now-must-be-explicit",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c6d18023eb1f0862",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Changes for workspace settings for serverless SQL warehouses",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#changes-for-workspace-settings-for-serverless-sql-warehouses",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a20d6a527f2ca949",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Changes for serverless compute settings for accounts and workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#changes-for-serverless-compute-settings-for-accounts-and-workspaces",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "34a50092c93eac1e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks SQL Serverless is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#databricks-sql-serverless-is-ga",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "972c7ee846880208",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": ".ipynb (Jupyter) notebook support in Repos (preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#ipynb-jupyter-notebook-support-in-repos-preview",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ac52292d8ea5b026",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for reload4j",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#support-for-reload4j",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8542444e199734ea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Execute SQL cells in the notebook in parallel",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#execute-sql-cells-in-the-notebook-in-parallel",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d2c8cd0a2965a16e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create job tasks using Python code stored in a Git repo",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#create-job-tasks-using-python-code-stored-in-a-git-repo",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b36a8af4bae01aef",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.13.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#databricks-terraform-provider-updated-to-version-1130",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a8009d9d5d7f256f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.12.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#databricks-terraform-provider-updated-to-version-1120",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4a3ea54e79e76831",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SQL admin console and workspace admin console combined",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#sql-admin-console-and-workspace-admin-console-combined",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7d6ae3611a279580",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Model Serving is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#model-serving-is-ga",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2b749a113d9eebe5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic feature lookup is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#automatic-feature-lookup-is-ga",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f697b1049b1a47d8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Catalog Explorer availability",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#new-catalog-explorer-availability",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c9460a35e8ea44b7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View frequent queries and users of a table using the Insights tab",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#view-frequent-queries-and-users-of-a-table-using-the-insights-tab",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6ad8a404cb749359",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Exact match search is available in global search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#exact-match-search-is-available-in-global-search",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2bd63540c612391d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View lineage information for your Databricks jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#view-lineage-information-for-your-databricks-jobs",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "869dff7b9bf64058",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 12.2 LTS and Databricks Runtime 12.2 LTS ML are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#databricks-runtime-122-lts-and-databricks-runtime-122-lts-ml-are-ga",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "878dcf8b1c326253",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace files are now in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/march#workspace-files-are-now-in-public-preview",
+    "published": "2023-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "98014fdf2fba6047",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbx",
+    "title": "databrickslabs/dbx: Release v0.8.10",
+    "url": "https://github.com/databrickslabs/dbx/releases/tag/v0.8.10",
+    "published": "2023-03-21",
+    "first_seen": "2026-07-30",
+    "summary": "Release for version refs/tags/v0.8.10. Please refer to CHANGELOG.md for detailed information.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbx"
+    ]
+  },
+  {
+    "id": "f6aa5fc60926a1a2",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dlt-meta",
+    "title": "databrickslabs/dlt-meta: Release v.0.0.1",
+    "url": "https://github.com/databrickslabs/dlt-meta/releases/tag/v0.0.1",
+    "published": "2023-03-21",
+    "first_seen": "2026-07-30",
+    "summary": "No content.",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/dlt-meta"
+    ]
+  },
+  {
+    "id": "ce909d755c70f640",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/discoverx",
+    "title": "databrickslabs/discoverx: v0.0.0",
+    "url": "https://github.com/databrickslabs/discoverx/releases/tag/v0.0.0",
+    "published": "2023-03-15",
+    "first_seen": "2026-07-30",
+    "summary": "Initial version to reserve PyPi project",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/discoverx"
+    ]
+  }
+]

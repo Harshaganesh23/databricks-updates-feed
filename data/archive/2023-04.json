@@ -1,0 +1,310 @@
+[
+  {
+    "id": "fd7239cecb3d9d99",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Marketplace (Public Preview): an open marketplace for data, analytics, and AI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#databricks-marketplace-public-preview-an-open-marketplace-for-data-analytics-and-ai",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "042d0a133d978248",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure the Python formatter",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#configure-the-python-formatter",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "311a768877819351",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace files are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#workspace-files-are-ga",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "83784f0181484cf2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster-scoped init scripts can now be stored in workspace files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#cluster-scoped-init-scripts-can-now-be-stored-in-workspace-files",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d174bbea49352999",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Delta Sharing privileges enable delegation of share, recipient, and provider management tasks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#new-delta-sharing-privileges-enable-delegation-of-share-recipient-and-provider-management-tasks",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "69d7f0ed57307d65",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect V2 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#databricks-connect-v2-public-preview",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "76ad29fd47c12583",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New cluster metrics UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#new-cluster-metrics-ui",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f85e3c8ce658fca1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 13.0 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#databricks-runtime-130-is-ga",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b92b0017368f72f1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Control access to the account console by IP address ranges (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#control-access-to-the-account-console-by-ip-address-ranges-public-preview",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "27335abf4cc5c690",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.14.3",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#databricks-terraform-provider-updated-to-version-1143",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e27faec8ad33f9b1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Audit log entries for changed admin settings for workspaces and accounts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#audit-log-entries-for-changed-admin-settings-for-workspaces-and-accounts",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "17506e032d1d0b02",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspaces with security profile or ESM include audit logs rows for system and monitor logs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#workspaces-with-security-profile-or-esm-include-audit-logs-rows-for-system-and-monitor-logs",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4c4e555f5aa9a596",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to versions 1.14.1 and 1.14.2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#databricks-terraform-provider-updated-to-versions-1141-and-1142",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "554cc32351dadbea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Combined SQL user settings and general user settings",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#combined-sql-user-settings-and-general-user-settings",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "28b34e433b7347a3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Legacy notebook visualizations deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#legacy-notebook-visualizations-deprecated",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1d385776a0c1d21c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create or modify table from file upload page supports JSON file uploads",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/april#create-or-modify-table-from-file-upload-page-supports-json-file-uploads",
+    "published": "2023-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b9967991eeda6bc0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbx",
+    "title": "databrickslabs/dbx: Release v0.8.11",
+    "url": "https://github.com/databrickslabs/dbx/releases/tag/v0.8.11",
+    "published": "2023-04-24",
+    "first_seen": "2026-07-30",
+    "summary": "Release for version refs/tags/v0.8.11. Please refer to CHANGELOG.md for detailed information.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbx"
+    ]
+  },
+  {
+    "id": "592fa5936bd6da66",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbldatagen",
+    "title": "databrickslabs/dbldatagen: preview_code_genv5",
+    "url": "https://github.com/databrickslabs/dbldatagen/releases/tag/preview_code_genv5",
+    "published": "2023-04-23",
+    "first_seen": "2026-07-30",
+    "summary": "Experimental build",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbldatagen"
+    ]
+  },
+  {
+    "id": "880159647bac152f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbldatagen",
+    "title": "databrickslabs/dbldatagen: preview_code_genv4",
+    "url": "https://github.com/databrickslabs/dbldatagen/releases/tag/preview_code_genv4",
+    "published": "2023-04-23",
+    "first_seen": "2026-07-30",
+    "summary": "Experimental build",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbldatagen"
+    ]
+  },
+  {
+    "id": "b3a6d01cffdcc9da",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbldatagen",
+    "title": "databrickslabs/dbldatagen: preview_code_genv3",
+    "url": "https://github.com/databrickslabs/dbldatagen/releases/tag/preview_code_genv3",
+    "published": "2023-04-23",
+    "first_seen": "2026-07-30",
+    "summary": "experimental build",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbldatagen"
+    ]
+  },
+  {
+    "id": "3eb9fcdb781a2a3e",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbldatagen",
+    "title": "databrickslabs/dbldatagen: preview_code_gen2",
+    "url": "https://github.com/databrickslabs/dbldatagen/releases/tag/preview_code_gen2",
+    "published": "2023-04-21",
+    "first_seen": "2026-07-30",
+    "summary": "updates",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbldatagen"
+    ]
+  },
+  {
+    "id": "8a627f5e648b1e42",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.23",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.23",
+    "published": "2023-04-17",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Bump ipython from 8.5.0 to 8.8.0 by @dependabot in #287\n\n- Bump wheel from 0.37.1 to 0.38.1 in /python by @dependabot in #284\n\n- Bump pyarrow from 9.0.0 to 10.0.1 by @dependabot in #282\n\n- Bump jsonref from 0.3.0 to 1.0.1 by @dependabot in #279\n\n- Update user-guide.rst by @rportilla-databricks in #285\n\n- Bump wheel from 0.37.1 to 0.38.4 by @dependabot in #280\n\n- Bump flake8 from 5.0.4 to 6.0.0 by @dependabot in #291\n\n- Bump pytz from 2022.5 to 2022.7.1 by @dependabot in #290\n\n- Bump sphinx-copybutton from 0.5.0 to 0.5.1 by @dependabot in #289\n\n- Bump pandas from 1.5.1 to 1.5.2 by @dependabot in #288\n\n- Update README.md by @rportilla-databricks in #301\n\n- applied black formatting by @tnixon in #307\n\n- Bump black from 22.10.0 to 23.3.0 by @dependabot in #303\n\n- Bump ipython from 8.8.0 to 8.10.0 in /python by @dependabot in #298\n\n- Bump numpy from 1.23.4 to 1.24.2 by @dependabot in #296\n\n- removed old deprecated scala code by @tnixon in #308\n\n- Add tolerance parameter to asofJoin by @nina-hu in #304\n\n- Need to mark source directory as \"safe\" for git to perform actions during docs build by @tnixon in #314\n\nNew Contributors\n\n- @nina-hu made their first contribution in #304\n\nFull Changelog: v0.1.22...v0.1.23",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  }
+]

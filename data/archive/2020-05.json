@@ -1,0 +1,198 @@
+[
+  {
+    "id": "8c8d2b04f9973e27",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.6 for Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#databricks-runtime-66-for-genomics-ga",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fe0074c5e29f2f04",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.6 ML GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#databricks-runtime-66-ml-ga",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fa8253bf874f1ac0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.6 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#databricks-runtime-66-ga",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e42f565c6853eb1d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Easily view large numbers of MLflow registered models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#easily-view-large-numbers-of-mlflow-registered-models",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e5d6d28199bfaa74",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Libraries configured to be installed on all clusters are not installed on clusters running Databricks Runtime 7.0 and above",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#libraries-configured-to-be-installed-on-all-clusters-are-not-installed-on-clusters-running-databricks-runtime-70-and-above",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc10738e0aec5dff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.0 for Genomics (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#databricks-runtime-70-for-genomics-beta",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d0f2fe54610d55fb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.0 ML (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#databricks-runtime-70-ml-beta",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "99f87a7a0f8e8a59",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.6 for Genomics (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#databricks-runtime-66-for-genomics-beta",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "74bd8156909ea444",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.6 ML (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#databricks-runtime-66-ml-beta",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fb132fb3b2f7e193",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.6 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#databricks-runtime-66-beta",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d0b31ee2708138bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Job clusters now tagged with job name and ID",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#job-clusters-now-tagged-with-job-name-and-id",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f01db4d34cde7a71",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DBFS REST API delete endpoint size limit",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#dbfs-rest-api-delete-endpoint-size-limit",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cafdcc7bf23e987c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Restore deleted notebook cells",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#restore-deleted-notebook-cells",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "acaa62f000a7b540",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Jobs pending queue limit",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/may#jobs-pending-queue-limit",
+    "published": "2020-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

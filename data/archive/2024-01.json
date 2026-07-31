@@ -1,0 +1,352 @@
+[
+  {
+    "id": "c6dbf5417a0e9416",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Native XML file format support (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#native-xml-file-format-support-public-preview",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f01df6c7bea8273e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share AI models using Databricks Marketplace (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#share-ai-models-using-databricks-marketplace-public-preview",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ad0c44f9e78da583",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace path update",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#workspace-path-update",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ff491b843df04eac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Streamlined creation of Databricks jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#streamlined-creation-of-databricks-jobs",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2a580dc58aac9c6e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor GPU model serving workloads using inference tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#monitor-gpu-model-serving-workloads-using-inference-tables",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "81e9a3c17c12a397",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "URI path-based access to Unity Catalog external volumes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#uri-path-based-access-to-unity-catalog-external-volumes",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ab7ea23a42669aab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Access controls lists can be enabled on upgraded workspaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#access-controls-lists-can-be-enabled-on-upgraded-workspaces",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ec28295c19691e8b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Marketplace listing events system table now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#marketplace-listing-events-system-table-now-available-public-preview",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "38b45419e6a83474",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Updated UI for notebook cells (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#updated-ui-for-notebook-cells-public-preview",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f68d111003e95f93",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Quick Fix help with syntax errors in the notebook",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#quick-fix-help-with-syntax-errors-in-the-notebook",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "243232fcdb0b35e9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.3 LTS (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#databricks-runtime-143-lts-beta",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "149ad6b9dd5b732e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share AI models using Delta Sharing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#share-ai-models-using-delta-sharing-public-preview",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1f8021b0d4e3e67a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Marketplace supports volume sharing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#databricks-marketplace-supports-volume-sharing",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "de7e63354195ebf3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create widgets from the Databricks UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#create-widgets-from-the-databricks-ui",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bc811a61aeb2e967",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Warehouse events system table is now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#warehouse-events-system-table-is-now-available-public-preview",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "399d36738bef8e12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "UI experience for OAuth app registration",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#ui-experience-for-oauth-app-registration",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "139254d1672ec05a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reuse subnets across workspaces for customer-managed VPCs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#reuse-subnets-across-workspaces-for-customer-managed-vpcs",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "83f90e3dea74cc3e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace file size limit is now 500MB",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#workspace-file-size-limit-is-now-500mb",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "25d931f8f1cbe3d9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Feature removal notice for legacy Git integration in Databricks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#feature-removal-notice-for-legacy-git-integration-in-databricks",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fb803f6192e2a717",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.7.7",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#databricks-odbc-driver-277",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f46f1dfaca7418ad",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 13.2 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/january#databricks-runtime-132-series-support-ends",
+    "published": "2024-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "50a1c8c03855e404",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v0.4.0: Merge pull request #505 from databrickslabs/releases/v_0.4.0",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v0.4.0",
+    "published": "2024-01-15",
+    "first_seen": "2026-07-30",
+    "summary": "Releases/v 0.4.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "ac1c064002c4e412",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/discoverx",
+    "title": "databrickslabs/discoverx: v0.0.8",
+    "url": "https://github.com/databrickslabs/discoverx/releases/tag/v0.0.8",
+    "published": "2024-01-15",
+    "first_seen": "2026-07-30",
+    "summary": "- Fixed bug for tables containing - character in the table name\n\n- Added example for cloning all catalog/schema content\n\n- Added filtering for table format (exclude views from queries by default)\n\n- Added support for PII detection on non-string columns\n\n- Updated LICENSE file",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/discoverx"
+    ]
+  },
+  {
+    "id": "8c4edfb2b606a393",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dlt-meta",
+    "title": "databrickslabs/dlt-meta: Unity Catalog and Databricks labs CLI support",
+    "url": "https://github.com/databrickslabs/dlt-meta/releases/tag/v0.0.5",
+    "published": "2024-01-06",
+    "first_seen": "2026-07-30",
+    "summary": "New Features\n\n1. Unity Catalog Support (#28)\n\n2. Databricks Labs CLI Support (#28)\n\n- Added two commands for DLT-META\n\n- onboard: Captures all onboarding details from command line and launch onboarding job to your databricks workspace\n\n- deploy: Captures all DLT pipeline details from command line and launch DLT pipeline to your databricks workspace\n\nUpdates\n\n- Readme and docs to include above features\n\n- Updated existing demos to incorporate unity catalog and integration test framework\n\n- integration tests framework which can be used to launch demos",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dlt-meta"
+    ]
+  },
+  {
+    "id": "2cf9c9ae51379a4f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tika-ocr",
+    "title": "databrickslabs/tika-ocr: tika-ocr-0.1.4",
+    "url": "https://github.com/databrickslabs/tika-ocr/releases/tag/tika-ocr-0.1.4",
+    "published": "2024-01-04",
+    "first_seen": "2026-07-30",
+    "summary": "[maven-release-plugin] copy for tag tika-ocr-0.1.4",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tika-ocr"
+    ]
+  }
+]

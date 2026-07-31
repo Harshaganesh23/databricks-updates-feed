@@ -1,0 +1,86 @@
+[
+  {
+    "id": "439aa51b5dbeb0e2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow on Databricks (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/april#mlflow-on-databricks-ga",
+    "published": "2019-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2019.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d18cf2dfb81f021",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Lake on Databricks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/april#delta-lake-on-databricks",
+    "published": "2019-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2019.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4909d202be6a12ce",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow runs sidebar",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/april#mlflow-runs-sidebar",
+    "published": "2019-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2019.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bdf726b51a4a8772",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "C5d series Amazon EC2 instance types (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/april#c5d-series-amazon-ec2-instance-types-beta",
+    "published": "2019-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b35ed947bee54976",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.3 (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/april#databricks-runtime-53-ga",
+    "published": "2019-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fd8ac9c2642dc376",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.3 ML (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/april#databricks-runtime-53-ml-ga",
+    "published": "2019-04-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — April 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "6b05b505773db22c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use DLT in Feature Engineering (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#use-dlt-in-feature-engineering-public-preview",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b01f5e7d6c3e2956",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Restrict creating a personal access token for a service principal",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#restrict-creating-a-personal-access-token-for-a-service-principal",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "245a701a92d58683",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Restrict changing a job owner and the run as setting",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#restrict-changing-a-job-owner-and-the-run-as-setting",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "733ba13d4be3a979",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic cluster update is enabled if the compliance security profile is enabled (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#automatic-cluster-update-is-enabled-if-the-compliance-security-profile-is-enabled-ga",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f18f46c3c6d265cd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account admins can enable enhanced security and compliance features (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#account-admins-can-enable-enhanced-security-and-compliance-features-public-preview",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f1f49c8171576db0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for Cloudflare R2 storage to avoid cross-region egress fees (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#support-for-cloudflare-r2-storage-to-avoid-cross-region-egress-fees-public-preview",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b4a3838a3f1ad0f4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks for monitoring and managing Delta Sharing egress costs are now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#notebooks-for-monitoring-and-managing-delta-sharing-egress-costs-are-now-available",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a3e4211e97b2a9a7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Add data UI supports XML file format",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#add-data-ui-supports-xml-file-format",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d119e2c9d5e0b0a7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for cloud storage firewall from serverless compute (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#support-for-cloud-storage-firewall-from-serverless-compute-public-preview",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a9d0387a8eee6f8b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use AI Functions to invoke an AI model from Foundation Model APIs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#use-ai-functions-to-invoke-an-ai-model-from-foundation-model-apis",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cfaeae742afe8368",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog volumes are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#unity-catalog-volumes-are-ga",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d1b4fbb4dbcf1a2c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Full-page AI-powered search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#full-page-ai-powered-search",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "01a03e2bb4f085da",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Run SQL notebook jobs on a SQL warehouse",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#run-sql-notebook-jobs-on-a-sql-warehouse",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3720b0b3fc1eedd2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "File arrival triggers in Databricks Jobs is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#file-arrival-triggers-in-databricks-jobs-is-ga",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d2755afd1e450a32",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Search for machine learning models in Unity Catalog using global workspace search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#search-for-machine-learning-models-in-unity-catalog-using-global-workspace-search",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "df7fbd3de83f3511",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Git server proxy is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#databricks-git-server-proxy-is-ga",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "67ca3f3355b2fc0a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Git server proxy no longer requires CAN_ATTACH_TO permissions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#databricks-git-server-proxy-no-longer-requires-can",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "858e0e71322871de",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace file support for the dbt and SQL file tasks is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#workspace-file-support-for-the-dbt-and-sql-file-tasks-is-ga",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4ded3a7cf0b61317",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect is GA for Scala",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#databricks-connect-is-ga-for-scala",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "745556fd6b7fde30",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create tables from files in volumes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#create-tables-from-files-in-volumes",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e772575f2f3cd047",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.3 LTS is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#databricks-runtime-143-lts-is-ga",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3fb95562e0269ec0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing supports tables that use deletion vectors (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/february#delta-sharing-supports-tables-that-use-deletion-vectors-public-preview",
+    "published": "2024-02-29",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "121c798ad2ed34b5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbldatagen",
+    "title": "databrickslabs/dbldatagen: Release v0.3.6",
+    "url": "https://github.com/databrickslabs/dbldatagen/releases/tag/release%2Fv0.3.6",
+    "published": "2024-02-24",
+    "first_seen": "2026-07-30",
+    "summary": "This release includes fixes for use of dbldatagen on the Databricks shared clusters",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbldatagen"
+    ]
+  },
+  {
+    "id": "ea35854cf2134be4",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tika-ocr",
+    "title": "databrickslabs/tika-ocr: tika-ocr-0.1.5",
+    "url": "https://github.com/databrickslabs/tika-ocr/releases/tag/tika-ocr-0.1.5",
+    "published": "2024-02-12",
+    "first_seen": "2026-07-30",
+    "summary": "[maven-release-plugin] copy for tag tika-ocr-0.1.5",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tika-ocr"
+    ]
+  }
+]

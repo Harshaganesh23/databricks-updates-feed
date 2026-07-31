@@ -1,0 +1,128 @@
+[
+  {
+    "id": "5d0d1f989891ed8f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Purge deleted MLflow experiments and runs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#purge-deleted-mlflow-experiments-and-runs",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "faaa16c441e1134f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Light generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#databricks-light-generally-available",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2860fba0ef85e700",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Searchable cluster selector",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#searchable-cluster-selector",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b45bebd47243f3b2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Upcoming usage display changes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#upcoming-usage-display-changes",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d563018b0ee0d81a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage groups from the Admin Console",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#manage-groups-from-the-admin-console",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3cd4dd62b8fd6c5e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks automatically have associated MLflow experiment",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#notebooks-automatically-have-associated-mlflow-experiment",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "435166680dcd660e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Z1d series Amazon EC2 instance types (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#z1d-series-amazon-ec2-instance-types-beta",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ad8ee5a87470e39d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Two private IP addresses per node",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#two-private-ip-addresses-per-node",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2ee7d5c1a5c493b5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Delta public community",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/march#databricks-delta-public-community",
+    "published": "2019-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "e513606791ccd1ed",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.1 for Machine Learning (Beta) release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/december#databricks-runtime-51-for-machine-learning-beta-release",
+    "published": "2018-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "daeebd1da350cfe3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.1 release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/december#databricks-runtime-51-release",
+    "published": "2018-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "06c5405994b70f61",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Library UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/december#library-ui",
+    "published": "2018-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

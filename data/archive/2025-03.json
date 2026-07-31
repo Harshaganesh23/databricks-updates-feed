@@ -1,0 +1,562 @@
+[
+  {
+    "id": "f04504a2d316b4fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 16.3 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#databricks-runtime-163-is-ga",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "71cb298da72ed1a4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Disable your legacy Hive metastore (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#disable-your-legacy-hive-metastore-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2fc0bec141743153",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks jobs now allow 1,000 tasks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#databricks-jobs-now-allow-1000-tasks",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8c62c7ca1bd9ecf1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Agent Framework and Mosaic AI Agent Evaluation are generally available (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#mosaic-ai-agent-framework-and-mosaic-ai-agent-evaluation-are-generally-available-ga",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "02f98ec800cded59",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Managed SaaS connectors support column-level selection (API-only)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#managed-saas-connectors-support-column-level-selection-api-only",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "415a0844f6241e8b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3.3 70B Instruct support on Foundation Model Fine-tuning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#meta-llama-33-70b-instruct-support-on-foundation-model-fine-tuning",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b6f5b1747573f1d5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Apps: Control access to resources based on user permissions with on-behalf-of-user authorization (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#databricks-apps-control-access-to-resources-based-on-user-permissions-with-on-behalf-of-user-authorization-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9bafd336fc95e29d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Legacy system schemas deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#legacy-system-schemas-deprecated",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "915ffa4a31e33b47",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Claude Sonnet 3.7 now supported on Mosaic AI Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#claude-sonnet-37-now-supported-on-mosaic-ai-model-serving",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ecbadfda9d6f3051",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Additional audit logging for Databricks Apps events (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#additional-audit-logging-for-databricks-apps-events-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bfeb2c326f3edea8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Group clusters are generally available (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#group-clusters-are-generally-available-ga",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d7c862c77362df71",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Information Extraction is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#information-extraction-is-in-beta",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5d926e432083a3be",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New CAN VIEW permission available for SQL warehouses (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#new-can-view-permission-available-for-sql-warehouses-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "376ad33ce722c50c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New column explorer",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#new-column-explorer",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4261fec84845ec3e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Gateway now supports pay-per-token endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#ai-gateway-now-supports-pay-per-token-endpoints",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5c01a7ea8d9e774c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connector for Google Sheets (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#databricks-connector-for-google-sheets-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7ed14889f77ec104",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Web terminal activity is now considered compute activity",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#web-terminal-activity-is-now-considered-compute-activity",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2457146a724e8dbc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Budget policies renamed to serverless budget policies",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#budget-policies-renamed-to-serverless-budget-policies",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3d3138d69649c1ab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing supports renaming tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#delta-sharing-supports-renaming-tables",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a9fabb64d91e3195",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OIDC federation for Databricks-to-open Delta Sharing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#oidc-federation-for-databricks-to-open-delta-sharing-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e5b7c8f218f1356d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AutoML supports clusters in dedicated access mode assigned to groups",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#automl-supports-clusters-in-dedicated-access-mode-assigned-to-groups",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2d93ac8cd4c8dd56",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The compute system tables are enabled by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#the-compute-system-tables-are-enabled-by-default",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "08bd691479f8ff40",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Hive metastore federation is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#hive-metastore-federation-is-generally-available",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dbe7ca147f8a4bc7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compute logs can now be delivered to volumes (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#compute-logs-can-now-be-delivered-to-volumes-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "141c68567bc4ad39",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Download as Excel is now supported in notebooks connected to serverless compute",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#download-as-excel-is-now-supported-in-notebooks-connected-to-serverless-compute",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "03120423817f70ca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bind storage credentials, service credentials, and external locations to specific workspaces (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#bind-storage-credentials-service-credentials-and-external-locations-to-specific-workspaces-ga",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0b94101291120f36",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 16.3 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#databricks-runtime-163-beta",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "12d93d064b3a1510",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New open source Databricks JDBC Driver is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#new-open-source-databricks-jdbc-driver-is-ga",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "220ce7c569cd3915",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor and revoke personal access tokens in your account (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#monitor-and-revoke-personal-access-tokens-in-your-account-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6b36e6ad8249a27a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Conversation API is now in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#genie-conversation-api-is-now-in-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "abc3d0b35c89eec2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Perform batch inference using AI Functions (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#perform-batch-inference-using-ai-functions-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "32c264ad1e4b4a72",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ServiceNow connector (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#servicenow-connector-public-preview",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a468c8c3bc9065ca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External models now supports OpenAI-compatible LLMs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#external-models-now-supports-openai-compatible-llms",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3974cedcd77c4275",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Agent Framework monitoring is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#agent-framework-monitoring-is-in-beta",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e10c57c9f7fea9d6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Agent Framework is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#mosaic-ai-agent-framework-is-generally-available",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1fb2643d424c0fa6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing support for query optimizer statistics is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#delta-sharing-support-for-query-optimizer-statistics-is-ga",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "11ba844d7838be68",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Gateway now supports fallbacks for external models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#ai-gateway-now-supports-fallbacks-for-external-models",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7a357a2c30cd1af0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Control the location of Databricks Assistant with the new docking feature",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march#control-the-location-of-databricks-assistant-with-the-new-docking-feature",
+    "published": "2025-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "38046adaa1479623",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: v0.2.7",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.7",
+    "published": "2025-03-10",
+    "first_seen": "2026-07-30",
+    "summary": "Adding stricter requirements for httr2 to avoid issues in prior versi…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  },
+  {
+    "id": "5c7d39659c3935d7",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.57.0",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.57.0",
+    "published": "2025-03-05",
+    "first_seen": "2026-07-30",
+    "summary": "- Convert UCX job ids to int before passing to JobsCrawler (#3816). In this release, we have addressed issue #3722 and improved the robustness of the open-source library by modifying the jobs_crawler method to handle job IDs more effectively. Previously, job IDs were passed directly to the exclude_job_ids parameter, which could cause issues if they were not integers. To address this problem, we have updated the jobs_crawler method to convert all job IDs to integers using a list comprehension before passing them to the method. This change ensures that only valid integer job IDs are used, thereby enhancing the reliability of the method. The commit includes a manual test to confirm the correct behavior of this modification. In summary, this modification improves the robustness of the code by ensuring that integer job IDs are utilized correctly in the JobsCrawler method.…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  }
+]

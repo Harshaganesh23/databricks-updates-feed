@@ -1,0 +1,142 @@
+[
+  {
+    "id": "15dc8a4a1986118e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Databricks Power BI connector available in the online Power BI service (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#new-databricks-power-bi-connector-available-in-the-online-power-bi-service-public-preview",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "75b559c7f853728e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.4 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#databricks-runtime-74-beta",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a19f91c6713f7c27",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Expanded experiment access control (ACLs)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#expanded-experiment-access-control-acls",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2c4bedc9dc90b1fd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "High fidelity import and export of Jupyter notebook (ipynb) files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#high-fidelity-import-and-export-of-jupyter-notebook-ipynb-files",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "dd53eb542b22a2d1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SCIM API improvement: both indirect and direct groups returned in user record response",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#scim-api-improvement-both-indirect-and-direct-groups-returned-in-user-record-response",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3717ee08f43db124",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.5 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#databricks-runtime-65-series-support-ends",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1e5cbbdb82956994",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Self-service, low-latency audit log configuration (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#self-service-low-latency-audit-log-configuration-public-preview",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "76f6ddf0096ba81f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SCIM API improvement: $ref field response",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#scim-api-improvement-ref-field-response",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2c17ff6678e5e40b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.3, 7.3 ML, and 7.3 Genomics declared Long Term Support (LTS)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#databricks-runtime-73-73-ml-and-73-genomics-declared-long-term-support-lts",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "619bc343e849cf02",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Render images at higher resolution using matplotlib",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/october#render-images-at-higher-resolution-using-matplotlib",
+    "published": "2020-10-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — October 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

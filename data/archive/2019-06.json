@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dd70e43f79ef61c8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account usage chart updated to display usage grouped by workload type",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/june#account-usage-chart-updated-to-display-usage-grouped-by-workload-type",
+    "published": "2019-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "00eda067d010f255",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "RStudio integration no longer limited to high concurrency clusters",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/june#rstudio-integration-no-longer-limited-to-high-concurrency-clusters",
+    "published": "2019-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5ea5ff54528f9d94",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow 1.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/june#mlflow-10",
+    "published": "2019-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2019.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "97c81152daa68adc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.4 with Conda (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/june#databricks-runtime-54-with-conda-beta",
+    "published": "2019-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fee66a4fb9d3b020",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.4 for Machine Learning",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/june#databricks-runtime-54-for-machine-learning",
+    "published": "2019-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "05712bc3b6ba30dc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.4",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/june#databricks-runtime-54",
+    "published": "2019-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

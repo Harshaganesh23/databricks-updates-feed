@@ -1,0 +1,100 @@
+[
+  {
+    "id": "bbcafd79bff7f93b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect now supports Databricks Runtime 6.2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/december#databricks-connect-now-supports-databricks-runtime-62",
+    "published": "2019-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b17471fdb38d740a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.2 for Genomics GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/december#databricks-runtime-62-for-genomics-ga",
+    "published": "2019-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "83502d3201c7f006",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Azure Databricks SCIM provisioning connector available in the app gallery",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/december#azure-databricks-scim-provisioning-connector-available-in-the-app-gallery",
+    "published": "2019-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2019.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "60927070efe9f044",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 5.3 and 5.4 support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/december#databricks-runtime-53-and-54-support-ends",
+    "published": "2019-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6f563854d12fcd5c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.2 ML GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/december#databricks-runtime-62-ml-ga",
+    "published": "2019-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f77f148dd34b08f2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.2 GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/december#databricks-runtime-62-ga",
+    "published": "2019-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c7122d3dc9f27c55",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect now supports Databricks Runtime 6.1",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2019/december#databricks-connect-now-supports-databricks-runtime-61",
+    "published": "2019-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2019.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

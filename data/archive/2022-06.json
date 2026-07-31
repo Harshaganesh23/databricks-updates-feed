@@ -1,0 +1,296 @@
+[
+  {
+    "id": "95f9ac66270ce89c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ALTER TABLE permission changes for Unity Catalog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#alter-table-permission-changes-for-unity-catalog",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ac3d91722aa984cc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.4 Extended Support reaches end of support",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#databricks-runtime-64-extended-support-reaches-end-of-support",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1c3968734fb7e1be",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.2 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#databricks-runtime-102-series-support-ends",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6e0c30f8ba8cfab0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.6.24",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#databricks-odbc-driver-2624",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "814806e8ad3ffb46",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#databricks-terraform-provider-is-now-ga",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "68ccb2bdf074edd7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless SQL warehouses available for E2 workspaces (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#serverless-sql-warehouses-available-for-e2-workspaces-public-preview",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "363948c01ba83533",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enable enhanced security controls with a security profile (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#enable-enhanced-security-controls-with-a-security-profile-public-preview",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "efd705292c286425",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "PCI-DSS compliance controls (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#pci-dss-compliance-controls-public-preview",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a1a9680c05960848",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "HIPAA compliance controls for E2 (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#hipaa-compliance-controls-for-e2-public-preview",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b8ec910d2cab79e2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enhanced security monitoring (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#enhanced-security-monitoring-public-preview",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f8389219be26bc1a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 11.0 and 11.0 ML are GA; 11.0 Photon is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#databricks-runtime-110-and-110-ml-are-ga-110-photon-is-public-preview",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "802d21ac9b4b3e9b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Change to Repos default working directory in Databricks Runtime 11.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#change-to-repos-default-working-directory-in-databricks-runtime-110",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "652c71826ca5a51b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 10.1 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#databricks-runtime-101-series-support-ends",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a956797f83664b0d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Audit logs can now record when a notebook command is run",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#audit-logs-can-now-record-when-a-notebook-command-is-run",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "97ff508af47b3331",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DLT now supports SCD type 2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#dlt-now-supports-scd-type-2",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "201c127da646763a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create DLT pipelines directly in the Databricks UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#create-dlt-pipelines-directly-in-the-databricks-ui",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "35cf2b8f42e42dfd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Select the DLT channel when you create or edit a pipeline",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#select-the-dlt-channel-when-you-create-or-edit-a-pipeline",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7130bb47713d2624",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Communicate between tasks in your Databricks jobs with task values",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#communicate-between-tasks-in-your-databricks-jobs-with-task-values",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0fffc133c35a0131",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enable account switching in the Databricks UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#enable-account-switching-in-the-databricks-ui",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "602ee00f40050929",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Updating the AWS Region for a failed workspace is no longer supported",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2022/june#updating-the-aws-region-for-a-failed-workspace-is-no-longer-supported",
+    "published": "2022-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2022.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7521b7959de0f7ca",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/delta-sharing-java-connector",
+    "title": "databrickslabs/delta-sharing-java-connector: v0.1.0-alpha",
+    "url": "https://github.com/databrickslabs/delta-sharing-java-connector/releases/tag/v0.1.0-alpha",
+    "published": "2022-06-24",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n- Update project name in licence and notice. by @milos-colic in #3\n\n- Feature/migrate to labs by @milos-colic in #1\n\n- Add regex checks for getFileCheckpointPath and getCoordinates. by @milos-colic in #5\n\n- Feature/add codecov by @milos-colic in #4\n\n- Add style checks by @nkvuong in #6\n\n- Feature/add docs by @milos-colic in #7\n\n- Add trufflehog for secrets scanning. by @milos-colic in #8\n\n- Add publis action on release. by @milos-colic in #9\n\n- Update README.md by @milos-colic in #10\n\n- Run linting for checkstyle by @nkvuong in #11\n\n- Move code from io.delta.sharing.java to com.databricks.labs.delta.sha… by @milos-colic in #12\n\n- Minor fixes to README by @nkvuong in #13\n\n- Fixes following feedback from nfx by @nkvuong in #15\n\nFull Changelog: https://github.com/databrickslabs/delta-sharing-java-connector/commits/v0.1.0-alpha",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/delta-sharing-java-connector"
+    ]
+  }
+]

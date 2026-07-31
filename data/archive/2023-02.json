@@ -1,0 +1,184 @@
+[
+  {
+    "id": "df7597277a78d3fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SAML single sign-on (SSO) in the account console is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#saml-single-sign-on-sso-in-the-account-console-is-generally-available",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5ee2afbc265ed3db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Ray on Databricks (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#ray-on-databricks-public-preview",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7b0ffb04ec2c17c2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebook cell output results limit increased",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#notebook-cell-output-results-limit-increased",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8ddd4e0032ae4159",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Jobs now supports running continuous jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#databricks-jobs-now-supports-running-continuous-jobs",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5cb6c3c9c4888aa0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Trigger your Databricks job when new files arrive",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#trigger-your-databricks-job-when-new-files-arrive",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2bc6e1fd47ae0edb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.10.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#databricks-terraform-provider-updated-to-version-1100",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f103e10c18d24bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Legacy global init scripts and cluster-named init scripts disabled",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#legacy-global-init-scripts-and-cluster-named-init-scripts-disabled",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "10c24f2cc82d6042",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improvements to the MLflow experiment UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#improvements-to-the-mlflow-experiment-ui",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d7d8d16bb970f5c8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 12.2 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#databricks-runtime-122-beta",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "7286351d8da4dfc2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks extension for Visual Studio Code (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#databricks-extension-for-visual-studio-code-public-preview",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4a0c646abe13aee8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless Real-Time Inference Public Preview now available to all customers",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#serverless-real-time-inference-public-preview-now-available-to-all-customers",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "40b191f81ec06680",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Terraform provider updated to version 1.9.2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#databricks-terraform-provider-updated-to-version-192",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a3c47bbbb16878fa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Variable explorer in Databricks notebooks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/february#variable-explorer-in-databricks-notebooks",
+    "published": "2023-02-28",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — February 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

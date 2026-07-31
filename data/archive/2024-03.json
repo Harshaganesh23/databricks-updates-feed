@@ -1,0 +1,324 @@
+[
+  {
+    "id": "80e88fde97944db1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DBRX Base and DBRX Instruct are now available in Model Serving",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#dbrx-base-and-dbrx-instruct-are-now-available-in-model-serving",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "57141f89bde30ff1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Model Serving is HIPAA compliant in all regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#model-serving-is-hipaa-compliant-in-all-regions",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9e0295707e2f4522",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Provisioned throughput in Foundation Model APIs is GA and HIPAA compliant",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#provisioned-throughput-in-foundation-model-apis-is-ga-and-hipaa-compliant",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f3ccc9fb491f5412",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow now enforces quota limits for experiments and runs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#mlflow-now-enforces-quota-limits-for-experiments-and-runs",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5deaf8d42a8c65bc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Jobs UI is updated to better manage jobs deployed by Declarative Automation Bundles",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#the-jobs-ui-is-updated-to-better-manage-jobs-deployed-by-declarative-automation-bundles",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a4064665089ab350",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Cloud Vertex AI supported as model provider for external models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#google-cloud-vertex-ai-supported-as-model-provider-for-external-models",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6b57a81fe76784be",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Accessing resources from serving endpoints using instance profiles is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#accessing-resources-from-serving-endpoints-using-instance-profiles-is-ga",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a019b96d7e3ea0fc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Interactive notebook debugging",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#interactive-notebook-debugging",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "213ccdbd11de113e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Self-service sign-up for private exchange providers in Marketplace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#self-service-sign-up-for-private-exchange-providers-in-marketplace",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "04f83cd30fc6fb9f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.0 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#databricks-runtime-150-is-ga",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0e596e8c1f899f7b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Repos changed to Git folders",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#databricks-repos-changed-to-git-folders",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "26ac9199d6d755f9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.1 and 14.2 series support extended",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#databricks-runtime-141-and-142-series-support-extended",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "539cde6333d11d58",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks ODBC driver 2.8.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#databricks-odbc-driver-280",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8b965a2f60c5b62b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SQL warehouses for notebooks is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#sql-warehouses-for-notebooks-is-ga",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9303092a78856010",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delegate the ability to view an object's metadata in Unity Catalog (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#delegate-the-ability-to-view-an-objects-metadata-in-unity-catalog-public-preview",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "25f0915f7fda0af4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.0 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#databricks-runtime-150-beta",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c174dbfa5fc19a9b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 14.0 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#databricks-runtime-140-series-support-ends",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "984f3fd3387f9eec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New computation for sys.path and CWD in Repos",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#new-computation-for-syspath-and-cwd-in-repos",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "404171d90ceb4b51",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Feature Serving is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#feature-serving-is-ga",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c9fafc64f2a74949",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Predictive optimization available in more regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/march#predictive-optimization-available-in-more-regions",
+    "published": "2024-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0f5d7935acc50a9d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-sdk-r",
+    "title": "databrickslabs/databricks-sdk-r: v0.4.0",
+    "url": "https://github.com/databrickslabs/databricks-sdk-r/releases/tag/v0.4.0",
+    "published": "2024-03-21",
+    "first_seen": "2026-07-30",
+    "summary": "- Regenerated from the latest OpenAPI spec (#29).\n\nAPI Changes:\n\n- Changed catalogsList() function to require request of .\n\n- Changed connectionsCreate() function with new required argument order.\n\n- Changed connectionsDelete() function with new required argument order.\n\n- Changed connectionsGet() function with new required argument order.\n\n- Changed connectionsUpdate() function with new required argument order.\n\n- Changed externalLocationsList() function to require request of .\n\n- Changed functionsCreate() function . New request type is .\n\n- Changed metastoresCreate() function with new required argument order.\n\n- Removed metastoresEnableOptimization() function.\n\n- Changed storageCredentialsList() function to require request of .\n\n- Added tablesExists() function.\n\n- Changed volumesCreate() function with new required argument order.\n\n- Changed volumesDelete() function with new required argument order.\n\n- Changed volumesRead() function with new required argument order.\n\n- Changed volumesUpdate() function with new required argument order.\n\n- Added workspaceBindingsGetBindings() function.\n\n- Added workspaceBindingsUpdateBindings() function.\n\n- Removed clusterPoliciesGetClusterPolicyPermissionLevels() function.\n\n- Removed clusterPoliciesGetClusterPolicyPermissions() function.\n\n- Removed clusterPoliciesSetClusterPolicyPermissions() function.\n\n- Removed clusterPoliciesUpdateClusterPolicyPermissions() function.\n\n- Added clusterPoliciesGetPermissionLevels() function.\n\n- Added clusterPoliciesGetPermissions() function.\n\n- Added clusterPoliciesSetPermissions() function.\n\n- Added clusterPoliciesUpdatePermissions() function.\n\n- Removed clustersGetClusterPermissionLevels() function.\n\n- Removed clustersGetClusterPermissions() function.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/databricks-sdk-r"
+    ]
+  },
+  {
+    "id": "90eb1e431938e2ba",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-sdk-r",
+    "title": "databrickslabs/databricks-sdk-r: v0.3.1",
+    "url": "https://github.com/databrickslabs/databricks-sdk-r/releases/tag/v0.3.1",
+    "published": "2024-03-21",
+    "first_seen": "2026-07-30",
+    "summary": "Release v0.3.1 (#28)\n\n* Added tokei.rs badge ([#27](#27)).\n\n* Fix handling of bare DATABRICKS_HOST URLs. ([#25](#25)).",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-sdk-r"
+    ]
+  },
+  {
+    "id": "208fd6a639684ade",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dlt-meta",
+    "title": "databrickslabs/dlt-meta: v0.0.6",
+    "url": "https://github.com/databrickslabs/dlt-meta/releases/tag/v0.0.6",
+    "published": "2024-03-19",
+    "first_seen": "2026-07-30",
+    "summary": "Enhancement\n\n1. Migrate to create_streaming_table api from create_streaming_live_table #37\n\nUpdates\n\n- Readme and docs to include above features\n\n- Added Data Quality support for silver layer\n\n- Updated existing demos to incorporate unity catalog and integration test framework\n\n- integration tests framework which can be used to launch demos",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dlt-meta"
+    ]
+  }
+]

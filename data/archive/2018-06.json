@@ -1,0 +1,72 @@
+[
+  {
+    "id": "57a0200e36a49081",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster log purge",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/june#cluster-log-purge",
+    "published": "2018-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "91774ce94b651289",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Trash folder",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/june#trash-folder",
+    "published": "2018-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5def3229b46f79b4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Reduced log retention period",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/june#reduced-log-retention-period",
+    "published": "2018-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "445dedea89b08ee5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Gzipped API responses",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/june#gzipped-api-responses",
+    "published": "2018-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cfd17705b5be8c66",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Table import UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/june#table-import-ui",
+    "published": "2018-06-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — June 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

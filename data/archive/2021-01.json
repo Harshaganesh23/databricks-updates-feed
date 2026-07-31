@@ -1,0 +1,142 @@
+[
+  {
+    "id": "f459e5febd3c4a7e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.1 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#databricks-runtime-71-series-support-ends",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1c79c72bf00500ab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Start clusters faster with Docker images preloaded into instance pools",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#start-clusters-faster-with-docker-images-preloaded-into-instance-pools",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f4acc257692d736e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebook find and replace now supports changing all occurrences of a match",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#notebook-find-and-replace-now-supports-changing-all-occurrences-of-a-match",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "24713b3708eb5876",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Single Node clusters (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#single-node-clusters-ga",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "382156934dc301ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Free form cluster policy type renamed to Unrestricted",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#free-form-cluster-policy-type-renamed-to-unrestricted",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3cd49ad427cc7fc6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster policy field not shown if a user only has access to one policy",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#cluster-policy-field-not-shown-if-a-user-only-has-access-to-one-policy",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3097a1c1ec32be09",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "G4 family of GPU-accelerated EC2 instances GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#g4-family-of-gpu-accelerated-ec2-instances-ga",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1e58bbf423b873df",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.0 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#databricks-runtime-70-series-support-ends",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "84883b2f50f125fb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Billable usage and audit log S3 bucket policy and object ACL changes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#billable-usage-and-audit-log-s3-bucket-policy-and-object-acl-changes",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ca58f7799753d889",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "E2 platform comes to the Asia Pacific region",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2021/january#e2-platform-comes-to-the-asia-pacific-region",
+    "published": "2021-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2021.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "c43e71abfab15bf0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share dynamic views using Delta Sharing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#share-dynamic-views-using-delta-sharing-public-preview",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "37c7e279c8732ec3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share volumes using Delta Sharing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#share-volumes-using-delta-sharing-public-preview",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "07ee09db1772cf32",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Entity Relationship Diagram for primary keys and foreign keys",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#entity-relationship-diagram-for-primary-keys-and-foreign-keys",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "1df9f070be6b6305",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog volume file upload size limit increase",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#unity-catalog-volume-file-upload-size-limit-increase",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "150347ed48d73081",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New notebook cell results rendering available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#new-notebook-cell-results-rendering-available-public-preview",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ef9599c77220b9de",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebook editor themes available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#notebook-editor-themes-available",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f7969baa34430304",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External models support in Model Serving is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#external-models-support-in-model-serving-is-in-public-preview",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4d87ea6d362faa4a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Online Tables is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#databricks-online-tables-is-public-preview",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a7c6bfc48e6cd00e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Repos & Git Integration Settings UI now correctly notes support for GitHub Enterprise Server",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#repos--git-integration-settings-ui-now-correctly-notes-support-for-github-enterprise-server",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "05e620cd23724740",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.36",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#databricks-jdbc-driver-2636",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2043284bb0430a88",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for referencing workspace files from init scripts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#support-for-referencing-workspace-files-from-init-scripts",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "0505d296f6dbe70d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Feature & Function Serving is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#feature--function-serving-is-public-preview",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8b0586709eca8cff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Foundation Model APIs is Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#foundation-model-apis-is-public-preview",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "13b69576e1550fe0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New unified admin settings UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#new-unified-admin-settings-ui",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5d674fccc583442f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Init scripts on DBFS are end-of-life",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#init-scripts-on-dbfs-are-end-of-life",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "118489861b4bd03f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Legacy global and cluster-named init scripts are end-of-life",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2023/december#legacy-global-and-cluster-named-init-scripts-are-end-of-life",
+    "published": "2023-12-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — December 2023.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ddd0c9308a63a3ae",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: v_0.3.13.1: Merge pull request #482 from databrickslabs/feature/pypi_release",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.3.13.1",
+    "published": "2023-12-12",
+    "first_seen": "2026-07-30",
+    "summary": "Fix pypi-release action.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  },
+  {
+    "id": "4a9c75686bfdc583",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/mosaic",
+    "title": "databrickslabs/mosaic: Merge pull request #481 from databrickslabs/releases/v_0.3.13",
+    "url": "https://github.com/databrickslabs/mosaic/releases/tag/v_0.3.13",
+    "published": "2023-12-12",
+    "first_seen": "2026-07-30",
+    "summary": "Prepare v0.3.13 release.",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/mosaic"
+    ]
+  }
+]

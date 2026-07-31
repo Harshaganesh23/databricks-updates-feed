@@ -1,0 +1,58 @@
+[
+  {
+    "id": "782f3355c7b5c1fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SCIM provisioning using Okta and Microsoft Entra ID (Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/september#scim-provisioning-using-okta-and-microsoft-entra-id-preview",
+    "published": "2018-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b96b7d64154643dc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "EBS leaked volumes deletion",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/september#ebs-leaked-volumes-deletion",
+    "published": "2018-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2018.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "212de94edb09ba72",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Support for r5 instances",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/september#support-for-r5-instances",
+    "published": "2018-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a35c7d9504466936",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SCIM API for provisioning users and groups (Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/september#scim-api-for-provisioning-users-and-groups-preview",
+    "published": "2018-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

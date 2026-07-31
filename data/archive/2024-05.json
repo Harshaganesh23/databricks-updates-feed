@@ -1,0 +1,520 @@
+[
+  {
+    "id": "f08a1d3abff1bd5a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless firewall configuration now supports more compute types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#serverless-firewall-configuration-now-supports-more-compute-types",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bac9813f4838513e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.0 series support ends",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#databricks-runtime-150-series-support-ends",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "92433e1b21c7b4f5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.3 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#databricks-runtime-153-beta",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "493903c36885405f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The compute metrics UI is now available on all Databricks Runtime versions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#the-compute-metrics-ui-is-now-available-on-all-databricks-runtime-versions",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9661aaf3bc13d462",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved search and filtering in notebook and SQL editor results tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#improved-search-and-filtering-in-notebook-and-sql-editor-results-tables",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "97d24d27eafa1e29",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New dashboard helps Databricks Marketplace providers monitor listing usage",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#new-dashboard-helps-databricks-marketplace-providers-monitor-listing-usage",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2bfcb73463f14bd4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View system-generated federated queries in Query Profile",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#view-system-generated-federated-queries-in-query-profile",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "17d08b10811becc7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compute plane outbound IP addresses must be added to a workspace IP allow list",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#compute-plane-outbound-ip-addresses-must-be-added-to-a-workspace-ip-allow-list",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d06ab1ef1f5e185b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OAuth is supported in Lakehouse Federation for Snowflake",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#oauth-is-supported-in-lakehouse-federation-for-snowflake",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ccf64901bdb1a77c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bulk move and delete workspace objects from the workspace browser",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#bulk-move-and-delete-workspace-objects-from-the-workspace-browser",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e7ada41e94bc5bf6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog objects are available in recents and favorites",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#unity-catalog-objects-are-available-in-recents-and-favorites",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3248db16abc337ea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New dbt-databricks connector 1.8.0 adopts decoupled dbt architecture",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#new-dbt-databricks-connector-180-adopts-decoupled-dbt-architecture",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b129bb58eb4173f9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New compliance and security settings APIs (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#new-compliance-and-security-settings-apis-public-preview",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "19198581fe226f12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.2 is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#databricks-runtime-152-is-ga",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "02588a7e25e17727",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Tableau connector for Delta Sharing",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#new-tableau-connector-for-delta-sharing",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e144be6895b83102",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New deep learning recommendation model examples",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#new-deep-learning-recommendation-model-examples",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d523bb28b93223d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bind storage credentials and external locations to specific workspaces (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#bind-storage-credentials-and-external-locations-to-specific-workspaces-public-preview",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "13aca1cb058e7096",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Git folders are GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#git-folders-are-ga",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8f1a58cbf380ed0c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Pre-trained models in Unity Catalog (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#pre-trained-models-in-unity-catalog-public-preview",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4b0d522e858697eb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Vector Search is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#mosaic-ai-vector-search-is-ga",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c4ee5c9a07db0ab3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The compliance security profile now supports AWS Graviton instance types",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#the-compliance-security-profile-now-supports-aws-graviton-instance-types",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b0c39a99c70fcfd3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant autocomplete (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#databricks-assistant-autocomplete-public-preview",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e0eda64259a5baf6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Meta Llama 3 support in Foundation Model Training",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#meta-llama-3-support-in-foundation-model-training",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6ef7c51f82f44e3f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New changes to Git folder UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#new-changes-to-git-folder-ui",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "910d8d314caaf249",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compute now uses EBS GP3 volumes for autoscaling local storage",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#compute-now-uses-ebs-gp3-volumes-for-autoscaling-local-storage",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "99f43ae88a38b7fb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified Login now supported with AWS PrivateLink (Private Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#unified-login-now-supported-with-aws-privatelink-private-preview",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b2440a5b86fe644e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Foundation Model Training (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#foundation-model-training-public-preview",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f3d7e76f5ea24883",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Allow users to copy data to the clipboard from results table",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#allow-users-to-copy-data-to-the-clipboard-from-results-table",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a7664551e3eaa9df",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Attribute tag values for Unity Catalog objects can now be 1000 characters long (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#attribute-tag-values-for-unity-catalog-objects-can-now-be-1000-characters-long-public-preview",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "18facb0b96fea26b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New Previews page",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#new-previews-page",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "da41fbe746b4de93",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New capabilities for Mosaic AI Vector Search",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#new-capabilities-for-mosaic-ai-vector-search",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d42d62a0362a6b7d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Credential passthrough and Hive metastore table access controls are deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#credential-passthrough-and-hive-metastore-table-access-controls-are-deprecated",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d5c6590f2b72d754",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC driver 2.6.38",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#databricks-jdbc-driver-2638",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "048f23255ffff1bd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified Login now supported with AWS PrivateLink (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#unified-login-now-supported-with-aws-privatelink-public-preview",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "509280f2484790f1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 15.2 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#databricks-runtime-152-beta",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "9b273e293adfdde9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notebooks now detect and auto-complete column names for Spark Connect DataFrames",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2024/may#notebooks-now-detect-and-auto-complete-column-names-for-spark-connect-dataframes",
+    "published": "2024-05-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — May 2024.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4e26f3986b331ad2",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dbldatagen",
+    "title": "databrickslabs/dbldatagen: release/v.0.3.6.1: Feature hotfixes (#274)",
+    "url": "https://github.com/databrickslabs/dbldatagen/releases/tag/release%2Fv.0.3.6.1",
+    "published": "2024-05-22",
+    "first_seen": "2026-07-30",
+    "summary": "Hot fixes post v0.3.6\n\n- Updates to documentation\n\n- updates to enable dbldatagen work better with Databricks Connect\n\n- bumped version",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/dbldatagen"
+    ]
+  }
+]

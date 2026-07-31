@@ -1,0 +1,170 @@
+[
+  {
+    "id": "c47c9172041e04da",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Managed MLflow Model Registry collaborative hub available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#managed-mlflow-model-registry-collaborative-hub-available-public-preview",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2467202315f2f3d6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Load data from hundreds of data sources into Delta Lake using Stitch",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#load-data-from-hundreds-of-data-sources-into-delta-lake-using-stitch",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "688c0dbee108d57a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 7.0 (Beta) previews Apache Spark 3.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#databricks-runtime-70-beta-previews-apache-spark-30",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f3862f8ad44d726d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.5 ML (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#databricks-runtime-65-ml-beta",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "953e79246349092a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 6.5 (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#databricks-runtime-65-beta",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3207446ab5f930ab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Optimized autoscaling on all-purpose clusters running Databricks Runtime 6.4 and above",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#optimized-autoscaling-on-all-purpose-clusters-running-databricks-runtime-64-and-above",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d5f77c29e53f9530",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Single-sign-on (SSO) now available on all pricing plans",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#single-sign-on-sso-now-available-on-all-pricing-plans",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "29023b0ce828c8d0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Develop and test Shiny applications inside RStudio Server",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#develop-and-test-shiny-applications-inside-rstudio-server",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4e9fa0fb287aaa19",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Change the default language of a notebook",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#change-the-default-language-of-a-notebook",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a3b33ff8350c7421",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks to add anonymized usage analytics",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#databricks-to-add-anonymized-usage-analytics",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2da4868cc78d147a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect now supports Databricks Runtime 6.4",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#databricks-connect-now-supports-databricks-runtime-64",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ea84b6761cbb68cc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Connect now supports Databricks Runtime 6.3",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2020/march#databricks-connect-now-supports-databricks-runtime-63",
+    "published": "2020-03-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — March 2020.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

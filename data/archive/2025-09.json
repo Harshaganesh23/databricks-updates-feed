@@ -1,0 +1,590 @@
+[
+  {
+    "id": "adceae081d637e82",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Pipeline update timeline table is now available (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#pipeline-update-timeline-table-is-now-available-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "399fce47ec3a628a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data classification system table Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#data-classification-system-table-beta",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "2930e42e1fb6003f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Opus 4.1 now available as a Databricks-hosted foundation model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#anthropic-claude-opus-41-now-available-as-a-databricks-hosted-foundation-model",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "fef07d949c28ba4e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeflow Pipelines Editor is now in public preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#lakeflow-pipelines-editor-is-now-in-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "a96e3fc111148cfd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New requirement to create connections for Salesforce ingestion",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#new-requirement-to-create-connections-for-salesforce-ingestion",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "73da3a2414a30009",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Migrate Spark Declarative Pipelines on Lakeflow pipelines from legacy publishing mode is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#migrate-spark-declarative-pipelines-on-lakeflow-pipelines-from-legacy-publishing-mode-is-generally-available",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f8d9311b3ea4fd25",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-runtime-maintenance-updates",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "f75b8d1c54ce4086",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mosaic AI Agent Framework supports automatic authentication passthrough for Lakebase resources",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#mosaic-ai-agent-framework-supports-automatic-authentication-passthrough-for-lakebase-resources",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Database",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "ca316e14a515f47c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Route-optimized endpoints now require route-optimized URL path for querying",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#route-optimized-endpoints-now-require-route-optimized-url-path-for-querying",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "279454f004d268b8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Compliance support for Mosaic AI Vector Search standard endpoints",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#compliance-support-for-mosaic-ai-vector-search-standard-endpoints",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3c2bb671550a89ba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Explore table data using an LLM (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#explore-table-data-using-an-llm-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "6cc660427855b7b2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie One Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#genie-one-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Business Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e85627a443269aa1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Discover files in Auto Loader efficiently using file events without enrollment (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#discover-files-in-auto-loader-efficiently-using-file-events-without-enrollment-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "60ef24aa2937661b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime 17.2 is now is now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-runtime-172-is-now-is-now-ga",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b61f4b54c578a3b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delta Sharing on Lakehouse Federation is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#delta-sharing-on-lakehouse-federation-is-in-beta",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Sharing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "4fe9e12cf38db5b1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mount Delta shares to an existing shared catalog",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#mount-delta-shares-to-an-existing-shared-catalog",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "bc8c77b7af4f14e2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Analytics Raw Data connector GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#google-analytics-raw-data-connector-ga",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "d99d40c1d3cde7f9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless jobs and pipelines configured in the UI are now performance optimized by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#serverless-jobs-and-pipelines-configured-in-the-ui-are-now-performance-optimized-by-default",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "deee32a411c44ec1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Python custom data sources can be used with Spark Declarative Pipelines on Lakeflow",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#python-custom-data-sources-can-be-used-with-spark-declarative-pipelines-on-lakeflow",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "95ede0aa2297a16e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The SAP Business Data Cloud (BDC) Connector for Databricks is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#the-sap-business-data-cloud-bdc-connector-for-databricks-is-generally-available",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e0d7fde497667633",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Spark Declarative Pipelines on Lakeflow now supports stream progress metrics in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#spark-declarative-pipelines-on-lakeflow-now-supports-stream-progress-metrics-in-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "adfeb607d18e7ee3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance update",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-runtime-maintenance-update",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5e95d41198a5ff34",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Apps support for Genie resources",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-apps-support-for-genie-resources",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3f4a93f3ae6cf06b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks connector in Microsoft Power Platform is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-connector-in-microsoft-power-platform-is-in-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b97abb63d0dab073",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless GPU compute now supports H100 accelerators (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#serverless-gpu-compute-now-supports-h100-accelerators-beta",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "5e6c8cab62cdf874",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Online Feature Stores (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-online-feature-stores-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "cc747002d54b16a8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow metadata is now available in system tables (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#mlflow-metadata-is-now-available-in-system-tables-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "41d720f3bf7ba193",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Assistant Agent mode: Data Science Agent is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#databricks-assistant-agent-mode-data-science-agent-is-in-beta",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aa8a82543f6fcd0e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "C5 compliance controls",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#c5-compliance-controls",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Security",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3a8b1bd42dc33a9f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Tables backed by default storage can be Delta shared to any recipient (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#tables-backed-by-default-storage-can-be-delta-shared-to-any-recipient-beta",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "c4ad3d2f86023905",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Migrate Spark Declarative Pipelines on Lakeflow from legacy publishing mode is rolled back to Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#migrate-spark-declarative-pipelines-on-lakeflow-from-legacy-publishing-mode-is-rolled-back-to-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3ceecd33584c228e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI agents: Authorize on-behalf-of-user Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#ai-agents-authorize-on-behalf-of-user-public-preview",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "203697e9ca97a2ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SQL Server connector supports SCD type 2",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/september#sql-server-connector-supports-scd-type-2",
+    "published": "2025-09-30",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — September 2025.",
+    "category": "Data Engineering",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "b577fcca99238334",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/kasal",
+    "title": "databrickslabs/kasal: marketplace-v1.0.1",
+    "url": "https://github.com/databrickslabs/kasal/releases/tag/marketplace-v1.0.1",
+    "published": "2025-09-23",
+    "first_seen": "2026-07-30",
+    "summary": "Release v1.0.1: Remove serving-endpoints-data-plane scope",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/kasal"
+    ]
+  },
+  {
+    "id": "09fce8e29404c6d4",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/sandbox",
+    "title": "databrickslabs/sandbox: feature-registry-app/v0.1.0",
+    "url": "https://github.com/databrickslabs/sandbox/releases/tag/feature-registry-app%2Fv0.1.0",
+    "published": "2025-09-19",
+    "first_seen": "2026-07-30",
+    "summary": "Bump github.com/databricks/databricks-sdk-go from 0.81.0 to 0.83.0 in…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/sandbox"
+    ]
+  },
+  {
+    "id": "a2a425f43111ab87",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dlt-meta",
+    "title": "databrickslabs/dlt-meta: v0.0.10",
+    "url": "https://github.com/databrickslabs/dlt-meta/releases/tag/v0.0.10",
+    "published": "2025-09-16",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\nEnhancements\n\n- Added apply_changes_from_snapshot support in silver layer PR\n\n- Added UI using databricks lakehouse app for onboarding/deploy commands PR\n\n- Added support for non-Delta as sinks(delta, kafka) PR\n\n- Added quarantine support in silver layer for data quality rules PR\n\n- Added support for table comments, column comments, and cluster_by PR\n\n- Added catalog support for sourceDetails and targetDetails PR\n\n- Added DBDemos for dlt-meta PR\n\n- Added YAML support for onboarding PR\n\nBug fixes\n\n- Fixed issue cluster by not working with bronze append only table PR\n\n- Fixed issue view name containing period when using DPM PR\n\n- Fixed issue CLI onboarding overwrite option always set to True PR\n\n- Fixed issue Silver DLT not creating based on passed database PR\n\n- Fixed issue PyPI download stats display PR\n\n- Fixed issue Silver Data Quality not working PR\n\n- Fixed issue Removed DPM flag check inside dataflowpipeline PR\n\n- Fixed issue Updated dlt-meta demos into Delta Live Tables Notebook github PR\n\n- Fixed issue Adding multiple col support for auto_cdc api PR\n\n- Fixed issue Added support for custom transformations for Kafka/Delta PR\n\nNew Contributors\n\n- @JunHongPP made their first contribution in #162\n\n- @junhonglau made their first contribution in #174\n\n- @gchandra10 made their first contribution in #203\n\nFull Changelog: v0.0.9...v0.0.10",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dlt-meta"
+    ]
+  },
+  {
+    "id": "e7ddf762a268c1cd",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/tempo",
+    "title": "databrickslabs/tempo: v0.1.30",
+    "url": "https://github.com/databrickslabs/tempo/releases/tag/v0.1.30",
+    "published": "2025-09-10",
+    "first_seen": "2026-07-30",
+    "summary": "tag for release 0.1.30",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/tempo"
+    ]
+  },
+  {
+    "id": "025da5bd02fa0d96",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/sandbox",
+    "title": "databrickslabs/sandbox: conversational-agent-app/v0.1.2: Updated source code with genie room as added resource (#574)",
+    "url": "https://github.com/databrickslabs/sandbox/releases/tag/conversational-agent-app%2Fv0.1.2",
+    "published": "2025-09-10",
+    "first_seen": "2026-07-30",
+    "summary": "updated source code with genie room as added\n\nresource",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "databrickslabs/sandbox"
+    ]
+  },
+  {
+    "id": "3280589753fa8e50",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/kasal",
+    "title": "databrickslabs/kasal: marketplace-v1.0.0",
+    "url": "https://github.com/databrickslabs/kasal/releases/tag/marketplace-v1.0.0",
+    "published": "2025-09-08",
+    "first_seen": "2026-07-30",
+    "summary": "Marketplace deployment marketplace-v1.0.0 - Fixed requirements.txt wi…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/kasal"
+    ]
+  },
+  {
+    "id": "ba57f50b462f0901",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.9.2",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.9.2",
+    "published": "2025-09-06",
+    "first_seen": "2026-07-30",
+    "summary": "- Added performance benchmarks\n\n(#548). Performance tests are run to ensure performance does not degrade by more than 25% by any change. Benchmark results are published in the documentation in the reference section. The benchmark covers all check functions, running all funcitons at once and applying the same funcitons at once for multiple columns using foreach column. A new performance GitHub workflow has been introduced to automate performance benchmarking, generating a new benchmark baseline, updating the existing baseline, and running performance tests to compare with the baseline.\n\n- Declare readme in the project (#547). The project configuration has been updated to include README file in the released package so that it is visible in PyPi.\n\n- Fixed deserializing to DataFrame to assign columns properly (#559). The deserialize_checks_to_dataframe function has been enhanced to correctly handle columns for sql_expression by removing the unnecessary check for DQDatasetRule instance and directly verifying if dq_rule_check.columns is not None.\n\n- Fixed lsql dependency (#564). The lsql dependency has been updated to address a sqlglot dependency issue that arises when imported in artifacts repositories.\n\nContributors: @mwojtyczka @ghanse @cornzyblack @gchandra10",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "f31319d5a1a1ec59",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: v0.2.9",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.9",
+    "published": "2025-09-05",
+    "first_seen": "2026-07-30",
+    "summary": "What's Changed\n\n{brickster} now supports {DBI}/{dbplyr} directly without the need for ODBC drivers!\n\n- Adding DBI + dbplyr backends by @zacdav-db in #108\n\n- {huxtable} changes to address #118 by @zacdav-db in #120\n\n- Expanding support for parameters in job functions. by @zacdav-db in #121\n\n- Let NULL token on DatabricksConnection by @zeehio in #123\n\nNew Contributors\n\n- @zeehio made their first contribution in #123\n\nFull Changelog: v0.2.8...v0.2.9",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  },
+  {
+    "id": "e1579b615dc00a36",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/kasal",
+    "title": "databrickslabs/kasal: marketplace-v1.1.0",
+    "url": "https://github.com/databrickslabs/kasal/releases/tag/marketplace-v1.1.0",
+    "published": "2025-09-03",
+    "first_seen": "2026-07-30",
+    "summary": "Marketplace deployment version 1.1.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/kasal"
+    ]
+  }
+]

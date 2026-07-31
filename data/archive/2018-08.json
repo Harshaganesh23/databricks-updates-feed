@@ -1,0 +1,100 @@
+[
+  {
+    "id": "6e94940ff8be5359",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace sidebar redesign",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/august#workspace-sidebar-redesign",
+    "published": "2018-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "8d5702d3bc86fa3d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New environment variables in init scripts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/august#new-environment-variables-in-init-scripts",
+    "published": "2018-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "e35f2bdf73fa9871",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "EBS leaked volumes logging and deletion",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/august#ebs-leaked-volumes-logging-and-deletion",
+    "published": "2018-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2018.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "13cca01131b7464a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AWS r3 and c3 instance types now deprecated",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/august#aws-r3-and-c3-instance-types-now-deprecated",
+    "published": "2018-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "32e6eea290abb6d1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Audit logging for ACL changes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/august#audit-logging-for-acl-changes",
+    "published": "2018-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2018.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aa137190bb4298ad",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cluster-scoped init scripts",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/august#cluster-scoped-init-scripts",
+    "published": "2018-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "af6b0ade8a24cf12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Collapsible headings",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/august#collapsible-headings",
+    "published": "2018-08-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — August 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]

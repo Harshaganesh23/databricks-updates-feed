@@ -1,0 +1,42 @@
+# Sources for the Databricks updates feed.
+
+blog:
+  feed_url: "https://www.databricks.com/feed"
+
+release_notes:
+  # Sidebar nav on this page embeds links to every historical entry.
+  index_url: "https://docs.databricks.com/aws/en/release-notes/product/"
+  base_url: "https://docs.databricks.com"
+
+github_releases:
+  # Hand-picked repos outside the auto-discovered orgs below — mainly
+  # upstream OSS projects that live elsewhere (Spark is under apache/, not
+  # databricks/).
+  repos:
+    - apache/spark
+    - delta-io/delta
+    - mlflow/mlflow
+    - databricks/databricks-sdk-py
+    - databricks/cli
+
+  # Every non-archived, non-fork public repo under these orgs is tracked
+  # automatically (no need to list them by hand — databrickslabs alone is
+  # ~50 repos and growing). databricks/ itself (260+ repos, much noisier:
+  # docs, forks, internal tooling) is intentionally left out of this list.
+  auto_discover_orgs:
+    - databrickslabs
+
+linkedin:
+  # Optional. Leave blank to skip this source entirely.
+  # Point this at a bridge feed (e.g. an RSS.app export) for the Databricks
+  # LinkedIn company page — LinkedIn has no public API for reading post feeds.
+  bridge_feed_url: ""
+
+retention:
+  # How long an item stays on the live pages. Age is the intended binding
+  # constraint — max_items is a generous safety cap on data.json's size, not
+  # meant to bind first. Anything aging or capped out moves to
+  # data/archive/YYYY-MM.json (see fetchers/common.py: archive_items()) —
+  # never deleted, just moved one click further away in the UI.
+  max_items: 600
+  max_age_days: 90

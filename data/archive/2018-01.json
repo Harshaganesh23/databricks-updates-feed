@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3923ec3f9831c59f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Mount points for Azure Blob storage containers and Data Lake Stores",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/january#mount-points-for-azure-blob-storage-containers-and-data-lake-stores",
+    "published": "2018-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "aec5630967902df5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Table Access Control for SQL and Python (Private Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/january#table-access-control-for-sql-and-python-private-preview",
+    "published": "2018-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2018.",
+    "category": "Governance",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "3006dde467d71a0f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Exporting notebook job run results via API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/january#exporting-notebook-job-run-results-via-api",
+    "published": "2018-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2018.",
+    "category": "Application Development",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
+    "id": "366d68015470f7a9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Apache Airflow 1.9.0 includes Databricks integration",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2018/january#apache-airflow-190-includes-databricks-integration",
+    "published": "2018-01-31",
+    "first_seen": "2026-07-30",
+    "summary": "Databricks platform update — January 2018.",
+    "category": "Platform Overview",
+    "tags": [
+      "approx-date"
+    ]
+  }
+]
