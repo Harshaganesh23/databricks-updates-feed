@@ -14,9 +14,9 @@ A daily-refreshed dashboard aggregating Databricks updates from official sources
 |---|---|
 | Databricks Blog | Native RSS (`databricks.com/feed`), enriched with each post's real meta description |
 | Databricks Release Notes | Parsed from the docs site's sidebar nav (no official RSS); recent months' pages are additionally fetched for real per-entry summaries |
-| GitHub Releases | Public Atom feed per repo — a small hand-picked list (Spark, Delta, MLflow, Databricks SDK, CLI) plus every non-archived, non-fork repo auto-discovered under `databrickslabs` (see `config.yml`) |
+| GitHub Releases | Public Atom feed per repo - a small hand-picked list (Spark, Delta, MLflow, Databricks SDK, CLI) plus every non-archived, non-fork repo auto-discovered under `databrickslabs` (see `config.yml`) |
 
-Every item is classified into one of Databricks' own top-level product categories (AI Assistant, Application Development, Artificial Intelligence, Business Intelligence, Customer Data Platform, Database, Data Engineering, Data Warehousing, Governance, Security, Sharing, Platform Overview) by keyword matching — see `CATEGORIES` in `fetchers/common.py`.
+Every item is classified into one of Databricks' own top-level product categories (AI Assistant, Application Development, Artificial Intelligence, Business Intelligence, Customer Data Platform, Database, Data Engineering, Data Warehousing, Governance, Security, Sharing, Platform Overview) by keyword matching - see `CATEGORIES` in `fetchers/common.py`.
 
 ## How it runs
 
@@ -34,7 +34,7 @@ Each fetcher fails independently — if one source breaks, the others still upda
 
 Controlled by `retention` in `config.yml`:
 - **Live pages**: items stay for **90 days** (or until a generous 600-item safety cap, whichever binds first - age is meant to be the real constraint).
-- **Archive**: anything older moves to `data/archive/YYYY-MM.json`, one file per month, committed to git permanently. **Nothing is ever deleted** — the site's Archive page (`#/archive`) lists every month and lets you browse it with the same UI as the live pages, fetched on demand so the live `data.json` payload stays small.
+- **Archive**: anything older moves to `data/archive/YYYY-MM.json`, one file per month, committed to git permanently. **Nothing is ever deleted** - the site's Archive page (`#/archive`) lists every month and lets you browse it with the same UI as the live pages, fetched on demand so the live `data.json` payload stays small.
 
 To change the window, edit `max_age_days`/`max_items` in `config.yml` - the archival logic itself doesn't need to change.
 
