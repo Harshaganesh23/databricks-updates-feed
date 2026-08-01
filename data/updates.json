@@ -1,5 +1,19 @@
 [
   {
+    "id": "4c1f7eb7784c39fa",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: Lakemeter OSS v0.1.1",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.1.1",
+    "published": "2026-08-01",
+    "first_seen": "2026-08-01",
+    "summary": "Patch release introducing safer upgrades and correcting AI Parse estimate persistence. No database schema or data migration is required.\n\nNew capabilities\n\nVersion-aware upgrades\n\n- Added scripts/upgrade.sh with status, plan, doctor, apply, and rollback commands.\n\n- Added installation discovery, release planning, prerequisite checks, and Semantic Versioning policy enforcement.\n\n- Added immutable runtime staging, authenticated health verification, concurrency locks, resumable execution, automatic recovery, and manual rollback.\n\n- Added Lakebase backup branches for future minor data updates and major schema migrations. Patch upgrades never modify Lakebase.\n\nBefore upgrading, update your repository checkout or download this release, then run ./scripts/upgrade.sh plan and ./scripts/upgrade.sh doctor.\n\nDirect Lakebase Autoscaling provisioning\n\n- New installations create Lakebase Autoscaling projects, branches, and endpoints directly.\n\n- The installer and application use Autoscaling endpoint credentials and resource bindings.\n\nBug fixes\n\nServerless upgrader authentication\n\n- Fixed upgrade.sh apply verification from Databricks serverless jobs by exchanging the notebook credential for an OAuth token scoped to the target Databricks App.\n\n- Preserved authenticated health, database connectivity, and exact-version checks without the prior HTTP 401 rollback.\n\nAI Parse estimate persistence\n\n- Fixed AI Parse estimates so calculation method, complexity, DBU quantity, page count, mode, and page volume persist and clone correctly.\n\n- Mapped API-facing AI Parse fields consistently to the existing database columns, preventing saved estimates from losing their calculated configuration.\n\nDocumentation updates\n\n- Added a complete Upgrade Guide.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
     "id": "497399898ecc8f2d",
     "source": "github_release",
     "source_label": "GitHub · delta-io/delta",
@@ -82,6 +96,44 @@
     "tags": [
       "databrickslabs/impulse"
     ]
+  },
+  {
+    "id": "3ab87184f2b7bf97",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Backstage with Lakebase, part 3",
+    "url": "https://www.databricks.com/blog/backstage-lakebase-part-3",
+    "published": "2026-07-31",
+    "first_seen": "2026-08-01",
+    "summary": "In t",
+    "category": "Database",
+    "tags": [
+      "Partners"
+    ]
+  },
+  {
+    "id": "71aef451353f1fca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Web terminal on serverless GPU compute (AI Runtime) is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#web-terminal-on-serverless-gpu-compute-ai-runtime-is-in-public-preview",
+    "published": "2026-07-31",
+    "first_seen": "2026-08-01",
+    "summary": "The web terminal in notebooks connected to serverless GPU compute (AI Runtime) is now in Public Preview. Use it to run shell commands, monitor GPU usage with nvidia-smi, install libraries, and manage files directly on the compute. This requires serverless GPU environment version 5 or above. See Run shell commands in Databricks web terminal.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "773aefdb1c4434d0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#openai-connector-beta",
+    "published": "2026-07-31",
+    "first_seen": "2026-08-01",
+    "summary": "The OpenAI connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses the OpenAI Organization Admin API to ingest organization administration data, such as users, projects, API keys, usage, costs, and audit logs, from OpenAI into Databricks. Authentication uses an OpenAI Admin API key.\n\nSee OpenAI connector.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "239d3a4cde9f6f29",
@@ -879,6 +931,18 @@
     "first_seen": "2026-07-30",
     "summary": "Register Scala and Java user-defined functions (UDFs) in Unity Catalog and reuse them across notebooks, jobs, and SQL warehouses with Unity Catalog governance. Reuse existing JVM logic and get better performance than Python UDFs on all compute, including serverless.\n\nSee Scala and Java user-defined functions (UDFs) in Unity Catalog.",
     "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "bb8197865b4a7135",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MLflow trace storage in Unity Catalog is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mlflow-trace-storage-in-unity-catalog-is-now-generally-available",
+    "published": "2026-07-16",
+    "first_seen": "2026-08-01",
+    "summary": "MLflow trace storage in Unity Catalog tables is now generally available. Databricks recommends storing traces in Unity Catalog for new and production workloads: storage is unlimited, traces are stored in OpenTelemetry (OTel) format, access is governed through Unity Catalog schema and table permissions, and you can query traces with SQL, Genie, AI/BI dashboards, and any Spark-based tool. To view traces, point an MLflow experiment at a Unity Catalog trace location. For supported regions, see Features with limited regional availability.\n\nSee Store OpenTelemetry traces in Unity Catalog and Query OpenTelemetry traces stored in Unity Catalog.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
