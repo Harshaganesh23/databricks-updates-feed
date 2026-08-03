@@ -1,5 +1,62 @@
 [
   {
+    "id": "356d1091b3335815",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The New Monday Morning Report: How Generative AI can deliver the insights your executives need.",
+    "url": "https://www.databricks.com/blog/new-monday-morning-report-how-generative-ai-can-deliver-insights-your-executives-need",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-03",
+    "summary": "A VP",
+    "category": "Platform Overview",
+    "tags": [
+      "Retail & Consumer Goods"
+    ]
+  },
+  {
+    "id": "54ec4d1782a26278",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Ingest semi-structured data faster and more efficiently with Variant - Now Generally Available",
+    "url": "https://www.databricks.com/blog/ingest-semi-structured-data-faster-and-more-efficiently-variant-now-generally-available",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-03",
+    "summary": "For years, ingesting",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "dad8a9d585f9d527",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks Completes Acquisition of Panther: Accelerating the Security Lakehouse Era",
+    "url": "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-03",
+    "summary": "Databricks completes its Panther acquisition to accelerate the security lakehouse. Learn how AI agents and open data transform SOC threat detection and response.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "1fbeda3808edbf95",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: MLflow 3.15.1",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.15.1",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-03",
+    "summary": "MLflow 3.15.1 is a patch release that includes bug fixes and documentation updates.\n\nBug fixes:\n\n- [Model Registry] Skip env_pack on ARM client images (#24762, @qyc)\n\n- [Scoring / Tracking] Harden version parsing against missing/non-PEP440 versions on Databricks Serverless (#24799, @PattaraS)\n\nDocumentation updates:\n\n- [Docs] Clarify scorer versioning documentation (#24769, @nihalmenon)",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
     "id": "4c1f7eb7784c39fa",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/lakemeter-oss",
@@ -4139,30 +4196,6 @@
     "first_seen": "2026-07-30",
     "summary": "The Smartsheet connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest data from Smartsheet into Databricks. See Smartsheet connector.",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "f938284a0d518a7c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime 18.2 is now GA",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-runtime-182-is-now-ga",
-    "published": "2026-05-04",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks Runtime 18.2 is now generally available. See Databricks Runtime 18.2 and Databricks Runtime 18.2 for Machine Learning.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "d5256b6c5c2f73bb",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakeflow Pipelines Editor is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-pipelines-editor-is-now-generally-available",
-    "published": "2026-05-04",
-    "first_seen": "2026-07-30",
-    "summary": "The Lakeflow Pipelines Editor is now generally available. The editor offers an agent-first experience with Genie Code for creating, updating, and debugging production pipelines, with your code and Genie Code chat side by side with the pipeline graph and metrics. See Develop and debug ETL pipelines with the Lakeflow Pipelines Editor.",
-    "category": "AI Assistant",
     "tags": []
   }
 ]
