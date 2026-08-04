@@ -57,6 +57,66 @@
     ]
   },
   {
+    "id": "ddd9995931e504bf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Organize your work with spaces",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#organize-your-work-with-spaces",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-04",
+    "summary": "You can now use spaces to organize your work in the Databricks editor. Each space lets you focus on a specific folder or project while preserving your open tabs, so you can easily pick up where you left off.\n\nSee Organize your work with spaces.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "23067812aea0198e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic cost attribution for materialized views and streaming tables in Databricks SQL",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#automatic-cost-attribution-for-materialized-views-and-streaming-tables-in-databricks-sql",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-04",
+    "summary": "Materialized view and streaming table refreshes in Databricks SQL now inherit custom tags from the enclosing SQL warehouse environment. These tags propagate to billing surfaces like system.billing.usage, enabling proper cost attribution of materialized view and streaming table updates back to the source SQL warehouse. See Attribute costs to the SQL warehouse with custom tags.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "add983b65d103720",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie One and Genie Agents free usage extended through January 31, 2027",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-one-and-genie-agents-free-usage-extended-through-january-31-2027",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-04",
+    "summary": "Free usage of Genie One and Genie Agents is extended through January 31, 2027. This promotion was previously set to end on July 31, 2026. Budget controls do not apply to these products during the promotional period.\n\nThe promotion covers usage by users only. Service principals are excluded, and their Genie One and Genie Agents usage continues to be billed.\n\nGenie Code is not included in the free usage promotion. Each Genie Code user continues to receive 150 free DBUs per month, and usage above that allowance receives a 25% discount through January 31, 2027. You can combine this discount with applicable Serverless Real-Time Inference discounts. For more information about pricing, see Databricks pricing.\n\nTo track free and billed usage in the billing system tables, see Monitor and understand your Genie cost.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "61878888d8eec180",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Filter updates for the Databricks Excel Add-in",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#filter-updates-for-the-databricks-excel-add-in",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-04",
+    "summary": "The Databricks Excel Add-in now supports cascading filters and case-insensitive string matching. Additionally, the LIKE, NOT LIKE, IN, and NOT IN filters are no longer available in the filters list.\n\nSee Filter imported data.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "85d261b0939863d5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Refresh materialized views and streaming tables without exempting the pipeline owner from ABAC policies",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#refresh-materialized-views-and-streaming-tables-without-exempting-the-pipeline-owner-from-abac-policies",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-04",
+    "summary": "You can now refresh a pipeline-managed materialized view or streaming table even when the pipeline owner or run-as identity is subject to an attribute-based access control (ABAC) policy.\n\nPreviously, refreshing a materialized view or streaming table managed by a pipeline required the pipeline owner or run-as identity to be exempt from any applicable ABAC policy. That limitation has been removed.\n\nWhen a pipeline refreshes a materialized view or streaming table, policies are evaluated using the pipeline owner's or run-as identity. If you don't want the persisted data to be masked or filtered, add the pipeline owner or run-as identity to the EXCEPT clause of ABAC policies associated with all the tables being read during the pipeline refresh. Use the TO clause to specify which users and groups receive masked or filtered data.\n\nSee ABAC policies on materialized views and streaming tables.On this page\n- Organize your work with spaces\n- Automatic cost attribution for materialized views and streaming tables in Databricks SQL\n- Genie One and Genie Agents free usage extended through January 31, 2027\n- Filter updates for the Databricks Excel Add-in\n- Refresh materialized views and streaming tables without exempting the pipeline owner from ABAC policiesPrivacy Notice<s",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
     "id": "4c1f7eb7784c39fa",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/lakemeter-oss",
@@ -193,6 +253,18 @@
     "tags": []
   },
   {
+    "id": "6bc2b1dd6a519132",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Packaged clean rooms are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#packaged-clean-rooms-are-now-generally-available",
+    "published": "2026-07-31",
+    "first_seen": "2026-08-04",
+    "summary": "Packaged clean rooms are now generally available. In a packaged clean room, a provider supplies notebooks, JARs, and data that a consumer runs against their own data without seeing the provider's code or data assets. See Packaged clean rooms.",
+    "category": "Sharing",
+    "tags": []
+  },
+  {
     "id": "239d3a4cde9f6f29",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -254,6 +326,18 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "fc736b36c3666ff6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code is now available on HIPAA compliance security profile workspaces with partner-powered AI features disabled",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-code-is-now-available-on-hipaa-compliance-security-profile-workspaces-with-partner-powered-ai-features-disabled",
+    "published": "2026-07-30",
+    "first_seen": "2026-08-04",
+    "summary": "Genie Code is now available on workspaces that have the compliance security profile enabled with the HIPAA compliance standard selected and partner-powered AI features disabled. On these workspaces, Genie Code is served by Databricks-hosted models rather than partner-powered models.\n\nFor the full list of AI assistive features affected by the partner-powered AI features setting and the hosting provider used by each, see Partner-powered AI features.",
+    "category": "AI Assistant",
+    "tags": []
   },
   {
     "id": "27cf2ddf08b37df5",
@@ -1086,6 +1170,18 @@
     "first_seen": "2026-07-30",
     "summary": "Data Classification is now available by default for workspaces with the compliance security profile enabled and either C5, TISAX, or IRAP controls selected.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "b79a10134f792b86",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie One and Genie Agents usage is free through January 31, 2027",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-one-and-genie-agents-usage-is-free-through-january-31-2027",
+    "published": "2026-07-15",
+    "first_seen": "2026-08-04",
+    "summary": "As of July 15, 2026, billing for Genie One and Genie Agents is paused, and usage of these products is free through January 31, 2027. Budget controls do not apply to them.\n\nGenie Code continues to be billed under the pay-as-you-go pricing model. For more information about pricing, see Databricks pricing.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -4123,79 +4219,5 @@
     "tags": [
       "databrickslabs/ontobricks"
     ]
-  },
-  {
-    "id": "9ff3aadf77344a82",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: v3.12.0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.12.0",
-    "published": "2026-05-05",
-    "first_seen": "2026-07-30",
-    "summary": "MLflow 3.12.0 includes several major features and improvements\n\nMajor New Features\n\n- 🖼️ Multimodal Tracing: Users can now store multimodal content in tracing spans as artifact attachments instead of inline binary data. We've also patched the UI to support the new mlflow-attachment:// style URI, with rich rendering available for PDFs, audio, and images.\n\n- 🤖 Codex, Gemini, Qwen coding agent tracing support: Similar to our Claude Code tracing integration, we've now added support for the Codex, Gemini, and Qwen coding agent platforms as well!\n\n- 🛡️ Gateway guardrails: You can now set guardrails on your gateway endpoints to prevent unsafe or non-compliant model inputs and outputs. Try it out in the MLflow UI!\n\n- ⚡ Trace table pagination: The traces tab is now paginated, rather than fetching all traces up to a limit of 1000. This improves initial load time, and makes the page feel more responsive overall.\n\nBreaking Changes\n\n- [Scoring] Deprecate enable_mlserver in pyfunc serving backend (#22994, @B-Step62)\n\nOther Assorted Features & Improvements:\n\n- [UI] Add coding agents section to AI Gateway quick start (#23006, @TomeHirata)\n\n- [Tracing] feat: record caller in gateway traces from request headers (#22926, @TomeHirata)\n\n- [] Run guardrails on passthrough endpoints; skip response_format for non-chat payloads (#22856, @TomeHirata)\n\n- [] Gateway: preserve client auth header for subscription-based CLI tools (claude-cli, Codex-Desktop, GeminiCLI) (#22915, @TomeHirata)\n\n- [Tracing] Expose Codex and Qwen Code hooks as installable CLI binaries (#22853, @kriscon-db)\n\n- [Tracking / UI] Add Portkey as a supported AI Gateway provider (#22830, @sairavuri-sudo)\n\n- [Tracking] Cache successful basic-auth credential checks to eliminate per-request PBKDF2 (#22817, @PattaraS)…",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "9e97ca605c56e0af",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Outlook managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#outlook-managed-ingestion-connector-beta",
-    "published": "2026-05-05",
-    "first_seen": "2026-07-30",
-    "summary": "The Outlook connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest email data from Microsoft Outlook into Databricks. See Outlook connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "c519cddfc5a48713",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Alibaba Cloud Qwen3.5 122B A10B now available as a Databricks-hosted model in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#alibaba-cloud-qwen35-122b-a10b-now-available-as-a-databricks-hosted-model-in-public-preview",
-    "published": "2026-05-05",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports Alibaba Cloud Qwen3.5 122B A10B as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nQwen3.5 122B A10B is available in Public Preview.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "777f325be5e9f7f4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "GitHub managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#github-managed-ingestion-connector-beta",
-    "published": "2026-05-05",
-    "first_seen": "2026-07-30",
-    "summary": "The GitHub connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest data from GitHub into Databricks. See GitHub connector.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "b86ca44086233ab1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Automatic identity management",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#automatic-identity-management",
-    "published": "2026-05-05",
-    "first_seen": "2026-07-30",
-    "summary": "Automatic identity management lets you sync users and groups from your identity provider to Databricks. Search for identities in identity federated workspaces and add them to your workspace. Group memberships stay in sync with your identity provider. Microsoft Entra ID is in Public Preview and supports service principals and nested groups. Okta support is in Private Preview. See Automatic identity management.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "45a8a73966a96332",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Smartsheet managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#smartsheet-managed-ingestion-connector-beta",
-    "published": "2026-05-05",
-    "first_seen": "2026-07-30",
-    "summary": "The Smartsheet connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest data from Smartsheet into Databricks. See Smartsheet connector.",
-    "category": "Data Engineering",
-    "tags": []
   }
 ]
