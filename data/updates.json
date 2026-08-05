@@ -1,5 +1,122 @@
 [
   {
+    "id": "25b26bf2969fe32e",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.124.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.124.0",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-05",
+    "summary": "## Release v0.124.0 (2026-08-04)\n\n### API Changes\n\n* Add `group_id` field for `databricks.sdk.service.iamv2.Group`.\n\n* Add `service_principal_id` field for `databricks.sdk.service.iamv2.ServicePrincipal`.\n\n* Add `user_id` field for `databricks.sdk.service.iamv2.User`.\n\n* Add `kinesis_stream_config` field for `databricks.sdk.service.ml.StreamSourceConfig`.\n\n* Add `mode` field for `databricks.sdk.service.pipelines.UpdateInfo`.\n\n* [Breaking] Change `state` field for `databricks.sdk.service.bundledeployments.Operation` to type `str` dataclass.\n\n* [Breaking] Change `state` field for `databricks.sdk.service.bundledeployments.Resource` to type `str` dataclass.\n\n* [Breaking] Remove `aws_access_key_id` and `aws_secret_access_key` fields for `databricks.sdk.service.catalog.ModelProviderServiceConfigAmazonBedrockProviderDirectConfig`.\n\n* [Breaking] Remove `client_id`, `client_secret` and `tenant_id` fields for `databricks.sdk.service.catalog.ModelProviderServiceConfigAzureOpenAiProviderDirectConfig`.\n\n* [Breaking] Remove `client_id`, `client_secret` and `tenant_id` fields for `databricks.sdk.service.catalog.ModelProviderServiceConfigMicrosoftFoundryProviderDirectConfig`.\n\n* [Breaking] Remove `internal_id` field for `databricks.sdk.service.iamv2.Group`.\n\n* [Breaking] Remove `internal_id` field for `databricks.sdk.service.iamv2.ServicePrincipal`.\n\n* [Breaking] Remove `internal_id` field for `databricks.sdk.service.iamv2.User`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "0f1af7da8d935b32",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unity AI Gateway is Generally Available",
+    "url": "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-05",
+    "summary": "The",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Announcements",
+      "Product"
+    ]
+  },
+  {
+    "id": "c84c93e6b3f1f5ca",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks joins the Open Secure AI Alliance to advance AI safety and security",
+    "url": "https://www.databricks.com/blog/databricks-joins-open-secure-ai-alliance-advance-ai-safety-and-security",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-05",
+    "summary": "Databricks is an inaugural member of the Open Secure AI Alliance with NVIDIA and other organizations, a coalition built on the premise that defenders are stronger when the models, harnesses, and tooling they depend on are open to study, adapt, and run. Our own work follows that principle: Omnigent, Databricks AI Security Framework (DASF), Databricks AI Governance Framework (DAGF), and BlackIce are all open source and available to the community. On the defense side, Lakewatch leverages the Databricks Open Security Lakehouse foundation, enabling security teams to run open weight and proprietary models, custom tools, and threat intelligence seamlessly.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Partners"
+    ]
+  },
+  {
+    "id": "45b5af470327b2f4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity AI Gateway is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-ai-gateway-is-now-generally-available",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-05",
+    "summary": "Unity AI Gateway is now generally available. Unity AI Gateway is the Databricks governance solution for enterprise AI, part of Unity Catalog. With Unity AI Gateway you can:\n\n- Control which AI services teams can use.\n\n- Route and manage AI traffic across providers.\n\n- Govern MCP servers to control access and costs.\n\n- Monitor usage, cost, access, and lineage from one place.\n\nSome capabilities, including service policies and agent services, remain in Beta.\n\nSee AI governance with Unity AI Gateway and AI governance guide.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "2816e1d695667e3e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SharePoint connector (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharepoint-connector-ga",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-05",
+    "summary": "The SharePoint connector in Lakeflow Connect is now Generally Available. See SharePoint connector.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "222b5d2842cb9ab5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "PagerDuty connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#pagerduty-connector-beta",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-05",
+    "summary": "The managed PagerDuty connector in Lakeflow Connect is now available in Beta. The connector ingests incident, on-call, service, and audit data from PagerDuty into Databricks. See PagerDuty connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "d2503c75710a856d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Drive connector (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-connector-ga",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-05",
+    "summary": "The Google Drive connector in Lakeflow Connect is now Generally Available. See Google Drive connector.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "2b4c8b3eacbc91ca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Full page Genie Code is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#full-page-genie-code-is-now-generally-available",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-05",
+    "summary": "Full page Genie Code is now generally available. Full page Genie Code is a command center experience where the active chat is shown prominently, notebooks and files open as tabs alongside it, and you can run multiple chats in parallel. Start work directly from Genie Code, and personalize how it works with skills, instructions, and MCP servers. See Full page Genie Code.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "bfadf1bec854947d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (08/04)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#databricks-runtime-maintenance-updates-0804",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-05",
+    "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18 LTS\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "356d1091b3335815",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -114,6 +231,18 @@
     "first_seen": "2026-08-04",
     "summary": "You can now refresh a pipeline-managed materialized view or streaming table even when the pipeline owner or run-as identity is subject to an attribute-based access control (ABAC) policy.\n\nPreviously, refreshing a materialized view or streaming table managed by a pipeline required the pipeline owner or run-as identity to be exempt from any applicable ABAC policy. That limitation has been removed.\n\nWhen a pipeline refreshes a materialized view or streaming table, policies are evaluated using the pipeline owner's or run-as identity. If you don't want the persisted data to be masked or filtered, add the pipeline owner or run-as identity to the EXCEPT clause of ABAC policies associated with all the tables being read during the pipeline refresh. Use the TO clause to specify which users and groups receive masked or filtered data.\n\nSee ABAC policies on materialized views and streaming tables.On this page\n- Organize your work with spaces\n- Automatic cost attribution for materialized views and streaming tables in Databricks SQL\n- Genie One and Genie Agents free usage extended through January 31, 2027\n- Filter updates for the Databricks Excel Add-in\n- Refresh materialized views and streaming tables without exempting the pipeline owner from ABAC policiesPrivacy Notice<s",
     "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "cf3cf86f68fe2134",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MANAGE no longer requires USE CATALOG or USE SCHEMA on the same object",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#manage-no-longer-requires-use-catalog-or-use-schema-on-the-same-object",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-05",
+    "summary": "The MANAGE privilege no longer requires a usage privilege (USE CATALOG or USE SCHEMA) on the object where MANAGE is granted. This change makes MANAGE behave more consistently with object ownership.\n\nPreviously, MANAGE on a catalog or schema took effect only if you also held the appropriate usage privileges on that object. You still need usage privileges on any parent containers:\n\n- MANAGE on a catalog requires no usage privileges.\n\n- MANAGE on a schema requires USE CATALOG on the parent catalog, but no longer requires USE SCHEMA on the schema.\n\n- MANAGE on a table, view, volume, or function is unchanged. It still requires USE CATALOG on the parent catalog and USE SCHEMA on the parent schema.\n\nAll other privileges are unaffected and still require usage privileges as prerequisites, even for users with MANAGE. For example, querying a table still requires SELECT on the table, plus USE CATALOG and USE SCHEMA on the parent catalog and schema.\n\nIf you granted MANAGE broadly without also granting the corresponding usage privileges, those grants are now active, and holders can manage the object. Databricks recommends auditing existing MANAGE grants to confirm they reflect your intended access.\n\nSee Usage privilege requirements for MANAGE.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -4191,33 +4320,5 @@
     "summary": "Graviton (Arm64) instance types are now available on AWS Commercial workspaces that use the compliance security profile with the FedRAMP Moderate, IRAP, or CCCS Medium (Protected B) compliance standards. Graviton instances improve price-performance for many workloads. For the instance types supported under each compliance standard, see Supported instance types.",
     "category": "Security",
     "tags": []
-  },
-  {
-    "id": "a07e14ec75ee96fb",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/dqx",
-    "title": "databrickslabs/dqx: v0.14.0",
-    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.14.0",
-    "published": "2026-05-06",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- ML-based row-level anomaly detection (#990, #1055, #1062). DQX now offers ML-based row anomaly detection that automatically identifies unusual rows in data without requiring manually specified thresholds, enabling the detection of issues missed by rule-based checks. Users provide recent representative data, and DQX trains an Isolation Forest model that flags rows deviating from typical patterns at scoring time, with auto-discovery of relevant columns and segmentation where appropriate, plus per-row explanations of why a record was flagged. The feature integrates with MLflow for model registry, supports both training and scoring workflows, and complements existing rule-based and aggregate checks.\n\n- DQX Studio app (Beta) — MVP release of DQX App (#1090) (#1040) (#1050) (#1034). DQX Studio is the no-code Databricks App for authoring and managing data quality rules through a browser-based UI. AI-assisted rule generation, in-app dry-run validation, scheduled rule execution with run history and per-check summary metrics, role-based access control (Admin, Approver, Author, Viewer, plus an orthogonal Runner role) backed by Databricks workspace groups, and a contextual AI assistant integrated into the UI. The bundle provisions all required resources automatically (app, SQL warehouse, task-runner job, schemas, volume) and exposes per-target variables for catalog, admin group, app name, warehouse name, and schema overrides. The app uses On-Behalf-Of (OBO) authentication so end users only see data they can access in Unity Catalog, and validates user-supplied checks with proper HTTP status codes (400 for malformed input). LLM configuration uses the calling user's OBO token on every request to ensure correct identity propagation in the deployed Apps environment.…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/dqx"
-    ]
-  },
-  {
-    "id": "ee36885b71cb54b4",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.2.1",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.2.1",
-    "published": "2026-05-06",
-    "first_seen": "2026-07-30",
-    "summary": "HF0.2.1",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
   }
 ]
