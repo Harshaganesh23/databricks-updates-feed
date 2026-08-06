@@ -316,12 +316,51 @@
 
   @media (max-width: 900px) {
     #app { grid-template-columns: 1fr; }
-    #sidebar { position: fixed; left: 0; top: 0; transform: translateX(-100%); transition: transform .3s; width: 252px; box-shadow: 0 0 50px rgba(0,0,0,.4); }
+    #sidebar { position: fixed; left: 0; top: 0; transform: translateX(-100%); transition: transform .3s; width: 272px; box-shadow: 0 0 50px rgba(0,0,0,.4); }
     #sidebar.open { transform: none; }
     .menu-btn { display: grid; }
     #view { padding: 20px 14px 60px; }
     .hero { padding: 22px 18px; }
-    .top-search input { width: 140px; }
+
+    /* Single-row topbar: only hamburger + crumbs + source/date dropdowns */
+    #topbar { gap: 10px; padding: 10px 14px; }
+    .top-search { display: none; }
+    .theme-switch { display: none; }
+
+    /* These move into the sidebar on mobile */
+    .sidebar-mobile-extras { display: flex; flex-direction: column; gap: 10px; padding: 14px 10px; border-top: 1px solid var(--border); margin-top: 10px; }
+    .sidebar-mobile-extras .top-search { display: block; }
+    .sidebar-mobile-extras .top-search input { width: 100%; max-width: 100%; }
+    .sidebar-mobile-extras .theme-switch { display: flex; justify-content: center; }
+
+    .stat-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .cat-grid { grid-template-columns: 1fr; }
+    .chart-grid { grid-template-columns: 1fr; }
+    .row-head { gap: 6px; padding: 9px 4px; }
+    .row-cat { display: none; }
+    .row-title { font-size: 13px; }
+    .row-body-inner { padding: 0 8px 14px 8px; }
+    .filters { flex-direction: column; gap: 8px; padding: 12px; }
+    .filters .kw { min-width: 100%; }
+    h1.page { font-size: 20px; }
+    .lead { font-size: 13px; }
+    .bar-row .lbl { width: 80px; font-size: 11px; }
+  }
+  @media (min-width: 901px) {
+    .sidebar-mobile-extras { display: none !important; }
+  }
+  @media (max-width: 480px) {
+    .stat-grid { grid-template-columns: 1fr; }
+    .stat .v { font-size: 26px; }
+    #topbar { gap: 6px; padding: 8px 10px; }
+    .topbar-select { font-size: 11px; padding: 6px 7px; }
+    .crumbs { font-size: 11px; }
+    .hero { padding: 16px 14px; }
+    h1.page { font-size: 18px; }
+    .view-footnote { font-size: 10.5px; }
+    .row-top { gap: 4px; }
+    .badge { font-size: 9px; padding: 1px 5px; }
+    .row-date { font-size: 10px; }
   }
 </style>
 </head>
@@ -544,7 +583,35 @@ function renderSidebar(active) {
       <span class="nav-ico" style="color:${meta.color}">${meta.icon}</span>${esc(cat)}<span class="nav-count">${counts.get(cat) || 0}</span></div>`;
   });
   h += `<div class="sidebar-footer"><img src="${LOGO_URL}" alt="">Not affiliated with or endorsed by Databricks.<br>Built by Harsha · refreshed daily.</div>`;
+  h += `<div class="sidebar-mobile-extras">
+    <div class="top-search">${IC.search}<input id="sidebarSearch" placeholder="Search updates…" value="${esc(state.filters.query)}"></div>
+    <div class="theme-switch" id="sidebar-theme-switch">
+      <button type="button" class="theme-btn" data-theme-choice="auto" title="Match system">Auto</button>
+      <button type="button" class="theme-btn" data-theme-choice="light" title="Light">Light</button>
+      <button type="button" class="theme-btn" data-theme-choice="dark" title="Dark">Dark</button>
+    </div>
+  </div>`;
   byId("sidebar").innerHTML = h;
+
+  // Wire up sidebar mobile search
+  const sidebarSearchEl = byId("sidebarSearch");
+  if (sidebarSearchEl) {
+    sidebarSearchEl.addEventListener("input", (e) => {
+      state.filters.query = e.target.value;
+      if (!location.hash.startsWith("#/all")) go("#/all");
+      else { renderAllPage(); }
+    });
+  }
+  // Wire up sidebar theme switch
+  const sidebarThemeSwitch = byId("sidebar-theme-switch");
+  if (sidebarThemeSwitch) {
+    const pref = getThemePref();
+    Array.from(sidebarThemeSwitch.children).forEach((btn) => btn.setAttribute("aria-pressed", btn.dataset.themeChoice === pref));
+    sidebarThemeSwitch.addEventListener("click", (e) => {
+      const btn = e.target.closest(".theme-btn");
+      if (btn) setThemePref(btn.dataset.themeChoice);
+    });
+  }
 }
 function navItem(id, href, ico, label, count, active) {
   return `<div class="nav-item ${active === id ? "active" : ""}" onclick="go('${href}')">
