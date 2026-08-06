@@ -61,7 +61,19 @@ def build_feed_xml(items, generated_at):
 
     tree = ET.ElementTree(rss)
     ET.indent(tree, space="  ")
-    tree.write(os.path.join(DIST_DIR, "feed.xml"), encoding="utf-8", xml_declaration=True)
+    feed_path = os.path.join(DIST_DIR, "feed.xml")
+    tree.write(feed_path, encoding="utf-8", xml_declaration=True)
+
+    # Inject xml-stylesheet PI so browsers render via XSL instead of raw XML.
+    with open(feed_path, "r", encoding="utf-8") as f:
+        xml_content = f.read()
+    xml_content = xml_content.replace(
+        "<?xml version='1.0' encoding='utf-8'?>",
+        '<?xml version="1.0" encoding="utf-8"?>\n<?xml-stylesheet type="text/xsl" href="feed.xsl"?>',
+        1,
+    )
+    with open(feed_path, "w", encoding="utf-8") as f:
+        f.write(xml_content)
 
 
 def copy_archive():
@@ -78,6 +90,9 @@ def copy_archive():
 def main():
     os.makedirs(DIST_DIR, exist_ok=True)
     shutil.copyfile(os.path.join(SITE_DIR, "index.html"), os.path.join(DIST_DIR, "index.html"))
+    xsl_src = os.path.join(SITE_DIR, "feed.xsl")
+    if os.path.exists(xsl_src):
+        shutil.copyfile(xsl_src, os.path.join(DIST_DIR, "feed.xsl"))
 
     items = load_items()
     generated_at = datetime.now(timezone.utc).isoformat()
