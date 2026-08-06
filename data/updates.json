@@ -1,5 +1,58 @@
 [
   {
+    "id": "bac4517942c6ead5",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
+    "url": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-06",
+    "summary": "Meet OfficeQA Pro V2, a new benchmark built from 120,000 U.S. Treasury pages to test AI agents on unseen enterprise grounded-reasoning tasks.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Product",
+      "Engineering",
+      "Data Science and ML",
+      "Databricks AI",
+      "Industries",
+      "Technology",
+      "Data Strategy",
+      "Insights",
+      "Company",
+      "Events"
+    ]
+  },
+  {
+    "id": "38ea556d8f3f5cef",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "BigQuery to Databricks: A Strategic Framework for Modern Migration",
+    "url": "https://www.databricks.com/blog/bigquery-databricks-strategic-framework-modern-migration",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-06",
+    "summary": "Discover best practices for migrating BigQuery data, scripts, and stacks to Databricks. Learn to optimize ROI and governance during your architectural evolution.",
+    "category": "Platform Overview",
+    "tags": [
+      "Solutions",
+      "Data Strategy"
+    ]
+  },
+  {
+    "id": "377ecc37a688b076",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.11.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.11.0",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-06",
+    "summary": "CLI\n\n- Fixed databricks repos get/update/delete failing with object at path \"...\" is not a repo for Git-CLI-enabled folders (currently in preview), which the workspace API reports as directories rather than repos (#6181).\n\n- Support dbfs:/Skills/... paths in databricks fs commands, routed to the Files API. (#6147)\n\nBundles\n\n- For jobs where ai_runtime_task.code_source_path is a relative path to a local directory, the directory is now packaged into a tarball (honoring .gitignore and sync.include/sync.exclude), uploaded during deployment, and code_source_path is rewritten to the uploaded workspace path. (#6110)\n\n- Added JSON output to bundle init. Running databricks bundle init <template> -o json now reports the files the template wrote, relative to the output directory. This lets callers that pass --output-dir learn where the template materialized instead of assuming the output is a single directory named after the project. The default text output is unchanged. (#6161)\n\n- The terraform deployment engine is deprecated and will stop working in a future version of the CLI. Setting bundle.engine: terraform now emits a deprecation warning. See https://docs.databricks.com/aws/en/dev-tools/bundles/direct for how to migrate to the direct deployment engine. (#6099)\n\n- Fixed the direct deployment engine planning a spurious create for an empty grants: [] list. Terraform records no grants resource for such a list, so bundle plan after bundle deployment migrate no longer reports an action for it. Emptying a previously deployed list still revokes the grants, after which the node is dropped from the deployment state instead of being reported as unchanged forever. (#6039)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
     "id": "25b26bf2969fe32e",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -12,6 +65,56 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "6cb40b2bb410f203",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.125.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.125.0",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-06",
+    "summary": "## Release v0.125.0 (2026-08-05)\n\n### API Changes\n\n* Add `principal_overrides` and `scope_type` fields for `databricks.sdk.service.billing.AlertConfiguration`.\n\n* Add `resource_type` field for `databricks.sdk.service.billing.BudgetConfiguration`.\n\n* Add `resource_type` field for `databricks.sdk.service.billing.CreateBudgetConfigurationBudget`.\n\n* Add `principal_overrides` and `scope_type` fields for `databricks.sdk.service.billing.CreateBudgetConfigurationBudgetAlertConfigurations`.\n\n* Add `resource_type` field for `databricks.sdk.service.billing.UpdateBudgetConfigurationBudget`.\n\n* Add `grant` field for `databricks.sdk.service.catalog.PolicyInfo`.\n\n* Add `input_column` and `output_column` fields for `databricks.sdk.service.pipelines.Transformer`.\n\n* Add `block_usage` enum value for `databricks.sdk.service.billing.ActionConfigurationType`.\n\n* Add `netsuite` enum value for `databricks.sdk.service.catalog.ConnectionType`.\n\n* Add `policy_type_grant` enum value for `databricks.sdk.service.catalog.PolicyType`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "bcfb70a1ee8af0ea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Window measures on a numeric index column in metric views",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#window-measures-on-a-numeric-index-column-in-metric-views",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-06",
+    "summary": "Window measures in metric views support a unitless numeric offset and numeric trailing and leading ranges on a consecutive integer order column. Use a numeric index to compare along a business period that is not a calendar date, such as a fiscal week or a 4-4-5 accounting period. See Window measures on a numeric index column.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "4ae71b308b8093ec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie One is now available in Google Sheets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-one-is-now-available-in-google-sheets",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-06",
+    "summary": "You can now use Genie One directly in the Databricks Connector for Google Sheets. Query your governed Databricks data in natural language and import the results into Google Sheets as native rows and columns. See Use Genie in Google Sheets.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "457f79d36f809a34",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie One is now available in Microsoft Excel",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-one-is-now-available-in-microsoft-excel",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-06",
+    "summary": "You can now use Genie One directly in the Databricks Excel Add-in. Query your governed Databricks data in natural language and import the results into Microsoft Excel as native rows and columns. See Use Genie in Microsoft Excel.",
+    "category": "Business Intelligence",
+    "tags": []
   },
   {
     "id": "0f1af7da8d935b32",
@@ -113,6 +216,30 @@
     "published": "2026-08-04",
     "first_seen": "2026-08-05",
     "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18 LTS\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "bbc68d0ebee77b53",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing Delta tables with Iceberg reads enabled is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-delta-tables-with-iceberg-reads-enabled-is-now-generally-available",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-06",
+    "summary": "Sharing Delta tables with Iceberg reads enabled is now generally available. See Delta Lake feature support matrix.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "f44122f4b780c520",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing Delta tables with deletion vectors and column mapping is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-delta-tables-with-deletion-vectors-and-column-mapping-is-now-generally-available",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-06",
+    "summary": "Sharing Delta tables with deletion vectors or column mapping enabled is now generally available. See Add tables with deletion vectors or column mapping to a share.",
     "category": "Platform Overview",
     "tags": []
   },
@@ -4269,56 +4396,6 @@
     "first_seen": "2026-07-30",
     "summary": "Catalog commits are now generally available. Catalog commits expand Unity Catalog managed table interoperability, strengthen Unity Catalog governance capabilities, and unlock new features such as multi-statement, multi-table transactions. When catalog commits are enabled on a Unity Catalog managed Delta table, Unity Catalog becomes the table's system of coordination, brokering access and state across engines. Products that read or write to Unity Catalog managed tables now support catalog commits, including streaming tables, Delta Sharing, Zerobus, Lakeflow Connect, Unity AI Gateway, MLflow, and Lakeflow Jobs triggers. See Catalog commits.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "6fee2f01abaf0b85",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/coding-agents-databricks-apps",
-    "title": "databrickslabs/coding-agents-databricks-apps: v0.18.2",
-    "url": "https://github.com/databrickslabs/coding-agents-databricks-apps/releases/tag/v0.18.2",
-    "published": "2026-05-07",
-    "first_seen": "2026-07-30",
-    "summary": "Bug fixes since v0.18.1\n\n- #21 fix(hermes): route via AI Gateway with auto-constructed URL — setup_hermes.py no longer needs a hardcoded gateway host; constructs from DATABRICKS_HOST and falls back to direct serving endpoints if the gateway isn't reachable. Hermes works on any workspace's gateway, not just daveok.\n\n- #25 fix(deploy): track Codex model catalog without .gitignore negation — databricks-models.json now syncs into the deployed app's ~/.codex/. Codex no longer fails with Error loading configuration: No such file or directory on first invocation.\n\n- #27 fix(claude): pick models from workspace's serving endpoints (GDS-aware) — Claude Code's per-tier model defaults (opus / sonnet / haiku) are now picked from what the workspace actually serves. Workspaces in non-US geos under Databricks Geo Designated Services no longer 404 when picking Opus.\n\nNotes\n\nFirst tagged release on databrickslabs/coding-agents-databricks-apps — historical tags from the prior datasciencemonkey upstream weren't migrated.\n\nTag created manually via git tag -a v0.18.2 origin/main because databrickslabs-protected-runner-group (the self-hosted runner the Release workflow uses) has been queue-blocked since at least 2026-05-03. Same end-state as the workflow would have produced.",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/coding-agents-databricks-apps"
-    ]
-  },
-  {
-    "id": "b7f28a0bf9df775e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Faster package installs with %uv pip in serverless notebooks",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#faster-package-installs-with-uv-pip-in-serverless-notebooks",
-    "published": "2026-05-07",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use the %uv pip magic command in serverless notebooks on environment version 5 or above as a faster alternative to %pip for Python package management. %uv pip is powered by the uv package manager and shares the same notebook virtual environment as %pip.\n\nSee Faster installs with %uv pip.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "cfe6c1ecceba8116",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Standalone pipelines on serverless general compute (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#standalone-pipelines-on-serverless-general-compute-beta",
-    "published": "2026-05-07",
-    "first_seen": "2026-07-30",
-    "summary": "Standalone pipelines, including materialized views and streaming tables, can now be created from a notebook running on serverless general compute. Standalone pipelines (renamed from pipelines on Databricks SQL) can be created using SQL or Python. Standalone pipelines are in Beta. See Requirements for standalone pipelines.",
-    "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "e11dbb36ff53f3ca",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Graviton instance types are available for the compliance security profile",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#graviton-instance-types-are-available-for-the-compliance-security-profile",
-    "published": "2026-05-07",
-    "first_seen": "2026-07-30",
-    "summary": "Graviton (Arm64) instance types are now available on AWS Commercial workspaces that use the compliance security profile with the FedRAMP Moderate, IRAP, or CCCS Medium (Protected B) compliance standards. Graviton instances improve price-performance for many workloads. For the instance types supported under each compliance standard, see Supported instance types.",
-    "category": "Security",
     "tags": []
   }
 ]
