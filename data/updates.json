@@ -1,5 +1,19 @@
 [
   {
+    "id": "3b63c8afae5dac89",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.4.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.4.0",
+    "published": "2026-08-07",
+    "first_seen": "2026-08-07",
+    "summary": "What's Changed\n\n- Add optional cleanup of batch-solving temp tables after successful persist by @tombonfert in #74\n\n- Bump version to 0.4.0 in VERSION file by @tombonfert in #75\n\nFull Changelog: v0.3.0...v0.4.0\n\nWhat's Changed\n\n- Add optional cleanup of batch-solving temp tables after successful persist by @tombonfert in #74\n\n- Bump version to 0.4.0 in VERSION file by @tombonfert in #75\n\nFull Changelog: v0.3.0...v0.4.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
     "id": "bac4517942c6ead5",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -51,6 +65,74 @@
     "tags": [
       "databricks/cli"
     ]
+  },
+  {
+    "id": "d855e124a36f8272",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What are Agentic Workflows?",
+    "url": "https://www.databricks.com/blog/agentic-workflows",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-07",
+    "summary": "Learn what agentic workflows are, how they complete complex tasks, and what enterprises need to deploy them successfully.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "a99e3d25a72da73b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What is Tool Calling?",
+    "url": "https://www.databricks.com/blog/what-is-tool-calling",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-07",
+    "summary": "Tool calling allows an AI model to choose and operate the right resource for a task. Explore how Databricks supports governed tool-calling agents.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "5d7328432b4ceb46",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
+    "url": "https://www.databricks.com/blog/kimi-k3-moonshot-ai-now-available-databricks-through-unity-ai-gateway",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-07",
+    "summary": "A ye Kimi K3, Moonshot AI's 2.8T-parameter open-weight model with 1M context window and native multimodal support, is now available on Databricks with enterprise governance through Unity AI Gateway.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Announcements",
+      "Platform & Partners"
+    ]
+  },
+  {
+    "id": "f0f2b1ec7613ade7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks-managed MCP connectors are now integrated with Unity AI Gateway (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#databricks-managed-mcp-connectors-are-now-integrated-with-unity-ai-gateway-beta",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-07",
+    "summary": "All Databricks-managed MCP connectors for Genie One and Genie Code have migrated to the Unity AI Gateway. This brings Databricks-managed connectors under Unity AI Gateway, enabling centralized governance, access controls, and visibility alongside your other MCP servers and tools.\n\nUsers must reauthenticate their connectors to continue using them with Genie One and Genie Code. A notification in Genie prompts impacted users to reconnect.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "21b5ee64f10c0b8b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code web search is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-web-search-is-in-beta",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-07",
+    "summary": "Genie Code can now search the public web to answer questions that need current information. Web search is disabled by default during the beta for eligible workspaces and must be turned on from the Previews page. See Search the web.",
+    "category": "AI Assistant",
+    "tags": []
   },
   {
     "id": "25b26bf2969fe32e",
@@ -241,6 +323,18 @@
     "first_seen": "2026-08-06",
     "summary": "Sharing Delta tables with deletion vectors or column mapping enabled is now generally available. See Add tables with deletion vectors or column mapping to a share.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "7423e7cab6c1082e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Format AI/BI dashboard widget titles and descriptions with rich text",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#format-aibi-dashboard-widget-titles-and-descriptions-with-rich-text",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-07",
+    "summary": "Visualization widget titles and descriptions support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or type markdown directly.\n\nSee Format widget titles and descriptions.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
@@ -4384,18 +4478,6 @@
     "first_seen": "2026-07-30",
     "summary": "The managed HubSpot connector in Lakeflow Connect is now generally available. The connector allows you to ingest data from HubSpot Marketing Hub into Databricks. See HubSpot connector.",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "1f7f00c35000a955",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Catalog commits are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#catalog-commits-are-now-generally-available",
-    "published": "2026-05-08",
-    "first_seen": "2026-07-30",
-    "summary": "Catalog commits are now generally available. Catalog commits expand Unity Catalog managed table interoperability, strengthen Unity Catalog governance capabilities, and unlock new features such as multi-statement, multi-table transactions. When catalog commits are enabled on a Unity Catalog managed Delta table, Unity Catalog becomes the table's system of coordination, brokering access and state across engines. Products that read or write to Unity Catalog managed tables now support catalog commits, including streaming tables, Delta Sharing, Zerobus, Lakeflow Connect, Unity AI Gateway, MLflow, and Lakeflow Jobs triggers. See Catalog commits.",
-    "category": "Governance",
     "tags": []
   }
 ]
