@@ -1,5 +1,19 @@
 [
   {
+    "id": "f822875620b18efc",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: v0.7.0: Merge pull request #130 from databrickslabs/develop",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.7.0",
+    "published": "2026-08-08",
+    "first_seen": "2026-08-08",
+    "summary": "OntoBricks — Release Notes V0.7.0\n\nRelease window: July – August, 2026\n\nTest status: all changes shipped with the suite green (4787 passed, 276 skipped, 5 deselected, 1 xfailed).\n\nHighlights\n\n- Neo4j graph backend (GA): Neo4j (Community, Enterprise, AuraDB) joins Delta Lake and Lakebase as a full typed property-graph engine — nodes/relationships instead of flat triples, named connection profiles in Settings → Neo4j (master–detail Connections + Objects, live Bolt + Cypher Test connection), per-domain binding via Domain → Knowledge Graph, and documentation/neo4j-requirements.md for flavor compatibility.\n\n- Graph Chat confirmation-gated Class Actions: Graph Chat reaches MCP parity for Datasets / Bridges / Actions (get_entity_context, request_entity_action) with an explicit Confirm/Cancel card before any UC function runs — Graph Chat never exposes direct invoke_entity_action.\n\n- Branded backend icons: dedicated Lakehouse glyph in Domain / Registry chrome; Databricks branding reserved for Settings / workspace identity controls.\n\n- Graph backend selection moved per-domain: choosing Lakebase / Lakehouse (Delta) / Neo4j is now a mandatory per-domain setting on Domain → Information → Knowledge Graph (large selectable cards), not a workspace-wide Settings toggle; the old Settings → Back End page is gone.…",
+    "category": "Database",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
     "id": "3b63c8afae5dac89",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/impulse",
@@ -12,6 +26,73 @@
     "tags": [
       "databrickslabs/impulse"
     ]
+  },
+  {
+    "id": "4fffe919132d1d30",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Managing AI Coding Costs at Scale",
+    "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+    "published": "2026-08-07",
+    "first_seen": "2026-08-08",
+    "summary": "AI coding tools deli",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Announcements",
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "39a8a938632cd894",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What is an AI Assistant?",
+    "url": "https://www.databricks.com/blog/what-is-an-ai-assistant",
+    "published": "2026-08-07",
+    "first_seen": "2026-08-08",
+    "summary": "Learn how AI assistants understand requests, automate tasks, and support enterprise workflows, plus what to consider when choosing one.",
+    "category": "AI Assistant",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "3f5bcd78773deafa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Tag automations (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#tag-automations-beta",
+    "published": "2026-08-07",
+    "first_seen": "2026-08-08",
+    "summary": "Tag automations are now in Beta. A tag automation assigns or removes governed tags on the Unity Catalog tables or volumes that match conditions you define, so tags stay accurate as your data and metadata change. Use them to certify trusted data, deprecate stale data, roll up column sensitivity to a table-level tier, flag assets that are missing required tags, and clean up outdated tags.\n\nYou can build an automation by describing your rule to Genie in natural language, or by filling in the scope, conditions, and action yourself. Saving an automation starts a dry run, which records the assets it would match without assigning any tags.\n\nSee Automate tag assignment.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "ff82615ba47717e9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Change data feed on materialized views (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#change-data-feed-on-materialized-views-beta",
+    "published": "2026-08-07",
+    "first_seen": "2026-08-08",
+    "summary": "You can now read a change data feed from a materialized view created in a Lakeflow pipeline or in Databricks SQL, using Databricks Runtime 18 LTS or above. Use this to replicate materialized view changes to destinations outside Databricks, or to keep a history of materialized view changes for auditing and reporting. Materialized views use automatic change data feed, so the change data feed is available for any materialized view with row tracking enabled, without configuring each materialized view. This feature is in Beta.\n\nSee Read a change data feed from a materialized view.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "027b2c1d6f5ef570",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ai_search function (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai",
+    "published": "2026-08-07",
+    "first_seen": "2026-08-08",
+    "summary": "The ai_search() SQL function retrieves information from one or more AI Search indexes configured as knowledge sources. Given a natural-language query, the function generates optimized search queries, retrieves and deduplicates results across sources, reranks them by relevance, and returns the most relevant documents. By default, it also synthesizes a grounded natural-language answer over those documents.\n\nUse ai_search to enrich operational data with relevant context at scale, build batch retrieval-augmented generation (RAG) pipelines, or expose retrieval as a tool to a compound AI system. This feature is in Beta.\n\nSee ai_search function.",
+    "category": "Artificial Intelligence",
+    "tags": []
   },
   {
     "id": "bac4517942c6ead5",
@@ -135,6 +216,18 @@
     "tags": []
   },
   {
+    "id": "41448aca282b2858",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Moonshot AI Kimi K3 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#moonshot-ai-kimi-k3-now-available-as-a-databricks-hosted-model",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-08",
+    "summary": "Model Serving now supports Kimi K3 as a Databricks-hosted model. This 2.8-trillion-parameter mixture of experts (MoE) model has native vision capabilities, supports a 1 million token context window, and is designed for long-horizon coding, knowledge work, and reasoning. You can access this model using Foundation Model APIs.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "25b26bf2969fe32e",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -196,6 +289,54 @@
     "first_seen": "2026-08-06",
     "summary": "You can now use Genie One directly in the Databricks Excel Add-in. Query your governed Databricks data in natural language and import the results into Microsoft Excel as native rows and columns. See Use Genie in Microsoft Excel.",
     "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "01b30a6a6c4194dc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "JAR tasks on serverless compute are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#jar-tasks-on-serverless-compute-are-now-generally-available",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-08",
+    "summary": "Package Scala or Java code as a JAR and run it as a task in a Lakeflow Job on serverless compute, without provisioning or managing clusters. See Create and run JARs on serverless compute.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "5146d17c8040288c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "REPLACE USING flows for pipelines (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#replace-using-flows-for-pipelines-beta",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-08",
+    "summary": "REPLACE USING flows are now available in Lakeflow pipelines in Beta.\n\nUse a REPLACE USING flow when your source is a series of partial snapshots keyed by column. On each update, the flow replaces all rows that match the specified key columns and leaves all other rows unchanged. A SEQUENCE BY column orders the updates, so the highest sequence for a key always wins, even when updates arrive out of order. REPLACE USING doesn't require a change data capture feed with explicit insert, update, and delete operations, and it doesn't require a primary key.\n\nSee Partial snapshot replacement with REPLACE USING flows.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "460abd135d48c89c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Search and replace text across files",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#search-and-replace-text-across-files",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-08",
+    "summary": "You can now search and replace text across files in a Databricks Git folder or Declarative Automation Bundles project from the Search pane. See Search and replace across files.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "29fef06dd35656f9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase support for compliance security profile standards",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakebase-support-for-compliance-security-profile-standards",
+    "published": "2026-08-05",
+    "first_seen": "2026-08-08",
+    "summary": "Lakebase is now available by default for workspaces with the compliance security profile enabled and either HIPAA, C5, or TISAX controls selected, and for workspaces with the compliance security profile enabled without a compliance standard. See Data protection.",
+    "category": "Security",
     "tags": []
   },
   {
@@ -463,6 +604,30 @@
     "published": "2026-08-03",
     "first_seen": "2026-08-05",
     "summary": "The MANAGE privilege no longer requires a usage privilege (USE CATALOG or USE SCHEMA) on the object where MANAGE is granted. This change makes MANAGE behave more consistently with object ownership.\n\nPreviously, MANAGE on a catalog or schema took effect only if you also held the appropriate usage privileges on that object. You still need usage privileges on any parent containers:\n\n- MANAGE on a catalog requires no usage privileges.\n\n- MANAGE on a schema requires USE CATALOG on the parent catalog, but no longer requires USE SCHEMA on the schema.\n\n- MANAGE on a table, view, volume, or function is unchanged. It still requires USE CATALOG on the parent catalog and USE SCHEMA on the parent schema.\n\nAll other privileges are unaffected and still require usage privileges as prerequisites, even for users with MANAGE. For example, querying a table still requires SELECT on the table, plus USE CATALOG and USE SCHEMA on the parent catalog and schema.\n\nIf you granted MANAGE broadly without also granting the corresponding usage privileges, those grants are now active, and holders can manage the object. Databricks recommends auditing existing MANAGE grants to confirm they reflect your intended access.\n\nSee Usage privilege requirements for MANAGE.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "432e271039032471",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Secrets in Unity Catalog is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#secrets-in-unity-catalog-is-ga",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-08",
+    "summary": "Secrets in Unity Catalog is now generally available. You can store, govern, and access secrets as securable objects in Unity Catalog. A Unity Catalog secret uses the three-level namespace (catalog.schema.secret) and is governed by Unity Catalog privileges, so you can apply the same access controls and auditing that you use for other data assets. See Secrets in Unity Catalog.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "442cb185bd5f7574",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless compute access control is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#serverless-compute-access-control-is-now-generally-available",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-08",
+    "summary": "Serverless compute access control is now generally available. Workspace admins can govern who runs serverless workloads through two built-in serverless compute objects: Default Interactive Compute (governs access to notebooks and Databricks Connect) and Default Automated Compute (governs access to jobs and Spark Declarative Pipelines on Lakeflow). All workspace users have Can Use on both objects by default, so existing workloads continue to run without changes.\n\nSee Serverless compute access control.",
     "category": "Governance",
     "tags": []
   },
