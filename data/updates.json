@@ -14,6 +14,20 @@
     ]
   },
   {
+    "id": "0e8d9b79182e774c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: Lakemeter OSS v0.1.2",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.1.2",
+    "published": "2026-08-08",
+    "first_seen": "2026-08-09",
+    "summary": "Code-only patch release focused on calculation accuracy, estimate persistence, and safer release validation. No Lakebase schema change, data migration, or pricing refresh is required.\n\nBug fixes\n\n- Issue #10: Fixed AI-generated estimate application so authenticated requests persist supported workload configuration and roll back cleanly on failure.\n\n- Issue #11: Fixed regional VM pricing parity across the UI and Excel exports for Jobs, All-Purpose, DLT/Lakeflow, and DBSQL workloads.\n\n- Issue #9: Fixed daily, monthly, and run-based usage normalization across calculation APIs.\n\n- Issue #7: Fixed Databricks Apps estimates to use the correct serverless compute SKU and reject unsupported workload types instead of silently falling back.\n\n- Fixed AI Parse and Shutterstock ImageAI quantity fields so saved estimates, cloned estimates, and Excel exports retain the entered values.\n\n- Fixed Lakebase responses to report the effective billable hours used by the calculation.\n\nSecurity and release reliability\n\n- Updated frontend and documentation dependencies to address known security alerts.\n\n- Added tested installation, upgrade, end-to-end, and rollback release validation.\n\nUpgrade notes\n\n- Supports code-only upgrades from v0.1.0 and v0.1.1.\n\n- Leaves Lakebase online and does not modify existing estimates, database schema, or pricing data.\n\n- Follow the Upgrade Guide and verify downloaded files with SHA256SUMS.",
+    "category": "Data Warehousing",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
     "id": "3b63c8afae5dac89",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/impulse",
