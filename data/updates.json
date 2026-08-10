@@ -4622,41 +4622,5 @@
     "summary": "Lakehouse Sync is now in Public Preview for Lakebase Autoscaling. Lakehouse Sync enables continuous, low-latency replication of your Lakebase Postgres tables into Unity Catalog managed Delta tables using Change Data Capture (CDC). See Lakebase Change Data Feed.",
     "category": "Governance",
     "tags": []
-  },
-  {
-    "id": "3da4138c3021d003",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "App telemetry for Databricks Apps is now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#app-telemetry-for-databricks-apps-is-now-in-public-preview",
-    "published": "2026-05-11",
-    "first_seen": "2026-07-30",
-    "summary": "You can now collect traces, logs, and metrics from your Databricks Apps and persist them to Unity Catalog tables using the OpenTelemetry (OTel) protocol. See Configure telemetry for Databricks Apps.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "62cf2949923ce98a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "HIPAA support for the Databricks Add-in for Excel",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#hipaa-support-for-the-databricks-add-in-for-excel",
-    "published": "2026-05-11",
-    "first_seen": "2026-07-30",
-    "summary": "The Databricks Add-in for Excel (Public Preview) is now available for workspaces with HIPAA compliance across all supported regions. See Connect to Databricks from Microsoft Excel.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "05a43afbf3e82908",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "HubSpot connector (GA)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#hubspot-connector-ga",
-    "published": "2026-05-11",
-    "first_seen": "2026-07-30",
-    "summary": "The managed HubSpot connector in Lakeflow Connect is now generally available. The connector allows you to ingest data from HubSpot Marketing Hub into Databricks. See HubSpot connector.",
-    "category": "Data Engineering",
-    "tags": []
   }
 ]
