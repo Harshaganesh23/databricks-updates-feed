@@ -1,5 +1,118 @@
 [
   {
+    "id": "186fce5f8de07501",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Modern Risk Demands a Real-Time Foundation: The CRO’s Mandate",
+    "url": "https://www.databricks.com/blog/modern-risk-demands-real-time-foundation-cros-mandate",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-11",
+    "summary": "Explore how an AI-driven, real-time unified data foundation enables CROs to tackle systemic risks, manage compliance, and turn risk into a strategic growth driver.",
+    "category": "Security",
+    "tags": [
+      "Platform",
+      "Solutions",
+      "Industries",
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "8b18bfa54356aa2e",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Electric joins Databricks to bring WASM Postgres to AI agent sandboxes",
+    "url": "https://www.databricks.com/blog/electric-joins-databricks-bring-wasm-postgres-ai-agent-sandboxes",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-11",
+    "summary": "Electric is joining Databricks to extend Databricks’ Postgres capabilities from the lakehouse to the edge, allowing for an abundance of lightweight open-source databases that can all be synced back to Lakebase Postgres for centralization and control on cheap, durable object storage.",
+    "category": "Database",
+    "tags": [
+      "Platform",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "842e435a7bc162d9",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.126.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.126.0",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-11",
+    "summary": "## Release v0.126.0 (2026-08-11)\n\n### API Changes\n\n* Add `forward_user_access_token` field for `databricks.sdk.service.apps.App`.\n\n* Add `forward_user_access_token` field for `databricks.sdk.service.apps.AppUpdate`.\n\n* Add `include_value` field for `databricks.sdk.service.catalog.GetSecretRequest`.\n\n* Add `docker_image_url` field for `databricks.sdk.service.jobs.AiRuntimeTask`.\n\n* Add `gpu_xlarge_8` enum value for `databricks.sdk.service.serving.ServedModelInputWorkloadType`.\n\n* Add `gpu_xlarge_8` enum value for `databricks.sdk.service.serving.ServingModelWorkloadType`.\n\n* Add `legacy_mode` enum value for `databricks.sdk.service.settings.CustomerFacingIngressNetworkPolicyCrossWorkspaceAccessRestrictionMode`.\n\n* Change `account_sp_status` and `display_name` fields for `databricks.sdk.service.iamv2.ServicePrincipal` to be required.\n\n* Change `account_user_status`, `full_name` and `username` fields for `databricks.sdk.service.iamv2.User` to be required.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.GetMcpServiceRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.GetModelProviderServiceRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.GetModelServiceRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.ListMcpServicesRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.ListModelProviderServicesRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.ListModelServicesRequest`.\n\n* [Breaking] Remove `browse_only` field for `databricks.sdk.service.catalog.McpService`.…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "13aa163b225a9845",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How to ground Genie Agents in both structured data and documents without losing governance",
+    "url": "https://www.databricks.com/blog/how-ground-genie-agents-both-structured-data-and-documents-without-losing-governance",
+    "published": "2026-08-10",
+    "first_seen": "2026-08-11",
+    "summary": "BuilBuild Genie Agents grounded in both structured and unstructured data while Unity Catalog enforces per-user access governance.",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "202ffbef33608f9a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Innocent until combined: Blocking the lethal trifecta with Omnigent Contextual Policies",
+    "url": "https://www.databricks.com/blog/innocent-until-combined-blocking-lethal-trifecta-omnigent-contextual-policies",
+    "published": "2026-08-10",
+    "first_seen": "2026-08-11",
+    "summary": "In earlier posts, we",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "2466f0876fe18f11",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing FILE type: a native column type for multimodal data",
+    "url": "https://www.databricks.com/blog/introducing-file-type-native-column-type-multimodal-data",
+    "published": "2026-08-10",
+    "first_seen": "2026-08-11",
+    "summary": "Your data estate hol",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "8080e6151ffc4853",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Orchestrate continuous pipelines with continuous jobs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#orchestrate-continuous-pipelines-with-continuous-jobs",
+    "published": "2026-08-10",
+    "first_seen": "2026-08-11",
+    "summary": "You can now run a continuous Lakeflow pipeline with a continuous job. When a continuous job orchestrates a pipeline, the job determines the execution mode, and the pipeline can use job-level features such as serverless Standard performance mode and additional notification destinations. Databricks recommends this pattern over the pipeline's built-in continuous setting, which is not being removed.\n\nSee Run a continuous pipeline with a continuous job and Run a pipeline continuously with a continuous job.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "5d8fb8c77616b4b9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Alert system tables are in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#alert-system-tables-are-in-public-preview",
+    "published": "2026-08-10",
+    "first_seen": "2026-08-11",
+    "summary": "The system.alert schema is in Public Preview. This schema contains the alerts table, which records the configuration of every alert, and the alert_evaluation_history table, which records one row per alert evaluation. Use these tables to audit alert definitions, analyze evaluation trends, and monitor alert workloads at scale.\n\nSee Alert system tables reference.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "f822875620b18efc",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/ontobricks",
@@ -4581,46 +4694,6 @@
     "first_seen": "2026-07-30",
     "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 18.0\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
     "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "5b83944a1fb46430",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: Hot Fix 0.3.1",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.3.1",
-    "published": "2026-05-12",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V3.3.1\n\nRelease window: May 2026\n\nType: Hotfix\n\nTest status: 141 cohort tests passed, 0 failed (49 test_cohort_builder.py, 31 test_dtwin_cohort.py, 34 test_cohort_models.py, 24 test_agent_cohort_tools.py, 3 test_agent_cohort_engine.py).\n\nHighlights\n\n- Cohort Discovery: predicate namespace fix — hasClaim (and any predicate loaded outside R2RML) now resolves correctly. The engine no longer silently misses triples whose predicate is in ontology-namespace form (#) when the lookup key is in data-namespace form (/).\n\n- Cohort Discovery: cross-namespace predicate fallback — CohortBuilder gains a local-name alias map mirroring the SparqlTranslator approach, so predicates from a completely foreign namespace (e.g. ontobricks.com/ontology#hasclaim vs. databricks-ontology.com/Cust360Auto/hasclaim) resolve via local-name matching.\n\n- Cohort designer UX — attribute dropdowns in the Path \"where\" filter and the Compatibility section are now scoped to the entity being filtered, not the full ontology property list.\n\nCohort Discovery — Bug Fixes\n\nFix 1: ontology-form predicate silent miss (CohortBuilder._outgoing_edge_index)\n\nWhen data triples were inserted outside the R2RML pipeline (direct insert, W3C OWL round-trip, manual load), their predicates were stored in ontology-namespace form (…#hasClaim) while the lookup key produced by _normalized_links was in data-namespace form (…/hasClaim). This caused a silent neighbours_raw = 0 and an empty cohort.\n\nChanges:\n\n- src/back/core/graph_analysis/CohortBuilder.py — _outgoing_edge_index promoted from @staticmethod to instance method so it can call self._to_data_uri(pred). Every triple predicate is now normalised to data-namespace form when the index is built.…",
-    "category": "Data Engineering",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "4c87b603a7319988",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: V0.3.0",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.3.0",
-    "published": "2026-05-12",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V0.3.0\n\nRelease window: May, 2026\n\nTest status: all changes shipped with the suite green (2045 passing, 80 CloudFetch probe tests conditionally skipped in CI).\n\nHighlights\n\n- Cohort Discovery — new end-to-end feature for business-friendly entity grouping: rule-based linkage (shared resources via predicates), compatibility constraints, a 6-stage deterministic engine, full Volume + Lakebase persistence, graph-triple + Unity Catalog Delta materialisation, and a natural-language Stage 2 agent that translates free-text prompts into validated CohortRule JSON.\n\n- Live Digital Twin build log — the Build page now shows a real-time per-step log panel with elapsed timers, phase descriptions, a one-click export to .log, and honest background-archive handling. TaskManager gains skip_step / complete_current_step so skipped phases are labelled correctly.\n\n- Real /health readiness probe — 11 checks covering filesystem, Databricks auth, SQL warehouse, registry Volume read/write, registry UC DDL permissions, Lakebase schema/table/sequence grants, and CloudFetch capability. /health/detailed retired. New admin Health tab in Settings surfaces the same payload in-app.\n\n- Mapping diagnostics: source table permissions — new third section runs a non-destructive SELECT … LIMIT 0 against every Unity Catalog table referenced by the mapping and reports ok / PERMISSION_DENIED / TABLE_OR_VIEW_NOT_FOUND per table, surfacing missing grants before a build attempt.\n\n- Knowledge Graph — right-click Expand neighbours — any node can be expanded N hops in place without re-running a full SPARQL query. Non-blocking spinner, depth picker, camera zoom + highlight on new nodes. KG preview/expand also hardened against timeouts and 502 errors on large graphs.…",
-    "category": "Data Warehousing",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "9346af40c9b89caa",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase Autoscaling: Lakehouse Sync is now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakebase-autoscaling-lakehouse-sync-is-now-in-public-preview",
-    "published": "2026-05-12",
-    "first_seen": "2026-07-30",
-    "summary": "Lakehouse Sync is now in Public Preview for Lakebase Autoscaling. Lakehouse Sync enables continuous, low-latency replication of your Lakebase Postgres tables into Unity Catalog managed Delta tables using Change Data Capture (CDC). See Lakebase Change Data Feed.",
-    "category": "Governance",
     "tags": []
   }
 ]
