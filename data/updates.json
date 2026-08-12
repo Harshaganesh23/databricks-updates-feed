@@ -1,5 +1,61 @@
 [
   {
+    "id": "944f4d659fcdaadd",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The Future of Data Analytics: Why AI is rewriting the Analyst’s Job Description",
+    "url": "https://www.databricks.com/blog/future-data-analytics-why-ai-rewriting-analysts-job-description",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-12",
+    "summary": "AI is automating SQL, dashboards, and ad-hoc analysis. The future of data analytics isn't fewer analysts — it's analysts who lead with judgment, not queries.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Data Strategy"
+    ]
+  },
+  {
+    "id": "097143c32f1342fe",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.127.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.127.0",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-12",
+    "summary": "## Release v0.127.0 (2026-08-12)\n\n### API Changes\n\n* Add `mlflow_artifact_location` field for `databricks.sdk.service.jobs.AiRuntimeTask`.\n\n* Add `trigger_details` field for `databricks.sdk.service.jobs.BaseJob`.\n\n* Add `triggers` field for `databricks.sdk.service.jobs.CreateJob`.\n\n* Add `trigger_details` field for `databricks.sdk.service.jobs.Job`.\n\n* Add `triggers` field for `databricks.sdk.service.jobs.JobSettings`.\n\n* Add `api_source_connector_options` field for `databricks.sdk.service.pipelines.ConnectorOptions`.\n\n* Add `api_source_connector_config` field for `databricks.sdk.service.pipelines.SourceConfig`.\n\n* Add `all_vpc_sc_services` and `google_api_endpoints` fields for `databricks.sdk.service.settings.GcpEndpoint`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "2f013238bb3cd57a",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.12.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.12.0",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-12",
+    "summary": "Release v1.12.0\n\nCLI\n\n- databricks aitools install now supports Gemini CLI, installing Databricks agent skills into its skills directory.\n\n- databricks aitools install now supports Pi, installing Databricks agent skills into its skills directory.\n\n- A locally built CLI (go build, without release flags) now reports the next release version with a -dev prerelease, e.g. 1.12.0-dev+abcdef123456, instead of 0.0.0-dev+abcdef123456. The old string sorted below every published release even though a local build is newer than the latest release; the new one sorts above the latest release and below the release it will become, matching what goreleaser already produces for snapshot builds.\n\n- Added the databricks environments setup-local command, which provisions (or updates) a local Python environment matched to a Databricks compute target. It resolves the target to an environment key, fetches the pinned Python version, databricks-connect version, and dependency constraints published for that key, then provisions a matched .venv with uv.\n\nBundles\n\n- Added a cascade_on_destroy field to the pipeline resource to control whether destroying a pipeline also deletes its datasets (MVs, STs, Views). When unset, the server default applies; set cascade_on_destroy: false to retain the datasets on destroy. Supported with the direct deployment engine (#5846).\n\n- Fix bundle.deployment.lock.force being ignored. The --force-lock flag's default value overwrote the value configured in databricks.yml, so setting the field had no effect and a stale deployment lock could only be overridden with the flag. (#6188)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "4d0529319f993998",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: New Release v0.16.0 (#1463)",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.16.0",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-12",
+    "summary": "Changes\n\nPrepares the v0.16.0 release.\n\n- Bumps the library version to 0.16.0\n\n(src/databricks/labs/dqx/__about__.py).\n\n- Updates CHANGELOG.md with all 45 user-facing PRs merged since\n\nv0.15.0, grouped as changes + a BREAKING CHANGES! section.\n\n- Propagates the version to the references that are safe to move ahead\n\nof publish: docs GitHub source URLs (v0.16.0) and the MCP server's\n\ndqx_version bundle variable.\n\nVersion-sync note (why the app pins stay at 0.15.0)\n\nThe DQX Studio app and its task runner install databricks-labs-dqx\n\nfrom the PyPI registry through the app's frozen uv.lock, and app\n\nCI runs uv sync. Pinning them to 0.16.0 before it is published would\n\nbreak CI, so those pins are intentionally left at 0.15.0 and bumped at\n\nrelease-publish time. docs/dqx/sync_versions.py was updated to stop\n\nauto-bumping the app-side pins (it now bumps only the MCP\n\ndqx_version), so make fmt no longer re-introduces the failing state.\n\nThe pin_files list is kept as the extensible seam.\n\nBreaking changes\n\n- is_in_list / is_not_in_list / is_not_null_and_is_in_list now\n\nresolve allowed/forbidden string values as column expressions, not\n\nliterals (#1419).\n\n- user_metadata on the Delta table backend is now JSON-encoded at rest\n\n(#1319).\n\nSee CHANGELOG.md for the full list.",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
     "id": "186fce5f8de07501",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -44,6 +100,89 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "2d3ea9ff80a0be1d",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Taking AUTO CDC to the next level: Solving the hardest real-world use cases",
+    "url": "https://www.databricks.com/blog/taking-auto-cdc-next-level-solving-hardest-real-world-use-cases",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-12",
+    "summary": "Discover how AUTO CDC adds Bitemporal support, Partial Updates, and open-source contributions to Apache Spark 4.2 for scalable change data capture.",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "b54d76a4ad9cef48",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Open-sourcing Metals v2: Databricks’ Java and Scala language server for multi‑million line codebases",
+    "url": "https://www.databricks.com/blog/open-sourcing-metals-v2-databricks-java-and-scala-language-server-multi-million-line-codebases",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-12",
+    "summary": "A look at how Databricks moved its JVM development onto lightweight editors: the platform flywheel behind standardizing on one IDE, the adoption data showing the shift, and the engineering inside Metals v2, including a build-free repo index, compiler-backed pipelines, and a metadata-first build integration.",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "232e1b305a602511",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: v4.4.0rc1",
+    "url": "https://github.com/delta-io/delta/releases/tag/v4.4.0rc1",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-12",
+    "summary": "Releasing 4.4.0rc1",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "28923378ac69fa4c",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: v3.3.3",
+    "url": "https://github.com/delta-io/delta/releases/tag/v3.3.3",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-12",
+    "summary": "Release version 3.3.3",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "766a9cacb0bad3f3",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: Release v0.15.0",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.15.0",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-12",
+    "summary": "Highlights\n\n- Entra ID authentication for SQL Server. The MSSQL connector and configurators now support Microsoft Entra ID auth (service principal (SPN), Active Directory password, and interactive sign-in) in addition to the existing methods.\n\n- Reconcile root-cause analysis dashboard. A new RCA dashboard helps you diagnose why rows mismatch during reconciliation, not just that they do.\n\n- Serverless by default for reconcile. The deployed reconcile job now runs on serverless compute out of the box, removing a manual cluster-provisioning step.\n\n- Large-source Snowflake profiling is more robust. The Snowflake profiler now streams query results as Arrow directly into DuckDB, sharply reducing out-of-memory failures on big accounts.\n\nProfilers\n\nEnhancements\n\n- Entra ID authentication for SQL Server (#2336)\n\nAdds Microsoft Entra ID auth across the MSSQL connector and configurators, covering service principal (SPN), Active Directory password, and interactive flows.\n\n- DuckDB native compression for profiler extracts (#2568)\n\nProfiler extracts now use DuckDB's native compression, reducing the on-disk size of extract files.\n\nSnowflake Profiler\n\n- Stream query results as Arrow into DuckDB (#2610)\n\nSnowflake query results are now streamed as Arrow directly into DuckDB instead of being buffered in memory, substantially reducing out-of-memory errors when profiling large sources.\n\nSynapse Profiler\n\n- CPU/DWU utilization for legacy_synapse via Azure Monitor (#2576)\n\nThe legacy_synapse profiler now collects CPU/DWU utilization metrics through Azure Monitor.\n\nRedshift\n\n- Removed variant selection from the Redshift profiler (#2558)\n\nThe Redshift profiler no longer prompts for a variant selection.\n\nConverters\n\nMorpheus…",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "1fddfe1df85ae21b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog ABAC GRANT policies support more securable types in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-catalog-abac-grant-policies-support-more-securable-types-in-beta",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-12",
+    "summary": "ABAC GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition. These policies were previously only available for models, but now also support model services, model provider services, Model Context Protocol (MCP) services, agent services, and skills. All supported types are in Beta.\n\nFor more information, see ABAC GRANT policies (Beta).",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "13aa163b225a9845",
@@ -109,6 +248,18 @@
     "published": "2026-08-10",
     "first_seen": "2026-08-11",
     "summary": "The system.alert schema is in Public Preview. This schema contains the alerts table, which records the configuration of every alert, and the alert_evaluation_history table, which records one row per alert evaluation. Use these tables to audit alert definitions, analyze evaluation trends, and monitor alert workloads at scale.\n\nSee Alert system tables reference.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "856a446dfd93db12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "READ METADATA privilege is GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#read-metadata-privilege-is-ga",
+    "published": "2026-08-10",
+    "first_seen": "2026-08-12",
+    "summary": "The READ METADATA privilege is now generally available in Unity Catalog.\n\nREAD METADATA provides read-only visibility into the same metadata available to the object's owner or a user with MANAGE, including security-sensitive information that BROWSE doesn't expose, such as privilege grants, row filters and column masks, and ABAC policies. It's intended for users who inspect and debug access controls, such as security auditors, data governance teams, and SREs.\n\nYou can grant READ METADATA on a range of object types. For the full list of applicable object types, see READ METADATA.\n\nSee READ METADATA.",
     "category": "Governance",
     "tags": []
   },
@@ -603,6 +754,18 @@
     "first_seen": "2026-08-07",
     "summary": "Visualization widget titles and descriptions support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or type markdown directly.\n\nSee Format widget titles and descriptions.",
     "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "1e0efebc3defe94c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "NetSuite connector (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#netsuite-connector-ga",
+    "published": "2026-08-04",
+    "first_seen": "2026-08-12",
+    "summary": "The managed NetSuite connector in Lakeflow Connect is now generally available. The connector allows you to ingest ERP and financial data from Oracle NetSuite into Databricks. See NetSuite connector.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -4644,56 +4807,6 @@
     "first_seen": "2026-07-30",
     "summary": "The SQL alert task in Lakeflow Jobs, previously in Beta, is now in Public Preview. Use the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result. See SQL alert task for jobs.",
     "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "90f641658c9e194e",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.0.2",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.0.2",
-    "published": "2026-05-13",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- Bump softprops/action-gh-release from 2 to 3 in the actions-all group by @dependabot[bot] in #1\n\n- Add CONTRIBUTING.md file and update README.md to include contribution… by @tombonfert in #3\n\n- Update README.md with new architecture diagram and usage modes; add l… by @tombonfert in #4\n\n- Add CODEOWNERS file and update README.md for improved clarity on data… by @tombonfert in #5\n\n- Consolidate framework version into single top-level VERSION file by @tombonfert in #6\n\n- Add channel aliasing, sinkless mode, sequence-of-events, column mapping by @adefabian in #7\n\n- Enhance KeyValueStoreSolver to support MetricExpression filters and u… by @tombonfert in #9\n\n- Docs Update by @MaximHammer in #8\n\n- Add core query engine data model to API docs by @MaximHammer in #11\n\n- Feature/solver consolidation by @tombonfert in #10\n\nNew Contributors\n\n- @dependabot[bot] made their first contribution in #1\n\n- @tombonfert made their first contribution in #3\n\n- @adefabian made their first contribution in #7\n\n- @MaximHammer made their first contribution in #8\n\nFull Changelog: https://github.com/databrickslabs/impulse/commits/v0.0.2",
-    "category": "Application Development",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "14b58514fc6b6c1d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "New Lakebase Autoscaling instances now scale to zero by default",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#new-lakebase-autoscaling-instances-now-scale-to-zero-by-default",
-    "published": "2026-05-13",
-    "first_seen": "2026-07-30",
-    "summary": "New Lakebase Autoscaling instances now scale to zero by default after 24 hours of inactivity, reducing compute costs for idle projects. To learn more about scale to zero, see Scale to zero. To configure scale to zero, see Configure scale to zero. To change the scale to zero default for new Lakebase Autoscaling projects, see Compute defaults. This change does not affect existing projects.",
-    "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "814958e76c141c31",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ai_parse_document is now available by default for workspaces with the compliance security profile enabled",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#ai",
-    "published": "2026-05-13",
-    "first_seen": "2026-07-30",
-    "summary": "ai_parse_document is now available by default for workspaces with the compliance security profile enabled and HIPAA, PCI-DSS, FedRAMP Moderate, CCCS Medium (Protected B), UK Cyber Essentials Plus, HITRUST, IRAP, C5, and TISAX controls selected.\n\nUse ai_parse_document to parse structured content from unstructured documents including PDFs, images, Word documents, and PowerPoint files.\n\nSee ai_parse_document function.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "7a56cb950ebc7aef",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime maintenance updates (05/13)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-runtime-maintenance-updates-0513",
-    "published": "2026-05-13",
-    "first_seen": "2026-07-30",
-    "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 18.0\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
-    "category": "Platform Overview",
     "tags": []
   }
 ]
