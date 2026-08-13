@@ -1,5 +1,45 @@
 [
   {
+    "id": "271988316ab2552e",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.128.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.128.0",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-13",
+    "summary": "## Release v0.128.0 (2026-08-13)\n\n### API Changes\n\n* Add `create_direct_group_member()`, `create_group()`, `create_service_principal()`, `create_user()`, `create_workspace_assignment()`, `delete_direct_group_member()`, `delete_group()`, `delete_service_principal()`, `delete_user()`, `delete_workspace_assignment()`, `get_direct_group_member()`, `get_group()`, `get_service_principal()`, `get_user()`, `get_workspace_assignment()`, `list_direct_group_members()`, `list_groups()`, `list_service_principals()`, `list_transitive_parent_groups()`, `list_users()`, `list_workspace_assignments()`, `update_group()`, `update_service_principal()`, `update_user()` and `update_workspace_assignment()` methods for [a.account_iam_v2](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html) account-level service.…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "7311e1516add037c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.5.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.5.0",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-13",
+    "summary": "What's Changed\n\n- Add optional calculated_channel_metrics table with configurable KPIs by @tombonfert in #73\n\n- Batch calculated-channel solve into temp tables, mirroring aggregations/events by @tombonfert in #80\n\n- Bump version to 0.5.0 in VERSION file by @tombonfert in #81\n\nFull Changelog: v0.4.0...v0.5.0\n\nWhat's Changed\n\n- Add optional calculated_channel_metrics table with configurable KPIs by @tombonfert in #73\n\n- Batch calculated-channel solve into temp tables, mirroring aggregations/events by @tombonfert in #80\n\n- Bump version to 0.5.0 in VERSION file by @tombonfert in #81\n\nFull Changelog: v0.4.0...v0.5.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
+    "id": "0038830f31908271",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Gmail connector in Lakeflow Connect (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#gmail-connector-in-lakeflow-connect-beta",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-13",
+    "summary": "You can now ingest data from a Gmail mailbox into Databricks using the managed Gmail connector in Lakeflow Connect. The connector ingests messages, labels, drafts, filters, and profile data using a Google service account, and syncs the messages and message_labels tables incrementally through the Gmail History API. This feature is in Beta.\n\nSee Gmail connector.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
     "id": "944f4d659fcdaadd",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -54,6 +94,89 @@
     "tags": [
       "databrickslabs/dqx"
     ]
+  },
+  {
+    "id": "a0f95b1672f71039",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks Network Configuration delivery to Tens of Millions of Serverless VMs",
+    "url": "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-13",
+    "summary": "Learn how Databricks re-architected serverless network config delivery with event-driven pre-computation: 98.5% lower latency, 99.99% uptime at scale.",
+    "category": "Platform Overview",
+    "tags": [
+      "Engineering",
+      "Data Engineering"
+    ]
+  },
+  {
+    "id": "6d7c7b773b2066c6",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Amtrak is building the data backbone for its largest transformation in over 50 years",
+    "url": "https://www.databricks.com/blog/how-amtrak-building-data-backbone-its-largest-transformation-over-50-years",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-13",
+    "summary": "Learn how Amtrak uses Databricks to centralize railroad data, enable predictive maintenance, and transform operations for safer, on-time train travel.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Public Sector"
+    ]
+  },
+  {
+    "id": "9e222714c5d884cc",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How a major freight railroad scaled pipeline creation with Genie Code",
+    "url": "https://www.databricks.com/blog/how-major-freight-railroad-scaled-pipeline-creation-genie-code",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-13",
+    "summary": "One",
+    "category": "AI Assistant",
+    "tags": [
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "25e178a847d4d61a",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.12.1",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.12.1",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-13",
+    "summary": "Release v1.12.1\n\nDependency Updates\n\n- Bump github.com/databricks/databricks-sdk-go from v0.166.0 to v0.170.0 (#6251).",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "ff4a681f89d8c7e8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Define business concepts with Pages (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#define-business-concepts-with-pages-beta",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-13",
+    "summary": "You can now use Pages to give business terms, acronyms, and KPIs a single governed definition. Part of Unity Catalog semantics, Pages form the human-modeled layer of the Genie Ontology that Genie One draws on to ground its answers. See Pages.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "ad3d3d5f9322f2e4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Search Console connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-search-console-connector-is-available-in-beta",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-13",
+    "summary": "The managed Google Search Console connector is now available in Beta in Databricks Lakeflow Connect. Use it to ingest search performance data, site metadata, and sitemap information from Google Search Console into Databricks.\n\nThe connector supports daily and hourly search analytics dimensions (date, country, device, page, query), as well as verified sites and submitted sitemaps. Incremental ingestion is supported for all search analytics tables.",
+    "category": "Data Engineering",
+    "tags": []
   },
   {
     "id": "186fce5f8de07501",
@@ -261,6 +384,30 @@
     "first_seen": "2026-08-12",
     "summary": "The READ METADATA privilege is now generally available in Unity Catalog.\n\nREAD METADATA provides read-only visibility into the same metadata available to the object's owner or a user with MANAGE, including security-sensitive information that BROWSE doesn't expose, such as privilege grants, row filters and column masks, and ABAC policies. It's intended for users who inspect and debug access controls, such as security auditors, data governance teams, and SREs.\n\nYou can grant READ METADATA on a range of object types. For the full list of applicable object types, see READ METADATA.\n\nSee READ METADATA.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "a229e71dd7d6f362",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notion connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#notion-connector-beta",
+    "published": "2026-08-10",
+    "first_seen": "2026-08-13",
+    "summary": "The managed Notion connector in Lakeflow Connect is now available in Beta. The connector ingests pages, data sources, databases, blocks, comments, and users from Notion into Databricks. See Notion connector.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "0b0ba643fe5f376b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4 Flash (0731) now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-flash-0731-now-available-as-a-databricks-hosted-model",
+    "published": "2026-08-10",
+    "first_seen": "2026-08-13",
+    "summary": "Model Serving now supports DeepSeek V4 Flash (0731) as a Databricks-hosted model in the us-west-2 region. This hybrid mixture of experts (MoE) model has 284 billion total parameters and 13 billion active parameters and is optimized for fast, cost-efficient reasoning, coding, and agentic tool use. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
     "tags": []
   },
   {
@@ -4733,80 +4880,6 @@
     "first_seen": "2026-07-30",
     "summary": "The Spark Declarative Pipelines on Lakeflow sink API is now generally available. Use sinks with append flows to write transformed pipeline data to external targets, including Delta tables, Apache Kafka topics, Azure Event Hubs, and custom Python data sources. See Use sinks in pipelines.",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "d3d156caeec2000f",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakebridge",
-    "title": "databrickslabs/lakebridge: Release v0.13.0",
-    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.13.0",
-    "published": "2026-05-14",
-    "first_seen": "2026-07-30",
-    "summary": "Lakebridge v0.13.0 Release Notes\n\nHighlights\n\nA few headline changes in this release worth calling out:\n\n- SQL Server profiler is now available, extending assessment coverage to Microsoft SQL Server alongside the existing Azure Synapse support.\n\n- Redshift reconciliation is now supported. Redshift can be used as a source for all reconcile report types.\n\n- Major Morpheus conversion improvements for T-SQL and Redshift, including a full Redshift dialect rollout (DDL, DML, functions, operators) and a wide expansion of T-SQL function and resilience handling.\n\nThis release also includes a major overhaul of the documentation, aimed at simplifying the structure and making the docs easier to follow.\n\nAssessment\n\nProfiler\n\n- Added a new SQL Server profiler that extends the existing assessment capabilities to Microsoft SQL Server, closely mirroring the Azure Synapse profiler design. The implementation exposes a last_execution_time parameter on all server queries, laying the groundwork for future incremental/scheduled extractions. On-prem SQL Server is not in scope. (#2151)\n\n- Updated the Azure Synapse Workspace profiler summary dashboard and introduced a new dashboard template for SQL Server. The Synapse template removes deprecated dashboard widget parameters, parameterizes table values so they can be set dynamically by Lakebridge, adds a dedicated-storage summary widget by SQL pool, renames datasets for clarity, fixes broken column references in SQL pool activity widgets, and reformats dataset queries. (#2317)…",
-    "category": "Business Intelligence",
-    "tags": [
-      "databrickslabs/lakebridge"
-    ]
-  },
-  {
-    "id": "531646924f9ffe0d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "View run history for scheduled refreshes in Google Sheets",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#view-run-history-for-scheduled-refreshes-in-google-sheets",
-    "published": "2026-05-14",
-    "first_seen": "2026-07-30",
-    "summary": "You can now view the run history of scheduled refreshes in the Databricks Connector for Google Sheets. Each run shows its Run ID, start time, and success status. See Schedule data refreshes in Google Sheets.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "3328b3e707a7353c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Spark Declarative Pipelines on Lakeflow environment versions (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#spark-declarative-pipelines-on-lakeflow-environment-versions-beta",
-    "published": "2026-05-14",
-    "first_seen": "2026-07-30",
-    "summary": "Environment versions for Spark Declarative Pipelines on Lakeflow are now in Beta. Configure an environment version on a pipeline to pin the Python language version and set of preinstalled libraries, decoupling your pipeline's Python runtime from Databricks Runtime upgrades. See Configure environment versions for pipelines.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "ef0f7bc943c095b9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Configure an additional recipient for workspace operational emails",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#configure-an-additional-recipient-for-workspace-operational-emails",
-    "published": "2026-05-14",
-    "first_seen": "2026-07-30",
-    "summary": "Workspace admins can now add an additional email recipient to receive operational emails about a workspace. Once configured, this address receives the same operational updates as workspace admins, including things like breaking changes, incident communications, and feature rollout announcements. To deliver to multiple people, use a distribution-list alias. See Manage workspace email settings.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "2f7ed97e40c097e5",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks SQL alerts are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-sql-alerts-are-now-generally-available",
-    "published": "2026-05-14",
-    "first_seen": "2026-07-30",
-    "summary": "The latest version of Databricks SQL alerts is now generally available. SQL alerts let you monitor data and KPIs by running a query on a schedule, evaluating a condition, and notifying recipients when the condition is met. Use SQL alerts to monitor KPI drifts, detect anomalies, and surface data quality issues. See Databricks SQL alerts.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "c4f2ee582e996567",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "SQL alert task in Lakeflow Jobs is now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#sql-alert-task-in-lakeflow-jobs-is-now-in-public-preview",
-    "published": "2026-05-14",
-    "first_seen": "2026-07-30",
-    "summary": "The SQL alert task in Lakeflow Jobs, previously in Beta, is now in Public Preview. Use the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result. See SQL alert task for jobs.",
-    "category": "Business Intelligence",
     "tags": []
   }
 ]
