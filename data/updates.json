@@ -40,6 +40,110 @@
     "tags": []
   },
   {
+    "id": "5a84e2d944a4de21",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Scottish Water Made Its Capital Investment Data Conversational With Databricks Genie",
+    "url": "https://www.databricks.com/blog/how-scottish-water-made-its-capital-investment-data-conversational-databricks-genie",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-14",
+    "summary": "Scottish Water used Databricks Genie to turn fragmented project reporting into a conversational experience, letting Capital Investment teams ask questions in plain English in Microsoft Teams and get answers grounded in governed data. This was made trustworthy and scalable through curated data and a governed semantic layer, tuning for accuracy, ongoing monitoring, and repeatable deployment across environments.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Public Sector"
+    ]
+  },
+  {
+    "id": "181ab4b88db4dc7c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What are AI Hallucinations?",
+    "url": "https://www.databricks.com/blog/ai-hallucinations",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-14",
+    "summary": "AI hallucinations are false or unsupported outputs presented as fact. Learn why they happen, the risks they create and how organizations can reduce them.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "c738d47a27ab3521",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Smart Routing in Unity AI Gateway: Match frontier quality with 30%+ lower cost per task",
+    "url": "https://www.databricks.com/blog/smart-routing-unity-ai-gateway-match-frontier-quality-30-lower-cost-task",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-14",
+    "summary": "The",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "d3ee0b0d1948fe6e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SQL alert task in Lakeflow Jobs is now available by default for workspaces with the compliance security profile enabled",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sql-alert-task-in-lakeflow-jobs-is-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-14",
+    "summary": "The SQL alert task in Lakeflow Jobs now supports all compliance security profile standards that Databricks supports and is available by default for workspaces with the compliance security profile enabled.\n\nUse the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result.\n\nSee SQL alert task for jobs.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "04bc55c7257cb08e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SendGrid connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sendgrid-connector-beta",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-14",
+    "summary": "The SendGrid connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests the SendGrid subuser directory and IP access-management activity for the parent account and each subuser into Databricks. Authentication uses a SendGrid parent-account API key, with support for both the global and EU data-residency endpoints.\n\nSee SendGrid connector.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "c7e4a85623bc478c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share data behind a firewall with SecureConnect is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#share-data-behind-a-firewall-with-secureconnect-is-generally-available",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-14",
+    "summary": "OpenSharing SecureConnect is now generally available. Providers can share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist, and recipients access the shares using their existing OpenSharing setup. See Share data behind a firewall with SecureConnect and OpenSharing recipient firewall configuration for SecureConnect.\n\nDatabricks is expanding SecureConnect networking billing to more charge types and access scenarios, including charges for recipients. See Expanded networking billing for OpenSharing SecureConnect.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "a700a9a16e6ac5fa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Drive Audit Logs connector is now available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-audit-logs-connector-is-now-available-in-beta",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-14",
+    "summary": "The managed Google Drive Audit Logs connector in Lakeflow Connect is now available in Beta. You can use the connector to ingest Google Drive audit activity events such as file views, edits, downloads, and sharing changes from Google Workspace into Databricks. See Google Drive Audit Logs connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "24561325011045cc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 3.7 Flash now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-gemini-37-flash-now-available-as-a-databricks-hosted-model",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-14",
+    "summary": "Model Serving now supports Google Gemini 3.7 Flash as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
     "id": "944f4d659fcdaadd",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -176,6 +280,18 @@
     "first_seen": "2026-08-13",
     "summary": "The managed Google Search Console connector is now available in Beta in Databricks Lakeflow Connect. Use it to ingest search performance data, site metadata, and sitemap information from Google Search Console into Databricks.\n\nThe connector supports daily and hourly search analytics dimensions (date, country, device, page, query), as well as verified sites and submitted sitemaps. Incremental ingestion is supported for all search analytics tables.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "6669eadd8d0b61c3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Custom trace views in the MLflow trace explorer are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#custom-trace-views-in-the-mlflow-trace-explorer-are-in-beta",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-14",
+    "summary": "You can now build custom trace views in the Databricks MLflow trace explorer. Describe the layout you want in plain language, and Genie generates a reusable view that surfaces the trace fields, metrics, and feedback controls most relevant to your review workflow. See Build a custom trace view.",
+    "category": "Artificial Intelligence",
     "tags": []
   },
   {
@@ -4806,80 +4922,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now view all of your job and pipeline runs in the updated Runs list. Track all of your pipeline runs in one place and filter by status, time, run-as user, run ID, and error codes in real time. Spot trends using the visualization and summary of the current top five error codes. See View recent runs across all jobs and pipelines.",
     "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "a307494244903022",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: TypeScript SDK 0.2.0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/ts%2Fv0.2.0",
-    "published": "2026-05-15",
-    "first_seen": "2026-07-30",
-    "summary": "Bump several RC TypeScript packages stable version.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "c1f55cdce1e2dd56",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Recover a deleted Lakebase project within 7 days",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#recover-a-deleted-lakebase-project-within-7-days",
-    "published": "2026-05-15",
-    "first_seen": "2026-07-30",
-    "summary": "When you delete a Lakebase project, it now enters a soft-deleted state for 7 days before permanent deletion. You can recover the project during that window, restoring all branches, databases, endpoints, and project settings. See Recover a deleted project.",
-    "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "1d477f6704e25bc0",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Share Genie Code chat threads",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#share-genie-code-chat-threads",
-    "published": "2026-05-15",
-    "first_seen": "2026-07-30",
-    "summary": "You can now share Genie Code chat threads with other users, groups, or service principals. Recipients receive read-only access to view the shared chat thread. See Share a chat thread.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "d358fd10083f4f4b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Agent Bricks Supervisor Agent now supports Unity Catalog tables as subagent tools",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#agent-bricks-supervisor-agent-now-supports-unity-catalog-tables-as-subagent-tools",
-    "published": "2026-05-15",
-    "first_seen": "2026-07-30",
-    "summary": "You can now add Unity Catalog tables as subagent tools in your Supervisor Agent. See Use Supervisor Agent to create a coordinated multi-agent system.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "ce5f4d7d96b00a19",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Agent Bricks Supervisor Agent now supports vector search indexes as subagent tools",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#agent-bricks-supervisor-agent-now-supports-vector-search-indexes-as-subagent-tools",
-    "published": "2026-05-15",
-    "first_seen": "2026-07-30",
-    "summary": "You can now add vector search indexes as subagent tools in your Supervisor Agent. See Use Supervisor Agent to create a coordinated multi-agent system.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "54a88fa80234e1f9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Spark Declarative Pipelines on Lakeflow sinks are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#spark-declarative-pipelines-on-lakeflow-sinks-are-now-generally-available",
-    "published": "2026-05-15",
-    "first_seen": "2026-07-30",
-    "summary": "The Spark Declarative Pipelines on Lakeflow sink API is now generally available. Use sinks with append flows to write transformed pipeline data to external targets, including Delta tables, Apache Kafka topics, Azure Event Hubs, and custom Python data sources. See Use sinks in pipelines.",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
