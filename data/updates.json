@@ -1,5 +1,57 @@
 [
   {
+    "id": "a07489245d4a376c",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.129.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.129.0",
+    "published": "2026-08-15",
+    "first_seen": "2026-08-15",
+    "summary": "## Release v0.129.0 (2026-08-15)\n\n### API Changes\n\n* Add `agent_type` field for `databricks.sdk.service.dashboards.GenieConversationSummary`.\n\n* Add `group_id` field for `databricks.sdk.service.iamv2.DirectGroupMember`.\n\n* Add `effective_serverless_compute_id` field for `databricks.sdk.service.jobs.RunTask`.\n\n* Add `pipeline_channel` field for `databricks.sdk.service.postgres.NewPipelineSpec`.\n\n* Add `text_attachment_purpose_answer` enum value for `databricks.sdk.service.dashboards.TextAttachmentPurpose`.\n\n* [Breaking] Add pagination for [AccountIamV2API.list_direct_group_members](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html#databricks.sdk.service.iamv2.AccountIamV2API.list_direct_group_members) method.\n\n* [Breaking] Add pagination for [AccountIamV2API.list_workspace_assignment_details](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html#databricks.sdk.service.iamv2.AccountIamV2API.list_workspace_assignment_details) method.\n\n* [Breaking] Add pagination for [WorkspaceIamV2API.list_direct_group_members_proxy](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/iamv2/workspace_iam_v2.html#databricks.sdk.service.iamv2.WorkspaceIamV2API.list_direct_group_members_proxy) method.\n\n* [Breaking] Add pagination for [WorkspaceIamV2API.list_workspace_assignment_details_proxy](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/iamv2/workspace_iam_v2.html#databricks.sdk.service.iamv2.WorkspaceIamV2API.list_workspace_assignment_details_proxy) method.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "6be2619171b04f9f",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Using AI_Functions in Your Data Warehouse: Top Use Cases",
+    "url": "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases",
+    "published": "2026-08-14",
+    "first_seen": "2026-08-15",
+    "summary": "In most organization",
+    "category": "Data Warehousing",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "541d54514c11a985",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workiva connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#workiva-connector-beta",
+    "published": "2026-08-14",
+    "first_seen": "2026-08-15",
+    "summary": "The Workiva connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests audit activity, users, and roles from your Workiva organization into Databricks. Authentication uses Workiva OAuth2 client credentials.\n\nSee Workiva connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "785921013066e2de",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code supports file uploads",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-supports-file-uploads",
+    "published": "2026-08-14",
+    "first_seen": "2026-08-15",
+    "summary": "You can now upload files to Genie Code to use as context for the current chat. See Attach files.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
     "id": "271988316ab2552e",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -141,6 +193,30 @@
     "first_seen": "2026-08-14",
     "summary": "Model Serving now supports Google Gemini 3.7 Flash as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "83dd77b60232d914",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Tags page in Governance Hub (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#tags-page-in-governance-hub-beta",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-15",
+    "summary": "The Tags page in Governance Hub is now in Beta. The Tags page provides a centralized view of how tags are applied across your account. It summarizes governed tag usage, shows recent tag assignments and their sources, and surfaces recommendations to fix invalid tag values and add tags to important assets that are missing them.\n\nAccount admins can enable Governance Hub from the account console Previews page. See Tags overview.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "c7a9bfe765267b2e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing tables backed by default storage is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-tables-backed-by-default-storage-is-now-generally-available",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-15",
+    "summary": "OpenSharing support for tables backed by default storage is now generally available and is being enabled by default for accounts on a rolling basis. Providers can share these tables with any recipient, whether open or Databricks, including recipients that use classic compute. If the feature is not yet on by default for your account, an account admin can enable it in the account console.\n\nFor more details about the feature, see Limitations and Create shares for OpenSharing. For more details about enablement, see Sharing tables backed by default storage will be enabled by default for all accounts.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -292,6 +368,18 @@
     "first_seen": "2026-08-14",
     "summary": "You can now build custom trace views in the Databricks MLflow trace explorer. Describe the layout you want in plain language, and Genie generates a reusable view that surfaces the trace fields, metrics, and feedback controls most relevant to your review workflow. See Build a custom trace view.",
     "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "956144f622154a4e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Amplitude connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#amplitude-connector-beta",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-15",
+    "summary": "The Amplitude connector in Lakeflow Connect is now in Beta. Ingest product analytics event data along with event, cohort, and annotation metadata from Amplitude. See Amplitude connector.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
