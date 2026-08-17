@@ -1,5 +1,19 @@
 [
   {
+    "id": "b62ca403ca877dfb",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.131.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.131.0",
+    "published": "2026-08-17",
+    "first_seen": "2026-08-17",
+    "summary": "## Release v0.131.0 (2026-08-17)\n\n### API Changes\n\n* [Breaking] Change `action_type` and `status` fields for `databricks.sdk.service.bundledeployments.Operation` to no longer be required.\n\n* Change `action_type` and `status` fields for `databricks.sdk.service.bundledeployments.Operation` to no longer be required.\n\n* [Breaking] Remove `create_operation()` method for [w.bundle_deployments](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/bundledeployments/bundle_deployments.html) workspace-level service.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "24f0c107eb57f05e",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -5012,18 +5026,6 @@
     "first_seen": "2026-07-30",
     "summary": "The Databricks Add-in for Excel (Public Preview) now supports all compliance security profile standards supported by Databricks. For more, see Compliance security profile and Connect to Databricks from Microsoft Excel.",
     "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "81a183f6855aca2d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unified runs list is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#unified-runs-list-is-generally-available",
-    "published": "2026-05-18",
-    "first_seen": "2026-07-30",
-    "summary": "You can now view all of your job and pipeline runs in the updated Runs list. Track all of your pipeline runs in one place and filter by status, time, run-as user, run ID, and error codes in real time. Spot trends using the visualization and summary of the current top five error codes. See View recent runs across all jobs and pipelines.",
-    "category": "Business Intelligence",
     "tags": []
   }
 ]
