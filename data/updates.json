@@ -1,5 +1,43 @@
 [
   {
+    "id": "c6a5bcc79540ffba",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Evaluating AI Agents Live at the Grounded Reasoning Cup",
+    "url": "https://www.databricks.com/blog/evaluating-ai-agents-live-grounded-reasoning-cup",
+    "published": "2026-08-18",
+    "first_seen": "2026-08-18",
+    "summary": "Lessons from the Grounded Reasoning Cup, where leading academic teams evaluated AI agents live on a newly released enterprise grounded-reasoning benchmark.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Product",
+      "Engineering",
+      "Data Science and ML",
+      "Databricks AI",
+      "Industries",
+      "Technology",
+      "Data Strategy",
+      "Insights",
+      "Company",
+      "Events"
+    ]
+  },
+  {
+    "id": "a02b8844042dc89e",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.132.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.132.0",
+    "published": "2026-08-18",
+    "first_seen": "2026-08-18",
+    "summary": "## Release v0.132.0 (2026-08-18)\n\n### API Changes\n\n* Add `default_git_source`, `git_source` and `source_code_path` fields for `databricks.sdk.service.apps.App`.\n\n* Add `auto_deploy` and `caller_credential_id` fields for `databricks.sdk.service.apps.GitRepository`.\n\n* Add `custom_udf` field for `databricks.sdk.service.ml.Function`.\n\n* Add `effective_serverless_compute_id` field for `databricks.sdk.service.pipelines.GetPipelineResponse`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "b62ca403ca877dfb",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -12,6 +50,70 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "ccf1ae1d5f9e7166",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Databricks Feature Store serves features with sub-second freshness",
+    "url": "https://www.databricks.com/blog/how-databricks-feature-store-serves-features-sub-second-freshness",
+    "published": "2026-08-17",
+    "first_seen": "2026-08-18",
+    "summary": "Machine learning mod",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Product",
+      "Engineering",
+      "Data Science and ML",
+      "Databricks AI",
+      "AI Engineering",
+      "Industries",
+      "Financial Services",
+      "Data Strategy",
+      "Data Leader",
+      "Company",
+      "News"
+    ]
+  },
+  {
+    "id": "ef06b870e476280f",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The prototyping tax is killing your AI roadmap",
+    "url": "https://www.databricks.com/blog/prototyping-tax-killing-your-ai-roadmap",
+    "published": "2026-08-17",
+    "first_seen": "2026-08-18",
+    "summary": "You",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Healthcare & Life Sciences"
+    ]
+  },
+  {
+    "id": "44216d2ab9ec7e47",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Session restore for serverless jobs is now in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#session-restore-for-serverless-jobs-is-now-in-beta",
+    "published": "2026-08-17",
+    "first_seen": "2026-08-18",
+    "summary": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the job. Databricks automatically captures a state snapshot when an eligible run fails, runs 30 minutes or longer, or is cancelled, and keeps it for 7 days after the run completes. This feature is in Beta. See Session restore for serverless jobs.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "73f3d57810b0f88a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Base environments are now supported on classic compute (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#base-environments-are-now-supported-on-classic-compute-beta",
+    "published": "2026-08-17",
+    "first_seen": "2026-08-18",
+    "summary": "You can now use base environments to manage Python dependencies on classic compute. You can use Databricks-provided environments or custom workspace-level environments. See Manage dependencies using environments.",
+    "category": "Platform Overview",
+    "tags": []
   },
   {
     "id": "24f0c107eb57f05e",
@@ -77,6 +179,18 @@
     "first_seen": "2026-08-15",
     "summary": "You can now upload files to Genie Code to use as context for the current chat. See Attach files.",
     "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "6aa898d798119cd6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing managed Iceberg tables is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-managed-iceberg-tables-is-now-generally-available",
+    "published": "2026-08-14",
+    "first_seen": "2026-08-18",
+    "summary": "Sharing managed Iceberg tables in Databricks-to-Databricks sharing and open sharing is now generally available. Providers can now also share managed Iceberg tables to external Iceberg clients. See Add managed Iceberg tables to a share and Read shared managed Iceberg tables.",
+    "category": "Application Development",
     "tags": []
   },
   {
@@ -245,6 +359,18 @@
     "first_seen": "2026-08-15",
     "summary": "OpenSharing support for tables backed by default storage is now generally available and is being enabled by default for accounts on a rolling basis. Providers can share these tables with any recipient, whether open or Databricks, including recipients that use classic compute. If the feature is not yet on by default for your account, an account admin can enable it in the account console.\n\nFor more details about the feature, see Limitations and Create shares for OpenSharing. For more details about enablement, see Sharing tables backed by default storage will be enabled by default for all accounts.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "2e35d91b0ebe3b78",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Identity attributes (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#identity-attributes-beta",
+    "published": "2026-08-13",
+    "first_seen": "2026-08-18",
+    "summary": "Identity attributes are in Beta. Databricks can store nine IdP-sourced attributes, such as title, department, and cost center, on account users, so they can be referenced in Unity Catalog ABAC column-masking policies. Account admins provision these attributes from their identity provider using automatic identity management or account SCIM 2.1, and use the Identity Attribute Control List to govern which attributes can be written.\n\nSee Identity attributes.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -537,6 +663,18 @@
     "first_seen": "2026-08-12",
     "summary": "ABAC GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition. These policies were previously only available for models, but now also support model services, model provider services, Model Context Protocol (MCP) services, agent services, and skills. All supported types are in Beta.\n\nFor more information, see ABAC GRANT policies (Beta).",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "1baf10fb13b581f3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "REPLACE USING flows for standalone streaming tables (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#replace-using-flows-for-standalone-streaming-tables-beta",
+    "published": "2026-08-11",
+    "first_seen": "2026-08-18",
+    "summary": "REPLACE USING flows are now available for standalone streaming tables in Beta.\n\nUse a REPLACE USING flow when your source is a series of partial snapshots keyed by column. On each update, the flow replaces all rows that match the specified key columns and leaves all other rows unchanged. A SEQUENCE BY column orders the updates, so the highest sequence for a key always wins, even when updates arrive out of order. REPLACE USING doesn't require a change data capture feed with explicit insert, update, and delete operations, and it doesn't require a primary key.\n\nSee Apply partial snapshot replacement with REPLACE USING flows.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -1298,6 +1436,18 @@
     "first_seen": "2026-08-08",
     "summary": "Serverless compute access control is now generally available. Workspace admins can govern who runs serverless workloads through two built-in serverless compute objects: Default Interactive Compute (governs access to notebooks and Databricks Connect) and Default Automated Compute (governs access to jobs and Spark Declarative Pipelines on Lakeflow). All workspace users have Can Use on both objects by default, so existing workloads continue to run without changes.\n\nSee Serverless compute access control.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "041a567e6ab41a77",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Environment variables for serverless jobs are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#environment-variables-for-serverless-jobs-are-in-beta",
+    "published": "2026-08-03",
+    "first_seen": "2026-08-18",
+    "summary": "Environment variables for serverless Lakeflow Jobs tasks are in Beta. You can define named environment variable entries at the job level and select one for each task to pass deployment-specific configuration to your application code. A workspace admin must enable the preview from the workspace Previews page. See Configure environment variables for serverless jobs.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -4942,90 +5092,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now use the OAuth U2M flow to obtain tokens as a service principal's identity instead of your own user account. You must have the Service Principal Manager role on the service principal.\n\nSee Authenticate as a service principal using OAuth U2M.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "92344647ab863f9d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Customer-managed keys now support MLflow managed evaluation features",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#customer-managed-keys-now-support-mlflow-managed-evaluation-features",
-    "published": "2026-05-19",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use the following MLflow managed evaluation features in workspaces encrypted with customer-managed keys (CMK):\n\n- Production monitoring of AI apps with MLflow 3 scorers.\n\n- The Review App for collecting expert feedback on traces.\n\n- Evaluation datasets. The catalog that stores the dataset must not itself be CMK-encrypted.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "5cbcda0151a4c2d0",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Agent Bricks Supervisor Agent now supports nesting supervisor agents as subagent tools",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#agent-bricks-supervisor-agent-now-supports-nesting-supervisor-agents-as-subagent-tools",
-    "published": "2026-05-19",
-    "first_seen": "2026-07-30",
-    "summary": "You can now add another Supervisor Agent as a subagent tool, enabling nested multi-agent orchestration. See Use Supervisor Agent to create a coordinated multi-agent system.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "3f7dfe4bceb957b8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Container Services for standard compute is now available (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-container-services-for-standard-compute-is-now-available-beta",
-    "published": "2026-05-19",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks Container Services for standard compute is now in Beta. You can now specify a Docker image when creating standard compute on Databricks Runtime 18.3 or later, allowing you to use custom containers in shared compute environments. See Databricks Container Services for standard compute.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "e2a8e5b3714a811a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 3.5 Flash now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#google-gemini-35-flash-now-available-as-a-databricks-hosted-model",
-    "published": "2026-05-19",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports Google Gemini 3.5 Flash as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "74e2def85e5207a1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakeflow Designer updates",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-designer-updates",
-    "published": "2026-05-19",
-    "first_seen": "2026-07-30",
-    "summary": "The following updates were made to Lakeflow Designer:\n\n- Enabled by default: Lakeflow Designer is now enabled by default for all free edition, premium, and enterprise tier workspaces. To get started, click +New in the sidebar and select Visual data prep. If you don't see this option, contact your workspace admin.\n\n- AI operator search: The operator panel now suggests operators based on intent. For example, typing \"average by month\" surfaces the Aggregate operator.\n\n- Configurable sample size: You can now set the number of sample rows to run with each operator. Each operator remembers its own custom limit.\n\n- Git, import, clone, and export: You can now export, clone, and import visual data prep files using File > Export or File > Clone. Files can also be stored and managed in Git folders.\n\n- User-defined operators (Public Preview): You can now create user-defined operators that appear alongside built-in operators. Use them to extend Lakeflow Designer with your own business logic, calculations, or integrations. Three operator types are supported: uc-udf, uc-udtf, and python-run-function. See User-defined operators in Lakeflow Designer.\n\n- Bug fixes and improvements: Fixed multiple issues including right-click canvas behavior, undo/redo button state, Markdown node underline formatting, and unconfigured filter condition handling.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "895e0700e190c194",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Edits to resources in the UI now automatically update YAML",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#edits-to-resources-in-the-ui-now-automatically-update-yaml",
-    "published": "2026-05-19",
-    "first_seen": "2026-07-30",
-    "summary": "Edits to jobs and pipeline settings in the UI now automatically update YAML. See Edit bundle resources.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "523fd2109c77c20c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Add-in for Excel support for all compliance security profile standards",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-add-in-for-excel-support-for-all-compliance-security-profile-standards",
-    "published": "2026-05-19",
-    "first_seen": "2026-07-30",
-    "summary": "The Databricks Add-in for Excel (Public Preview) now supports all compliance security profile standards supported by Databricks. For more, see Compliance security profile and Connect to Databricks from Microsoft Excel.",
-    "category": "Security",
     "tags": []
   }
 ]
