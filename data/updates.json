@@ -1,5 +1,33 @@
 [
   {
+    "id": "a46c8e498c10dc2b",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.133.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.133.0",
+    "published": "2026-08-19",
+    "first_seen": "2026-08-19",
+    "summary": "## Release v0.133.0 (2026-08-19)\n\n### API Changes\n\n* Add `enabled_telemetry_features` field for `databricks.sdk.service.serving.TelemetryConfig`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "7faa1d59cc9f84dd",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: V0.7.1",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.7.1",
+    "published": "2026-08-19",
+    "first_seen": "2026-08-19",
+    "summary": "OntoBricks — Release Notes V0.7.1\n\nRelease window: August, 2026\n\nType: Patch release (v0.7.0 → v0.7.1)\n\nTest status: all changes shipped with the suite green (4798 passed, 276 skipped, 5 deselected, 1 xfailed).\n\nSummary\n\nv0.7.1 is a focused deploy / first-time onboarding patch on top of v0.7.0.\n\nIt clears five GitHub issues that blocked or confused new Databricks Apps\n\ninstalls: broken bootstrap script paths after the scripts/bootstrap/ reorg,\n\nincorrect DAB app-permission nesting, stale Lakebase segment docs, a forced\n\nNeo4j secret binding that most workspaces do not have, and Registry → Initialize\n\nlooking up the wrong MCP app name on instance-suffixed deploys.\n\nNo product-feature changes. No schema migrations. No breaking API changes.\n\nHighlights\n\n- Bootstrap scripts find the repo root again (#133) —\n\nsetup-lakebase.sh, app-permissions.sh, and lakebase-perms.sh cd to the\n\nrepository root after the scripts/bootstrap/ move so deploy.config.sh and\n\nsibling helpers resolve correctly.\n\n- DAB app permissions nesting (#134) —\n\nCAN_MANAGE / CAN_USE for both apps live under resources.apps.* in\n\ndatabricks.yml (bundle top-level permissions are invalid / ignored).\n\n- Lakebase deploy-config docs (#135) —\n\ndocumentation matches auto-resolved LAKEBASE_DATABASE_RESOURCE_SEGMENT and\n\nthe current DEFAULT_LAKEBASE_DATABASE / _SCHEMA knobs.\n\n- Neo4j secret no longer required at deploy (#136) —\n\nDAB no longer binds neo4j-password / ontobricks-secrets; Neo4j stays\n\noptional via Settings → Neo4j (Secrets API).\n\n- MCP SP + UC grants on first Initialize (#137) —\n\nregistry/graph grants derive mcp-{APP_NAME} (e.g. mcp-ontobricks-07x);\n\nMCP_APP_NAME is injected into app.yaml; UC catalog ALL_PRIVILEGES runs\n\nin lakebase-perms.sh before the schema-existence guard so first deploy…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
     "id": "c6a5bcc79540ffba",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -35,6 +63,36 @@
     "category": "Application Development",
     "tags": [
       "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "75b521df8a21aaaa",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks Document Intelligence: pushing the frontier for complex document extraction",
+    "url": "https://www.databricks.com/blog/databricks-document-intelligence-pushing-frontier-complex-document-extraction",
+    "published": "2026-08-18",
+    "first_seen": "2026-08-19",
+    "summary": "Enterprise document extraction breaks down on 100+ page documents, large outputs, and schemas requiring complex reasoning. We introduce Precision Mode in our document extraction API, ai_extract, which pairs custom fine-tuned extraction models with an agentic harness to beat frontier models on accuracy and cost.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering",
+      "Data Science and ML",
+      "Databricks AI"
+    ]
+  },
+  {
+    "id": "b451e9e9a1ff3eea",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "When it comes to Governance, Retailers need a control plane for context",
+    "url": "https://www.databricks.com/blog/when-it-comes-governance-retailers-need-control-plane-context",
+    "published": "2026-08-18",
+    "first_seen": "2026-08-19",
+    "summary": "Reta",
+    "category": "Platform Overview",
+    "tags": [
+      "Retail & Consumer Goods"
     ]
   },
   {
@@ -113,6 +171,18 @@
     "first_seen": "2026-08-18",
     "summary": "You can now use base environments to manage Python dependencies on classic compute. You can use Databricks-provided environments or custom workspace-level environments. See Manage dependencies using environments.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "c5d472be9ab7f14a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Identity attributes in ABAC column mask policies (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#identity-attributes-in-abac-column-mask-policies-beta",
+    "published": "2026-08-17",
+    "first_seen": "2026-08-19",
+    "summary": "Identity attributes are in Beta. You can now write Unity Catalog ABAC column mask policy conditions that target users by attributes synced from your identity provider, such as department or country, in addition to group membership. The has_identity_attribute_value and has_identity_attribute_tag_match functions are supported in the WHEN clause of column mask policies.\n\nSee identity attributes.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -5008,90 +5078,6 @@
     "first_seen": "2026-07-30",
     "summary": "The system.compute.instance_events and system.compute.instance_pools system tables are now in Public Preview. Use these tables to track state transitions of classic compute instances and the full history of instance pool configurations across your account. See Instance events table schema and Instance pools table schema.",
     "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "34c7e13e7f3d397a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Customer-managed keys for Lakebase available in all AWS and Azure regions",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#customer-managed-keys-for-lakebase-available-in-all-aws-and-azure-regions",
-    "published": "2026-05-20",
-    "first_seen": "2026-07-30",
-    "summary": "Customer-managed keys (CMK) for Lakebase Autoscaling are now available in all Lakebase regions on AWS and Azure. CMK encrypts Lakebase Autoscaling project data at rest using a key your organization owns in its cloud KMS. CMK is available for new Lakebase Autoscaling projects. Lakebase Provisioned instances do not support CMK. See Customer-managed keys for Lakebase.",
-    "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "51d29f4133be8e6d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Vector Search storage-optimized endpoints are GA",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#vector-search-storage-optimized-endpoints-are-ga",
-    "published": "2026-05-20",
-    "first_seen": "2026-07-30",
-    "summary": "Vector Search storage-optimized endpoints are now generally available. Storage-optimized endpoints have a larger capacity (over one billion vectors at dimension 768) and provide 10-20x faster indexing than standard endpoints. Pricing is optimized for the larger number of vectors. For details, see Vector Search endpoint options.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "61ef5293176c6ae2",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Fixed LOD expression syntax update for metric views",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#fixed-lod-expression-syntax-update-for-metric-views",
-    "published": "2026-05-20",
-    "first_seen": "2026-07-30",
-    "summary": "Fixed level of detail (LOD) expressions in metric views are now defined directly in the expr field of a dimension using SQL window functions, replacing the previous two-step approach of pre-computing values in the source query. See Use level of detail (LOD) expressions in metric views.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "230006585aaa5f45",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Serve custom LLMs with Custom Model Serving (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#serve-custom-llms-with-custom-model-serving-beta",
-    "published": "2026-05-20",
-    "first_seen": "2026-07-30",
-    "summary": "You can now serve custom and fine-tuned LLMs on Databricks with a vLLM engine, including multimodal models and PEFT recipes that Foundation Model APIs does not support. Custom LLM Serving is in Beta. See Serve custom LLMs with Custom Model Serving.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "6f68969a7471c455",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase Autoscaling now supports compute sizes up to 64 CU (128 GB)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakebase-autoscaling-now-supports-compute-sizes-up-to-64-cu-128-gb",
-    "published": "2026-05-20",
-    "first_seen": "2026-07-30",
-    "summary": "Lakebase Autoscaling now supports compute sizes up to 64 CU (128 GB RAM), up from the previous maximum of 32 CU (64 GB RAM). Larger workloads can now use dynamic scaling. See Autoscaling.",
-    "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "edbb9ae471f9b1c7",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Configure Microsoft Entra ID SSO for Power BI (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#configure-microsoft-entra-id-sso-for-power-bi-public-preview",
-    "published": "2026-05-20",
-    "first_seen": "2026-07-30",
-    "summary": "You can now configure Microsoft Entra ID as the identity provider for single sign-on (SSO) to Databricks from Power BI using an account-level federation policy. See Configure Microsoft Entra ID SSO for Power BI.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "bbfa8eb25778d01d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Authenticate as a service principal using OAuth U2M (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#authenticate-as-a-service-principal-using-oauth-u2m-beta",
-    "published": "2026-05-20",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use the OAuth U2M flow to obtain tokens as a service principal's identity instead of your own user account. You must have the Service Principal Manager role on the service principal.\n\nSee Authenticate as a service principal using OAuth U2M.",
-    "category": "Governance",
     "tags": []
   }
 ]
