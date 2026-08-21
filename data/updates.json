@@ -1,5 +1,19 @@
 [
   {
+    "id": "83ef82d736588746",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.5.2",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.5.2",
+    "published": "2026-08-21",
+    "first_seen": "2026-08-21",
+    "summary": "What's Changed\n\n- Use xxHash64 for event_instance_id to prevent hash collisions by @tombonfert in #85\n\n- Bump version to 0.5.2 in VERSION file by @tombonfert in #86\n\nFull Changelog: v0.5.1...v0.5.2\n\nWhat's Changed\n\n- Use xxHash64 for event_instance_id to prevent hash collisions by @tombonfert in #85\n\n- Bump version to 0.5.2 in VERSION file by @tombonfert in #86\n\nFull Changelog: v0.5.1...v0.5.2",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
     "id": "5480dbb2e2b7d137",
     "source": "github_release",
     "source_label": "GitHub · delta-io/delta",
@@ -40,6 +54,46 @@
     "tags": [
       "databrickslabs/impulse"
     ]
+  },
+  {
+    "id": "0dc9608761430461",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Inbound Private Link now supports account-level Genie One, the account console, and custom URLs",
+    "url": "https://www.databricks.com/blog/inbound-private-link-now-supports-account-level-genie-one-account-console-and-custom-urls",
+    "published": "2026-08-20",
+    "first_seen": "2026-08-21",
+    "summary": "Enterprises adopting",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "848a21ea8bf109db",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Busting SQL Migration Myths: How New SQL Features Make Lift-and-Shift to Lakehouse Easier",
+    "url": "https://www.databricks.com/blog/busting-sql-migration-myths-how-new-sql-features-make-lift-and-shift-lakehouse-easier",
+    "published": "2026-08-20",
+    "first_seen": "2026-08-21",
+    "summary": "Cursors. Temp tables. Multi-statement transactions. The procedural code your data warehouse runs on now lives on the lakehouse – translated, not rewritten.",
+    "category": "Data Warehousing",
+    "tags": [
+      "Product"
+    ]
+  },
+  {
+    "id": "0944769f76c766c2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Write data back to Databricks from Google Sheets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#write-data-back-to-databricks-from-google-sheets",
+    "published": "2026-08-20",
+    "first_seen": "2026-08-21",
+    "summary": "The Databricks Connector for Google Sheets now lets you write data from Google Sheets back to a Unity Catalog table. You can create a new table or overwrite an existing table without leaving Google Sheets. See Write data back to Databricks from Google Sheets.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "a46c8e498c10dc2b",
@@ -1196,6 +1250,18 @@
     "first_seen": "2026-08-08",
     "summary": "Model Serving now supports Kimi K3 as a Databricks-hosted model. This 2.8-trillion-parameter mixture of experts (MoE) model has native vision capabilities, supports a 1 million token context window, and is designed for long-horizon coding, knowledge work, and reasoning. You can access this model using Foundation Model APIs.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "1bbbe363bf4c14f0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zerobus Ingest is now enabled by default for workspaces with the compliance security profile",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zerobus-ingest-is-now-enabled-by-default-for-workspaces-with-the-compliance-security-profile",
+    "published": "2026-08-06",
+    "first_seen": "2026-08-21",
+    "summary": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled. See Zerobus Ingest overview.",
+    "category": "Security",
     "tags": []
   },
   {
@@ -5086,30 +5152,6 @@
     "first_seen": "2026-07-30",
     "summary": "Genie Code Agent mode is now available by default for workspaces with the compliance security profile enabled and HIPAA, PCI-DSS, and FedRAMP Moderate controls selected.\n\nWith Agent mode, Genie Code can automate multiple steps from a single prompt, including retrieving relevant assets, generating and running code, fixing errors automatically, and visualizing results.\n\nSee Genie Code.",
     "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "b99d1834f5fc9134",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Account access denylist for automatic identity management (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#account-access-denylist-for-automatic-identity-management-public-preview",
-    "published": "2026-05-22",
-    "first_seen": "2026-07-30",
-    "summary": "The account access denylist is now available in Public Preview for Databricks accounts on AWS and GCP that use automatic identity management. Account admins can add users, groups, or service principals to the denylist to block their access to the Databricks account. Denylist membership is transitive â denying a group also denies all of its members.\n\nSee Deny identities access to your account.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "a46a1e710a4a7a55",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning are in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-runtime-18-and-databricks-runtime-18-for-machine-learning-are-in-beta",
-    "published": "2026-05-22",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning are now in Beta, powered by Apache Spark 4.1.0.\n\nDatabricks Runtime 18 is the first release to use a unified release notes format. Previously, each feature version (18.0, 18.1, 18.2) had its own release notes page. Features that would previously have shipped as 18.3 or later now ship as dated updates to Databricks Runtime 18. For more information, see About unified release notes.",
-    "category": "Platform Overview",
     "tags": []
   }
 ]
