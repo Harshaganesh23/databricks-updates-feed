@@ -14,6 +14,45 @@
     ]
   },
   {
+    "id": "b01ab86ac52d1880",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Connecting retail demand planning to campaign and store execution",
+    "url": "https://www.databricks.com/blog/connecting-retail-demand-planning-campaign-and-store-execution",
+    "published": "2026-08-21",
+    "first_seen": "2026-08-22",
+    "summary": "See how unified retail data, AI, and governance connect demand planning, campaigns, store execution, and measurement in one end-to-end workflow.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Retail & Consumer Goods"
+    ]
+  },
+  {
+    "id": "ba0c112665ccc1f5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Default Python package repositories are GA for Lakeflow pipelines and classic compute",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#default-python-package-repositories-are-ga-for-lakeflow-pipelines-and-classic-compute",
+    "published": "2026-08-21",
+    "first_seen": "2026-08-22",
+    "summary": "Configuring default Python package repositories is now generally available for Lakeflow pipelines and for classic compute created via the UI and API. Workspace admins can set private or authenticated registries as the workspace default for these workloads. See Configure default package repositories.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "b677cb419508b873",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Context attributes in ABAC column mask and row filter policies (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#context-attributes-in-abac-column-mask-and-row-filter-policies-beta",
+    "published": "2026-08-21",
+    "first_seen": "2026-08-22",
+    "summary": "Context attributes for attribute-based access control (ABAC) policies are in Beta. You can now write Unity Catalog ABAC policy conditions that target the context of a request, such as which OAuth application is calling (request.client_id) and whether the request runs on behalf of a user (request.is_on_behalf_of). The has_context_attribute and has_context_attribute_value functions are supported in the WHEN clause of row filter and column mask policies.\n\nA common use is to restrict the data an agent reads on a user's behalf when it connects through a registered OAuth application, while the user can still read the full data when they query it directly in the workspace.\n\nSee Context attribute functions (Beta).",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "5480dbb2e2b7d137",
     "source": "github_release",
     "source_label": "GitHub · delta-io/delta",
@@ -93,6 +132,18 @@
     "first_seen": "2026-08-21",
     "summary": "The Databricks Connector for Google Sheets now lets you write data from Google Sheets back to a Unity Catalog table. You can create a new table or overwrite an existing table without leaving Google Sheets. See Write data back to Databricks from Google Sheets.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "776d11fb4b6f1d23",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Performance mode now applies to materialized view and streaming table refreshes from dbt tasks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#performance-mode-now-applies-to-materialized-view-and-streaming-table-refreshes-from-dbt-tasks",
+    "published": "2026-08-20",
+    "first_seen": "2026-08-22",
+    "summary": "The job-level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks. You can set these jobs to Standard mode to optimize for cost, or keep the default Performance-optimized mode for faster startup. Previously, dbt tasks always ran refreshes in Performance-optimized mode.\n\nStandard mode can increase refresh startup latency from under a minute to four to six minutes in exchange for lower compute costs. This change affects only refreshes that materialize as an materialized view or streaming table, so most dbt projects, which create regular tables, are unaffected.\n\nSee Select a performance mode for scheduled refreshes.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
