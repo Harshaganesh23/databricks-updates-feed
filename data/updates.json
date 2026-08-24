@@ -5192,17 +5192,5 @@
     "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 18.0\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
     "category": "Platform Overview",
     "tags": []
-  },
-  {
-    "id": "24fabece7a736243",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code Agent mode is now available by default for workspaces with the compliance security profile enabled",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#genie-code-agent-mode-is-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
-    "published": "2026-05-25",
-    "first_seen": "2026-07-30",
-    "summary": "Genie Code Agent mode is now available by default for workspaces with the compliance security profile enabled and HIPAA, PCI-DSS, and FedRAMP Moderate controls selected.\n\nWith Agent mode, Genie Code can automate multiple steps from a single prompt, including retrieving relevant assets, generating and running code, fixing errors automatically, and visualizing results.\n\nSee Genie Code.",
-    "category": "AI Assistant",
-    "tags": []
   }
 ]
