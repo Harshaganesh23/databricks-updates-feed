@@ -1,5 +1,57 @@
 [
   {
+    "id": "9e0202f24c769d53",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Run, debug, and scale Databricks workloads from your local IDE",
+    "url": "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide",
+    "published": "2026-08-24",
+    "first_seen": "2026-08-25",
+    "summary": "Customers can now connect local IDEs to Databricks to interactively run workloads and edit workspace files. We’re also sharing the latest updates to the Databricks IDE Extension.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "0744436aa0d3b008",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Databricks Uses AI to Accelerate Incident Investigation",
+    "url": "https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation",
+    "published": "2026-08-24",
+    "first_seen": "2026-08-25",
+    "summary": "Discover how Databricks uses AI SRE to accelerate incident investigation. Our AI-powered agent automates context assembly and runbook execution, helping on-call engineers identify root causes faster across complex microservice environments.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering"
+    ]
+  },
+  {
+    "id": "0f84bb593d10ce16",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect to the Databricks Genie app in Microsoft Teams with your workspace URL (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#connect-to-the-databricks-genie-app-in-microsoft-teams-with-your-workspace-url-public-preview",
+    "published": "2026-08-24",
+    "first_seen": "2026-08-25",
+    "summary": "When you sign in to the Databricks Genie app in Microsoft Teams, you can now enter your workspace URL instead of a server hostname to connect to your Databricks account. See Databricks Genie app in Microsoft Teams.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "3cfe914ca3efd734",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The INSERT, UPDATE, and DELETE privileges are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#the-insert-update-and-delete-privileges-are-in-beta",
+    "published": "2026-08-24",
+    "first_seen": "2026-08-25",
+    "summary": "The INSERT, UPDATE, and DELETE privileges are in Beta in Unity Catalog. These privileges are least-privilege alternatives to MODIFY that let you grant write access to a table's data without also granting the ability to change its schema or other metadata.\n\nThe privileges require Databricks Runtime 18.1 or above.\n\nFor details, see Fine-grained DML privileges.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "83ef82d736588746",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/impulse",
@@ -5115,82 +5167,6 @@
     "first_seen": "2026-07-30",
     "summary": "Refresh policies and the EXPLAIN CREATE MATERIALIZED VIEW statement are now generally available for materialized views. Use refresh policies to control when Databricks performs incremental or full refresh, optimizing cost and predictability. Use EXPLAIN CREATE MATERIALIZED VIEW to check whether a query can be incrementalized before defining the materialized view. Available in Databricks SQL and Databricks Runtime 17.3 and above. See Incremental refresh for materialized views.",
     "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "50ca748fad329a78",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: v3.13.0rc0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.13.0rc0",
-    "published": "2026-05-26",
-    "first_seen": "2026-07-30",
-    "summary": "We're excited to announce MLflow 3.13.0rc0, which deepens agent observability, tightens permissions, and broadens deployment options:\n\nMajor New Features:\n\n-\nRBAC + Admin UI: Major overhaul of MLflow's Role-Based Access Control — legacy per-resource permission tables collapsed into role_permissions, unified per-user permission APIs under /mlflow/users/permissions/*, workspace USE permission lets users create experiments and registered models, default roles are seeded on workspace creation, prompt is promoted to a first-class RBAC resource_type, and a new 4-page Admin UI (account widget, /account page, Platform Admin pages, backend auth endpoints) opens to workspace managers scoped per their workspace. (#22855, #22857, #22859, #22928, #22929, #22941, #22973, #23086, #23247, #23248, #23337, #23379, @PattaraS)\n\n-\nCoding-Agent Tracing as Plugins: Claude Code, OpenClaw, Ollama, and OpenAI Codex are now wired into the AI Gateway as first-class assistant providers, plus a Claude Code TypeScript plugin with a setup wizard and settings.local.json support. The legacy Python autolog hook for mlflow autolog claude is replaced by the new official plugin, and a coding-agent endpoint creation flow is now available directly in the AI Gateway UI. (#20414, #22098, #22566, #22717, #23218, #23285, #23339, #23430, #23517, @B-Step62, @joelrobin18, @Gkrumbach07, @SuperSonnix71, @TomeHirata)\n\n-\nTrace Archival: End-to-end trace archival across the tracking stack. Includes archival configuration models, OTLP and artifact helpers, SQLAlchemy archival passes, archive-aware retrieval fallback, plus workspace/experiment/server-level archival settings in the UI. Read archived traces back seamlessly. (#23359, @mprahl)\n\n-…",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "42108a24952b6f04",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/geobrix",
-    "title": "databrickslabs/geobrix: v0.3.0",
-    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.3.0",
-    "published": "2026-05-26",
-    "first_seen": "2026-07-30",
-    "summary": "GeoBrix v0.3.0 (Beta)\n\nThis beta release ships major raster CRS-handling fixes (rst_clip all-black-clip fix, EWKT/EWKB cutlines), correctness fixes for combineavg / derivedband (the Python pixel function now actually fires; NoData / valid-zero / integer-rounding math repaired), self-contained tile.raster bytes (no more VRT payloads across executors), ergonomic scalar-argument handling, expanded examples (EO Series + xView), and the GeoBrix repository's adoption of the Databricks Labs supply-chain lockdown policy. The GDAL native install path is now a pre-built, hash-verified tarball — cluster start drops from ~15 min to ~30–90 sec. See the Beta Release Notes page in the docs for the full migration table.\n\n⚠️ Re-cut of v0.3.0 (2026-05-26). The earlier v0.3.0 tag/release published on 2026-05-20 silently returned one of the input tiles instead of computing a per-pixel mean from gbx_rst_combineavg(_agg) and gbx_rst_derivedband(_agg) on co-extensive inputs (visible as a patchwork of different years in temporal-mean composites on multi-executor clusters). The tag has been re-cut from the new branch tip and all six release assets re-built — a follow-on refresh on the same day added a friendly-error message for ARRAY<tile>-function misuse (see below). If you pulled v0.3.0 before 2026-05-26, upgrade — the same tag now points to corrected artifacts.\n\nHighlights\n\n- rst_clip CRS axis-order fix (all-black clips). GDAL 3+ EPSG-imported SpatialReferences default to authority-compliant lat/lon axis order, which silently swapped axes against JTS/Databricks WKT/WKB cutlines so the clip missed the raster entirely. The reprojection now forces OAMS_TRADITIONAL_GIS_ORDER.…",
-    "category": "Application Development",
-    "tags": [
-      "databrickslabs/geobrix"
-    ]
-  },
-  {
-    "id": "368f61c7324bdd9c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Removed legacy Assistant slash commands",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#removed-legacy-assistant-slash-commands",
-    "published": "2026-05-26",
-    "first_seen": "2026-07-30",
-    "summary": "The /settings and /rename slash commands are no longer available in the notebook Genie Code Assistant chat pane. Adjust notebook settings and rename notebooks from the notebook UI instead.\n\nOther slash commands, such as /doc, /explain, /fix, /optimize, and /prettify, are unchanged. See Use slash commands for prompts.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "09ece0cc17b3a6cb",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Automatic identity management with Microsoft Entra ID is now GA",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#automatic-identity-management-with-microsoft-entra-id-is-now-ga",
-    "published": "2026-05-26",
-    "first_seen": "2026-07-30",
-    "summary": "Automatic identity management with Microsoft Entra ID is now generally available. Automatic identity management lets you sync users, service principals, and groups from Microsoft Entra ID to Databricks without SCIM provisioning. When enabled, you can search for identities in identity federated workspaces and add them directly to your workspace, and group memberships stay in sync with Microsoft Entra ID.\n\nSee Automatic identity management and Configure Microsoft Entra ID for automatic identity management.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "3ee249c5069fe20b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Spark Declarative Pipelines on Lakeflow parameters are now in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#spark-declarative-pipelines-on-lakeflow-parameters-are-now-in-beta",
-    "published": "2026-05-26",
-    "first_seen": "2026-07-30",
-    "summary": "Pipeline parameters let you define key-value pairs at the pipeline level and reference them from SQL source code using named parameter syntax. See Use parameters with pipelines.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "e98982768d3dbe3c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime maintenance updates (05/26)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-runtime-maintenance-updates-0526",
-    "published": "2026-05-26",
-    "first_seen": "2026-07-30",
-    "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 18.0\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
-    "category": "Platform Overview",
     "tags": []
   }
 ]
