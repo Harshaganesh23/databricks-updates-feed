@@ -1,5 +1,176 @@
 [
   {
+    "id": "3d8012e1730aa15a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing Governance Hub: Intelligent, account-level governance over your Databricks estate",
+    "url": "https://www.databricks.com/blog/introducing-governance-hub-intelligent-account-level-governance-over-your-databricks-estate",
+    "published": "2026-08-26",
+    "first_seen": "2026-08-26",
+    "summary": "Governance Hub is a new account-level experience that gives administrators and governance teams a unified view of data health, AI usage, and cost, with agentic insights and actionable recommendations.",
+    "category": "Governance",
+    "tags": [
+      "Platform",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "459ecafd8553b490",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Leveraging Databricks to Support FISC Security Guidelines",
+    "url": "https://www.databricks.com/blog/leveraging-databricks-support-fisc-security-guidelines",
+    "published": "2026-08-26",
+    "first_seen": "2026-08-26",
+    "summary": "Financial institutions in Japan can configure the Databricks Platform to support requirements from the Japanese Center for Financial Industry Systems (FISC) Security Guidelines.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Security and Trust",
+      "Data Strategy",
+      "Insights"
+    ]
+  },
+  {
+    "id": "76fbf4f674a10d7d",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: v3.15.2",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.15.2",
+    "published": "2026-08-26",
+    "first_seen": "2026-08-26",
+    "summary": "MLflow 3.15.2 is a patch release that includes several major features and improvements.\n\nFeatures:\n\n- [Evaluation] Support immutable evaluation dataset versions (#24845, @danielseong1)\n\n- [Evaluation] Add scorer_ensemble primitive for combining scorer results (#24749, @alkispoly-db)\n\nBug fixes:\n\n- [Evaluation] Preserve base judge invocation flow in MemAlign aligned judges (#24883, @veronicalyu320)\n\n- [Tracking] Pre-import databricks.sdk in Databricks to avoid telemetry deadlock (#24841, @aaronteo-db)\n\n- [Build / Tracking] Align runs.status constraint metadata (#24890, @joshuawong-db)",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "58b073d40504db04",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.14.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.14.0",
+    "published": "2026-08-26",
+    "first_seen": "2026-08-26",
+    "summary": "Notable Changes\n\n- Bundles still on Terraform state are now migrated to the direct engine automatically, after a deploy whose dry-run conversion comes back clean. To opt out, set engine: terraform under bundle or DATABRICKS_BUNDLE_ENGINE=terraform. See https://docs.databricks.com/aws/en/dev-tools/bundles/direct\n\nCLI\n\n- Fixed idle databricks ssh connect sessions disconnecting after a few minutes, on dedicated clusters and on serverless. The tunnel now keeps itself warm: the SSH client and the SSH server on the compute exchange keepalives every 30 seconds, and the CLI's proxy pings the tunnel's websocket every 20 seconds. A session nobody is typing into stays connected, with no need to set ServerAliveInterval by hand.\n\nBundles\n\n- bundle plan no longer reports a permanent, unconvergeable update on securable_kind for Unity Catalog TABLE securables declared under an app's resources. The field is computed by the backend (output-only), so it is now ignored during drift detection. Direct engine only (#6342).\n\n- Add support for the cluster_policies resource type in Declarative Automation Bundles. Cluster policies are only supported in direct deployment mode.\n\n- bundle destroy no longer counts resources that are already gone remotely in its Destroy: N deleted summary. Such deletes only clean up stale state and are not listed under the deletion prompt, so they are now excluded from the count as well, matching the terraform engine.…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "0ed8ed36ce84ebb3",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Capital Markets Finance Protects Balance Sheet Returns",
+    "url": "https://www.databricks.com/blog/how-capital-markets-finance-protects-balance-sheet-returns",
+    "published": "2026-08-25",
+    "first_seen": "2026-08-26",
+    "summary": "An insurer settles a",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "bb38e3a277177a86",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Choosing Data Governance Tools for Enterprise Data Governance",
+    "url": "https://www.databricks.com/blog/data-governance-tools",
+    "published": "2026-08-25",
+    "first_seen": "2026-08-26",
+    "summary": "Data governance tools explained: core capabilities, tool types, and a practical framework for evaluating and choosing the right one for your stack.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "c83a9c88981db10c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Data Mesh vs. Data Fabric: Key Differences and How the Lakehouse Resolves the Debate",
+    "url": "https://www.databricks.com/blog/data-mesh-vs-data-fabric",
+    "published": "2026-08-25",
+    "first_seen": "2026-08-26",
+    "summary": "Data mesh decentralizes data ownership; data fabric automates integration. Learn the key differences, when to choose each, and why most enterprises adopt hybrid approaches combining domain autonomy with centralized governance.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "d11360bb1a3d7603",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Modernizing SQL ETL in Lakehouse with Declarative Patterns",
+    "url": "https://www.databricks.com/blog/modernizing-sql-etl-lakehouse-declarative-patterns",
+    "published": "2026-08-25",
+    "first_seen": "2026-08-26",
+    "summary": "Databricks brings declarative ETL to the SQL Editor with APPEND, AUTO CDC, and REPLACE WHERE flows in Lakehouswe.",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "0e4d0d4d14e13e89",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Open Table Formats Explained: Iceberg vs. Delta vs. Hudi",
+    "url": "https://www.databricks.com/blog/open-table-formats",
+    "published": "2026-08-25",
+    "first_seen": "2026-08-26",
+    "summary": "Open table formats bring ACID transactions, schema evolution, and time travel to data lakes. Compare Apache Iceberg, Delta Lake, and Apache Hudi today.",
+    "category": "Data Engineering",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "58ca7efa1d80b84d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: Release v0.15.1",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.15.1",
+    "published": "2026-08-25",
+    "first_seen": "2026-08-26",
+    "summary": "Release v0.15.1\n\nHighlights\n\n- Key pair authentication for the Snowflake profiler. The Snowflake profiler now supports key pair (JWT) authentication in addition to the existing methods.\n\n- Run metadata embedded in every profiler extract. Each profiler DuckDB extract now carries a profiler_run_metadata table, so consumers can identify the source, pipeline, environment, and run outcome without parsing filenames or logs.\n\n- More accurate Redshift concurrency metrics. Fixed a bug where concurrent-user metrics collapsed activity across multiple days into a single hour-of-day profile, inflating the counts.\n\nProfilers\n\nEnhancements\n\n- profiler_run_metadata added to DuckDB extracts (#2596)\n\nEvery profiler run now writes a source-independent, single-row profiler_run_metadata table at the end of the run, capturing source, pipeline, environment, and outcome fields. It's written best-effort even when a run aborts early.\n\n- Removed unnecessary ORDER BY clauses from source queries (#2624)\n\nProfiler queries no longer issue ORDER BY clauses that don't affect the extracted data, reducing load on the source systems.\n\nSnowflake Profiler\n\n- Key pair authentication support (#2618)\n\nAdds key pair (JWT) authentication for the Snowflake profiler.\n\n- Improved logging during profiler runs (#2620)\n\nLogging during the streaming of Snowflake results now surfaces clearer progress information and better indicates which code paths are taken.\n\nRedshift\n\n- Fixed concurrent-users metrics collapsing across days (#2602)\n\nchart_concurrent_users_by_hour and rs_avg_concurrent_users now count distinct users within each calendar day before reducing to an hour-of-day profile. The chart reports the busiest day per hour; the KPI averages the per-day/hour counts.\n\nTeradata…",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "1b468b056b6f2652",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/geobrix",
+    "title": "databrickslabs/geobrix: GeoBrix v0.5.0",
+    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.5.0",
+    "published": "2026-08-25",
+    "first_seen": "2026-08-26",
+    "summary": "GeoBrix v0.5.0\n\nGeoBrix 0.5.0 introduces virtual tiles — a bytes-free way to read and process huge rasters without running out of memory — unifies both execution tiers on a single v2 tile struct, and adds the COG preparation lane (file_gbx + cog_gbx) with VRT mosaics for large-raster workflows — tapping the Databricks FILE type for governed, memory-safe file access where the runtime provides it. It also adds four VectorX geometry families (antimeridian, validity, cleaning, coverage validity) and both-tier CRS families, on top of v0.4.3. This release contains breaking changes — see below. Full change list: Release Notes → What's new in v0.5.0.\n\nHighlights\n\n- Virtual tiles — bytes-free windowed reads for large rasters. The lightweight cog_gbx / raster_gbx / gtiff_gbx readers can emit virtual tiles: each row carries a source path + pixel window instead of the raster bytes, and pixels are read lazily, one window at a time, only when an operation needs them. A virtual row is ~100 B versus 148–527 KB materialized (~1,400–5,000× smaller), so fanning a multi-gigabyte raster into many tiles no longer accumulates into a Serverless out-of-memory failure. Every lightweight rst_* is virtual-tile-aware through one shared open path (header-only accessors answer without reading pixels; reference/passthrough ops stay virtual; pixel ops materialize only their window), with new force-output params virtualize_dir / virtualize_prefix / materialize. See Virtual Tiles.…",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/geobrix"
+    ]
+  },
+  {
+    "id": "c9365e5b84823bdc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Genie One desktop app for macOS is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#the-genie-one-desktop-app-for-macos-is-in-beta",
+    "published": "2026-08-25",
+    "first_seen": "2026-08-26",
+    "summary": "The Genie One desktop app is now in Beta. The native macOS app opens Genie One on your desktop instead of in a browser tab, so business users can chat with data in natural language, work with their threads and documents, and use Genie Agents without a browser. See Use Genie One on desktop.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
     "id": "9e0202f24c769d53",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -50,6 +221,20 @@
     "summary": "The INSERT, UPDATE, and DELETE privileges are in Beta in Unity Catalog. These privileges are least-privilege alternatives to MODIFY that let you grant write access to a table's data without also granting the ability to change its schema or other metadata.\n\nThe privileges require Databricks Runtime 18.1 or above.\n\nFor details, see Fine-grained DML privileges.",
     "category": "Governance",
     "tags": []
+  },
+  {
+    "id": "81ead8015ec72191",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Relational vs Non-Relational Database: Choosing the Right Data Store",
+    "url": "https://www.databricks.com/blog/relational-vs-non-relational-database",
+    "published": "2026-08-24",
+    "first_seen": "2026-08-26",
+    "summary": "Choosing between relational and non-relational databases is one of the most consequential architectural decisions teams make when building data systems, and the right choice depends on whether your workload prioritizes structured data integrity or flexible, distributed scalability.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data + AI Foundations"
+    ]
   },
   {
     "id": "83ef82d736588746",
@@ -5119,54 +5304,6 @@
     "first_seen": "2026-07-30",
     "summary": "External engines can now read Unity Catalog managed tables (Delta and Iceberg) with attribute-based access controls (ABAC), row filters, and column masks enforced server-side. See Cross-engine attribute-based access controls (ABAC).",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "9f61b181f8b34fc3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Real-time mode in Spark Declarative Pipelines on Lakeflow, and the update_flow API are now available (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#real-time-mode-in-spark-declarative-pipelines-on-lakeflow-and-the-update",
-    "published": "2026-05-27",
-    "first_seen": "2026-07-30",
-    "summary": "Real-time mode in Spark Declarative Pipelines on Lakeflow is now in Public Preview. Achieve end-to-end latency as low as five milliseconds for operational streaming workloads such as fraud detection, real-time personalization, and instant decision-making. Real-time mode uses the new update_flow decorator, which writes to sinks using update output mode and supports stateful aggregations without requiring a watermark. See Use real-time mode in Lakeflow pipelines and update_flow.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "e099af39ed45530c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Drive managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#google-drive-managed-ingestion-connector-beta",
-    "published": "2026-05-27",
-    "first_seen": "2026-07-30",
-    "summary": "The Google Drive connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest files from Google Drive into Databricks. Both unstructured (binary) and structured (CSV, JSON, XML, Excel, Parquet, Avro, ORC) ingestion are supported, as well as file metadata ingestion. See Google Drive connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "129c375c8ce89c4a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Workspace admin setting for serverless notebook execution timeout",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#workspace-admin-setting-for-serverless-notebook-execution-timeout",
-    "published": "2026-05-27",
-    "first_seen": "2026-07-30",
-    "summary": "Workspace admins can now set the default execution timeout for serverless notebooks in the workspace admin settings, replacing the previous manual override process. To configure the timeout, go to Settings > Compute and, under Serverless interactive, update the Serverless interactive execution timeout setting.\n\nThe default timeout is 2.5 hours, and users can still override the timeout for an individual notebook by using spark.databricks.execution.timeout. See Serverless overspend protection.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "8289d1fb6c8d4323",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Refresh policies and EXPLAIN CREATE MATERIALIZED VIEW for materialized views are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#refresh-policies-and-explain-create-materialized-view-for-materialized-views-are-now-generally-available",
-    "published": "2026-05-27",
-    "first_seen": "2026-07-30",
-    "summary": "Refresh policies and the EXPLAIN CREATE MATERIALIZED VIEW statement are now generally available for materialized views. Use refresh policies to control when Databricks performs incremental or full refresh, optimizing cost and predictability. Use EXPLAIN CREATE MATERIALIZED VIEW to check whether a query can be incrementalized before defining the materialized view. Available in Databricks SQL and Databricks Runtime 17.3 and above. See Incremental refresh for materialized views.",
-    "category": "Data Warehousing",
     "tags": []
   }
 ]
