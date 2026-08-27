@@ -1,5 +1,116 @@
 [
   {
+    "id": "dc5c2ff719f280f9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Building for the AI Era: Lakebase, Streaming, and Lakehouse Innovations  at VLDB 2026",
+    "url": "https://www.databricks.com/blog/building-ai-era-lakebase-streaming-and-lakehouse-innovations-vldb-2026",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "summary": "We a",
+    "category": "Database",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "id": "530949a58cd7d518",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What QSR reports miss about the decisions matter the most",
+    "url": "https://www.databricks.com/blog/what-qsr-reports-miss-about-decisions-matter-most",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "summary": "Limi",
+    "category": "Platform Overview",
+    "tags": [
+      "Retail & Consumer Goods"
+    ]
+  },
+  {
+    "id": "c5227fe0bc2dbaf1",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Enhancing Agent Retrieval with Structured Chart Extraction",
+    "url": "https://www.databricks.com/blog/enhancing-agent-retrieval-structured-chart-extraction",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "summary": "The Motivation",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Mosaic Research"
+    ]
+  },
+  {
+    "id": "14c3eb378998a26c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Vertical Advantage: Transforming Industries with Lakebase and Agentic AI",
+    "url": "https://www.databricks.com/blog/vertical-advantage-transforming-industries-lakebase-and-agentic-ai",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "summary": "In t",
+    "category": "Database",
+    "tags": [
+      "Partners",
+      "Customers",
+      "Company & Customers",
+      "Platform & Partners"
+    ]
+  },
+  {
+    "id": "bc0c7be7bc534424",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Object Storage + WAL: Lakebase Postgres for the agentic era",
+    "url": "https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "summary": "Agents that interact",
+    "category": "Database",
+    "tags": [
+      "Engineering"
+    ]
+  },
+  {
+    "id": "f93a646cb64171cb",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: ts/v0.4.0",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/ts%2Fv0.4.0",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "summary": "MLflow TypeScript SDK 0.4.0",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "a711657fb67329ca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code is now available as a Lakeflow Jobs task (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-is-now-available-as-a-lakeflow-jobs-task-beta",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "summary": "You can now run prompts with Genie Code as a task in a Lakeflow Job. Genie Code runs your prompt autonomously. It can read upstream task outputs and call tools as needed. The task returns a link to the resulting Genie Code conversation with its response. See Genie Code task for jobs.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "d97fee844ad10e3a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share foreign Delta tables with OpenSharing (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#share-foreign-delta-tables-with-opensharing-public-preview",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-27",
+    "summary": "You can now use OpenSharing to share foreign Delta tables, which are Delta-format tables registered in a foreign catalog such as OneLake, a Hive metastore, or AWS Glue. Providers add foreign Delta tables to a share, and recipients access the shared data in read-only format. See Add foreign Delta tables to a share and Read data in a shared foreign Delta table.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "3d8012e1730aa15a",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -58,6 +169,42 @@
     "tags": [
       "databricks/cli"
     ]
+  },
+  {
+    "id": "af5928e95f5d45d3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Query text is now masked by default in system tables and APIs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#query-text-is-now-masked-by-default-in-system-tables-and-apis",
+    "published": "2026-08-26",
+    "first_seen": "2026-08-27",
+    "summary": "Because SQL statements can contain sensitive information, Databricks now masks query text in the following places:\n\n- statement_text in system.query.history returns <REDACTED>.\n\n- query_text in the Query History API and the List Queries API returns <REDACTED>.\n\n- Keys in request_params in system.access.audit that contain SQL definitions are omitted.\n\nAccount admins and members of the databricks_pii_access account group can read unmasked query text. To grant access, an account admin creates the group and adds members. See Access masked statement text and Access masked request parameters.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "8e5ac956808dca70",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "xAI Grok 4.6 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#xai-grok-46-now-available-as-a-databricks-hosted-model",
+    "published": "2026-08-26",
+    "first_seen": "2026-08-27",
+    "summary": "Model Serving now supports xAI Grok 4.6 as a Databricks-hosted model. This reasoning model has a 500,000-token context window and supports configurable reasoning effort and function calling for coding, agentic workflows, and other complex tasks. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "9d476b373e1a5c74",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zhipu AI GLM 5.3 Flash now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zhipu-ai-glm-53-flash-now-available-as-a-databricks-hosted-model",
+    "published": "2026-08-26",
+    "first_seen": "2026-08-27",
+    "summary": "Model Serving now supports GLM 5.3 Flash as a Databricks-hosted model. This natively multimodal mixture of experts (MoE) model has 320 billion total parameters and 18 billion active parameters. It supports text and image input, a 1 million token context window, reasoning, coding, and agentic tool use. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "0ed8ed36ce84ebb3",
@@ -235,6 +382,18 @@
     "tags": [
       "Data + AI Foundations"
     ]
+  },
+  {
+    "id": "ab5e6a2ed864e3dd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Private network gateway is in Private Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#private-network-gateway-is-in-private-preview",
+    "published": "2026-08-24",
+    "first_seen": "2026-08-27",
+    "summary": "Private network gateway is in Private Preview. A private network gateway connects Databricks serverless compute to resources in your VPC, on-premises systems, and the internet through a single managed gateway, reusing your existing network connectivity configuration (NCC). Use it for broad private connectivity without onboarding each resource individually, to route serverless egress through your own security appliances for content inspection, or to send egress from a stable set of IP addresses. See Private network gateway.",
+    "category": "Platform Overview",
+    "tags": []
   },
   {
     "id": "83ef82d736588746",
@@ -5252,58 +5411,6 @@
     "first_seen": "2026-07-30",
     "summary": "The following updates were made to Lakeflow Designer:\n\n- Bidirectional AI-generated descriptions: Each operator now displays an AI-generated description of what it does. Editing the description reconfigures the operator.\n\n- N-way Combine: The Combine operator now accepts any number of input tables.\n\n- Custom join conditions: You can now add a custom join condition by clicking the arrow between the left and right tables. Edit the AI-generated description or manually write SQL to configure the condition.\n\n- Improved filter readability: Datetime values in filter conditions now render in plain English instead of ISO format.\n\n- Multi-modal output types: Operators can now render plots, HTML, images, and other non-table outputs directly in the preview pane.\n\n- Configurable output panel: Switch the output panel between input and output (default), input only, or output only. In the combined view, you can now resize the input and output panes.\n\n- Improved drag-to-connect hit target: Drag from an operator's + button to add a connected downstream operator.\n\n- Genie Code change summary: Genie Code now shows a one-line summary of its most recent edit above the input box.\n\n- Better Note placement: New Notes no longer overlap neighboring operators by default.\n\n- Inline parameter examples: SQL and Python operators now surface available parameters with inline sample code showing how to reference them.\n\n- Bug fixes and improvements: Fixed Python operator handling of triple-quoted strings, and a KeyError thrown by the Python preview when an upstream operator was disconnected.",
     "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "93640b0fe321bf7f",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.4.0",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.4.0",
-    "published": "2026-05-28",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V0.4.0\n\nRelease window: May, 2026\n\nTest status: all changes shipped with the suite green (≥ 2003 passing, 80 skipped).\n\nHighlights\n\n- Lakebase GraphDB engine (full): Postgres-backed triple store via Databricks Lakebase Autoscaling completely replaces LadybugDB as the primary graph backend. Synchronization can be done in two (load) modes\n\n— app_managed (direct streaming into Postgres)\n\n— managed_synced (Lakeflow-managed Unity Catalog synced-table pipeline).\n\nBoth modes share the same 3-object Postgres layout (*_sync + *__app companion + union view).\n\n- Managed Sync pipeline end-to-end: SyncedTableManager handles UC synced-table registration, Lakeflow pipeline polling, ghost control-plane state recovery, union-view creation, and all downstream Digital Twin build steps — with live progress visible in the app log and Build page.\n\n- Registry OBX Export / Import: Export one or several registry domains to a single .obx (JSON) file with per-domain version-mode selection; import with per-domain Skip / Overwrite / Rename conflict resolution. Format-version gating ensures future backward compatibility.\n\n- Ontology Pitfalls Detector: D2KLab's OPD (Apache-2.0) integrated as a new Ontology sidebar panel. Detects 19 structural, logical, and semantic pitfalls across four categories, powered by an async TaskManager job. ML-heavy checks can be enabled optionally via [pitfalls] extra.\n\n- HL7 FHIR R5 / R4B / R4 industry import: FHIR added as a fourth importable ontology alongside FIBO, CDISC, and IOF. OWL restriction-based property extraction, six domain buckets (Foundation required + Clinical/Diagnostics/Medications/Workflow/Financial), user-selectable version.…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "da0393ed077a201e",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.0.4",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.0.4",
-    "published": "2026-05-28",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- Implemented unit conversion support for KeyValueStoreSolver by @tombonfert in #30\n\n- Bump react from 19.2.4 to 19.2.6 in /docs/impulse by @dependabot[bot] in #14\n\n- Bump react-dom from 19.2.4 to 19.2.6 in /docs/impulse by @dependabot[bot] in #16\n\n- Refactor measurement dimensions handling in configuration and related… by @tombonfert in #33\n\nFull Changelog: v0.0.3...v0.0.4\n\nWhat's Changed\n\n- Implemented unit conversion support for KeyValueStoreSolver by @tombonfert in #30\n\n- Bump react from 19.2.4 to 19.2.6 in /docs/impulse by @dependabot[bot] in #14\n\n- Bump react-dom from 19.2.4 to 19.2.6 in /docs/impulse by @dependabot[bot] in #16\n\n- Refactor measurement dimensions handling in configuration and related… by @tombonfert in #33\n\n- Bump version to 0.0.4 in VERSION file by @tombonfert in #37\n\nFull Changelog: v0.0.3...v0.0.4\n\nWhat's Changed\n\n- Implemented unit conversion support for KeyValueStoreSolver by @tombonfert in #30\n\n- Bump react from 19.2.4 to 19.2.6 in /docs/impulse by @dependabot[bot] in #14\n\n- Bump react-dom from 19.2.4 to 19.2.6 in /docs/impulse by @dependabot[bot] in #16\n\n- Refactor measurement dimensions handling in configuration and related… by @tombonfert in #33\n\n- Bump version to 0.0.4 in VERSION file by @tombonfert in #37\n\nFull Changelog: v0.0.3...v0.0.4",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "3d312a92c9143fbb",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Anthropic Claude Opus 4.8 now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#anthropic-claude-opus-48-now-available-as-a-databricks-hosted-model",
-    "published": "2026-05-28",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks Model Serving now supports Anthropic Claude Opus 4.8 as a Databricks-hosted model.\n\nTo access this model, use:\n\n- Foundation Model APIs pay-per-token\n\n- Query reasoning models\n\n- Query vision models",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "b041884448e4513a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Cross-engine attribute-based access controls (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#cross-engine-attribute-based-access-controls-beta",
-    "published": "2026-05-28",
-    "first_seen": "2026-07-30",
-    "summary": "External engines can now read Unity Catalog managed tables (Delta and Iceberg) with attribute-based access controls (ABAC), row filters, and column masks enforced server-side. See Cross-engine attribute-based access controls (ABAC).",
-    "category": "Governance",
     "tags": []
   }
 ]
