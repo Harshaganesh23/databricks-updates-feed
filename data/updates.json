@@ -1,5 +1,82 @@
 [
   {
+    "id": "ad53b50abd4f520b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Beyond answers: New Genie One features to turn insights into action",
+    "url": "https://www.databricks.com/blog/beyond-answers-new-genie-one-features-turn-insights-action",
+    "published": "2026-08-28",
+    "first_seen": "2026-08-28",
+    "summary": "We a",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "078c9699f9be16c2",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Trackunit turns construction data into decisions with AI",
+    "url": "https://www.databricks.com/blog/how-trackunit-turns-construction-data-decisions-ai",
+    "published": "2026-08-28",
+    "first_seen": "2026-08-28",
+    "summary": "Learn how Trackunit uses IrisX, built on Databricks, to connect construction data and turn equipment signals into actionable decisions.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Manufacturing"
+    ]
+  },
+  {
+    "id": "a6070956dc645ddf",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Indra unified EV charging data on Databricks",
+    "url": "https://www.databricks.com/blog/how-indra-unified-ev-charging-data-databricks",
+    "published": "2026-08-28",
+    "first_seen": "2026-08-28",
+    "summary": "See how Indra unified EV charging data on Databricks, cut costs, automated reporting, and enabled governed self-service analytics.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Energy"
+    ]
+  },
+  {
+    "id": "f2d9d49479b0a2c1",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Fast, fault-tolerant PyTorch training on AI Runtime",
+    "url": "https://www.databricks.com/blog/fast-fault-tolerant-pytorch-training-ai-runtime",
+    "published": "2026-08-28",
+    "first_seen": "2026-08-28",
+    "summary": "At GPU scale, failures are routine. See how smart dataloading and checkpointing keep training fast between failures and cheap to recover after them.",
+    "category": "Data Engineering",
+    "tags": [
+      "Engineering",
+      "Data Science and ML",
+      "Databricks AI",
+      "AI Engineering"
+    ]
+  },
+  {
+    "id": "3d0fa61951ae42d0",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.14.1",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.14.1",
+    "published": "2026-08-28",
+    "first_seen": "2026-08-28",
+    "summary": "Release v1.14.1\n\nBundles\n\n- Fix bundle deploy failing with deployment_source.source_code_path cannot be set on UpdateApp (400) when updating an app that has an active deployment (#6401).\n\n- Fixed ${resources...} references to resource keys starting with an underscore (e.g. _my_job). On the direct engine, deploying such a resource with permissions or grants failed with cannot parse \"/jobs/${resources.jobs._my_job.id}\", and user-written references to it were silently left unresolved (#6422)",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
     "id": "dc5c2ff719f280f9",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -111,6 +188,30 @@
     "tags": []
   },
   {
+    "id": "173ca4d6401d82a8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeflow Designer August Release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakeflow-designer-august-release",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-28",
+    "summary": "The Lakeflow Designer August release adds the Unique operator, expands the Aggregate, Select, and Python operators, and improves the canvas, preview, and version-history experience. The following updates are now available:\n\n- Unique operator: Use the new Unique operator to remove duplicate rows, optionally keying on a subset of columns and ordering the rows to control which duplicate is kept. See Unique.\n\n- Count distinct: The Aggregate operator now supports a COUNT DISTINCT function to count the unique values in a column. See Aggregate.\n\n- Dynamic column selection: The Select operator can now choose columns dynamically by data type, name pattern, or formula, so the output adapts as the input schema changes. See Select.\n\n- Python preview mode: The Python operator can run different code during previews than during full runs by checking config[\"is_preview\"], so you can skip side effects such as writes and notifications while previewing. See Python preview mode.\n\n- Streaming Python output: Python operator output now streams into the output pane as the operator runs, so you can see results before the run finishes. See Python.\n\n- Enable and disable operators and groups: Disable individual operators or entire groups to exclude them from runs, then enable them again when you need them. See Group.\n\n- Operator lineage highlighting: Select an operator to highlight its lineage from upstream sources to downstream sinks on the canvas. See Operators.\n\n- Run all: Run every operator in the visual data prep at once with the new Run all button. See Run the full visual data prep.…",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "c72654cc15001d2c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code for AI Runtime (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-for-ai-runtime-public-preview",
+    "published": "2026-08-27",
+    "first_seen": "2026-08-28",
+    "summary": "Use Genie Code to develop and troubleshoot deep learning workloads in notebooks connected to AI Runtime. Now in Public Preview, it generates distributed training code, resolves environment and dependency issues, and debugs GPU and distributed workload failures. See Use Genie Code with AI Runtime.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
     "id": "3d8012e1730aa15a",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -204,6 +305,18 @@
     "first_seen": "2026-08-27",
     "summary": "Model Serving now supports GLM 5.3 Flash as a Databricks-hosted model. This natively multimodal mixture of experts (MoE) model has 320 billion total parameters and 18 billion active parameters. It supports text and image input, a 1 million token context window, reasoning, coding, and agentic tool use. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "a994109e18eabe21",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zerobus Ingest into streaming tables is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zerobus-ingest-into-streaming-tables-is-now-generally-available",
+    "published": "2026-08-26",
+    "first_seen": "2026-08-28",
+    "summary": "Ingesting into streaming tables with Zerobus Ingest in Lakeflow Connect is now generally available. Writing to a streaming table works the same way as writing to a managed Delta table, with the same limits and quotas. See Create or identify the target table.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -445,6 +558,18 @@
     "published": "2026-08-21",
     "first_seen": "2026-08-22",
     "summary": "Context attributes for attribute-based access control (ABAC) policies are in Beta. You can now write Unity Catalog ABAC policy conditions that target the context of a request, such as which OAuth application is calling (request.client_id) and whether the request runs on behalf of a user (request.is_on_behalf_of). The has_context_attribute and has_context_attribute_value functions are supported in the WHEN clause of row filter and column mask policies.\n\nA common use is to restrict the data an agent reads on a user's behalf when it connects through a registered OAuth application, while the user can still read the full data when they query it directly in the workspace.\n\nSee Context attribute functions (Beta).",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "666b28435cb7e4e3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor all AI activity with the unified trace table (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#monitor-all-ai-activity-with-the-unified-trace-table-beta",
+    "published": "2026-08-21",
+    "first_seen": "2026-08-28",
+    "summary": "The unified trace table is in Beta. It captures every request and response across your Unity AI Gateway services into one Unity Catalog table in OpenTelemetry format, giving you a single place to monitor, debug, secure, and audit all AI activity.\n\nSee Monitor all AI activity using the unified trace table.",
     "category": "Governance",
     "tags": []
   },
@@ -5374,42 +5499,6 @@
     "published": "2026-06-01",
     "first_seen": "2026-07-30",
     "summary": "Column popularity is now available in the Catalog Explorer UI. To find the most popular columns in a table, go to the table's Overview tab. Popularity is determined by the number of queries against the table that read from a given column. See Popularity.On this page\n- Anthropic Claude Sonnet 5 now available as a Databricks-hosted model\n- Run a subset of job tasks with their dependencies\n- Lakehouse Real-Time (Beta)\n- Lakebase Autoscaling now available in AWS Tokyo region (ap-northeast-1)\n- SQL alert task in Lakeflow Jobs is now generally available\n- Databricks Runtime maintenance updates (06/29)\n- Govern LLMs in Unity Catalog with model services (Beta)\n- Custom Docker images for AI Runtime CLI workloads (Beta)\n- Parquet v2 for Delta Lake tables is generally available\n- Genie Code Chat/Agent mode selector removed\n- Microsoft Dynamics 365 connector (GA)\n- Metric view parameters are now in Public Preview\n- Solution Accelerators in Databricks Marketplace are now published as apps or notebooks\n- <a href=#databricks-connector-for-power-",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "a5ff027deba97c8c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Query-based connectors for Lakeflow Connect are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#query-based-connectors-for-lakeflow-connect-are-now-generally-available",
-    "published": "2026-05-29",
-    "first_seen": "2026-07-30",
-    "summary": "Query-based connectors in Lakeflow Connect are now generally available. Query-based connectors ingest data from databases by querying the source directly using a cursor column, without requiring change data capture (CDC) configuration or an ingestion gateway. Supported sources include Oracle, Teradata, SQL Server, MySQL, MariaDB, and PostgreSQL, as well as all Lakehouse Federation data sources using foreign catalog ingestion. See Query-based connectors.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "4e1bd9ad3dd789ea",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Apps horizontal scaling (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#databricks-apps-horizontal-scaling-beta",
-    "published": "2026-05-29",
-    "first_seen": "2026-07-30",
-    "summary": "You can now run a Databricks app across multiple instances behind a single app URL. Horizontal scaling provides higher availability, zero-downtime deployments, and session affinity, which routes every request from a given user to the same instance so the app can keep per-user data on that instance. Convert an existing standard app to horizontally scaled, or enable horizontal scaling when creating a new app. Converted apps can also opt out of pre-installed Python libraries to run on a clean base OS image.\n\nSee Horizontal scaling for Databricks apps and Opt out of pre-installed Python libraries for Databricks apps.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "3eb5f25fcaef1ac1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakeflow Designer updates for May 29, 2026",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/may#lakeflow-designer-updates-for-may-29-2026",
-    "published": "2026-05-29",
-    "first_seen": "2026-07-30",
-    "summary": "The following updates were made to Lakeflow Designer:\n\n- Bidirectional AI-generated descriptions: Each operator now displays an AI-generated description of what it does. Editing the description reconfigures the operator.\n\n- N-way Combine: The Combine operator now accepts any number of input tables.\n\n- Custom join conditions: You can now add a custom join condition by clicking the arrow between the left and right tables. Edit the AI-generated description or manually write SQL to configure the condition.\n\n- Improved filter readability: Datetime values in filter conditions now render in plain English instead of ISO format.\n\n- Multi-modal output types: Operators can now render plots, HTML, images, and other non-table outputs directly in the preview pane.\n\n- Configurable output panel: Switch the output panel between input and output (default), input only, or output only. In the combined view, you can now resize the input and output panes.\n\n- Improved drag-to-connect hit target: Drag from an operator's + button to add a connected downstream operator.\n\n- Genie Code change summary: Genie Code now shows a one-line summary of its most recent edit above the input box.\n\n- Better Note placement: New Notes no longer overlap neighboring operators by default.\n\n- Inline parameter examples: SQL and Python operators now surface available parameters with inline sample code showing how to reference them.\n\n- Bug fixes and improvements: Fixed Python operator handling of triple-quoted strings, and a KeyError thrown by the Python preview when an upstream operator was disconnected.",
     "category": "AI Assistant",
     "tags": []
   }
