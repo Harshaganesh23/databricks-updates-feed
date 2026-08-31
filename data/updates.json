@@ -1,5 +1,72 @@
 [
   {
+    "id": "b59b1be7c36be423",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Autoscaling Lakebase Postgres",
+    "url": "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
+    "published": "2026-08-31",
+    "first_seen": "2026-08-31",
+    "summary": "Autoscaling prepares Postgres for workloads where wasted compute is not an option.",
+    "category": "Database",
+    "tags": [
+      "Engineering",
+      "Data Engineering"
+    ]
+  },
+  {
+    "id": "2006070b3eb04e91",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.3.0-rc1",
+    "url": "https://github.com/apache/spark/releases/tag/v4.3.0-rc1",
+    "published": "2026-08-31",
+    "first_seen": "2026-08-31",
+    "summary": "Preparing Spark release v4.3.0-rc1",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "bae79150bd0983e0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: Lakemeter OSS v0.2.0",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.2.0",
+    "published": "2026-08-31",
+    "first_seen": "2026-08-31",
+    "summary": "v0.2.0 expands workload coverage, introduces first-class DSU accounting and Platform Add-ons, improves Excel exports, and hardens installation upgrades and rollback. See the full changelog.\n\nValidated with a fresh installation, v0.1.2 → v0.2.0 upgrade, rollback, re-upgrade, workload smoke tests, and Excel recalculation checks.\n\nGitHub Actions is disabled at the organization level, so these assets were assembled from the tagged commit and checksum-verified locally. This release does not include an Actions-generated provenance attestation.\n\nWhat's Changed\n\n- Fix quantity-based Excel recalculation by @CheeYuTan in #25\n\n- Add AI Extract and AI Classify workload estimation by @Menotron in #23\n\n- Add independent Unity AI Gateway pricing by @CheeYuTan in #28\n\n- Add Agent Evaluation workload pricing by @CheeYuTan in #29\n\n- Align AI Search pricing and terminology by @CheeYuTan in #31\n\n- Add AI Runtime model training pricing by @CheeYuTan in #32\n\n- Fix GPU serving replicas and group workload types by @CheeYuTan in #37\n\n- Fix single-node cluster pricing by @CheeYuTan in #38\n\n- Fix All-Purpose serverless pricing parity by @CheeYuTan in #42\n\n- Refresh Foundation Model pricing catalog by @CheeYuTan in #43\n\n- Add General Storage DSU pricing by @CheeYuTan in #45\n\n- Document Unity AI Gateway, Agent Evaluation, and AI Runtime by @Menotron in #44\n\n- Fix stale Excel export test expectations by @CheeYuTan in #48\n\n- Add platform add-ons and Zerobus pricing by @CheeYuTan in #57\n\n- Fix always-on workload hours parity by @CheeYuTan in #58\n\n- Fix Databricks Apps count pricing by @CheeYuTan in #59\n\n- Document v0.3 workloads and pricing behavior by @CheeYuTan in #60\n\n- Group cloud regions by geography by @CheeYuTan in #61\n\n- Release v0.2.0 by @CheeYuTan in #62\n\nNew Contributors…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
+    "id": "732b733ffcb49344",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Pipeline events system table is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#pipeline-events-system-table-is-in-beta",
+    "published": "2026-08-31",
+    "first_seen": "2026-08-31",
+    "summary": "The pipeline_events system table is in Beta. This table records Lakeflow pipelines event log entries for pipelines in your account, capturing lifecycle transitions, flow progress, data quality metrics, errors, and other operational data across all pipelines and workspaces in a region. Use it to query historical pipeline activity, build alerts on pipeline failures, and correlate pipeline behavior with other Lakeflow system tables.\n\nSee Pipeline events system table reference.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "a6fab8368d96c2fd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Restrict service principal OAuth secrets to specific API scopes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#restrict-service-principal-oauth-secrets-to-specific-api-scopes",
+    "published": "2026-08-29",
+    "first_seen": "2026-08-31",
+    "summary": "You can now restrict a service principal's OAuth secret to specific API scopes, such as sql or jobs, instead of all APIs. A token minted from a scoped secret can't exceed those scopes, which limits the impact of a leaked secret. See Authorize service principal access to Databricks with OAuth.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "ad53b50abd4f520b",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -75,6 +142,32 @@
     "tags": [
       "databricks/cli"
     ]
+  },
+  {
+    "id": "8c503268e98981a9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What is an AI Copilot?",
+    "url": "https://www.databricks.com/blog/ai-copilot",
+    "published": "2026-08-28",
+    "first_seen": "2026-08-31",
+    "summary": "An AI copilot is an assistant embedded in software that helps users complete tasks. Learn how copilots work, where they add value and what adoption requires.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "b059effc5e01f646",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog Skills (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-catalog-skills-beta",
+    "published": "2026-08-28",
+    "first_seen": "2026-08-31",
+    "summary": "You can now publish, govern, and share agent skills with Unity Catalog. A skill is a first-class Unity Catalog securable (catalog.schema.skill) that follows the SKILL.md specification, so you register it once and control who can discover, use, and update it with the same permissions, tags, and audit that protect your tables. Coding agents download published skills or load them live over MCP. See What are Unity Catalog Skills.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "dc5c2ff719f280f9",
@@ -1336,6 +1429,18 @@
     "first_seen": "2026-08-15",
     "summary": "The Amplitude connector in Lakeflow Connect is now in Beta. Ingest product analytics event data along with event, cohort, and annotation metadata from Amplitude. See Amplitude connector.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "79c7699876a17716",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Glean connector in Lakeflow Connect (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#glean-connector-in-lakeflow-connect-beta",
+    "published": "2026-08-12",
+    "first_seen": "2026-08-31",
+    "summary": "You can now ingest data from Glean into Databricks using the managed Glean connector in Lakeflow Connect. The connector ingests company-wide usage insights for search, Assistant, and agents, along with the shortcuts (go links) defined in your Glean deployment, using a Glean Client API token. This feature is in Beta.\n\nSee Glean connector.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -5450,56 +5555,6 @@
     "first_seen": "2026-07-30",
     "summary": "The managed RabbitMQ connector in Lakeflow Connect is now available in Beta. The connector allows you to stream messages from RabbitMQ classic queues into streaming tables in Unity Catalog. See RabbitMQ connector.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "324de3a68e2e24d7",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: v3.13.0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.13.0",
-    "published": "2026-06-01",
-    "first_seen": "2026-07-30",
-    "summary": "MLflow 3.13.0 includes several major features and improvements\n\nMajor New Features\n\n- 🔐 Role-Based Access Control & Admin UI: A full RBAC system with reusable roles and workspace-scoped grants, plus a new web Admin UI for managing users, roles, and permissions on self-hosted MLflow.\n\n- 🗄️ Trace Retention & Auto Archival: Automatically move aged trace span data out of your SQL backend into object storage (e.g. S3) while keeping every trace fully readable in the UI and APIs.\n\n- 🤖 One-click observability & governance for coding agents: Onboard Claude Code, OpenAI Codex, or Gemini CLI to the AI Gateway in one click for tracing, usage tracking, budgets, and guardrails.\n\n- ✨ New engines for MLflow Assistant: Run MLflow Assistant on a local Ollama model, the OpenAI Codex CLI, or any MLflow AI Gateway endpoint, in addition to Claude Code.\n\n- ☸️ Helm chart for Kubernetes: An official, production-ready Helm chart for deploying the MLflow tracking server to any Kubernetes cluster.\n\n- 🌐 Hermes Agent support: Route the Hermes Agent runtime through the AI Gateway and capture its end-to-end traces in MLflow over OpenTelemetry.\n\n- 🪵 Span log levels: Python-logging-style severity levels on spans, with a \"Minimum log level\" filter in the trace UI to hide low-level noise.\n\nBreaking Changes…",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "875feb054dd190c8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase snapshot storage is now billed",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-snapshot-storage-is-now-billed",
-    "published": "2026-06-01",
-    "first_seen": "2026-07-30",
-    "summary": "Starting June 1, 2026, snapshot storage is billable for Lakebase Autoscaling. Snapshot storage size is shown on the Backup & Restore page. For pricing details, see the Lakebase pricing page. To learn about managing snapshots, see Snapshots.",
-    "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "b07f15cc742d2464",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Vector Search is now AI Search",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#vector-search-is-now-ai-search",
-    "published": "2026-06-01",
-    "first_seen": "2026-07-30",
-    "summary": "Vector Search has been renamed to AI Search. You can now create full text search indexes without any vectors or embeddings needed. See Databricks AI Search.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "c7250b5728cccdcf",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Column popularity is now available in the Catalog Explorer",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#column-popularity-is-now-available-in-the-catalog-explorer",
-    "published": "2026-06-01",
-    "first_seen": "2026-07-30",
-    "summary": "Column popularity is now available in the Catalog Explorer UI. To find the most popular columns in a table, go to the table's Overview tab. Popularity is determined by the number of queries against the table that read from a given column. See Popularity.On this page\n- Anthropic Claude Sonnet 5 now available as a Databricks-hosted model\n- Run a subset of job tasks with their dependencies\n- Lakehouse Real-Time (Beta)\n- Lakebase Autoscaling now available in AWS Tokyo region (ap-northeast-1)\n- SQL alert task in Lakeflow Jobs is now generally available\n- Databricks Runtime maintenance updates (06/29)\n- Govern LLMs in Unity Catalog with model services (Beta)\n- Custom Docker images for AI Runtime CLI workloads (Beta)\n- Parquet v2 for Delta Lake tables is generally available\n- Genie Code Chat/Agent mode selector removed\n- Microsoft Dynamics 365 connector (GA)\n- Metric view parameters are now in Public Preview\n- Solution Accelerators in Databricks Marketplace are now published as apps or notebooks\n- <a href=#databricks-connector-for-power-",
-    "category": "AI Assistant",
     "tags": []
   }
 ]
