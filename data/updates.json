@@ -1,5 +1,64 @@
 [
   {
+    "id": "d3736787702b53b6",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Operationalizing Genie Ontology in Your Data Stack",
+    "url": "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "summary": "Learn how to give enterprise AI trusted business context using data modeling, semantics, metadata, authority, governance, and continuous evaluation.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "6c9980c772144479",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The new Brickbuilder Partner Network tiers for ISVs and Data Providers are here",
+    "url": "https://www.databricks.com/blog/new-brickbuilder-partner-network-tiers-isvs-and-data-providers-are-here",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "summary": "Introducing Brickbuilder Partner Network tiers for ISVs and data providers and what it means for customers and partners.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Partners"
+    ]
+  },
+  {
+    "id": "f23ae229f5047919",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Discovery Bank delivers hyper-personalized banking at scale: behavioral AI, governed data, and real-time decisioning",
+    "url": "https://www.databricks.com/blog/how-discovery-bank-delivers-hyper-personalized-banking-scale-behavioral-ai-governed-data-and",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "summary": "Learn how Discovery Bank combines behavioral data, machine learning, generative AI, and governed agents to personalize banking and protect clients.",
+    "category": "Application Development",
+    "tags": [
+      "Industries",
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "d0cd0a4369bc6131",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/sdp-meta",
+    "title": "databrickslabs/sdp-meta: v0.1.0",
+    "url": "https://github.com/databrickslabs/sdp-meta/releases/tag/v0.1.0",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "summary": "v0.1.0 — SDP-META (formerly DLT-META)\n\nInstall: pip install databricks-labs-sdp-meta==0.1.0\n\nExisting users: pip install dlt-meta==0.1.0 still works via the compatibility redirect.\n\n⚠️ Breaking Changes\n\n-\nProject rename dlt-meta → sdp-meta, aligned with the Lakeflow Spark Declarative Pipelines product naming. A backward-compatibility wrapper is published so existing installations keep working with a deprecation warning. Issue #254, PR #380\n\nWhat changed\nBefore (v0.0.10)\nAfter (v0.1.0)\n\nPyPI package\ndlt-meta\ndatabricks-labs-sdp-meta\n\nCLI command\ndatabricks labs dlt-meta\ndatabricks labs sdp-meta\n\nPython import\nfrom dlt_meta import ...\nfrom databricks.labs.sdp_meta import ...\n\nMain class\nDLTMeta\nSDPMeta\n\nSource layout\nflat src/\nsrc/databricks/labs/sdp_meta/\n\n-\nLakeflow Spark Declarative Pipelines API migration: DLT decorators/APIs migrated to pyspark.pipelines. Update any references that import from dlt to use the new module. Issue #274\n\n-\nRenamed quarantine_table_name → quarantine_table in dataflow specs. Issue #243\n\nMigration Guide\n\nThe legacy dlt-meta PyPI package is preserved as a thin compatibility shim that pulls in databricks-labs-sdp-meta and re-exports every public symbol with a DeprecationWarning. Legacy src.* imports from v0.0.10 also work via a sys.modules shim. Both shims will be removed in v0.2.0.\n\nSee docs/operations/migration for the step-by-step walkthrough.\n\nAdded\n\n- Declarative Automation Bundle (DAB) template: end-to-end DAB-based deployment path for CI/CD, multi-target environments, and agent-driven flows. New CLI commands: bundle-init (with --quickstart zero-prompt fast path), bundle-add-flow, bundle-prepare-wheel, bundle-validate. PR #299, PR #350…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/sdp-meta"
+    ]
+  },
+  {
     "id": "b59b1be7c36be423",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -5491,70 +5550,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now enable web search on your Supervisor Agent to answer questions that require current information from the public web. The supervisor returns a synthesized answer with source citations. Web search is also available as a databricks_web_search tool in the Supervisor API. See Use Supervisor Agent to create a coordinated multi-agent system.",
     "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "550c370e53aed593",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbi-20260601-d54ec0da0",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbi-20260601-d54ec0da0",
-    "published": "2026-06-02",
-    "first_seen": "2026-07-30",
-    "summary": "dbi-20260601-d54ec0da0",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "8aee54ad3b961f74",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.114.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.114.0",
-    "published": "2026-06-02",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.114.0\n\n### API Changes\n\n* Add `deployment_mode` field for `databricks.sdk.service.bundle.Deployment`.\n\n* Add `deployment_mode` field for `databricks.sdk.service.bundle.Version`.\n\n* Add `collaboration_platform_connectivity` and `effective_collaboration_platform_connectivity` fields for `databricks.sdk.service.settingsv2.Setting`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "cb73e12f586b4efa",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Pendo connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#pendo-connector-beta",
-    "published": "2026-06-02",
-    "first_seen": "2026-07-30",
-    "summary": "Lakeflow Connect now supports a managed connector for ingestion from Pendo. See Pendo connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "7531a8d9d3f2b256",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zoom Logs managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#zoom-logs-managed-ingestion-connector-beta",
-    "published": "2026-06-02",
-    "first_seen": "2026-07-30",
-    "summary": "The Zoom Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest user sign-in/sign-out activity logs and admin operation logs from Zoom into Databricks. See Zoom Logs connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "7c4f1167cde412f9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Managed RabbitMQ connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-rabbitmq-connector-beta",
-    "published": "2026-06-02",
-    "first_seen": "2026-07-30",
-    "summary": "The managed RabbitMQ connector in Lakeflow Connect is now available in Beta. The connector allows you to stream messages from RabbitMQ classic queues into streaming tables in Unity Catalog. See RabbitMQ connector.",
-    "category": "Governance",
     "tags": []
   }
 ]
