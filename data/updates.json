@@ -1,5 +1,57 @@
 [
   {
+    "id": "1f70dd38b3b35287",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Announcing the Databricks Big Book of AgentOps",
+    "url": "https://www.databricks.com/blog/announcing-databricks-big-book-agentops",
+    "published": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "summary": "A practical guide to deploying governed, reliable agents on Databricks — covering the technology, people, processes, and frameworks behind enterprise AI.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "ddddc4600e91ba41",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.6.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.6.0",
+    "published": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "summary": "What's Changed\n\n- Feature/poi support by @adefabian in #79\n\n- Add container tags and metrics access to solver UDFs by @tombonfert in #82\n\n- docs: regenerate API reference for container metadata hooks; bump version to 0.6.0 by @tombonfert in #89\n\nFull Changelog: v0.5.2...v0.6.0\n\nWhat's Changed\n\n- Feature/poi support by @adefabian in #79\n\n- Add container tags and metrics access to solver UDFs by @tombonfert in #82\n\n- docs: regenerate API reference for container metadata hooks; bump version to 0.6.0 by @tombonfert in #89\n\nFull Changelog: v0.5.2...v0.6.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
+    "id": "5d53b829e5fad63c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Git Folder Serverless is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#git-folder-serverless-is-in-beta",
+    "published": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "summary": "You can now use Git Folder Serverless to share serverless compute and a pyproject.toml-managed environment across notebooks and files in a Git folder. See Git Folder Serverless.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "d2f779bdbf41a571",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 3.8 Flash now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#google-gemini-38-flash-now-available-as-a-databricks-hosted-model",
+    "published": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "summary": "Model Serving now supports Google Gemini 3.8 Flash as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
     "id": "d3736787702b53b6",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -59,6 +111,117 @@
     ]
   },
   {
+    "id": "3d1a406e292eed71",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How the FDA is building a secure, AI-ready data foundation on Databricks for Government",
+    "url": "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-02",
+    "summary": "Learn how the FDA is using Databricks on AWS GovCloud to scale secure AI, modernize its data foundation, and improve efficiency without mission disruption.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Security and Trust",
+      "Industries",
+      "Public Sector",
+      "Data Strategy",
+      "Best Practices",
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "2b139af1e1b3faf3",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How we eliminated $1 million a year of wasted AI agent spend in one hour",
+    "url": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-02",
+    "summary": "Data",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "8fdb1fcf5e7da601",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Collaboration makes us all stronger",
+    "url": "https://www.databricks.com/blog/collaboration-makes-us-all-stronger",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-02",
+    "summary": "An external researcher found a bug in a Postgres extension we ship. Here's how detection, collaboration, and open-source contribution made everyone safer.",
+    "category": "Database",
+    "tags": [
+      "Platform",
+      "Security and Trust"
+    ]
+  },
+  {
+    "id": "b2232e4135bb2a39",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Apache Arrow support for Zerobus Ingest is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#apache-arrow-support-for-zerobus-ingest-is-now-generally-available",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-02",
+    "summary": "Apache Arrow support for Zerobus Ingest in Lakeflow Connect is now generally available. See Use Arrow Flight with Zerobus Ingest.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "e368758fa3354880",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie One web search is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-one-web-search-is-in-beta",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-02",
+    "summary": "Genie One can now search the public web to answer questions that need current information, such as recent release notes, third-party documentation, or news. Genie One cites the external sources it uses as links in its response. See Search the web.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "2671a7bc55e943b6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie One and Genie Agents can now use models served through OpenAI on Databricks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-one-and-genie-agents-can-now-use-models-served-through-openai-on-databricks",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-02",
+    "summary": "Genie One and Genie Agents can now use models served through OpenAI on Databricks when partner-powered AI features are enabled. For the hosting provider used by each feature, see Hosting provider used when partner-powered AI features setting is enabled and disabled.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "df62a1d92b3b1b82",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Runtime maintenance updates (09/01)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-runtime-maintenance-updates-0901",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-02",
+    "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18 LTS\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "0890bc279f152857",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Fable 5.1 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anthropic-claude-fable-51-now-available-as-a-databricks-hosted-model",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-02",
+    "summary": "Unity AI Gateway now supports Anthropic Claude Fable 5.1 as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.On this page\n- Git Folder Serverless is in Beta\n- Google Gemini 3.8 Flash now available as a Databricks-hosted model\n- Apache Arrow support for Zerobus Ingest is now generally available\n- Genie One web search is in Beta\n- Genie One and Genie Agents can now use models served through OpenAI on Databricks\n- Databricks Runtime maintenance updates (09/01)\n- Anthropic Claude Fable 5.1 now available as a Databricks-hosted modelPrivacy NoticeÂ·Terms of UseÂ·<a href=https://www.databricks.com/legal",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
     "id": "b59b1be7c36be423",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -114,6 +277,18 @@
     "tags": []
   },
   {
+    "id": "6c950da070388059",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ABAC GRANT policies are generally available for models and services",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#abac-grant-policies-are-generally-available-for-models-and-services",
+    "published": "2026-08-31",
+    "first_seen": "2026-09-02",
+    "summary": "ABAC GRANT policies for models, model services, model provider services, Model Context Protocol (MCP) services, and agent services are now generally available. These policies dynamically grant Unity Catalog privileges to securable objects whose governed tags match a condition, instead of granting privileges on each object individually. See ABAC GRANT policies.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "a6fab8368d96c2fd",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -122,6 +297,18 @@
     "published": "2026-08-29",
     "first_seen": "2026-08-31",
     "summary": "You can now restrict a service principal's OAuth secret to specific API scopes, such as sql or jobs, instead of all APIs. A token minted from a scoped secret can't exceed those scopes, which limits the impact of a leaked secret. See Authorize service principal access to Databricks with OAuth.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "02fa52f8ed9e774a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zhipu AI GLM 5.3 now available as a Databricks-hosted model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zhipu-ai-glm-53-now-available-as-a-databricks-hosted-model",
+    "published": "2026-08-29",
+    "first_seen": "2026-09-02",
+    "summary": "Model Serving now supports GLM 5.3 as a Databricks-hosted model in supported US and Americas regions. This text-only mixture of experts (MoE) model supports a context window of up to 1,048,576 tokens, up to 65,536 output tokens, function calling, structured output, coding, agentic tool use, and always-on reasoning. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Governance",
     "tags": []
   },
@@ -226,6 +413,18 @@
     "first_seen": "2026-08-31",
     "summary": "You can now publish, govern, and share agent skills with Unity Catalog. A skill is a first-class Unity Catalog securable (catalog.schema.skill) that follows the SKILL.md specification, so you register it once and control who can discover, use, and update it with the same permissions, tags, and audit that protect your tables. Coding agents download published skills or load them live over MCP. See What are Unity Catalog Skills.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "979930d2c3ec2cbf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor and cap external provider costs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#monitor-and-cap-external-provider-costs",
+    "published": "2026-08-28",
+    "first_seen": "2026-09-02",
+    "summary": "Unity Gateway can now track and cap spend on external model providers, such as Amazon Bedrock and Azure AI Foundry, not just Databricks-provided models. If your organization already has capacity commitments directly with a provider, Unity Gateway becomes the single point to track that usage and enforce spend limits across teams and use cases. To turn it on, enable External Model Spend in Budgets (Beta) on the account console Previews page, then select Include external model usage when you create a budget scoped to the Unity Gateway resource type.\n\nSee Include external model usage.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -472,6 +671,30 @@
     "tags": []
   },
   {
+    "id": "c760a1a872d56588",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "xAI Grok 4.6 is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#xai-grok-46-is-now-available-on-unity-gateway",
+    "published": "2026-08-26",
+    "first_seen": "2026-09-02",
+    "summary": "xAI Grok 4.6 is now available on Unity Gateway for reasoning-heavy coding and agentic workflows. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with applicable terms.\n\nTo query the model and see supported regions, see Use foundation models.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "70e6151ae641003a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zhipu-ai-glm-53-flash-is-now-available-on-unity-gateway",
+    "published": "2026-08-26",
+    "first_seen": "2026-09-02",
+    "summary": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway for multimodal reasoning, coding, and agentic workloads. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with applicable terms.\n\nTo query the model and see supported regions, see Use foundation models.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "0ed8ed36ce84ebb3",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -658,6 +881,18 @@
     "first_seen": "2026-08-27",
     "summary": "Private network gateway is in Private Preview. A private network gateway connects Databricks serverless compute to resources in your VPC, on-premises systems, and the internet through a single managed gateway, reusing your existing network connectivity configuration (NCC). Use it for broad private connectivity without onboarding each resource individually, to route serverless egress through your own security appliances for content inspection, or to send egress from a stable set of IP addresses. See Private network gateway.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "d131dd235566962e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Gateway now supports Provisioned Throughput",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-gateway-now-supports-provisioned-throughput",
+    "published": "2026-08-24",
+    "first_seen": "2026-09-02",
+    "summary": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model traffic.\n\nSee AI governance with Unity AI Gateway.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -1148,6 +1383,18 @@
     "tags": []
   },
   {
+    "id": "46ccda755867f05b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4 Pro (0813) is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-pro-0813-is-now-available-on-unity-gateway",
+    "published": "2026-08-14",
+    "first_seen": "2026-09-02",
+    "summary": "DeepSeek V4 Pro (0813) is now available on Unity Gateway for complex reasoning and agentic coding workflows. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nTo query the model and see supported regions, see Use foundation models.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "271988316ab2552e",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -1325,6 +1572,54 @@
     "first_seen": "2026-08-18",
     "summary": "Identity attributes are in Beta. Databricks can store nine IdP-sourced attributes, such as title, department, and cost center, on account users, so they can be referenced in Unity Catalog ABAC column-masking policies. Account admins provision these attributes from their identity provider using automatic identity management or account SCIM 2.1, and use the Identity Attribute Control List to govern which attributes can be written.\n\nSee Identity attributes.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "47c05251a1604fbb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Smart Routing: Cut AI costs by routing each task to the right model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#smart-routing-cut-ai-costs-by-routing-each-task-to-the-right-model",
+    "published": "2026-08-13",
+    "first_seen": "2026-09-02",
+    "summary": "Smart Routing (Beta) automatically picks the right model and agent harness for each task, based on complexity, permissions, and budget. It shifts routine work to lower-cost models and reserves frontier models for hard problems, and every routing decision is visible and auditable. Smart Routing works with Claude Code and Codex when you run them through Omnigent or ucode, and routes across both proprietary and open models. Only Omnigent can route across coding harnesses, not just models. In internal benchmarks, it matched frontier-level quality while cutting overall task cost by more than 30%.\n\nSee Smart Routing for coding agents.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "f357376691f793be",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Block or redact sensitive data in requests and responses",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#block-or-redact-sensitive-data-in-requests-and-responses",
+    "published": "2026-08-13",
+    "first_seen": "2026-09-02",
+    "summary": "The Sensitive Data Detection guardrail (Beta) detects structured sensitive data (such as Social Security numbers, credit card numbers, IBANs, and phone numbers) and either blocks the interaction or redacts the matched values in place. Detection is deterministic (regular expressions plus checksums and context keywords, with no evaluator model), so it adds under 50 ms for a 100-turn conversation and returns the same result every time. To use it, enable the Enhanced Unity Gateway preview on the account console Previews page.\n\nThis release also includes the following improvements:\n\n- Blocked interactions now return a standard HTTP 200 response with the block reason, instead of a 4xx error, so coding agents that resend history don't re-trigger the same block every turn.\n\n- Built-in LLM-as-a-judge guardrails can now evaluate a window of recent conversation turns, or the entire conversation history, instead of only the latest message.\n\n- A new execution flow view shows the order in which guardrails run, end to end.\n\nSee Detect sensitive data with a service policy.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "77f218680b56509d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 3.7 Flash is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-gemini-37-flash-is-now-available-on-unity-gateway",
+    "published": "2026-08-13",
+    "first_seen": "2026-09-02",
+    "summary": "Google Gemini 3.7 Flash is now available on Unity Gateway for fast, cost-efficient everyday tasks. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with applicable terms.\n\nTo query the model and see supported regions, see Use foundation models.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "98e13699385590e0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cross-workspace access for serverless (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#cross-workspace-access-for-serverless-beta",
+    "published": "2026-08-13",
+    "first_seen": "2026-09-02",
+    "summary": "You can now control serverless network traffic between Databricks workspaces. Account admins use cross-workspace access to set which source workspaces can reach a workspace (ingress) and which destination workspaces a workspace's serverless workloads can send traffic to (egress). Traffic flows only when both the source workspace's egress rules and the destination workspace's ingress rules permit it. See Cross-workspace access.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -1644,6 +1939,18 @@
     "tags": []
   },
   {
+    "id": "b16d27992b8c89f8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ABAC GRANT policies now cover Unity Gateway resource types (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#abac-grant-policies-now-cover-unity-gateway-resource-types-beta",
+    "published": "2026-08-11",
+    "first_seen": "2026-09-02",
+    "summary": "Attribute-based access control (ABAC) GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition. They now support model services, model provider services, Model Context Protocol (MCP) services, and agent services, which are the resource types Unity Gateway governs. This lets you grant access to gateway resources by tag instead of one at a time. All supported types are in Beta.\n\nSee ABAC GRANT policies.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "13aa163b225a9845",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -1744,6 +2051,18 @@
     "first_seen": "2026-08-13",
     "summary": "Model Serving now supports DeepSeek V4 Flash (0731) as a Databricks-hosted model in the us-west-2 region. This hybrid mixture of experts (MoE) model has 284 billion total parameters and 13 billion active parameters and is optimized for fast, cost-efficient reasoning, coding, and agentic tool use. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "4927d886ff9deb53",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4 Flash (0731) is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-flash-0731-is-now-available-on-unity-gateway",
+    "published": "2026-08-10",
+    "first_seen": "2026-09-02",
+    "summary": "DeepSeek V4 Flash (0731) is now available on Unity Gateway for fast, cost-efficient reasoning, coding, and agentic tool use. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with applicable terms.\n\nTo query the model and see supported regions, see Use foundation models.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -1998,6 +2317,42 @@
     "first_seen": "2026-08-21",
     "summary": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled. See Zerobus Ingest overview.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "cd526345e0208e31",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Gateway API: Manage resources with SDKs, the CLI, and Terraform",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-gateway-api-manage-resources-with-sdks-the-cli-and-terraform",
+    "published": "2026-08-06",
+    "first_seen": "2026-09-02",
+    "summary": "You can manage Unity Gateway resources programmatically instead of clicking through the UI, with full create, read, update, list, and delete support for endpoints, model providers, and MCP servers. The API is available across standard Databricks developer tools:\n\n- Python SDK: databricks-sdk 0.125.0 and later\n\n- Go SDK: databricks-sdk-go v0.170.0 and later\n\n- Java SDK: databricks-sdk-java 0.143.0 and later\n\n- Databricks CLI: v1.11.0 and later\n\n- Terraform provider: 1.124.0 and later\n\nSee the Unity Gateway API reference.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "5b1fe6d171bcbbda",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks-managed MCP connectors are now integrated with Unity Gateway (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#databricks-managed-mcp-connectors-are-now-integrated-with-unity-gateway-beta",
+    "published": "2026-08-06",
+    "first_seen": "2026-09-02",
+    "summary": "All Databricks-managed MCP connectors for Genie One and Genie Code have migrated to the Unity Gateway. This brings Databricks-managed connectors under Unity Gateway, enabling centralized governance, access controls, and visibility alongside your other MCP servers and tools.\n\nUsers must reauthenticate their connectors to continue using them with Genie One and Genie Code. A notification in Genie prompts impacted users to reconnect.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "d7743aa9dba54f61",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Moonshot AI Kimi K3 is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#moonshot-ai-kimi-k3-is-now-available-on-unity-gateway",
+    "published": "2026-08-06",
+    "first_seen": "2026-09-02",
+    "summary": "Moonshot AI Kimi K3 is now available on Unity Gateway for long-horizon coding, knowledge work, and reasoning, with native vision. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nTo query the model and see supported regions, see Use foundation models.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -2261,6 +2616,30 @@
     "first_seen": "2026-08-12",
     "summary": "The managed NetSuite connector in Lakeflow Connect is now generally available. The connector allows you to ingest ERP and financial data from Oracle NetSuite into Databricks. See NetSuite connector.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "8a68b199424ee5b9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Gateway is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-gateway-is-now-generally-available",
+    "published": "2026-08-04",
+    "first_seen": "2026-09-02",
+    "summary": "Unity Gateway is now generally available. Unity Gateway is the Databricks governance solution for enterprise AI, part of Unity Catalog. With Unity Gateway you can:\n\n- Control which AI services teams can use.\n\n- Route and manage AI traffic across providers.\n\n- Govern MCP servers to control access and costs.\n\n- Monitor usage, cost, access, and lineage from one place.\n\nSome capabilities, including service policies and agent services, remain in Beta.\n\nSee AI governance with Unity AI Gateway and AI governance guide.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "cf8858325a713aed",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Schema-level HTTP connections in Unity Catalog are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#schema-level-http-connections-in-unity-catalog-are-now-generally-available",
+    "published": "2026-08-04",
+    "first_seen": "2026-09-02",
+    "summary": "HTTP connections in Unity Catalog are now generally available at the schema level. You can create an HTTP connection inside a schema instead of only at the metastore level. A schema-level connection uses the three-level namespace (catalog.schema.connection) and inherits Unity Catalog privileges from its parent schema, so you can apply the same access controls and auditing that you use for other data assets. Metastore-level HTTP connections remain in Public Preview. See Connect to external HTTP services.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -2649,6 +3028,18 @@
     "first_seen": "2026-08-04",
     "summary": "Genie Code is now available on workspaces that have the compliance security profile enabled with the HIPAA compliance standard selected and partner-powered AI features disabled. On these workspaces, Genie Code is served by Databricks-hosted models rather than partner-powered models.\n\nFor the full list of AI assistive features affected by the partner-powered AI features setting and the hosting provider used by each, see Partner-powered AI features.",
     "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "89d66fe6c05eba3a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use Unity Gateway with your own Claude enterprise subscription",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#use-unity-gateway-with-your-own-claude-enterprise-subscription",
+    "published": "2026-07-30",
+    "first_seen": "2026-09-02",
+    "summary": "Route Claude Code through Unity Gateway using an existing Claude Pro, Max, Enterprise, or Team subscription, at no additional model cost, while your organization keeps centralized governance, usage tracking, and access control. Databricks relays your Anthropic OAuth token on each request, so no credentials are stored, and requests bill against your Anthropic subscription. Access is governed by standard Unity Catalog privileges on the model provider you register, and gateway features such as usage tracking, inference tables, rate limits, and spend tracking keep working.\n\nSee Claude Max and Anthropic Enterprise support.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -3334,6 +3725,18 @@
     "first_seen": "2026-07-30",
     "summary": "The Databricks Genie app in Microsoft Teams is now in Public Preview. The app brings Genie into Microsoft Teams so users can ask data questions and get answers without leaving Microsoft Teams. See Databricks Genie app in Microsoft Teams.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "8f8c7a7768d04011",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect and govern any external model provider",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#connect-and-govern-any-external-model-provider",
+    "published": "2026-07-17",
+    "first_seen": "2026-09-02",
+    "summary": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway. Register a provider once as a governed Unity Catalog securable, and every team can query it through Unity Gateway with full governance and observability.\n\nWith external model providers, you get:\n\n- Choice: Adopt any model on day one, and switch between models or OpenAI-compatible providers without re-integrating.\n\n- Control: Govern access with standard GRANT and REVOKE (EXECUTE to query, MANAGE to update), and attach rate limits and guardrails that apply to every request.\n\n- Clarity: Usage and spend tracking is on by default, with token counts, latency, and cost attribution per user, team, or app. Attach inference tables to log full request and response payloads to a governed Delta table.\n\nSee Govern external model providers (model provider services).",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -5500,56 +5903,6 @@
     "first_seen": "2026-07-30",
     "summary": "Genie Code now offers an auto-approve mode that approves tool actions, like running code or editing notebooks, without prompting you for each request. An AI classifier reviews each action and blocks risky ones. Auto-approve is a productivity feature, not a security boundary. Databricks recommends keeping it off when working with production data or shared resources. See Approve tool actions.",
     "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "016d55d7cb7e7902",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: ts/v0.3.0-rc.0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/ts%2Fv0.3.0-rc.0",
-    "published": "2026-06-03",
-    "first_seen": "2026-07-30",
-    "summary": "[Claude Code] Support UC trace location via MLFLOW_TRACE_LOCATION (…",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "8cb389369d817913",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Full page Genie Code (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#full-page-genie-code-beta",
-    "published": "2026-06-03",
-    "first_seen": "2026-07-30",
-    "summary": "Full page Genie Code is now available in Beta. The full page experience is a command center for Genie Code, where the active thread is shown prominently, surfacing assets like notebooks and files alongside it as tabs when needed. You can run multiple threads in parallel, switch between them easily, and easily personalize Genie Code with skills, instructions, and MCP servers. See Full page Genie Code.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "28b9880c3b1a153f",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Table update triggers on Delta Sharing and system tables (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#table-update-triggers-on-delta-sharing-and-system-tables-beta",
-    "published": "2026-06-03",
-    "first_seen": "2026-07-30",
-    "summary": "Table update triggers in Lakeflow Jobs can now monitor data shared through Delta Sharing and system tables, in addition to local tables. You can trigger a job whenever a provider updates a shared table or view, or whenever new operational data lands in a system table. This feature supports Databricks-to-Databricks Delta Sharing only. See Add a trigger to OpenSharing and system tables.",
-    "category": "Sharing",
-    "tags": []
-  },
-  {
-    "id": "12c07b36735bb33d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Agent Bricks Supervisor Agent now supports web search as a built-in tool",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-web-search-as-a-built-in-tool",
-    "published": "2026-06-03",
-    "first_seen": "2026-07-30",
-    "summary": "You can now enable web search on your Supervisor Agent to answer questions that require current information from the public web. The supervisor returns a synthesized answer with source citations. Web search is also available as a databricks_web_search tool in the Supervisor API. See Use Supervisor Agent to create a coordinated multi-agent system.",
-    "category": "Artificial Intelligence",
     "tags": []
   }
 ]
