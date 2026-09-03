@@ -1,5 +1,33 @@
 [
   {
+    "id": "8be23db10cee79bc",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.15.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.15.0",
+    "published": "2026-09-03",
+    "first_seen": "2026-09-03",
+    "summary": "Release v1.15.0 (2026-09-03)\n\nCLI\n\n- When uv python install fails, databricks environments setup-local now falls back to a compatible Python interpreter already installed on the machine. (#6457)\n\n- Allow databricks environments setup-local to update pyproject.toml files containing TOML multi-line strings. (#6445)\n\nBundles\n\n- Before committing the automatic terraform→direct migration, run a deployment plan against the converted state; if the plan fails the migration is abandoned. (#6486)\n\n- The dbt-sql bundle template now uses Databricks Runtime 16.4 LTS (up from 15.4 LTS) for classic (non-serverless) compute. (#6418)\n\n- Fixed the direct engine silently ignoring edits to duration and timestamp fields, such as a Lakebase endpoint's suspend_timeout_duration. Such a change planned 0 to change and was never applied. (#6377)\n\n- Fixed $${...} not escaping a literal ${...} on the direct engine, which failed with an invalid dependency error. (#6484, #6489)\n\n- Remove forward_user_access_token from update_mask for Apps because it's not supported. Fixes regression in 1.14.1. (#6510)\n\n- direct: Fix deploying an update to postgres_projects.default_endpoint_settings. (#6440)\n\n- direct: Fix deploying an update to postgres_endpoints.settings.pg_settings. (#6441)\n\n- direct: Fix deploying an update to expire_time, ttl or suspend_timeout_duration on Lakebase resources. (#6443)\n\n- Added PyDABs (Python) support for catalogs: Resources.add_catalog and the catalog_mutator decorator. (#6408)\n\n- Bundle templates now use serverless environment version 5, which offers better performance, and databricks-connect 16.4. (#6378)\n\n- Fixed a job with a table_update trigger never converging on the direct engine. (#6442)\n\nDependency Updates\n\n- Bump Go toolchain to 1.26.8. (#6476)",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "548cfc11df2d45d5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: v0.2.1-marketplace-rc1: Marketplace test listing release candidate.",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.2.1-marketplace-rc1",
+    "published": "2026-09-03",
+    "first_seen": "2026-09-03",
+    "summary": "Includes direct Apps deploy from backend/, Lakebase OAuth bootstrap, and manifest.yaml from PR #65.",
+    "category": "Database",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
     "id": "1f70dd38b3b35287",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -49,6 +77,57 @@
     "first_seen": "2026-09-02",
     "summary": "Model Serving now supports Google Gemini 3.8 Flash as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "96c74a92e873c06f",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Southern Company’s SCOUT: Completing the Storm Intelligence Story",
+    "url": "https://www.databricks.com/blog/southern-companys-scout-completing-storm-intelligence-story",
+    "published": "2026-09-02",
+    "first_seen": "2026-09-03",
+    "summary": "Learn how Southern Company built SCOUT on the Databricks Platform to deliver real-time storm intelligence and improve outage restoration decisions.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Product",
+      "Engineering",
+      "Data Engineering",
+      "Industries",
+      "Energy",
+      "Data Strategy",
+      "Insights",
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "7543d7ccc5757e7e",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Expanding Genie Agents: Deep analysis, file reasoning, and more",
+    "url": "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more",
+    "published": "2026-09-02",
+    "first_seen": "2026-09-03",
+    "summary": "At D",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "c9c9f453700ac20d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Search supports struct and map columns and filter-only queries",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#ai-search-supports-struct-and-map-columns-and-filter-only-queries",
+    "published": "2026-09-02",
+    "first_seen": "2026-09-03",
+    "summary": "You can now index and filter struct and map columns in AI Search, and run filter-only queries that return rows matching a filter without vector or keyword retrieval. See Query an AI Search index.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -5855,54 +5934,6 @@
     "first_seen": "2026-07-30",
     "summary": "AWS Graviton instance types are now supported with the compliance security profile for all compliance standards in AWS commercial regions and Databricks on AWS GovCloud. For the instance types supported by each compliance standard, see Supported instance types.",
     "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "be94c60543bb1a5e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Improved workspace file write performance on classic compute",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#improved-workspace-file-write-performance-on-classic-compute",
-    "published": "2026-06-04",
-    "first_seen": "2026-07-30",
-    "summary": "Workspace file operations on classic compute now use asynchronous flushing by default for Databricks Runtime 17.1 and above. File writes, deletes, and metadata operations are batched and flushed in the background, reducing latency for workloads that write many files, such as Git operations. See What are workspace files?.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "54b74a54769806b7",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Write data from Microsoft Excel back to Databricks",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#write-data-from-microsoft-excel-back-to-databricks",
-    "published": "2026-06-04",
-    "first_seen": "2026-07-30",
-    "summary": "Use the Databricks Excel Add-in to write data from Microsoft Excel back to a Unity Catalog table. Create a new table or overwrite an existing table in Databricks without leaving Excel. See Write data back to Databricks using the Databricks Excel Add-in.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "22b8d3c619845f12",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Set budgets for Genie usage",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#set-budgets-for-genie-usage",
-    "published": "2026-06-04",
-    "first_seen": "2026-07-30",
-    "summary": "On July 8, 2026 at 00:00 UTC, Genie products will move to a pay-as-you-go pricing model. Each user receives 150 DBUs of free LLM usage every month, equivalent to about $10.50 in the US East region. Usage beyond the free allowance is billed in DBUs. For more information, see the release note.\n\nTo prepare, account admins can now create budgets to monitor and control spending on Genie usage. Scope a budget to Genie to track spend across your account, workspaces, user groups, or individual users, configure email alerts, and set per-user spending limits. See Manage budgets and cost controls for Genie.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "cd8627d52c78d381",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code now supports auto-approve for tool actions",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-now-supports-auto-approve-for-tool-actions",
-    "published": "2026-06-04",
-    "first_seen": "2026-07-30",
-    "summary": "Genie Code now offers an auto-approve mode that approves tool actions, like running code or editing notebooks, without prompting you for each request. An AI classifier reviews each action and blocks risky ones. Auto-approve is a productivity feature, not a security boundary. Databricks recommends keeping it off when working with production data or shared resources. See Approve tool actions.",
-    "category": "AI Assistant",
     "tags": []
   }
 ]
