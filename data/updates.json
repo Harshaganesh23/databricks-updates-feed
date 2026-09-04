@@ -1,5 +1,63 @@
 [
   {
+    "id": "d11f83e60b54c840",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Five ways marketers can use Genie One",
+    "url": "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one",
+    "published": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "summary": "Discover five high-impact use cases for Databricks Genie One, the data-smart AI coworker that helps marketers skip the analyst queue and take action on governed data.",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "00d8c79fedcea646",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: MLflow 3.16.0",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.16.0",
+    "published": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "summary": "MLflow 3.16.0 includes several major features and improvements\n\nMajor New Features\n\n- 🎨 Custom Trace Views: Design your own trace UI in plain English — describe the view you want and the MLflow Assistant builds it for you, laying out exactly the fields you care about with no config files or custom code. Save, name, and reuse views per experiment so your whole team shares the same lens on your traces.\n\n- 🔭 Redesigned Trace Experience (now default): The trace explorer has been rebuilt from the ground up and is now the default — tighter row density, cleaner navigation, and a redesigned span-tree view. Reorder columns, add configurable custom columns from any trace tag or metadata field, and find multi-turn conversations inline via session grouping.\n\n- 🔗 Span Links: Spans rarely stand alone. MLflow 3.16.0 adds first-class span links so relationships between spans — a retrieval step, a tool call, a downstream trace — are captured and navigable. Record links in your SDK and the trace explorer surfaces them in a dedicated Links tab to jump straight to the destination span.\n\nBreaking changes:\n\n- [Server-infra / Tracking] basic-auth: enable fail-closed authorization by default (#25308, @PattaraS)\n\n- [Build / Models] Drop cross version testing for pyspark < 3.4.4 (#25098, @harupy)\n\n- [Gateway / Tracing] fix: Serve FastAPI-native routers under --static-prefix (#24511, @SeiichiroYoshioka)\n\nFeatures:\n\n- [Evaluation / Tracing / Tracking] Add mlflow skills agent hints for GenAI anti-patterns (#25496, @james-fletcher-db)\n\n- [Tracing] Add shell-based MLflow Tracing setup wizard (#25441, @B-Step62)\n\n- [Gateway] Support per-user budget policies in the AI Gateway (USER scope + principal) (#24371, @joelrobin18)…",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "8eca222afac4cfda",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.135.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.135.0",
+    "published": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "summary": "## Release v0.135.0 (2026-09-04)\n\n### API Changes\n\n* Add `execute_command_sync()` method for [w.sandbox](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/sandbox/sandbox.html) workspace-level service.\n\n* Add `mode` field for `databricks.sdk.service.ml.CronSchedule`.\n\n* Add `time_window` field for `databricks.sdk.service.ml.Feature`.\n\n* Add `full_feature_name` field for `databricks.sdk.service.ml.PublishSpec`.\n\n* [Breaking] Remove `first_token_timeout` field for `databricks.sdk.service.catalog.ModelServiceConfigRoutingConfig`.\n\n* [Breaking] Remove `request_tag_key` and `request_tag_value` fields for `databricks.sdk.service.catalog.RateLimit`.\n\n* [Breaking] Remove `rate_limit_key_request_tag` enum value for `databricks.sdk.service.catalog.RateLimitRateLimitKey`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "eb16cf483a141cd1",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.6.1",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.6.1",
+    "published": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "summary": "What's Changed\n\n- build: remove unused nptyping dependency and pin numpy 2.1.3 (#91) by @tombonfert in #92\n\n- Bump version to 0.6.1 in VERSION file by @tombonfert in #93\n\nFull Changelog: v0.6.0...v0.6.1\n\nWhat's Changed\n\n- build: remove unused nptyping dependency and pin numpy 2.1.3 (#91) by @tombonfert in #92\n\n- Bump version to 0.6.1 in VERSION file by @tombonfert in #93\n\nFull Changelog: v0.6.0...v0.6.1",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
     "id": "8be23db10cee79bc",
     "source": "github_release",
     "source_label": "GitHub · databricks/cli",
@@ -26,6 +84,76 @@
     "tags": [
       "databrickslabs/lakemeter-oss"
     ]
+  },
+  {
+    "id": "d4fa99e9b9cf21dd",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Governance beyond security: knowledge, context & ontology on the lakehouse",
+    "url": "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse",
+    "published": "2026-09-03",
+    "first_seen": "2026-09-04",
+    "summary": "Read governance artifacts as semantics and Unity Catalog becomes the runtime for AI agents — so cheaper models deliver more trust on governed data.",
+    "category": "Governance",
+    "tags": [
+      "Industries",
+      "Healthcare & Life Sciences"
+    ]
+  },
+  {
+    "id": "d62b05d2178efe3b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Building High-Quality and Trusted Data Products with Databricks",
+    "url": "https://www.databricks.com/blog/building-high-quality-and-trusted-data-products-databricks",
+    "published": "2026-09-03",
+    "first_seen": "2026-09-04",
+    "summary": "Data Products apply \"product thinking\" to data. We explain data products, the underlying lifecycle, data contracts and the federated data governance process.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "7f2e685c6a145bab",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What is Data Transformation?",
+    "url": "https://www.databricks.com/blog/what-is-data-transformation",
+    "published": "2026-09-03",
+    "first_seen": "2026-09-04",
+    "summary": "Data transformation converts raw data into usable formats for analytics and AI. Learn transformation techniques, ETL processes, and best practices.",
+    "category": "Data Engineering",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "44ccfa81359f6c03",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.134.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.134.0",
+    "published": "2026-09-03",
+    "first_seen": "2026-09-04",
+    "summary": "## Release v0.134.0 (2026-09-03)\n\n### Breaking Changes\n\n* `TableSpec.source_table` and `SchemaSpec.source_schema` in the Pipelines API (`databricks.sdk.service.pipelines`) are now optional. Previously required, they may be absent for source types — such as streaming or message-bus connectors — that do not use a source table or schema name. Code that assumes these fields are always present should handle their absence.\n\n### API Changes\n\n* Add `databricks.sdk.service.aifunctions` and `databricks.sdk.service.sandbox` packages.\n\n* Add [w.ai_functions](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/aifunctions/ai_functions.html) workspace-level service.\n\n* Add [w.sandbox](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/sandbox/sandbox.html) workspace-level service.\n\n* Add `update_deployment()` method for [w.bundle_deployments](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/bundledeployments/bundle_deployments.html) workspace-level service.\n\n* Add `genie_cancel_response()` method for [w.genie](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/dashboards/genie.html) workspace-level service.\n\n* Add `get_external_group()`, `get_external_service_principal()` and `get_external_user()` methods for [a.account_iam_v2](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html) account-level service.\n\n* Add `get_external_group_proxy()`, `get_external_service_principal_proxy()` and `get_external_user_proxy()` methods for [w.workspace_iam_v2](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/iamv2/workspace_iam_v2.html) workspace-level service.…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "81234c2135467a8e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Share metric views with OpenSharing (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#share-metric-views-with-opensharing-beta",
+    "published": "2026-09-03",
+    "first_seen": "2026-09-04",
+    "summary": "You can now share metric views with Databricks users in other metastores or accounts using OpenSharing. See Add metric views to a share and Read shared metric views.",
+    "category": "Business Intelligence",
+    "tags": []
   },
   {
     "id": "1f70dd38b3b35287",
@@ -298,6 +426,18 @@
     "first_seen": "2026-09-02",
     "summary": "Unity AI Gateway now supports Anthropic Claude Fable 5.1 as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.On this page\n- Git Folder Serverless is in Beta\n- Google Gemini 3.8 Flash now available as a Databricks-hosted model\n- Apache Arrow support for Zerobus Ingest is now generally available\n- Genie One web search is in Beta\n- Genie One and Genie Agents can now use models served through OpenAI on Databricks\n- Databricks Runtime maintenance updates (09/01)\n- Anthropic Claude Fable 5.1 now available as a Databricks-hosted modelPrivacy NoticeÂ·Terms of UseÂ·<a href=https://www.databricks.com/legal",
     "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "fb4033282e79e43f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code scheduled tasks are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-code-scheduled-tasks-are-now-generally-available",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-04",
+    "summary": "Genie Code scheduled tasks are now generally available. You can schedule Genie Code to run a prompt on a recurring schedule. Each run executes your prompt as a full Genie Code session and produces a continuable Genie chat with the results, so you can turn recurring analysis and other work into an unattended background task. Create a scheduled task by asking Genie Code in chat or from the Schedules menu. See Genie Code scheduled tasks.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -5886,54 +6026,6 @@
     "first_seen": "2026-07-30",
     "summary": "AI Search now supports query-time options for full-text and hybrid queries in Beta. You can limit keyword matching to selected text columns, sort results by columns indexed for sorting, and return aggregate counts for values and ranges. For details, see Search selected text columns, sort results, and return aggregations (Beta).",
     "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "a78696a4023366a4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Foundation model Unity Catalog permissions is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#foundation-model-unity-catalog-permissions-is-generally-available",
-    "published": "2026-06-05",
-    "first_seen": "2026-07-30",
-    "summary": "Foundation model Unity Catalog permissions is now generally available. This feature requires enablement by your Databricks account team.\n\nAccount admins can use Unity Catalog permissions on the system.ai schema to control which Databricks-hosted foundation models your organization can access. Permissions are enforced across pay-per-token, provisioned throughput, and batch inference (AI Functions) workloads.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "8009fd9d9d368279",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Managed SharePoint connector adds structured file ingestion and file metadata support (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-sharepoint-connector-adds-structured-file-ingestion-and-file-metadata-support-beta",
-    "published": "2026-06-05",
-    "first_seen": "2026-07-30",
-    "summary": "The managed SharePoint connector in Lakeflow Connect now supports structured file ingestion (CSV, JSON, XML, Excel, Parquet, Avro, ORC), file metadata ingestion, file filters, schema evolution modes, and schema hints. These capabilities replace the previous unstructured-only ingestion approach with a unified managed file source API. See SharePoint connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "aed6ad2e99ec3d7c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "External data access for pipeline streaming tables and materialized views (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#external-data-access-for-pipeline-streaming-tables-and-materialized-views-public-preview",
-    "published": "2026-06-05",
-    "first_seen": "2026-07-30",
-    "summary": "You can now enable external Delta and Iceberg clients to read streaming tables and materialized views managed by a pipeline through the Unity Catalog and Iceberg catalog REST APIs, without copying the data. See Enable external data access to streaming tables and materialized views, Public Preview.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "7180e27f85e36503",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "AWS Graviton instances are now supported with the compliance security profile",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#aws-graviton-instances-are-now-supported-with-the-compliance-security-profile",
-    "published": "2026-06-05",
-    "first_seen": "2026-07-30",
-    "summary": "AWS Graviton instance types are now supported with the compliance security profile for all compliance standards in AWS commercial regions and Databricks on AWS GovCloud. For the instance types supported by each compliance standard, see Supported instance types.",
-    "category": "Security",
     "tags": []
   }
 ]
