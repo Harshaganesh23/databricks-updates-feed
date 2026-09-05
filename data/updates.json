@@ -1,5 +1,33 @@
 [
   {
+    "id": "a50cd7d69653da23",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: v0.2.1-marketplace-rc3",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.2.1-marketplace-rc3",
+    "published": "2026-09-05",
+    "first_seen": "2026-09-05",
+    "summary": "Lakemeter Marketplace RC3",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
+    "id": "b3e5b09ed41fb6c5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: v0.2.1-marketplace-rc2",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.2.1-marketplace-rc2",
+    "published": "2026-09-05",
+    "first_seen": "2026-09-05",
+    "summary": "Lakemeter Marketplace RC2",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
     "id": "d11f83e60b54c840",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -56,6 +84,35 @@
     "tags": [
       "databrickslabs/impulse"
     ]
+  },
+  {
+    "id": "baa2994d0399f3d0",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Achieving Extreme Efficiency through Specialized GPU Kernel Generation",
+    "url": "https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation",
+    "published": "2026-09-04",
+    "first_seen": "2026-09-05",
+    "summary": "Learn how we built an agentic system that automates the generation and rigorous validation of specialized GPU kernels to achieve extreme inference efficiency.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering",
+      "Data Science and ML",
+      "Databricks AI",
+      "AI Engineering"
+    ]
+  },
+  {
+    "id": "43f1c17c8163631a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-6 Astra is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#openai-gpt-6-astra-is-now-available-on-unity-gateway",
+    "published": "2026-09-04",
+    "first_seen": "2026-09-05",
+    "summary": "OpenAI GPT-6 Astra is now available on Unity Gateway for enterprise reasoning, structured document processing, coding, agentic search, multimodal inputs, and long-context workloads. You can access this model using Foundation Model APIs pay-per-token.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "8be23db10cee79bc",
@@ -153,6 +210,18 @@
     "first_seen": "2026-09-04",
     "summary": "You can now share metric views with Databricks users in other metastores or accounts using OpenSharing. See Add metric views to a share and Read shared metric views.",
     "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "92bbd62137156999",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Environment version 6 is now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#environment-version-6-is-now-available",
+    "published": "2026-09-03",
+    "first_seen": "2026-09-05",
+    "summary": "You can now select environment version 6 as your base environment for serverless and standard classic compute. See Environment version 6.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -437,6 +506,18 @@
     "published": "2026-09-01",
     "first_seen": "2026-09-04",
     "summary": "Genie Code scheduled tasks are now generally available. You can schedule Genie Code to run a prompt on a recurring schedule. Each run executes your prompt as a full Genie Code session and produces a continuable Genie chat with the results, so you can turn recurring analysis and other work into an unattended background task. Create a scheduled task by asking Genie Code in chat or from the Schedules menu. See Genie Code scheduled tasks.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "6990650a29fe37d8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Automatic change data feed is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#automatic-change-data-feed-is-now-generally-available",
+    "published": "2026-09-01",
+    "first_seen": "2026-09-05",
+    "summary": "Automatic change data feed (Auto CDF) computes row-level changes at query time using row tracking, without requiring you to manually enable change data feed on each Delta Lake or Apache Iceberg v3 table. Auto CDF removes write-time overhead and makes MERGE and UPDATE operations about 15% faster on tables that you query for changes. It works with batch queries, Structured Streaming, and Delta Lake Sharing, and requires Databricks Runtime 19 LTS or above with row tracking enabled. See Automatic change data feed.On this page\n- OpenAI GPT-6 Astra is now available on Unity Gateway\n- Share metric views with OpenSharing (Beta)\n- Environment version 6 is now available\n- Git Folder Serverless is in Beta\n- Google Gemini 3.8 Flash now available as a Databricks-hosted model\n- AI Search supports struct and map columns and filter-only queries\n- Apache Arrow support for Zerobus Ingest is now generally available\n- Genie One web search is in Beta\n- Genie One and Genie Agents can now use models served through OpenAI on Databricks\n- Genie Code scheduled tasks are now generally available\n- Databricks Runtime maintenance updates (09/01)\n- <a href=#anthropic-claude-fable-51-now-available",
     "category": "AI Assistant",
     "tags": []
   },
@@ -1497,6 +1578,18 @@
     "first_seen": "2026-08-19",
     "summary": "Identity attributes are in Beta. You can now write Unity Catalog ABAC column mask policy conditions that target users by attributes synced from your identity provider, such as department or country, in addition to group membership. The has_identity_attribute_value and has_identity_attribute_tag_match functions are supported in the WHEN clause of column mask policies.\n\nSee identity attributes.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "47d16c9fabd97667",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Manage project environments with %uv commands",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#manage-project-environments-with-uv-commands",
+    "published": "2026-08-17",
+    "first_seen": "2026-09-05",
+    "summary": "You can now use %uv init, %uv add, and %uv sync in serverless notebooks running environment version 5 or above to create a Python project, add dependencies, and sync its environment. See Manage a project environment with %uv.",
+    "category": "Application Development",
     "tags": []
   },
   {
