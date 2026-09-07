@@ -1,5 +1,47 @@
 [
   {
+    "id": "59afc1aed654153f",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.136.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.136.0",
+    "published": "2026-09-07",
+    "first_seen": "2026-09-07",
+    "summary": "## Release v0.136.0 (2026-09-07)\n\n### API Changes\n\n* Add `databricks.sdk.service.domains` package.\n\n* Add [w.domains](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/domains/domains.html) workspace-level service.\n\n* Add `entity_columns` and `timeseries_column` fields for `databricks.sdk.service.ml.DeltaTableSource`.\n\n* Add `filter_condition` and `inputs` fields for `databricks.sdk.service.ml.Feature`.\n\n* Add `extra_parameters` and `function_type` fields for `databricks.sdk.service.ml.Function`.\n\n* Add `entity_column_identifiers` and `timeseries_column_identifier` fields for `databricks.sdk.service.ml.KafkaSource`.\n\n* Add `cron_schedule` field for `databricks.sdk.service.ml.MaterializedFeature`.\n\n* Add `continuous` field for `databricks.sdk.service.ml.TimeWindow`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "3949090945026214",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-rc.2",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-rc.2",
+    "published": "2026-09-07",
+    "first_seen": "2026-09-07",
+    "summary": "DQX Studio 0.1.0 RC 2",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "a8efd0cf91e2b389",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-rc.1",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-rc.1",
+    "published": "2026-09-07",
+    "first_seen": "2026-09-07",
+    "summary": "DQX Studio 0.1.0 RC 1",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
     "id": "a50cd7d69653da23",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/lakemeter-oss",
@@ -6033,92 +6075,6 @@
     "first_seen": "2026-07-30",
     "summary": "The Spark Declarative Pipelines on Lakeflow documentation is reorganized: all conceptual topics are now grouped under Concepts.",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "4c71b6f6e1e7907a",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.115.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.115.0",
-    "published": "2026-06-08",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.115.0\n\n### New Features and Improvements\n\n* Honor the Vercel `AI_AGENT=<name>` env var as a secondary fallback for AI agent detection in the User-Agent header (after the agents.md `AGENT=<name>` standard). Unrecognized fallback values now pass through the User-Agent sanitized and length-capped at 64 chars instead of being coerced to `agent/unknown`, so versioned variants such as `claude-code_2-1-141_agent` surface as-is.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "07c89342ae1a9dc4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Monday.com managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#mondaycom-managed-ingestion-connector-beta",
-    "published": "2026-06-08",
-    "first_seen": "2026-07-30",
-    "summary": "The Monday.com connector in Lakeflow Connect is now available in Beta. The connector ingests work management data such as boards, users, teams, and activity logs from Monday.com into Databricks. See Monday.com connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "f6164cbad5097b9d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zoho Books managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#zoho-books-managed-ingestion-connector-beta",
-    "published": "2026-06-08",
-    "first_seen": "2026-07-30",
-    "summary": "The Zoho Books connector in Lakeflow Connect is now available in Beta. The connector ingests accounting data such as invoices, bills, contacts, and bank transactions from Zoho Books into Databricks. See Zoho Books connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "eaae78b3b5ec9cad",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Inbound Private Link for performance-intensive services is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#inbound-private-link-for-performance-intensive-services-is-now-generally-available",
-    "published": "2026-06-08",
-    "first_seen": "2026-07-30",
-    "summary": "Inbound Private Link for performance-intensive services, such as Lakebase Autoscaling and Zerobus Ingest, is now generally available. See Configure inbound PrivateLink for performance-intensive services.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "4091ffd3a772719f",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "External lineage is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#external-lineage-is-now-generally-available",
-    "published": "2026-06-08",
-    "first_seen": "2026-07-30",
-    "summary": "External lineage (formerly Bring Your Own Lineage) in Unity Catalog is now generally available. You can register assets that live outside Databricks, such as Salesforce or MySQL sources and Tableau or Power BI dashboards, so that a single lineage graph spans your full data flow. As part of this release, Lakeflow Connect managed ingestion pipelines now automatically record source lineage from source tables to their destination tables in Unity Catalog. See External lineage and Track source data lineage for managed ingestion pipelines.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "b3b7b151b43dd975",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Aha! connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#aha-connector-beta",
-    "published": "2026-06-08",
-    "first_seen": "2026-07-30",
-    "summary": "Lakeflow Connect now supports a managed connector for ingestion from Aha!. See Aha! connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "1f45f9158594c912",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "AI Search supports selected text columns, sorting, and aggregations (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai-search-supports-selected-text-columns-sorting-and-aggregations-beta",
-    "published": "2026-06-08",
-    "first_seen": "2026-07-30",
-    "summary": "AI Search now supports query-time options for full-text and hybrid queries in Beta. You can limit keyword matching to selected text columns, sort results by columns indexed for sorting, and return aggregate counts for values and ranges. For details, see Search selected text columns, sort results, and return aggregations (Beta).",
-    "category": "Platform Overview",
     "tags": []
   }
 ]
