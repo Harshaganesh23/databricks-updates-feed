@@ -1,5 +1,183 @@
 [
   {
+    "id": "b6e5be52dc0d3e44",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
+    "url": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-09",
+    "summary": "Discover how Databricks provides a single platform where the full Solvency II reporting cycle can be implemented as one governed workflow, connecting data, models, and AI to streamline compliance and scenario analysis.",
+    "category": "Security",
+    "tags": [
+      "Industries",
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "e5cc8c3f8b22f886",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
+    "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-09",
+    "summary": "One embedded AI/BI Dashboard, safely shared: each viewer sees only their own rows, with group-based row-level security, masking, and default-deny.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "c247a3b25113732b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing Consort: Test-driven development on a branching database",
+    "url": "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-09",
+    "summary": "Learn how to leverage an open-source agentic framework for test-driven development on a real branching database.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Partners"
+    ]
+  },
+  {
+    "id": "d71c12e9c3599d69",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
+    "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-09",
+    "summary": "Adaptive Instructed-Retriever combines the speed of parallel retrieval with the performance of sequential search while maintaining strict cost and latency guarantees.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "25125979cade5925",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
+    "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-09",
+    "summary": "Evaluation-first AI agents at Zepto: how Databricks + MLflow power reliable, high-ROI agent systems—and a practical blueprint AI builders can apply.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Product",
+      "Engineering",
+      "Data Science and ML",
+      "AI Engineering",
+      "Industries",
+      "Retail & Consumer Goods",
+      "Data Strategy",
+      "Best Practices",
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "2431018cb9d19247",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.137.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.137.0",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-09",
+    "summary": "## Release v0.137.0 (2026-09-09)\n\n### API Changes\n\n* Add `purge_feature_entities()` method for [w.feature_engineering](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/ml/feature_engineering.html) workspace-level service.\n\n* Add `deny` field for `databricks.sdk.service.catalog.PolicyInfo`.\n\n* Add `budget_policy_id` and `tags` fields for `databricks.sdk.service.ml.IngestionConfig`.\n\n* Add `budget_policy_id` and `tags` fields for `databricks.sdk.service.ml.MaterializedFeature`.\n\n* Add `policy_type_deny` enum value for `databricks.sdk.service.catalog.PolicyType`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "cca2f047db4fa1cd",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.16.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.16.0",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-09",
+    "summary": "Release v1.16.0\n\nCLI\n\n- aitools install now registers the official Claude marketplace if it is missing before installing the Databricks Claude plugin. (#6485)\n\n- databricks aitools install --output json now reports an error_category for a failed or skipped install (per agent, and at the top level for a failure with no per-agent entry), giving coding agents and CI a stable classification of why an install did not complete. (#6482)\n\n- databricks aitools install honors --output json, emitting a structured {scope, agents[...]} document that reports each agent's delivery and install status so coding agents and CI can consume the result without scraping the text output. JSON mode requires --scope and --agents so the command runs without interactive prompts. (#6481)\n\n- databricks bundle sync now prints sync progress (Action: PUT, Uploaded ...) by default, matching databricks sync. Previously it was silent unless --output was passed. Use --output json for machine-readable output. (#6568)\n\n- Support major-only DBR runtime versions such as 19.x-scala2.13 in the cluster picker used by databricks auth login --configure-cluster and databricks labs. (#6574)\n\n- Deprecated the databricks environments setup-local --constraints-only flag in favour of the orthogonal --no-dbconnect; the flag still works as a hidden alias but is hidden from --help and prints a one-line deprecation notice, and will be removed in a later release. (#6470)\n\n- Add orthogonal --no-constraints and --no-dbconnect flags to databricks environments setup-local: --no-constraints skips writing the remote Python-version and dependency pins, and --no-dbconnect skips the databricks-connect dependency. (#6464)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "3b84c6dab02a0af6",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "SQL Data Types: Reference and Best Practices",
+    "url": "https://www.databricks.com/blog/sql-data-types",
+    "published": "2026-09-08",
+    "first_seen": "2026-09-09",
+    "summary": "SQL data types: numeric, character, date/time, and binary types. Master storage optimization, query performance, data integrity best practices, and cross-vendor differences.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "d491d41c578356d1",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Build durable agents with Temporal and Lakebase",
+    "url": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
+    "published": "2026-09-08",
+    "first_seen": "2026-09-09",
+    "summary": "A personal-loan unde",
+    "category": "Database",
+    "tags": [
+      "Partners"
+    ]
+  },
+  {
+    "id": "74abd4ec095cacaa",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: dbr-20260908-05680db13",
+    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20260908-05680db13",
+    "published": "2026-09-08",
+    "first_seen": "2026-09-09",
+    "summary": "Set version to 4.1.0-20260908-dbrbuild for DBR kernel build",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "bc3ff67e9b59835f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "time_bucket SQL function aligns timestamps to fixed-width time buckets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#time",
+    "published": "2026-09-08",
+    "first_seen": "2026-09-09",
+    "summary": "time_bucket returns the start of the fixed-width interval a timestamp falls into, aligned to an origin you choose (for example, 15-minute or 3-month buckets). Use it instead of date_trunc when the bucket width or start is not a calendar unit.\n\nSee time_bucket function.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "72b0deab8145125b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ABAC DENY policies are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#abac-deny-policies-are-in-beta",
+    "published": "2026-09-08",
+    "first_seen": "2026-09-09",
+    "summary": "ABAC DENY policies are in Beta in Unity Catalog. DENY policies can be used to explicitly deny the MANAGE ACCESS CONTROL privilege to prevent specified principals, including object owners, from performing access-management operations. They always take precedence over any grant.\n\nFor details, see ABAC DENY policies (Beta).",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "59afc1aed654153f",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -40,6 +218,32 @@
     "tags": [
       "databrickslabs/dqx"
     ]
+  },
+  {
+    "id": "74cbd35d2f4bd7ec",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The 40-year-old database rule agents just broke: How LTAP unifies OLTP and OLAP workloads",
+    "url": "https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads",
+    "published": "2026-09-07",
+    "first_seen": "2026-09-09",
+    "summary": "LTAP unifies transactional and analytical data at the storage layer so AI agents can act on live state. Learn how it differs from HTAP.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "ed8a2df03b660fb3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zerobus Ingest into default storage is now in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#zerobus-ingest-into-default-storage-is-now-in-public-preview",
+    "published": "2026-09-07",
+    "first_seen": "2026-09-09",
+    "summary": "Ingesting into tables backed by default storage with Zerobus Ingest in Lakeflow Connect is now in Public Preview. See Create or identify the target table.",
+    "category": "Data Engineering",
+    "tags": []
   },
   {
     "id": "a50cd7d69653da23",
@@ -1148,6 +1352,18 @@
     "tags": []
   },
   {
+    "id": "bc4cc14aa2ccad18",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anysphere Audit Logs connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#anysphere-audit-logs-connector-beta",
+    "published": "2026-08-25",
+    "first_seen": "2026-09-09",
+    "summary": "The Anysphere Audit Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses the Anysphere (Cursor) Admin API to incrementally ingest team audit-log events into Databricks. Authentication uses a Cursor Admin API key.\n\nSee Anysphere Audit Logs connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "9e0202f24c769d53",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -1234,6 +1450,18 @@
     "published": "2026-08-24",
     "first_seen": "2026-09-02",
     "summary": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model traffic.\n\nSee AI governance with Unity AI Gateway.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "f9b05229692780bc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Verkada connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#verkada-connector-beta",
+    "published": "2026-08-24",
+    "first_seen": "2026-09-09",
+    "summary": "The Verkada connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests organization audit logs and access users from your Verkada organization into Databricks. Authentication uses a Verkada organization API key.\n\nSee Verkada connector.",
     "category": "Governance",
     "tags": []
   },
@@ -5929,80 +6157,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. See Use Supervisor Agent to create a coordinated multi-agent system.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "d8fe7e5ae7a145e3",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.116.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.116.0",
-    "published": "2026-06-10",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.116.0\n\n### API Changes\n\n* Add `databricks.sdk.service.aisearch` and `databricks.sdk.service.bundledeployments` packages.\n\n* Add [w.ai_search](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/aisearch/ai_search.html) workspace-level service.\n\n* Add [w.bundle_deployments](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/bundledeployments/bundle_deployments.html) workspace-level service.\n\n* Add `running_instances` field for `databricks.sdk.service.apps.ApplicationStatus`.\n\n* Add `custom_max_retention_hours` field for `databricks.sdk.service.catalog.CatalogInfo`.\n\n* Add `environment_settings` field for `databricks.sdk.service.catalog.ConnectionInfo`.\n\n* Add `custom_max_retention_hours` field for `databricks.sdk.service.catalog.CreateCatalog`.\n\n* Add `environment_settings` field for `databricks.sdk.service.catalog.CreateConnection`.\n\n* Add `custom_max_retention_hours` field for `databricks.sdk.service.catalog.CreateSchema`.\n\n* Add `custom_max_retention_hours` field for `databricks.sdk.service.catalog.SchemaInfo`.\n\n* Add `custom_max_retention_hours` field for `databricks.sdk.service.catalog.UpdateCatalog`.\n\n* Add `environment_settings` field for `databricks.sdk.service.catalog.UpdateConnection`.\n\n* Add `custom_max_retention_hours` field for `databricks.sdk.service.catalog.UpdateSchema`.\n\n* Add `stream_source` field for `databricks.sdk.service.ml.DataSource`.\n\n* Add `ingestion_config` field for `databricks.sdk.service.ml.KafkaConfig`.\n\n* Add `clustering_columns`, `enable_auto_clustering` and `table_properties` fields for `databricks.sdk.service.pipelines.TableSpecificConfig`.\n\n* Add `branch_id` field for `databricks.sdk.service.postgres.Branch`.\n\n* Add `catalog_id` field for `databricks.sdk.service.postgres.Catalog`.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "883da46e697b5476",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Schedule deferred policy enforcement for all-purpose compute",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#schedule-deferred-policy-enforcement-for-all-purpose-compute",
-    "published": "2026-06-10",
-    "first_seen": "2026-07-30",
-    "summary": "When you enforce compute policy compliance on out-of-compliance all-purpose compute, you can now schedule the configuration update to apply the next time the compute terminates or restarts, instead of restarting it immediately. Enforce on next restart avoids interrupting running workloads, while Restart and enforce applies the update right away. Workspace admins can cancel a scheduled enforcement for a single compute resource or for an entire policy. See Enforce policy compliance.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "0b4bf62d848d27c3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Genie app in Microsoft Teams (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-genie-app-in-microsoft-teams-beta",
-    "published": "2026-06-10",
-    "first_seen": "2026-07-30",
-    "summary": "The Databricks Genie app in Microsoft Teams is now available in Beta. The app brings Genie into Microsoft Teams so users can ask data questions and get answers without leaving Microsoft Teams. Chat with the app in a direct message or mention @Databricks Genie in a channel or group chat, and answers route through Genie or a pinned Genie Agent. See Databricks Genie app in Microsoft Teams.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "0f3bd1cfdf7d7c1d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakehouse Replay (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakehouse-replay-beta",
-    "published": "2026-06-10",
-    "first_seen": "2026-07-30",
-    "summary": "Lakehouse Replay is now available in Beta. Lakehouse Replay automatically replays a sampled set of read-only serverless workloads from your workspace against upcoming Databricks Runtime releases to detect and fix regressions before they reach production. It requires no setup, configuration, or maintenance. Your data never leaves your workspace, and you are not billed for the compute used to run the replay.\n\nWorkspace admins can control the enablement of this feature from the workspace Previews page. See Lakehouse Replay.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "9b846bdbadddb014",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Delta Sharing is now OpenSharing",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#delta-sharing-is-now-opensharing",
-    "published": "2026-06-10",
-    "first_seen": "2026-07-30",
-    "summary": "Following the release of open-source OpenSharing, Delta Sharing is now OpenSharing. OpenSharing is the new open standard for sharing data and AI assets across platforms and organizations, available both on GitHub and natively on Databricks. See What is OpenSharing? and opensharing.io for more.",
-    "category": "Sharing",
-    "tags": []
-  },
-  {
-    "id": "2230ef6b1eda23f1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zip connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#zip-connector-beta",
-    "published": "2026-06-10",
-    "first_seen": "2026-07-30",
-    "summary": "Lakeflow Connect now supports a managed connector for ingestion from Zip. See Zip connector.",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
