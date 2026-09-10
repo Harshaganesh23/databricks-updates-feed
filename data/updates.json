@@ -1,5 +1,62 @@
 [
   {
+    "id": "2939f6d2b69f06b5",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Improving Lakebase Postgres compute cache",
+    "url": "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache",
+    "published": "2026-09-10",
+    "first_seen": "2026-09-10",
+    "summary": "Large Postgres compute nodes now run up to 2x faster with lower latency.",
+    "category": "Database",
+    "tags": [
+      "Engineering",
+      "Data Engineering"
+    ]
+  },
+  {
+    "id": "6a3b5092c03ab260",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.16.1",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.16.1",
+    "published": "2026-09-10",
+    "first_seen": "2026-09-10",
+    "summary": "Release v1.16.1\n\nCLI\n\n- Revert tunnel resume layer to fix SSH transfer regression in v1.16.0 affecting transfers larger than 1 MiB. (#6608, #6612)",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "e0d1f6cdce633695",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: v0.15.2",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.15.2",
+    "published": "2026-09-10",
+    "first_seen": "2026-09-10",
+    "summary": "Release v0.15.2\n\nProfilers\n\nTeradata\n\n- Simplified pdcr workload extraction (#2654)\n\nThe pdcr BI workload extract now groups by just QueryType and WorkloadBucket instead of thirteen dimensions, dropping the PDCRINFO.UserInfo join and the organizational/user/hourly breakdowns that the migration model doesn't need. This eliminates the join spool that could stall production runs on large repositories. Adds a new td_pdcr_bi_concurrency_extract tracking total BI queries and average BI query starts per minute over a 180-day window.\n\nReconcile\n\n- Fixed BigQuery timestamp fidelity (#2594)\n\nBigQuery TIMESTAMP and DATETIME columns are now formatted explicitly (FORMAT_TIMESTAMP/FORMAT_DATETIME) so their row hashes match Spark's, instead of relying on a plain CAST(... AS STRING) that emitted timezone offsets and different fractional-second precision. This clears false row/data/all mismatches on any correctly-migrated table containing those types. Also fixes false schema mismatches on multi-field STRUCTs, and adds warnings for width-lossy types (INT64, FLOAT64, DATETIME) that BigQuery cannot distinguish from narrower targets.\n\n- Extracted column transformations into a ColumnTransformer service (#2601)\n\nRefactors the reconcile query builders so column transforms are resolved by a dedicated ColumnTransformer service that holds both the source and target sides, replacing the inline per-type logic previously scattered across the builders. No change to query output — this is a structural change that gives cross-engine numeric rendering a place to live.\n\nFull Changelog: v0.15.1...v0.15.2\n\nFull Changelog: v0.15.1...v0.15.2",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "a1fdac3e1e31c963",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.7.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.7.0",
+    "published": "2026-09-10",
+    "first_seen": "2026-09-10",
+    "summary": "What's Changed\n\n- Add databricks-impulse into SDK and Spark Connect channel user-agents by @tombonfert in #94\n\n- Pin silver input tables to fixed Delta versions per report run by @tombonfert in #90\n\n- Add scoped full recalculation to Impulse reporting by @tombonfert in #95\n\n- Skip Delta version pinning for view inputs without logging an error by @tombonfert in #97\n\n- Bump version to 0.7.0 in VERSION file by @tombonfert in #96\n\nFull Changelog: v0.6.1...v0.7.0\n\nWhat's Changed\n\n- Add databricks-impulse into SDK and Spark Connect channel user-agents by @tombonfert in #94\n\n- Pin silver input tables to fixed Delta versions per report run by @tombonfert in #90\n\n- Add scoped full recalculation to Impulse reporting by @tombonfert in #95\n\n- Skip Delta version pinning for view inputs without logging an error by @tombonfert in #97\n\n- Bump version to 0.7.0 in VERSION file by @tombonfert in #96\n\nFull Changelog: v0.6.1...v0.7.0",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
     "id": "b6e5be52dc0d3e44",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -112,6 +169,20 @@
     ]
   },
   {
+    "id": "68a1d3f7b02efd3e",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Five AI Questions We're Hearing from Financial Services Leaders",
+    "url": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-10",
+    "summary": "Last year at Sibos F",
+    "category": "Platform Overview",
+    "tags": [
+      "Financial Services"
+    ]
+  },
+  {
     "id": "3b84c6dab02a0af6",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -175,6 +246,18 @@
     "first_seen": "2026-09-09",
     "summary": "ABAC DENY policies are in Beta in Unity Catalog. DENY policies can be used to explicitly deny the MANAGE ACCESS CONTROL privilege to prevent specified principals, including object owners, from performing access-management operations. They always take precedence over any grant.\n\nFor details, see ABAC DENY policies (Beta).",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "fd11177c2b10af27",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "See which chunks support each ai_search answer (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#see-which-chunks-support-each-ai",
+    "published": "2026-09-08",
+    "first_seen": "2026-09-10",
+    "summary": "You can now turn on the generate_citations option in the ai_search function to see which retrieved chunks the model used to support each answer it generates. ai_search function",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -1106,6 +1189,30 @@
     "first_seen": "2026-08-28",
     "summary": "Use Genie Code to develop and troubleshoot deep learning workloads in notebooks connected to AI Runtime. Now in Public Preview, it generates distributed training code, resolves environment and dependency issues, and debugs GPU and distributed workload failures. See Use Genie Code with AI Runtime.",
     "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "de4c6994f88a50a8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Atlassian Audit Logs connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#atlassian-audit-logs-connector-beta",
+    "published": "2026-08-27",
+    "first_seen": "2026-09-10",
+    "summary": "The Atlassian Audit Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests organization audit log events, such as user, security, and configuration changes, from Atlassian into Databricks. Authentication uses an Atlassian organization API key.\n\nSee Atlassian Audit Logs connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "1d72e9d6203cdc0d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Functions REST API is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai-functions-rest-api-is-now-generally-available",
+    "published": "2026-08-27",
+    "first_seen": "2026-09-10",
+    "summary": "You can now call ai_parse_document, ai_extract, and ai_classify through the AI Functions REST API. See intelligent document processing for more details.",
+    "category": "Application Development",
     "tags": []
   },
   {
@@ -6069,94 +6176,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now convert an existing partitioned Delta Lake table to liquid clustering with ALTER TABLE ... REPLACE PARTITIONED BY WITH CLUSTER BY. Conversion minimizes reader and writer downtime and supports both external and managed tables. This feature is generally available in Databricks Runtime 18.1 and above. See Convert a partitioned table to liquid clustering.",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "9081d3acd9ae822d",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.117.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.117.0",
-    "published": "2026-06-11",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.117.0 (2026-06-11)\n\n### API Changes\n\n* Add `type_overrides` field for `databricks.sdk.service.database.SyncedTableSpec`.\n\n* Add `type_overrides` field for `databricks.sdk.service.postgres.SyncedTableSyncedTableSpec`.\n\n* Change `resource_id` field for `databricks.sdk.service.bundledeployments.Operation` to no longer be required.\n\n* [Breaking] Change `resource_id` field for `databricks.sdk.service.bundledeployments.Operation` to no longer be required.\n\n### Bug Fixes\n\n* Cache tokens minted by `DatabricksOidcTokenSource` (Workload Identity\n\nFederation / account-wide token federation). Previously a fresh\n\n`/oidc/v1/token` exchange was performed on every authenticated API\n\ncall, adding latency, amplifying transient federation-policy errors,\n\nand hitting OIDC token-endpoint rate limits. The token source now\n\nreuses the cached token until it is stale or expired, fetching a fresh\n\nID token on each refresh to support rotation.\n\n* Make `WorkspaceClient.dbutils` lazy (`functools.cached_property`).\n\nThe constructor no longer imports `databricks.sdk.runtime` eagerly, so\n\non Spark Connect (shared-access-mode) clusters, consumers that never\n\nread `.dbutils` — such as `dbt-databricks` Python models — no longer\n\ncrash with `CONTEXT_UNAVAILABLE_FOR_REMOTE_CLIENT` during client\n\nconstruction.\n\n* Fall back to the remote runtime implementation when the legacy user\n\nnamespace cannot be materialized. On Spark Connect runtimes (e.g.\n\nshared-access-mode clusters), importing `databricks.sdk.runtime` —\n\nwhich happens when constructing a `WorkspaceClient` on such a cluster\n\n— tried to build a legacy `SparkContext` and raised\n\n`CONTEXT_UNAVAILABLE_FOR_REMOTE_CLIENT` at import time. It now logs a\n\nwarning and falls back to the Spark Connect-compatible remote…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "9120455fea55c8ae",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.0.5",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.0.5",
-    "published": "2026-06-11",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- updated docs regarding measurement_dimension configuration by @tombonfert in #38\n\n- Enhance resampling logic in SampleSeries to handle interior zero-dura… by @tombonfert in #40\n\n- Feature/channel mapping resolution dim by @tombonfert in #39\n\n- Bump version to 0.0.5 in VERSION file by @tombonfert in #41\n\nFull Changelog: v0.0.4...v0.0.5\n\nWhat's Changed\n\n- updated docs regarding measurement_dimension configuration by @tombonfert in #38\n\n- Enhance resampling logic in SampleSeries to handle interior zero-dura… by @tombonfert in #40\n\n- Feature/channel mapping resolution dim by @tombonfert in #39\n\n- Bump version to 0.0.5 in VERSION file by @tombonfert in #41\n\nFull Changelog: v0.0.4...v0.0.5",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "f09541bbc667ee28",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ai_query is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai",
-    "published": "2026-06-11",
-    "first_seen": "2026-07-30",
-    "summary": "The ai_classify function is now generally available. This function classifies text content according to custom labels you provide, with support for label descriptions, global instructions, and multi-label classification. See ai_classify function.\n\nFor a no-code UI to build, validate, and iterate on classification agents, see Classification.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "46d78a3019ebac13",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Endpoint telemetry for custom model serving endpoints is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#endpoint-telemetry-for-custom-model-serving-endpoints-is-generally-available",
-    "published": "2026-06-11",
-    "first_seen": "2026-07-30",
-    "summary": "Endpoint telemetry for custom model serving endpoints is now generally available. Configure endpoint telemetry to persist OpenTelemetry logs, traces, and metrics from your endpoints to Unity Catalog tables. See Persist custom model serving data to Unity Catalog.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "449d0e58c681672f",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code now uses models served through OpenAI on Databricks",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-now-uses-models-served-through-openai-on-databricks",
-    "published": "2026-06-11",
-    "first_seen": "2026-07-30",
-    "summary": "Genie Code now uses models served through OpenAI on Databricks, in addition to models served through Azure OpenAI and Anthropic on Databricks, when partner-powered AI features are enabled. For the model provider used by each feature, see Partner-powered AI features.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "b27c98ad270b3182",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ABAC GRANT policies for models (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#abac-grant-policies-for-models-beta",
-    "published": "2026-06-11",
-    "first_seen": "2026-07-30",
-    "summary": "ABAC GRANT policies are now in Beta. GRANT policies extend attribute-based access control to dynamically grant Unity Catalog privileges to securable objects whose governed tags match a condition, instead of granting privileges on each object individually. In Beta, a GRANT policy can grant the EXECUTE privilege on models, attached at the catalog or schema level. Both customer-registered MLflow models and Databricks-hosted foundation models in system.ai are supported. See ABAC GRANT policies for models (Beta).",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "9c75bce6067fdd80",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Agent Bricks Supervisor Agent now supports Unity Catalog volumes as subagent tools",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#agent-bricks-supervisor-agent-now-supports-unity-catalog-volumes-as-subagent-tools",
-    "published": "2026-06-11",
-    "first_seen": "2026-07-30",
-    "summary": "You can now add Unity Catalog volumes as subagent tools in your Supervisor Agent. See Use Supervisor Agent to create a coordinated multi-agent system.",
-    "category": "Governance",
     "tags": []
   }
 ]
