@@ -1,5 +1,33 @@
 [
   {
+    "id": "3db351d6059d31db",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.138.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.138.0",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-11",
+    "summary": "## Release v0.138.0 (2026-09-11)\n\n### API Changes\n\n* Add `unity_catalog_image_path` field for `databricks.sdk.service.jobs.AiRuntimeTask`.\n\n* Add `feature_view_source` field for `databricks.sdk.service.ml.DataSource`.\n\n* Add `budget_policy_id` and `tags` fields for `databricks.sdk.service.ml.PublishSpec`.\n\n* Add `development` field for `databricks.sdk.service.pipelines.StartUpdate`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "03c44b3cc37d260f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: v0.8.0",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.8.0",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-11",
+    "summary": "OntoBricks — Release Notes V0.8.0\n\nRelease window: August – September 2026\n\nTest status: all changes shipped with the non-scenario suite green: 5860 passed, 304 skipped, 6 deselected, 23 warnings.\n\nHighlights\n\n- Ontology-only domains — a domain can now use No Backend, move through review and publication with an ontology but no materialized graph, and expose describe_ontology through MCP while graph-dependent UI and tools stay unavailable.\n\n- Per-domain MCP policy — each domain controls which graph tools it publishes and whether datasets, bridges, actions, and virtual attributes are normal, preferred, or disabled context.\n\n- Virtual attributes — ontology entities can declare values computed on demand by Unity Catalog functions. Values appear in Graph Explorer, REST, and MCP without entering mappings, R2RML, SHACL, cohorts, or graph materialization.\n\n- Data-source and mapping integrity — metadata refresh now shows column-level changes before applying them, source deletion lists affected mappings, and schema drift is visible in diagnostics and on the Mapping canvas.\n\n- Lakehouse view-only materialization — Lakehouse domains can expose a live pass-through view instead of copying mapped triples into a Delta table; analytics automatically creates and removes a temporary snapshot when required.\n\n- Safer graph operations — Builders can refresh frozen IN-REVIEW and PUBLISHED graphs, inspect and purge generated reasoning/cohort triples without touching mapped source triples, and rely on bounded Graph Chat reads.\n\n- Configurable product branding — administrators can change the application title, primary color, logo, and default entity icon with server-first rendering and immediate accessible preview.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
     "id": "2939f6d2b69f06b5",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -55,6 +83,44 @@
     "tags": [
       "databrickslabs/impulse"
     ]
+  },
+  {
+    "id": "08a194144f6db2ee",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unifying governance across engines and catalogs in the Open Lakehouse",
+    "url": "https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse",
+    "published": "2026-09-10",
+    "first_seen": "2026-09-11",
+    "summary": "In our previous posts, we showed how open table formats, open APIs and unified governance...",
+    "category": "Governance",
+    "tags": [
+      "Product"
+    ]
+  },
+  {
+    "id": "413e1ab57bab65ca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Maintenance windows for continuous pipelines",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#maintenance-windows-for-continuous-pipelines",
+    "published": "2026-09-10",
+    "first_seen": "2026-09-11",
+    "summary": "You can now set a maintenance window on a continuous Lakeflow pipeline to control when Databricks applies platform updates that require a restart, such as new runtime versions and serverless infrastructure maintenance. Select a day of the week, a start hour, and a time zone, and Databricks starts maintenance only within that one-hour window. Configure the window in the Jobs UI, the Pipelines UI, or the Jobs REST API.\n\nSee Manage updates for continuous pipelines.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "4ce493e42d2c322c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Databricks Excel Add-in is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-databricks-excel-add-in-is-now-generally-available",
+    "published": "2026-09-10",
+    "first_seen": "2026-09-11",
+    "summary": "The Databricks Excel Add-in is now generally available. Connect Microsoft Excel to your Databricks workspace to browse and import governed Unity Catalog tables and views, run SQL queries, build pivot tables, use custom functions, and write data back to Unity Catalog. You can now also enable Live query when building pivot tables to see results as you update the fields.\n\nSee Connect to Databricks from Microsoft Excel.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "b6e5be52dc0d3e44",
@@ -181,6 +247,54 @@
     "tags": [
       "Financial Services"
     ]
+  },
+  {
+    "id": "81a810af5312c1f6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External secrets in Unity Catalog (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#external-secrets-in-unity-catalog-beta",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-11",
+    "summary": "External secrets connect a Unity Catalog schema to AWS Secrets Manager. The secrets appear in Unity Catalog as read-only securable objects that you govern with Unity Catalog privileges. Databricks reads their values from AWS Secrets Manager on demand. See External secrets in Unity Catalog.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "822041aa181c0bec",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Celigo connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#celigo-connector-beta",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-11",
+    "summary": "The Celigo connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests audit log events, such as create, update, and delete operations on resources, from Celigo (integrator.io) into Databricks. Authentication uses a Celigo integrator.io API token.\n\nSee Celigo connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "7b153171df9c6564",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anysphere Organization connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anysphere-organization-connector-beta",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-11",
+    "summary": "The Anysphere Organization connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses the Anysphere (Cursor) Organization Admin API to ingest organization members, groups, and group members into Databricks as daily snapshots. Authentication uses a Cursor Organization Admin API key.\n\nSee Anysphere Organization connector.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "e1954e98915dfd60",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anaplan connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anaplan-connector-beta",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-11",
+    "summary": "The Anaplan connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests audit trail events and user account records from your Anaplan tenant into Databricks. Authentication uses an Anaplan CA certificate and its paired private key.\n\nSee Anaplan connector.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "3b84c6dab02a0af6",
@@ -6078,104 +6192,6 @@
     "first_seen": "2026-07-30",
     "summary": "The FLOW AUTO CDC clause for CREATE STREAMING TABLE in Databricks SQL is now generally available. Use AUTO CDC to process change data capture (CDC) records from a source into a streaming table, automatically handling out-of-order records as SCD type 1 or SCD type 2 without the complex logic that MERGE INTO requires. See CREATE STREAMING TABLE ... FLOW AUTO CDC, generally available.",
     "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "be72621da0e5159e",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.0.6",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.0.6",
-    "published": "2026-06-12",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- Refactor schema handling in solvers: Derive container_id type dynamically by @tombonfert in #42\n\n- Bump version to 0.0.6 in VERSION file by @tombonfert in #43\n\nFull Changelog: v0.0.5...v0.0.6\n\nWhat's Changed\n\n- Refactor schema handling in solvers: Derive container_id type dynamically by @tombonfert in #42\n\n- Bump version to 0.0.6 in VERSION file by @tombonfert in #43\n\nFull Changelog: v0.0.5...v0.0.6",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "963c3bec511f025f",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Faster inference tables for custom model serving endpoints",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#faster-inference-tables-for-custom-model-serving-endpoints",
-    "published": "2026-06-12",
-    "first_seen": "2026-07-30",
-    "summary": "Inference tables for custom model serving endpoints now ingest through endpoint telemetry. Request and response payloads are delivered to a Unity Catalog inference table view within seconds, with configurable sampling. Existing inference tables are not affected. Enable inference tables and telemetry together in the AI Gateway section of the endpoint UI. See Persist custom model serving data to Unity Catalog.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "8ae9f8397a9705e9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Email notifications for expiring service principal tokens (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#email-notifications-for-expiring-service-principal-tokens-beta",
-    "published": "2026-06-12",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks now automatically sends email notifications to workspace admins when a service principal token is within seven days of expiring. This feature is in Beta. Notifications are sent for tokens with a lifetime greater than seven days that have been used at least once. No configuration is required. See Monitor and revoke personal access tokens.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "0333fa4deee012d8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Managed disaster recovery is now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-disaster-recovery-is-now-in-public-preview",
-    "published": "2026-06-12",
-    "first_seen": "2026-07-30",
-    "summary": "Managed disaster recovery (DR) is now in Public Preview. Managed DR replicates your Unity Catalog metadata, managed table data, and workspace assets to a secondary region, and provides a stable URL that survives failover so downstream clients do not need to be reconfigured. You configure and operate managed DR from the new Resilience section of the account console.\n\nAccess to managed disaster recovery is currently gated. Contact your Databricks account team to enable managed DR on your account. See Managed disaster recovery.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "b45dd5cdc5c9c58c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Mission Critical add-on is now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#mission-critical-add-on-is-now-in-public-preview",
-    "published": "2026-06-12",
-    "first_seen": "2026-07-30",
-    "summary": "The Mission Critical workspace add-on is now in Public Preview. The add-on unlocks managed disaster recovery and the existing Enhanced Security and Compliance (ESC) capabilities for a single compute rate, and is enabled per workspace from the new Add-ons tab in the account console.\n\nAccess to the Mission Critical add-on is gated. Contact your Databricks account team to enable the add-on on your account.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "c5a54ee64598e93c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "AI Runtime CLI (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#ai-runtime-cli-beta",
-    "published": "2026-06-12",
-    "first_seen": "2026-07-30",
-    "summary": "The AI Runtime CLI (air) is now in Beta. Use the air command-line interface to submit and manage distributed training workloads on AI Runtime serverless GPU compute from your local machine, without opening a notebook. See AI Runtime CLI.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "44b85d92d7df2d48",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Auto time-to-live for automatic row deletion is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#auto-time-to-live-for-automatic-row-deletion-is-generally-available",
-    "published": "2026-06-12",
-    "first_seen": "2026-07-30",
-    "summary": "Auto time-to-live (auto-TTL) is now generally available. Auto-TTL automatically deletes rows from Unity Catalog managed Delta Lake tables, managed Apache Iceberg tables, and streaming tables based on a DATE or TIMESTAMP column. See Automatic row deletion with auto time-to-live.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "48e175d45eb97cb4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Converting a partitioned table to liquid clustering is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#converting-a-partitioned-table-to-liquid-clustering-is-generally-available",
-    "published": "2026-06-12",
-    "first_seen": "2026-07-30",
-    "summary": "You can now convert an existing partitioned Delta Lake table to liquid clustering with ALTER TABLE ... REPLACE PARTITIONED BY WITH CLUSTER BY. Conversion minimizes reader and writer downtime and supports both external and managed tables. This feature is generally available in Databricks Runtime 18.1 and above. See Convert a partitioned table to liquid clustering.",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
