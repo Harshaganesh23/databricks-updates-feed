@@ -28,6 +28,84 @@
     ]
   },
   {
+    "id": "39350de53a5fcccd",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
+    "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-12",
+    "summary": "A he",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Healthcare & Life Sciences"
+    ]
+  },
+  {
+    "id": "238d2cd6ec3faf35",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unify your marketing data with Lakeflow Connect",
+    "url": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-12",
+    "summary": "This is the firs",
+    "category": "Data Engineering",
+    "tags": [
+      "Product",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "4babc5dee915d0f1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Standard performance mode is now available for one-time runs in the Jobs API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#standard-performance-mode-is-now-available-for-one-time-runs-in-the-jobs-api",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-12",
+    "summary": "You can now set performance_target to STANDARD in the Jobs API. Apache Airflow's DatabricksSubmitRunOperator also supports this. See Create and trigger a one-time run and Select a performance mode.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "2f1b7d04850de345",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing foreign Iceberg tables with OpenSharing is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-iceberg-tables-with-opensharing-is-now-generally-available",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-12",
+    "summary": "Sharing and reading foreign Iceberg tables with OpenSharing is now generally available. Providers can share Iceberg tables federated from foreign Iceberg catalogs using Lakehouse Federation, including to recipients using external Iceberg clients. See Add foreign Iceberg tables to a share for providers and Read data in a shared foreign Iceberg table for recipients.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "78fc3a855d1f16f1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing foreign schemas and tables with OpenSharing is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-schemas-and-tables-with-opensharing-is-now-generally-available",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-12",
+    "summary": "Sharing and reading foreign schemas and foreign tables with OpenSharing is now generally available. Providers can share foreign schemas and tables federated from external data sources using Lakehouse Federation, without copying data into Databricks. See Add foreign schemas or tables to a share for providers and Read data in a shared foreign table or foreign schema for recipients.\n\nSharing foreign schemas and tables materializes data on the provider's side, which incurs compute and storage costs. See How do I incur and check OpenSharing costs?.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "32fcc6c1c19635b8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4.1 Flash is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#deepseek-v41-flash-is-now-available-on-unity-gateway",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-12",
+    "summary": "DeepSeek V4.1 Flash is now available on Unity Gateway with text and image inputs. See supported regions. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
     "id": "2939f6d2b69f06b5",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -371,6 +449,18 @@
     "published": "2026-09-08",
     "first_seen": "2026-09-10",
     "summary": "You can now turn on the generate_citations option in the ai_search function to see which retrieved chunks the model used to support each answer it generates. ai_search function",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "ed7955eec0a88d15",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Partner-powered AI features can no longer be disabled in the settings UI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#partner-powered-ai-features-can-no-longer-be-disabled-in-the-settings-ui",
+    "published": "2026-09-08",
+    "first_seen": "2026-09-12",
+    "summary": "You can no longer disable the partner-powered AI features setting in the account or workspace settings UI, but can still enable it. Until November 1, 2026, you can still use the Settings API to enable or disable the setting.\n\nOn November 1, 2026, the setting will be removed, and any change will then require contacting your Databricks account team.",
     "category": "Platform Overview",
     "tags": []
   },
