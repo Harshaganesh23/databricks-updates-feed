@@ -1,5 +1,19 @@
 [
   {
+    "id": "2f48d68e2336cac9",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.139.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.139.0",
+    "published": "2026-09-13",
+    "first_seen": "2026-09-13",
+    "summary": "## Release v0.139.0 (2026-09-13)\n\n### API Changes\n\n* Add `priority_class` field for `databricks.sdk.service.jobs.AiRuntimeTask`.\n\n* Add `uc_service_credential_name` field for `databricks.sdk.service.serving.AmazonBedrockConfig`.\n\n* Add `excluded_scopes` field for `databricks.sdk.service.settings.CustomerFacingIngressNetworkPolicyWorkspaceApiDestination`.\n\n* Add `effective_workspace_label` and `workspace_label` fields for `databricks.sdk.service.settingsv2.Setting`.\n\n* Add `gpu_8x_b300` enum value for `databricks.sdk.service.jobs.ComputeSpecAcceleratorType`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "3db351d6059d31db",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
