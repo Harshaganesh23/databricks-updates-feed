@@ -1,5 +1,31 @@
 [
   {
+    "id": "0093acb56d286835",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/geobrix",
+    "title": "databrickslabs/geobrix: GeoBrix v0.5.1",
+    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.5.1",
+    "published": "2026-09-14",
+    "first_seen": "2026-09-14",
+    "summary": "GeoBrix v0.5.1\n\nGeoBrix 0.5.1 makes the discrete-grid families geometry-aware and fidelity-consistent: geometry-aware kring/kloop now span all four grids (H3, quadbin, BNG, custom), and the raster-to-grid family gains area-weighted coverage and single-cell assignment controls, grid-native cell-space fill, and cross-raster combine + alignment. It also adds multi-dimension NetCDF reading (time/level) and fixes two field-reported bugs in the lightweight raster reader and heavyweight rst_updatetype, on top of v0.5.0. This release contains breaking changes — see below. Full change list: Release Notes → What's new in v0.5.1.\n\nHighlights\n\n- Geometry-aware kring / kloop across all grid families. geomkring / geomkloop (and their explode variants) now work on H3, quadbin, BNG, and custom grids from one geometry-taking surface — geomkring(geom, resolution, k [, mode]) — callable identically from SQL and PySpark. All six dilation modes are supported, including the hole-aware variants (hole-in, hole-out, hole-out-ignore-geom); geometry input is WKB BINARY or WKT STRING. See GridX Functions and the grid & raster tessellation model.\n\n- Raster-to-grid: coverage and assignment controls. The gbx_rst_{h3,quadbin,bng,custom}_rastertogrid* and *_tessellate functions gain an area-weighted coverage mode and a single-cell assignment mode, so cell aggregates and tessellations can weight or assign boundary cells consistently across grids. See grid & raster tessellation.\n\n- Grid-native cell-space fill and cross-tier grid parity. New cell-space fill fills gaps directly in grid space, and grid operations are brought to parity across the heavyweight and lightweight tiers.…",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/geobrix"
+    ]
+  },
+  {
+    "id": "b42185f9f43bd8d1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie visualizations in Slack replies (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-visualizations-in-slack-replies-public-preview",
+    "published": "2026-09-14",
+    "first_seen": "2026-09-14",
+    "summary": "When a Genie response includes a chart, the visualization now appears as an image in the Slack reply. If you installed the Databricks Genie app for Slack previously, reinstall it to enable this. See Visualizations.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
     "id": "2f48d68e2336cac9",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -386,6 +412,18 @@
     "first_seen": "2026-09-11",
     "summary": "The Anaplan connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests audit trail events and user account records from your Anaplan tenant into Databricks. Authentication uses an Anaplan CA certificate and its paired private key.\n\nSee Anaplan connector.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "bd122bdd16d09646",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configurable retention for system tables is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#configurable-retention-for-system-tables-is-in-beta",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-14",
+    "summary": "Account admins can now set an account-wide retention period from 30 to 3,650 days for supported system tables. See Configure system table data retention.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -6186,116 +6224,6 @@
     "first_seen": "2026-07-30",
     "summary": "For serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are prefetched in the background. Workloads that read many files, such as find, grep, Python imports, and Git operations, run much faster. See What are workspace files?.",
     "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "18e37fd4f1b24835",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakebridge",
-    "title": "databrickslabs/lakebridge: Release v0.14.0",
-    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.14.0",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "Release Notes — Lakebridge v0.14.0\n\nHighlights\n\n-\nFive new profiler sources. Snowflake, Redshift, BigQuery, Oracle, and Legacy SQL DW are now all supported profiler targets, significantly expanding the set of platforms Lakebridge can assess ahead of a migration.\n\n-\nSwitch now supports SAS. A new built-in prompt converts SAS programs to PySpark, adding SAS to the growing list of languages Switch can migrate automatically.\n\n-\nReconcile now supports Teradata. Teradata can now be used as a source platform for data quality reconciliation, enabling validation for customers migrating from Teradata to Databricks.\n\n-\nAutomatic reconciliation configuration. A new auto-configure-recon-tables command discovers source and target tables and generates the initial reconcile configuration automatically, replacing a previously manual setup step.\n\nProfilers\n\nNew Sources\n\n-\nRedshift (#2305, #2304, #2306, #2408, #2501)\n\nAmazon Redshift is now a fully supported profiler source, covering all three deployment variants: provisioned, provisioned multi-AZ, and serverless. This includes credential flows (database password, federated user, AWS Secrets Manager ARN, temporary credentials with db user or IAM, with optional SSL), dedicated extraction queries and validation schemas for each variant, full CLI wiring, and user documentation. A bug in the serverless managed-storage aggregation was also fixed: the previous query summed hourly sys_serverless_usage snapshots, causing reported storage to grow linearly with the lookback window rather than reflecting the actual allocated amount.\n\n-\nSnowflake (#2420, #2499)…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/lakebridge"
-    ]
-  },
-  {
-    "id": "9faee7566c5a9e8b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-runtime-19-and-databricks-runtime-19-for-machine-learning-are-in-beta",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now in Beta, powered by Apache Spark 4.2.0.\n\nFor release notes, see Databricks Runtime 19 (Beta) and Databricks Runtime 19 for Machine Learning (Beta).",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "403e4891883941a5",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks-to-Databricks Delta Sharing across regulatory domains is now available (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-to-databricks-delta-sharing-across-regulatory-domains-is-now-available-public-preview",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks-to-Databricks Delta Sharing supports sharing across regulatory domains. Commercial workspaces can also share with AWS GovCloud, AWS GovCloud DoD, and Azure China. Sharing between Azure China and either AWS GovCloud or AWS GovCloud DoD is not supported. See Databricks-to-Databricks OpenSharing support matrix for cloud environments.",
-    "category": "Sharing",
-    "tags": []
-  },
-  {
-    "id": "6baa140b9af4f03d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Use OAuth to authenticate Databricks connections in Power Platform",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-oauth-to-authenticate-databricks-connections-in-power-platform",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use OAuth to authenticate a Databricks connection in Microsoft Power Platform, as an alternative to personal access tokens (PAT). See Create a Databricks connection on Microsoft Power Platform.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "cd7665212e821444",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Use Universal Commits to purchase Marketplace partner products",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#use-universal-commits-to-purchase-marketplace-partner-products",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use up to 10% of your Universal Commits to purchase eligible third-party partner products through Databricks Marketplace. See Databricks Marketplace Universal Commit Drawdown program.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "c99c99fd7d06726e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Share data behind a firewall with SecureConnect (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#share-data-behind-a-firewall-with-secureconnect-public-preview",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "Providers can now use OpenSharing SecureConnect to share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist. Recipients access the shares using their existing OpenSharing setup. See Share data behind a firewall with SecureConnect and OpenSharing recipient firewall configuration for SecureConnect.\n\nSecureConnect is also available for clean rooms. See Enable SecureConnect for a clean room.",
-    "category": "Sharing",
-    "tags": []
-  },
-  {
-    "id": "8c86a81a5eace5b3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "OIDC is now supported for sharing to Iceberg clients",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#oidc-is-now-supported-for-sharing-to-iceberg-clients",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use an Iceberg REST Catalog client, such as Snowflake or OSS Spark, to read OpenSharing shares secured with OpenID Connect (OIDC) federation. For details, see Read data shared using Open ID Connect (OIDC) federation from an Iceberg client and Share with Iceberg recipient.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "0d3037ef5277b822",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Configure the recovery period for dropped managed tables (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#configure-the-recovery-period-for-dropped-managed-tables-public-preview",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "You can now configure the recovery period for dropped Unity Catalog managed tables. By default, tables are recoverable for 7 days after being dropped using the UNDROP TABLE command. You can set the recovery period to 0 hours (to immediately purge dropped data) or between 7â30 days at the catalog or schema level. A longer period provides added protection against accidental drops of critical data, while a shorter period reduces cloud storage costs for workloads that frequently create and drop tables. Requires Databricks Runtime 17.3 and above. See Configure the recovery period.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "85c51f8e03e6cbcc",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "AUTO CDC flows for streaming tables in Databricks SQL are generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#auto-cdc-flows-for-streaming-tables-in-databricks-sql-are-generally-available",
-    "published": "2026-06-15",
-    "first_seen": "2026-07-30",
-    "summary": "The FLOW AUTO CDC clause for CREATE STREAMING TABLE in Databricks SQL is now generally available. Use AUTO CDC to process change data capture (CDC) records from a source into a streaming table, automatically handling out-of-order records as SCD type 1 or SCD type 2 without the complex logic that MERGE INTO requires. See CREATE STREAMING TABLE ... FLOW AUTO CDC, generally available.",
-    "category": "Data Warehousing",
     "tags": []
   }
 ]
