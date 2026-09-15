@@ -1,5 +1,47 @@
 [
   {
+    "id": "d434fda9e8d3bee0",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How energy teams turn theft detection into governed action with Genie and AI business processes",
+    "url": "https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes",
+    "published": "2026-09-15",
+    "first_seen": "2026-09-15",
+    "summary": "Turn energy theft detection into governed action with Databricks, connecting ML insights to investigations, recovery, trusted analytics, and reporting.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Energy"
+    ]
+  },
+  {
+    "id": "f6dacea9be17fca8",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant",
+    "url": "https://www.databricks.com/blog/databricks-marketers-use-data-3x-genie-ai-analytics-assistant",
+    "published": "2026-09-15",
+    "first_seen": "2026-09-15",
+    "summary": "Learn how Databricks built a trusted marketing Genie, increased data use 3x, reached 85% adoption, and scaled self-service analytics without adding headcount.",
+    "category": "Platform Overview",
+    "tags": [
+      "Marketing",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "a6836dfa4ac039e1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase snapshots API (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#lakebase-snapshots-api-beta",
+    "published": "2026-09-15",
+    "first_seen": "2026-09-15",
+    "summary": "You can now manage Lakebase snapshots programmatically. The snapshots API lets you create, get, list, and delete point-in-time snapshots of a project branch, and restore a snapshot by creating a new branch from it. This API is in Beta. See Create a snapshot.",
+    "category": "Database",
+    "tags": []
+  },
+  {
     "id": "0093acb56d286835",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/geobrix",
@@ -24,6 +66,35 @@
     "summary": "When a Genie response includes a chart, the visualization now appears as an image in the Slack reply. If you installed the Databricks Genie app for Slack previously, reinstall it to enable this. See Visualizations.",
     "category": "Business Intelligence",
     "tags": []
+  },
+  {
+    "id": "ca2f35c19c99a452",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Managed Postgres: What Lakebase Actually Takes Off Your Plate",
+    "url": "https://www.databricks.com/blog/managed-postgres",
+    "published": "2026-09-14",
+    "first_seen": "2026-09-15",
+    "summary": "See what Lakebase actually automates in managed Postgres — patching, scaling, failover, and backups — and where responsibility still sits with you.",
+    "category": "Database",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "c6e9fc42b35e04f1",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks",
+    "url": "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks",
+    "published": "2026-09-14",
+    "first_seen": "2026-09-15",
+    "summary": "Anyone running state",
+    "category": "Data Engineering",
+    "tags": [
+      "Engineering",
+      "Data Engineering"
+    ]
   },
   {
     "id": "2f48d68e2336cac9",
@@ -143,6 +214,18 @@
     "first_seen": "2026-09-12",
     "summary": "DeepSeek V4.1 Flash is now available on Unity Gateway with text and image inputs. See supported regions. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "781b4ab705319247",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Session restore for serverless jobs is in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#session-restore-for-serverless-jobs-is-in-public-preview",
+    "published": "2026-09-11",
+    "first_seen": "2026-09-15",
+    "summary": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the entire job. Databricks captures the snapshot automatically for eligible runs. See Session restore for serverless jobs.",
+    "category": "Application Development",
     "tags": []
   },
   {
@@ -6148,82 +6231,6 @@
     "first_seen": "2026-07-30",
     "summary": "Syncing comments on foreign tables is now in Beta. Lakehouse Federation can sync table and column comments from supported external data sources to foreign tables in Unity Catalog. Synced comments appear in table metadata, including Catalog Explorer, DESCRIBE, and DESCRIBE EXTENDED output.\n\nSee Comments on foreign tables.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "bc77953d703ab2ec",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/dqx",
-    "title": "databrickslabs/dqx: v0.15.0",
-    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.15.0",
-    "published": "2026-06-16",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- Added LLM-generated AI explanations for row-level anomaly detection (#1129). The has_no_row_anomalies check now attaches a plain-language ai_explanation to each flagged row under _dq_info[].anomaly, describing the likely cause, business impact, suggested action, the top contributing features, and the group's size and average severity. Explanations are generated vis Spark ai_query function against a Databricks Model Serving endpoint — no extra Python dependencies and no driver-side LLM calls — and anomalous rows are grouped by segment and top contributing features so the model is called once per group, keeping cost predictable on large datasets (bounded by max_groups). AI explanations are enabled by default and does not require additional settings. New parameters with good set of defaults include enable_ai_explanation, ai_explanation_llm_model_config, redact_columns (to keep sensitive columns out of the prompt and grouping), and max_groups. If the serving endpoint is unreachable, explanations are left null with a warning and scoring still succeeds. LLMModelConfig also gains max_tokens, temperature, timeout, and max_retries to bound LLM cost and latency and expose tuning parameters for the users if required.\n\n- Added stratified sampling to the profiler (#1240). The profiler now accepts a sample_by option to perform stratified sampling based on column values. Users control the sampling fraction with either a single sample_fraction applied equally across all strata, or a dictionary mapping each stratum to its own fraction. When sample_by is omitted, the profiler continues to use uniform sampling across all rows.…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/dqx"
-    ]
-  },
-  {
-    "id": "43194ff61f73cc3c",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.1.0",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.1.0",
-    "published": "2026-06-16",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- Add video link to README for quick Impulse overview by @tombonfert in #44\n\n- draft solution for fork pr handling by @adefabian in #48\n\n- Consolidated DeltaSolver and KeyValueStoreSolver into DefaultSolver by @tombonfert in #46\n\n- Bump version to 0.1.0 in VERSION file by @tombonfert in #50\n\nFull Changelog: v0.0.6...v0.1.0\n\nWhat's Changed\n\n- Add video link to README for quick Impulse overview by @tombonfert in #44\n\n- draft solution for fork pr handling by @adefabian in #48\n\n- Consolidated DeltaSolver and KeyValueStoreSolver into DefaultSolver by @tombonfert in #46\n\n- Bump version to 0.1.0 in VERSION file by @tombonfert in #50\n\nFull Changelog: v0.0.6...v0.1.0",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "78aa08897af1c957",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakeflow Designer is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakeflow-designer-is-now-generally-available",
-    "published": "2026-06-16",
-    "first_seen": "2026-07-30",
-    "summary": "Lakeflow Designer is now generally available. Lakeflow Designer is a visual, no-code experience for preparing and transforming data on a drag-and-drop canvas, with all workflows backed by production-ready code governed by Unity Catalog. Lakeflow Designer lets analysts build, preview, and schedule data transformation workflows using built-in operators or natural language.\n\nSee Lakeflow Designer.\n\nLakeflow Designer is coming soon to workspaces with the compliance security profile enabled.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "3332743adafd3bed",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Connect Genie to Microsoft Copilot Cowork (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#connect-genie-to-microsoft-copilot-cowork-beta",
-    "published": "2026-06-16",
-    "first_seen": "2026-07-30",
-    "summary": "You can now connect Genie to Microsoft Copilot Cowork through the Genie managed MCP server, so users can ask natural-language questions about their Databricks data without leaving Copilot Cowork. See Genie plugin for Microsoft Copilot Cowork.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "7dd666091c2f8d32",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Install third-party apps from Databricks Marketplace",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#install-third-party-apps-from-databricks-marketplace",
-    "published": "2026-06-16",
-    "first_seen": "2026-07-30",
-    "summary": "You can now discover, install, and run third-party data and AI applications from Databricks Marketplace directly in your own Unity Catalog-governed workspace. The provider's code stays closed-source, and you authorize any external access the app needs when you install it. Open Marketplace and filter by the Apps category to get started. See Get access to third-party apps.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "09f3774c01adf451",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Improved workspace files read performance",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#improved-workspace-files-read-performance",
-    "published": "2026-06-16",
-    "first_seen": "2026-07-30",
-    "summary": "For serverless compute and classic compute running Databricks Runtime 18 and above, common file access patterns are now detected for workspace files, and directory metadata and file contents are prefetched in the background. Workloads that read many files, such as find, grep, Python imports, and Git operations, run much faster. See What are workspace files?.",
-    "category": "Application Development",
     "tags": []
   }
 ]
