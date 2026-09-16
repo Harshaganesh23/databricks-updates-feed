@@ -1,5 +1,19 @@
 [
   {
+    "id": "ca97fa1f4be73c4f",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.17.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.17.0",
+    "published": "2026-09-16",
+    "first_seen": "2026-09-16",
+    "summary": "Release v1.17.0\n\nNotable Changes\n\n- Bump the direct deployment state version to 3. Clients older than v1.8.0 will reject bundles deployed with this release. (#6713)\n\nCLI\n\n- Add an INVALID_REFRESH_TOKEN error code to databricks auth token --output json failures. (#6684)\n\n- Add experimental databricks auth docker configure to configure Docker credential helper access for Databricks Artifact Registry. (#6700)\n\n- Add experimental databricks auth docker token to generate Docker credentials for Databricks Artifact Registry. (#6699)\n\n- databricks environments setup-local now reports the E_PROVISION_CONFLICT error code instead of the generic E_PROVISION when uv sync fails to resolve a dependency conflict. (#6666)\n\n- Preserve SSH sessions across temporary tunnel disconnects, with bounded replay and backpressure for large transfers. (#6650)\n\n- Allow OAuth U2M logins to override the CLI client ID with --client-id, profile client_id, or DATABRICKS_CLIENT_ID. (#6594)\n\nBundles\n\n- direct: Store a dashboard's serialized_dashboard in state as a content hash instead of its full contents. (#6105)\n\n- direct: Fix pipelines recreation when the whole ingestion_definition block is added or removed. (#6589)\n\n- bundle plan, deploy, and destroy no longer report removing permissions, grants, or secret scope ACLs from a bundle as a deletion, since it leaves the resource untouched. (#6647)\n\n- bundle plan and deploy no longer list or count a resource that was already deleted remotely as a deletion, matching bundle destroy; applying still cleans up its stale state entry. (#6675)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
     "id": "d434fda9e8d3bee0",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -39,6 +53,42 @@
     "first_seen": "2026-09-15",
     "summary": "You can now manage Lakebase snapshots programmatically. The snapshots API lets you create, get, list, and delete point-in-time snapshots of a project branch, and restore a snapshot by creating a new branch from it. This API is in Beta. See Create a snapshot.",
     "category": "Database",
+    "tags": []
+  },
+  {
+    "id": "82ba2d2262f3d887",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing foreign Delta tables with OpenSharing is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-delta-tables-with-opensharing-is-now-generally-available",
+    "published": "2026-09-15",
+    "first_seen": "2026-09-16",
+    "summary": "Sharing and reading foreign Delta tables with OpenSharing is now generally available. Providers can share Delta-format tables federated from OneLake, a Hive metastore, or AWS Glue, without copying data into Databricks. See Add foreign Delta tables to a share.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "98e7831e036eb78c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data Classification now scans Unity Catalog views (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#data-classification-now-scans-unity-catalog-views-beta",
+    "published": "2026-09-15",
+    "first_seen": "2026-09-16",
+    "summary": "Data Classification can now scan Unity Catalog views in addition to tables, classifying columns for sensitive data using the same detection engine. This is a Beta feature. See Classify views.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "ddc61e4c70ded462",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ABAC on views is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#abac-on-views-is-in-beta",
+    "published": "2026-09-15",
+    "first_seen": "2026-09-16",
+    "summary": "Attribute-based access control (ABAC) row filters and column masks now extend to views, in addition to tables. This lets you use ABAC policies to control access to sensitive data exposed through views.\n\nAccount admins can enable the ABAC on Views preview from the account console's Previews page. This feature requires Databricks Runtime 19 or above.\n\nSee Attribute-based access control in Unity Catalog.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -321,6 +371,18 @@
     "first_seen": "2026-09-11",
     "summary": "The Databricks Excel Add-in is now generally available. Connect Microsoft Excel to your Databricks workspace to browse and import governed Unity Catalog tables and views, run SQL queries, build pivot tables, use custom functions, and write data back to Unity Catalog. You can now also enable Live query when building pivot tables to see results as you update the fields.\n\nSee Connect to Databricks from Microsoft Excel.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "57bc120c1def5cfa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Managed tables in Lakeflow pipelines (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#managed-tables-in-lakeflow-pipelines-beta",
+    "published": "2026-09-10",
+    "first_seen": "2026-09-16",
+    "summary": "You can now create managed tables in Lakeflow pipelines and write to them with one or more append flows. This feature is in Beta. You can also use import_checkpoint on an append flow to migrate an existing Structured Streaming workload into a pipeline without reprocessing the source.\n\nSee create_table, CREATE TABLE ... FLOW (pipelines), and append_flow.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -6111,126 +6173,6 @@
     "first_seen": "2026-07-30",
     "summary": "Lakebase Autoscaling now supports Postgres 18. Postgres 17 remains the default version. To use Postgres 18, select it when creating a new project. For a full list of supported versions, see Postgres compatibility.",
     "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "5e24628b59975508",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: v3.14.0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.14.0",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "MLflow 3.14.0 includes several major features and improvements\n\nMajor New Features\n\n- 🚀 One-command agent onboarding with mlflow agent setup: Install MLflow, set up tracing, and hand your favorite coding agent (Claude Code, OpenAI Codex, or OpenCode) the MLflow skills to instrument your app, all from a single command.\n\n- ⚡ Durable, low-latency tracing for Claude Code: Roll out Claude Code tracing across a team with confidence: a write-ahead-log keeps it from slowing the agent, overwhelming the tracking server, or losing traces on a network blip or crash.\n\n- 📝 Review Queues for traces: Assign traces to reviewers (or agents) and collect structured feedback and ground-truth annotations in the UI, written straight back onto the trace so they are immediately usable for evaluation.\n\n- 🗂️ Revamped evaluation dataset UI: Browse, inspect, edit, and bulk-manage evaluation dataset records directly in the UI, with click-through to the source trace.\n\n- 🧪 Pytest integration for regression testing: Write GenAI regression tests as plain pytest functions with the @mlflow.test marker, gate them in CI, and review test history and per-assertion judge results in the UI.\n\n- 🎛️ LLM Playground: Iterate on prompts in the browser against your AI Gateway endpoints and Prompt Registry versions, with settings, tools, structured output, and template variables.\n\nBreaking Changes\n\n- [Models] Change mlflow.sklearn serialization_format default from cloudpickle to skops (#23987, @copilot-swe-agent)\n\n- [Models] Change serialization_format default to \"pt2\" for mlflow.pytorch.log_model and mlflow.pytorch.save_model (#23988, @copilot-swe-agent)\n\n- [Models] Change serialization_format default to \"skops\" in mlflow.lightgbm log_model/save_model (#23986, @copilot-swe-agent)…",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "b9365aefd9ec3b78",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.4.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.4.0",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "CLI\n\n- Improved error messages for ssh connect: when an SSH connection attempt fails, the client now fetches and prints the server's recent error logs (#5555).\n\n- Increase the SSH server startup timeout from 10 to 45 minutes when a GPU accelerator is requested via databricks ssh connect --accelerator (#5569).\n\n- Fix authentication falling back to the default profile in .databrickscfg when a host is already configured via the environment (e.g. DATABRICKS_HOST with DATABRICKS_TOKEN) (#5616).\n\n- ssh: fix opening remote environment in Cursor, which previously hung on default-extension install and never opened the editor (#5619).\n\n- Improve the error shown when databricks labs install cannot find a project's labs.yml: the message now explains that either the requested version does not exist or the project is not installable with the CLI, and links to the repository (#5559).\n\nBundles\n\n- Remove API enum values and types that are still in development from the databricks-bundles Python package; these were never accepted by the backend (#5484).\n\n- direct: Fix resolving a resource reference that is used more than once within the same field (#5558).\n\n- Bundle variable references now accept Unicode letters in path segments (e.g. ${var.变量}). (#5532)\n\n- Ignore remote changes for vector search direct_access_index_spec.schema_json to prevent drift when the backend normalizes the schema (#5481).\n\n- Remove hidden, never-functional --existing-dashboard-id, --existing-dashboard-path, --existing-alert-id, and --existing-genie-space-id alias flags from bundle generate; use the documented --existing-id / --existing-path flags instead (#5591).\n\n- engine/direct: Fix WAL corruption after two consecutive failed deploys (#5606).…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "937bb461132f1759",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.3.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.3.0",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "Notable Changes\n\n- The direct deployment engine is now Generally Available and the default for new deployments. To opt out, set engine: terraform under bundle in your databricks.yml or set DATABRICKS_BUNDLE_ENGINE=terraform. Existing deployments keep their current engine; see https://docs.databricks.com/aws/en/dev-tools/bundles/direct to migrate.\n\nCLI\n\n- Added the databricks quickstart command, a short introduction to the CLI that prints a human-friendly guide interactively and an agent-oriented version when run non-interactively (#5464).\n\n- Add databricks version --check to report whether a newer CLI version is available and print the upgrade command for the detected install method (#5469).\n\n- databricks auth describe now verifies credentials against both the workspace and account endpoints before reporting a failure, fixing false \"Unable to authenticate\" errors for account console profiles (#5479).\n\n- databricks auth login no longer prompts for workspace selection when logging in to an account console host (https://accounts.*). Pass --workspace-id explicitly to store a workspace ID on such a profile (#5504).\n\n- databricks auth profiles --skip-validate no longer makes any network calls; the host metadata fetch is skipped along with validation (#5530).\n\nBundles\n\n- Set the default data_security_mode to DATA_SECURITY_MODE_AUTO in bundle templates (#5452).\n\n- Mark vector search index index_subtype as backend_default to prevent drift after deployment (#5454).\n\n- bundle deployment migrate: handle resources added to or removed from databricks.yml since the last Terraform deploy (#5463).\n\n- Add the genie_spaces bundle resource for managing Databricks Genie spaces as code, plus bundle generate genie-space to import an existing space. Direct deployment engine only (#5282).…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "9df3ba641d03187d",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.2.1",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.2.1",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "Bundles\n\n- direct: Fix updating the apps after the Go SDK upgrade (#5444)",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "8d931eb18d2f3c22",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.2.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.2.0",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "CLI\n\n- experimental open now opens every DABs resource type that has a workspace URL, picking up catalogs, schemas, volumes, database_instances, database_catalogs, synced_database_tables, postgres_catalogs, postgres_synced_tables, quality_monitors, vector_search_endpoints, and vector_search_indexes (#5346).\n\nBundles\n\n- Retry transient HTTP 5xx and 408 errors in direct deployment engine (#5349, #5364).\n\n- Preserve .designer.ipynb suffix when translating notebook task paths so Lakeflow Designer files referenced from a notebook_task resolve correctly in the workspace (#5370).\n\n- Fix script output dropping last line without trailing newline (#4995).\n\n- engine/direct: Add --select flag to bundle plan and bundle deploy to plan/deploy a subset of resources (e.g. --select my_job or --select jobs.my_job); resources referenced by the selection are included transitively (#5413).\n\n- Support purge_on_delete: true on postgres_projects so bundles can hard-delete a Lakebase project on destroy (skipping the soft-delete retention window) (#5414).\n\n- Support terraform references in direct engine (#5392)\n\n- Support lifecycle.started for SQL warehouses (#5348)\n\nDependency updates\n\n- Bump Go toolchain to 1.26.4 (#5420).\n\n- Bump github.com/databricks/databricks-sdk-go from v0.136.0 to v0.141.0 (#5361)\n\n- Bump Terraform provider from v1.115.0 to v1.117.0 (#5421)",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "a1e53b1a9ba5d5a1",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.5.0",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.5.0",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V0.5.0\n\nRelease window: May–June, 2026\n\nTest status: all changes shipped with the suite green (≥ 2532 passing on the unit/integration tiers; the full multi-tier run — unit + integration + property + live + e2e — reached ≥ 2660 passing).\n\nHighlights\n\n- Domain version lifecycle (DRAFT → IN-REVIEW → PUBLISHED): a proper, server-enforced state machine replaces the old single \"Active\" (mcp_enabled) toggle. Status gates editability (only DRAFT is editable, any DRAFT version, not just the latest), gates API/MCP data access (only PUBLISHED is served, numeric-latest wins), and is surfaced as a colour-coded badge everywhere a domain + version appears.\n\n- Ontology Validation & Review workflow: a new Domain → Validation workspace and a cross-domain My Tasks worklist (Registry + Home) let business users run soft consistency checks, sign off through a per-domain quorum-gated review, and keep a full audit trail. Every lifecycle decision is persisted with actor, transition, and comment; admins can override the quorum and drive any transition.\n\n- Graph Chat streaming (SSE): the agent loop now streams tool calls and the final reply token-by-token instead of blocking until the whole turn finishes — no more static \"Thinking…\" placeholder.\n\n- Binary-document ingestion for ontology generation: PDFs, Office docs, and images uploaded for OWL / business-rules generation are now converted to markdown on the fly via Databricks ai_parse_document, exposed as a reusable core DocumentExtractor.\n\n- Ontology Pitfalls as a first-class agent tool: the OWL generator now owns the validate → fix → re-validate loop through a check_owl_pitfalls tool and iterates to a 100 %-clean ontology by default; the precision score was corrected so minor warnings actually move the needle.…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "78e58403deaf3bb4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Share Genie Agents externally using OpenSharing (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#share-genie-agents-externally-using-opensharing-beta",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "Providers can now share a Genie Agent with users outside their organization using OpenSharing. Databricks creates a point-in-time snapshot of the space's data assets and instructions. Recipients can mount the share to create a local Genie Agent. See Share a Genie Agent using OpenSharing.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "c04eca2b296496ff",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Omnigent coding agent meta-harness is now in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#omnigent-coding-agent-meta-harness-is-now-in-beta",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "Omnigent is now available in Beta. Omnigent is a coding agent meta-harness that wraps coding agents such as Claude Code and Codex with a common platform: a web UI, persistent and shareable sessions, team collaboration, mobile access, contextual policies, and deployment infrastructure. Swap one line of configuration to switch runtimes while your tools, policies, and prompts stay the same.\n\nSee Omnigent on Databricks.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "b21083160de2cce4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Comments on foreign tables (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#comments-on-foreign-tables-beta",
-    "published": "2026-06-17",
-    "first_seen": "2026-07-30",
-    "summary": "Syncing comments on foreign tables is now in Beta. Lakehouse Federation can sync table and column comments from supported external data sources to foreign tables in Unity Catalog. Synced comments appear in table metadata, including Catalog Explorer, DESCRIBE, and DESCRIBE EXTENDED output.\n\nSee Comments on foreign tables.",
-    "category": "Governance",
     "tags": []
   }
 ]
