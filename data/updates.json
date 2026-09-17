@@ -1,5 +1,47 @@
 [
   {
+    "id": "97dddcbb80baee7b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-apps-is-now-on-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+    "published": "2026-09-18",
+    "first_seen": "2026-09-17",
+    "summary": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled.\n\nSee Databricks Apps.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "fa57b7201ca9bca0",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The Web Search Your Agent Inherited Isn't Good Enough",
+    "url": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-17",
+    "summary": "Build agents on Databricks with Omnigent and Nimble. One config, any harness, and expert web search that grounds every model in live external data.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Product",
+      "Databricks AI"
+    ]
+  },
+  {
+    "id": "ec0cc9c249278a95",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: MLflow 3.16.1",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.16.1",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-17",
+    "summary": "MLflow 3.16.1 is a patch release that includes bug fixes and documentation updates.\n\nBreaking changes:\n\n- [Docs / Tracking] Remove the default basic-auth admin password shipped in basic_auth.ini (GHSA-gq3w-7jj3-x7gr) (#25751, @tanghaoji)\n\nFeatures:\n\n- [Evaluation] Add a timeout option to the @scorer decorator (#25720, @smoorjani)\n\n- [Evaluation] Propagate scorer version to assessment metadata (#25570, @B-Step62)\n\n- [Tracing] Support span links for Unity Catalog traces (#25597, @B-Step62)\n\nBug fixes:\n\n- [Tracing] Resolve Unity Catalog trace locations in Databricks Model Serving without local-store validation (#25884, @james-fletcher-db)\n\n- [Model Registry] Fix S3 multipart upload encryption arguments (#25772, @james-fletcher-db)\n\n- [Tracking / UI] basic-auth: serve the web UI to non-admins under fail-closed authorization (#25672, @mkBGD)",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
     "id": "ca97fa1f4be73c4f",
     "source": "github_release",
     "source_label": "GitHub · databricks/cli",
@@ -12,6 +54,32 @@
     "tags": [
       "databricks/cli"
     ]
+  },
+  {
+    "id": "957733573e7d0d5a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "\"Regex for Rows\": Simplifying Pattern Detection in SQL with MATCH_RECOGNIZE",
+    "url": "https://www.databricks.com/blog/regex-rows-simplifying-pattern-detection-sql-matchrecognize",
+    "published": "2026-09-16",
+    "first_seen": "2026-09-17",
+    "summary": "Databricks solves complex sequence detection with MATCH_RECOGNIZE, bringing regex-style pattern matching to relational data, without self-joins or chained CTEs.",
+    "category": "Platform Overview",
+    "tags": [
+      "Product"
+    ]
+  },
+  {
+    "id": "c0aa7582891f78ea",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Gateway API and developer tools are generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unity-gateway-api-and-developer-tools-are-generally-available",
+    "published": "2026-09-16",
+    "first_seen": "2026-09-17",
+    "summary": "The Unity Gateway API for managing model services, model provider services, and MCP services is now generally available, with create, read, update, list, and delete support across Databricks developer tools:\n\n- Terraform provider: 1.132.0 and later\n\n- Databricks CLI: v1.17.0 and later\n\n- Python SDK: databricks-sdk 0.136.0 and later\n\n- Go SDK: databricks-sdk-go v0.178.0 and later\n\n- Java SDK: databricks-sdk-java 0.153.0 and later\n\n- JavaScript SDK: @databricks/sdk-aigateway 0.19.0 and later\n\nDeclarative Automation Bundles support, through the Databricks CLI 1.17.0 and later, is in Beta.\n\nFor API documentation, see the Unity Gateway API reference.\n\nFor examples and tutorials, see the following:\n\n- Create and manage model APIs (model services)\n\n- Create and manage external model providers (model provider services)\n\n- Register an external MCP server.",
+    "category": "Application Development",
+    "tags": []
   },
   {
     "id": "d434fda9e8d3bee0",
@@ -145,6 +213,18 @@
       "Engineering",
       "Data Engineering"
     ]
+  },
+  {
+    "id": "326c896ac883f106",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The counter_diff SQL window function is now available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-counter",
+    "published": "2026-09-14",
+    "first_seen": "2026-09-17",
+    "summary": "The counter_diff window function calculates differences between consecutive cumulative counter values and handles counter resets, for time-series analysis of counter data. It is available in Databricks SQL and Databricks Runtime 19 and above. See counter_diff analytic window function.",
+    "category": "Data Warehousing",
+    "tags": []
   },
   {
     "id": "2f48d68e2336cac9",
@@ -569,6 +649,18 @@
     "first_seen": "2026-09-14",
     "summary": "Account admins can now set an account-wide retention period from 30 to 3,650 days for supported system tables. See Configure system table data retention.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "ed92f3d3a494f5b1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code adds conversation controls",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-code-adds-conversation-controls",
+    "published": "2026-09-09",
+    "first_seen": "2026-09-17",
+    "summary": "Genie Code now includes conversation controls that let you branch and revise a chat. You can fork a conversation into a new, independent thread from a point you choose, ask a quick side question with /btw without adding it to the thread, and edit an earlier message to regenerate the conversation from that point. See Branch and edit chats.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -6096,83 +6188,5 @@
     "tags": [
       "databrickslabs/impulse"
     ]
-  },
-  {
-    "id": "8e32da8c66c43aad",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: Delta Lake 4.3.0",
-    "url": "https://github.com/delta-io/delta/releases/tag/v4.3.0",
-    "published": "2026-06-18",
-    "first_seen": "2026-07-30",
-    "summary": "We are excited to announce the release of Delta Lake 4.3.0, which delivers new features, performance improvements, and protocol updates across Delta Spark, Kernel, UniForm, Sharing, and Flink. See the highlights below for the marquee changes.\n\nHighlights\n\n- [Spark] Unity Catalog Delta REST API integration: Spark now supports the UC Delta API, using Unity Catalog as the source of truth for managed Delta tables. With server-side commit validation, server-advertised table features, and intent-based metadata updates, this integration provides consistent, safe access for Spark today and sets the foundation for future support across Flink, Trino, and other engines.\n\n- [Spark] Selective data replacement with replaceOn and replaceUsing DataFrame APIs: Spark now supports selectively replacing table data with the result of a DataFrame. Use replaceUsing to replace rows that match on specified columns, or replaceOn to replace rows that satisfy a user-defined condition.\n\n- [UniForm] Atomic + incremental Iceberg conversion and Spark 4.1 support: UniForm now writes Iceberg metadata atomically with the Delta commit, incrementally converts only the changed log range.\n\n- [Sharing] Streaming and CDF Support: Delta Sharing in 4.3.0 improves Spark Structured Streaming and Batch CDF support with automatic Delta response resolution, Parquet-to-Delta streaming conversion, shared DeltaFormattable streaming CDF support, and Trigger.AvailableNow support for shared tables.\n\nDelta Spark\n\nDelta Spark 4.3.0 is built on Apache Spark 4.1.0 and Apache Spark 4.0.1. As with Apache Spark, we publish Maven artifacts for Scala 2.13.\n\n- Maven artifacts for Spark 4.1.0:\n\n- delta-spark_4.1_2.13\n\n- delta-connect-client_4.1_2.13\n\n- delta-connect-common_4.1_2.13\n\n- delta-connect-server_4.1_2.13…",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "ee7a9d0e046f6ffa",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.118.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.118.0",
-    "published": "2026-06-18",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.118.0 (2026-06-18)\n\n### API Changes\n\n* Add `create_data_api()`, `delete_data_api()`, `get_data_api()` and `update_data_api()` methods for [w.postgres](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/postgres/postgres.html) workspace-level service.\n\n* Add `capacity_reservation_group` field for `databricks.sdk.service.compute.AzureAttributes`.\n\n* Add `serverless_compute_id` field for `databricks.sdk.service.pipelines.ClonePipelineRequest`.\n\n* Add `serverless_compute_id` field for `databricks.sdk.service.pipelines.CreatePipeline`.\n\n* Add `serverless_compute_id` field for `databricks.sdk.service.pipelines.EditPipeline`.\n\n* Add `serverless_compute_id` field for `databricks.sdk.service.pipelines.PipelineSpec`.\n\n* Add `endpoint_id` field for `databricks.sdk.service.vectorsearch.MiniVectorIndex`.\n\n* Add `endpoint_id` field for `databricks.sdk.service.vectorsearch.VectorIndex`.\n\n* Add `dynamics365` enum value for `databricks.sdk.service.catalog.ConnectionType`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "463779a0399c945f",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.1.1",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.1.1",
-    "published": "2026-06-18",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- Refactor data model documentation for clarity and conciseness by @tombonfert in #51\n\n- Add PointsInTimeSeries class and integrate with SampleSeries by @tombonfert in #45\n\n- Add PointsInTimeEvent class and update event handling by @tombonfert in #52\n\n- Feature/point value aggregator by @tombonfert in #53\n\n- Bump version to 0.1.1 in VERSION file by @tombonfert in #54\n\nFull Changelog: v0.1.0...v0.1.1\n\nWhat's Changed\n\n- Refactor data model documentation for clarity and conciseness by @tombonfert in #51\n\n- Add PointsInTimeSeries class and integrate with SampleSeries by @tombonfert in #45\n\n- Add PointsInTimeEvent class and update event handling by @tombonfert in #52\n\n- Feature/point value aggregator by @tombonfert in #53\n\n- Bump version to 0.1.1 in VERSION file by @tombonfert in #54\n\nFull Changelog: v0.1.0...v0.1.1",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "ab84ded6ad16fc61",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Salesforce Marketing Cloud managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#salesforce-marketing-cloud-managed-ingestion-connector-beta",
-    "published": "2026-06-18",
-    "first_seen": "2026-07-30",
-    "summary": "The Salesforce Marketing Cloud connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest marketing data, including campaigns, journeys, email engagement events, and data extensions, from Salesforce Marketing Cloud into Databricks. See Salesforce Marketing Cloud connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "ebf3ac9f33ddc6ff",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Incremental ingestion for Workday Reports (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#incremental-ingestion-for-workday-reports-beta",
-    "published": "2026-06-18",
-    "first_seen": "2026-07-30",
-    "summary": "The Workday Reports connector in Lakeflow Connect now supports incremental ingestion in Beta. If you configure a cursor column for a report, the connector ingests only the rows that have changed since the last pipeline run, improving performance and reducing costs. See Ingest Workday reports incrementally.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "3aa6fc57233781f7",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase now supports Postgres 18",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-now-supports-postgres-18",
-    "published": "2026-06-18",
-    "first_seen": "2026-07-30",
-    "summary": "Lakebase Autoscaling now supports Postgres 18. Postgres 17 remains the default version. To use Postgres 18, select it when creating a new project. For a full list of supported versions, see Postgres compatibility.",
-    "category": "Database",
-    "tags": []
   }
 ]
