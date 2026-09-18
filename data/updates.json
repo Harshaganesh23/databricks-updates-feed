@@ -42,6 +42,73 @@
     ]
   },
   {
+    "id": "99646313ef7327a4",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Database for AI Agents: 5 Evaluation Criteria",
+    "url": "https://www.databricks.com/blog/database-for-ai-agents",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-18",
+    "summary": "Learn the 5 criteria for evaluating a database for AI agents — branch isolation, serverless scaling, hybrid search, ACID guarantees, and unified access.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "493bde431a9e3f72",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What is AIOps?",
+    "url": "https://www.databricks.com/blog/what-is-aiops",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-18",
+    "summary": "Discover what AIOps is, its core components, benefits, use cases, and how it transforms IT operations by combining AI and machine learning with observability.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "00c643b326732274",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Modernizing the Trade Lifecycle With Governed Data and AI",
+    "url": "https://www.databricks.com/blog/modernizing-trade-lifecycle-governed-data-and-ai",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-18",
+    "summary": "Learn how capital-markets firms use governed data and AI to improve trade lifecycle decisions, resilience, and controls across workflows.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "6851fd82b4deb6f5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Metastore-level ABAC policies are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#metastore-level-abac-policies-are-in-beta",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-18",
+    "summary": "Metastore-level ABAC policies are in Beta in Unity Catalog. You can now attach an ABAC policy (row filter, column mask, GRANT, or DENY) at the metastore level, so a single policy applies across every catalog in the metastore, including catalogs created later. This gives governance teams one place to enforce organization-wide data protection rules without replicating a policy for each catalog.\n\nFor details, see Metastore-level ABAC policies (Beta).",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "5e3307a770fe7983",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Moonshot AI Kimi K2.7 is scheduled for retirement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#moonshot-ai-kimi-k27-is-scheduled-for-retirement",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-18",
+    "summary": "Moonshot AI Kimi K2.7 will be retired on October 30, 2026. Kimi K3 is the recommended replacement. See Deprecated and retired models for migration guidance.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "ca97fa1f4be73c4f",
     "source": "github_release",
     "source_label": "GitHub · databricks/cli",
@@ -79,6 +146,18 @@
     "first_seen": "2026-09-17",
     "summary": "The Unity Gateway API for managing model services, model provider services, and MCP services is now generally available, with create, read, update, list, and delete support across Databricks developer tools:\n\n- Terraform provider: 1.132.0 and later\n\n- Databricks CLI: v1.17.0 and later\n\n- Python SDK: databricks-sdk 0.136.0 and later\n\n- Go SDK: databricks-sdk-go v0.178.0 and later\n\n- Java SDK: databricks-sdk-java 0.153.0 and later\n\n- JavaScript SDK: @databricks/sdk-aigateway 0.19.0 and later\n\nDeclarative Automation Bundles support, through the Databricks CLI 1.17.0 and later, is in Beta.\n\nFor API documentation, see the Unity Gateway API reference.\n\nFor examples and tutorials, see the following:\n\n- Create and manage model APIs (model services)\n\n- Create and manage external model providers (model provider services)\n\n- Register an external MCP server.",
     "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "fca7f226bf8c93ce",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unused OAuth client secrets are automatically deleted after 90 days",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unused-oauth-client-secrets-are-automatically-deleted-after-90-days",
+    "published": "2026-09-16",
+    "first_seen": "2026-09-18",
+    "summary": "Databricks now automatically deletes a service principal's OAuth client secret after 90 days without use, consistent with unused access token cleanup. If a deleted secret is still needed, create a new OAuth secret.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -224,6 +303,18 @@
     "first_seen": "2026-09-17",
     "summary": "The counter_diff window function calculates differences between consecutive cumulative counter values and handles counter resets, for time-series analysis of counter data. It is available in Databricks SQL and Databricks Runtime 19 and above. See counter_diff analytic window function.",
     "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "4b88526acef3bf65",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Window measures on a numeric index column in metric views",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#window-measures-on-a-numeric-index-column-in-metric-views",
+    "published": "2026-09-14",
+    "first_seen": "2026-09-18",
+    "summary": "Window measures support unitless offset and trailing/leading ranges on a consecutive integer order column. Use a numeric index for non-calendar periods such as fiscal weeks or 4-4-5 periods. See Window measures on a numeric index column.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
@@ -6160,33 +6251,5 @@
     "summary": "The Netskope Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest event and alert logs from Netskope into Databricks. See Netskope Logs connector.",
     "category": "Data Engineering",
     "tags": []
-  },
-  {
-    "id": "bc99605a687341b1",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.5.1",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.5.1",
-    "published": "2026-06-19",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V0.5.1\n\nRelease date: 2026-06-19\n\nType: Patch — single bug fix\n\nTest status: 2484 passing, 15 skipped on the unit tier; 6 new regression tests added.\n\nSummary\n\nv0.5.1 is a targeted patch that fixes a blocker introduced with the v0.5.0 review workflow: the \"Submit for Review\" action on the Validation page was permanently blocked even after a successful Digital Twin build, when that build was triggered interactively (via the Build button in the UI or the external REST endpoint POST /dtwin/build).\n\nNo schema changes. No configuration changes. No migration scripts required for new deploys.\n\nBug Fixed\n\nSubmit for Review blocked despite a built Digital Twin\n\nSymptom: On the Validation page (/domain/validate), the banner \"This version has never been built. Run a Digital Twin build first.\" appeared and the Submit for Review button was disabled — even though the Consistency-checks panel showed a green \"Digital Twin built\" tick.\n\nRoot cause: The two indicators on the same page read from different sources:\n\nIndicator\nSource\n\nConsistency-checks \"Digital Twin built\" ✅\nLive triple-store state (view exists + has triples)\n\nSubmit-for-Review gate\ndomain_versions.last_build column in the registry DB\n\nThe interactive build path (_BuildPipeline._complete_task) never wrote domain.last_build to the domain_versions table. Only the scheduled build path (scheduler._persist_domain_metadata) performed that write. The Submit gate reads the registry column, found it empty, and blocked.\n\nFix: _BuildPipeline._complete_task() — the single success exit shared by both the UI build (build_kind=\"session\") and the REST build (build_kind=\"api\") — now calls a new _persist_last_build_to_registry() method immediately after recording the build run. This method:…",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "b50b6e9929efcfb3",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.1.2",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.1.2",
-    "published": "2026-06-19",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- Add start_points and end_points methods to Intervals class by @tombonfert in #55\n\n- Bump version to 0.1.2 in VERSION file by @tombonfert in #56\n\nFull Changelog: v0.1.1...v0.1.2\n\nWhat's Changed\n\n- Add start_points and end_points methods to Intervals class by @tombonfert in #55\n\n- Bump version to 0.1.2 in VERSION file by @tombonfert in #56\n\nFull Changelog: v0.1.1...v0.1.2",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
   }
 ]
