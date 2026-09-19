@@ -1,5 +1,33 @@
 [
   {
+    "id": "31b5892246780c25",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "RADAR: Catch gray failures with anomaly detection",
+    "url": "https://www.databricks.com/blog/radar-catch-gray-failures-anomaly-detection",
+    "published": "2026-09-19",
+    "first_seen": "2026-09-19",
+    "summary": "See how anomaly detection catches gray failures — silent, partial outages that slip past green dashboards — in minutes, and how to build it on Databricks.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Industries"
+    ]
+  },
+  {
+    "id": "edc6f8cd056e4cdf",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.140.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.140.0",
+    "published": "2026-09-19",
+    "first_seen": "2026-09-19",
+    "summary": "## Release v0.140.0 (2026-09-19)\n\n### API Changes\n\n* Add `create_mcp_service_user_mapped_credential()`, `delete_mcp_service_user_mapped_credential()` and `get_mcp_service_user_mapped_credential()` methods for [w.ai_gateway](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/catalog/ai_gateway.html) workspace-level service.\n\n* Add `telemetry_export_destinations` field for `databricks.sdk.service.apps.AppUpdate`.\n\n* Add `options` field for `databricks.sdk.service.catalog.McpServiceConfigSourceConnection`.\n\n* Add `header_auth` field for `databricks.sdk.service.catalog.ModelProviderServiceConfigCustomProviderDirectConfig`.\n\n* Add `on_maintenance_complete` and `on_maintenance_start` fields for `databricks.sdk.service.jobs.JobEmailNotifications`.\n\n* Add `on_maintenance_complete` and `on_maintenance_start` fields for `databricks.sdk.service.jobs.TaskEmailNotifications`.\n\n* Add `on_maintenance_complete` and `on_maintenance_start` fields for `databricks.sdk.service.jobs.WebhookNotifications`.\n\n* Add `budget_policy_id` and `tags` fields for `databricks.sdk.service.ml.BackfillFeaturesRequest`.\n\n* Add `timezone_id` field for `databricks.sdk.service.ml.CronSchedule`.\n\n* Add `budget_policy_id` and `tags` fields for `databricks.sdk.service.ml.PurgeFeatureEntitiesRequest`.\n\n* Add `group_name` field for `databricks.sdk.service.pipelines.RunAs`.\n\n* Add `avro_options` and `protobuf_options` fields for `databricks.sdk.service.pipelines.Transformer`.\n\n* Add `tiktok_ads` enum value for `databricks.sdk.service.catalog.ConnectionType`.\n\n* Add `agent_service` and `skill` enum values for `databricks.sdk.service.catalog.SecurableType`.\n\n* Add `tiktok_ads` and `smartsheet` enum values for `databricks.sdk.service.pipelines.IngestionSourceType`.…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "97dddcbb80baee7b",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -9,6 +37,49 @@
     "first_seen": "2026-09-17",
     "summary": "Databricks Apps is now on by default for workspaces with the compliance security profile enabled.\n\nSee Databricks Apps.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "fd2a49355af9dafa",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Enabling secure, productive work on personal devices",
+    "url": "https://www.databricks.com/blog/enabling-secure-productive-work-personal-devices",
+    "published": "2026-09-18",
+    "first_seen": "2026-09-19",
+    "summary": "This post walks through how we approach mobile security internally. Instead of focusing on just one product, our approach consists of four layers, each serving a specific purpose: device management, authentication, zero trust, and application management.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Security and Trust",
+      "Industries",
+      "Technology"
+    ]
+  },
+  {
+    "id": "eec6484b9c1ebefe",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/migrate-ip-acls",
+    "title": "databrickslabs/migrate-ip-acls: v0.1.0 — first release",
+    "url": "https://github.com/databrickslabs/migrate-ip-acls/releases/tag/v0.1.0",
+    "published": "2026-09-18",
+    "first_seen": "2026-09-19",
+    "summary": "First release. dbx-migrate-ip-acls recreates a Databricks workspace's existing IP access list as a context-based ingress (CBI) account network policy, verbatim — no traffic analysis, no enrichment.\n\nℹ️ This is a source/tag release; the package is not yet on PyPI. Install from source (see below).\n\nHighlights\n\n- 🔁 Verbatim ACL → CBI migration — ALLOW entries become allow rules, BLOCK entries become deny rules, and the workspace's current egress is carried over unchanged.\n\n- 🛡️ Account-level pre-checks — inspects the currently-assigned policy and PrivateLink posture, and aborts (or warns) rather than silently clobbering an existing policy.\n\n- 🧪 Dry-run-first, review-gated apply — --policy-mode dry_run (log-only) or enforce; an interactive step-through + review gate confirm before any write (bypass with --yes); a propose-only run writes nothing (--no-create-policy --no-auto-assign).\n\n- 🔌 Optional IP-ACL disable — --disable-existing-ip-acls turns off the workspace's IP access lists only after the replacement policy is created and assigned.\n\n- 📤 Export — --export <path> writes the proposed policy as JSON + a sibling Terraform .tf, in propose-only mode.\n\n- 🏷️ --version — dbx-migrate-ip-acls --version reports the tool version.\n\nInstall / run this version\n\ngit clone https://github.com/databrickslabs/migrate-ip-acls && cd migrate-ip-acls\ngit checkout v0.1.0 && uv sync\nuv run dbx-migrate-ip-acls --version # dbx-migrate-ip-acls 0.1.0\nFull details in CHANGELOG.md.",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/migrate-ip-acls"
+    ]
+  },
+  {
+    "id": "4d03ebe32627f918",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Apps telemetry is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-apps-telemetry-is-now-generally-available",
+    "published": "2026-09-18",
+    "first_seen": "2026-09-19",
+    "summary": "Configuring telemetry for your Databricks apps is now generally available. Databricks Apps telemetry collects traces, logs, and metrics and persists them to Unity Catalog tables using the OpenTelemetry (OTel) protocol. After you enable app telemetry, Databricks automatically captures system logs and usage events, and you can add custom instrumentation using the OpenTelemetry SDK for your framework.\n\nSee Configure telemetry for Databricks Apps.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -109,6 +180,30 @@
     "tags": []
   },
   {
+    "id": "cb39ce5f3fd2c3a4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Gateway support for compliance security profile standards",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unity-gateway-support-for-compliance-security-profile-standards",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-19",
+    "summary": "Unity Gateway now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.\n\nFor a full list of supported compliance standards, see Compliance security profile.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "4f244dab20e988bb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Base environments are now supported on classic compute (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#base-environments-are-now-supported-on-classic-compute-beta",
+    "published": "2026-09-17",
+    "first_seen": "2026-09-19",
+    "summary": "You can now use base environments to manage Python dependencies on classic compute. You can use Databricks-provided environments or custom workspace-level environments. See Manage dependencies using environments.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "ca97fa1f4be73c4f",
     "source": "github_release",
     "source_label": "GitHub · databricks/cli",
@@ -158,6 +253,18 @@
     "first_seen": "2026-09-18",
     "summary": "Databricks now automatically deletes a service principal's OAuth client secret after 90 days without use, consistent with unused access token cleanup. If a deleted secret is still needed, create a new OAuth secret.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "b0ec22757a866439",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account-only user access to Genie One (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#account-only-user-access-to-genie-one-beta",
+    "published": "2026-09-16",
+    "first_seen": "2026-09-19",
+    "summary": "Genie One now supports account-only users, so users in a registered identity provider can access account-level Genie One without being assigned to a workspace or granted consumer access. When enabled, eligible users are enrolled automatically. Unity Catalog continues to govern what each user can see. See Account-only user access to Genie One.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
@@ -2313,6 +2420,18 @@
     "first_seen": "2026-08-22",
     "summary": "The job-level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks. You can set these jobs to Standard mode to optimize for cost, or keep the default Performance-optimized mode for faster startup. Previously, dbt tasks always ran refreshes in Performance-optimized mode.\n\nStandard mode can increase refresh startup latency from under a minute to four to six minutes in exchange for lower compute costs. This change affects only refreshes that materialize as an materialized view or streaming table, so most dbt projects, which create regular tables, are unaffected.\n\nSee Select a performance mode for scheduled refreshes.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "497155b8e843e9cb",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Salesforce connector mTLS authentication is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#salesforce-connector-mtls-authentication-is-now-generally-available",
+    "published": "2026-08-20",
+    "first_seen": "2026-09-19",
+    "summary": "Mutual TLS (mTLS) authentication for the Salesforce connector in Lakeflow Connect is now generally available. With mTLS, Databricks and Salesforce exchange and verify client certificates to establish two-way trust, combined with the OAuth client credentials flow. Choose it for API-only users or when your organization requires mTLS. See Mutual TLS (mTLS) authentication.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -6238,18 +6357,6 @@
     "first_seen": "2026-07-30",
     "summary": "The legacy compute_preview system schema is deprecated and will be removed from the system catalog. Use the system.compute schema instead. For a list of current system schemas and tables, see System tables reference.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "c3c4ce7195daa58e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Netskope Logs managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#netskope-logs-managed-ingestion-connector-beta",
-    "published": "2026-06-20",
-    "first_seen": "2026-07-30",
-    "summary": "The Netskope Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest event and alert logs from Netskope into Databricks. See Netskope Logs connector.",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
