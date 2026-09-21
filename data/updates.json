@@ -268,6 +268,18 @@
     "tags": []
   },
   {
+    "id": "c2c1e0ae2b6abe51",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "VARIANT cast extends to ARRAY and MAP columns in ABAC column masks",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#variant-cast-extends-to-array-and-map-columns-in-abac-column-masks",
+    "published": "2026-09-16",
+    "first_seen": "2026-09-21",
+    "summary": "You can now use a single VARIANT function to mask columns of type ARRAY and MAP, in addition to STRUCT and other types. This requires Databricks Runtime 19 or above. See Masking multiple column types with a single function.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
     "id": "d434fda9e8d3bee0",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -6284,78 +6296,6 @@
     "published": "2026-06-23",
     "first_seen": "2026-07-30",
     "summary": "Managed agent memory gives your AI agents long-term memory across conversations, with Databricks running the infrastructure and isolating each scope's memories for you. Memory is stored in Unity Catalog memory stores, governed as Unity Catalog securables and accessed through the Unity Catalog REST API. See Managed agent memory.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "e9041533251f60a8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Square managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#square-managed-ingestion-connector-beta",
-    "published": "2026-06-22",
-    "first_seen": "2026-07-30",
-    "summary": "The Square connector in Lakeflow Connect is now available in Beta. The connector ingests point-of-sale data such as payments, orders, customers, catalog items, and inventory from Square into Databricks. See Square connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "e93a16bae8c586f8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Wiz Audit Logs managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#wiz-audit-logs-managed-ingestion-connector-beta",
-    "published": "2026-06-22",
-    "first_seen": "2026-07-30",
-    "summary": "The Wiz Audit Logs connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest audit log entries, issues, and vulnerability findings from Wiz into Databricks. See Wiz Audit Logs connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "50ef1fd99008b767",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code system table now counts only user-submitted interactions",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-system-table-now-counts-only-user-submitted-interactions",
-    "published": "2026-06-22",
-    "first_seen": "2026-07-30",
-    "summary": "The Genie Code system table (system.access.assistant_events) now records only user-submitted Genie Code interactions, such as side-panel chat, agent mode, and the inline assistant (%assistant). Background and automated requests, such as autocomplete (ghost text), quick-fix suggestions, and automatic renaming, are no longer logged as events.\n\nThis change took effect on May 7, 2026 and corrects earlier behavior that counted these background requests. Event counts recorded before this date can appear higher than actual user activity, so a decrease in daily events around this time is expected and does not indicate a drop in usage.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "0b933bbf2f7d3f0f",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "The Discover page is now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#the-discover-page-is-now-in-public-preview",
-    "published": "2026-06-22",
-    "first_seen": "2026-07-30",
-    "summary": "The Discover page is now in Public Preview. Discover is a curated browsing experience that helps users find data assets governed by Unity Catalog without requiring deep knowledge of catalog hierarchies. Use domains and subdomains to organize tables, dashboards, and Genie Agents by business area, highlight key assets with custom curation, and explore AI-recommended assets.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "8cb30f794bbf41b0",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Enable access requests across your Unity Catalog metastore (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#enable-access-requests-across-your-unity-catalog-metastore-public-preview",
-    "published": "2026-06-22",
-    "first_seen": "2026-07-30",
-    "summary": "You can now enable access requests at the Unity Catalog metastore level. This feature also lets you set a metastore-level destination that's inherited by all catalogs, schemas, and other objects without their own destination. By enabling metastore-level access requests, users can request access to objects even when no destination is explicitly configured. See Manage access requests.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "e297e4d0e5bab607",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Legacy compute_preview system schema deprecated",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#legacy-compute",
-    "published": "2026-06-22",
-    "first_seen": "2026-07-30",
-    "summary": "The legacy compute_preview system schema is deprecated and will be removed from the system catalog. Use the system.compute schema instead. For a list of current system schemas and tables, see System tables reference.",
     "category": "Governance",
     "tags": []
   }
