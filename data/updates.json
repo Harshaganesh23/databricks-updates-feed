@@ -1,5 +1,61 @@
 [
   {
+    "id": "c31193ad015a692d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Genie One MCP server is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-genie-one-mcp-server-is-now-generally-available",
+    "published": "2026-09-25",
+    "first_seen": "2026-09-22",
+    "summary": "The Genie One MCP server is now generally available as a Databricks-provided MCP Service, system.ai.genie_one_mcp, in Unity Gateway. It exposes Genie as a conversational tool over the Model Context Protocol (MCP), so any MCP client or agent, such as Claude, ChatGPT, or Cursor, can ground its data questions in Genie's trusted insights, with Unity Catalog permissions enforced on every request. See Genie One MCP server.\n\nThe previous Beta endpoint, https://<workspace-hostname>/api/2.0/mcp/genie, is deprecated and will be sunset on October 31, 2026. Move all workloads to the system.ai.genie_one_mcp MCP Service before then.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "84da03a25e9c57ef",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Genie One MCP: Give any AI Agent the Right Business Context",
+    "url": "https://www.databricks.com/blog/genie-one-mcp-give-any-ai-agent-right-business-context",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-22",
+    "summary": "Busi",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "42d88f7d50b6361d",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The Genie One MCP is now Generally Available",
+    "url": "https://www.databricks.com/blog/genie-one-mcp-now-generally-available",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-22",
+    "summary": "AI c",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "914258985eb4e69d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The query history system table is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-query-history-system-table-is-now-generally-available",
+    "published": "2026-09-21",
+    "first_seen": "2026-09-22",
+    "summary": "The system.query.history system table is now generally available. Use it to access account-wide records for queries run on SQL warehouses or serverless compute, including execution status, duration metrics, and query source. See Query history system table reference.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
     "id": "31b5892246780c25",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -356,6 +412,20 @@
     "summary": "Attribute-based access control (ABAC) row filters and column masks now extend to views, in addition to tables. This lets you use ABAC policies to control access to sensitive data exposed through views.\n\nAccount admins can enable the ABAC on Views preview from the account console's Previews page. This feature requires Databricks Runtime 19 or above.\n\nSee Attribute-based access control in Unity Catalog.",
     "category": "Governance",
     "tags": []
+  },
+  {
+    "id": "c52ed0ba8c64db73",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Data Ontology defined: The context layer your AI agents are missing",
+    "url": "https://www.databricks.com/blog/data-ontology-defined-context-layer-your-ai-agents-are-missing",
+    "published": "2026-09-15",
+    "first_seen": "2026-09-22",
+    "summary": "A data ontology defines what your data means, not just how it's structured. Learn the definition, why agents need one, and how it differs from a schema.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data + AI Foundations"
+    ]
   },
   {
     "id": "0093acb56d286835",
@@ -6212,91 +6282,5 @@
     "tags": [
       "databrickslabs/ontobricks"
     ]
-  },
-  {
-    "id": "2719b31c32babcf0",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontos",
-    "title": "databrickslabs/ontos: Ontos v1.0.0",
-    "url": "https://github.com/databrickslabs/ontos/releases/tag/v1.0.0",
-    "published": "2026-06-23",
-    "first_seen": "2026-07-30",
-    "summary": "Release Notes - v1.0.0 (2026-06-22)\n\n✨ Features\n\n- maturity: add configurable multi-level maturity assessment for data products and contracts\n\n- term-mapping: ontology term suggestion, AR-based review, inline suggester\n\n- semantic-models: humanize RDF source labels across UI\n\n- auth: add DATABRICKS_CONFIG_PROFILE OAuth U2M fallback for local dev\n\n- asset-reviews: give review requests a human-readable title\n\n- copilot: make Ask Ontos sidebar resizable and align header\n\n- workflows: add on_behalf_of + consumer_principals descriptors; UX polish\n\n- copilot: instruct the LLM on multi-language handling (#280)\n\n- copilot: ground Ask Ontos in concept docs (#280)\n\n- marketplace: add Go to Details button to info dialog\n\n- frontend: add webhook template-variable inspector to workflow designer\n\n- workflows: add template-variable inspector endpoint and registry\n\n- workflows: enrich DP trigger entity_data with output_ports + catalogs\n\n- approvals: surface request details in notifications and approval dialog\n\n- semantic-links: support linking concepts/properties to Assets\n\n- ui: bespoke skeletons for home, settings, canvas pages (refs #297, part 4/4)\n\n- ui: extend skeleton library with layout-matched helpers (refs #297, part 1/4)\n\n- ontology: async generation with DB-persisted run history (#338)\n\n- marketplace: add data quality badge to product tiles\n\n- ui: runtime-configurable display name and favicon (#240)\n\n- consolidate Team and Ownership model (PRD implementation)\n\n- roles: seed default group bindings to match test personas\n\n- versioning: role-aware family collapse, family-latest resolver, EntityVersionPicker (PRD #442 phase 3) (#467)\n\n- versioning: list-view collapse with include_history toggle (Phase 2) (#447)\n\n- versioning: unified version family for contracts and products…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontos"
-    ]
-  },
-  {
-    "id": "21a2db5f2a7f2df1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks connector for Power Platform is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-connector-for-power-platform-is-generally-available",
-    "published": "2026-06-23",
-    "first_seen": "2026-07-30",
-    "summary": "The Databricks connector for Microsoft Power Platform is now generally available. See Databricks and Microsoft Power Platform integration.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "82dd48fe7009c24b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Change the owner of standalone pipeline streaming tables and materialized views",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#change-the-owner-of-standalone-pipeline-streaming-tables-and-materialized-views",
-    "published": "2026-06-23",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use ALTER STREAMING TABLE and ALTER MATERIALIZED VIEW with SET OWNER TO to change the owner of streaming tables and materialized views backed by standalone pipelines created in Databricks SQL. See Use ALTER statements with pipeline datasets.",
-    "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "64a95b8bacacfc51",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Standalone pipeline materialized views support expectations",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#standalone-pipeline-materialized-views-support-expectations",
-    "published": "2026-06-23",
-    "first_seen": "2026-07-30",
-    "summary": "You can now add data quality expectations to materialized views created in Databricks SQL using the CONSTRAINT expectation_name EXPECT (expectation_expr) clause. Expectations let you validate records as they flow through the standalone pipeline that backs the materialized view, and warn, drop, or fail on records that violate a constraint. Streaming tables created in Databricks SQL already support expectations. See Manage data quality with pipeline expectations.",
-    "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "2774157902de1ada",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Data Classification is now available by default for some workspaces with the compliance security profile enabled",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#data-classification-is-now-available-by-default-for-some-workspaces-with-the-compliance-security-profile-enabled",
-    "published": "2026-06-23",
-    "first_seen": "2026-07-30",
-    "summary": "Data Classification is now available by default for workspaces with the compliance security profile enabled, and either HIPAA, HITRUST, PCI-DSS, or FedRAMP Moderate controls or no specific compliance standard selected.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "7c8fd83975da6139",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Block specific internet destinations in network policies (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#block-specific-internet-destinations-in-network-policies-public-preview",
-    "published": "2026-06-23",
-    "first_seen": "2026-07-30",
-    "summary": "You can now block internet destinations from serverless workloads through the network policies REST API. Blocked destinations are enforced regardless of the policy's network access mode. See Block internet destinations.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "8633e361b3382ef3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Managed agent memory is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#managed-agent-memory-is-in-beta",
-    "published": "2026-06-23",
-    "first_seen": "2026-07-30",
-    "summary": "Managed agent memory gives your AI agents long-term memory across conversations, with Databricks running the infrastructure and isolating each scope's memories for you. Memory is stored in Unity Catalog memory stores, governed as Unity Catalog securables and accessed through the Unity Catalog REST API. See Managed agent memory.",
-    "category": "Governance",
-    "tags": []
   }
 ]
