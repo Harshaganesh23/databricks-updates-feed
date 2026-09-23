@@ -12,6 +12,87 @@
     "tags": []
   },
   {
+    "id": "839a215b4b69ba06",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway",
+    "url": "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway",
+    "published": "2026-09-23",
+    "first_seen": "2026-09-23",
+    "summary": "Heal",
+    "category": "Governance",
+    "tags": [
+      "Industries",
+      "Healthcare & Life Sciences",
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "f192f253cd85f82f",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: MLflow 2.11.5",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v2.11.5",
+    "published": "2026-09-23",
+    "first_seen": "2026-09-23",
+    "summary": "2.11.5 (2026-09-23)\n\nMLflow 2.11.5 is a patch release.\n\nFeatures:\n\n- [Model Registry / Models] Add opt-in support for routing Unity Catalog model registry artifact uploads and downloads through the Databricks SDK Files API (#25986, @tonycai96)",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "ba1c8224d9a898c1",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.141.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.141.0",
+    "published": "2026-09-23",
+    "first_seen": "2026-09-23",
+    "summary": "## Release v0.141.0 (2026-09-23)\n\n### API Changes\n\n* Add `databricks.sdk.service.mason` package.\n\n* Add [w.mason](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/mason/mason.html) workspace-level service.\n\n* Add `service_credential` field for `databricks.sdk.service.catalog.ModelProviderServiceConfigGeminiEnterpriseProviderDirectConfig`.\n\n* Add `secret_reference` field for `databricks.sdk.service.catalog.ModelProviderServiceConfigProviderSecret`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "75a9578a9264db4f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Scalar and Batch Unity Catalog Python UDFs are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#scalar-and-batch-unity-catalog-python-udfs-are-now-generally-available",
+    "published": "2026-09-23",
+    "first_seen": "2026-09-23",
+    "summary": "Scalar and Batch Unity Catalog Python UDFs are now generally available on all supported compute types. This release adds named handlers for row-at-a-time scalar UDFs, removes the five-UDF-call-per-query limit, and aligns scalar TIMESTAMP inputs with PySpark behavior. You can also install custom dependencies and access Unity Catalog service credentials and secrets from your functions. Some capabilities require the UDF definition to explicitly set environment_version to 6 or above, including the newly generally available scalar capabilities on serverless compute. Requirements vary by feature and compute type. See Python UDF feature requirements.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "8c239a89243dfc22",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Scala UDFs can access Unity Catalog secrets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#scala-udfs-can-access-unity-catalog-secrets",
+    "published": "2026-09-23",
+    "first_seen": "2026-09-23",
+    "summary": "Session-scoped and Unity Catalog Scala UDFs can now access secrets managed in Unity Catalog. Session-scoped UDFs use the caller's permissions. A Unity Catalog Scala UDF declares secrets in its SECRETS clause and uses the function owner's permissions, so callers do not need direct access to the secrets. On serverless compute, secret access from session-scoped Scala UDFs requires environment version 6 or above. A Unity Catalog Scala UDF that accesses a secret must set environment_version to 6 or above. On classic compute, secret access requires Databricks Runtime 19 or above with standard access mode. Among SQL warehouse types, only serverless SQL warehouses support Unity Catalog Scala UDFs that access secrets. Direct invocation is not supported on dedicated access mode compute. See Secrets in Unity Catalog.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "325576d877688c1c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Build governed data and AI apps without code (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#build-governed-data-and-ai-apps-without-code-beta",
+    "published": "2026-09-23",
+    "first_seen": "2026-09-23",
+    "summary": "You can now build governed data and AI apps without code. Genie App Builder authors apps in natural language, App Spaces enforce governance, and Serverless Micro Apps scale to zero when idle. See Governed agentic app building.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
     "id": "84da03a25e9c57ef",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -44,6 +125,128 @@
     ]
   },
   {
+    "id": "9e928ccbd5768f99",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unity Catalog Pages: a governed home for your business knowledge in Genie Ontology",
+    "url": "https://www.databricks.com/blog/unity-catalog-pages-governed-home-your-business-knowledge-genie-ontology",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "Ever",
+    "category": "Governance",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "f47924ac4b075be0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect coding agents to Unity Gateway with the ug CLI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#connect-coding-agents-to-unity-gateway-with-the-ug-cli",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "Use the Unity Gateway CLI (ug) to connect Claude Code, Codex, Pi, and more to Unity Gateway with one command. ug handles authentication and configuration, adds approved MCP servers and skills, and shows spend in the terminal. See Get started with coding agents.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "f50fed0c3b19850d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Shopify connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#shopify-connector-beta",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "The Shopify connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests e-commerce data such as products, orders, customers, inventory, fulfillments, and discounts from Shopify into Databricks. Authentication uses the Shopify OAuth client credentials grant.\n\nSee Shopify connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "cf69fe16ca4eaded",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakebase backup schedule API (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#lakebase-backup-schedule-api-beta",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "You can now manage Lakebase backup schedules programmatically. The snapshot schedule API lets you read and set a root branch's automated snapshot cadences (daily, weekly, or monthly) and how long each cadence's snapshots are retained. This API is in Beta and available to all Lakebase workspaces. See Create a backup schedule.",
+    "category": "Database",
+    "tags": []
+  },
+  {
+    "id": "4fabc9b71415510d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-6 Sol is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#openai-gpt-6-sol-is-now-available-on-unity-gateway",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "OpenAI GPT-6 Sol is now available on Unity Gateway. You can access this model using Foundation Model APIs pay-per-token.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "574bc6727daf42fa",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-6 Luna is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#openai-gpt-6-luna-is-now-available-on-unity-gateway",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "OpenAI GPT-6 Luna is now available on Unity Gateway. You can access this model using Foundation Model APIs pay-per-token.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "6548d009f12654e0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Invite OpenSharing recipients by email (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#invite-opensharing-recipients-by-email-beta",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "You can now invite OpenSharing recipients by email instead of exchanging a sharing identifier or credential file. OpenSharing emails the recipient a secure activation link to connect and read the shared data. Email sharing is in Beta. See OpenSharing by email.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "eaf120c183862e8c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unified tracing now includes coding agent activity",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unified-tracing-now-includes-coding-agent-activity",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "Unity Gateway now adds coding-agent activity to unified tracing through the Unity Gateway CLI, so you can see the tools and skills used alongside model requests. Explore it in Govern > Traces or with Genie. See Tracing.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "9d2f07fa0b0a4398",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Centrally configure coding agents",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#centrally-configure-coding-agents",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "Organizations can now centrally configure coding agents: models, MCP servers, skills, a default harness and models, and Smart Routing. Settings apply at agent launch, or roll out through mobile device management (MDM). See Configure coding agents centrally.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "e61debf6e525abb4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Opus 5.5 is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anthropic-claude-opus-55-is-now-available-on-unity-gateway",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-23",
+    "summary": "Anthropic Claude Opus 5.5 is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
     "id": "914258985eb4e69d",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -53,6 +256,18 @@
     "first_seen": "2026-09-22",
     "summary": "The system.query.history system table is now generally available. Use it to access account-wide records for queries run on SQL warehouses or serverless compute, including execution status, duration metrics, and query source. See Query history system table reference.",
     "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "c7c65eeaa102808f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Back model provider service credentials with a Unity Catalog secret",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#back-model-provider-service-credentials-with-a-unity-catalog-secret",
+    "published": "2026-09-21",
+    "first_seen": "2026-09-23",
+    "summary": "Back a model provider service's API key with a customer-owned Unity Catalog secret. The service reads it at query time, so rotating the secret takes effect with no service change. See Back a provider credential with a Unity Catalog secret.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -82,6 +297,18 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "4f4add3ee8294207",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configure provider discounts for external model spend",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#configure-provider-discounts-for-external-model-spend",
+    "published": "2026-09-19",
+    "first_seen": "2026-09-23",
+    "summary": "Unity Gateway estimates external model spend using each provider's published list prices. If your organization has negotiated different pricing with a provider, you can now configure a price multiplier on the model provider service so that spend estimates reflect those rates.\n\nPrice multipliers only apply to external models accessed through model provider services, not Databricks-hosted partner models.\n\nSee Configure a price multiplier.",
+    "category": "Platform Overview",
+    "tags": []
   },
   {
     "id": "97dddcbb80baee7b",
@@ -137,6 +364,20 @@
     "summary": "Configuring telemetry for your Databricks apps is now generally available. Databricks Apps telemetry collects traces, logs, and metrics and persists them to Unity Catalog tables using the OpenTelemetry (OTel) protocol. After you enable app telemetry, Databricks automatically captures system logs and usage events, and you can add custom instrumentation using the OpenTelemetry SDK for your framework.\n\nSee Configure telemetry for Databricks Apps.",
     "category": "Governance",
     "tags": []
+  },
+  {
+    "id": "f36bba4d43dfcc99",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Database Branching: A Developer's Guide to Git-Style Workflows",
+    "url": "https://www.databricks.com/blog/database-branching",
+    "published": "2026-09-18",
+    "first_seen": "2026-09-23",
+    "summary": "Learn how database branching brings Git-style workflows to databases—using copy-on-write to create isolated, disposable environments for developers, CI, and AI agents.",
+    "category": "Application Development",
+    "tags": [
+      "Data + AI Foundations"
+    ]
   },
   {
     "id": "fa57b7201ca9bca0",
@@ -333,6 +574,18 @@
     "first_seen": "2026-09-21",
     "summary": "You can now use a single VARIANT function to mask columns of type ARRAY and MAP, in addition to STRUCT and other types. This requires Databricks Runtime 19 or above. See Masking multiple column types with a single function.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "36014e9f5050276b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Managed agent memory and sessions are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#managed-agent-memory-and-sessions-are-in-beta",
+    "published": "2026-09-16",
+    "first_seen": "2026-09-23",
+    "summary": "Managed agent memory and managed agent sessions are in Beta. Databricks now provides two fully managed, Lakebase-backed stores for agent state, both usable from agents built on any framework:\n\n- Managed agent memory gives agents durable, long-term memory that persists across conversations, with semantic search. See Managed agent memory.\n\n- Managed agent sessions store durable conversation history that an agent reads at the start of a turn and appends to as it runs. See Managed agent sessions.",
+    "category": "Database",
     "tags": []
   },
   {
@@ -6240,47 +6493,5 @@
     "summary": "Solution Accelerators are no longer a separate listing type in Databricks Marketplace. The content is unchanged, but they are now categorized as apps (interactive applications) or notebooks (code-based accelerators). See What is Databricks Marketplace?.",
     "category": "Application Development",
     "tags": []
-  },
-  {
-    "id": "76ec115a97569124",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.119.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.119.0",
-    "published": "2026-06-24",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.119.0 (2026-06-24)\n\n### New Features and Improvements\n\n* Added a `meta-harness` user-agent dimension that reports the omnigent meta-harness (detected via the `OMNIGENT` environment variable) independently of agent detection.\n\n### API Changes\n\n* Add `cancel_pending_cluster_enforcement()` method for [w.policy_compliance_for_clusters](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/compute/policy_compliance_for_clusters.html) workspace-level service.\n\n* Add `bundle_root_path` field for `databricks.sdk.service.bundledeployments.WorkspaceInfo`.\n\n* Add `pending_enforcement` field for `databricks.sdk.service.compute.ClusterCompliance`.\n\n* Add `enforce_mode` field for `databricks.sdk.service.compute.EnforceClusterComplianceRequest`.\n\n* Add `enforce_result` field for `databricks.sdk.service.compute.EnforceClusterComplianceResponse`.\n\n* Add `pending_enforcement` field for `databricks.sdk.service.compute.GetClusterComplianceResponse`.\n\n* Add `ai_runtime_task` field for `databricks.sdk.service.jobs.ResolvedValues`.\n\n* Add `ai_runtime_task_output` field for `databricks.sdk.service.jobs.RunOutput`.\n\n* Add `ai_runtime_task` field for `databricks.sdk.service.jobs.RunTask`.\n\n* Add `ai_runtime_task` field for `databricks.sdk.service.jobs.SubmitTask`.\n\n* Add `ai_runtime_task` field for `databricks.sdk.service.jobs.Task`.\n\n* Add `xlarge` enum value for `databricks.sdk.service.apps.ComputeSize`.\n\n* Add `deferred_policy_enforcement_scheduled` and `deferred_policy_enforcement_failed` enum values for `databricks.sdk.service.compute.EventType`.\n\n* [Breaking] Change `replicate_workspace_assets` field for `databricks.sdk.service.disasterrecovery.WorkspaceSet` to no longer be required.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "c05ad949ceac7c85",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.5.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.5.0",
-    "published": "2026-06-24",
-    "first_seen": "2026-07-30",
-    "summary": "CLI\n\n- workspace export-dir no longer aborts when a workspace object's name is not a legal local filename (e.g. a notebook named New Notebook 2026-05-04 13:54:24 whose : is illegal on Windows). Such files are now exported under a sanitized name with a warning and the export completes (#5171).\n\n- ssh connect now opens an interactive bash login shell by default instead of the compute image's default /bin/sh, falling back gracefully when bash is unavailable. Passing an explicit remote command (-- <cmd>) is unaffected (#5687).\n\n- ssh connect interactive sessions now start in the user's workspace home folder (/Workspace/Users/<email>) instead of the OS home directory, falling back to the OS home when that folder is unavailable (#5688).\n\nBundles\n\n- Add documentation for the common bundle resource fields permissions, lifecycle, and grants in the JSON schema, so they surface in editor completions and the docs.\n\n- bundle run now prints the modern job run URL (/jobs/<id>/runs/<id>) so that non-admin users permitted to view the run are taken to the run instead of the workspace homepage.\n\n- References to a registered model's registered_model_id now resolve under the direct engine, matching Terraform behavior (#5621).\n\n- Fix missing field descriptions in the bundle JSON schema for fields whose upstream API docs arrived after the field was first annotated (e.g. vector_search_endpoints.*.target_qps); stale placeholder markers no longer hide them (#5588).\n\n- Fix bundle deploy --plan dropping a postgres_role's role_id, which caused the role to be recreated on the next deploy (#5672).\n\n- direct: Fix spurious cluster recreate when apply_policy_default_values: true is set (#5693).…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "b29f90f181dd2a13",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.5.2",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.5.2",
-    "published": "2026-06-24",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V0.5.2\n\nRelease date: 2026-06-22\n\nType: Patch — two targeted fixes\n\nTest status: 2283 passing, 15 skipped (unit tier).\n\nSummary\n\nv0.5.2 is a stability patch with two independent fixes:\n\n- Deterministic R2RML serialization — mapping exports are now stable across runs, making diff-based version control and automated pipelines reliable.\n\n- MCP server cold-start resilience — the MCP server no longer fails on the first tool call when Databricks Apps is waking from idle; it retries transparently.\n\nNo schema changes. No configuration changes. No migration scripts required.\n\nFixes\n\n1. Deterministic R2RML serialization\n\nSymptom: Two successive exports of the same domain mapping produced R2RML files with attributes in a different order, making version diffs noisy and breaking any pipeline that checksummed the output.\n\nRoot cause: R2RMLGenerator._add_entity_mapping() iterated over attribute_mappings (a plain dict) without sorting, so insertion order determined output order — non-deterministic across Python versions and dict mutations.\n\nFix: attribute_mappings.items() is now wrapped in sorted(), producing stable alphabetical order.\n\nFile changed: src/back/core/w3c/r2rml/R2RMLGenerator.py\n\nTests updated: tests/units/mapping/test_r2rml_generator.py — assertions updated to match sorted order.\n\n2. MCP server retry on 502/503 (Databricks Apps cold-start)\n\nSymptom: The first MCP tool call after an idle period failed immediately with a 502 or 503 error. The MCP client received a hard failure instead of waiting for the app to wake up.\n\nRoot cause: _get and _post in the MCP server called raise_for_status() immediately on any non-2xx response, including transient 502/503 responses emitted by the Databricks Apps proxy during cold-start.…",
-    "category": "Application Development",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
   }
 ]
