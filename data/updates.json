@@ -12,6 +12,76 @@
     "tags": []
   },
   {
+    "id": "2dce1c71be0dfb35",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Deploy and manage coding agents at scale with the Unity Gateway CLI",
+    "url": "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
+    "published": "2026-09-24",
+    "first_seen": "2026-09-24",
+    "summary": "In the last six mont",
+    "category": "Application Development",
+    "tags": [
+      "Platform",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "d85d1291df9f4821",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How I built agent-based security reviews on Databricks",
+    "url": "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
+    "published": "2026-09-24",
+    "first_seen": "2026-09-24",
+    "summary": "How I used Databricks to automate routine security reviews, gather evidence, escalate uncertainty and preserve expert judgment for higher-risk decisions.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering",
+      "Security"
+    ]
+  },
+  {
+    "id": "f2d66dce6c9b3d36",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.18.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.18.0",
+    "published": "2026-09-24",
+    "first_seen": "2026-09-24",
+    "summary": "Release v1.18.0 (2026-09-24)\n\nCLI\n\n- The AI Runtime commands have moved to databricks air. The previous databricks experimental air path now directs users to the new command. (#6722)\n\n- Write local state, cache, and config files atomically so an interrupted or concurrent write cannot corrupt them. (#6708)\n\n- Deprecate --region in databricks auth docker configure ahead of its removal in the next release, infer the Artifact Registry region when it is omitted, and add databricks auth docker host --profile <name> to show the profile's registry host and credential-helper status. (#6782)\n\n- Return UNAUTHENTICATED instead of INVALID_REFRESH_TOKEN when databricks auth token --output json cannot refresh a cached U2M token. (#6731)\n\n- Retry the current-user (SCIM Me) lookup on transient HTTP 500 responses so a temporarily-unavailable backend no longer fails bundle commands outright. (#6766)\n\n- Preserve workspace-file and volume access for SSH server descendants when the bootstrap notebook exits and the server survives. (#6645)\n\n- ssh connect and ssh setup now accept a --keep-detached-processes flag to keep processes detached from the SSH session (tmux, setsid, nohup) running after the tunnel shuts down. Teardown then terminates only the tunnel's own process group, and the bootstrap job run is held open while any detached process is still running, so the survivors keep their /Workspace and /Volumes access. A held-open run also suppresses cluster autotermination, so the flag is off by default, is bounded by --server-timeout, and is dedicated-cluster only. Without it, the server now logs a warning naming the detached processes it is about to destroy, instead of sweeping them silently. (#6387)\n\nBundles…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "2a94636c0043ea17",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.8.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.8.0",
+    "published": "2026-09-24",
+    "first_seen": "2026-09-24",
+    "summary": "What's Changed\n\n- fix(reporting): apply container_metrics column_name_mapping in incremental detection (#99) by @tombonfert in #100\n\n- Cap containers per incremental report run with max_containers_per_run by @tombonfert in #98\n\n- test: parallelise the test suite with pytest-xdist and per-worker Spark isolation by @tombonfert in #105\n\n- Apply channels.filters at read time (#103) by @tombonfert in #104\n\n- Bump version to 0.8.0 in VERSION file by @tombonfert in #107\n\nFull Changelog: v0.7.0...v0.8.0\n\nWhat's Changed\n\n- fix(reporting): apply container_metrics column_name_mapping in incremental detection (#99) by @tombonfert in #100\n\n- Cap containers per incremental report run with max_containers_per_run by @tombonfert in #98\n\n- test: parallelise the test suite with pytest-xdist and per-worker Spark isolation by @tombonfert in #105\n\n- Apply channels.filters at read time (#103) by @tombonfert in #104\n\n- Bump version to 0.8.0 in VERSION file by @tombonfert in #107\n\nFull Changelog: v0.7.0...v0.8.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
+    "id": "f8a349e9ea72b073",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing metric views with OpenSharing is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-metric-views-with-opensharing-is-now-generally-available",
+    "published": "2026-09-24",
+    "first_seen": "2026-09-24",
+    "summary": "Sharing metric views with OpenSharing is now generally available. Add metric views to a share and query them with MEASURE(...) on serverless compute. See Add metric views to a share and Read shared metric views.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
     "id": "839a215b4b69ba06",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -90,6 +160,18 @@
     "first_seen": "2026-09-23",
     "summary": "You can now build governed data and AI apps without code. Genie App Builder authors apps in natural language, App Spaces enforce governance, and Serverless Micro Apps scale to zero when idle. See Governed agentic app building.",
     "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "37aa15fd13cd92ee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Time travel queries now enforce ABAC policies (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#time-travel-queries-now-enforce-abac-policies-beta",
+    "published": "2026-09-23",
+    "first_seen": "2026-09-24",
+    "summary": "This feature is in Beta. Starting in Databricks Runtime 19, you can use time travel on qualifying Unity Catalog managed tables while enforcing ABAC row filter and column mask policies. See Time travel with ABAC policies.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -6480,18 +6562,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now define parameters in metric views to bind values at query time, serving many query variants from a single definition instead of maintaining a separate metric view per variant. See Use parameters with metric views.",
     "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "cf47a15ca61a84a9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Solution Accelerators in Databricks Marketplace are now published as apps or notebooks",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#solution-accelerators-in-databricks-marketplace-are-now-published-as-apps-or-notebooks",
-    "published": "2026-06-25",
-    "first_seen": "2026-07-30",
-    "summary": "Solution Accelerators are no longer a separate listing type in Databricks Marketplace. The content is unchanged, but they are now categorized as apps (interactive applications) or notebooks (code-based accelerators). See What is Databricks Marketplace?.",
-    "category": "Application Development",
     "tags": []
   }
 ]
