@@ -12,6 +12,48 @@
     "tags": []
   },
   {
+    "id": "783a143116879cfb",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "From Data to Dialogue: How S&P Global Energy Made Its Structured Data Estate Conversational with Databricks Genie Agents and MCP",
+    "url": "https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks",
+    "published": "2026-09-25",
+    "first_seen": "2026-09-25",
+    "summary": "S&P Global's goal was to fundamentally improve how customers discover and consume...",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "3c176bcd5283f9d9",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.142.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.142.0",
+    "published": "2026-09-25",
+    "first_seen": "2026-09-25",
+    "summary": "## Release v0.142.0 (2026-09-25)\n\n### API Changes\n\n* Add `create_skill()`, `delete_skill()`, `finalize_skill()`, `get_skill()`, `list_skills()` and `update_skill()` methods for [w.ai_gateway](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/catalog/ai_gateway.html) workspace-level service.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "d385aef0d990a8cd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Tags for dashboards, notebooks, Databricks apps, and Genie Agents are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#tags-for-dashboards-notebooks-databricks-apps-and-genie-agents-are-now-generally-available",
+    "published": "2026-09-25",
+    "first_seen": "2026-09-25",
+    "summary": "You can now apply tags to dashboards, notebooks, Databricks apps, and Genie Agents to organize and categorize your workspace assets. This capability is now generally available. Both governed and ungoverned key-value tags are supported. See Apply tags to Unity Catalog securable objects.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
     "id": "2dce1c71be0dfb35",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -80,6 +122,22 @@
     "summary": "Sharing metric views with OpenSharing is now generally available. Add metric views to a share and query them with MEASURE(...) on serverless compute. See Add metric views to a share and Read shared metric views.",
     "category": "Business Intelligence",
     "tags": []
+  },
+  {
+    "id": "da0bf4ec78d859f7",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Running open-Jev in SQL on Databricks",
+    "url": "https://www.databricks.com/blog/running-open-jev-sql-databricks",
+    "published": "2026-09-24",
+    "first_seen": "2026-09-25",
+    "summary": "Over",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "AI Engineering",
+      "Open Source"
+    ]
   },
   {
     "id": "839a215b4b69ba06",
@@ -6524,44 +6582,6 @@
     "first_seen": "2026-07-30",
     "summary": "The Chat/Agent mode selector has been removed from the Genie Code pane. Genie Code now runs exclusively in Agent mode. If you prefer a conversational response without autonomous task execution (what was previously called Chat mode), include that instruction in your prompt. For example: \"Just explain this to me, don't run any code.\"\n\nSee Agent mode.",
     "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "1cd608792b20bc06",
-    "source": "github_release",
-    "source_label": "GitHub · apache/spark",
-    "title": "apache/spark: v4.2.0-rc4",
-    "url": "https://github.com/apache/spark/releases/tag/v4.2.0-rc4",
-    "published": "2026-06-26",
-    "first_seen": "2026-07-30",
-    "summary": "Preparing Spark release v4.2.0-rc4",
-    "category": "Data Engineering",
-    "tags": [
-      "apache/spark"
-    ]
-  },
-  {
-    "id": "b95933c846db0363",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Microsoft Dynamics 365 connector (GA)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#microsoft-dynamics-365-connector-ga",
-    "published": "2026-06-26",
-    "first_seen": "2026-07-30",
-    "summary": "The managed Microsoft Dynamics 365 connector in Lakeflow Connect is now generally available. The connector allows you to ingest CRM and ERP data from Dynamics 365 into Databricks using Azure Synapse Link. See Microsoft Dynamics 365 connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "115d56681c264bd6",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Metric view parameters are now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#metric-view-parameters-are-now-in-public-preview",
-    "published": "2026-06-26",
-    "first_seen": "2026-07-30",
-    "summary": "You can now define parameters in metric views to bind values at query time, serving many query variants from a single definition instead of maintaining a separate metric view per variant. See Use parameters with metric views.",
-    "category": "Business Intelligence",
     "tags": []
   }
 ]
