@@ -1,5 +1,31 @@
 [
   {
+    "id": "14c14b4fabab3ae9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Horizontal scaling for Databricks Apps is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#horizontal-scaling-for-databricks-apps-is-now-generally-available",
+    "published": "2026-09-29",
+    "first_seen": "2026-09-26",
+    "summary": "Horizontal scaling for Databricks Apps is now generally available. You can run a Databricks app across multiple instances behind one app URL for higher availability and concurrency, with zero-downtime deployments and best-effort session affinity.\n\nSee Horizontal scaling for Databricks apps.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "dc4cd9daed241f8e",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.143.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.143.0",
+    "published": "2026-09-26",
+    "first_seen": "2026-09-26",
+    "summary": "## Release v0.143.0 (2026-09-26)\n\n### API Changes\n\n* Add `job_id` and `pipeline_id` fields for `databricks.sdk.service.ml.MaterializedFeature`.\n\n### Bug Fixes\n\n* Don't configure the root logger when importing `databricks.sdk.runtime`. Its import-time notebook-globals initialization logged through root-level `logging` helpers, which install a handler on the root logger when it has none. This also happened transitively through `WorkspaceClient` and `dbutils`, and made a later `logging.basicConfig()` a silent no-op. These messages now go through the SDK's `databricks.sdk` logger.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "c31193ad015a692d",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -51,6 +77,18 @@
     "first_seen": "2026-09-25",
     "summary": "You can now apply tags to dashboards, notebooks, Databricks apps, and Genie Agents to organize and categorize your workspace assets. This capability is now generally available. Both governed and ungoverned key-value tags are supported. See Apply tags to Unity Catalog securable objects.",
     "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "6f55220028ba5126",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code can now build intelligent document processing pipelines",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-code-can-now-build-intelligent-document-processing-pipelines",
+    "published": "2026-09-25",
+    "first_seen": "2026-09-26",
+    "summary": "Genie Code can now build end-to-end document processing pipelines by orchestrating parsing, classification, extraction, and validation. Point it at unstructured PDFs, contracts, or invoices, and it evaluates extraction quality against labeled data and iterates to improve it. See Use Genie Code for intelligent document processing.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -233,6 +271,18 @@
     "tags": []
   },
   {
+    "id": "38e7c79a2eb208fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4 Pro (0813) is scheduled for retirement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#deepseek-v4-pro-0813-is-scheduled-for-retirement",
+    "published": "2026-09-23",
+    "first_seen": "2026-09-26",
+    "summary": "DeepSeek V4 Pro (0813) will be retired on October 30, 2026. DeepSeek V4.1 Flash is the recommended replacement. See Deprecated and retired models for migration guidance.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "84da03a25e9c57ef",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -385,6 +435,20 @@
     "summary": "Anthropic Claude Opus 5.5 is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
     "tags": []
+  },
+  {
+    "id": "2f49e089415bf91b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Top 5 System Table Queries for Understanding Your Databricks Costs",
+    "url": "https://www.databricks.com/blog/top-5-system-table-queries-understanding-your-databricks-costs",
+    "published": "2026-09-22",
+    "first_seen": "2026-09-26",
+    "summary": "Five system table queries to track Databricks spend — by product, warehouse, and team, with anomaly detection and AI forecasting.",
+    "category": "Data Warehousing",
+    "tags": [
+      "Platform & Products & Announcements"
+    ]
   },
   {
     "id": "914258985eb4e69d",
