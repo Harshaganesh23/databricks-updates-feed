@@ -12,6 +12,150 @@
     "tags": []
   },
   {
+    "id": "5fca8d7babdc63f0",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Manufacturing data and AI: Connecting the product value chain",
+    "url": "https://www.databricks.com/blog/manufacturing-data-and-ai-connecting-product-value-chain",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "Learn how manufacturers connect value-chain data, trace defects across systems and give teams governed, natural-language access to answers.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries"
+    ]
+  },
+  {
+    "id": "26f8d7081d07bfdf",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How to roll out Genie One: A step-by-step enterprise playbook",
+    "url": "https://www.databricks.com/blog/how-roll-out-genie-one-step-step-enterprise-playbook",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "A re",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "3ae70186f32f2aa3",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The 24 most commonly misunderstood marketing data terms",
+    "url": "https://www.databricks.com/blog/helping-marketing-data-engineering-same-word-different-meaning",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "Align on 24 terms marketing and data engineering interpret differently to reduce campaign rework and clarify audience readiness, freshness and ownership.",
+    "category": "Platform Overview",
+    "tags": [
+      "Marketing"
+    ]
+  },
+  {
+    "id": "fa4b12d725b055aa",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.2.1-rc1",
+    "url": "https://github.com/apache/spark/releases/tag/v4.2.1-rc1",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "Preparing Spark release v4.2.1-rc1",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "ddc379ad2f03f4d1",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.1.4-rc1",
+    "url": "https://github.com/apache/spark/releases/tag/v4.1.4-rc1",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "Preparing Spark release v4.1.4-rc1",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "716ab307d9a3b3b2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workday Activity Logging connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#workday-activity-logging-connector-beta",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "The Workday Activity Logging connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector incrementally ingests Workday user activity log events into Databricks. Authentication uses an OAuth refresh token.\n\nSee Workday Activity Logging connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "3b82f567511d959e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Okta System Logs connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#okta-system-logs-connector-is-available-in-beta",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "The managed Okta System Logs connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to incrementally ingest audit and security events from the Okta System Log into Databricks. The connector uses SSWS API token authentication and supports Declarative Automation Bundles and API-based pipeline authoring.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "357f6376cccc7e8d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Microsoft 365 Unified Audit Logs connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#microsoft-365-unified-audit-logs-connector-is-available-in-beta",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "The managed Microsoft 365 Unified Audit Logs connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest unified audit events from Microsoft Entra ID, Exchange, SharePoint, and other Microsoft 365 workloads into Databricks. The connector uses OAuth machine-to-machine authentication and supports incremental ingestion.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "dc6982670b747399",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "CrowdStrike Falcon Event Stream connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#crowdstrike-falcon-event-stream-connector-beta",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "The CrowdStrike Falcon Event Stream connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests Falcon Event Stream events from CrowdStrike Falcon into Databricks. Authentication uses OAuth 2.0 client credentials from a CrowdStrike API client with Event streams Read permission.\n\nSee CrowdStrike Falcon Event Stream connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "a878bde6854bdea5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Akamai WAF connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#akamai-waf-connector-beta",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "The Akamai WAF connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests web application firewall (WAF) security events from Akamai into Databricks. Authentication uses Akamai EdgeGrid API client credentials.\n\nSee Akamai WAF connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "3a4246f8f0f13ea6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "1Password Event Logs connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#1password-event-logs-connector-beta",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-28",
+    "summary": "The 1Password Event Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses the 1Password Events API to ingest audit events, item usages, and sign-in attempts into Databricks. Authentication uses an Events Reporting bearer token.\n\nSee 1Password Event Logs connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "dc4cd9daed241f8e",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -6574,78 +6718,6 @@
     "first_seen": "2026-07-30",
     "summary": "Lakebase Autoscaling is now available in ap-northeast-1 (Asia Pacific - Tokyo). For all supported regions, see Region availability. To get started, see Get a Postgres database.",
     "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "4aa3f2dfca20bb85",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "SQL alert task in Lakeflow Jobs is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#sql-alert-task-in-lakeflow-jobs-is-now-generally-available",
-    "published": "2026-06-29",
-    "first_seen": "2026-07-30",
-    "summary": "The SQL alert task in Lakeflow Jobs is now generally available. Use the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result. See SQL alert task for jobs.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "f0c016dc7abf5404",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime maintenance updates (06/29)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#databricks-runtime-maintenance-updates-0629",
-    "published": "2026-06-29",
-    "first_seen": "2026-07-30",
-    "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 18.0\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "903fda0f99d1cce9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Govern LLMs in Unity Catalog with model services (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#govern-llms-in-unity-catalog-with-model-services-beta",
-    "published": "2026-06-29",
-    "first_seen": "2026-07-30",
-    "summary": "You can now govern Databricks-hosted LLMs in Unity Catalog using model services, currently in Beta. A model service is a Unity Catalog securable that represents a governed LLM endpoint, so you can define an endpoint once and share it across workspaces using Unity Catalog privileges, instead of duplicating endpoints per workspace. Databricks provides ready-to-use model services in the system.ai schema for Databricks-hosted foundation models, and you can create your own with the Unity AI Gateway UI, Catalog Explorer, or the Unity Catalog REST API. See model services.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "7f1d3ee5d39a5b30",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Custom Docker images for AI Runtime CLI workloads (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#custom-docker-images-for-ai-runtime-cli-workloads-beta",
-    "published": "2026-06-29",
-    "first_seen": "2026-07-30",
-    "summary": "You can now bring your own Docker container image to AI Runtime CLI (air) workloads. This feature is in Beta. Use a custom image when you need specific system library versions, complex dependencies, or a reproducible environment. See Use custom Docker images.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "54447efc345c9092",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Parquet v2 for Delta Lake tables is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#parquet-v2-for-delta-lake-tables-is-generally-available",
-    "published": "2026-06-29",
-    "first_seen": "2026-07-30",
-    "summary": "Parquet v2 is now generally available for Delta Lake tables in Databricks Runtime 18.1 and above. Parquet v2 uses advanced encodings, v2 data page headers, and INT64 timestamps to improve query performance and reduce table sizes. To use, set the delta.parquet.format.version table property to 2.12.0 or enable automatic upgrades. See Parquet v2 and Automatic upgrades.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "cf22465121f29eac",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code Chat/Agent mode selector removed",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#genie-code-chatagent-mode-selector-removed",
-    "published": "2026-06-29",
-    "first_seen": "2026-07-30",
-    "summary": "The Chat/Agent mode selector has been removed from the Genie Code pane. Genie Code now runs exclusively in Agent mode. If you prefer a conversational response without autonomous task execution (what was previously called Chat mode), include that instruction in your prompt. For example: \"Just explain this to me, don't run any code.\"\n\nSee Agent mode.",
-    "category": "AI Assistant",
     "tags": []
   }
 ]
