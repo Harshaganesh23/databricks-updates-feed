@@ -12,6 +12,34 @@
     "tags": []
   },
   {
+    "id": "d5c9596ed7605b54",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: v4.4.1: [Release] Prepare version 4.4.1 for release (#7682)",
+    "url": "https://github.com/delta-io/delta/releases/tag/v4.4.1",
+    "published": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "summary": "Which Delta project/connector is this regarding?\n\n- Spark\n\n- Standalone\n\n- Flink\n\n- Kernel\n\n- Other (release)\n\nDescription\n\nThe release branch normally uses version 4.4.1-SNAPSHOT. That\n\ndevelopment version is not correct for final 4.4.1 artifacts.\n\nThis PR changes version.sbt to 4.4.1 for the release.\n\nAfter this PR merges, tag its merge commit as v4.4.1 before merging the\n\nsnapshot-restoration PR.\n\nHow was this patch tested?\n\n- Confirmed version.sbt contains 4.4.1.\n\n- Confirmed the generated Python version remains 4.4.1.\n\n- Ran git diff --check.\n\nDoes this PR introduce any user-facing changes?\n\nNo runtime behavior changes. This sets the version needed to produce the\n\nDelta Lake 4.4.1 release artifacts.",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "a40e8aaece03d004",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: Lakemeter OSS v0.2.2",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.2.2",
+    "published": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "summary": "Code-only patch release. No Lakebase schema change, data migration, or pricing refresh is required.\n\nBug fixes\n\n- Fixed source installations so the app uses its service-principal identity for OAuth Lakebase connections, restoring empty region dropdowns (#75, #78)\n\n- Fixed the installer verifier so it authenticates to the app and fails when region, pricing, or calculation checks fail (#78)\n\n- Fixed Marketplace FMAPI proprietary effective DBU rates and the reported app version (#67)\n\n- Retried transient Lakebase wake-up timeouts during app startup (#68)\n\nMarketplace and documentation\n\n- Packaged the Databricks App for Marketplace with in-app Lakebase bootstrap (#65)\n\n- Made Marketplace installation the preferred path and fixed admin-guide links, callouts, and link checks (#69–#73, #76, #77)",
+    "category": "Database",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
     "id": "5fca8d7babdc63f0",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -156,6 +184,74 @@
     "tags": []
   },
   {
+    "id": "107f1a0fdf4198ae",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Databricks rolls out frontier models to 12,000 employees on Day 1",
+    "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-29",
+    "summary": "Prov",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Unity Gateway",
+      "Engineering",
+      "AI Engineering"
+    ]
+  },
+  {
+    "id": "542e54a122530032",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Lakebase Search: State-of-the-art full text and vector search for Postgres",
+    "url": "https://www.databricks.com/blog/lakebase-search-state-art-full-text-and-vector-search-postgres",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-29",
+    "summary": "Traditional OLTP sys",
+    "category": "Database",
+    "tags": [
+      "Lakebase",
+      "Database"
+    ]
+  },
+  {
+    "id": "9ae3758d7abd360e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Thinking Machine Labs Inkling is scheduled for retirement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#thinking-machine-labs-inkling-is-scheduled-for-retirement",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-29",
+    "summary": "Thinking Machine Labs Inkling will be retired on October 30, 2026. GLM 5.3 and Kimi K3 are the recommended replacements. See Deprecated and retired models for migration guidance.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "53648bd69b1ef2af",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "xAI Grok 4.7 is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#xai-grok-47-is-now-available-on-unity-gateway",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-29",
+    "summary": "xAI Grok 4.7 is now available on Unity Gateway. You can access this model using Foundation Model APIs pay-per-token.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "bdb2c1c12fcca2f6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Usage tracking adds session metadata and token details (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#usage-tracking-adds-session-metadata-and-token-details-public-preview",
+    "published": "2026-09-27",
+    "first_seen": "2026-09-29",
+    "summary": "The system.ai_gateway.usage system table now includes coding-agent session metadata and invocation source. New token-detail fields capture tokens written to the 5-minute and 1-hour prompt caches, along with file and web search counts. See Track model usage.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "dc4cd9daed241f8e",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -233,6 +329,18 @@
     "first_seen": "2026-09-26",
     "summary": "Genie Code can now build end-to-end document processing pipelines by orchestrating parsing, classification, extraction, and validation. Point it at unstructured PDFs, contracts, or invoices, and it evaluates extraction quality against labeled data and iterates to improve it. See Use Genie Code for intelligent document processing.",
     "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "43b861c20542aac3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Deleting a Unity Catalog pipeline now retains tables by default",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#deleting-a-unity-catalog-pipeline-now-retains-tables-by-default",
+    "published": "2026-09-25",
+    "first_seen": "2026-09-29",
+    "summary": "When you delete a Unity Catalog pipeline that uses the default publishing mode, the UI and the Pipelines DELETE API retain associated materialized views, streaming tables, and views by default. The retained tables can be queried but cannot be updated until moved into an active pipeline. To delete a pipeline and its tables together, set the cascade field to true in the API request. This change does not affect Hive metastore pipelines.\n\nSee Delete a pipeline and Delete a pipeline.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -320,6 +428,18 @@
       "AI Engineering",
       "Open Source"
     ]
+  },
+  {
+    "id": "9b657b7daf672001",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ai_search can search Lakebase synced tables (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#ai",
+    "published": "2026-09-24",
+    "first_seen": "2026-09-29",
+    "summary": "The ai_search function can now retrieve from Lakebase synced tables with Lakebase Search enabled, in addition to AI Search indexes. Add a lakebase_search knowledge source to search a Lakebase synced table, or combine it with vector_search sources in the same call. This feature is in Beta.\n\nSee ai_search function.",
+    "category": "Database",
+    "tags": []
   },
   {
     "id": "839a215b4b69ba06",
@@ -6656,68 +6776,6 @@
     "first_seen": "2026-07-30",
     "summary": "The Veeva Vault connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses Veeva's Direct Data API to ingest all standard objects, custom objects, system tables, and audit trail tables from your Vault instance into Databricks. Authentication uses OAuth 2.0 M2M via Microsoft Entra ID.\n\nSee Veeva Vault connector.On this page\n- Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing tables\n- Python UDTFs in Unity Catalog are now generally available\n- Unit testing for pipelines (Beta)\n- Databricks Runtime maintenance updates (07/24)\n- Diagnose and fix Lakebase issues with Genie, using telemetry in Unity Catalog (Beta)\n- Lakeflow Designer Summer Release\n- Git CLI commands in Git folders are now in Public Preview\n- Governed tags system table is in Beta\n- C++ SDK for the Zerobus Ingest connector is now available in Beta\n- Anthropic Claude Opus 5 now available as a Databricks-hosted model\n- Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now gener",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "1d50f24dbabde2be",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbi-20260630-b85fdb392",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbi-20260630-b85fdb392",
-    "published": "2026-06-30",
-    "first_seen": "2026-07-30",
-    "summary": "DBI kernel jars published from delta-io/delta master b85fdb3 (versi…",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "43b362cd3e5fc274",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Anthropic Claude Sonnet 5 now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#anthropic-claude-sonnet-5-now-available-as-a-databricks-hosted-model",
-    "published": "2026-06-30",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports Anthropic Claude Sonnet 5 as a Databricks-hosted model. Designed for coding, agentic workflows, and professional work at scale, Claude Sonnet 5 delivers near-Opus-level intelligence with Sonnet's cost efficiency and speed. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "6e37a2e6a4e8cfb6",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Run a subset of job tasks with their dependencies",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#run-a-subset-of-job-tasks-with-their-dependencies",
-    "published": "2026-06-30",
-    "first_seen": "2026-07-30",
-    "summary": "When you run a subset of a job's tasks, you can now expand your selection to include each task's dependencies. Add the + modifier to a task key to also run its upstream tasks (+my_task), its downstream tasks (my_task+), or both (+my_task+). Start a partial run from the UI, the REST API, the Databricks CLI, the SDKs, or Declarative Automation Bundles. See Run a subset of tasks and their dependencies.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "ce52183fd1d7736d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakehouse Real-Time (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakehouse-real-time-beta",
-    "published": "2026-06-30",
-    "first_seen": "2026-07-30",
-    "summary": "Lakehouse Real-Time (Lakehouse//RT) is now in Beta. Lakehouse//RT is a serverless SQL warehouse type built for low-latency, high-concurrency workloads, delivering sub-second SQL read queries against Unity Catalog tables. Use it to serve analytical data to applications, run operational analytics, and power dashboards for hundreds to thousands of concurrent users. See Lakehouse Real-Time.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "775c9731e377ecf3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase Autoscaling now available in AWS Tokyo region (ap-northeast-1)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/june#lakebase-autoscaling-now-available-in-aws-tokyo-region-ap-northeast-1",
-    "published": "2026-06-30",
-    "first_seen": "2026-07-30",
-    "summary": "Lakebase Autoscaling is now available in ap-northeast-1 (Asia Pacific - Tokyo). For all supported regions, see Region availability. To get started, see Get a Postgres database.",
-    "category": "Database",
     "tags": []
   }
 ]
