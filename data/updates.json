@@ -1,5 +1,103 @@
 [
   {
+    "id": "412a615366dde4e7",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "A practical guide to cost optimization with Lakebase Postgres",
+    "url": "https://www.databricks.com/blog/practical-guide-cost-optimization-lakebase-postgres",
+    "published": "2026-09-30",
+    "first_seen": "2026-09-30",
+    "summary": "Lakebase is a fully",
+    "category": "Database",
+    "tags": [
+      "Lakebase",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "eceee48dbbb476c6",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How to scale agentic applications without creating AI sprawl",
+    "url": "https://www.databricks.com/blog/how-scale-agentic-applications-without-creating-ai-sprawl",
+    "published": "2026-09-30",
+    "first_seen": "2026-09-30",
+    "summary": "Buil",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Agent Bricks"
+    ]
+  },
+  {
+    "id": "cbd615634cabac05",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.144.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.144.0",
+    "published": "2026-09-30",
+    "first_seen": "2026-09-30",
+    "summary": "## Release v0.144.0 (2026-09-30)\n\n### API Changes\n\n* Add `ai_decide()` method for [w.ai_functions](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/aifunctions/ai_functions.html) workspace-level service.\n\n* Add `environment_variables` field for `databricks.sdk.service.jobs.BaseRun`.\n\n* Add `environment_variables` field for `databricks.sdk.service.jobs.CreateJob`.\n\n* Add `environment_variables` field for `databricks.sdk.service.jobs.JobSettings`.\n\n* Add `environment_variables` field for `databricks.sdk.service.jobs.Run`.\n\n* Add `environment_variables_key` field for `databricks.sdk.service.jobs.RunTask`.\n\n* Add `environment_variables` field for `databricks.sdk.service.jobs.SubmitRun`.\n\n* Add `environment_variables_key` field for `databricks.sdk.service.jobs.SubmitTask`.\n\n* Add `environment_variables_key` field for `databricks.sdk.service.jobs.Task`.\n\n* Change `command_path` field for `databricks.sdk.service.jobs.DeploymentSpec` to no longer be required.\n\n* [Breaking] Change `command_path` field for `databricks.sdk.service.jobs.DeploymentSpec` to no longer be required.\n\n* [Breaking] Change `api_secret_ref` field for `databricks.sdk.service.ml.SchemaRegistryConfig` to no longer be required.\n\n* Change `api_secret_ref` field for `databricks.sdk.service.ml.SchemaRegistryConfig` to no longer be required.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "108fe1d82e407e61",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.19.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.19.0",
+    "published": "2026-09-30",
+    "first_seen": "2026-09-30",
+    "summary": "CLI\n\n- Honor CLAUDE_CONFIG_DIR in aitools commands. (#6838)\n\n- Added --ttl and --no-expiry flags to databricks postgres create-branch so a branch's expiration can be set without hand-writing a --json spec. --ttl accepts the REST API duration form (604800s), a Go duration (168h), or day/week units (7d, 3w); --no-expiry creates a branch that never expires. One of --ttl, --no-expiry, or a spec expiration in --json is required. (#6313)\n\n- databricks ssh connect serverless sessions now provide Claude Code and Codex configured with Unity Gateway out of the box. (#6885)\n\nAI Runtime\n\n- Add databricks air images push (Preview) to configure Docker authentication and push container images to Databricks Artifact Registry. (#6869)\n\n- air run now grants the configured permissions on the MLflow experiment as well as the job. (#6870)\n\nBundles\n\n- Add libraries field to clusters. (#6831)\n\n- Error out when a configured workspace_id does not match the connected workspace, instead of silently using it in resource URLs emitted by bundle summary. (#6754)\n\n- Fix spurious recreation of Lakebase (Postgres) branches, roles, and catalogs when the referenced project is updated in place: an in-place project change (e.g. display_name) no longer forces a delete + create of resources that reference the project's or branch's name. (#6865)\n\n- Direct engine now detects and applies an explicitly configured integer zero (e.g. gcp_attributes.local_ssd_count: 0) added to a resource first deployed without the field. (#6867)\n\n- Migrate existing Terraform deployment state to the direct engine before deploying (previously done after a Terraform deploy), so the deploy runs on the direct engine. (#6749)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "b2a83be97f6d5f5b",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: v0.2.3-marketplace-rc2",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.2.3-marketplace-rc2",
+    "published": "2026-09-30",
+    "first_seen": "2026-09-30",
+    "summary": "Lakemeter Marketplace RC2 for v0.2.3 (psycopg3 COPY bootstrap)",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
+    "id": "4b8658e02a4d22e0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakemeter-oss",
+    "title": "databrickslabs/lakemeter-oss: v0.2.3-marketplace-rc1",
+    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.2.3-marketplace-rc1",
+    "published": "2026-09-30",
+    "first_seen": "2026-09-30",
+    "summary": "Lakemeter Marketplace RC1 for v0.2.3 (psycopg 3 / SQLAlchemy 2.1)",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lakemeter-oss"
+    ]
+  },
+  {
+    "id": "bed04433b379259a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Query tags for SQL warehouses are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#query-tags-for-sql-warehouses-are-now-generally-available",
+    "published": "2026-09-30",
+    "first_seen": "2026-09-30",
+    "summary": "Query tags are now generally available. You can apply custom key-value tags to SQL workloads for grouping, filtering, and cost attribution on Databricks SQL warehouses and Lakehouse//RT compute. Tags appear in system.query.history and on the Query History page of the Databricks UI. See Query tags.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
     "id": "14c14b4fabab3ae9",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -38,6 +136,56 @@
     "tags": [
       "databrickslabs/lakemeter-oss"
     ]
+  },
+  {
+    "id": "ee2e9e6d148e62d9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Your data, your storage, your rules: a 2026 guide to storing Unity Catalog managed tables",
+    "url": "https://www.databricks.com/blog/your-data-your-storage-your-rules-2026-guide-storing-unity-catalog-managed-tables",
+    "published": "2026-09-29",
+    "first_seen": "2026-09-30",
+    "summary": "Unity catalog managed tables allow you to control the placement of your data when...",
+    "category": "Governance",
+    "tags": [
+      "Unity Catalog"
+    ]
+  },
+  {
+    "id": "20c13f2043085096",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks JDBC Driver (Simba) 2.8.4 is available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#databricks-jdbc-driver-simba-284-is-available",
+    "published": "2026-09-29",
+    "first_seen": "2026-09-30",
+    "summary": "Simba JDBC Driver (Legacy) 2.8.4 adds Java 25 support and upgrades libthrift, httpclient5, httpcore5, and lz4-java. Download it from the JDBC drivers archive under All JDBC Driver Versions (Simba).",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "7addc62078eb35c7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-6.1 Sol is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#openai-gpt-61-sol-is-now-available-on-unity-gateway",
+    "published": "2026-09-29",
+    "first_seen": "2026-09-30",
+    "summary": "OpenAI GPT-6.1 Sol is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "6a4e1ab451644d05",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Agent Bricks CLI is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#agent-bricks-cli-is-in-beta",
+    "published": "2026-09-29",
+    "first_seen": "2026-09-30",
+    "summary": "The Agent Bricks CLI (databricks-agentbricks) is a command-line tool for building and deploying custom code agents on Databricks. Scaffold a project from a bundled framework template, run it locally, and deploy it to the Databricks agent runtime, with managed memory, sessions, tools, and MLflow tracing wired up from one authenticated command.\n\nSee Agent Bricks CLI.",
+    "category": "Application Development",
+    "tags": []
   },
   {
     "id": "5fca8d7babdc63f0",
@@ -238,6 +386,23 @@
     "summary": "xAI Grok 4.7 is now available on Unity Gateway. You can access this model using Foundation Model APIs pay-per-token.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Governance",
     "tags": []
+  },
+  {
+    "id": "8bfa6ceb29297692",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Databricks rolls out frontier models to 12,000 employees on Day 1",
+    "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-12000-employees-day-1",
+    "published": "2026-09-28",
+    "first_seen": "2026-09-30",
+    "summary": "Prov",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Unity Gateway",
+      "Engineering",
+      "AI Engineering"
+    ]
   },
   {
     "id": "bdb2c1c12fcca2f6",
@@ -6726,56 +6891,6 @@
     "first_seen": "2026-07-30",
     "summary": "Row filtering in Lakeflow Connect is now generally available. Row filtering allows you to ingest only the rows you need by applying conditions similar to a SQL WHERE clause, improving performance and minimizing data duplication. Row filtering applies during both the initial load and subsequent incremental updates, and is supported for SaaS connectors including Google Analytics, Salesforce, and ServiceNow, as well as all query-based connectors.\n\nSee Select rows to ingest.",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "5514fc232b4c515f",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/geobrix",
-    "title": "databrickslabs/geobrix: v0.4.0",
-    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.4.0",
-    "published": "2026-07-01",
-    "first_seen": "2026-07-30",
-    "summary": "GeoBrix v0.4.0 (Beta)\n\nGeoBrix 0.4.0 introduces a NEW lightweight tier that delivers API parity with the heavyweight tier and adds an end-to-end tiling → PMTiles pipeline across RasterX, VectorX, and GridX. The lightweight tier is pure Python/PySpark — no JAR, no init script — and runs on Databricks Serverless (and standard/shared clusters, Lakeflow, ARM) with the same function names and gbx_* SQL as the heavyweight Scala/GDAL tier, so switching is a one-line import. See the Beta Release Notes for the full change list and migration tables.\n\nHighlights\n\n- Lightweight execution tier (pyrx / pygx / pyvx), Serverless-ready. A pure-Python implementation of the whole API reaching 1:1 parity with the heavyweight tier — RasterX (on rasterio), GridX (quadbin, BNG, custom grids), and VectorX (MVT, TIN, legacy-geometry migration).\n\n- Readers & writers. The lightweight tier ships a full set of GDAL/OGR-free DataSources — raster: raster_gbx, gtiff_gbx; vector: vector_gbx, shapefile_gbx, geojson_gbx, geojsonl_gbx, gpkg_gbx, file_gdb_gbx; and pmtiles_gbx (reader — source=archive reads an existing .pmtiles, source=raster builds a scalable mosaic pyramid — plus the writer, single-archive or sharded). New heavyweight geojsonl_ogr writer (line-delimited GeoJSON). Across both tiers: single-file vector I/O with a fileName option + adaptive output naming (including .shp.zip / .gdb.zip archives), concurrency-safe writers (per-write isolated scratch), and heavyweight /Volumes read coherence via the credentialed Unity Catalog connector.…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/geobrix"
-    ]
-  },
-  {
-    "id": "4a7f1348529adaf1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 3.1 Flash Image and Gemini 3 Pro Image now available as Databricks-hosted models",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-31-flash-image-and-gemini-3-pro-image-now-available-as-databricks-hosted-models",
-    "published": "2026-07-01",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports Google Gemini 3.1 Flash Image and Gemini 3 Pro Image as Databricks-hosted models. You can access these models using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "522b476ab8a0d8b6",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "MySQL integrated CDC pipeline is now in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mysql-integrated-cdc-pipeline-is-now-in-beta",
-    "published": "2026-07-01",
-    "first_seen": "2026-07-30",
-    "summary": "The integrated CDC pipeline for MySQL is now in Beta. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update. Unlike the standard gateway-based architecture, an integrated CDC pipeline requires no separate ingestion gateway. See Create an integrated CDC pipeline for MySQL.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "43058e51296fc3f8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Veeva Vault connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#veeva-vault-connector-beta",
-    "published": "2026-07-01",
-    "first_seen": "2026-07-30",
-    "summary": "The Veeva Vault connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses Veeva's Direct Data API to ingest all standard objects, custom objects, system tables, and audit trail tables from your Vault instance into Databricks. Authentication uses OAuth 2.0 M2M via Microsoft Entra ID.\n\nSee Veeva Vault connector.On this page\n- Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing tables\n- Python UDTFs in Unity Catalog are now generally available\n- Unit testing for pipelines (Beta)\n- Databricks Runtime maintenance updates (07/24)\n- Diagnose and fix Lakebase issues with Genie, using telemetry in Unity Catalog (Beta)\n- Lakeflow Designer Summer Release\n- Git CLI commands in Git folders are now in Public Preview\n- Governed tags system table is in Beta\n- C++ SDK for the Zerobus Ingest connector is now available in Beta\n- Anthropic Claude Opus 5 now available as a Databricks-hosted model\n- Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now gener",
-    "category": "Governance",
     "tags": []
   }
 ]
