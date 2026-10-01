@@ -1,5 +1,89 @@
 [
   {
+    "id": "87bfc7b7c6c9451c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Run Lakeflow pipelines as a group",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#run-lakeflow-pipelines-as-a-group",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-01",
+    "summary": "You can now set a pipeline's run-as identity to an account group, in addition to a user or a service principal. Pipeline updates run with the group's permissions, so a team can own an automated pipeline without tying it to one person's account. See Set the run-as identity to a group.On this page\n- Run Lakeflow pipelines as a groupPrivacy NoticeÂ·Terms of UseÂ·Modern Slavery StatementÂ·California PrivacyÂ·Your Privacy ChoicesÂ Â© Databricks 2026. All rights reserved. Apache, Apache Spark, Spark and the Spark logo are trademarks of the Apache Software Foundation.</",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "82ffe0e1ed6bb3e2",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Connecting customer context to measurable ROI with agentic marketing",
+    "url": "https://www.databricks.com/blog/connecting-customer-context-measurable-roi-agentic-marketing",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "summary": "Learn how agentic marketing connects identity, customer context, and measurement so every marketing decision improves the next.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Marketing",
+      "Media & Entertainment",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "a48e6a8f4e9bc5bc",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "IP Functions are Generally Available, bringing high-performance network analytics to the Lakehouse",
+    "url": "https://www.databricks.com/blog/ip-functions-are-generally-available-bringing-high-performance-network-analytics-lakehouse",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "summary": "IP Functions are Generally Available, bringing high-performance network analytics to the Lakehouse",
+    "category": "Platform Overview",
+    "tags": [
+      "Lakehouse"
+    ]
+  },
+  {
+    "id": "1a65a43619d676d1",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.0.5-rc1",
+    "url": "https://github.com/apache/spark/releases/tag/v4.0.5-rc1",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "summary": "Preparing Spark release v4.0.5-rc1",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "16c323f71e5084c2",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.145.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.145.0",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "summary": "## Release v0.145.0 (2026-10-01)\n\n### API Changes\n\n* Add `list_commands()` method for [w.sandbox](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/sandbox/sandbox.html) workspace-level service.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "2823db2bb0922a54",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: v0.8.1",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.8.1",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "summary": "OntoBricks — Release Notes V0.8.1\n\nRelease window: September 2026\n\nType: Patch release (v0.8.0 → v0.8.1)\n\nTest status: all changes shipped with the non-scenario suite green: 5939 passed, 304 skipped, 6 deselected, 32 warnings.\n\nHighlights\n\n- Fail-closed Spark SPARQL (#167) — Explorer warehouse SPARQL is validated before translation. Unsupported algebra is rejected with a capability error instead of a silent or misleading SQL mapping.\n\n- Faster describe_entity / /triples/find (#182) — BFS traversal, distinct payload fetch, ordering, and pagination run in one backend query. Type-wide scans no longer materialize hundreds of thousands of triples in Python. Responses keep exact total / entity_count and add has_more.\n\n- MCP session isolation (#183) — concurrent MCP clients on one server process keep their own selected domain and label/action caches. Resource reads use the same session scope as tool calls.\n\n- Admin-only domain creation — only Databricks App administrators (CAN_MANAGE) can create a new domain. Editors and Builders still save and work on assigned domains.\n\n- SWRL inference filters — rules that use string built-ins such as swrlb:contains now apply SQL predicates during Run Inference. Active-contract “owns meter” style rules return inferred triples instead of empty results.\n\n- Data Quality condition builder (#186) — selecting a property after the target entity is chosen no longer clears the property list or drops the selected value. Guarding a conformance/consistency rule with an IF condition can be completed and saved.\n\n- License alignment (#169) — product, API, and OntoViz surfaces state the Databricks License as the first-party license.…",
+    "category": "Data Warehousing",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
     "id": "412a615366dde4e7",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -95,6 +179,58 @@
     "first_seen": "2026-09-30",
     "summary": "Query tags are now generally available. You can apply custom key-value tags to SQL workloads for grouping, filtering, and cost attribution on Databricks SQL warehouses and Lakehouse//RT compute. Tags appear in system.query.history and on the Query History page of the Databricks UI. See Query tags.",
     "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "25714c24d796814b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing ai_decide: make fast decisions on your governed data",
+    "url": "https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data",
+    "published": "2026-09-30",
+    "first_seen": "2026-10-01",
+    "summary": "To",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform & Products & Announcements"
+    ]
+  },
+  {
+    "id": "76bd57ad637ca745",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.1.4-rc2",
+    "url": "https://github.com/apache/spark/releases/tag/v4.1.4-rc2",
+    "published": "2026-09-30",
+    "first_seen": "2026-10-01",
+    "summary": "Preparing Spark release v4.1.4-rc2",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "ec59d6dc09ebeb32",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Table update triggers on OpenSharing objects and system tables are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#table-update-triggers-on-opensharing-objects-and-system-tables-are-now-generally-available",
+    "published": "2026-09-30",
+    "first_seen": "2026-10-01",
+    "summary": "Lakeflow Jobs table update triggers can monitor OpenSharing objects and system tables. See Add a trigger to OpenSharing and system tables.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "fe82aaba0be51966",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Control spreadsheet writeback with a workspace admin setting",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#control-spreadsheet-writeback-with-a-workspace-admin-setting",
+    "published": "2026-09-30",
+    "first_seen": "2026-10-01",
+    "summary": "Excel and Google Sheets writeback now requires a workspace admin to enable the Allow spreadsheet writeback security setting. See Write data back to Databricks using the Databricks Excel Add-in and Write data back to Databricks from Google Sheets.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -6823,74 +6959,6 @@
     "first_seen": "2026-07-30",
     "summary": "Okta support for automatic identity management is now generally available. Automatic identity management lets you sync users and groups from Okta into Databricks without SCIM provisioning. When enabled, you can search for users and groups directly in identity federated workspaces and add them to your workspace, and Databricks uses Okta as the source of record for group memberships.\n\nSee Configure Okta for automatic identity management.",
     "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "d134223fb7f5e34b",
-    "source": "github_release",
-    "source_label": "GitHub · apache/spark",
-    "title": "apache/spark: v4.2.0-rc5",
-    "url": "https://github.com/apache/spark/releases/tag/v4.2.0-rc5",
-    "published": "2026-07-02",
-    "first_seen": "2026-07-30",
-    "summary": "Preparing Spark release v4.2.0-rc5",
-    "category": "Data Engineering",
-    "tags": [
-      "apache/spark"
-    ]
-  },
-  {
-    "id": "22ac1c49a21ab328",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.120.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.120.0",
-    "published": "2026-07-02",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.120.0 (2026-07-01)\n\n### API Changes\n\n* Add `download_message_attachment_visualization()` method for [w.genie](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/dashboards/genie.html) workspace-level service.\n\n* Add `omit_permissions_in_response` field for `databricks.sdk.service.catalog.UpdatePermissions`.\n\n* Add `viz` field for `databricks.sdk.service.dashboards.GenieAttachment`.\n\n* Add `enable_visualization` field for `databricks.sdk.service.dashboards.GenieCreateConversationMessageRequest`.\n\n* Add `enable_visualization` field for `databricks.sdk.service.dashboards.GenieStartConversationMessageRequest`.\n\n* Add `excluded_schemas` field for `databricks.sdk.service.dataclassification.CatalogConfig`.\n\n* Add `etag` field for `databricks.sdk.service.disasterrecovery.UpdateFailoverGroupRequest`.\n\n* Add `spec` field for `databricks.sdk.service.environments.WorkspaceBaseEnvironment`.\n\n* Add `full_name` field for `databricks.sdk.service.iamv2.User`.\n\n* Add `status_message` field for `databricks.sdk.service.jobs.AiRuntimeTaskOutput`.\n\n* Add `sql_condition` field for `databricks.sdk.service.jobs.CronSchedule`.\n\n* Add `sql_condition` field for `databricks.sdk.service.jobs.TriggerInfo`.\n\n* Add `sql_condition` field for `databricks.sdk.service.jobs.TriggerSettings`.\n\n* Add `sql_condition` field for `databricks.sdk.service.jobs.TriggerStateProto`.\n\n* Add `first_distinct_n`, `first_n`, `last_distinct_n` and `last_n` fields for `databricks.sdk.service.ml.AggregationFunction`.\n\n* Add `replace_existing` field for `databricks.sdk.service.postgres.CreateDatabaseRequest`.\n\n* Add `replace_existing` field for `databricks.sdk.service.postgres.CreateRoleRequest`.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "f87b72f8b59ebd27",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.6.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.6.0",
-    "published": "2026-07-02",
-    "first_seen": "2026-07-30",
-    "summary": "Release v1.6.0\n\nCLI\n\n- ssh connect now accepts a --base-environment flag to run a serverless session on a custom base environment. It takes an env.yaml path, a workspace-base-environments/... resource ID, or a base environment display name, and is rejected together with --environment-version or --cluster (#5706).\n\n- databricks aitools install is now plugin-first: it installs the Databricks plugin through each agent's own CLI (Claude Code, Codex, GitHub Copilot) instead of copying raw skill files. Agents without a plugin (OpenCode, Antigravity) still get skill files, and Cursor prints the /add-plugin databricks step. Use --skills-only to force raw skill files for every agent, or --path <dir> to write skills to a directory (#5738).\n\n- databricks labs list now only shows projects that can be installed (#5560).\n\nBundles\n\n- direct: Fixed persistent drift on model_serving_endpoints caused by the traffic_config field (#5708).\n\n- direct: Fix spurious update when apply_policy_default_values: true is set on job task, for-each-task, or job cluster new_cluster (#5731). Also fix spurious updates for for-each-task clusters due to missing backend defaults for data_security_mode, node_type_id, driver_node_type_id, driver_instance_pool_id, enable_elastic_disk, and enable_local_disk_encryption.\n\n- direct: Cluster resize now falls back to regular update if resize fails due to INVALID_STATE (#5716).\n\n- bundle generate dashboard now honors the --key flag when naming the generated resource, and rejects combining --existing-path, --existing-id, and --resource instead of silently ignoring all but one (#5492).\n\n- Fixed bundle deployment migrate failing on model_serving_endpoints/database_instances with permissions (regression since v1.5.0) (#5775).…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "4773e7511d0dede6",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.6.0",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.6.0",
-    "published": "2026-07-02",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V0.6.0\n\nRelease date: 2026-06-27 (updated 2026-07-02)\n\nType: Major feature release\n\nTest status: 2967 passed, 275 skipped, 5 deselected (scenario), 0 failed\n\n(uv run pytest -q -m \"not scenario\"). The former full-suite async-endpoint\n\nordering failures are gone: the nightly Playwright e2e browser suite now\n\nauto-skips in routine runs, so it no longer poisons the in-process event loop.\n\nSummary\n\nv0.6.0 is the largest feature release since v0.5.0. It ships three independent pillars\n\nof new capability:\n\n-\nCollaborative Comments & Tasks — domain-scoped discussion threads, task management,\n\nwith a shared team Discussion accessible from every surface (Ontology, Mapping, Graph\n\nExplorer, Validation, and the new Domain → Collaboration page).\n\n-\nGraph Analytics — server-side centrality metrics (PageRank, betweenness, degree,\n\ncloseness, clustering), a Data Model Health card, and an AI interpretation agent that\n\nexplains and recommends improvements grounded in live entity data.\n\n-\nMapping Designer depth — per-attribute include/exclude, always-quoted column names,\n\nappend-mode OWL/RDFS/SKOS/SHACL import with conflict detection, and a richer\n\nOntology Designer (neighbourhood highlight, entity search, inheritance toggle, Business\n\nView auto-generation).\n\nIn addition the release includes a suite of UX improvements (sidebar user panel, App Logs\n\nviewer, Registry access check, domain menu restructure) and a significant set of bug fixes.\n\nThe 2026-06-30 update adds three operational-hardening items on top of the same\n\nversion: Domain Edit-Lock (single-editor concurrency control for DRAFT versions),\n\nIn-app Registry Permission Grants (apply Lakebase grants from the UI, no psql),\n\nand a deploy-script dependency preflight.…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "78ab25e516b8bac4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakeflow Connect row filtering is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-connect-row-filtering-is-now-generally-available",
-    "published": "2026-07-02",
-    "first_seen": "2026-07-30",
-    "summary": "Row filtering in Lakeflow Connect is now generally available. Row filtering allows you to ingest only the rows you need by applying conditions similar to a SQL WHERE clause, improving performance and minimizing data duplication. Row filtering applies during both the initial load and subsequent incremental updates, and is supported for SaaS connectors including Google Analytics, Salesforce, and ServiceNow, as well as all query-based connectors.\n\nSee Select rows to ingest.",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
