@@ -12,6 +12,104 @@
     "tags": []
   },
   {
+    "id": "4d35a34035eccb5e",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "In Capital Markets, the Buy Side Runs on NAV. Finance Protects the Fee.",
+    "url": "https://www.databricks.com/blog/capital-markets-buy-side-runs-nav-finance-protects-fee",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "summary": "[What the blog will cover and what’s in it for readers, 160 characters max]",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "cfb7986dd65fa6b8",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How to choose your first Genie Agents for maximum impact",
+    "url": "https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "summary": "With",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "baf7e7666686595e",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Real-Time Retail Intelligence: Building E-Commerce Recommendations with Lakebase and AI Search on Databricks",
+    "url": "https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "summary": "Learn how to architect a production-grade recommendation and ranking system on Databricks — from real-time clickstream ingestion with Zerobus, to multi-stage ML scoring with Model Serving, to sub-50ms personalized responses powered by Lakebase and AI Search.",
+    "category": "Database",
+    "tags": [
+      "Industries",
+      "Retail & Consumer Goods"
+    ]
+  },
+  {
+    "id": "25b46e989d06e8b4",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.146.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.146.0",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "summary": "## Release v0.146.0 (2026-10-02)\n\n### API Changes\n\n* Add `environment` field for `databricks.sdk.service.sandbox.SandboxSpec`.\n\n* Add `table_foreign_delta_deltasharing` enum value for `databricks.sdk.service.catalog.SecurableKind`.\n\n* [Breaking] Change `environment_variables_key` field for `databricks.sdk.service.jobs.JobEnvironmentVariables` to be required.\n\n* Change `environment_variables_key` field for `databricks.sdk.service.jobs.JobEnvironmentVariables` to be required.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "17d3d1b0bf0d8ab5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-rc.3",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-rc.3",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "summary": "DQX Studio 0.1.0 RC 3 rebuilt from main afffc72",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "f92f3ca0aaec511a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenJev (Qwen3.5 4B) is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#openjev-qwen35-4b-is-now-available-on-unity-gateway",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "summary": "OpenJev (Qwen3.5 4B) is available as a pay-per-token model service. Use the TypeSafe System One API to evaluate yes or no, choice, and scoring questions and get structured answers and probabilities. See model availability by region.\n\nCustomers are responsible for ensuring their compliance with applicable model terms.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "a563a95459ee20d3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "JDBC Unity Catalog connections are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#jdbc-unity-catalog-connections-are-now-generally-available",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "summary": "JDBC Unity Catalog connections are now generally available on serverless compute, Databricks Runtime 19 and above, and SQL warehouses 2025.40 and above, including support for SSL certificates. OAuth M2M authentication remains in Beta. See JDBC connection.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
     "id": "82ffe0e1ed6bb3e2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -82,6 +180,46 @@
     "tags": [
       "databrickslabs/ontobricks"
     ]
+  },
+  {
+    "id": "e79eb7ef5d76bb28",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Lakebase Postgres branch-based restores for fast recovery at scale",
+    "url": "https://www.databricks.com/blog/lakebase-postgres-branch-based-restores-fast-recovery-scale",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-02",
+    "summary": "Learn how Lakebase Postgres replaces slow database restores with near-instant, branch-based recovery so you can recover 100 TB in seconds.",
+    "category": "Database",
+    "tags": [
+      "Lakebase",
+      "Engineering",
+      "Database"
+    ]
+  },
+  {
+    "id": "341c7f39df8406b3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Schedule automatic data refresh in the Databricks Excel Add-in (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#schedule-automatic-data-refresh-in-the-databricks-excel-add-in-public-preview",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-02",
+    "summary": "You can now schedule automatic refreshes of Databricks data imported into Microsoft Excel. Choose an interval or calendar schedule and the SQL warehouse that runs each refresh, then review recent runs from the Databricks Excel Add-in. See Schedule automatic data refresh in the Databricks Excel Add-in.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "eb7a744b39aa0ecf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cross-engine attribute-based access controls (ABAC) is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#cross-engine-attribute-based-access-controls-abac-is-now-generally-available",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-02",
+    "summary": "Cross-engine attribute-based access controls (ABAC) is now generally available. Supported external engines can read Unity Catalog managed tables with ABAC policies, row filters, and column masks enforced by Databricks serverless compute.\n\nSee Cross-engine attribute-based access controls (ABAC) for requirements, supported clients, and serverless compute costs.On this page\n- Run Lakeflow pipelines as a group\n- OpenJev (Qwen3.5 4B) is now available on Unity Gateway\n- JDBC Unity Catalog connections are now generally available\n- Schedule automatic data refresh in the Databricks Excel Add-in (Public Preview)\n- Cross-engine attribute-based access controls (ABAC) is now generally availablePrivacy NoticeÂ·Terms of UseÂ·Modern Slavery StatementÂ·<a h",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "412a615366dde4e7",
@@ -6947,18 +7085,6 @@
     "first_seen": "2026-07-30",
     "summary": "Materialized view and streaming table refreshes that are orchestrated through a SQL task in a Lakeflow job now respect the job's Performance optimized setting. When the setting is turned off, the refresh uses standard performance mode, which consumes fewer DBUs.\n\nFor more about performance modes for scheduled refreshes, see Select a performance mode for scheduled refreshes.",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "c0f57f579aef4996",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Okta support for automatic identity management is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#okta-support-for-automatic-identity-management-is-now-generally-available",
-    "published": "2026-07-03",
-    "first_seen": "2026-07-30",
-    "summary": "Okta support for automatic identity management is now generally available. Automatic identity management lets you sync users and groups from Okta into Databricks without SCIM provisioning. When enabled, you can search for users and groups directly in identity federated workspaces and add them to your workspace, and Databricks uses Okta as the source of record for group memberships.\n\nSee Configure Okta for automatic identity management.",
-    "category": "Platform Overview",
     "tags": []
   }
 ]
