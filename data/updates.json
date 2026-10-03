@@ -110,6 +110,32 @@
     "tags": []
   },
   {
+    "id": "8719c94f02dcd478",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: ts/typesafe/v0.4.0",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/ts%2Ftypesafe%2Fv0.4.0",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-03",
+    "summary": "MLflow TypeSafe SDK 0.4.0",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "2b9d5db98b1678a0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Standard ai_extract now delivers higher-quality extraction",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#standard-ai",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-03",
+    "summary": "The standard (default) mode for ai_extract now uses a new model checkpoint that is 2.3x faster while improving overall quality at no additional cost. See the ai_extract documentation.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
     "id": "82ffe0e1ed6bb3e2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -220,6 +246,22 @@
     "summary": "Cross-engine attribute-based access controls (ABAC) is now generally available. Supported external engines can read Unity Catalog managed tables with ABAC policies, row filters, and column masks enforced by Databricks serverless compute.\n\nSee Cross-engine attribute-based access controls (ABAC) for requirements, supported clients, and serverless compute costs.On this page\n- Run Lakeflow pipelines as a group\n- OpenJev (Qwen3.5 4B) is now available on Unity Gateway\n- JDBC Unity Catalog connections are now generally available\n- Schedule automatic data refresh in the Databricks Excel Add-in (Public Preview)\n- Cross-engine attribute-based access controls (ABAC) is now generally availablePrivacy NoticeÂ·Terms of UseÂ·Modern Slavery StatementÂ·<a h",
     "category": "Governance",
     "tags": []
+  },
+  {
+    "id": "8df4814de428f299",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Genie One reshapes work for finance teams",
+    "url": "https://www.databricks.com/blog/how-genie-one-reshapes-work-finance-teams",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-03",
+    "summary": "A fi",
+    "category": "Business Intelligence",
+    "tags": [
+      "All",
+      "Data Strategy",
+      "Best Practices"
+    ]
   },
   {
     "id": "412a615366dde4e7",
