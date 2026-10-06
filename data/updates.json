@@ -1,5 +1,17 @@
 [
   {
+    "id": "d264424f50859fbd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Workspace connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-workspace-connector-is-available-in-beta",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-06",
+    "summary": "The managed Google Workspace connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest audit activity from Google Workspace applications and services into Databricks. The connector uses OAuth user authorization and supports incremental ingestion.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "45312a386b299324",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -42,6 +54,32 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "6a93de677b1c4be5",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The lakehouse is a better data warehouse: 2026 benchmarks and proof",
+    "url": "https://www.databricks.com/blog/lakehouse-better-data-warehouse-2026-benchmarks-and-proof",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-06",
+    "summary": "The warehou",
+    "category": "Data Warehousing",
+    "tags": [
+      "Lakehouse"
+    ]
+  },
+  {
+    "id": "8a199f23fbf4cc56",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code CLI is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-code-cli-is-in-beta",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-06",
+    "summary": "Genie Code CLI is a coding agent that runs in your terminal, tuned for data and AI work on Databricks. It works with your local files and uses the Databricks CLI to discover data, answer questions, and build and deploy assets such as pipelines, models, and apps. Model access is provided and governed through Unity Gateway. See Genie Code CLI.",
+    "category": "AI Assistant",
+    "tags": []
   },
   {
     "id": "87bfc7b7c6c9451c",
@@ -115,6 +153,42 @@
     "tags": [
       "databrickslabs/dqx"
     ]
+  },
+  {
+    "id": "0b4be8f79418d853",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use multiple triggers for Lakeflow Jobs (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#use-multiple-triggers-for-lakeflow-jobs-beta",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-06",
+    "summary": "Lakeflow Jobs can now use up to five triggers. You can combine trigger types, add multiple triggers of the same type, and pause each trigger independently. See Add multiple triggers to a job.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "48c0b59bacea3785",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code scheduled tasks are now available by default for workspaces with the compliance security profile enabled",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-code-scheduled-tasks-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-06",
+    "summary": "Genie Code scheduled tasks are now available by default for workspaces with the compliance security profile enabled.\n\nSee Genie Code scheduled tasks.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "025b0edfc7e78f80",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Agent Bricks documentation for code-first agent development",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#agent-bricks-documentation-for-code-first-agent-development",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-06",
+    "summary": "The Agent Bricks documentation now centers on building, deploying, and running custom agents in code. See Develop agents on Databricks:\n\n- Agent compute stack: New pages describe how a deployed agent's framework or harness, agent server, and agent runtime fit together. See Deploy agents on Databricks.\n\n- DurableAgentServer and Agent Runtime: DurableAgentServer serves agents through the invocation API, with synchronous, streaming, and background runs, persistent run state, and crash recovery. Agent Runtime runs it on Databricks Apps. See Agent Server and Agent Runtime.\n\n- Querying agents: The query guide is organized by agent server, starting with the invocation API. See Query agents deployed on Databricks.\n\n- Legacy offerings: Offerings that are no longer recommended for new agents, including the MLflow AgentServer, LongRunningAgentServer, and agents deployed to Model Serving, are now in a Legacy section that maps each one to its replacement. See Legacy agent offerings.",
+    "category": "Application Development",
+    "tags": []
   },
   {
     "id": "4d35a34035eccb5e",
@@ -3031,6 +3105,18 @@
     "first_seen": "2026-09-02",
     "summary": "ABAC GRANT policies for models, model services, model provider services, Model Context Protocol (MCP) services, and agent services are now generally available. These policies dynamically grant Unity Catalog privileges to securable objects whose governed tags match a condition, instead of granting privileges on each object individually. See ABAC GRANT policies.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "8e9c991c04aba408",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Nanosecond-precision timestamps (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#nanosecond-precision-timestamps-beta",
+    "published": "2026-08-30",
+    "first_seen": "2026-10-06",
+    "summary": "You can now use TIMESTAMP(9) and TIMESTAMP_NTZ(9) for nanosecond-precision timestamps in Databricks SQL and Databricks Runtime 19 and above.\n\nSee TIMESTAMP type and TIMESTAMP_NTZ type.",
+    "category": "Data Warehousing",
     "tags": []
   },
   {
