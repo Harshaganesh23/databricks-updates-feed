@@ -1,5 +1,49 @@
 [
   {
+    "id": "45312a386b299324",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Scaling and Operating a Large dbt Project on Databricks: IFCO's Data Team on Performance, Visibility, and Debugging",
+    "url": "https://www.databricks.com/blog/scaling-and-operating-large-dbt-project-databricks-ifcos-data-team-performance-visibility-and-debugging",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-06",
+    "summary": "IFCO tracks millions of crates. See how its data team scaled, debugged, and operates the dbt-on-Databricks project behind those KPIs.",
+    "category": "Platform Overview",
+    "tags": [
+      "Engineering"
+    ]
+  },
+  {
+    "id": "df71d97f7fe8f4a4",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Meta’s ads MCP server comes to Databricks: Put your customer intelligence to work in advertising campaigns",
+    "url": "https://www.databricks.com/blog/meta-ads-mcp-databricks",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-06",
+    "summary": "The ads MCP server from Meta is now available in Databricks Marketplace, connecting enterprise data and models to agentic advertising workflows.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Announcements",
+      "Genie",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "2b8eb00dac0f44e2",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.147.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.147.0",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-06",
+    "summary": "## Release v0.147.0 (2026-10-06)\n\n### API Changes\n\n* Add [a.private_network_gateways](https://databricks-sdk-py.readthedocs.io/en/latest/account/networking/private_network_gateways.html) account-level service.\n\n* Add `project_environment` field for `databricks.sdk.service.compute.Environment`.\n\n* Add `dataframe_schema` field for `databricks.sdk.service.ml.RequestSource`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "87bfc7b7c6c9451c",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -10,6 +54,67 @@
     "summary": "You can now set a pipeline's run-as identity to an account group, in addition to a user or a service principal. Pipeline updates run with the group's permissions, so a team can own an automated pipeline without tying it to one person's account. See Set the run-as identity to a group.On this page\n- Run Lakeflow pipelines as a groupPrivacy NoticeÂ·Terms of UseÂ·Modern Slavery StatementÂ·California PrivacyÂ·Your Privacy ChoicesÂ Â© Databricks 2026. All rights reserved. Apache, Apache Spark, Spark and the Spark logo are trademarks of the Apache Software Foundation.</",
     "category": "Governance",
     "tags": []
+  },
+  {
+    "id": "ae0435475eeac5d3",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "NEAREST BY Join: Scaling Vector Search in Databricks Runtime",
+    "url": "https://www.databricks.com/blog/nearest-join-scaling-vector-search-databricks-runtime",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-06",
+    "summary": "How Databricks built batch vector search as a native SQL join: NEAREST BY syntax, Photon GEMM kernels, and an IVF Vector Index built on Liquid Clustered Delta tables.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering",
+      "AI Engineering",
+      "Data Engineering"
+    ]
+  },
+  {
+    "id": "a8c0638d220ffccd",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unlocking Data Portability: Preventing Catalog Lock-in with REGISTER and UNREGISTER APIs",
+    "url": "https://www.databricks.com/blog/unlocking-data-portability-preventing-catalog-lock-register-and-unregister-apis",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-06",
+    "summary": "As organizations emb",
+    "category": "Governance",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "8518910180a48e70",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Genie Ontology powers product development at Databricks",
+    "url": "https://www.databricks.com/blog/how-genie-ontology-powers-product-development-databricks",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-06",
+    "summary": "Gene",
+    "category": "Platform Overview",
+    "tags": [
+      "All",
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "182ecb4cf625306c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-rc.4",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-rc.4",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-06",
+    "summary": "DQX Studio 0.1.0 RC 4 built from main b645540 with Marketplace assets",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
   },
   {
     "id": "4d35a34035eccb5e",
@@ -133,6 +238,42 @@
     "first_seen": "2026-10-03",
     "summary": "The standard (default) mode for ai_extract now uses a new model checkpoint that is 2.3x faster while improving overall quality at no additional cost. See the ai_extract documentation.",
     "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "07dac5ed10e8990e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 2.5 Pro is retired",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-gemini-25-pro-is-retired",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-06",
+    "summary": "Google Gemini 2.5 Pro is no longer available. The recommended replacement models are Gemini 3.1 Pro or Gemini 3.5 Flash. See Deprecated and retired models for migration guidance.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "5d5a2f77223c0ee9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 2.5 Flash is retired",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-gemini-25-flash-is-retired",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-06",
+    "summary": "Google Gemini 2.5 Flash is no longer available. The recommended replacement models are Gemini 3.1 Pro or Gemini 3.5 Flash. See Deprecated and retired models for migration guidance.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "8d0f95e2ed71f025",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Customer-managed keys for query history are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#customer-managed-keys-for-query-history-are-now-generally-available",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-06",
+    "summary": "You can now use a customer-managed key on the system catalog to decrypt statement_text and error_message in the query history system table. See Reading encrypted fields.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -6999,134 +7140,6 @@
     "first_seen": "2026-07-30",
     "summary": "The _object_metadata column is now in Public Preview. The _object_metadata column is a hidden metadata column that exposes object-level properties for objects in cloud storage, including MIME type, ETag, user-defined key-value metadata, system-defined metadata, and object tags. It is available starting from Databricks Runtime 18.1.\n\nSee Object metadata column.",
     "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "e4626cca06d9a529",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbr-20260706-9fb7bf91a",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20260706-9fb7bf91a",
-    "published": "2026-07-07",
-    "first_seen": "2026-07-30",
-    "summary": "Set version to 4.1.0-20260706-dbrbuild for DBR kernel build",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "6681e26383a2a13f",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbi-20260706-9fb7bf91a",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbi-20260706-9fb7bf91a",
-    "published": "2026-07-07",
-    "first_seen": "2026-07-30",
-    "summary": "Set version to 4.1.0-20260706-dbrbuild for DBR kernel build",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "3566c4dc922988a1",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: ts/v0.3.0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/ts%2Fv0.3.0",
-    "published": "2026-07-07",
-    "first_seen": "2026-07-30",
-    "summary": "MLflow TypeScript SDK 0.3.0",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "9bfd94510fee6606",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: V0.6.1",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.6.1",
-    "published": "2026-07-07",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V0.6.1\n\nRelease date: 2026-07-03\n\nType: Patch release (v0.6.0 → v0.6.1)\n\nTest status: 2990 passed, 275 skipped, 5 deselected (uv run pytest -q -m \"not scenario\").\n\nSummary\n\nv0.6.1 is a focused patch on top of v0.6.0. It fixes the Switch modal on published /\n\nin-review domains, hardens Lakebase deploy diagnostics and database-name resolution,\n\nadds Databricks CLI profile support to deploy scripts, and backports a mapping SQL\n\ncolumn deduplication fix that prevents AMBIGUOUS_REFERENCE errors during digital-twin\n\nbuilds.\n\nNo breaking changes. No schema migrations required.\n\nHighlights\n\n- Switch modal on read-only versions — on IN-REVIEW or PUBLISHED domains, the version\n\npicker is now usable while the \"Save my changes before switching\" option is correctly\n\ndisabled (fixes #97).\n\n- Lakebase deploy resilience — shared diagnostics helper, underscore/hyphen slug\n\ntolerance when resolving db-… resource segments vs Postgres datname, and clearer\n\nfailure hints with ready-to-run CLI commands.\n\n- Deploy ergonomics — DEFAULT_DATABRICKS_PROFILE in scripts/deploy.config.sh\n\npins the CLI profile for all deploy and bootstrap targets.\n\n- Auto-Map SQL fix — duplicate id/label column references in agent-submitted\n\nmappings are deduplicated before build (backport from PR #98, Eric Poilvet).\n\nBug Fixes\n\nSwitch modal on published / in-review domains (#97)\n\nOn non-DRAFT lifecycle versions, the L2 Switch popup previously kept the version\n\ndropdown disabled and still offered \"Save my changes before switching\" even though\n\nread-only versions cannot be saved.\n\n- permissions.css — exempt #switchVersionSelect from the read-only select disable rule\n\n(navigation, not design editing).\n\n- navbar.js — isSwitchSaveAllowed(), configureSwitchSaveOption(), and a confirm-handler…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "6e8db6ec5f258b51",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "REPLACE WHERE flows are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#replace-where-flows-are-now-generally-available",
-    "published": "2026-07-07",
-    "first_seen": "2026-07-30",
-    "summary": "REPLACE WHERE flows for pipelines and standalone streaming tables are now generally available. Use them to replace only rows matching a predicate on each refresh, without reprocessing the full table history. See Batch processing with REPLACE WHERE flows.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "d57e9cb978935cfb",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Excel file format support is now available by default",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#excel-file-format-support-is-now-available-by-default",
-    "published": "2026-07-07",
-    "first_seen": "2026-07-30",
-    "summary": "Excel file format support is now available by default for all workspaces. You can ingest, parse, and query .xls, .xlsx, and .xlsm files directly using built-in support, without external libraries or manual conversions. See Read and stream Excel files.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "d08a8addc72566a6",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Managed Iceberg materialized views are in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#managed-iceberg-materialized-views-are-in-public-preview",
-    "published": "2026-07-07",
-    "first_seen": "2026-07-30",
-    "summary": "You can now create a materialized view that is compatible with external Iceberg readers. This feature is in Public Preview. To enable it, reach out to your Databricks account team. See Create a materialized view compatible with external Iceberg readers.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "70222e3dd981bb62",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Private Link for account-level resources (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#private-link-for-account-level-resources-beta",
-    "published": "2026-07-06",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use Private Link to privately connect to Databricks account-level resources, such as the account console, through a VPC interface endpoint instead of the public internet. See Configure inbound Private Link for account-level resources.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "de261744d426fe00",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Budgets are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#budgets-are-now-generally-available",
-    "published": "2026-07-06",
-    "first_seen": "2026-07-30",
-    "summary": "Budgets, including budgets for Unity AI Gateway, are now generally available.\n\nBudgets let admins define spending thresholds. For requests managed through Unity AI Gateway, including Genie interactions, admins can set additional per-user thresholds and overrides, with configurable actions such as email alerting and usage blocking.\n\nSee Create and monitor budgets and Manage budgets for Unity AI Gateway.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "370d51255f6649e9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Standard performance mode is now supported for materialized view or streaming table refreshes in jobs",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#standard-performance-mode-is-now-supported-for-materialized-view-or-streaming-table-refreshes-in-jobs",
-    "published": "2026-07-06",
-    "first_seen": "2026-07-30",
-    "summary": "Materialized view and streaming table refreshes that are orchestrated through a SQL task in a Lakeflow job now respect the job's Performance optimized setting. When the setting is turned off, the refresh uses standard performance mode, which consumes fewer DBUs.\n\nFor more about performance modes for scheduled refreshes, see Select a performance mode for scheduled refreshes.",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
