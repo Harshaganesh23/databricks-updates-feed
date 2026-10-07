@@ -12,6 +12,91 @@
     "tags": []
   },
   {
+    "id": "b9bad5ef7a031f6d",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Now GA: Building permission-aware Databricks Apps with on-behalf-of-user authorization",
+    "url": "https://www.databricks.com/blog/now-ga-building-permission-aware-databricks-apps-behalf-user-authorization",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-07",
+    "summary": "Data",
+    "category": "Governance",
+    "tags": [
+      "Databricks Apps",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "e01271a955927457",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: MLflow 3.17.0",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.17.0",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-07",
+    "summary": "MLflow 3.17.0 includes several major features and improvements.\n\nMajor New Features\n\n- Jev Decisions Across Evaluation, Gateway, and Tracing: Use TypeSafe models in built-in scorers and custom judges with typed Boolean or categorical feedback. (#26100, @B-Step62)\n\n- Fine-Grained Permissions for Shared Resources: Control access to contained resource types, including runs, traces, and versions, with wildcard grants and explicit DENY. (#26157, @rrrkharse)\n\n- Faster Analytics for Large Trace Datasets: Reduce SQL analytics query overhead with opt-in daily summaries and raw-query fallback. (#25991, @HumairAK)\n\n- Clearer Evaluation Results: Associate aggregate logged-model evaluation metrics with the managed dataset that produced them. (#25927, @joshuawong-db)\n\n- Assistant Improvements for Shared Servers: Keep saved conversations scoped to the signed-in user and reset the active session when accounts change. (#26009, @kriscon-db)\n\nDatabase upgrade: SQL-backed servers require a coordinated schema upgrade with all writers stopped and a restorable backup, even when daily rollups remain disabled. Run mlflow db upgrade <database-url> before restarting all replicas on the new MLflow version. Mixed-version rolling upgrades are not supported. Follow the database upgrade instructions.\n\nOther Assorted Features & Improvements:\n\n- [Tracing / UI] Add rich rendering for TypeSafe System One traces (#26276, @B-Step62)\n\n- [Build] Show issue-triage progress in a GitHub issue comment (#26454, @copilot-swe-agent)\n\n- [Docs / Evaluation] Allow custom base_url for direct TypeSafe judges (#26445, @B-Step62)\n\n- [Docs / Gateway] Allow custom typesafe_api_base for TypeSafe Gateway endpoints (#26442, @B-Step62)…",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "8586334739b6384c",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.148.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.148.0",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-07",
+    "summary": "## Release v0.148.0 (2026-10-07)\n\n### API Changes\n\n* Add `health_check` field for `databricks.sdk.service.apps.AppDeployment`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "ad35097cea2734e7",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.20.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.20.0",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-07",
+    "summary": "Release v1.20.0\n\nNotable Changes\n\n- Remove the Terraform deployment engine. bundle.engine: terraform and DATABRICKS_BUNDLE_ENGINE=terraform now error, and a failed migration of existing Terraform state is reported as an error instead of falling back to Terraform. To keep deploying with Terraform, use Databricks CLI v1.19.x. (#6888, #6889)\n\nCLI\n\n- databricks aitools install now supports Kiro, installing Databricks agent skills into its skills directory. (#6908)\n\n- Fixed databricks api corrupting integers larger than 2^53 (such as job and pipeline ids) — request bodies and responses now preserve them exactly. (#6884)\n\n- Added --auth-mode and --set <plugin>.<resourceKey>.authMode=obo|sp|both to databricks apps init so AppKit resources can be accessed on behalf of the user, by the service principal, or both. The default stays service principal. (#6886)\n\n- databricks apps init now requires a value for every field a service principal resource binding references, prompting for missing values in an interactive terminal and otherwise failing with the --set key to use, instead of creating a project with unset variables. (#6903)\n\n- Add databricks apps init --package-manager <npm|pnpm> to select the package manager for Node.js templates. Infer the default quietly from template lockfiles and AppKit version, check prerequisites before creating files, and preserve template formatting and pnpm version pins. (#6902)\n\n- Select npm or pnpm from packageManager declarations and lockfiles for apps validate and project validation during apps deploy. (#6892)\n\n- Fix auth docker host reporting the credential helper as configured when its executable is missing from PATH. (#6880)\n\n- Warn when the CLI binary was built more than 6 months ago and recommend updating. (#6898)\n\nAI Runtime…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "40eca01b40659c54",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-rc.6",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-rc.6",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-07",
+    "summary": "DQX Studio 0.1.0-rc.6",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "a0e29dbff11ad102",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/geobrix",
+    "title": "databrickslabs/geobrix: GeoBrix v0.5.2",
+    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.5.2",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-07",
+    "summary": "GeoBrix v0.5.2\n\nGeoBrix 0.5.2 brings LiDAR and photogrammetry to the library: a lidar_gbx LAS/LAZ reader and writer, point-cloud DSM / CHM surface functions, an exif_gbx image-telemetry reader, raster and distributed H3 viewshed pipelines, and a new model-backed gbx.models package whose first capability is GeoSAM GPU object segmentation. It also ships a new end-to-end Wireless Coverage example (LiDAR → surfaces → H3 → tower siting) in both notebook and Lakeflow-pipeline flavors, preserves ESRI/OGC CRS authority end-to-end, and brings the light tier's ZSTD compression to parity with heavy. Full change list: Release Notes → What's new in v0.5.2.\n\nHighlights\n\n- LiDAR point clouds — lidar_gbx reader and writer. A Spark DataSource reads LAS/LAZ into a DataFrame (metadata one-row-per-file or points one-row-per-point, with classFilter / returnFilter / decimate / dimensions options), and the matching writer outputs sharded .laz (one per partition, optional singleFile / merge). Lightweight and Serverless-safe; full-density (decimate=1) reads don't stall. See LiDAR Reader · LiDAR Writer.\n\n- Point-cloud surface modelling — DSM / CHM / isobands. gbx_rst_binpoints (plus the streaming _agg and the bounded rx.bin_points_tiled helper) bins x/y/z points into a Float32 DSM; gbx_rst_chm warps a DSM onto a DEM and subtracts for a Canopy Height Model; gbx_rst_isoband reclassifies a band into one WKB polygon per contiguous patch. Both tiers. See Raster Functions.…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/geobrix"
+    ]
+  },
+  {
     "id": "45312a386b299324",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -79,6 +164,56 @@
     "first_seen": "2026-10-06",
     "summary": "Genie Code CLI is a coding agent that runs in your terminal, tuned for data and AI work on Databricks. It works with your local files and uses the Databricks CLI to discover data, answer questions, and build and deploy assets such as pipelines, models, and apps. Model access is provided and governed through Unity Gateway. See Genie Code CLI.",
     "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "d46a23c5bf49625d",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How to Repoint dbt ETL Pipelines to Databricks",
+    "url": "https://www.databricks.com/blog/how-repoint-dbt-etl-pipelines-databricks",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-07",
+    "summary": "More teams are runni",
+    "category": "Data Engineering",
+    "tags": [
+      "Lakehouse"
+    ]
+  },
+  {
+    "id": "322a7abd3f3f79db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Metric view window measures are generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#metric-view-window-measures-are-generally-available",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-07",
+    "summary": "Window measures in metric views are now generally available. Window measures define rolling window, cumulative, or semiadditive aggregations, such as moving averages, period-over-period changes, and running totals. See Window measures.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "6d2b2fdb12f25932",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zhipu AI GLM 5.2 is now a legacy model",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#zhipu-ai-glm-52-is-now-a-legacy-model",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-07",
+    "summary": "GLM 5.2 is now a legacy model. Databricks recommends migrating to GLM 5.3 or GLM 5.3 Flash.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "84fad7053cf43cee",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4 Flash (0731) is scheduled for retirement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#deepseek-v4-flash-0731-is-scheduled-for-retirement",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-07",
+    "summary": "DeepSeek V4 Flash (0731) will be retired on November 5, 2026. DeepSeek V4.1 Flash is the recommended replacement. See Deprecated and retired models for migration guidance.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -351,6 +486,18 @@
     "tags": []
   },
   {
+    "id": "898da12462506412",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Save reusable query templates in Google Sheets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#save-reusable-query-templates-in-google-sheets",
+    "published": "2026-10-02",
+    "first_seen": "2026-10-07",
+    "summary": "The Databricks Connector for Google Sheets now lets you save imports as a reusable template that you and your team can run in one step, each with your own Unity Catalog permissions. See Templates in Google Sheets and Query Databricks data in Google Sheets.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "82ffe0e1ed6bb3e2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -477,6 +624,18 @@
       "Data Strategy",
       "Best Practices"
     ]
+  },
+  {
+    "id": "0a1e3afbd913d838",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GitLab connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#gitlab-connector-is-available-in-beta",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-07",
+    "summary": "The managed GitLab connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nUse the connector to ingest repository, project, group, CI/CD, and security data from GitLab into Databricks. The connector uses OAuth U2M authentication and supports incremental ingestion, UI-based pipeline authoring, Declarative Automation Bundles, and API-based pipeline authoring.",
+    "category": "Application Development",
+    "tags": []
   },
   {
     "id": "412a615366dde4e7",
@@ -7114,118 +7273,6 @@
     "first_seen": "2026-07-30",
     "summary": "For custom model serving endpoints with a tensor-based input signature, you can now send the request body as a serialized KServe v2 ModelInferRequest with Content-Type: application/x-protobuf, instead of JSON.\n\nThis feature is in Public Preview and is only available on endpoints deployed after July 9, 2026. See Protobuf tensor input.",
     "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "594926fcfe3145be",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbr-20260707-b5a6fd721",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20260707-b5a6fd721",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "DBR kernel build 4.1.0-20260707-dbrbuild",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "3f88ccd897d53e54",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: Delta Lake 4.3.1",
-    "url": "https://github.com/delta-io/delta/releases/tag/v4.3.1",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "Delta Lake 4.3.1\n\nWe are pleased to announce the release of Delta Lake 4.3.1, a patch release on top of 4.3.0 with targeted bug fixes for OAuth authentication in the Delta REST Catalog, S3A fast listing through FilterFileSystem wrappers, and UC managed-table metadata handling.\n\nHighlights\n\n- [Spark] Fix OAuth case-sensitivity bug in Delta REST Catalog authentication: Fixes a bug where CaseInsensitiveStringMap.entrySet() lowercased camelCase OAuth config keys (e.g. oauth.clientId), breaking Delta REST Catalog authentication.\n\nDelta Spark\n\nDelta Spark 4.3.1 is built on Apache Spark 4.1.0 and Apache Spark 4.0.1. As with Apache Spark, we publish Maven artifacts for Scala 2.13.\n\n- Maven artifacts for Spark 4.1.0:\n\n- delta-spark_4.1_2.13\n\n- delta-connect-client_4.1_2.13\n\n- delta-connect-common_4.1_2.13\n\n- delta-connect-server_4.1_2.13\n\n- delta-contribs_2.13\n\n- delta-storage\n\n- delta-storage-s3-dynamodb\n\n- Maven artifacts for Spark 4.0.1:\n\n- delta-spark_4.0_2.13\n\n- delta-connect-client_4.0_2.13\n\n- delta-connect-common_4.0_2.13\n\n- delta-connect-server_4.0_2.13\n\n- delta-contribs_2.13\n\n- delta-storage\n\n- delta-storage-s3-dynamodb\n\n- Backward-compatibility artifacts (no Spark version in the name; default to Spark 4.1.0):\n\n- delta-spark_2.13\n\n- delta-connect-client_2.13\n\n- delta-connect-common_2.13\n\n- delta-connect-server_2.13\n\n- Python artifact:\n\n- delta-spark\n\nBug fixes in this release:\n\n- Support delta.enabledFastS3AListFrom with OSS UnityCatalog (>=0.4.1). Because the unitycatalog spark connector introduced CredScopedFileSystem, which relies on S3AFileSystem under the hood, this fix unwraps the internal filesystem of CredScopedFileSystem and handles the casting to enable fast S3A listing.…",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "e12f659a493713e1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zhipu AI GLM 5.2 now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#zhipu-ai-glm-52-now-available-as-a-databricks-hosted-model",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports GLM 5.2 as a Databricks-hosted model. This mixture of experts (MoE) model supports a 1 million token context window and is optimized for long-horizon reasoning, coding, and agentic tool use. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "90a0a9485aedef94",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 2.5 Flash and Pro are scheduled for retirement",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-25-flash-and-pro-are-scheduled-for-retirement",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "Google Gemini 2.5 Flash and Gemini 2.5 Pro will be retired on October 2, 2026. The recommended replacement models are Gemini 3.1 Pro or Gemini 3.5 Flash. See Deprecated and retired models for migration guidance.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "160cf6081370851b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Restrict access to AI Functions with Unity Catalog permissions (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#restrict-access-to-ai-functions-with-unity-catalog-permissions-public-preview",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use Unity Catalog permissions to restrict which task-specific AI Functions your organization can access, independent of foundation model access. Contact your account team to enable this feature. See AI Functions Unity Catalog permissions.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "91753aed45e0906d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Anthropic Claude Sonnet 4 is scheduled for retirement",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#anthropic-claude-sonnet-4-is-scheduled-for-retirement",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "Anthropic Claude Sonnet 4 will be retired on October 9, 2026. Claude Sonnet 4.6 is the recommended replacement. See Deprecated and retired models for migration guidance.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "ec79ee33c387ed39",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Spaces is now Genie Agents",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-spaces-is-now-genie-agents",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "Genie Spaces are now called Genie Agents. The name changed across the documentation, but the product's capabilities are unchanged. For more information, see Genie Agents.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "6043464d9aeb8d34",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie products now use pay-as-you-go pricing",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-products-now-use-pay-as-you-go-pricing",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "Starting July 8, 2026 at 00:00 UTC, Genie products, including Genie Agents, Genie Code, and Genie One, are billed following a pay-as-you-go pricing model that includes 150 DBUs of free large language model (LLM) usage every month, equivalent to about $10.50 in the US East region. Usage beyond the free amount is billed in DBUs, reflecting the underlying LLM models and agents that power each Genie session. For more information about pricing, see Databricks pricing.\n\nTo monitor and control Genie spend for your account, see Manage budgets and cost controls for Genie.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "a548ad1e43ff79f4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Object metadata column is now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#object-metadata-column-is-now-in-public-preview",
-    "published": "2026-07-08",
-    "first_seen": "2026-07-30",
-    "summary": "The _object_metadata column is now in Public Preview. The _object_metadata column is a hidden metadata column that exposes object-level properties for objects in cloud storage, including MIME type, ETag, user-defined key-value metadata, system-defined metadata, and object tags. It is available starting from Databricks Runtime 18.1.\n\nSee Object metadata column.",
-    "category": "Platform Overview",
     "tags": []
   }
 ]
