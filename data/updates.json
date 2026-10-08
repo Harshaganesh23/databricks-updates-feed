@@ -1,5 +1,17 @@
 [
   {
+    "id": "f8442aa3efbae64f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Workspace-level package repositories for Databricks Apps are generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#workspace-level-package-repositories-for-databricks-apps-are-generally-available",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-08",
+    "summary": "Workspace admins can now configure default Python and npm package repositories for Databricks Apps. Apps inherit the workspace configuration while still allowing app-level overrides.\n\nSee Configure default package repositories.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
     "id": "d264424f50859fbd",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -9,6 +21,63 @@
     "first_seen": "2026-10-06",
     "summary": "The managed Google Workspace connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest audit activity from Google Workspace applications and services into Databricks. The connector uses OAuth user authorization and supports incremental ingestion.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "d3e16e5779e8539f",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Announcing Workday Data Connect federation in Unity Catalog",
+    "url": "https://www.databricks.com/blog/announcing-workday-data-connect-federation-unity-catalog",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-08",
+    "summary": "Workday Data Connect federation is now in Beta on Databricks. Query Workday HR and finance data in place. Govern access through Unity Catalog, and join HR and finance data with the rest of your enterprise data.",
+    "category": "Governance",
+    "tags": [
+      "Platform",
+      "Partners",
+      "Unity Catalog"
+    ]
+  },
+  {
+    "id": "4e5d15a89e0bf337",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How to build governed enterprise apps on Databricks with Replit and Lakebase",
+    "url": "https://www.databricks.com/blog/how-build-governed-enterprise-apps-databricks-replit-and-lakebase",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-08",
+    "summary": "The combination of R",
+    "category": "Database",
+    "tags": [
+      "Platform",
+      "Partners"
+    ]
+  },
+  {
+    "id": "0e90885fa681a1e0",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.149.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.149.0",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-08",
+    "summary": "## Release v0.149.0 (2026-10-08)\n\n### API Changes\n\n* Add `databricks.sdk.service.agentkit` package.\n\n* Add [w.agent_kit](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/agentkit/agent_kit.html) workspace-level service.\n\n* Add `create_identity_visibility_filter()`, `delete_identity_visibility_filter()`, `get_identity_visibility_filter()` and `list_identity_visibility_filters()` methods for [a.account_iam_v2](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html) account-level service.\n\n* Add `endpoint_route` field for `databricks.sdk.service.catalog.ModelProviderServiceConfigModelTargetConfig`.\n\n* Add `notifications` field for `databricks.sdk.service.ml.MaterializedFeature`.\n\n* Add `shuffle_partitions` field for `databricks.sdk.service.ml.StreamingMode`.\n\n* Add `parent_path` field for `databricks.sdk.service.pipelines.ClonePipelineRequest`.\n\n* Add `parent_path` field for `databricks.sdk.service.pipelines.CreatePipeline`.\n\n* Add `parent_path` field for `databricks.sdk.service.pipelines.EditPipeline`.\n\n* Add `parent_path` field for `databricks.sdk.service.pipelines.PipelineSpec`.\n\n* Add `custom_template_format` field for `databricks.sdk.service.sql.AlertV2`.\n\n* Add `statement_timeout` field for `databricks.sdk.service.sql.CreateWarehouseRequest`.\n\n* Add `statement_timeout` field for `databricks.sdk.service.sql.EditWarehouseRequest`.\n\n* Add `statement_timeout` field for `databricks.sdk.service.sql.EndpointInfo`.\n\n* Add `statement_timeout` field for `databricks.sdk.service.sql.GetWarehouseResponse`.\n\n* [Breaking] Remove `databricks.sdk.service.mason` package.\n\n* [Breaking] Remove [w.mason](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/mason/mason.html) workspace-level service.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "2d1aa5a888cd2434",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Discover page and domains are now GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#the-discover-page-and-domains-are-now-ga",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-08",
+    "summary": "The Discover page and domains are now generally available. Discover is a curated browsing experience that helps users find assets across Databricks without requiring deep knowledge of catalog hierarchies. Use domains and subdomains to organize assets such as tables, dashboards, notebooks, and Genie Agents by business area, highlight key assets with custom curation, and explore AI-recommended assets.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
@@ -95,6 +164,56 @@
     "tags": [
       "databrickslabs/geobrix"
     ]
+  },
+  {
+    "id": "738ed9214713f982",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Set Budgets and Alerts for Cloud Data Warehouse Costs",
+    "url": "https://www.databricks.com/blog/set-budgets-and-alerts-cloud-data-warehouse-costs",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-08",
+    "summary": "Ever",
+    "category": "Data Warehousing",
+    "tags": [
+      "Data Warehousing"
+    ]
+  },
+  {
+    "id": "89a9715ca3092316",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Enforce partner guardrails with external service policies (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#enforce-partner-guardrails-with-external-service-policies-beta",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-08",
+    "summary": "You can now enforce a third-party guardrail on Unity Gateway traffic. An external service policy sends request and response content to your guardrail vendor and blocks the call when the vendor denies it, with no changes to your applications. See Enforce a partner guardrail with an external service policy.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "a634c8953c3ba43f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4.1 Flash supports priority pay-per-token and reserved provisioned throughput",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#deepseek-v41-flash-supports-priority-pay-per-token-and-reserved-provisioned-throughput",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-08",
+    "summary": "You can now use DeepSeek V4.1 Flash with priority pay-per-token for latency-sensitive traffic or reserved provisioned throughput for dedicated capacity.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "eb30c6b7db95d6b9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Haiku 5.5 is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#anthropic-claude-haiku-55-is-now-available-on-unity-gateway",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-08",
+    "summary": "Anthropic Claude Haiku 5.5 is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
   },
   {
     "id": "45312a386b299324",
@@ -323,6 +442,18 @@
     "first_seen": "2026-10-06",
     "summary": "The Agent Bricks documentation now centers on building, deploying, and running custom agents in code. See Develop agents on Databricks:\n\n- Agent compute stack: New pages describe how a deployed agent's framework or harness, agent server, and agent runtime fit together. See Deploy agents on Databricks.\n\n- DurableAgentServer and Agent Runtime: DurableAgentServer serves agents through the invocation API, with synchronous, streaming, and background runs, persistent run state, and crash recovery. Agent Runtime runs it on Databricks Apps. See Agent Server and Agent Runtime.\n\n- Querying agents: The query guide is organized by agent server, starting with the invocation API. See Query agents deployed on Databricks.\n\n- Legacy offerings: Offerings that are no longer recommended for new agents, including the MLflow AgentServer, LongRunningAgentServer, and agents deployed to Model Serving, are now in a Legacy section that maps each one to its replacement. See Legacy agent offerings.",
     "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "24ece739db39672b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ai_parse_document now extracts chart data as JSON",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#ai",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-08",
+    "summary": "ai_parse_document now extracts chart values as structured JSON and describes their series, legends, and axes. Search and agents can use these values in answers. See ai_parse_document function.",
+    "category": "Artificial Intelligence",
     "tags": []
   },
   {
@@ -7157,122 +7288,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now store, govern, and access secrets as securable objects in Unity Catalog. A Unity Catalog secret uses the three-level namespace (catalog.schema.secret) and is governed by Unity Catalog privileges, so you can apply the same access controls and auditing that you use for other data assets. See Secrets in Unity Catalog.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "c2d7b9df202b15f5",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.7.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.7.0",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "CLI\n\n- An explicitly selected profile (--profile or a bundle's workspace.profile) now takes precedence over auth environment variables (DATABRICKS_HOST, DATABRICKS_TOKEN, etc.) instead of being silently shadowed by them; env vars still fill auth fields the profile leaves empty (#5096).\n\n- Fix intermittent crashes when processing pages from API calls (#5815).\n\nBundles\n\n- direct: add basic version of job_runs resource (experimental) (#5603).\n\n- Fix permissions added to a job or pipeline by a Python (PyDABs) mutator failing to deploy with \"must have exactly one owner\"; the deploying identity is now set as owner, matching resources whose permissions are declared in YAML (#5821).\n\n- Remove duplicate enum values for jsonschema.json (#5839).\n\n- direct: volumes: support volume_path property (#5550).\n\n- direct: Fix deploy bug when a postgres_projects, postgres_branches, or postgres_endpoints field is set to its zero value (e.g. enable_pg_native_login: false, replace_existing: false) (#5782).\n\n- bundle run --only help now documents the + modifier syntax: prefix a task key with + to also run its upstream tasks, or suffix it with + for downstream tasks (#5760).\n\n- direct: Recognize UC-managed catalog and schema property defaults to avoid unnecessary drift (#5865 & #5870).\n\n- Fix bundle deploy --select <resource> skipping the resource's grants and permissions; they are now applied as part of the selected resource (#5852).\n\n- Support purge_on_delete: true on postgres_branches so bundles can hard-delete a Lakebase branch on destroy (skipping the soft-delete retention window) (#5801).…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "7018f0e320df27cf",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontos",
-    "title": "databrickslabs/ontos: Ontos v1.0.1",
-    "url": "https://github.com/databrickslabs/ontos/releases/tag/v1.0.1",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "What's changed\n\n🐛 Bug Fixes\n\n- manifest: remove iam.current-user:read and iam.access-control:read from user_api_scopes — these scope names are rejected as invalid on several Databricks workspaces, and Marketplace listing manifests are fixed at publish time so declaring them there had no effect on existing or new installs. Direct-deploy customers who need group resolution can add the scopes manually via the App config UI. (#599)\n\n- workflows: surface on_behalf_of and consumer_principals correctly in webhook payloads (#581)\n\n- workflows: unified approval UX — full payload, adjust terms, My Actions inline (#572)\n\n- data-products: surface proposed products in the steward review queue (#556)\n\n- data-products: gate consumer reads of unpublished products (#554)\n\n- contracts: require a schema before proposing a contract for review\n\n- contracts: persist column-level data quality rules\n\n- assets: scope Data Consumer asset visibility to DP-linked assets\n\n- rbac: unblock default-role seeding for tightened implicit features\n\n- security: close residual auth gaps in settings / connections / tags / schema-import\n\n- copilot: multiple Ask Ontos response-quality fixes (echoing, citation leakage, confidence labels)\n\n✨ Features\n\n- workflows: rich references + markdown links in approval wizard steps (#571)\n\n- term-mapping: ontology term suggestion with AR-based review and inline suggester\n\n- maturity: configurable multi-level maturity assessment for data products and contracts\n\n- semantic-links: link concepts/properties to Assets\n\n- marketplace: data quality badge on product tiles; Go to Details button in info dialog\n\n🔧 Maintenance\n\n- Version bumped from 1.0.0 → 1.0.1 across pyproject.toml, __init__.py, and both package.json files\n\nUpgrade notes…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontos"
-    ]
-  },
-  {
-    "id": "45e56dc622276f4b",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontos",
-    "title": "databrickslabs/ontos: marketplace-v1.0.1",
-    "url": "https://github.com/databrickslabs/ontos/releases/tag/marketplace-v1.0.1",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "Marketplace Release v1.0.1",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/ontos"
-    ]
-  },
-  {
-    "id": "2b9ea70bf4fadc70",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/vibescaler",
-    "title": "databrickslabs/vibescaler: v1.10.0",
-    "url": "https://github.com/databrickslabs/vibescaler/releases/tag/v1.10.0",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "v1.10.0",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/vibescaler"
-    ]
-  },
-  {
-    "id": "96e9657614514692",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "OpenAI GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna now available as Databricks-hosted models",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#openai-gpt-56-sol-gpt-56-terra-and-gpt-56-luna-now-available-as-databricks-hosted-models",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports OpenAI GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna as Databricks-hosted models. You can access these models using Foundation Model APIs pay-per-token.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "93c8c2d2013f4d8e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks SQL alerts are now available by default for workspaces with the compliance security profile enabled",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-sql-alerts-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks SQL alerts now support all compliance security profile standards that Databricks supports, and are available by default for workspaces with the compliance security profile enabled.\n\nUse Databricks SQL alerts to monitor data and KPIs by running queries on a schedule, evaluating conditions, and notifying recipients when the conditions are met.\n\nSee Databricks SQL alerts.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "430e62960043e1d2",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Private connectivity to SAP Business Data Cloud (BDC)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#private-connectivity-to-sap-business-data-cloud-bdc",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "You can now use AWS PrivateLink to privately connect to SAP Business Data Cloud (BDC). If your organization requires private network connectivity, configure AWS PrivateLink to the S3 buckets that back your SAP BDC shares before you create a connection. See Set up private connectivity to SAP BDC.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "2c8e1aa6640108bb",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Strac connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#strac-connector-beta",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "The Strac connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests data-security audit events from your Strac instance into Databricks. Authentication uses a Strac API key.\n\nSee Strac connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "2d470e94653b99b3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Protobuf tensor input for custom model serving endpoints (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#protobuf-tensor-input-for-custom-model-serving-endpoints-public-preview",
-    "published": "2026-07-09",
-    "first_seen": "2026-07-30",
-    "summary": "For custom model serving endpoints with a tensor-based input signature, you can now send the request body as a serialized KServe v2 ModelInferRequest with Content-Type: application/x-protobuf, instead of JSON.\n\nThis feature is in Public Preview and is only available on endpoints deployed after July 9, 2026. See Protobuf tensor input.",
-    "category": "Artificial Intelligence",
     "tags": []
   }
 ]
