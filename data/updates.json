@@ -24,6 +24,89 @@
     "tags": []
   },
   {
+    "id": "9358f1ad531f78d3",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Solving defense supply chain visibility through governed data sharing",
+    "url": "https://www.databricks.com/blog/solving-defense-supply-chain-visibility-through-governed-data-sharing",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "summary": "Governed data sharing gives the DoW cost and supply chain visibility across 200,000+ suppliers, with no vendor lock-in.",
+    "category": "Sharing",
+    "tags": [
+      "Industries",
+      "Public Sector"
+    ]
+  },
+  {
+    "id": "25626f7bea5534f1",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.150.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.150.0",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "summary": "## Release v0.150.0 (2026-10-09)\n\n### API Changes\n\n* Add `bedrock_mantle` and `pricing` fields for `databricks.sdk.service.catalog.ModelProviderServiceConfig`.\n\n* Add `external_model_provider_type_bedrock_mantle` enum value for `databricks.sdk.service.catalog.ModelProviderServiceConfigExternalModelProviderType`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "eaf466493d04aafc",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/brickster",
+    "title": "databrickslabs/brickster: Version 0.2.15",
+    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.15",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "summary": "- The workspace Connections pane identifies managed and foreign Iceberg tables as ICEBERG, distinguishes Delta tables with Iceberg reads as DELTA (UniForm: Iceberg), and shows Iceberg metadata instead of Delta protocol versions. Tables without a source format, including metric views, no longer fail when opening metadata (#311, @zacdav).\n\n- The RStudio connection pane now shows the storage location, last commit time, and minimum reader and writer versions of Delta tables (#304, @m-muecke).\n\n- db_jobs_repair_run() now sends job_parameters correctly (#307, @m-muecke).\n\n- access_control_req_group() now sends the group as group_name, so jobs created with group permissions no longer fail with \"Principal name not defined\" (#305, @m-muecke).\n\n- dbListFields() no longer returns extra rows for partitioned and clustered tables (#306, @m-muecke).\n\n- Fixed db_sql_query(), dbGetQuery(), and dbFetch() silently returning only the first chunk of INLINE results. Additional chunks are fetched in order up to the requested row limit (#303, @zacdav).\n\n- db_list_all_pages() collects all records from token-paginated listings, omitting pagination metadata automatically. Pass a listing function and its arguments, for example db_list_all_pages(db_cluster_list, page_size = 100) (#301, @zacdav-db).\n\n- Cluster wrappers now use Clusters API 2.1. Breaking change: db_cluster_list() and db_cluster_events() return full single-page responses, preserving pagination tokens; extract $clusters or $events for records. Both accept page_size and page_token. The Connections pane follows all cluster pages (#301, @zacdav-db).…",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/brickster"
+    ]
+  },
+  {
+    "id": "11b88dc6faebb4ec",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-rc.7",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-rc.7",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "summary": "DQX Studio 0.1.0-rc.7",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "38331fc903179f98",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.9.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.9.0",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "summary": "What's Changed\n\n- Rename query_engine.batch_size to max_channels_per_batch by @tombonfert in #108\n\n- feat(reporting): add TimeWindowEvent for fixed-duration windows per container by @tombonfert in #110\n\n- feat(reporting): derive TimeWindowEvent event fact rows with mapInArrow by @tombonfert in #119\n\n- release: bump version to 0.9.0 by @tombonfert in #120\n\nFull Changelog: v0.8.0...v0.9.0\n\nWhat's Changed\n\n- Rename query_engine.batch_size to max_channels_per_batch by @tombonfert in #108\n\n- feat(reporting): add TimeWindowEvent for fixed-duration windows per container by @tombonfert in #110\n\n- feat(reporting): derive TimeWindowEvent event fact rows with mapInArrow by @tombonfert in #119\n\n- release: bump version to 0.9.0 by @tombonfert in #120\n\nFull Changelog: v0.8.0...v0.9.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
+    "id": "5210a6bd92dbf819",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use OpenJev as the evaluator for LLM-as-a-judge service policies (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#use-openjev-as-the-evaluator-for-llm-as-a-judge-service-policies-beta",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "summary": "You can now select OpenJev (Qwen3.5 4B) as the evaluator model service of a custom LLM-as-a-judge service policy. OpenJev classifies content without generating output tokens, so it typically responds faster than a chat evaluator. See Use OpenJev as the evaluator.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "d3e16e5779e8539f",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -79,6 +162,73 @@
     "summary": "The Discover page and domains are now generally available. Discover is a curated browsing experience that helps users find assets across Databricks without requiring deep knowledge of catalog hierarchies. Use domains and subdomains to organize assets such as tables, dashboards, notebooks, and Genie Agents by business area, highlight key assets with custom curation, and explore AI-recommended assets.",
     "category": "Business Intelligence",
     "tags": []
+  },
+  {
+    "id": "714c79df7b98ebfd",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing Funke: Native HL7v2 Parsing on Databricks",
+    "url": "https://www.databricks.com/blog/introducing-funke-native-hl7v2-parsing-databricks",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-09",
+    "summary": "The HL7v2 problem i",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Healthcare & Life Sciences"
+    ]
+  },
+  {
+    "id": "d953dbc7e61c0c7c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Lakebase and Agentic SDLC: Branching Databases for Coding Agents",
+    "url": "https://www.databricks.com/blog/lakebase-and-agentic-sdlc-branching-databases-coding-agents",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-09",
+    "summary": "Learn how Lakebase database branching powers the agentic SDLC, giving coding agents isolated databases for parallel development, testing, and CI/CD.",
+    "category": "Database",
+    "tags": [
+      "Platform",
+      "Lakebase",
+      "Product"
+    ]
+  },
+  {
+    "id": "20268ddf9c0fe5ec",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Biomedical Imaging's Real Bottleneck Is the Data, Not the Model",
+    "url": "https://www.databricks.com/blog/biomedical-imagings-real-bottleneck-data-not-model",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-09",
+    "summary": "In medical imaging and across R&D, the bottleneck is the data, not the model. A data-first case for governing, querying, and linking imaging before chasing AI.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Solutions",
+      "Engineering",
+      "Open Source",
+      "Industries",
+      "Healthcare & Life Sciences",
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "4ef67c426724308a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Load terabytes of data in minutes into Lakebase Postgres",
+    "url": "https://www.databricks.com/blog/load-terabytes-data-minutes-lakebase-postgres",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-09",
+    "summary": "Operational database",
+    "category": "Database",
+    "tags": [
+      "Lakebase",
+      "Database"
+    ]
   },
   {
     "id": "b9bad5ef7a031f6d",
@@ -1425,6 +1575,18 @@
     "first_seen": "2026-09-29",
     "summary": "The ai_search function can now retrieve from Lakebase synced tables with Lakebase Search enabled, in addition to AI Search indexes. Add a lakebase_search knowledge source to search a Lakebase synced table, or combine it with vector_search sources in the same call. This feature is in Beta.\n\nSee ai_search function.",
     "category": "Database",
+    "tags": []
+  },
+  {
+    "id": "a85cee2f753c7708",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeflow Designer September Release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#lakeflow-designer-september-release",
+    "published": "2026-09-24",
+    "first_seen": "2026-10-09",
+    "summary": "The Lakeflow Designer September release adds Guardrails, multi-input joins, new parameter controls, and more ways to bring data into a visual data prep. The following updates are now available:\n\n- Create a visual data prep from multiple files: On the Visual data prep page, select Import file > As source to upload multiple files into one visual data prep, with a Source operator for each file. See Export and import a visual data prep file.\n\n- Guardrails operator: Check data against rules such as not null, unique, and accepted values. Choose whether failed checks warn, block passing rows, or stop the workflow. See Guardrails.\n\n- Default preview row limit: Set the preview row limit for all operators from the Preview menu in the toolbar. Override it for individual operators when needed. See Preview results.\n\n- Join three or more inputs: Use one Join operator for three or more tables, with a relationship for each additional input. See Join.\n\n- More Pivot aggregation choices: The Pivot operator now offers functions based on the value column's data type, including FIRST, LAST, and CONCAT where supported. See Pivot.\n\n- Parameterize Combine and Limit operators: Use parameters in Combine and Limit settings, or to enable and disable operators at run time. See Parameters.\n\n- Create a user-defined operator with Genie Code: From the Operators menu, describe a transformation and review the generated configuration and Python function before adding the operator to your visual data prep. See Create a local user-defined operator with Genie Code.\n\n- Continue from an Output operator: Connect downstream operators to an Output operator to continue working with the data after it writes to a destination. See Output.…",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -7265,29 +7427,5 @@
     "tags": [
       "delta-io/delta"
     ]
-  },
-  {
-    "id": "037c670c236c1683",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase Autoscaling update notifications now post 3 days in advance",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakebase-autoscaling-update-notifications-now-post-3-days-in-advance",
-    "published": "2026-07-10",
-    "first_seen": "2026-07-30",
-    "summary": "To deliver Postgres version updates, security patches, and new features to your projects sooner, Lakebase Autoscaling has shortened the planned update notification window. Planned updates are now posted at least 3 days in advance, rather than 7. You can check your project's settings for upcoming updates.\n\nSee Manage updates.",
-    "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "9c7133866a903a03",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Secrets in Unity Catalog (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#secrets-in-unity-catalog-public-preview",
-    "published": "2026-07-10",
-    "first_seen": "2026-07-30",
-    "summary": "You can now store, govern, and access secrets as securable objects in Unity Catalog. A Unity Catalog secret uses the three-level namespace (catalog.schema.secret) and is governed by Unity Catalog privileges, so you can apply the same access controls and auditing that you use for other data assets. See Secrets in Unity Catalog.",
-    "category": "Governance",
-    "tags": []
   }
 ]
