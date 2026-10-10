@@ -12,6 +12,20 @@
     "tags": []
   },
   {
+    "id": "f55d45f1a979475c",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.151.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.151.0",
+    "published": "2026-10-10",
+    "first_seen": "2026-10-10",
+    "summary": "## Release v0.151.0 (2026-10-10)\n\n### API Changes\n\n* Add `model_service` enum value for `databricks.sdk.service.apps.AppManifestAppResourceUcSecurableSpecUcSecurableType`.\n\n* Add `model_service` enum value for `databricks.sdk.service.apps.AppResourceUcSecurableUcSecurableType`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "d264424f50859fbd",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -104,6 +118,32 @@
     "first_seen": "2026-10-09",
     "summary": "You can now select OpenJev (Qwen3.5 4B) as the evaluator model service of a custom LLM-as-a-judge service policy. OpenJev classifies content without generating output tokens, so it typically responds faster than a chat evaluator. See Use OpenJev as the evaluator.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "a276e4f9898e7f6f",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How California built its Behavioral Health Public County Profile on Databricks",
+    "url": "https://www.databricks.com/blog/how-california-built-its-behavioral-health-public-county-profile-databricks",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-10",
+    "summary": "Learn how California used Databricks to launch the Behavioral Health Public County Profile, bringing data transparency and accountability to 40 million residents.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries"
+    ]
+  },
+  {
+    "id": "fc0113d401f1fd9f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use request tags in Unity Gateway service policies (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#use-request-tags-in-unity-gateway-service-policies-beta",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-10",
+    "summary": "Custom service policies in Unity Gateway can now check caller-supplied request tags, such as requiring a tag before a model request or MCP tool call proceeds. See Request tags.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -7356,76 +7396,6 @@
     "category": "Data Engineering",
     "tags": [
       "apache/spark"
-    ]
-  },
-  {
-    "id": "de7f050dcba8ae1c",
-    "source": "github_release",
-    "source_label": "GitHub · apache/spark",
-    "title": "apache/spark: v4.2.0",
-    "url": "https://github.com/apache/spark/releases/tag/v4.2.0",
-    "published": "2026-07-11",
-    "first_seen": "2026-07-30",
-    "summary": "Preparing Spark release v4.2.0-rc6",
-    "category": "Data Engineering",
-    "tags": [
-      "apache/spark"
-    ]
-  },
-  {
-    "id": "219490c26a693ad2",
-    "source": "github_release",
-    "source_label": "GitHub · apache/spark",
-    "title": "apache/spark: v4.2.0-rc6",
-    "url": "https://github.com/apache/spark/releases/tag/v4.2.0-rc6",
-    "published": "2026-07-11",
-    "first_seen": "2026-07-30",
-    "summary": "Preparing Spark release v4.2.0-rc6",
-    "category": "Data Engineering",
-    "tags": [
-      "apache/spark"
-    ]
-  },
-  {
-    "id": "f73385db870ca91b",
-    "source": "github_release",
-    "source_label": "GitHub · apache/spark",
-    "title": "apache/spark: v4.1.3",
-    "url": "https://github.com/apache/spark/releases/tag/v4.1.3",
-    "published": "2026-07-11",
-    "first_seen": "2026-07-30",
-    "summary": "Preparing Spark release v4.1.3-rc1",
-    "category": "Data Engineering",
-    "tags": [
-      "apache/spark"
-    ]
-  },
-  {
-    "id": "8b4dd239ef630f8e",
-    "source": "github_release",
-    "source_label": "GitHub · apache/spark",
-    "title": "apache/spark: v4.1.3-rc1",
-    "url": "https://github.com/apache/spark/releases/tag/v4.1.3-rc1",
-    "published": "2026-07-11",
-    "first_seen": "2026-07-30",
-    "summary": "Preparing Spark release v4.1.3-rc1",
-    "category": "Data Engineering",
-    "tags": [
-      "apache/spark"
-    ]
-  },
-  {
-    "id": "4835c8100ebc5608",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbi-20260711-3ca69a725",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbi-20260711-3ca69a725",
-    "published": "2026-07-11",
-    "first_seen": "2026-07-30",
-    "summary": "[Kernel] Capture _last_checkpoint as opaque JSON for SnapshotHint rel…",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
     ]
   }
 ]
