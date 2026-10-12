@@ -12,6 +12,116 @@
     "tags": []
   },
   {
+    "id": "45d8b31767c60b49",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Brickster Voices: Meet Clara Kurian",
+    "url": "https://www.databricks.com/blog/brickster-voices-meet-clara-kurian",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-12",
+    "summary": "Bricks",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "Culture"
+    ]
+  },
+  {
+    "id": "834448fbd4162294",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Flo Health built safer, more useful open models with Databricks AI Runtime",
+    "url": "https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-12",
+    "summary": "For",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "f67de4f7612cb93e",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.3.0-rc2",
+    "url": "https://github.com/apache/spark/releases/tag/v4.3.0-rc2",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-12",
+    "summary": "Preparing Spark release v4.3.0-rc2",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "f0982b9140549dcd",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.1.4-rc3",
+    "url": "https://github.com/apache/spark/releases/tag/v4.1.4-rc3",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-12",
+    "summary": "Preparing Spark release v4.1.4-rc3",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "6eb9e0da5fb90f04",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.0.5-rc2",
+    "url": "https://github.com/apache/spark/releases/tag/v4.0.5-rc2",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-12",
+    "summary": "Preparing Spark release v4.0.5-rc2",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "2d56a4d0cbafd790",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-rc.8",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-rc.8",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-12",
+    "summary": "DQX Studio 0.1.0-rc.8",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "55bc377c4cd526da",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Parameters for Lakeflow pipelines are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#parameters-for-lakeflow-pipelines-are-now-generally-available",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-12",
+    "summary": "Pipeline parameters are now generally available. Parameterize Lakeflow pipeline SQL source code with key-value pairs so a single pipeline can run against different catalogs, schemas, or tables without editing the source. Define parameter defaults in pipeline settings, override them when you start an update, and reference them in SQL with named parameter syntax. See Use parameters with pipelines.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "2e02b53d6e366850",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Feature Views are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#feature-views-are-now-generally-available",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-12",
+    "summary": "Feature Views are now generally available for batch, streaming, and request-time data. They will be enabled for compliance security profile workspaces in mid-November 2026. See Feature Views.",
+    "category": "Security",
+    "tags": []
+  },
+  {
     "id": "f55d45f1a979475c",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -144,6 +254,33 @@
     "first_seen": "2026-10-10",
     "summary": "Custom service policies in Unity Gateway can now check caller-supplied request tags, such as requiring a tag before a model request or MCP tool call proceeds. See Request tags.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "584edc0f4d08e5a9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "From post-training to production: How TinyFish runs its web-native model on Databricks AI Runtime",
+    "url": "https://www.databricks.com/blog/post-training-production-how-tinyfish-runs-its-web-native-model-databricks-ai-runtime",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-12",
+    "summary": "Tiny",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "8673b6df0377dd7a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Gateway supports Amazon Bedrock Mantle",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#unity-gateway-supports-amazon-bedrock-mantle",
+    "published": "2026-10-09",
+    "first_seen": "2026-10-12",
+    "summary": "You can now access Amazon Bedrock Mantle models through Unity Gateway model provider services, with Unity Catalog permissions, rate limits, budgets, and inference tables. See Model providers external to Databricks.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -403,6 +540,18 @@
     "first_seen": "2026-10-08",
     "summary": "Anthropic Claude Haiku 5.5 is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "f029bafe3e9e01a4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Dataset materialization for AI/BI dashboards is now in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#dataset-materialization-for-aibi-dashboards-is-now-in-beta",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-12",
+    "summary": "You can now pre-compute and store dashboard dataset results on a schedule to make dashboard interactivity much faster. Published dashboards render from stored results instead of rerunning expensive queries on every load or interaction. See Dataset materialization in AI/BI dashboards.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
@@ -7328,18 +7477,6 @@
     "first_seen": "2026-07-30",
     "summary": "Streaming reads from OpenSharing tables now support the Trigger.AvailableNow trigger. This trigger captures the shared table's current version when it starts, processes all available data across one or more micro-batches (honoring maxFilesPerTrigger and maxVersionsPerRpc), and then stops, which is well suited to scheduled, batch-like incremental processing. Previously, Trigger.AvailableNow on a OpenSharing source was converted to Trigger.Once, which processed a single micro-batch per run. This feature requires Databricks Runtime 18.0 or above.\n\nSee Query a table using Apache Spark Structured Streaming for Databricks-to-Databricks recipients and Access a shared table using Spark Structured Streaming for open sharing recipients.",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "0659b38915f59c61",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "View warehouse activity details (General Availability)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#view-warehouse-activity-details-general-availability",
-    "published": "2026-07-13",
-    "first_seen": "2026-07-30",
-    "summary": "The Activity details toggle in the SQL warehouse monitoring UI is now generally available. View color-coded annotations on the Running clusters chart that explain why a warehouse remains active, including query activity, fetching queries, open sessions, and idle states. Hover over bars to see metadata, or click on fetching activity to filter the query history table. See Activity details.",
-    "category": "Data Warehousing",
     "tags": []
   }
 ]
