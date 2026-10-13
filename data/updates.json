@@ -12,6 +12,77 @@
     "tags": []
   },
   {
+    "id": "356f7c036b0e4eea",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What's New in Lakeflow Designer - October 2026 Roundup",
+    "url": "https://www.databricks.com/blog/whats-new-lakeflow-designer-october-2026-roundup",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "summary": "Since going GA in June, we’ve made a range of enhancements to Lakeflow Designer. Highlights include new core operators, expanded output options, and an improved canvas for building, navigating, and collaborating on workflows.",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform",
+      "Announcements",
+      "Product"
+    ]
+  },
+  {
+    "id": "48b7bb4f0d0e75b1",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks is a Visionary the Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms",
+    "url": "https://www.databricks.com/blog/databricks-visionary-gartnerr-magic-quadranttm-analytics-and-business-intelligence-platforms",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "summary": "Databricks is named a Visionary in the Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms with the highest debut placement in the history of this Magic Quadrant. Discover how Genie and AI/BI are transforming Business Intelligence.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "c404d0e09470c857",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: MLflow 3.17.1",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.17.1",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "summary": "MLflow 3.17.1 is a patch release that contains some minor feature enhancements, bug fixes, and documentation updates.\n\nFeatures:\n\n- [Docs / Evaluation] Support Decision API in make_judge() (#26578, @B-Step62)\n\n- [Evaluation] Add mlflow.genai.databricks.review_queues for managing review queues on Databricks (#26414, @harupy)\n\nBug fixes:\n\n- [Tracing] Fix Claude Code OTel trace rendering in the MLflow UI (#26547, @joshuawong-db)\n\n- [Evaluation] Load latest Databricks scorers from the scheduled-scorers REST config so feedback records the scorer version (#26542, @joshuawong-db)\n\nSmall bug fixes and documentation updates:\n\n#26680, @joshuawong-db; #26584, @copilot-swe-agent; #26705, @kriscon-db",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "0e45ea1981634b08",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.152.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.152.0",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "summary": "## Release v0.152.0 (2026-10-13)\n\n### API Changes\n\n* Add `view` field for `databricks.sdk.service.agentkit.GetManagedMemoryEntryRequest`.\n\n* Add `view` field for `databricks.sdk.service.agentkit.ListManagedMemoryEntriesRequest`.\n\n* Add `view` field for `databricks.sdk.service.agentkit.SearchManagedMemoryEntriesRequest`.\n\n* Add `show_deleted` field for `databricks.sdk.service.bundledeployments.ListDeploymentsRequest`.\n\n* Add `scopes` field for `databricks.sdk.service.oauth2.CreateServicePrincipalSecretRequest`.\n\n* Add `scopes` field for `databricks.sdk.service.oauth2.CreateServicePrincipalSecretResponse`.\n\n* Add `scopes` field for `databricks.sdk.service.oauth2.SecretInfo`.\n\n* Add `databricks_app_slack` and `databricks_app_teams` fields for `databricks.sdk.service.settings.Config`.\n\n* Add `databricks_app_slack` and `databricks_app_teams` enum values for `databricks.sdk.service.settings.DestinationType`.\n\n* [Breaking] Remove `read_mask` field for `databricks.sdk.service.agentkit.GetManagedMemoryEntryRequest`.\n\n* [Breaking] Remove `read_mask` field for `databricks.sdk.service.agentkit.ListManagedMemoryEntriesRequest`.\n\n* [Breaking] Remove `read_mask` field for `databricks.sdk.service.agentkit.SearchManagedMemoryEntriesRequest`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "28276260291c49c7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "On-demand state repartitioning is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#on-demand-state-repartitioning-is-now-generally-available",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "summary": "On-demand state repartitioning is now generally available. You can resize the number of shuffle partitions for a stateful Structured Streaming query or Lakeflow pipeline without losing checkpoint state. See On-demand state repartitioning for stateful streaming queries.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
     "id": "45d8b31767c60b49",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -118,6 +189,94 @@
     "published": "2026-10-12",
     "first_seen": "2026-10-12",
     "summary": "Feature Views are now generally available for batch, streaming, and request-time data. They will be enabled for compliance security profile workspaces in mid-November 2026. See Feature Views.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "e9e2651e25e644fd",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.2.1-rc2",
+    "url": "https://github.com/apache/spark/releases/tag/v4.2.1-rc2",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13",
+    "summary": "Preparing Spark release v4.2.1-rc2",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "39bcc1d18c545339",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: dbi-20261012-3004ec8c3",
+    "url": "https://github.com/delta-io/delta/releases/tag/dbi-20261012-3004ec8c3",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13",
+    "summary": "Delta Kernel 4.5.0-20261012-dbrbuild. Source: 3e45920…",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "1a5a71b0dc57b4c0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Gateway Skills API and developer tools are available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#unity-gateway-skills-api-and-developer-tools-are-available-in-beta",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13",
+    "summary": "The Unity Gateway Skills REST API is now available in Beta, with create, read, update, list, delete, and finalize support across Databricks developer tools:\n\n- Databricks CLI\n\n- Python SDK\n\n- Go SDK\n\n- Go Modular SDK\n\n- Java SDK\n\n- JavaScript SDK\n\nSee the Skills API and SDK reference.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "f3a3e7c1aae1bfcf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Governed tag propagation is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#governed-tag-propagation-is-in-beta",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13",
+    "summary": "Tag propagation in Unity Catalog is in Beta. When you enable tag propagation for a governed tag, Unity Catalog uses lineage to automatically apply that tag to derived tables and views whenever a supported operation runs, such as CREATE TABLE AS SELECT, CREATE VIEW, INSERT INTO ... SELECT, or MERGE. This keeps classification and ABAC enforcement consistent at both the table and column levels as data moves downstream.\n\nSee Tag propagation.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "694d0d92fa71ada8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Agent memory pipelines are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#agent-memory-pipelines-are-in-beta",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13",
+    "summary": "Agent memory pipelines are in Beta. A memory pipeline connects a session store to a memory store. Each run uses an LLM to distill durable facts, preferences, and decisions from stored conversations into memory entries that your agent recalls in later conversations. You can run a pipeline on demand or about every 24 hours. See Agent memory pipelines.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "88600b7a66040e21",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Knowledge Assistant and Supervisor Agent are now legacy",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#knowledge-assistant-and-supervisor-agent-are-now-legacy",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13",
+    "summary": "Knowledge Assistant and Supervisor Agent are now legacy offerings. For new agents written in code, Databricks recommends the Agent Bricks CLI. To build agents without code, use Genie Agents. See Legacy agent offerings.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "e3ac203afcff22ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Context-based ingress policies for inbound private connectivity are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#context-based-ingress-policies-for-inbound-private-connectivity-are-now-generally-available",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13",
+    "summary": "Context-based ingress policies for inbound Private Link are now generally available. Control which registered VPC endpoints can reach your workspaces, and combine endpoint rules with identity and request type conditions in the same policy. If Context-Based Ingress: Workspace Private Access Policies isn't already enabled for your account, an account admin can enable it from the account console Previews page. See Configure private access policy.",
     "category": "Security",
     "tags": []
   },
@@ -1258,6 +1417,20 @@
     "tags": []
   },
   {
+    "id": "6af50e0382569d1c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.3.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.3.0",
+    "published": "2026-09-30",
+    "first_seen": "2026-10-13",
+    "summary": "A more visual companion guide.\n\ndbx-nwp-helper guide gains navigation and visualisation enhancements, all self-contained and offline:\n\n- Reading-progress timeline — a fixed progress bar + scroll-spy that highlights the section you're in within the sticky TOC.\n\n- Walkthrough step rail — a \"you are here\" spine down the ingress/egress steps that lights up each stage as you scroll.\n\n- Inline flow diagrams — hand-authored, theme-aware SVG summarising each command's decision path.\n\n- Decorative polish — accent ticks, active-step glow, and reveal-on-scroll for panels/steps/diagrams.\n\nAll additive and null-safe: no-JS renders fully, prefers-reduced-motion skips animations, and the --pdf / print path still force-shows every section.\n\nFull changelog: v0.2.0...v0.3.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
     "id": "14c14b4fabab3ae9",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -1346,6 +1519,20 @@
     "summary": "The Agent Bricks CLI (databricks-agentbricks) is a command-line tool for building and deploying custom code agents on Databricks. Scaffold a project from a bundled framework template, run it locally, and deploy it to the Databricks agent runtime, with managed memory, sessions, tools, and MLflow tracing wired up from one authenticated command.\n\nSee Agent Bricks CLI.",
     "category": "Application Development",
     "tags": []
+  },
+  {
+    "id": "83d38bad74470ab6",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.2.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.2.0",
+    "published": "2026-09-29",
+    "first_seen": "2026-10-13",
+    "summary": "Added\n\n- Interactive companion guide. dbx-nwp-helper guide opens a self-contained, offline HTML\n\ncompanion (packaged with the tool): step-by-step ingress and egress walkthroughs that mirror\n\nthe tool's actual flow, a collapsible CLI options reference (a readable version of --help),\n\nand \"learn more\" expanders (including what RDAP is and to treat it as a signal, not a source of\n\ntruth). A one-line hint at the start of a run points new users to it. --print-path prints the\n\nfile path instead of opening a browser, and --pdf <path> renders the whole guide to a PDF with\n\nevery section expanded (via a headless Chrome / Chromium / Edge, with an on-page \"Save as PDF\"\n\nbutton as a fallback).\n\n- CBI-policy denials in the \"recently denied\" view. Ingress now also reads\n\nsystem.access.inbound_network (when the table is available), so recently-blocked inbound\n\nrequests are flagged whether they were denied by an IP access list (403) or a CBI network\n\npolicy — merged into one view by source IP. Degrades gracefully when the table is absent.\n\n- Automatic IP access list detection. When a workspace has enabled IP access lists, ingress\n\ndetects them, shows their actual IP entries, and (interactively) offers a pre-checked checkbox to\n\npick exactly which entries to migrate into the CBI policy (alongside the enriched observed-traffic\n\nrules). Scripted / --yes runs migrate them all.\n\nChanged\n\n- Rule selection is on by default. The --select-rules checkbox now runs by default in\n\ninteractive runs; pass --no-select-rules to keep everything. Scripted / --yes runs are\n\nunaffected (the selector is skipped, as before). The egress selector runs as two distinct prompts\n\n— one for internet FQDNs, one for storage destinations (S3 / GCS / Azure) — so each kind is\n\ncurated separately.…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
   },
   {
     "id": "5fca8d7babdc63f0",
@@ -2182,6 +2369,20 @@
     "category": "Application Development",
     "tags": [
       "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "5b1187453bd7cb64",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.1.0 — first release",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.1.0",
+    "published": "2026-09-18",
+    "first_seen": "2026-10-13",
+    "summary": "First release. dbx-nwp-helper turns real observed traffic in the Databricks system tables into proposed account network policies, with a dry-run-first, review-gated apply path.\n\nHighlights\n\n- 📥 Ingress (CBI) — propose & apply a context-based ingress allow-list from system.access.audit source IPs, enriched with open threat-intel, cloud-provider and Databricks-owned IP ranges + RDAP; minimal / optimal / maximum CIDR framings; optional scoping by destination (Apps / Lakebase) and identity.\n\n- 📤 Egress (SEG) — propose & apply a serverless egress allow-list from system.access.outbound_network destinations (S3 / GCS / Azure storage + internet FQDNs), with optional threat-intel domain blocking (abuse.ch ThreatFox).\n\n- 🧭 Guided wizard — dbx-nwp-helper guided walks through building either policy interactively.\n\n- 📦 Feed cache — dbx-nwp-helper feeds list / refresh / clear for the local threat-intel / cloud-range cache.\n\n- 🛑 Safety model — nothing is written without --create-policy; dry_run is the default; the target workspace is confirmed first; step-through and review gates guard every stage; pre-checks abort rather than clobber an existing PrivateLink / enforced policy.\n\n- 📤 Export — --export writes REST-ready AccountNetworkPolicy JSON + a best-effort Terraform .tf, in propose-only mode.\n\n- 🏷️ --version — tag-driven versioning via hatch-vcs.\n\nInstall / run this version\n\ngit checkout v0.1.0 && uv sync\nuv run dbx-nwp-helper --version # dbx-nwp-helper 0.1.0\nFull details in CHANGELOG.md.",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
     ]
   },
   {
@@ -7441,42 +7642,6 @@
     "first_seen": "2026-08-04",
     "summary": "As of July 15, 2026, billing for Genie One and Genie Agents is paused, and usage of these products is free through January 31, 2027. Budget controls do not apply to them.\n\nGenie Code continues to be billed under the pay-as-you-go pricing model. For more information about pricing, see Databricks pricing.",
     "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "c5d01240e458dd98",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Allowlist partner platform IPs in context-based ingress control (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#allowlist-partner-platform-ips-in-context-based-ingress-control-beta",
-    "published": "2026-07-14",
-    "first_seen": "2026-07-30",
-    "summary": "Context-based ingress control now supports Partner Platforms as a network source. Select a partner platform to allowlist the IPs that third-party apps use to connect to Databricks, including Power BI, Tableau Cloud, and dbt platform. Databricks manages and updates these IP lists automatically. See Network sources.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "5019e555bbd9b829",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase is now SOC 2 Type 2 compliant",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakebase-is-now-soc-2-type-2-compliant",
-    "published": "2026-07-14",
-    "first_seen": "2026-07-30",
-    "summary": "Lakebase is now SOC 2 Type 2 compliant. For our SOC reports, please ask your Databricks account team or see Compliance.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "24f3de54f1eccc01",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Trigger.AvailableNow support for OpenSharing streaming (GA)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#triggeravailablenow-support-for-opensharing-streaming-ga",
-    "published": "2026-07-14",
-    "first_seen": "2026-07-30",
-    "summary": "Streaming reads from OpenSharing tables now support the Trigger.AvailableNow trigger. This trigger captures the shared table's current version when it starts, processes all available data across one or more micro-batches (honoring maxFilesPerTrigger and maxVersionsPerRpc), and then stops, which is well suited to scheduled, batch-like incremental processing. Previously, Trigger.AvailableNow on a OpenSharing source was converted to Trigger.Once, which processed a single micro-batch per run. This feature requires Databricks Runtime 18.0 or above.\n\nSee Query a table using Apache Spark Structured Streaming for Databricks-to-Databricks recipients and Access a shared table using Spark Structured Streaming for open sharing recipients.",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
