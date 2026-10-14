@@ -1,5 +1,19 @@
 [
   {
+    "id": "22e0c664486bf1fc",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Sizing Lakebase Search: lessons from a real app and 4 million passages",
+    "url": "https://www.databricks.com/blog/sizing-lakebase-search-lessons-real-app-and-4-million-passages",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-14",
+    "summary": "Slide Hub is an inte",
+    "category": "Database",
+    "tags": [
+      "Lakebase"
+    ]
+  },
+  {
     "id": "f8442aa3efbae64f",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -10,6 +24,49 @@
     "summary": "Workspace admins can now configure default Python and npm package repositories for Databricks Apps. Apps inherit the workspace configuration while still allowing app-level overrides.\n\nSee Configure default package repositories.",
     "category": "Application Development",
     "tags": []
+  },
+  {
+    "id": "e49a398e91e184fc",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing Private Network Gateway",
+    "url": "https://www.databricks.com/blog/introducing-private-network-gateway",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-14",
+    "summary": "Learn how Private Network Gateway gives one secure, easy connection to your entire network — replacing dozens of private endpoints with a single setup.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Security and Trust"
+    ]
+  },
+  {
+    "id": "41db9ef43a18fdab",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.21.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.21.0",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-14",
+    "summary": "## Release v1.21.0\n\n### CLI\n\n* Support pipeline IDs in `pipelines history`. ([#6995](#6995))\n\n* Show a hint for previewing more rows in `pipelines show`. ([#6995](#6995))\n\n* `databricks environments setup-local` now uses the environment in `UV_PROJECT_ENVIRONMENT` when it is set, as `uv sync` does. ([#7026](#7026))\n\n* `databricks environments setup-local` now supports uv workspace members: it uses the shared `.venv` at the workspace root and writes the dependency constraints to the root `pyproject.toml`. ([#7018](#7018))\n\n### AI Runtime\n\n* Limit `databricks air run` submission preflight validation to one five-second attempt before continuing when the service is unavailable. ([#6994](#6994))\n\n### Bundles\n\n* Bundle file uploads now use the multipart `POST /api/2.0/workspace/import` endpoint instead of the deprecated `POST /api/2.0/workspace-files/import-file`, raising the per-workspace upload rate limit and improving deploy throughput under concurrency. ([#6149](#6149))\n\n* Diagnostic paths now quote map keys that are not identifiers, e.g. `resources.jobs['${var.env}_job']`. ([#6980](#6980))\n\n* No longer include `CLAUDE.md` in the bundle templates, now that Claude supports `AGENTS.md`. ([#7000](#7000))\n\n* Fix `bundle deployment bind` silently binding over a deployment state it could not read, which could take over a resource that was already managed by the bundle. ([#6331](#6331))\n\n* `databricks bundle deploy`, `databricks bundle sync` and `databricks sync` now retry file, library, state and metadata uploads that fail with a transient server error (5xx or 408), instead of failing. ([#7014](#7014))…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "1d6311685fc67d02",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-14",
+    "summary": "DQX Studio 0.1.0",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
   },
   {
     "id": "356f7c036b0e4eea",
@@ -80,6 +137,44 @@
     "first_seen": "2026-10-13",
     "summary": "On-demand state repartitioning is now generally available. You can resize the number of shuffle partitions for a stateful Structured Streaming query or Lakeflow pipeline without losing checkpoint state. See On-demand state repartitioning for stateful streaming queries.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "aff2b4e37bddbf14",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "A practical guide to real-time analytics in 2026",
+    "url": "https://www.databricks.com/blog/practical-guide-real-time-analytics-2026",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-14",
+    "summary": "Learn what real-time data analytics means, which use cases need it, and how a lakehouse approach delivers faster decision-making without complexity.",
+    "category": "Platform Overview",
+    "tags": [
+      "Lakehouse"
+    ]
+  },
+  {
+    "id": "2b567eb93d582ec0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 4 Argon is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-gemini-4-argon-is-now-available-on-unity-gateway",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-14",
+    "summary": "Google Gemini 4 Argon is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "4cd4243c34a779dc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks AI Runtime SDK replaces serverless_gpu",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#databricks-ai-runtime-sdk-replaces-serverless",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-14",
+    "summary": "Starting in GPU environment version 6, the Databricks AI Runtime SDK (databricks-sdk-air) replaces the deprecated serverless_gpu package. It provides the @distributed and ray_init APIs and the databricks.air.data utilities under the databricks.air namespace. The gpus and gpu_type arguments are renamed to num_accelerators and accelerator_type. The old names still work in databricks.air but emit a FutureWarning, and support will end in version 7.\n\nServerless GPU environment version 6 includes both packages. Version 6 is the last version that includes serverless_gpu. Versions 5 and below continue to use it. See Migrate from serverless_gpu.",
+    "category": "Application Development",
     "tags": []
   },
   {
@@ -565,6 +660,18 @@
       "Lakebase",
       "Database"
     ]
+  },
+  {
+    "id": "711a541969b0301e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Productboard connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#productboard-connector-is-available-in-beta",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-14",
+    "summary": "The managed Productboard connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nUse the connector to ingest product hierarchy, roadmap, objectives, customer feedback notes, and workspace member data from Productboard into Databricks. The connector uses Server-to-Server OAuth authentication and supports incremental ingestion for notes, UI-based pipeline authoring, Declarative Automation Bundles, and API-based pipeline authoring.",
+    "category": "Application Development",
+    "tags": []
   },
   {
     "id": "b9bad5ef7a031f6d",
@@ -7544,104 +7651,6 @@
     "first_seen": "2026-08-01",
     "summary": "MLflow trace storage in Unity Catalog tables is now generally available. Databricks recommends storing traces in Unity Catalog for new and production workloads: storage is unlimited, traces are stored in OpenTelemetry (OTel) format, access is governed through Unity Catalog schema and table permissions, and you can query traces with SQL, Genie, AI/BI dashboards, and any Spark-based tool. To view traces, point an MLflow experiment at a Unity Catalog trace location. For supported regions, see Features with limited regional availability.\n\nSee Store OpenTelemetry traces in Unity Catalog and Query OpenTelemetry traces stored in Unity Catalog.",
     "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "6d999f800365c4b2",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.8.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.8.0",
-    "published": "2026-07-15",
-    "first_seen": "2026-07-30",
-    "summary": "Release v1.8.0 (2026-07-15)\n\nNotable Changes\n\n- Auto-migrate a bundle from terraform to the direct engine when bundle.engine is \"direct\" (or DATABRICKS_BUNDLE_ENGINE=direct) and the post-deploy dry-run migration is clean; a warning is emitted if the dry-run surfaces errors or warnings so the automatic migration is skipped.\n\nCLI\n\n- experimental ssh connect: bare python/pip in an interactive session now resolve to the environment interpreter ($DATABRICKS_VIRTUAL_ENV) instead of the system or cluster-libraries interpreter, so packages installed in the environment are importable without extra setup. The interactive shell is now non-login (bash -i) and the server seeds a ~/.bashrc snippet that re-prepends the environment's bin directory to PATH (#5888).\n\n- When Claude Code runs the CLI without the Databricks AI tooling installed, the CLI now prints a one-line recommendation on stderr to run databricks aitools install. The recommendation is shown at most once per hour per Claude session, and never for human callers or aitools commands.\n\n- Fixed databricks auth describe misattributing a profile selected via DATABRICKS_CONFIG_PROFILE as (from bundle) when run inside a bundle root (#5904).\n\nBundles\n\n- bundle generate now warns when the generated configuration file is not matched by any pattern in the include section of databricks.yml (#5868).\n\n- direct: Match UC Auto Upgrade managed property defaults with a wildcard pattern instead of enumerating each key (#5877).\n\n- Recognize ssh:// template URLs in databricks bundle init (#5891).\n\n- databricks bundle init now reports an actionable error when given a template URL with an unsupported protocol (http://, git://, ftp://, ftps://) instead of failing with a confusing \"not a bundle template\" message (#5902).…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "1941066d9690196d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ai_extract and ai_classify are now available by default for workspaces with the compliance security profile enabled",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#ai",
-    "published": "2026-07-15",
-    "first_seen": "2026-07-30",
-    "summary": "The ai_extract and ai_classify SQL AI functions are now available by default for workspaces with the compliance security profile enabled and HIPAA, PCI-DSS, FedRAMP Moderate, CCCS Medium (Protected B), UK Cyber Essentials Plus, HITRUST, IRAP, C5, and TISAX controls selected.\n\nUse ai_extract to extract structured fields from unstructured text against a user-defined schema. Use ai_classify to classify text into user-defined labels for routing, tagging, and document categorization workflows. You can also use Agent Bricks to create an information extraction agent and a classification agent.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "fa9252ee281c16fa",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie One and Genie Agents usage is free through July 31, 2026",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-one-and-genie-agents-usage-is-free-through-july-31-2026",
-    "published": "2026-07-15",
-    "first_seen": "2026-07-30",
-    "summary": "As of July 15, 2026, billing for Genie One and Genie Agents is paused, and usage of these products is free through July 31, 2026. Budget controls do not apply to them.\n\nGenie Code continues to be billed under the pay-as-you-go pricing model. For more information about pricing, see Databricks pricing.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "def8e1e61c30b1c9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Thinking Machine Labs Inkling now available as a Databricks-hosted model in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#thinking-machine-labs-inkling-now-available-as-a-databricks-hosted-model-in-public-preview",
-    "published": "2026-07-15",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports Thinking Machine Labs Inkling as a Databricks-hosted model. This mixture of experts (MoE) model supports text and image inputs, a 1 million token context window, and is optimized for coding, reasoning, and agentic tool-use tasks. You can access this model using Foundation Model APIs.\n\nInkling is available in Public Preview.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "108f1e60cf5fb923",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "AI Search High QPS is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#ai-search-high-qps-is-now-generally-available",
-    "published": "2026-07-15",
-    "first_seen": "2026-07-30",
-    "summary": "AI Search High QPS is now generally available for standard endpoints.\n\nSet a target QPS on standard AI Search endpoints to power high-throughput, real-time workloads like search bars, recommendation systems, and entity matching. High QPS is enabled by default, but existing endpoints are not affected. Additional capacity and the associated cost apply only when you configure a target QPS for an endpoint.\n\nSee Scale AI Search endpoint throughput with high QPS.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "dabd3854627c381c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Custom URLs for your Databricks account (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#custom-urls-for-your-databricks-account-public-preview",
-    "published": "2026-07-15",
-    "first_seen": "2026-07-30",
-    "summary": "You can now claim and enable a Custom URL that gives your Databricks account a single, branded entry point (for example, acme.databricks.com) for all users and workspaces. See Give your Databricks account a custom URL.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "7409dd9865c42c0f",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Data Classification is now available by default for additional compliance standards",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#data-classification-is-now-available-by-default-for-additional-compliance-standards",
-    "published": "2026-07-15",
-    "first_seen": "2026-07-30",
-    "summary": "Data Classification is now available by default for workspaces with the compliance security profile enabled and either C5, TISAX, or IRAP controls selected.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "b79a10134f792b86",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie One and Genie Agents usage is free through January 31, 2027",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-one-and-genie-agents-usage-is-free-through-january-31-2027",
-    "published": "2026-07-15",
-    "first_seen": "2026-08-04",
-    "summary": "As of July 15, 2026, billing for Genie One and Genie Agents is paused, and usage of these products is free through January 31, 2027. Budget controls do not apply to them.\n\nGenie Code continues to be billed under the pay-as-you-go pricing model. For more information about pricing, see Databricks pricing.",
-    "category": "AI Assistant",
     "tags": []
   }
 ]
