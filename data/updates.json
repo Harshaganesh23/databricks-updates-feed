@@ -14,6 +14,20 @@
     ]
   },
   {
+    "id": "f80f5fdd02d3df4d",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.153.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.153.0",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-15",
+    "summary": "## Release v0.153.0 (2026-10-15)\n\n### API Changes\n\n* Add `create_issue()`, `get_issue()`, `search_issues()` and `update_issue()` methods for [w.experiments](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/ml/experiments.html) workspace-level service.\n\n* Add `reveal_role_password()` method for [w.postgres](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/postgres/postgres.html) workspace-level service.\n\n* Add `attachment` field for `databricks.sdk.service.jobs.Subscription`.\n\n* Add `replication_config` field for `databricks.sdk.service.sharing.CreateShare`.\n\n* Add `replication_config` field for `databricks.sdk.service.sharing.ShareInfo`.\n\n* Add `realtime` enum value for `databricks.sdk.service.sql.CreateWarehouseRequestWarehouseType`.\n\n* Add `realtime` enum value for `databricks.sdk.service.sql.EditWarehouseRequestWarehouseType`.\n\n* Add `realtime` enum value for `databricks.sdk.service.sql.EndpointInfoWarehouseType`.\n\n* Add `realtime` enum value for `databricks.sdk.service.sql.GetWarehouseResponseWarehouseType`.\n\n* Add `realtime` enum value for `databricks.sdk.service.sql.WarehouseTypePairWarehouseType`.\n\n* [Breaking] Remove `effective_serverless_compute_id` field for `databricks.sdk.service.jobs.RunTask`.\n\n### Bug Fixes\n\n* Allow protobuf 7.x in the core SDK and sandbox extra to support current gRPC packages.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "f8442aa3efbae64f",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -66,6 +80,68 @@
     "category": "Governance",
     "tags": [
       "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "44c7eb822981b712",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unlock powerful insights and forecasts with Predictive AI Functions",
+    "url": "https://www.databricks.com/blog/unlock-powerful-insights-and-forecasts-predictive-ai-functions",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-15",
+    "summary": "Predictive AI Functions bring high-quality ML predictions — forecasting, anomaly detection, top drivers, and value/class prediction to dashboards, Genie, and SQL",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "b3a0405976db6881",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How FactSet cut model training and deployment from days to hours with Databricks AI Runtime",
+    "url": "https://www.databricks.com/blog/how-factset-cut-model-training-and-deployment-days-hours-databricks-ai-runtime",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-15",
+    "summary": "Fact",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "7db4ea8a8ec5cc6c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Power real-time applications and agents with Document Intelligence",
+    "url": "https://www.databricks.com/blog/power-real-time-applications-and-agents-document-intelligence",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-15",
+    "summary": "Parse, classify, and extract information from documents as they arrive, so your applications and agents can extract insights, route work, and make more accurate business decisions immediately.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Product",
+      "Research"
+    ]
+  },
+  {
+    "id": "1c3ae698f334bbdf",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Reducing Qwen training time by 6x on AI Runtime",
+    "url": "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-15",
+    "summary": "High GPU utilization does not always translate into high GPU performance. This blog post shows two common performance issues encountered when training LLMs at scale. Even when GPU utilization is high, missing GPU kernels and excessive waste in the input pipeline can make your training slower. This blog post shows examples of these issues, how to diagnose them with AI runtime, and fix them.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering",
+      "AI Engineering",
+      "Data Science and ML"
     ]
   },
   {
@@ -175,6 +251,32 @@
     "first_seen": "2026-10-14",
     "summary": "Starting in GPU environment version 6, the Databricks AI Runtime SDK (databricks-sdk-air) replaces the deprecated serverless_gpu package. It provides the @distributed and ray_init APIs and the databricks.air.data utilities under the databricks.air namespace. The gpus and gpu_type arguments are renamed to num_accelerators and accelerator_type. The old names still work in databricks.air but emit a FutureWarning, and support will end in version 7.\n\nServerless GPU environment version 6 includes both packages. Version 6 is the last version that includes serverless_gpu. Versions 5 and below continue to use it. See Migrate from serverless_gpu.",
     "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "a9542301a9c25665",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Everyone's adopting AI agents. Almost no one can prove the ROI. Here's why",
+    "url": "https://www.databricks.com/blog/everyones-adopting-ai-agents-almost-no-one-can-prove-roi-heres-why",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-15",
+    "summary": "AI agents are changing how enterprises define and measure productivity. Amber Roberts on business context, agentic use cases, and the metrics that matter now.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "3f8f9fa7c1b1d01f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External access to views through the Unity REST API is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#external-access-to-views-through-the-unity-rest-api-is-generally-available",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-15",
+    "summary": "External engines can now query Unity Catalog views over Delta Lake tables through the Unity REST API. See External access to views.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -7589,68 +7691,6 @@
     "first_seen": "2026-09-02",
     "summary": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway. Register a provider once as a governed Unity Catalog securable, and every team can query it through Unity Gateway with full governance and observability.\n\nWith external model providers, you get:\n\n- Choice: Adopt any model on day one, and switch between models or OpenAI-compatible providers without re-integrating.\n\n- Control: Govern access with standard GRANT and REVOKE (EXECUTE to query, MANAGE to update), and attach rate limits and guardrails that apply to every request.\n\n- Clarity: Usage and spend tracking is on by default, with token counts, latency, and cost attribution per user, team, or app. Attach inference tables to log full request and response payloads to a governed Delta table.\n\nSee Govern external model providers (model provider services).",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "328f1ba40ecb80d7",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/geobrix",
-    "title": "databrickslabs/geobrix: GeoBrix v0.4.1 (Beta)",
-    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.4.1",
-    "published": "2026-07-16",
-    "first_seen": "2026-07-30",
-    "summary": "GeoBrix v0.4.1 (Beta)\n\nAn additive beta release adding satellite-data readers and clients for atmospheric / methane monitoring, plus a full worked example, on top of the v0.4.0 lightweight tier. No breaking changes. See the Beta Release Notes for the full list.\n\nHighlights\n\n- netcdf_gbx reader. A lightweight vector DataSource that transcodes a netCDF-4 swath (e.g. Sentinel-5P TROPOMI L2) directly to one point per ground pixel — no regridding, science/quality variables (e.g. qa_value) passed through untouched.\n\n- Earthdata client (databricks.labs.gbx.earthdata). A NASA Earthdata Login token client for authenticated access to LP DAAC products (used by the EMIT downloader).\n\n- Methane-source sample downloaders (databricks.labs.gbx.sample). TropomiDownloader (Sentinel-5P TROPOMI L2 CH₄), EmitDownloader (EMIT L2B CH₄ enhancement + plume complexes, Earthdata-authenticated), and WellsDownloader (Texas Railroad Commission WellSHL) — alongside the v0.4.0 Overture / NAIP / 3DEP helpers, sharing the same discover → download → read shape.\n\n- Vapor-Eyes — Permian methane monitoring example. Two flavors: an interactive five-notebook detection cascade (Sentinel-5P screen → Sentinel-2 SWIR detect → EMIT quantify → TX RRC well attribution → shareable PMTiles portfolio), and a production Lakeflow Declarative Pipeline + AI/BI dashboard (bi-temporal bronze→silver→gold medallion, SCD2 wells + as-of operator attribution, a current Carbon Mapper rated-plume layer, a defensible \"leakiest operators\" leaderboard, a four-page native-geometry map dashboard, EIA shale-play + Census TIGER context geometries, and a sharded PMTiles portfolio). Both run on the lightweight tier over Serverless.\n\nBreaking changes\n\nNone — 0.4.1 is additive.\n\nInstall…",
-    "category": "Business Intelligence",
-    "tags": [
-      "databrickslabs/geobrix"
-    ]
-  },
-  {
-    "id": "d45faed191299a64",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 3 Pro is retired",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-3-pro-is-retired",
-    "published": "2026-07-16",
-    "first_seen": "2026-07-30",
-    "summary": "Google Gemini 3 Pro is retired. Gemini 3.1 Pro is the recommended replacement. See Deprecated and retired models for migration guidance.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "0830065d6ce899e3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Agentic code converter is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#agentic-code-converter-is-in-beta",
-    "published": "2026-07-16",
-    "first_seen": "2026-07-30",
-    "summary": "The agentic code converter is in Beta. Use it to convert legacy SQL dialects, such as T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata, to ANSI SQL in migration projects in your workspace. Powered by Genie Code, the converter analyzes each source script, validates syntax and semantic intent, and iteratively fixes errors before writing the results to your workspace. A workspace admin must enable it from the Previews page.\n\nSee Convert SQL with the agentic code converter.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "c9ac948e2d402553",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Scala and Java UDFs in Unity Catalog are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#scala-and-java-udfs-in-unity-catalog-are-now-generally-available",
-    "published": "2026-07-16",
-    "first_seen": "2026-07-30",
-    "summary": "Register Scala and Java user-defined functions (UDFs) in Unity Catalog and reuse them across notebooks, jobs, and SQL warehouses with Unity Catalog governance. Reuse existing JVM logic and get better performance than Python UDFs on all compute, including serverless.\n\nSee Scala and Java user-defined functions (UDFs) in Unity Catalog.",
-    "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "bb8197865b4a7135",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "MLflow trace storage in Unity Catalog is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mlflow-trace-storage-in-unity-catalog-is-now-generally-available",
-    "published": "2026-07-16",
-    "first_seen": "2026-08-01",
-    "summary": "MLflow trace storage in Unity Catalog tables is now generally available. Databricks recommends storing traces in Unity Catalog for new and production workloads: storage is unlimited, traces are stored in OpenTelemetry (OTel) format, access is governed through Unity Catalog schema and table permissions, and you can query traces with SQL, Genie, AI/BI dashboards, and any Spark-based tool. To view traces, point an MLflow experiment at a Unity Catalog trace location. For supported regions, see Features with limited regional availability.\n\nSee Store OpenTelemetry traces in Unity Catalog and Query OpenTelemetry traces stored in Unity Catalog.",
-    "category": "Business Intelligence",
     "tags": []
   }
 ]
