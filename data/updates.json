@@ -1,5 +1,47 @@
 [
   {
+    "id": "142d8e4400f2baac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Saving an unchanged job no longer adds rows to the jobs system tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#saving-an-unchanged-job-no-longer-adds-rows-to-the-jobs-system-tables",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-16",
+    "summary": "Saving a job without changing its settings no longer adds rows to system.lakeflow.jobs or system.lakeflow.job_tasks, and change_time stays at the last change. This applies to saves from the UI, the Jobs API, and Declarative Automation Bundles. See Jobs table schema.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "2552bec412d60380",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages",
+    "url": "https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages",
+    "published": "2026-10-16",
+    "first_seen": "2026-10-16",
+    "summary": "Introductio",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Cybersecurity",
+      "Security and Trust",
+      "Research",
+      "Security Threat Research",
+      "Security"
+    ]
+  },
+  {
+    "id": "bc26b651b4019a40",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "READ METADATA privilege support for compliance security profile standards",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#read-metadata-privilege-support-for-compliance-security-profile-standards",
+    "published": "2026-10-16",
+    "first_seen": "2026-10-16",
+    "summary": "The READ METADATA privilege now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.\n\nFor a full list of supported compliance standards, see Compliance security profile.",
+    "category": "Security",
+    "tags": []
+  },
+  {
     "id": "22e0c664486bf1fc",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -26,6 +68,99 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "eb6210d05e81a8a7",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How our AI Research team uses AI Runtime",
+    "url": "https://www.databricks.com/blog/how-our-ai-research-team-uses-ai-runtime",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-16",
+    "summary": "At D",
+    "category": "Platform Overview",
+    "tags": [
+      "Engineering",
+      "Research"
+    ]
+  },
+  {
+    "id": "977f193b894971fc",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Reducing the noise: How Atlassian built an OCSF security lakehouse on Databricks",
+    "url": "https://www.databricks.com/blog/reducing-noise-how-atlassian-built-ocsf-security-lakehouse-databricks",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-16",
+    "summary": "The challenge: Two",
+    "category": "Platform Overview",
+    "tags": [
+      "Cybersecurity",
+      "Customers",
+      "Security"
+    ]
+  },
+  {
+    "id": "bb9f2c631f3f6887",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Geospatial queries are up to 38X faster with Lakehouse//RT",
+    "url": "https://www.databricks.com/blog/geospatial-queries-are-38x-faster-lakehousert",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-16",
+    "summary": "Spatial SQL and spatial joins are now supported in Lakehouse//RT and can run up to 38x faster than traditional data warehouses with ultra low latency at scale.",
+    "category": "Data Warehousing",
+    "tags": [
+      "Lakehouse"
+    ]
+  },
+  {
+    "id": "6ee8deb7ba064448",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ADBC driver for Power BI is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#adbc-driver-for-power-bi-is-now-generally-available",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-16",
+    "summary": "The Arrow Database Connectivity (ADBC) driver for the Databricks connector for Power BI is now generally available. ADBC is the default driver for new connections in Power BI Desktop and the Power BI service. See Configure ADBC or ODBC driver for Power BI.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "88a7ece3cdd98638",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "MySQL integrated CDC pipeline is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#mysql-integrated-cdc-pipeline-is-now-generally-available",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-16",
+    "summary": "The integrated CDC pipeline for MySQL is now generally available. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update. Unlike the standard gateway-based architecture, an integrated CDC pipeline requires no separate ingestion gateway. See Create an integrated CDC pipeline for MySQL.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "e5da8065f293ed46",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Consumer access to query Unity Gateway services is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#consumer-access-to-query-unity-gateway-services-is-generally-available",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-16",
+    "summary": "Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared with them, or to use Unity Gateway coding agent features. See Consumer access capabilities.\n\nThis change can increase model traffic from consumer access users, including traffic to external providers. To control this traffic, account admins can set budgets and rate limits, or disable direct model access, for consumer access users. See Manage budgets for Unity Gateway, Apply rate limits to model and MCP services, and Manage entitlements.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "2ada10b0fa4200e4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The agentic code converter is generally available for SQL conversion",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#the-agentic-code-converter-is-generally-available-for-sql-conversion",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-16",
+    "summary": "The agentic code converter is now generally available for the SQL target framework. Powered by Genie Code, it converts SQL from dialects such as T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata into Databricks SQL queries. You organize the work in a migration project, and the converter validates the output and fixes errors before writing the results to a workspace folder. After a conversion, you can continue chatting with Genie Code about the converted files to address action items or summarize the changes.\n\nSee Convert SQL with the agentic code converter.",
+    "category": "AI Assistant",
+    "tags": []
   },
   {
     "id": "f8442aa3efbae64f",
@@ -277,6 +412,54 @@
     "first_seen": "2026-10-15",
     "summary": "External engines can now query Unity Catalog views over Delta Lake tables through the Unity REST API. See External access to views.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "03b5abdf3e958b32",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External writes to managed Delta tables are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#external-writes-to-managed-delta-tables-are-now-generally-available",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-16",
+    "summary": "Support for creating and writing to Unity Catalog managed Delta tables from external Apache Spark clients is now generally available. Tables must have catalog commits enabled. See Access Databricks tables from Delta clients.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "12663be8027ecc41",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Shared output in clean rooms is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#shared-output-in-clean-rooms-is-now-generally-available",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-16",
+    "summary": "Clean room runs can now write to a shared output schema that every collaborator can read as soon as each table is created, even before the run finishes. Use it to share results, logs, and debugging information with all collaborators. See Share output with all collaborators.",
+    "category": "Sharing",
+    "tags": []
+  },
+  {
+    "id": "71c3847cff92801f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "JAR workloads in clean rooms are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#jar-workloads-in-clean-rooms-are-now-generally-available",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-16",
+    "summary": "You can now run compiled Java or Scala code in clean rooms. Run a JAR as its own clean room analysis, or register a function from a JAR and call it from a clean room notebook as a temporary UDF. See Run JAR workloads in Databricks clean rooms.",
+    "category": "Sharing",
+    "tags": []
+  },
+  {
+    "id": "f4b076db1d157686",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create clean rooms with identity resolution providers in one step (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#create-clean-rooms-with-identity-resolution-providers-in-one-step-ga",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-16",
+    "summary": "You can now create a ready-to-use packaged clean room with an approved identity resolution provider, such as Acxiom, Adstra, LiveRamp, or The Trade Desk, in one step from the Clean Rooms page. The provider is preconfigured as the package provider, so you can add your data and run the provider's analysis right away. See Create a clean room with an identity resolution provider.",
+    "category": "Sharing",
     "tags": []
   },
   {
@@ -3895,6 +4078,18 @@
     "first_seen": "2026-09-03",
     "summary": "You can now index and filter struct and map columns in AI Search, and run filter-only queries that return rows matching a filter without vector or keyword retrieval. See Query an AI Search index.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "4ef3103c038986e8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Shared Serverless for Git Folders is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#shared-serverless-for-git-folders-is-in-beta",
+    "published": "2026-09-02",
+    "first_seen": "2026-10-16",
+    "summary": "You can now use Shared Serverless for Git Folders to share serverless compute and a pyproject.toml-managed environment across notebooks and files in a Git folder. See Shared Serverless for Git Folders.",
+    "category": "Application Development",
     "tags": []
   },
   {
@@ -7613,84 +7808,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now mention Genie Code in a notebook comment to get AI help without leaving the comment thread. Type @ in a comment, select Genie Code, and enter your request. Genie Code replies inline in the thread. See Code comments.",
     "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "c6452d5858c33858",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.121.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.121.0",
-    "published": "2026-07-17",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.121.0 (2026-07-09)\n\n### API Changes\n\n* Add `list()` and `list_effective()` methods for [w.grants](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/catalog/grants.html) workspace-level service.\n\n* Add `update_time` field for `databricks.sdk.service.bundledeployments.Resource`.\n\n* Add `stable_workspace_id` field for `databricks.sdk.service.disasterrecovery.StableUrl`.\n\n* Add `deployment_id` and `version_id` fields for `databricks.sdk.service.jobs.BaseRun`.\n\n* Add `parent_path` field for `databricks.sdk.service.jobs.CreateJob`.\n\n* Add `parent_path` field for `databricks.sdk.service.jobs.JobSettings`.\n\n* Add `deployment_id` and `version_id` fields for `databricks.sdk.service.jobs.Run`.\n\n* Add `first_distinct` and `last_distinct` fields for `databricks.sdk.service.ml.AggregationFunction`.\n\n* Add `trace_location` field for `databricks.sdk.service.ml.CreateExperiment`.\n\n* Add `trace_location` field for `databricks.sdk.service.ml.Experiment`.\n\n* Add `avro_schema` and `proto_schema` fields for `databricks.sdk.service.ml.SchemaConfig`.\n\n* Add `freshness_target` field for `databricks.sdk.service.ml.StreamingMode`.\n\n* Add `long_rolling` field for `databricks.sdk.service.ml.TimeWindow`.\n\n* Add `git_credential_id` field for `databricks.sdk.service.workspace.CreateRepoRequest`.\n\n* Add `git_credential_id` field for `databricks.sdk.service.workspace.UpdateRepoRequest`.\n\n* Add `cpu_large` and `cpu_medium` enum values for `databricks.sdk.service.serving.ServedModelInputWorkloadType`.\n\n* Add `cpu_large` and `cpu_medium` enum values for `databricks.sdk.service.serving.ServingModelWorkloadType`.\n\n* [Breaking] Change `role` field for `databricks.sdk.service.postgres.DatabaseDatabaseSpec` to be required.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "a6faf5840ca5a981",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakebridge",
-    "title": "databrickslabs/lakebridge: v0.14.1",
-    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.14.1",
-    "published": "2026-07-17",
-    "first_seen": "2026-07-30",
-    "summary": "Release v0.14.1\n\nHighlights\n\n-\nTeradata is now a profiler source. Teradata joins the set of supported profiler platforms, letting you assess a Teradata estate ahead of a migration to Databricks.\n\n-\nMulti-database profiling for SQL Server. The SQL Server profiler can now extract from multiple databases in a single run, rather than being scoped to one database at a time.\n\n-\nBigQuery is now a reconcile source. BigQuery can be used as a source platform for data-quality reconciliation, extending validation coverage for customers migrating off BigQuery.\n\n-\nJava 21 is now required. The Morpheus transpiler now requires Java 21 or above; install-transpile will prompt if an older runtime is detected.\n\nProfilers\n\nNew Sources\n\n- Teradata (#2343)\n\nAdds Teradata as a profiler source, wiring the interactive configurator, extraction queries, and local extract population so Teradata estates can be assessed ahead of migration.\n\nEnhancements\n\n-\nMulti-database profiling for SQL Server (#2536)\n\nThe SQL Server profiler can now extract across multiple databases in a single execution instead of being limited to one database per run.\n\n-\nProfiler variants in execute-profiler (#2511)\n\nIntroduces the concept of a profiler variant: when a source supports more than one variant, the user is prompted to select one at execution time.\n\n-\nCorrect exit code on profiler error (#2571)\n\nThe profiler now returns a non-zero exit code when it fails, so failures surface correctly in scripted and CI environments.\n\n-\nBigQuery test connection and profiler config cleanup (#2512)\n\nImplements the previously missing BigQuery test-connection path and tidies up the profiler configuration.\n\n-\nSuppress noisy google.api_core warnings (#2538)\n\nSilences an unhelpful warning emitted by google.api_core during profiling.…",
-    "category": "Data Engineering",
-    "tags": [
-      "databrickslabs/lakebridge"
-    ]
-  },
-  {
-    "id": "4b29523b4da784d7",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.2.0",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.2.0",
-    "published": "2026-07-17",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- Impulse Skills by @kevinsoucy in #58\n\n- added rle encoding support to raw data format by @adefabian in #57\n\n- Reduce peak memory of the DefaultSolver grouped-map UDF by @tombonfert in #62\n\n- Bump version to 0.2.0 in VERSION file by @tombonfert in #64\n\nNew Contributors\n\n- @kevinsoucy made their first contribution in #58\n\nFull Changelog: v0.1.2...v0.2.0\n\nWhat's Changed\n\n- Impulse Skills by @kevinsoucy in #58\n\n- added rle encoding support to raw data format by @adefabian in #57\n\n- Reduce peak memory of the DefaultSolver grouped-map UDF by @tombonfert in #62\n\n- Bump version to 0.2.0 in VERSION file by @tombonfert in #64\n\nNew Contributors\n\n- @kevinsoucy made their first contribution in #58\n\nFull Changelog: v0.1.2...v0.2.0",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "b42cd6f33065a39f",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Anthropic managed ingestion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#anthropic-managed-ingestion-connector-beta",
-    "published": "2026-07-17",
-    "first_seen": "2026-07-30",
-    "summary": "The Anthropic connector in Lakeflow Connect is now available in Beta. The connector allows you to ingest Compliance API data â audit activity, organizations, users, roles, groups, settings, and Claude chats and messages â from Anthropic into Databricks. See Anthropic connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "ae4291daeba7ef03",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Genie app in Microsoft Teams is now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-genie-app-in-microsoft-teams-is-now-in-public-preview",
-    "published": "2026-07-17",
-    "first_seen": "2026-07-30",
-    "summary": "The Databricks Genie app in Microsoft Teams is now in Public Preview. The app brings Genie into Microsoft Teams so users can ask data questions and get answers without leaving Microsoft Teams. See Databricks Genie app in Microsoft Teams.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "8f8c7a7768d04011",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Connect and govern any external model provider",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#connect-and-govern-any-external-model-provider",
-    "published": "2026-07-17",
-    "first_seen": "2026-09-02",
-    "summary": "Connect and govern any external model provider (such as OpenAI, Anthropic, Amazon Bedrock, and newly released models like Meta's Muse Spark 1.1) through Unity Gateway. Register a provider once as a governed Unity Catalog securable, and every team can query it through Unity Gateway with full governance and observability.\n\nWith external model providers, you get:\n\n- Choice: Adopt any model on day one, and switch between models or OpenAI-compatible providers without re-integrating.\n\n- Control: Govern access with standard GRANT and REVOKE (EXECUTE to query, MANAGE to update), and attach rate limits and guardrails that apply to every request.\n\n- Clarity: Usage and spend tracking is on by default, with token counts, latency, and cost attribution per user, team, or app. Attach inference tables to log full request and response payloads to a governed Delta table.\n\nSee Govern external model providers (model provider services).",
-    "category": "Governance",
     "tags": []
   }
 ]
