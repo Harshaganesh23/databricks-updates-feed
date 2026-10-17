@@ -12,6 +12,34 @@
     "tags": []
   },
   {
+    "id": "45fb3cf9fc4fcf83",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: Release v0.15.3",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.15.3",
+    "published": "2026-10-17",
+    "first_seen": "2026-10-17",
+    "summary": "Release v0.15.3\n\nHighlights\n\n- Choose to skip unredacted profiler steps. The new --excluded unredacted option on execute-database-profiler skips the steps that pull raw query text without redaction. Skipped steps are logged in the run metadata and the run still finishes.\n\n- Less sensitive data in Snowflake extracts. The Snowflake profiler now hashes user names and drops free-text columns and pricing details from its extract.\n\n- More reliable SQL Server profiling. The MSSQL profiler now handles databases with mixed or case-sensitive collations, older SQL Server versions, and passwords that contain special characters.\n\nProfilers\n\nEnhancements\n\n- Step labels and a new --excluded option (#2679)\n\nProfiler pipeline steps can now carry a label. Labels come from a fixed set, and unknown values are rejected when the config loads. Running databricks labs lakebridge execute-database-profiler --excluded unredacted skips every step labelled unredacted. Those steps are recorded as SKIPPED in profiler_run_metadata, and the run still completes. The Snowflake query_samples and Oracle perf_sqltext steps are labelled unredacted.\n\nFixes\n\n- Fixed DuckDB DECIMAL overflow across all profilers (#2657)\n\nSource queries that return DECIMAL/NUMERIC/NUMBER values could fail when loaded into DuckDB, because DuckDB picks a narrow DECIMAL type from a sample of rows and then overflows on larger values. The affected Synapse, Oracle and Teradata queries now cast those values to a floating-point type in the query itself.\n\nSQL Server\n\n- Hardened queries for collations and older versions (#2675)…",
+    "category": "Data Engineering",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "8034b51df2fb43b6",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.10.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.10.0",
+    "published": "2026-10-17",
+    "first_seen": "2026-10-17",
+    "summary": "What's Changed\n\n- fix(reporting): reject duplicate event names and same-name event copies in aggregations by @tombonfert in #121\n\n- feat(reporting): make Report.run() the single entry point, deprecate determine_report() and persist_results() by @tombonfert in #122\n\n- Feature/configurable db by @adefabian in #109\n\n- replaced determine_report & persist_results with new interface report… by @adefabian in #125\n\n- chore: bump version to 0.10.0 and ignore local design docs by @tombonfert in #130\n\nFull Changelog: v0.9.0...v0.10.0\n\nWhat's Changed\n\n- fix(reporting): reject duplicate event names and same-name event copies in aggregations by @tombonfert in #121\n\n- feat(reporting): make Report.run() the single entry point, deprecate determine_report() and persist_results() by @tombonfert in #122\n\n- Feature/configurable db by @adefabian in #109\n\n- replaced determine_report & persist_results with new interface report… by @adefabian in #125\n\n- chore: bump version to 0.10.0 and ignore local design docs by @tombonfert in #130\n\nFull Changelog: v0.9.0...v0.10.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
     "id": "2552bec412d60380",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -39,6 +67,32 @@
     "first_seen": "2026-10-16",
     "summary": "The READ METADATA privilege now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.\n\nFor a full list of supported compliance standards, see Compliance security profile.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "e0bd1667988fab03",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Transactions are Generally Available, advancing warehousing on the Lakehouse",
+    "url": "https://www.databricks.com/blog/transactions-are-generally-available-advancing-warehousing-lakehouse",
+    "published": "2026-10-16",
+    "first_seen": "2026-10-17",
+    "summary": "Multi-statement transactions are now Generally Available on Delta Lake and Apache Iceberg, letting teams run scalable, governed, and performant warehouse workloads on Lakehouse",
+    "category": "Data Warehousing",
+    "tags": [
+      "Lakehouse"
+    ]
+  },
+  {
+    "id": "0e6dc34361a16667",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#typesafe-ai-jev-1140-is-now-available-on-unity-gateway",
+    "published": "2026-10-16",
+    "first_seen": "2026-10-17",
+    "summary": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway. TypeSafe AI hosts it, and an account admin must enable the Externally-hosted TypeSafe AI Models preview. TypeSafe's terms govern its use.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -161,6 +215,21 @@
     "summary": "The agentic code converter is now generally available for the SQL target framework. Powered by Genie Code, it converts SQL from dialects such as T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata into Databricks SQL queries. You organize the work in a migration project, and the converter validates the output and fixes errors before writing the results to a workspace folder. After a conversion, you can continue chatting with Genie Code about the converted files to address action items or summarize the changes.\n\nSee Convert SQL with the agentic code converter.",
     "category": "AI Assistant",
     "tags": []
+  },
+  {
+    "id": "31741ef5470d82e9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Stripe Data Pipeline now syncs real-time Stripe data to Lakebase Postgres",
+    "url": "https://www.databricks.com/blog/stripe-data-pipeline-now-syncs-real-time-stripe-data-lakebase-postgres",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-17",
+    "summary": "Stripe Data Pipeline now syncs real-time payment and subscription data to Lakebase Postgres without APIs or webhooks to build. Power your app logic with live Stripe data.",
+    "category": "Database",
+    "tags": [
+      "Platform",
+      "Partners"
+    ]
   },
   {
     "id": "f8442aa3efbae64f",
@@ -657,6 +726,18 @@
     "published": "2026-10-12",
     "first_seen": "2026-10-13",
     "summary": "Context-based ingress policies for inbound Private Link are now generally available. Control which registered VPC endpoints can reach your workspaces, and combine endpoint rules with identity and request type conditions in the same policy. If Context-Based Ingress: Workspace Private Access Policies isn't already enabled for your account, an account admin can enable it from the account console Previews page. See Configure private access policy.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "2f909685f91ff343",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Private connectivity from serverless compute to AWS-managed resources is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#private-connectivity-from-serverless-compute-to-aws-managed-resources-is-now-generally-available",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-17",
+    "summary": "AWS Private Link from Databricks serverless compute to AWS-managed resources, such as S3 buckets, previously in Public Preview, is now generally available. Your data traffic remains entirely within the AWS network and never traverses the public internet. See Configure private connectivity to AWS-managed resources.",
     "category": "Security",
     "tags": []
   },
