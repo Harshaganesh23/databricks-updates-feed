@@ -12,6 +12,35 @@
     "tags": []
   },
   {
+    "id": "0eba3393317fa56a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks Is Doubling Down On New York City As A Premier AI Talent Hub",
+    "url": "https://www.databricks.com/blog/databricks-doubling-down-new-york-city-premier-ai-talent-hub",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-19",
+    "summary": "Databricks is doubling its NYC R&D hub at 5 Bryant Park, expanding AI research, infrastructure and applications teams. Explore open roles.",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "Culture"
+    ]
+  },
+  {
+    "id": "a431220d19da5104",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.154.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.154.0",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-19",
+    "summary": "## Release v0.154.0 (2026-10-19)\n\n### API Changes\n\n* Add `create_directory()`, `delete_path()`, `get_metadata()`, `list_directory_contents()` and `rename_path()` methods for [w.sandbox](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/sandbox/sandbox.html) workspace-level service.\n\n* Add `secrets` field for `databricks.sdk.service.catalog.ConnectionInfo`.\n\n* Add `secrets` field for `databricks.sdk.service.catalog.CreateConnection`.\n\n* Add `governed_tags` field for `databricks.sdk.service.catalog.PolicyInfo`.\n\n* Add `secrets` field for `databricks.sdk.service.catalog.UpdateConnection`.\n\n* Add `has_replication_point_blocking_errors` and `initial_replication_progress` fields for `databricks.sdk.service.disasterrecovery.FailoverGroup`.\n\n* Add `duration_target` field for `databricks.sdk.service.jobs.BaseRun`.\n\n* Add `duration_target` field for `databricks.sdk.service.jobs.CreateJob`.\n\n* Add `duration_target` field for `databricks.sdk.service.jobs.JobSettings`.\n\n* Add `duration_target` field for `databricks.sdk.service.jobs.RepairRun`.\n\n* Add `duration_target` field for `databricks.sdk.service.jobs.Run`.\n\n* Add `duration_target` field for `databricks.sdk.service.jobs.RunNow`.\n\n* Add `duration_target` field for `databricks.sdk.service.jobs.SubmitRun`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "45fb3cf9fc4fcf83",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/lakebridge",
@@ -7863,32 +7892,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now set a statement timeout on a single SQL warehouse so that different warehouses can apply different timeouts to their queries. Set the timeout with the statement_timeout field in the Create or Update warehouse APIs. This feature is in Beta and is API-only. See Warehouse-level timeout.",
     "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "55624cb2866fe440",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/geobrix",
-    "title": "databrickslabs/geobrix: v0.4.2",
-    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.4.2",
-    "published": "2026-07-20",
-    "first_seen": "2026-07-30",
-    "summary": "What's Changed\n\n- docs(vapor-eyes): spatial-functions palette in docs + Lakeflow README by @mjohns-databricks in #58\n\n- Genie Map app: kepler.gl + AppKit + Genie over the Vapor-Eyes methane gold by @mjohns-databricks in #61 — grew out of the Data + AI Summit 2026 session Scaling Geospatial Analytics at S&P Global Energy: From Billions of Points to AI-Powered Map Agents with Databricks by Hubert Boguski (S&P Global) and Michael Johns (Databricks)\n\n- fix(#59): raster value reducers + covering tessellation return NULL for all-nodata (both tiers) by @mjohns-databricks and @tiems90 in #62 (independent fix by @tiems90 in #60)\n\n- Release 0.4.2 — promote beta/0.4.0 to main by @mjohns-databricks in #63\n\nFull Changelog: v0.4.1...v0.4.2",
-    "category": "Application Development",
-    "tags": [
-      "databrickslabs/geobrix"
-    ]
-  },
-  {
-    "id": "ce3b6a71bdb6f5b5",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Mention Genie Code in notebook comments",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#mention-genie-code-in-notebook-comments",
-    "published": "2026-07-20",
-    "first_seen": "2026-07-30",
-    "summary": "You can now mention Genie Code in a notebook comment to get AI help without leaving the comment thread. Type @ in a comment, select Genie Code, and enter your request. Genie Code replies inline in the thread. See Code comments.",
-    "category": "AI Assistant",
     "tags": []
   }
 ]
