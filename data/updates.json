@@ -1,5 +1,127 @@
 [
   {
+    "id": "dca2db5ccf1527ff",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "MemCurrent: Designing Persistent Memory for Production Agents",
+    "url": "https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "MemCurrent is the persistent memory architecture behind Agent Bricks Memory and Genie. It triples agent pass rate while using 31% fewer tokens.",
+    "category": "Governance",
+    "tags": [
+      "Research"
+    ]
+  },
+  {
+    "id": "137fd72d2030876f",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing Agent Memory on Databricks",
+    "url": "https://www.databricks.com/blog/introducing-agent-memory-databricks",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "Toda",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "626e063ebdfaf9ff",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Hamlet uses Databricks Lakebase Postgres to test changes against production data",
+    "url": "https://www.databricks.com/blog/how-hamlet-uses-databricks-lakebase-postgres-test-changes-against-production-data",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "Hamlet tests code changes and AI coding agents on Lakebase Postgres branches of production data, reducing the time engineers spend preparing test data.",
+    "category": "Database",
+    "tags": [
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "428aebc8c8028dd5",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How HP Is Building an AI-Ready CDP with Databricks CustomerLake",
+    "url": "https://www.databricks.com/blog/hp-ai-ready-cdp-databricks-customerlake",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "See how HP uses Databricks CustomerLake and Genie to build audiences in 2 hours, expand marketing data with 90% net-new signals, and cut CDP costs by 40%.",
+    "category": "Platform Overview",
+    "tags": [
+      "Company & Customers",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "dfa6f360803153bb",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-pr1607",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-pr1607",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "DQX Studio 0.1.0 test build from PR #1607 (30ad983)",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "c79b19b8a9619fae",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.0-pr1605",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.0-pr1605",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "DQX Studio 0.1.0 temp test build from PR #1605 merge 84386f3",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "170aa7ca10e04cba",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "SurveyMonkey connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#surveymonkey-connector-is-available-in-beta",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "The managed SurveyMonkey connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nUse the connector to ingest surveys, survey structure, collectors, survey responses, and contacts from SurveyMonkey into Databricks. The connector uses OAuth user-to-machine (U2M) authentication and supports incremental ingestion, UI-based pipeline authoring, Declarative Automation Bundles, and API-based pipeline authoring.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "53350af0e73de546",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Oracle Eloqua connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#oracle-eloqua-connector-is-available-in-beta",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "The managed Oracle Eloqua connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nUse the connector to ingest marketing data such as contacts, accounts, campaigns, email and form assets, form submissions, events, and website visitors from Oracle Eloqua into Databricks. The connector uses OAuth user-to-machine (U2M) authentication and supports incremental ingestion, UI-based pipeline authoring, Declarative Automation Bundles, and API-based pipeline authoring.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "07084f8f4cacaa5b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Asana connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#asana-connector-is-available-in-beta",
+    "published": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "summary": "The managed Asana connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nUse the connector to ingest work management data such as workspaces, teams, projects, tasks, portfolios, and goals from Asana into Databricks. The connector uses OAuth user-to-machine (U2M) authentication.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
     "id": "142d8e4400f2baac",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -39,6 +161,99 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "9a2009b11593851a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "CustomerLake enters Beta: Leading enterprises going live with the Agentic CDP",
+    "url": "https://www.databricks.com/blog/customerlake-beta",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-20",
+    "summary": "Early results with Databricks CustomerLake, the Agentic CDP: 10-point conversion lift, 90% faster audience turnaround, and potential 40% CDP cost savings.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform & Products & Announcements",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "3245e854a36bf05e",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What makes a catalog open? Unity Catalog Advances the Open Lakehouse",
+    "url": "https://www.databricks.com/blog/what-makes-catalog-open-unity-catalog-advances-open-lakehouse",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-20",
+    "summary": "Learn what makes a catalog open and why Unity Catalog is the most open, with storage you own and tables you can move to other catalogs without copying data.",
+    "category": "Governance",
+    "tags": [
+      "Platform & Products & Announcements"
+    ]
+  },
+  {
+    "id": "c76e7ee2f6448870",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How to get the most out of running dbt on Databricks",
+    "url": "https://www.databricks.com/blog/how-get-most-out-running-dbt-databricks",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-20",
+    "summary": "Make dbt pipelines on Databricks cheaper, faster and simpler to operate.",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform & Partners",
+      "Lakehouse",
+      "Partners"
+    ]
+  },
+  {
+    "id": "0a52d46943368b4d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Filter data per end user with OAuth custom identity claims",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#filter-data-per-end-user-with-oauth-custom-identity-claims",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-20",
+    "summary": "You can now add a custom identity claim to a service principal's OAuth token and filter rows by it in a dynamic view or ABAC policy. Serve many end users through one service principal while each sees only their own data.\n\nSee Filter data per end user with OAuth custom identity claims.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "ac270e94a75a5e86",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4.1 Flash is scheduled for retirement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#deepseek-v41-flash-is-scheduled-for-retirement",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-20",
+    "summary": "DeepSeek V4.1 Flash will be retired on November 19, 2026. DeepSeek V4.1 Flash (1017) is the recommended replacement. See Deprecated and retired models for migration guidance.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "79ef4fcbee8d593a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4.1 Flash (1017) is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#deepseek-v41-flash-1017-is-now-available-on-unity-gateway",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-20",
+    "summary": "DeepSeek V4.1 Flash (1017) is now available on Unity Gateway with text and image inputs. See supported regions. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "5efa9b6b831d27a3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Asynchronous processing with transformWithState is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#asynchronous-processing-with-transformwithstate-is-now-generally-available",
+    "published": "2026-10-19",
+    "first_seen": "2026-10-20",
+    "summary": "Asynchronous processing for the Python row-based transformWithState API is now generally available. Run state operations and user logic concurrently for higher throughput with only minor code changes. See Asynchronous processing with transformWithState.",
+    "category": "Platform Overview",
+    "tags": []
   },
   {
     "id": "45fb3cf9fc4fcf83",
@@ -122,6 +337,18 @@
     "first_seen": "2026-10-17",
     "summary": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway. TypeSafe AI hosts it, and an account admin must enable the Externally-hosted TypeSafe AI Models preview. TypeSafe's terms govern its use.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "4ba4fb170fd7855e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delegate budget access with access control lists (ACLs)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#delegate-budget-access-with-access-control-lists-acls",
+    "published": "2026-10-16",
+    "first_seen": "2026-10-20",
+    "summary": "Budgets now support access control lists (ACLs). Account and workspace admins can grant the Budget Manager or Budget Viewer role to users, groups, or Databricks service principals, delegating who can view and manage a budget. See Manage budget permissions.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -261,6 +488,18 @@
     ]
   },
   {
+    "id": "1ae98c20d5c93ba1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Redesigned MLflow Logs tab for AI Runtime runs",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#redesigned-mlflow-logs-tab-for-ai-runtime-runs",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-20",
+    "summary": "The MLflow run page Logs tab for AI Runtime runs now supports searching and filtering logs by node, level, and time range, following a running workload as new output arrives, and downloading logs. For new runs, it replaces the log files previously stored on the run's Artifacts tab, which are deprecated. Logs are available for 60 days. Logs for existing runs remain on the Artifacts tab. See View logs in the MLflow Logs tab.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
     "id": "f8442aa3efbae64f",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -376,6 +615,30 @@
       "AI Engineering",
       "Data Science and ML"
     ]
+  },
+  {
+    "id": "c0b6ee36a3107c8d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Transactions support both managed Delta Lake and Apache Iceberg tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#transactions-support-both-managed-delta-lake-and-apache-iceberg-tables",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-20",
+    "summary": "Transactions are generally available for both Unity Catalog managed Delta Lake tables and Unity Catalog managed Apache Iceberg tables. Group multiple SQL statements across one or more managed Delta Lake or managed Apache Iceberg tables into a single atomic transaction using BEGIN ATOMIC ... END; or BEGIN TRANSACTION; ... COMMIT; syntax. Transactions require catalog commits enabled on participating tables.\n\nSee Transactions.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "36550e506bf54584",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data Classification API is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#data-classification-api-is-now-generally-available",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-20",
+    "summary": "The Data Classification API and its Terraform resource are now generally available. Auto-tagging configuration (auto_tag_configs) remains in Public Preview. See the API reference.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "356f7c036b0e4eea",
@@ -7780,118 +8043,6 @@
     "first_seen": "2026-07-30",
     "summary": "You can now override a standalone streaming table's defined REPLACE WHERE predicate for a single refresh by adding a WHERE clause to the REFRESH STREAMING TABLE command. The override applies only to that refresh and doesn't change the table definition, which is useful for one-time backfills and corrections. This is supported only on standalone streaming tables created with a FLOW REPLACE WHERE clause. See REFRESH (MATERIALIZED VIEW or STREAMING TABLE).",
     "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "132a57d8bc9ef3db",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Governance Hub is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#governance-hub-is-in-beta",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "Governance Hub is in Beta. Governance Hub is a centralized, account-level UI in the account console for monitoring governance across your Databricks account. It provides a unified view of data health and coverage, AI usage and spend, and cost drivers, with prioritized insights and recommendations. All views respect existing permissions.\n\nAccount admins can enable Governance Hub from the account console Previews page. See Governance Hub.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "bf3f3a74167fc911",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.122.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.122.0",
-    "published": "2026-07-21",
-    "first_seen": "2026-07-30",
-    "summary": "## Release v0.122.0 (2026-07-21)\n\n### API Changes\n\n* Add `list_clean_room_task_runs_handler()` method for [w.clean_room_task_runs](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/cleanrooms/clean_room_task_runs.html) workspace-level service.\n\n* Add `create_cdf_config()`, `delete_cdf_config()`, `get_cdf_config()`, `get_cdf_status()`, `list_cdf_configs()` and `list_cdf_statuses()` methods for [w.postgres](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/postgres/postgres.html) workspace-level service.\n\n* Add `initial_parent_path` field for `databricks.sdk.service.bundledeployments.Deployment`.\n\n* Add `parent` field for `databricks.sdk.service.catalog.CreateConnection`.\n\n* Add `parent` field for `databricks.sdk.service.catalog.ListConnectionsRequest`.\n\n* Add `enable_shared_output` field for `databricks.sdk.service.cleanrooms.CleanRoom`.\n\n* Add `jar_analysis` field for `databricks.sdk.service.cleanrooms.CleanRoomAsset`.\n\n* Add `description` and `environment_version` fields for `databricks.sdk.service.cleanrooms.CleanRoomAssetNotebook`.\n\n* Add `shared_output_schema_expiration_time` and `shared_output_schema_name` fields for `databricks.sdk.service.cleanrooms.CleanRoomNotebookTaskRun`.\n\n* Add `enable_shared_output` and `package_provider_collaborator_alias` fields for `databricks.sdk.service.cleanrooms.CleanRoomRemoteDetail`.\n\n* Add `jar_analysis_review` field for `databricks.sdk.service.cleanrooms.CreateCleanRoomAssetReviewRequest`.\n\n* Add `jar_analysis_review_state` and `jar_analysis_reviews` fields for `databricks.sdk.service.cleanrooms.CreateCleanRoomAssetReviewResponse`.\n\n* Add `capacity_reservation_group` field for `databricks.sdk.service.compute.InstancePoolAzureAttributes`.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "a77daa22a03947a0",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.6.2",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.6.2",
-    "published": "2026-07-21",
-    "first_seen": "2026-07-30",
-    "summary": "OntoBricks — Release Notes V0.6.2\n\nRelease date: 2026-07-14\n\nType: Patch release (v0.6.1 → v0.6.2)\n\nTest status: 3007 passed, 275 skipped, 5 deselected (uv run pytest -q -m \"not scenario\").\n\nSummary\n\nv0.6.2 is a focused patch on top of v0.6.1. It hardens Lakebase Knowledge Graph\n\nsync for long literal values and Lakeflow-managed tables, fixes Claude serving\n\nendpoint responses that broke Ontology Wizard and Auto-Map, speeds up Graph\n\nExplorer / Graph Chat alias lookups on large graphs, and polishes the edit-lock\n\nidle UX (resume control moves into the L2 subnav). Developer ergonomics improve\n\nwith hermetic unit tests (.env Lakebase vars no longer leak into pytest) and\n\nPAT-based deploy when the CLI profile is intentionally left empty.\n\nNo breaking API changes. One operational note for existing Lakebase graphs: run a\n\nfull Knowledge Graph rebuild after upgrading so companion tables migrate to the\n\nobject_hash layout (automatic on build — see Upgrade Notes).\n\nHighlights\n\n- Lakebase object_hash KG build fixes — interactive managed_synced builds open\n\nthe graph store before VIEW creation, refresh the Lakeflow source VIEW with\n\nobject_hash, and auto-migrate legacy __app companion tables that still keyed\n\non full object text (fixes column \"object_hash\" does not exist on rebuild).\n\n- Lakebase long literals (#108) —\n\ncomposite keys and Lakeflow sync use a generated object_hash so literal values\n\nlonger than the Postgres btree index limit no longer abort triple-store sync.\n\n- Lakeflow graph indexes (#112) —\n\nensure_synced_union_view re-applies object_hash lookup indexes idempotently when\n\nLakeflow recreates _sync tables without secondary indexes.\n\n- Claude serving endpoints (#107, PR #109) —\n\nflatten list-style message.content blocks from databricks-claude-* endpoints so…",
-    "category": "Database",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "86e1507311c4c879",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie One and Genie Agents billed usage corrections",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-one-and-genie-agents-billed-usage-corrections",
-    "published": "2026-07-21",
-    "first_seen": "2026-07-30",
-    "summary": "Genie One and Genie Agents usage is free through July 31, 2026.\n\nBeginning July 21, 2026, Databricks is applying a correction so that Genie One and Genie Agents usage is properly reflected as free across your billing data and budgets:\n\n- System tables: Correction records land in system.billing.usage that negate prior Genie One and Genie Agents billed usage, so that aggregated billable usage is zero. See Record type reference and Monitor and understand your Genie cost.\n\n- Budgets: Genie One and Genie Agents costs are netted out of budget enforcement. As a result, spend shown in the budget UI will drop slightly. In some cases, a user who was previously over their budget threshold may fall back under it once their Genie One and Genie Agents costs are netted out.\n\nThis is a one-time adjustment. Genie Code usage and billing are unaffected.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "4072a5d357e84eb2",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Context-based ingress control for workspaces public access is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#context-based-ingress-control-for-workspaces-public-access-is-now-generally-available",
-    "published": "2026-07-21",
-    "first_seen": "2026-07-30",
-    "summary": "Context-based ingress control for workspaces public access is now generally available. Control who can reach your workspace endpoints using allow and deny rules that allow you to combine identities, network sources, and request types. See Context-based ingress control.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "489cf49c8f3b4f40",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Reddit Ads connector is now available in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#reddit-ads-connector-is-now-available-in-beta",
-    "published": "2026-07-21",
-    "first_seen": "2026-07-30",
-    "summary": "The managed Reddit Ads connector in Lakeflow Connect is now available in Beta. You can use the connector to ingest advertising campaign data and performance metrics from Reddit Ads into Databricks. See Reddit Ads connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "880f4cb16be061d5",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 3.5 Flash Lite now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-35-flash-lite-now-available-as-a-databricks-hosted-model",
-    "published": "2026-07-21",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports Google Gemini 3.5 Flash Lite as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "6cdd3156e68eb610",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 3.6 Flash now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#google-gemini-36-flash-now-available-as-a-databricks-hosted-model",
-    "published": "2026-07-21",
-    "first_seen": "2026-07-30",
-    "summary": "Model Serving now supports Google Gemini 3.6 Flash as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "e7290cae8ae37982",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Warehouse-level statement timeouts (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#warehouse-level-statement-timeouts-beta",
-    "published": "2026-07-21",
-    "first_seen": "2026-07-30",
-    "summary": "You can now set a statement timeout on a single SQL warehouse so that different warehouses can apply different timeouts to their queries. Set the timeout with the statement_timeout field in the Create or Update warehouse APIs. This feature is in Beta and is API-only. See Warehouse-level timeout.",
-    "category": "Data Warehousing",
     "tags": []
   }
 ]
