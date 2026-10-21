@@ -1,5 +1,171 @@
 [
   {
+    "id": "39eca36a0c265d97",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks AI Runtime and NVIDIA make it easier to customize open models with enterprise data",
+    "url": "https://www.databricks.com/blog/databricks-ai-runtime-nvidia-train-fine-tune-models",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "GPUs",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform & Products & Announcements"
+    ]
+  },
+  {
+    "id": "d05396f94ede2bfd",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "AI Runtime is Generally Available",
+    "url": "https://www.databricks.com/blog/ai-runtime-generally-available",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "Today, we’",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform & Products & Announcements"
+    ]
+  },
+  {
+    "id": "4b8a59f35656bdb3",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Deploy RFD4-Proteina on Databricks",
+    "url": "https://www.databricks.com/blog/deploy-rfd4-proteina-model-databricks",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "Bring&",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries"
+    ]
+  },
+  {
+    "id": "62e8cab35e39e999",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.1.4-rc4",
+    "url": "https://github.com/apache/spark/releases/tag/v4.1.4-rc4",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "Preparing Spark release v4.1.4-rc4",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "13e17d2005ac523a",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.0.5-rc3",
+    "url": "https://github.com/apache/spark/releases/tag/v4.0.5-rc3",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "Preparing Spark release v4.0.5-rc3",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "8fc5280174e60b9d",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: MLflow 3.17.2",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.17.2",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "MLflow 3.17.2 is a patch release that contains a minor feature enhancement and bug fixes.\n\nFeatures:\n\n- [Evaluation] Record dataset, scorer, and agent lineage on mlflow.genai.evaluate runs (#26543, @joshuawong-db)\n\nBug fixes:\n\n- [Tracking] Reseed sampler and forward batch settings on MlflowSparkStudy executors (#26714, @iyashk)\n\n- [Tracking] Fix MlflowStorage marking Optuna trials finished before their values are saved (#26713, @iyashk)",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "ac3ceee733c580b9",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.155.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.155.0",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "## Release v0.155.0 (2026-10-21)\n\n### API Changes\n\n* Add `sdp_source` field for `databricks.sdk.service.ml.DataSource`.\n\n* Add `customer_version_label`, `max_dbu` and `reyden_cluster_size_multiplier` fields for `databricks.sdk.service.sql.CreateWarehouseRequest`.\n\n* Add `customer_version_label`, `max_dbu` and `reyden_cluster_size_multiplier` fields for `databricks.sdk.service.sql.EditWarehouseRequest`.\n\n* Add `customer_version_label`, `max_dbu` and `reyden_cluster_size_multiplier` fields for `databricks.sdk.service.sql.EndpointInfo`.\n\n* Add `customer_version_label`, `max_dbu` and `reyden_cluster_size_multiplier` fields for `databricks.sdk.service.sql.GetWarehouseResponse`.\n\n* [Breaking] Remove `replication_config` field for `databricks.sdk.service.sharing.CreateShare`.\n\n* [Breaking] Remove `replication_config` field for `databricks.sdk.service.sharing.ShareInfo`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "094978767d554eef",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.1",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.1",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "DQX Studio 0.1.1",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "0e1d4d4924c44735",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: v0.8.2",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.8.2",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "OntoBricks — Release Notes V0.8.2\n\nRelease window: October 2026\n\nType: Patch release (v0.8.1 → v0.8.2)\n\nTest status: uv run --frozen pytest -q -m \"not scenario\": 5941 passed, 316 skipped, 9 deselected, 32 warnings. The deselected tests are 6 scenario tests and 3 health tests that open a live SQL warehouse connection (tests/units/api/test_routes.py::TestHealthRoutes::test_health_check and tests/units/core/test_health.py::TestRunReadinessChecks). Without a reachable warehouse they wait in the connector's retry back-off, which is the stall at test_routes.py recorded on 2026-10-01 and 2026-10-12.\n\nHighlights\n\n- Enterprise Initialize no longer 502s on DDL ownership — when the app service principal is DML-only and schema.sql raises must be owner of table, Initialize logs a warning, skips DDL, and still upserts the registry identity row (catalog / schema / volume).\n\n- Ontology generation uses the bound Unity Catalog Volume — generate_with_agent and generate_rules_with_agent pass RegistryCfg.from_domain(...).as_dict() instead of the seeded session dict (OntoBricksRegistry). Document tools no longer look up a non-existent …ontobricksregistry volume.\n\n- Knowledge Graph builds no longer stop at one hour (#201) — SQL connections refresh their OAuth token during long statements, a failed triple count fails the build with the real error instead of reporting \"no triples generated\", and materialized builds read the mapped sources once instead of twice.\n\n- Table descriptions load without information_schema access — table comments come from the Unity Catalog tables API, which needs only the grants a data source already has.\n\nNo registry schema migration. No breaking MCP tool names.\n\nRegistry (Lakebase Initialize)…",
+    "category": "Data Warehousing",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
+    "id": "53056cd685a04c1d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.4.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.4.0",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "[0.4.0] - 2026-10-21\n\nAdded\n\n- Front-end PrivateLink is now handled, not refused. ingress no longer aborts on a PrivateLink\n\nworkspace. Public and private access are migrated independently. On AWS/GCP, a non-allow-all\n\nPrivate Access Settings (PAS) — specific registered endpoints — is migrated into the policy's\n\nprivate_access block (endpoint ids mapped across as-is); an allow-all PAS needs no migration (CBI\n\nalready defaults to allowing all registered endpoints). On Azure, front-end PrivateLink is not\n\nmigrated at all (the databricks_ui_api endpoints are default-allowed and additive, and the\n\npublic-access flag isn't being retired) — Azure simply migrates IP ACLs into public access.\n\n- Existing CBI ingress is reused/retained per dimension. Public, private and cross-workspace\n\naccess are independent: each is either built/migrated or carried forward from the workspace's\n\ncurrently-assigned CBI policy (deep-copied, restrictive blocks only). Public is built net-new from\n\nobserved traffic + IP ACLs (an existing restrictive public block is preserved only when this run\n\nhas nothing of its own to build); private is migrated from a non-allow-all PAS or carried forward\n\n(an allow-all PAS never loosens a stricter existing private block); cross-workspace is always\n\ncarried forward verbatim (this tool doesn't build cross-workspace rules). Aligns the existing-\n\npolicy handling with the databricks-migrate-ip-acls sibling tool.\n\n- Partner-platform IP detection. Observed inbound IPs are matched against published partner\n\nranges — Power BI (dynamic, from the Azure Service Tags PowerBI tag) and dbt platform\n\n(curated) — labelled as that partner and recommended for allow-listing. The CLI also points you at…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "3539217af526eafa",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/migrate-ip-acls",
+    "title": "databrickslabs/migrate-ip-acls: v0.2.0",
+    "url": "https://github.com/databrickslabs/migrate-ip-acls/releases/tag/v0.2.0",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "dbx-migrate-ip-acls 0.2.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/migrate-ip-acls"
+    ]
+  },
+  {
+    "id": "681bdd647e89d0a9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Screen MCP tool calls and results for jailbreaks (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#screen-mcp-tool-calls-and-results-for-jailbreaks-beta",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "summary": "You can now screen MCP tool calls and their results in Unity Gateway for jailbreak and prompt injection attempts. Apply the Jailbreak guardrail on input, output, or both. See Attach a built-in policy.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "dca2db5ccf1527ff",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -7895,154 +8061,6 @@
     "first_seen": "2026-07-30",
     "summary": "With the general availability of Databricks Runtime 19, Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning have transitioned to long-term support (LTS). LTS versions receive three years of stability and security fixes.\n\nFor release notes, see Databricks Runtime 18 LTS and Databricks Runtime 18 LTS for Machine Learning. For lifecycle details, see Databricks Runtime support lifecycles.",
     "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "0e4170b4af459746",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code scheduled tasks are in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-code-scheduled-tasks-are-in-beta",
-    "published": "2026-07-23",
-    "first_seen": "2026-07-30",
-    "summary": "You can now schedule Genie Code to run a prompt on a recurring schedule. Each run executes your prompt as a full Genie Code session and produces a continuable Genie chat with the results, so you can turn recurring analysis into an unattended background task. Create a scheduled task by asking Genie Code in chat or by filling in the create form manually. For more information, see Genie Code scheduled tasks.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "8e5d1a1d1c840847",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.9.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.9.0",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "CLI\n\n- databricks auth profiles no longer stalls on an unreachable workspace and instead fails validation after 5 seconds per host (#5928).\n\n- Fixed databricks fs rm -r failing on UC Volumes backed by GCS when a directory becomes empty during recursive deletion (#5958).\n\n- You can now ask questions about your data directly from the CLI with databricks genie ask \"...\". Genie answers natural-language questions (\"what were total sales last month?\", \"which tables are in the sales catalog?\"), runs the query inside Databricks, and renders the answer in the terminal. This promotes the former databricks experimental genie ask command; the experimental alias still works but is deprecated and will be removed in a future release (#6010).\n\nBundles\n\n- bundle validate now reports a clear error when a sql_warehouse is missing a name (including whitespace-only names), and a warning when a grant is missing a principal (#5818).\n\n- Bundle templates now scaffold an AGENTS.md that points coding agents at Databricks AI Tools, alongside a minimal CLAUDE.md that includes it via @AGENTS.md (#5996).\n\n- bundle generate job can now download workspace files referenced by spark_python_task, rewriting them to a relative path like it already does for notebooks. This is opt-in via the --download-spark-python-files flag (#5799).\n\n- Simplified the default-minimal bundle template and added an alias databricks bundle init empty (#5899).\n\n- Add support for the instance_pools resource type in Declarative Automation Bundles. Instance pools are only supported in direct deployment mode.\n\n- Do not emit \"unknown field\" warnings for YAML anchors grouped in a list or map, matching the existing suppression for standalone anchors (#5975).…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "10e580510e100624",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakebridge",
-    "title": "databrickslabs/lakebridge: Release v0.14.2",
-    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.14.2",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "Release 0.14.2\n\nBug fixes\n\n- Fixed profiler DuckDB DECIMAL overflow affecting all source systems (#2578)\n\n- BigQuery profiler now correctly passes the credentials file path (#2577)\n\nFeatures & improvements\n\n- Profiler pipeline now supports optional steps via a partial-run contract, tolerating\n\nexpected-missing metrics instead of aborting the whole assessment (#2555)\n\n- Upgraded Switch to 0.2.0 (#2582)\n\nDesktop App v1.3.2\n\nThe Lakebridge desktop app (macOS & Windows) is updated to v1.3.2, shipping with this release.\n\nIt bundles the Databricks CLI and Python and installs Lakebridge for you — no manual CLI setup required.\n\nHow to access it:\n\n- Open the v0.14.2 GitHub release\n\n(or the latest release) and expand Assets.\n\n- Download the build for your platform and architecture:\n\n- macOS: MacOS-Lakebridge-1.3.2-arm64.dmg (Apple Silicon) or MacOS-Lakebridge-1.3.2-x64.dmg (Intel)\n\n- Windows: Windows-Lakebridge-1.3.2-arm64.exe or Windows-Lakebridge-1.3.2-x64.exe\n\n- Install and launch — on first run the app checks prerequisites, connects to your Databricks\n\nworkspace via OAuth, and installs Lakebridge for you.\n\nSee the Installation — Desktop App guide for full steps.\n\nDocumentation\n\n- Restructured the installation page to document the desktop app and CLI as two self-contained paths (#2588)\n\n- Overview and reconcile transform docs: added missing info (#2579)\n\nFull Changelog: v0.14.1...v0.14.2",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/lakebridge"
-    ]
-  },
-  {
-    "id": "65dbdde05b8bb2d4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Priority pay-per-token for Foundation Model APIs",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#priority-pay-per-token-for-foundation-model-apis",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "Priority pay-per-token, also referred to as priority mode, for Foundation Model APIs pay-per-token is generally available for partner models and in preview for open source models.\n\nPriority mode is for latency-sensitive, real-time applications that need more consistent availability under load.\n\nSee Priority pay-per-token for Foundation Model APIs for model availability.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "7791cf45f58f2638",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakeflow Designer support for compliance security profile standards",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-designer-support-for-compliance-security-profile-standards",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "Lakeflow Designer now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the compliance security profile enabled.\n\nFor a full list of supported compliance standards, see Compliance security profile.\n\nSee Lakeflow Designer.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "a6034d6c15ab9a1e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Automated setup for S3 external locations",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automated-setup-for-s3-external-locations",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "You can now create an S3 external location using automated setup, the recommended method for connecting an S3 bucket to Databricks. Automated setup uses AWS IAM temporary delegation to configure your external location and provision all required resources, including the IAM role, storage credential, and external location. It also provides built-in approval workflows for users who need AWS admin authorization. See Create an external location with automated setup.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "f57e981ffc138f54",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Variant and Variant shredding are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#variant-and-variant-shredding-are-now-generally-available",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "Variant is now generally available. Variant is a flexible data type for semi-structured data that delivers structured-like query performance through Variant shredding, which is also generally available. Use Variant to ingest semi-structured data from streaming sources (Kinesis, Event Hub), REST APIs, and schemaless databases, while maintaining high-performance query access.\n\nStarting with Databricks Runtime 17.3, Variant shredding is automatically enabled when you create a new table with VARIANT columns. For optimal query performance with variant statistics collection and data skipping, Databricks recommends Databricks Runtime 18.1 or above. See Use variant shredding to optimize performance.\n\nVariant is coming soon to workspaces with the compliance security profile enabled.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "3d4d17888011bae5",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Role-based access control (RBAC) is in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#role-based-access-control-rbac-is-in-public-preview",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "Role-based access control (RBAC) is now in Public Preview. RBAC lets users assume a role in Databricks using only that role's permissions for the duration of the session instead of their own accumulated permissions. This enables exclusive access. Users must actively assume a role to reach sensitive data, which prevents them from accessing it as their own identity and from mixing data across use cases, clinical trials, projects, or clients.\n\nTo enable RBAC, an account admin turns on the preview at the account level. Workspace admins then enable it in each workspace.\n\nSee Role-based access control (RBAC).",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "152561ce471eeb6c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Transactions are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#transactions-are-now-generally-available",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "Transactions that write to Unity Catalog managed Delta tables are now generally available. Group multiple SQL statements across one or more tables into a single atomic transaction using BEGIN ATOMIC ... END; or BEGIN TRANSACTION; ... COMMIT; syntax. All changes succeed together or roll back together, ensuring data consistency across your operations. Transactions require catalog commits enabled on participating tables. Transactions that write to Unity Catalog managed Iceberg tables remain in Private Preview.\n\nSee Transactions.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "afeff8117e147ced",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Email notifications for expiring service principal tokens are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#email-notifications-for-expiring-service-principal-tokens-are-now-generally-available",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks now automatically sends an email notification when a service principal token is set to expire within seven days. Because service principals don't have their own mailboxes, Databricks sends these notifications to workspace admins. Notifications are sent only for service principal tokens that have a lifetime longer than seven days and have been used at least once. No configuration is required.\n\nSee Service principal token expiration notifications.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "e0243fa3dcb8de69",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks-hosted sample datasets available in the samples catalog",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-hosted-sample-datasets-available-in-the-samples-catalog",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "The sample datasets /databricks-datasets mounted to DBFS are now also available in the samples catalog as samples.databricks.datasets, made available through OpenSharing. The datasets volume hosts a collection of Databricks-provided datasets that you can use to build and test data pipelines.\n\nThe samples catalog is available in Unity Catalog-enabled workspaces. For more information about the sample datasets available in the samples catalog, see Sample datasets.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "04ff6613938a4432",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Override the REPLACE WHERE predicate for a single refresh",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#override-the-replace-where-predicate-for-a-single-refresh",
-    "published": "2026-07-22",
-    "first_seen": "2026-07-30",
-    "summary": "You can now override a standalone streaming table's defined REPLACE WHERE predicate for a single refresh by adding a WHERE clause to the REFRESH STREAMING TABLE command. The override applies only to that refresh and doesn't change the table definition, which is useful for one-time backfills and corrections. This is supported only on standalone streaming tables created with a FLOW REPLACE WHERE clause. See REFRESH (MATERIALIZED VIEW or STREAMING TABLE).",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
