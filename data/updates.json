@@ -1,5 +1,111 @@
 [
   {
+    "id": "ba6f6e7a584a4376",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DataFrame caching on serverless compute is now in Public Preview",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#dataframe-caching-on-serverless-compute-is-now-in-public-preview",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-22",
+    "summary": "DataFrame caching on serverless compute is now in Public Preview. You can cache a DataFrame with df.cache() or df.persist() on serverless compute to reuse an expensive result for the rest of your session. Caching requires serverless environment version 5 or above, Databricks Connect for Python 18.1.8 or above, or Databricks Connect for Scala 18.1.5 or above. The preview is enabled by default for most workspaces. Workspace admins can disable it from the Previews page. See Cache DataFrames on serverless compute.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "c2f59e1f8a3f3c3c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Box Audit Logs managed ingestion connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#box-audit-logs-managed-ingestion-connector-beta",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-22",
+    "summary": "The Box Audit Logs connector in Lakeflow Connect is now available in Beta. Use the connector to ingest enterprise audit events from Box into Databricks. See Box Audit Logs connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "b022ec7f268c3253",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.156.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.156.0",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-22",
+    "summary": "## Release v0.156.0 (2026-10-22)\n\n### API Changes\n\n* Add `start_endpoint()` and `stop_endpoint()` methods for [w.vector_search_endpoints](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/vectorsearch/vector_search_endpoints.html) workspace-level service.\n\n* Add `include_external_spend` field for `databricks.sdk.service.billing.BudgetConfiguration`.\n\n* Add `include_external_spend` field for `databricks.sdk.service.billing.CreateBudgetConfigurationBudget`.\n\n* Add `include_external_spend` field for `databricks.sdk.service.billing.UpdateBudgetConfigurationBudget`.\n\n* Add `regex` field for `databricks.sdk.service.iamv2.IdentityVisibilityFilter`.\n\n* Add `relative_error` field for `databricks.sdk.service.ml.ApproxCountDistinctFunction`.\n\n* Add `relative_error` field for `databricks.sdk.service.ml.ApproxPercentileFunction`.\n\n* Add `condition`, `min_time_between_triggers` and `wait_after_last_change` fields for `databricks.sdk.service.ml.TableTrigger`.\n\n* Add `onedrive_options` field for `databricks.sdk.service.pipelines.ConnectorOptions`.\n\n* Add `stopping`, `stopped` and `starting` enum values for `databricks.sdk.service.aisearch.EndpointStatusState`.\n\n* Add `operation_action_type_unbind` enum value for `databricks.sdk.service.bundledeployments.OperationActionType`.\n\n* Add `onedrive` enum value for `databricks.sdk.service.pipelines.IngestionSourceType`.\n\n* Add `stopping`, `stopped` and `starting` enum values for `databricks.sdk.service.vectorsearch.EndpointStatusState`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "b2d2c09785fea876",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.22.1",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.22.1",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-22",
+    "summary": "CLI\n\n- Fix GitHub API rate limit errors in aitools list and plugin installs by pinning skills to 0.2.32. (#7159)",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "36d77fb03d714807",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.22.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.22.0",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-22",
+    "summary": "CLI\n\n- Fix databricks aitools install overwriting newer raw skills with an older pinned release. CLI 1.22.0 and newer now install the latest published skills and prevent automatic downgrades. (#7069)\n\n- Fix auth login --timeout not applying to the browser login, which waited for the OAuth redirect indefinitely. (#7103)\n\n- Remove the 50-workspace limit in auth login and support searching workspaces by name or ID. (#7071)\n\n- databricks ssh connect now fails right away with the workspace's reason when port forwarding to serverless compute is disabled, instead of waiting out the server start timeout. (#7057)\n\nAI Runtime\n\n- air run now spends less time before submitting: it fetches only the user name from SCIM. (#7153)\n\n- Align multi-image container name validation with backend services: allow hyphens and up to 32 characters, and reject uppercase letters and underscores. (#7154)\n\nBundles\n\n- The compute_id deprecation warning for a target now shows the full path (targets.<name>.compute_id). (#7048)\n\n- Add DATABRICKS_BUNDLE_STRICT_PROFILE_MATCH, which requires a target's host and workspace ID to match exactly one profile in the config file before authenticating. Targets without a host or workspace ID are not affected. (#7109)\n\n- Zero-value overrides of presets, lifecycle.prevent_destroy and deployment settings in includes now replace non-zero base values, and bundle validate -o json shows explicit zero presets. (#7117)\n\n- bundle deployment bind and unbind now accept a resource as type.key, e.g. jobs.foo. (#7128)\n\n- Retry more transient server errors during bundle deploy and bundle destroy, including when releasing the deploy lock and reading state. (#7129)\n\n- Fix migration from Terraform failing when a deployed resource references a resource that was never deployed. (#7157)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "fdfbf864d7a8a52f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.17.0",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.17.0",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-22",
+    "summary": "What's Changed\n\nDQX Core\n\n- Added the Lineage action (#1534). The new action CollectLineageAction collects upstream/downstream table and column lineage (including per-failed-column lineage) and last-modifier metadata for a run's input table and writes it to a configurable Delta table. It never fails the pipeline. Actions can now also pass a small extras payload to later actions in the same run, so for example an alert can reference the lineage table.\n\n- Added support for ODCS type: library quality metrics in data contract rule generation (#1485). The rowCount, nullValues, missingValues, invalidValues, and duplicateValues metrics are mapped to DQX checks for all ODCS threshold fields (mustBe, mustNotBe, mustBeGreaterThan, mustBeBetween, etc.), carrying contract provenance and metric metadata. Malformed entries are warned about and skipped. A new process_library_rules parameter (default True) on generate_rules_from_contract lets you skip these entries.\n\n- Added opt-in semantic-aware profiling to DQProfiler (#1491). A lightweight classification stage now runs between metric collection and check generation, so each column receives one consistent family of checks instead of contradictory overlaps (e.g. a low-cardinality column no longer gets both is_in and min_max). Pass a semantic_registry (e.g. SemanticRegistry.default()) to DQProfiler to enable it; built-in detectors classify columns as enum, key, measurement, or text, and the registry can be extended with custom detectors. Generated profiles record the detected semantic_type. Without a registry, profiling output is unchanged.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "d3f8aca8953eac3c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: v0.9.0",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.9.0",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-22",
+    "summary": "OntoBricks — Release Notes V0.9.0\n\nRelease window: September–October 2026\n\nTest status: all changes shipped with the non-scenario suite green: 9478 passed, 326 skipped, 7 deselected, 1 xfailed.\n\nHighlights\n\n- Lakehouse//RT graph queries — administrators can point Knowledge Graph reads at a serverless Lakehouse//RT warehouse over the Statement Execution API, while builds keep a classic or serverless warehouse that still accepts CREATE VIEW, CTAS, and writes.\n\n- Three-stage Ontology Generate — detect entities, review and lock the catalog, then complete relations, attributes, and axioms with checkpoints. The merge appends to the existing ontology instead of replacing it.\n\n- Knowledge Store — parsed documents live in Lakebase Postgres, not a Unity Catalog Volume. Generate and Mapping share the same corpus; no READ VOLUME / WRITE VOLUME grant is required.\n\n- Unity Catalog Metric Views — Metric Views load and map as data assets next to tables and views. Columns carry dimension/measure roles; Auto-Map emits MEASURE(...) SQL instead of SELECT *.\n\n- GitHub domain mirror — each instance can push domain configuration (OWL, R2RML, SHACL, layouts, rules) to one GitHub repository. Lakebase stays the source of truth; Load from GitHub restores domains through the OBX import flow.\n\n- OBX Import as — Registry import can rename every incoming domain (CamelCase target) and safely resets graph runtime on a renamed copy.\n\n- Faster Explorer first paint — graph status no longer blocks the Knowledge Graph page on full COUNT(*) scans; adjacency and entity-search indexes, paged BFS, and server-side seed limits cut preview and expansion time. The canvas reports Preview, Expansion, Display, and Total duration.…",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
+    "id": "bbd41f2b9d2fa418",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Microsoft Entra ID connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#microsoft-entra-id-connector-is-available-in-beta",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-22",
+    "summary": "The managed Microsoft Entra ID connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest Microsoft Entra ID users, groups, applications, service principals, directory roles, identity configuration, and audit and sign-in logs into Databricks. The connector uses OAuth machine-to-machine authentication and supports incremental ingestion for audit and sign-in logs.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "39eca36a0c265d97",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -163,6 +269,44 @@
     "first_seen": "2026-10-21",
     "summary": "You can now screen MCP tool calls and their results in Unity Gateway for jailbreak and prompt injection attempts. Apply the Jailbreak guardrail on input, output, or both. See Attach a built-in policy.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "333a9e573e1339c5",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.2.1-rc3",
+    "url": "https://github.com/apache/spark/releases/tag/v4.2.1-rc3",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-22",
+    "summary": "Preparing Spark release v4.2.1-rc3",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "1ee18e9f30376a12",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeflow pipelines system tables are now generally available (GA)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#lakeflow-pipelines-system-tables-are-now-generally-available-ga",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-22",
+    "summary": "The lakeflow system tables pipelines and pipeline_update_timeline are now generally available. These tables record the pipelines and pipeline updates in your account.\n\nFor a reference of these tables, see Jobs system table reference.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "a56605b06d452618",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Code tasks in Lakeflow Jobs are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-code-tasks-in-lakeflow-jobs-are-now-generally-available",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-22",
+    "summary": "Genie Code tasks in Lakeflow Jobs are now generally available. A Genie Code task runs your prompt autonomously as part of a job. It can read upstream task outputs and call tools as needed, and it returns a link to the resulting Genie Code chat with its response. See Genie Code task for jobs.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -666,6 +810,18 @@
     "tags": []
   },
   {
+    "id": "9365ed227d3b4877",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data Classification adds 50 new classes and support for 16 more countries and regions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#data-classification-adds-50-new-classes-and-support-for-16-more-countries-and-regions",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-22",
+    "summary": "Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions:\n\n- Payment card and financial data: Card security codes, card expiration dates, card track data, card PINs, SWIFT codes, and credit scores.\n\n- Personal and employee data: Gender, residency status, disability data, sexual data, street addresses, geographic coordinates, compensation, and employment status.\n\n- Software security secrets: Credentials and secrets used by software.\n\n- Regional identifiers: Added 35 new classes and expanded coverage in existing classes across 18 countries and regions, including China, Mexico, the UK, other European countries, and more. See the documentation for details.\n\nRegional tags are available in select regions. See Supported classification tags.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "f8442aa3efbae64f",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -987,6 +1143,18 @@
     "first_seen": "2026-10-16",
     "summary": "You can now create a ready-to-use packaged clean room with an approved identity resolution provider, such as Acxiom, Adstra, LiveRamp, or The Trade Desk, in one step from the Clean Rooms page. The provider is preconfigured as the package provider, so you can add your data and run the provider's analysis right away. See Create a clean room with an identity resolution provider.",
     "category": "Sharing",
+    "tags": []
+  },
+  {
+    "id": "87b160b45c4e50fe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Cribl connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#cribl-connector-is-available-in-beta",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-22",
+    "summary": "The managed Cribl connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest Cribl.Cloud Worker Group configuration, worker and health status, organization metadata, and Leader audit and access logs into Databricks. The connector uses OAuth machine-to-machine authentication and supports incremental ingestion for audit and access logs.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -1495,6 +1663,18 @@
     "first_seen": "2026-10-14",
     "summary": "The managed Productboard connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nUse the connector to ingest product hierarchy, roadmap, objectives, customer feedback notes, and workspace member data from Productboard into Databricks. The connector uses Server-to-Server OAuth authentication and supports incremental ingestion for notes, UI-based pipeline authoring, Declarative Automation Bundles, and API-based pipeline authoring.",
     "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "687599c6b3eb696e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Azure DevOps connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#azure-devops-connector-is-available-in-beta",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-22",
+    "summary": "The managed Azure DevOps connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest project, repository, work item, build, release, and identity data from Azure DevOps into Databricks. The connector authenticates with a Microsoft Entra service principal and supports incremental ingestion of commits.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -7885,182 +8065,6 @@
     "first_seen": "2026-07-30",
     "summary": "Registering Python user-defined table functions (UDTFs) in Unity Catalog is now generally available in Databricks Runtime 18. A Unity Catalog Python UDTF is a governed function that returns a table, invoked in the FROM clause of a SQL statement to return multiple rows and columns. Unity Catalog Python UDTFs run on serverless compute, classic compute with standard access mode, and SQL warehouses.\n\nSee Python user-defined table functions (UDTFs) in Unity Catalog and Databricks Runtime 18 LTS.",
     "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "4de9f559f8df82af",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unit testing for pipelines (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#unit-testing-for-pipelines-beta",
-    "published": "2026-07-26",
-    "first_seen": "2026-07-30",
-    "summary": "You can now write and run Python unit tests for your Spark Declarative Pipelines on Lakeflow transformation logic directly in the Lakeflow Pipelines Editor. Validate Python and SQL transformations against mock data using catalog-table redirection, including Auto CDC, streaming tables, expectations, and append flows. Test edge cases and iterate using mock inputs for supported table-identifier operations; review the isolation limitations before running tests. This feature is in Beta.\n\nSee Unit testing for pipelines.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "79c4cc7b60ba5c16",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/brickster",
-    "title": "databrickslabs/brickster: Version 0.2.14",
-    "url": "https://github.com/databrickslabs/brickster/releases/tag/v0.2.14",
-    "published": "2026-07-24",
-    "first_seen": "2026-07-30",
-    "summary": "- Fixed OAuth U2M and M2M authentication across multiple Databricks workspaces in one R session by isolating OAuth clients and cached tokens per workspace (#256, @zacdav-db)\n\n- OAuth tokens are now refreshed 40 seconds before expiry, avoiding Databricks API rejections during the final 30 seconds of a token's lifetime; this requires {httr2} 1.3.0 or later (#258, @zacdav-db)\n\n- Added databricks-cli authentication support for profiles created by databricks auth login; {brickster} obtains tokens through databricks auth token, caches only the short-lived access token in memory, and leaves durable credentials and refresh to the CLI (#258, @zacdav-db)\n\n- Authentication mode overrides now come from auth_type in the selected .databrickscfg profile; replace DATABRICKS_AUTH_TYPE with the profile field. Environment-only authentication continues to infer the mode from available credentials (#258, @zacdav-db)\n\n- Fixed dbWriteTable() and dbAppendTable() standard-path writes for binary columns, which now use Databricks BINARY types and X'...' literals when no staging volume is configured (#246, @zacdav-db)\n\n- dbConnect() now preserves Databricks API error details when its validation query fails (#247, @zacdav)\n\n- db_perform_request() and db_perform_response() now preserve useful error messages when Databricks returns non-JSON error bodies such as empty, plain-text, or HTML responses (#247, @zacdav)\n\n- Fixed git_source() erroring when type was left at its default (#225, @m-muecke)\n\n- Fixed Unity Catalog volume file requests so db_volume_* paths containing spaces are encoded correctly (#233, @zacdav-db)\n\n- db_cluster_events() now forwards the event_types argument to the API, which was previously ignored (#236, @m-muecke)…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/brickster"
-    ]
-  },
-  {
-    "id": "877f15eae014f1f8",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakemeter-oss",
-    "title": "databrickslabs/lakemeter-oss: Lakemeter OSS v0.1.0",
-    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.1.0",
-    "published": "2026-07-24",
-    "first_seen": "2026-07-30",
-    "summary": "Initial public open-source release of Lakemeter.\n\nHighlights\n\n- Databricks Apps deployment with SSO\n\n- Lakebase-backed estimate storage\n\n- Multi-cloud, region-specific pricing\n\n- Support for Jobs, All-Purpose, DBSQL, DLT/Lakeflow, Model Serving, FMAPI, Vector Search, Lakebase, Databricks Apps, AI Parse, and Shutterstock ImageAI\n\n- Excel export with detailed cost breakdowns\n\n- AI-assisted estimate creation\n\n- One-command install flow\n\nDocumentation\n\n- Docs: https://databrickslabs.github.io/lakemeter-oss/\n\n- 5-minute tutorial: https://databrickslabs.github.io/lakemeter-oss/user-guide/getting-started\n\nContributors\n\nThanks to everyone who helped build and shape Lakemeter OSS, especially @junyi-db, @changshilim-db, and @daveokeeffe-db.",
-    "category": "Data Warehousing",
-    "tags": [
-      "databrickslabs/lakemeter-oss"
-    ]
-  },
-  {
-    "id": "71a21e3f64e39141",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime maintenance updates (07/24)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-runtime-maintenance-updates-0724",
-    "published": "2026-07-24",
-    "first_seen": "2026-07-30",
-    "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18 LTS\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "7097dafa7fcf2090",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Diagnose and fix Lakebase issues with Genie, using telemetry in Unity Catalog (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#diagnose-and-fix-lakebase-issues-with-genie-using-telemetry-in-unity-catalog-beta",
-    "published": "2026-07-24",
-    "first_seen": "2026-07-30",
-    "summary": "Lakebase adds AI-assisted troubleshooting: database issues and early warnings are surfaced to you with Insights, and you can then investigate and fix them conversationally with Genie. Both draw on database telemetry captured to Unity Catalog. See AI-assisted troubleshooting.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "2da2270da9adb7c3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakeflow Designer Summer Release",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#lakeflow-designer-summer-release",
-    "published": "2026-07-24",
-    "first_seen": "2026-07-30",
-    "summary": "The Lakeflow Designer Summer Release adds new operators, expands the Output and Join operators, and improves the canvas editing experience. The following updates are now available:\n\n- Prepare operator: Use the new Prepare operator for common data-cleansing tasks, including changing text case and data types, replacing values, and applying formulas. See Prepare.\n\n- Enter Data operator: Manually create tabular data in a spreadsheet-style editor. See Enter Data.\n\n- Select operator: Use the new Select operator to choose which columns to keep, rename columns, and reorder them in the output. See Select.\n\n- Visualization operator: Create and view visualizations directly on the canvas. See Visualization.\n\n- Improved Output operator: The Output operator now supports inserting or appending data in Unity Catalog tables, publishing results as materialized views, and writing CSV, Excel, or JSON files to Unity Catalog volumes. See Output.\n\n- Split Join outputs: The Join operator now provides three outputs by default: unmatched left rows, matched rows, and unmatched right rows. This makes it easier to branch a workflow based on join results. See Join.\n\n- Case-sensitive joins: The Join operator now includes a Match case option and matches string keys case-insensitively by default.\n\n- Matched and unmatched Filter outputs: The Filter operator now provides separate outputs for matching and non-matching rows, so you can branch data based on whether it meets the filter conditions. See Filter.\n\n- Improved date filtering: The Filter operator's date picker now supports navigating across years as well as months.\n\n- Additional AI functions: The AI Function operator now supports ai_query, ai_parse_document, ai_forecast, and ai_prep_search. See AI Function.…",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "aee4685f374e2660",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Git CLI commands in Git folders are now in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#git-cli-commands-in-git-folders-are-now-in-public-preview",
-    "published": "2026-07-24",
-    "first_seen": "2026-07-30",
-    "summary": "Git CLI commands in Git folders are now in Public Preview. Git folders that you create from the UI automatically get Git CLI access when your workspace is eligible, so you can run standard Git commands such as git stash, interactive rebase, pre-commit hooks, Git submodules, and Large File Storage (LFS) directly from a Databricks terminal. Workspace admins can control access to this feature from the Previews page. See Use Git CLI commands.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "c36af1c759f295ca",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Governed tags system table is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#governed-tags-system-table-is-in-beta",
-    "published": "2026-07-24",
-    "first_seen": "2026-07-30",
-    "summary": "The system.tags.governed_tags system table is in Beta. This table contains a record for each governed tag key in your account, including customer-created and system-generated tags. Use it to programmatically determine which tags in your account are governed.\n\nSee Governed tags system table reference.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "c1608754f4938762",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Anthropic Claude Opus 5 now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#anthropic-claude-opus-5-now-available-as-a-databricks-hosted-model",
-    "published": "2026-07-24",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks Model Serving now supports Anthropic Claude Opus 5 as a Databricks-hosted model.\n\nTo access this model, use:\n\n- Foundation Model APIs pay-per-token\n\n- Query reasoning models\n\n- Query vision models",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "892b6af39f7f325d",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbr-20260723-db2745f: Set version to 4.1.0-20260723-dbrbuild",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20260723-db2745f",
-    "published": "2026-07-23",
-    "first_seen": "2026-07-30",
-    "summary": "",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "b07cc9075119b293",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/kasal",
-    "title": "databrickslabs/kasal: marketplace-v1.4.0",
-    "url": "https://github.com/databrickslabs/kasal/releases/tag/marketplace-v1.4.0",
-    "published": "2026-07-23",
-    "first_seen": "2026-07-30",
-    "summary": "Marketplace deployment version 1.4.0",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/kasal"
-    ]
-  },
-  {
-    "id": "974672c185b828bd",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "C++ SDK for the Zerobus Ingest connector is now available in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#c-sdk-for-the-zerobus-ingest-connector-is-now-available-in-beta",
-    "published": "2026-07-23",
-    "first_seen": "2026-07-30",
-    "summary": "A C++ SDK for the Zerobus Ingest connector in Lakeflow Connect is now available in Beta. The SDK provides a high-throughput gRPC client for ingesting records directly into Unity Catalog Delta tables, with support for JSON and Protocol Buffers. See Use the Zerobus Ingest connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "aca05ffd078c5adf",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-runtime-19-and-databricks-runtime-19-for-machine-learning-are-now-generally-available",
-    "published": "2026-07-23",
-    "first_seen": "2026-07-30",
-    "summary": "Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning are now generally available (GA), powered by Apache Spark 4.2.0.\n\nFor release notes, see Databricks Runtime 19 and Databricks Runtime 19 for Machine Learning.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "f519f274ae10128b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning have transitioned to LTS",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#databricks-runtime-18-and-databricks-runtime-18-for-machine-learning-have-transitioned-to-lts",
-    "published": "2026-07-23",
-    "first_seen": "2026-07-30",
-    "summary": "With the general availability of Databricks Runtime 19, Databricks Runtime 18 and Databricks Runtime 18 for Machine Learning have transitioned to long-term support (LTS). LTS versions receive three years of stability and security fixes.\n\nFor release notes, see Databricks Runtime 18 LTS and Databricks Runtime 18 LTS for Machine Learning. For lifecycle details, see Databricks Runtime support lifecycles.",
-    "category": "Platform Overview",
     "tags": []
   }
 ]
