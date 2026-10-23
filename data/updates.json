@@ -106,6 +106,53 @@
     "tags": []
   },
   {
+    "id": "34c595c5b3624ee3",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The new economics of AI cost management",
+    "url": "https://www.databricks.com/blog/ai-cost-management",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-23",
+    "summary": "Kevin Stumpf on cost attribution, smart routing, spend guardrails and growing AI spend responsibly for enterprise AI teams.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "c110e13f20f4bd68",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The Fraud Analyst AI Coworker: Detecting Telecom Fraud in Real-Time on One Platform",
+    "url": "https://www.databricks.com/blog/fraud-analyst-ai-coworker-detecting-telecom-fraud-real-time-one-platform",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-23",
+    "summary": "Telecom fraud moves at machine speed. Learn how Databricks Lakebase, Apps, and Genie unify real-time fraud detection with an AI coworker for fraud analysts.",
+    "category": "Database",
+    "tags": [
+      "Data Strategy",
+      "Telecommunications",
+      "Solutions",
+      "Customers",
+      "Data Leader",
+      "Solution Accelerators"
+    ]
+  },
+  {
+    "id": "41b6b14754003664",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The AI Bill is coming",
+    "url": "https://www.databricks.com/blog/ai-bill-coming",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-23",
+    "summary": "Databricks co-founder Patrick Wendell on why AI coding costs grow exponentially, and the four levers that cut unit costs by up to 90%.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data Strategy"
+    ]
+  },
+  {
     "id": "39eca36a0c265d97",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -8028,43 +8075,5 @@
     "tags": [
       "databricks/cli"
     ]
-  },
-  {
-    "id": "590f920bc63ad4a0",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/geobrix",
-    "title": "databrickslabs/geobrix: GeoBrix v0.4.3 (Beta)",
-    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.4.3",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-30",
-    "summary": "GeoBrix v0.4.3 (Beta)\n\nAn additive beta release that completes both-tier parity for the raster-grid family, adds heavyweight NetCDF readers and a lightweight NetCDF writer, documents the PMTiles reader, and ships a new Rasterio Distributed positioning page — on top of v0.4.2. No breaking changes. See the Beta Release Notes for the full list.\n\nHighlights\n\n- Raster BNG & quadbin grid functions are now both-tier. The nine raster-grid functions added for quadbin and BNG in v0.4.0 — the BNG reducers, the gbx_rst_quadbin_tessellate / gbx_rst_bng_tessellate generators, and the gbx_rst_quadbin_rasterize_agg / gbx_rst_bng_rasterize_agg aggregators — now run on the lightweight pyrx tier as well (cell math single-sourced from pygx, rasterization on rasterio, BNG auto-warped to EPSG:27700). With this, every RasterX function is available in both tiers. See Raster Functions and Choosing an Execution Tier.\n\n- New raster-grid reducers — sum, variance, stddev (all three grids, both tiers). gbx_rst_{h3,quadbin,bng}_rastertogrid{sum,variance,stddev} extend the rastertogrid family. variance/stddev are population statistics from a numerically-stable two-pass algorithm, matching across tiers within tolerance. See Raster Functions.\n\n- Heavyweight NetCDF readers — netcdf_gdal (raster) & netcdf_ogr (DSG vector). Two GDAL/OGR-backed readers join the lightweight netcdf_gbx: netcdf_gdal reads CF grid variables into the shared (source, tile) schema; netcdf_ogr reads CF Discrete Sampling Geometry features into the shared vector schema. Both decode CF scale_factor/add_offset to physical values, so the tiers agree within floating-point tolerance. See NetCDF Reader.…",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/geobrix"
-    ]
-  },
-  {
-    "id": "97d9bd03c9826d2b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing tables",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#automatic-upgrades-begin-rolling-out-row-tracking-and-checkpoint-v2-to-existing-tables",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-31",
-    "summary": "Automatic upgrades begin rolling out row tracking and Checkpoint V2 to existing Unity Catalog managed tables, not just new tables. This rollout is gradual, so these features will be available to different customers at different times.\n\nAutomatic upgrades turn on a feature only after the observation window verifies that every client accessing a table supports it. To track which features are available for automatic upgrades, see Supported features.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "29535ad1b37fbf7e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Python UDTFs in Unity Catalog are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#python-udtfs-in-unity-catalog-are-now-generally-available",
-    "published": "2026-07-28",
-    "first_seen": "2026-07-30",
-    "summary": "Registering Python user-defined table functions (UDTFs) in Unity Catalog is now generally available in Databricks Runtime 18. A Unity Catalog Python UDTF is a governed function that returns a table, invoked in the FROM clause of a SQL statement to return multiple rows and columns. Unity Catalog Python UDTFs run on serverless compute, classic compute with standard access mode, and SQL warehouses.\n\nSee Python user-defined table functions (UDTFs) in Unity Catalog and Databricks Runtime 18 LTS.",
-    "category": "Data Warehousing",
-    "tags": []
   }
 ]
