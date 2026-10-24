@@ -1,5 +1,19 @@
 [
   {
+    "id": "335dbb6690fc805c",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.157.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.157.0",
+    "published": "2026-10-24",
+    "first_seen": "2026-10-24",
+    "summary": "## Release v0.157.0 (2026-10-24)\n\n### API Changes\n\n* Add `get_memory_store_permission()`, `get_session_store_permission()`, `grant_memory_store_permission()`, `grant_session_store_permission()`, `list_memory_store_permissions()`, `list_session_store_permissions()`, `revoke_memory_store_permission()` and `revoke_session_store_permission()` methods for [w.agent_kit](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/agentkit/agent_kit.html) workspace-level service.\n\n* Add `create_materialization_set()`, `delete_materialization_set()`, `get_materialization_set()` and `update_materialization_set()` methods for [w.feature_engineering](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/ml/feature_engineering.html) workspace-level service.\n\n* Add `notification_settings` field for `databricks.sdk.service.dataquality.AnomalyDetectionConfig`.\n\n* Add `destination_ids` and `destination_user_ids` fields for `databricks.sdk.service.dataquality.NotificationDestination`.\n\n* Add `on_unhealthy_table` field for `databricks.sdk.service.dataquality.NotificationSettings`.\n\n* Add `file_output` field for `databricks.sdk.service.jobs.SqlOutput`.\n\n* Add `materialization_set_id` field for `databricks.sdk.service.ml.MaterializedFeature`.\n\n* Add `delete_rows` field for `databricks.sdk.service.ml.PurgeFeatureEntitiesRequest`.\n\n* Add `full_refresh_selection_by_path` and `refresh_selection_by_path` fields for `databricks.sdk.service.pipelines.StartUpdate`.\n\n* Add `full_refresh_selection_by_path` and `refresh_selection_by_path` fields for `databricks.sdk.service.pipelines.UpdateInfo`.\n\n* Add `metadata` field for `databricks.sdk.service.sandbox.Sandbox`.\n\n### Security\n\n* Require certifi 2026.10.19 or newer to use an updated CA trust bundle.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "ba6f6e7a584a4376",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -20,6 +34,104 @@
     "published": "2026-10-23",
     "first_seen": "2026-10-22",
     "summary": "The Box Audit Logs connector in Lakeflow Connect is now available in Beta. Use the connector to ingest enterprise audit events from Box into Databricks. See Box Audit Logs connector.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "ef77d0b3741861e9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Built for Agents: The Case for Spark Declarative Pipelines",
+    "url": "https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-24",
+    "summary": "A 528-build benchmark shows that declarative pipeline authoring catches structural faults before execution, cutting cluster time on the builds we measured by ~34x compared to procedural PySpark.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering",
+      "Data Engineering",
+      "AI Research",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "c8ee78ab609dc9a1",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Real-time energy trading and analytics on Databricks",
+    "url": "https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-24",
+    "summary": "See how Databricks combines real-time energy trading, risk monitoring, machine learning, and historical analytics in one governed workflow.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Energy"
+    ]
+  },
+  {
+    "id": "a50f65e4393fe4fe",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: Release v0.15.4",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.15.4",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-24",
+    "summary": "Release v0.15.4\n\nHighlight\n\n- Create a new in-workspace agentic migration project from the desktop app newest versions!\n\nProfilers\n\n- Fix SQL Server profiler row counts, system objects and procedure names by @m-abulazm in #2686\n\nReconciliation\n\n- Support Redshift Spectrum external tables in Reconcile by @theorandolph-db in #2682\n\nNew Contributors\n\n- @theorandolph-db made their first contribution\n\nFull Changelog: v0.15.3...v0.15.4",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
+    "id": "9535746059878702",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.5.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.5.0",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-24",
+    "summary": "Fixed\n\n- Back-end PrivateLink endpoints are now included in a migrated restricted private policy (AWS / GCP). When a workspace's front-end PrivateLink is endpoint-scoped, the generated private_access block is RESTRICTED_ACCESS, which gates all private ingress — not just the front-end. Previously the block was built from the Private Access Settings alone, so the workspace's back-end data-plane endpoints (SCC relay + REST, which live in the network config, not the PAS) were left out and the restricted policy blocked the data plane. The ingress run now reads them from network.vpc_endpoints (AWS VPC endpoints / GCP PSC) and adds them as a distinct allow rule alongside the front-end endpoints, deduped. A workspace with no back-end PrivateLink migrates unchanged.\n\nAdded\n\n- Tableau Cloud partner-platform ranges (previously deferred). Observed inbound IPs in Tableau Cloud's published Hyperforce pod egress ranges are labelled and recommended for allow-listing, matching the Power BI / dbt platform behaviour. Curated in-repo from the Tableau Cloud IP authorization doc.\n\nChanged\n\n- Truncation gate now offers a way back. On interactive ingress runs, declining the policy-limit \"continue?\" prompt now lets you return to the allow-rule selection (full rule set restored) or abort, instead of only aborting. --yes / scripted runs are unchanged.\n\n- Documented that the tor_exit threat feed (check.torproject.org) is often unreachable from corporate/cloud networks — the \"connection reset\" warning is a network block, not a dead/moved feed, and is safe to ignore or deselect.\n\nFull changelog: https://github.com/databrickslabs/databricks-network-policy-helper/blob/v0.5.0/CHANGELOG.md",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "7135d82e6f00eee6",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/migrate-ip-acls",
+    "title": "databrickslabs/migrate-ip-acls: v0.2.1",
+    "url": "https://github.com/databrickslabs/migrate-ip-acls/releases/tag/v0.2.1",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-24",
+    "summary": "Bug-fix release (patch).\n\nFixed\n\n- Back-end PrivateLink endpoints are now included in a restricted private policy (AWS / GCP). When front-end PrivateLink is endpoint-scoped, the generated private_access block is RESTRICTED_ACCESS — which gates all private ingress, not just the front-end. Previously the block was built from the Private Access Settings (front-end) alone, so the workspace's back-end data-plane endpoints (SCC relay + REST) — which live in the network configuration, not the PAS — were left out and the restricted policy blocked the data plane (notebook commands failing \"against the workspace's ingress policy\"). The migration now reads those back-end endpoints from the workspace's network config (network.vpc_endpoints: AWS VPC endpoints / GCP PSC) and adds them as a distinct allow rule alongside the front-end endpoints. Service-direct PrivateLink endpoints, when access is endpoint-restricted, are already carried over verbatim via the PAS. A workspace with no back-end PrivateLink (e.g. front-end only, with back-end reaching the control plane via the compute-plane NAT gateway) migrates unchanged, with a note that none was detected.\n\nFull details in CHANGELOG.md.",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/migrate-ip-acls"
+    ]
+  },
+  {
+    "id": "7a4c5ff16542c460",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Analytics Aggregated connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-analytics-aggregated-connector-is-available-in-beta",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-24",
+    "summary": "The managed Google Analytics Aggregated connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nUse the connector to ingest aggregated Google Analytics 4 report data, such as user activity, acquisition, engagement, monetization, demographics, and tech reports, into Databricks. You can also define custom reports with your own dimensions, metrics, and aggregation level. The connector supports incremental ingestion and both service account and OAuth user-to-machine (U2M) authentication.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "0495e737c17494b4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Files API 3.0 for Unity Catalog volumes is now in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#files-api-30-for-unity-catalog-volumes-is-now-in-beta",
+    "published": "2026-10-23",
+    "first_seen": "2026-10-24",
+    "summary": "Files API 3.0 is in Beta and introduces two new capabilities:\n\n- Multipart uploads: Upload files larger than 5 GB to Unity Catalog volumes.\n\n- Conditional operations: Upload, download, and delete files based on their current version to prevent unintended changes.\n\nFor more information, see What is Files API?.",
     "category": "Governance",
     "tags": []
   },
@@ -151,6 +263,30 @@
     "tags": [
       "Data Strategy"
     ]
+  },
+  {
+    "id": "f1137bac0f842814",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless job environments from pyproject.toml (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#serverless-job-environments-from-pyprojecttoml-beta",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-24",
+    "summary": "Serverless notebook and Python script tasks can use a pyproject.toml file to configure their job environment. Configure the project environment in the Jobs UI, the Jobs API, or a bundle. Workspace admins can enable Project-Scoped Shared Compute on the Previews page. See Configure a project environment with pyproject.toml.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "b609c32a81c24cd1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Shared Serverless for Asset Bundles (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#shared-serverless-for-asset-bundles-beta",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-24",
+    "summary": "With Shared Serverless for Asset Bundles, notebooks and files in the same bundle can share serverless compute and an environment defined in the bundle-root pyproject.toml file. Workspace admins can enable Project-Scoped Shared Compute on the Previews page. See Shared Serverless for Asset Bundles.",
+    "category": "Application Development",
+    "tags": []
   },
   {
     "id": "39eca36a0c265d97",
@@ -7931,149 +8067,6 @@
     "category": "Application Development",
     "tags": [
       "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "fc736b36c3666ff6",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code is now available on HIPAA compliance security profile workspaces with partner-powered AI features disabled",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#genie-code-is-now-available-on-hipaa-compliance-security-profile-workspaces-with-partner-powered-ai-features-disabled",
-    "published": "2026-07-30",
-    "first_seen": "2026-08-04",
-    "summary": "Genie Code is now available on workspaces that have the compliance security profile enabled with the HIPAA compliance standard selected and partner-powered AI features disabled. On these workspaces, Genie Code is served by Databricks-hosted models rather than partner-powered models.\n\nFor the full list of AI assistive features affected by the partner-powered AI features setting and the hosting provider used by each, see Partner-powered AI features.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "89d66fe6c05eba3a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Use Unity Gateway with your own Claude enterprise subscription",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#use-unity-gateway-with-your-own-claude-enterprise-subscription",
-    "published": "2026-07-30",
-    "first_seen": "2026-09-02",
-    "summary": "Route Claude Code through Unity Gateway using an existing Claude Pro, Max, Enterprise, or Team subscription, at no additional model cost, while your organization keeps centralized governance, usage tracking, and access control. Databricks relays your Anthropic OAuth token on each request, so no credentials are stored, and requests bill against your Anthropic subscription. Access is governed by standard Unity Catalog privileges on the model provider you register, and gateway features such as usage tracking, inference tables, rate limits, and spend tracking keep working.\n\nSee Claude Max and Anthropic Enterprise support.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "27cf2ddf08b37df5",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "NBCUniversal’s Seamless Migration: Unlocking Scalable Analytics with Databricks",
-    "url": "https://www.databricks.com/blog/nbcuniversals-seamless-migration-unlocking-scalable-analytics-databricks",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-31",
-    "summary": "NBCUniversal migrated its data infrastructure to Databricks with EXL's support, achieving a 30% reduction in compute costs and a 25% reduction in delayed jobs, while enabling parallel execution and ML innovation for its media operations.",
-    "category": "Platform Overview",
-    "tags": [
-      "Media & Entertainment",
-      "Customers"
-    ]
-  },
-  {
-    "id": "743f087f11a5090d",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Quality care is the mission. Finance protects the margin.",
-    "url": "https://www.databricks.com/blog/quality-care-mission-finance-protects-margin",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-30",
-    "summary": "Ask",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Healthcare & Life Sciences"
-    ]
-  },
-  {
-    "id": "fc2806865e72f8d1",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Energy runs on volatile markets. Finance protects the margin.",
-    "url": "https://www.databricks.com/blog/energy-runs-volatile-markets-finance-protects-margin",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-30",
-    "summary": "How energy finance turns market volatility into margin with Databricks Genie, a data-smart AI coworker grounded in a live, governed ontology.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Energy"
-    ]
-  },
-  {
-    "id": "4aefe89265ae7567",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Manufacturing runs on capital. Finance protects the margin.",
-    "url": "https://www.databricks.com/blog/manufacturing-runs-capital-finance-protects-margin",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-30",
-    "summary": "How manufacturing finance frees trapped capital and protects margin with Databricks Genie, a data-smart AI coworker grounded in a live, governed ontology.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Manufacturing"
-    ]
-  },
-  {
-    "id": "67df04d87492f9f9",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Bringing real-time fraud prevention to government benefits",
-    "url": "https://www.databricks.com/blog/bringing-real-time-fraud-prevention-government-benefits",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-30",
-    "summary": "Federal benefits lose hundreds of billions of dollars to fraud each year. See how Databricks stops it in real time, with data agencies already have.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Public Sector"
-    ]
-  },
-  {
-    "id": "a1c3f089efafd575",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Agents for production lines: Trusted decisions in real time",
-    "url": "https://www.databricks.com/blog/agents-production-lines-trusted-decisions-real-time",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-30",
-    "summary": "How streaming operational technology data into Databricks lets compound AI agents give production managers in-shift decisions instead of next-day reports.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Industries",
-      "Manufacturing"
-    ]
-  },
-  {
-    "id": "14405ea67663c003",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How agentic AI can help telecom finance teams protect the margin when every moment matters",
-    "url": "https://www.databricks.com/blog/how-agentic-ai-can-help-telecom-finance-teams-protect-margin-when-every-moment-matters",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-30",
-    "summary": "How preventing reve",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Industries",
-      "Telecommunications"
-    ]
-  },
-  {
-    "id": "e3a7ef352e3705af",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.10.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.10.0",
-    "published": "2026-07-29",
-    "first_seen": "2026-07-30",
-    "summary": "Release v1.10.0 (2026-07-29)\n\nCLI\n\n- ssh connect now supports specifying a serverless usage policy with --usage-policy-id\n\nBundles\n\n- Fixed bundle deploy/bundle destroy failing when an app enters the transient DELETING state between plan and apply (e.g. with a saved plan); the delete is now treated as complete instead of erroring (direct engine only).\n\n- Fixed bundle deploy/bundle destroy failing when an app is still in the transient DELETING state; the delete is now treated as complete instead of erroring (direct engine only).\n\n- bundle destroy --force-lock now proceeds without a deployment lock when the workspace directory is at its child-node limit and cannot accept the lock file, so a deployment can still be torn down when the workspace is full.\n\n- Empty-string values on optional (omitempty) resource fields are now dropped before deployment instead of being sent to the backend. This fixes deploys failing with errors like '' is not a valid cluster policy ID when a field such as policy_id was set to \"\" (often via a variable that resolved to an empty string). The behavior now matches between the terraform and direct engines and is reflected in bundle validate -o json.\n\n- bundle validate and bundle deploy now reject a grant that is missing a principal with an error instead of a warning. Previously the deploy would start and, on the direct engine, create the securable before the grants PATCH failed (400 INVALID_PARAMETER_VALUE), leaving a partially-applied deployment.\n\n- bundle validate and bundle deploy now reject a grant with an empty privileges list with an error. Previously, on the direct engine, such a grant never converged: the backend drops principals with no privileges, so every subsequent bundle plan reported the grant as a perpetual update.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
     ]
   }
 ]
