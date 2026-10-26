@@ -1,5 +1,74 @@
 [
   {
+    "id": "097628ee6459aa75",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The media industry is becoming a prediction economy",
+    "url": "https://www.databricks.com/blog/media-industry-becoming-prediction-economy",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-26",
+    "summary": "For",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Media & Entertainment"
+    ]
+  },
+  {
+    "id": "4889b769743374c5",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/kasal",
+    "title": "databrickslabs/kasal: marketplace-v2.0.0",
+    "url": "https://github.com/databrickslabs/kasal/releases/tag/marketplace-v2.0.0",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-26",
+    "summary": "Marketplace deployment version 2.0.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/kasal"
+    ]
+  },
+  {
+    "id": "5b336eabdda4eb6a",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.7.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.7.0",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-26",
+    "summary": "Three fixes from testing feedback.\n\nChanged\n\n- IP access list migration shows the full inventory and lets you include disabled lists. The ingress picker lists every IP access list with its status (enabled/disabled) and IPs; enabled entries are pre-checked, disabled ones offered unchecked so you can consciously migrate a dormant list (which activates it — with a warning). Non-interactive / --yes runs migrate enabled lists only.\n\n- The threat-intel deny-list cap is now a Y/N decision point, not a pass-through warning — the 5,000-CIDR prioritisation is recorded as a truncation and gated like the per-policy 2,000-CIDR trim, with the message pointing at --threat-deny-rules matched_only / --threat-feeds for curation.\n\nRemoved\n\n- Dropped the --threat-feed (singular) egress alias added in 0.6.0 — use --threat-feeds (consistent with ingress).\n\nFull changelog: https://github.com/databrickslabs/databricks-network-policy-helper/blob/v0.7.0/CHANGELOG.md",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "5ed5f7b2d51cc83f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.6.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.6.0",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-26",
+    "summary": "Expands the threat-intel feeds per security-team recommendations; feeds are now a selectable list on both sides with keyless defaults.\n\nAdded\n\n- C2IntelFeeds — validated C2 IPs (ingress c2intel) and domains (egress c2intel, keyless; VPN files excluded).\n\n- dan.me.uk Tor fallback for tor_exit when check.torproject.org is unreachable — rate-limit-guarded (≤1 fetch / 30 min, even under --refresh-feeds).\n\n- abuse.ch URLhaus (urlhaus) egress domain feed.\n\n- Selectable egress feeds: egress --threat-feeds (comma-separated c2intel/threatfox/urlhaus; --threat-feed alias) + guided checkbox.\n\n- Popularity/allowlist review (flag-only): --domain-allowlist (on by default) cross-checks block-candidates against Tranco + MISP warninglists and flags overlaps for review — never auto-unblocks (popular ≠ benign).\n\n- Opt-in abuse.ch Auth-Key: --abuse-ch-auth-key / DBX_NWP_ABUSE_CH_AUTH_KEY enables ThreatFox + URLhaus via their JSON APIs.\n\nFixed\n\n- ThreatFox egress feed was silently dead — abuse.ch retired its keyless bulk downloads (410 Gone), so --block-threat-domains had been blocking nothing. It now loads via the authenticated API, and the keyless default is c2intel.\n\nFull changelog: https://github.com/databrickslabs/databricks-network-policy-helper/blob/v0.6.0/CHANGELOG.md",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "de5f4b8809011aa3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "QuickBooks connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#quickbooks-connector-is-available-in-beta",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-26",
+    "summary": "The managed QuickBooks connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest accounting data such as accounts, customers, vendors, items, invoices, bills, payments, and journal entries from QuickBooks Online into Databricks. The connector uses OAuth user authorization and supports incremental ingestion with delete capture.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
     "id": "335dbb6690fc805c",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -12,6 +81,18 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "db53464ce2b83350",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "PayPal connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#paypal-connector-is-available-in-beta",
+    "published": "2026-10-24",
+    "first_seen": "2026-10-26",
+    "summary": "The managed PayPal connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest payments data such as transactions, disputes, invoices, balances, catalog products, and billing plans from PayPal into Databricks. The connector uses OAuth client credentials and supports incremental ingestion.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "ba6f6e7a584a4376",
@@ -1548,6 +1629,18 @@
     "first_seen": "2026-10-17",
     "summary": "AWS Private Link from Databricks serverless compute to AWS-managed resources, such as S3 buckets, previously in Public Preview, is now generally available. Your data traffic remains entirely within the AWS network and never traverses the public internet. See Configure private connectivity to AWS-managed resources.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "00b5f985efccbe51",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zoho CRM connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#zoho-crm-connector-is-available-in-beta",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-26",
+    "summary": "The managed Zoho CRM connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest CRM records such as leads, contacts, accounts, and deals, plus activities, line items, settings data, and custom modules, from Zoho CRM into Databricks. The connector uses OAuth client credentials and supports incremental ingestion.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -7968,105 +8061,6 @@
     "category": "Database",
     "tags": [
       "Partners"
-    ]
-  },
-  {
-    "id": "71aef451353f1fca",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Web terminal on serverless GPU compute (AI Runtime) is in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#web-terminal-on-serverless-gpu-compute-ai-runtime-is-in-public-preview",
-    "published": "2026-07-31",
-    "first_seen": "2026-08-01",
-    "summary": "The web terminal in notebooks connected to serverless GPU compute (AI Runtime) is now in Public Preview. Use it to run shell commands, monitor GPU usage with nvidia-smi, install libraries, and manage files directly on the compute. This requires serverless GPU environment version 5 or above. See Run shell commands in Databricks web terminal.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "773aefdb1c4434d0",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "OpenAI connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#openai-connector-beta",
-    "published": "2026-07-31",
-    "first_seen": "2026-08-01",
-    "summary": "The OpenAI connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses the OpenAI Organization Admin API to ingest organization administration data, such as users, projects, API keys, usage, costs, and audit logs, from OpenAI into Databricks. Authentication uses an OpenAI Admin API key.\n\nSee OpenAI connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "6bc2b1dd6a519132",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Packaged clean rooms are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/july#packaged-clean-rooms-are-now-generally-available",
-    "published": "2026-07-31",
-    "first_seen": "2026-08-04",
-    "summary": "Packaged clean rooms are now generally available. In a packaged clean room, a provider supplies notebooks, JARs, and data that a consumer runs against their own data without seeing the provider's code or data assets. See Packaged clean rooms.",
-    "category": "Sharing",
-    "tags": []
-  },
-  {
-    "id": "239d3a4cde9f6f29",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Foundations for an AI-forward healthcare organization",
-    "url": "https://www.databricks.com/blog/foundations-ai-forward-healthcare-organization",
-    "published": "2026-07-30",
-    "first_seen": "2026-07-31",
-    "summary": "Why AI-forward healthcare organizations are built on a foundation of unified data, governance people trust, and a repeatable operating model comes first.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Healthcare & Life Sciences"
-    ]
-  },
-  {
-    "id": "f609ca412d70640a",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Agentic media buying cannot scale without the right foundation. See how buyers and sellers get there on Databricks.",
-    "url": "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get",
-    "published": "2026-07-30",
-    "first_seen": "2026-07-31",
-    "summary": "Agentic media buying stalls without the right platform. See how Databricks powers autonomous buyer and seller agents with the state, models, governance, identity, and observability they need.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Platform",
-      "Solutions",
-      "Engineering",
-      "Solution Accelerators",
-      "Industries",
-      "Media & Entertainment"
-    ]
-  },
-  {
-    "id": "c1ce6f8c6fdba866",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Convert proprietary code to open ANSI SQL with Genie Code",
-    "url": "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code",
-    "published": "2026-07-30",
-    "first_seen": "2026-07-30",
-    "summary": "Genie Code, Databricks' AI coding agent, automates migration planning and converts proprietary code to open ANSI SQL.",
-    "category": "AI Assistant",
-    "tags": [
-      "Platform",
-      "Product"
-    ]
-  },
-  {
-    "id": "e703f9b4ca49487c",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.123.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.123.0",
-    "published": "2026-07-30",
-    "first_seen": "2026-07-31",
-    "summary": "## Release v0.123.0 (2026-07-30)\n\n### API Changes\n\n* Add [w.ai_gateway](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/catalog/ai_gateway.html) workspace-level service.\n\n* Add `update_operation()` method for [w.bundle_deployments](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/bundledeployments/bundle_deployments.html) workspace-level service.\n\n* Add `patch_telemetry_config()` method for [w.serving_endpoints](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/serving/serving_endpoints.html) workspace-level service.\n\n* Add `last_successful_version_id` and `updated_by` fields for `databricks.sdk.service.bundledeployments.Deployment`.\n\n* Add `dashboard_metadata`, `sequence_id` and `update_time` fields for `databricks.sdk.service.bundledeployments.Operation`.\n\n* Add `dashboard_metadata` field for `databricks.sdk.service.bundledeployments.Resource`.\n\n* Add `previous_version_id` field for `databricks.sdk.service.bundledeployments.Version`.\n\n* Add `dependency_mode` field for `databricks.sdk.service.compute.ClusterAttributes`.\n\n* Add `dependency_mode` field for `databricks.sdk.service.compute.ClusterDetails`.\n\n* Add `dependency_mode` field for `databricks.sdk.service.compute.ClusterSpec`.\n\n* Add `dependency_mode` field for `databricks.sdk.service.compute.CreateCluster`.\n\n* Add `dependency_mode` field for `databricks.sdk.service.compute.EditCluster`.\n\n* Add `dependency_mode` field for `databricks.sdk.service.compute.EnforcePolicyComplianceForClusterResponseClusterSettings`.\n\n* Add `dependency_mode` field for `databricks.sdk.service.compute.UpdateClusterResource`.\n\n* Add `effective_entitlements` field for `databricks.sdk.service.iamv2.WorkspaceAssignmentDetail`.\n\n* Add `code_source_path` field for `databricks.sdk.service.jobs.AiRuntimeTask`.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
     ]
   }
 ]
