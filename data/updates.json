@@ -1,5 +1,163 @@
 [
   {
+    "id": "25e1d0a22c0f8ae2",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unlocking Investment Insights Without Migrating Your Data: Lakehouse Federation",
+    "url": "https://www.databricks.com/blog/unlocking-investment-insights-without-migrating-your-data-lakehouse-federation",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "Use Databricks Lakehouse Federation to join on-premise portfolio data with FactSet marketplace data powering a dashboard and Genie. Join on-premises portfolio data with FactSet cloud analytics in a single SQL query with no pipelines, no copies, no compliance headaches. Build Dashboards and Agents on this enriched data.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform",
+      "Solutions",
+      "Tutorials",
+      "Financial Services",
+      "Insights",
+      "Customers"
+    ]
+  },
+  {
+    "id": "4aed764eb70377ff",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "From spot fixes to measured gains: improving document extraction accuracy with ai_extract and MLflow Prompt Registry",
+    "url": "https://www.databricks.com/blog/spot-fixes-measured-gains-improving-document-extraction-accuracy-aiextract-and-mlflow-prompt",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "Build more reliable ai_extract pipelines by improving extraction quality, versioning prompts and schemas, and evaluating changes against ground truth.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering",
+      "Solutions",
+      "Customers",
+      "Best Practices",
+      "Media & Entertainment",
+      "Data Science and ML"
+    ]
+  },
+  {
+    "id": "14766293f85e0c9a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "BigQuery to Databricks: A Strategic Framework",
+    "url": "https://www.databricks.com/blog/bigquery-databricks-strategic-framework",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "Discover best practices for migrating BigQuery data, scripts, and stacks to Databricks. Learn to optimize ROI and governance during your architectural evolution.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Lakehouse",
+      "Data Warehousing"
+    ]
+  },
+  {
+    "id": "f89d7c61b4467c9f",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.3.0-rc3",
+    "url": "https://github.com/apache/spark/releases/tag/v4.3.0-rc3",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "Preparing Spark release v4.3.0-rc3",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "328b550a42de87e0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.8.1",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.8.1",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "Three bug fixes surfaced while testing 0.8.0.\n\nFixed\n\n- Guided yes/no prompts no longer submit on a single keystroke. questionary.confirm defaulted to auto_enter=True, so a lone y/n confirmed instantly and a habitual follow-up Enter fell through to the next prompt — easy to accidentally accept the default on the following selection (e.g. the wrong profile/workspace). Confirms now require an explicit Enter.\n\n- The egress popularity/allowlist check now flags popular subdomains, not just exact hostnames. The feeds list registrable domains (e.g. githubusercontent.com), so raw.githubusercontent.com (a ThreatFox IOC) slipped the \"popular, review before blocking\" net and out-ranked github.com in the cap ordering. The check now walks parent domains up to the registrable level, skipping bare public suffixes (e.g. ac.uk) so they don't over-match. Flag-only — never auto-unblocks.\n\nChanged\n\n- Ingress truncation warnings now name exactly what they drop. The 50-rule cap and both 2,000-CIDR caps previously said only \"keeping the first 50 (allow rules prioritised)\" / \"trimming allow rules\" / \"deny CIDRs trimmed\", which could silently discard the threat-intel / denied-IP deny rules requested via --block-threat-ips / --deny-denied-ips when allow rules alone filled the budget. All three now itemise the drop (counts of deny/allow rules or CIDRs removed, dropped deny rules listed by name). Allow rules are still prioritised.\n\nFull changelog: https://github.com/databrickslabs/databricks-network-policy-helper/blob/v0.8.1/CHANGELOG.md",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "0a94e87a12f72dd7",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.8.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.8.0",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "Aligns the ingress and egress threat controls behind a single mode flag each with interactive feed selection, and fixes the egress domain-block cap to prioritise by risk.\n\nChanged\n\n- Egress domain-block cap is risk-prioritised. Over the 100-destination cap, the block set keeps the highest-signal domains — traffic-matched first, then higher-severity feeds (C2IntelFeeds C2 ahead of abuse.ch ThreatFox/URLhaus), popularity-allowlisted dropped first — instead of cutting alphabetically. Still gated by the interactive Y/N truncation prompt.\n\n- Symmetric threat flags. Ingress --threat-deny-rules is renamed to --block-threat-ips (the IP-side mirror of egress --block-threat-domains; same off/matched_only/all modes). When not off, an interactive run asks which feeds to use. Known-bad source IPs are always flagged and kept out of the allow-list, independent of the flag. (Breaking: migrate --threat-deny-rules → --block-threat-ips.)\n\nRemoved\n\n- Collapsed egress threat flags into --block-threat-domains. --threat-feeds, --abuse-ch-auth-key, --domain-allowlist/--no-domain-allowlist, and --domain-allowlist-feeds are removed; feeds / Auth-Key / allowlist are prompted interactively when engaged. Headless uses the keyless feeds plus the abuse.ch feeds when DBX_NWP_ABUSE_CH_AUTH_KEY is set. (Breaking.)\n\n- Removed --threat-feeds from ingress. Feeds are selected interactively when --block-threat-ips is engaged; headless uses all feeds. (Breaking.)\n\nFull changelog: https://github.com/databrickslabs/databricks-network-policy-helper/blob/v0.8.0/CHANGELOG.md",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "af0ba47be87d6a8f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/migrate-ip-acls",
+    "title": "databrickslabs/migrate-ip-acls: v0.2.2",
+    "url": "https://github.com/databrickslabs/migrate-ip-acls/releases/tag/v0.2.2",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "Patch release — label wording only, no behaviour change.\n\nChanged\n\n- Cloud-neutral back-end private-endpoint rule label. The generated back-end private-access rule is now labelled back-end private endpoints (data-plane relay + REST) instead of \"back-end PrivateLink …\", and the related console messages match. The rule is created identically on all three clouds, where the feature is named differently (AWS PrivateLink, Azure Private Link, GCP Private Service Connect), so the neutral \"private endpoints\" term is clearer.\n\nFull details in CHANGELOG.md.",
+    "category": "Security",
+    "tags": [
+      "databrickslabs/migrate-ip-acls"
+    ]
+  },
+  {
+    "id": "3d40326d089253c5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Editing files in Unity Catalog volumes is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#editing-files-in-unity-catalog-volumes-is-now-generally-available",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "You can now edit files in Unity Catalog volumes directly in the workspace file editor, without downloading and uploading them again. Open a file from Catalog Explorer or from the schema browser in a notebook or the SQL editor. See Edit files in a volume.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "2f0fbc7a641b10c1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OpenAI GPT-6.1 Terra is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#openai-gpt-61-terra-is-now-available-on-unity-gateway",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "OpenAI GPT-6.1 Terra is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "92a4d62aeaef4a39",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Default OAuth apps for external AI agents are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#default-oauth-apps-for-external-ai-agents-are-now-generally-available",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "ChatGPT, Codex, Claude, Claude Code, and Cursor can now connect to Databricks MCP servers, including the Genie One MCP server, using default OAuth client IDs. An account admin doesn't need to create an OAuth app. See Default OAuth client IDs.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "40a31bfd3adf5599",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Functions Unity Catalog permissions is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#ai-functions-unity-catalog-permissions-is-now-generally-available",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "summary": "AI Functions Unity Catalog permissions is now generally available. Metastore admins can use Unity Catalog permissions on the system.ai schema to control which task-specific AI Functions users in your organization can run. Contact your Databricks account team to enable this feature. See AI Functions Unity Catalog permissions.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "097628ee6459aa75",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -66,6 +224,63 @@
     "first_seen": "2026-10-26",
     "summary": "The managed QuickBooks connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest accounting data such as accounts, customers, vendors, items, invoices, bills, payments, and journal entries from QuickBooks Online into Databricks. The connector uses OAuth user authorization and supports incremental ingestion with delete capture.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "6617a6ebccf54ee8",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unify your productivity and AI data with Lakeflow Connect",
+    "url": "https://www.databricks.com/blog/unify-your-productivity-and-ai-data-lakeflow-connect",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-27",
+    "summary": "This is the seco",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform",
+      "Product",
+      "Lakeflow"
+    ]
+  },
+  {
+    "id": "9f48d98541a6a7a6",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How to teach with Databricks Free Edition",
+    "url": "https://www.databricks.com/blog/how-teach-databricks-free-edition",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-27",
+    "summary": "A practical guide for faculty: map your courses to the right tools, distribute assignments, and get students building on real production data and AI infrastructure, for free.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Public Sector"
+    ]
+  },
+  {
+    "id": "abe1054ae5ce803b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Building live intelligence: Databricks AI Search supports Streaming Tables, Materialized Views, and Managed tables using Iceberg",
+    "url": "https://www.databricks.com/blog/building-live-intelligence-databricks-ai-search-supports-streaming-tables-materialized-views",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-27",
+    "summary": "AI S",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform & Products & Announcements"
+    ]
+  },
+  {
+    "id": "40c115887f941311",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Improved Lakeflow Performance Observability is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#improved-lakeflow-performance-observability-is-now-generally-available",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-27",
+    "summary": "Lakeflow Jobs now show query performance metrics and insights at the job level for supported tasks. You can view job-level data volume metrics and use the Optimize button to open Genie Code to help improve queries with performance insights. See View query performance metrics for serverless jobs.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -572,6 +787,34 @@
     "summary": "Genie Code tasks in Lakeflow Jobs are now generally available. A Genie Code task runs your prompt autonomously as part of a job. It can read upstream task outputs and call tools as needed, and it returns a link to the resulting Genie Code chat with its response. See Genie Code task for jobs.",
     "category": "AI Assistant",
     "tags": []
+  },
+  {
+    "id": "0c5bbc6afc21729c",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.2.1",
+    "url": "https://github.com/apache/spark/releases/tag/v4.2.1",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-27",
+    "summary": "Preparing Spark release v4.2.1-rc3",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "e7f07307b7dcde8d",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.1.4",
+    "url": "https://github.com/apache/spark/releases/tag/v4.1.4",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-27",
+    "summary": "Preparing Spark release v4.1.4-rc4",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
   },
   {
     "id": "dca2db5ccf1527ff",
@@ -1224,6 +1467,18 @@
     "first_seen": "2026-10-20",
     "summary": "The Data Classification API and its Terraform resource are now generally available. Auto-tagging configuration (auto_tag_configs) remains in Public Preview. See the API reference.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "c84697cb4ace4733",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie agentic capabilities are now processed in India",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-agentic-capabilities-are-now-processed-in-india",
+    "published": "2026-10-14",
+    "first_seen": "2026-10-27",
+    "summary": "Genie Code agentic capabilities, Genie Agents Agent mode, and chat in Genie One now process data within India for workspaces in India regions, without cross-Geo processing. For where each AI assistive feature processes data, see Databricks Designated Services.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -2651,6 +2906,18 @@
     "first_seen": "2026-10-07",
     "summary": "The managed GitLab connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nUse the connector to ingest repository, project, group, CI/CD, and security data from GitLab into Databricks. The connector uses OAuth U2M authentication and supports incremental ingestion, UI-based pipeline authoring, Declarative Automation Bundles, and API-based pipeline authoring.",
     "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "41b21fa8cca5ff29",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Vimeo connector (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#vimeo-connector-beta",
+    "published": "2026-10-01",
+    "first_seen": "2026-10-27",
+    "summary": "The Vimeo connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests team, team member, team role, and audit log data from Vimeo into Databricks. Authentication uses a Vimeo personal access token.\n\nSee Vimeo connector.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -7813,254 +8080,6 @@
     "tags": [
       "Platform",
       "Product"
-    ]
-  },
-  {
-    "id": "dad8a9d585f9d527",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Databricks Completes Acquisition of Panther: Accelerating the Security Lakehouse Era",
-    "url": "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-03",
-    "summary": "Databricks completes its Panther acquisition to accelerate the security lakehouse. Learn how AI agents and open data transform SOC threat detection and response.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "1fbeda3808edbf95",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: MLflow 3.15.1",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.15.1",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-03",
-    "summary": "MLflow 3.15.1 is a patch release that includes bug fixes and documentation updates.\n\nBug fixes:\n\n- [Model Registry] Skip env_pack on ARM client images (#24762, @qyc)\n\n- [Scoring / Tracking] Harden version parsing against missing/non-PEP440 versions on Databricks Serverless (#24799, @PattaraS)\n\nDocumentation updates:\n\n- [Docs] Clarify scorer versioning documentation (#24769, @nihalmenon)",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "ddd9995931e504bf",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Organize your work with spaces",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#organize-your-work-with-spaces",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-04",
-    "summary": "You can now use spaces to organize your work in the Databricks editor. Each space lets you focus on a specific folder or project while preserving your open tabs, so you can easily pick up where you left off.\n\nSee Organize your work with spaces.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "23067812aea0198e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Automatic cost attribution for materialized views and streaming tables in Databricks SQL",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#automatic-cost-attribution-for-materialized-views-and-streaming-tables-in-databricks-sql",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-04",
-    "summary": "Materialized view and streaming table refreshes in Databricks SQL now inherit custom tags from the enclosing SQL warehouse environment. These tags propagate to billing surfaces like system.billing.usage, enabling proper cost attribution of materialized view and streaming table updates back to the source SQL warehouse. See Attribute costs to the SQL warehouse with custom tags.",
-    "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "add983b65d103720",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie One and Genie Agents free usage extended through January 31, 2027",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-one-and-genie-agents-free-usage-extended-through-january-31-2027",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-04",
-    "summary": "Free usage of Genie One and Genie Agents is extended through January 31, 2027. This promotion was previously set to end on July 31, 2026. Budget controls do not apply to these products during the promotional period.\n\nThe promotion covers usage by users only. Service principals are excluded, and their Genie One and Genie Agents usage continues to be billed.\n\nGenie Code is not included in the free usage promotion. Each Genie Code user continues to receive 150 free DBUs per month, and usage above that allowance receives a 25% discount through January 31, 2027. You can combine this discount with applicable Serverless Real-Time Inference discounts. For more information about pricing, see Databricks pricing.\n\nTo track free and billed usage in the billing system tables, see Monitor and understand your Genie cost.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "61878888d8eec180",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Filter updates for the Databricks Excel Add-in",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#filter-updates-for-the-databricks-excel-add-in",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-04",
-    "summary": "The Databricks Excel Add-in now supports cascading filters and case-insensitive string matching. Additionally, the LIKE, NOT LIKE, IN, and NOT IN filters are no longer available in the filters list.\n\nSee Filter imported data.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "85d261b0939863d5",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Refresh materialized views and streaming tables without exempting the pipeline owner from ABAC policies",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#refresh-materialized-views-and-streaming-tables-without-exempting-the-pipeline-owner-from-abac-policies",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-04",
-    "summary": "You can now refresh a pipeline-managed materialized view or streaming table even when the pipeline owner or run-as identity is subject to an attribute-based access control (ABAC) policy.\n\nPreviously, refreshing a materialized view or streaming table managed by a pipeline required the pipeline owner or run-as identity to be exempt from any applicable ABAC policy. That limitation has been removed.\n\nWhen a pipeline refreshes a materialized view or streaming table, policies are evaluated using the pipeline owner's or run-as identity. If you don't want the persisted data to be masked or filtered, add the pipeline owner or run-as identity to the EXCEPT clause of ABAC policies associated with all the tables being read during the pipeline refresh. Use the TO clause to specify which users and groups receive masked or filtered data.\n\nSee ABAC policies on materialized views and streaming tables.On this page\n- Organize your work with spaces\n- Automatic cost attribution for materialized views and streaming tables in Databricks SQL\n- Genie One and Genie Agents free usage extended through January 31, 2027\n- Filter updates for the Databricks Excel Add-in\n- Refresh materialized views and streaming tables without exempting the pipeline owner from ABAC policiesPrivacy Notice<s",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "cf3cf86f68fe2134",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "MANAGE no longer requires USE CATALOG or USE SCHEMA on the same object",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#manage-no-longer-requires-use-catalog-or-use-schema-on-the-same-object",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-05",
-    "summary": "The MANAGE privilege no longer requires a usage privilege (USE CATALOG or USE SCHEMA) on the object where MANAGE is granted. This change makes MANAGE behave more consistently with object ownership.\n\nPreviously, MANAGE on a catalog or schema took effect only if you also held the appropriate usage privileges on that object. You still need usage privileges on any parent containers:\n\n- MANAGE on a catalog requires no usage privileges.\n\n- MANAGE on a schema requires USE CATALOG on the parent catalog, but no longer requires USE SCHEMA on the schema.\n\n- MANAGE on a table, view, volume, or function is unchanged. It still requires USE CATALOG on the parent catalog and USE SCHEMA on the parent schema.\n\nAll other privileges are unaffected and still require usage privileges as prerequisites, even for users with MANAGE. For example, querying a table still requires SELECT on the table, plus USE CATALOG and USE SCHEMA on the parent catalog and schema.\n\nIf you granted MANAGE broadly without also granting the corresponding usage privileges, those grants are now active, and holders can manage the object. Databricks recommends auditing existing MANAGE grants to confirm they reflect your intended access.\n\nSee Usage privilege requirements for MANAGE.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "432e271039032471",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Secrets in Unity Catalog is GA",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#secrets-in-unity-catalog-is-ga",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-08",
-    "summary": "Secrets in Unity Catalog is now generally available. You can store, govern, and access secrets as securable objects in Unity Catalog. A Unity Catalog secret uses the three-level namespace (catalog.schema.secret) and is governed by Unity Catalog privileges, so you can apply the same access controls and auditing that you use for other data assets. See Secrets in Unity Catalog.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "442cb185bd5f7574",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Serverless compute access control is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#serverless-compute-access-control-is-now-generally-available",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-08",
-    "summary": "Serverless compute access control is now generally available. Workspace admins can govern who runs serverless workloads through two built-in serverless compute objects: Default Interactive Compute (governs access to notebooks and Databricks Connect) and Default Automated Compute (governs access to jobs and Spark Declarative Pipelines on Lakeflow). All workspace users have Can Use on both objects by default, so existing workloads continue to run without changes.\n\nSee Serverless compute access control.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "041a567e6ab41a77",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Environment variables for serverless jobs are in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#environment-variables-for-serverless-jobs-are-in-beta",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-18",
-    "summary": "Environment variables for serverless Lakeflow Jobs tasks are in Beta. You can define named environment variable entries at the job level and select one for each task to pass deployment-specific configuration to your application code. A workspace admin must enable the preview from the workspace Previews page. See Configure environment variables for serverless jobs.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "4c1f7eb7784c39fa",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakemeter-oss",
-    "title": "databrickslabs/lakemeter-oss: Lakemeter OSS v0.1.1",
-    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.1.1",
-    "published": "2026-08-01",
-    "first_seen": "2026-08-01",
-    "summary": "Patch release introducing safer upgrades and correcting AI Parse estimate persistence. No database schema or data migration is required.\n\nNew capabilities\n\nVersion-aware upgrades\n\n- Added scripts/upgrade.sh with status, plan, doctor, apply, and rollback commands.\n\n- Added installation discovery, release planning, prerequisite checks, and Semantic Versioning policy enforcement.\n\n- Added immutable runtime staging, authenticated health verification, concurrency locks, resumable execution, automatic recovery, and manual rollback.\n\n- Added Lakebase backup branches for future minor data updates and major schema migrations. Patch upgrades never modify Lakebase.\n\nBefore upgrading, update your repository checkout or download this release, then run ./scripts/upgrade.sh plan and ./scripts/upgrade.sh doctor.\n\nDirect Lakebase Autoscaling provisioning\n\n- New installations create Lakebase Autoscaling projects, branches, and endpoints directly.\n\n- The installer and application use Autoscaling endpoint credentials and resource bindings.\n\nBug fixes\n\nServerless upgrader authentication\n\n- Fixed upgrade.sh apply verification from Databricks serverless jobs by exchanging the notebook credential for an OAuth token scoped to the target Databricks App.\n\n- Preserved authenticated health, database connectivity, and exact-version checks without the prior HTTP 401 rollback.\n\nAI Parse estimate persistence\n\n- Fixed AI Parse estimates so calculation method, complexity, DBU quantity, page count, mode, and page volume persist and clone correctly.\n\n- Mapped API-facing AI Parse fields consistently to the existing database columns, preventing saved estimates from losing their calculated configuration.\n\nDocumentation updates\n\n- Added a complete Upgrade Guide.…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/lakemeter-oss"
-    ]
-  },
-  {
-    "id": "497399898ecc8f2d",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbr-20260730-0cfca7c0c",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20260730-0cfca7c0c",
-    "published": "2026-07-31",
-    "first_seen": "2026-07-31",
-    "summary": "Set version to 4.1.0-20260730-dbrbuild for DBR kernel build",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "a3cc02b9151e8af8",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: v3.15.0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.15.0",
-    "published": "2026-07-31",
-    "first_seen": "2026-07-31",
-    "summary": "MLflow 3.15.0 includes several major features and improvements\n\nMajor New Features\n\n- 🧩 MCP Registry: A centralized catalog for registering, versioning, and sharing Model Context Protocol servers — with semantic-versioned configs, promotable aliases, tags, auto-discovered tools, and ready-made connection instructions for Claude Code and .mcp.json. Manage it from the UI, REST API, or Python!\n\n- 🤖 MLflow Assistant enhancements: The in-app AI assistant now supports multiple LLM providers (Claude Code, Codex, and OpenAI-compatible/Gateway endpoints) chosen from a single settings page, displays live per-session token usage and estimated cost in the composer, and is easier to set up — mlflow agent setup can enable it in one prompt, with API keys stored securely in the Gateway's LLM Connections.\n\n- 🗂️ Sharable table views: Save named views of the Runs table — capturing columns, order, widths, filters, and sort — and share them by URL.\n\n- ⚡ Proxy-less artifact upload/download via presigned URLs: Large artifact transfers can now bypass the tracking server and talk directly to cloud storage (e.g. S3) through presigned URLs, cutting server load and timeouts on big files. We fall back to proxied transfer automatically for backward compatibility.\n\n- 🖼️ Multi-modal attachments in LLM judges: {{ trace }} judges created with make_judge() can now see images captured in trace spans via a new get_span_image tool, which fetches attachments as base64 data URLs and passes them to multimodal models (Anthropic, Gemini, and OpenAI-compatible via litellm) — enabling evaluation of vision tasks, screenshots, and other visual content.\n\nOther Assorted Features & Improvements:\n\n- [Tracing / Tracking] Add Pydantic AI 2.x autologging support (#24721, @B-Step62)…",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "1a22ec539780341c",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: ts/v0.3.1: Bump `@mlflow/claude-code` to 0.3.1 (#24751)",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/ts%2Fv0.3.1",
-    "published": "2026-07-31",
-    "first_seen": "2026-07-31",
-    "summary": "",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "4fde447e42179edb",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: Model Catalog",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
-    "published": "2026-07-31",
-    "first_seen": "2026-07-30",
-    "summary": "Per-provider model catalog files. Updated weekly by CI.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "820c262629d10638",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontos",
-    "title": "databrickslabs/ontos: Ontos v1.0.2",
-    "url": "https://github.com/databrickslabs/ontos/releases/tag/v1.0.2",
-    "published": "2026-07-31",
-    "first_seen": "2026-07-31",
-    "summary": "What's changed\n\nSince v1.0.1. This release focuses on the Ask Ontos copilot, MCP correctness, and a move to npm-only frontend builds.\n\n✨ Features\n\nAsk Ontos copilot uplift (#280)\n\n- App-state awareness: adoption mode plus a mode-aware preamble so answers match how far along a workspace is\n\n- Context injection: the active role, current page, and focused entity are passed into the prompt\n\n- Context-scope toggle on the \"Asking about\" chip, with a per-scope prompt cap\n\n- Entity-aware starter prompts on detail pages, expanded from entity templates\n\n- Smart prompt ranking so the most relevant suggestions surface first\n\n- Ask Ontos honors an applied role override in its role label\n\n🐛 Bug Fixes\n\n- ontology-generator: retry without temperature for Claude endpoints that reject the parameter (#644)\n\n- mcp-tools: agent data access now actually works (#643)\n\n- mcp: comply with JSON-RPC and release the DB session for streaming clients (#642)\n\n- mcp: scoped tokens could not list or call read-scoped tools (#641)\n\n- compliance: app-entity loader yielded nothing while the repo was fail-closed (#640)\n\n- readiness: count output-port contracts via contractId (#639)\n\n- products: publish_product read a nonexistent port.data_contract_id (#638)\n\n- genie: space creation used the wrong API schema and notifications were never sent (#593)\n\n- genie: resolve table FQNs from contract schemas; sort data_sources.tables by identifier as the API requires\n\n- copilot: strip orphan asterisk runs, tighten the markdown rule, and fix post-rename issues after concepts became handbook\n\n🔧 Maintenance\n\n- frontend/docs: migrate to npm-only builds, dropping yarn from the frontend and docs site (#657)…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontos"
-    ]
-  },
-  {
-    "id": "e5907e734a58750a",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.3.0",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.3.0",
-    "published": "2026-07-31",
-    "first_seen": "2026-07-31",
-    "summary": "What's Changed\n\n- Add calculated (derived) channels to the query engine and reporting layer by @tombonfert in #63\n\n- Fix: preserve double timestamps for PointValueAggregator and unify event start_ts/end_ts type by @tombonfert in #65\n\n- Incremental persistence: single MERGE per fact table + fix stale-row & ordering bugs by @tombonfert in #66\n\n- CI: split test job into parallel query-engine and reporting shards by @tombonfert in #70\n\n- Add custom statistics (per-channel & cross-channel, multi-output) to StatsAggregator by @tombonfert in #67\n\n- Bump version to 0.3.0 in VERSION file by @tombonfert in #71\n\nFull Changelog: v0.2.0...v0.3.0\n\nWhat's Changed\n\n- Add calculated (derived) channels to the query engine and reporting layer by @tombonfert in #63\n\n- Fix: preserve double timestamps for PointValueAggregator and unify event start_ts/end_ts type by @tombonfert in #65\n\n- Incremental persistence: single MERGE per fact table + fix stale-row & ordering bugs by @tombonfert in #66\n\n- CI: split test job into parallel query-engine and reporting shards by @tombonfert in #70\n\n- Add custom statistics (per-channel & cross-channel, multi-output) to StatsAggregator by @tombonfert in #67\n\n- Bump version to 0.3.0 in VERSION file by @tombonfert in #71\n\nFull Changelog: v0.2.0...v0.3.0",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "3ab87184f2b7bf97",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Backstage with Lakebase, part 3",
-    "url": "https://www.databricks.com/blog/backstage-lakebase-part-3",
-    "published": "2026-07-31",
-    "first_seen": "2026-08-01",
-    "summary": "In t",
-    "category": "Database",
-    "tags": [
-      "Partners"
     ]
   }
 ]
