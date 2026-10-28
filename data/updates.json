@@ -1,5 +1,46 @@
 [
   {
+    "id": "9f8010789ea0c3e2",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Voice Agents are here. Context turns them into real customer value.",
+    "url": "https://www.databricks.com/blog/voice-agents-are-here-context-turns-them-real-customer-value",
+    "published": "2026-10-28",
+    "first_seen": "2026-10-28",
+    "summary": "Be",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Industries",
+      "Retail & Consumer Goods"
+    ]
+  },
+  {
+    "id": "4fde447e42179edb",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: Model Catalog",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/model-catalog%2Flatest",
+    "published": "2026-10-28",
+    "first_seen": "2026-07-30",
+    "summary": "Per-provider model catalog files. Updated weekly by CI.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "11ffba8b8fa86ef4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless GPU for clean room notebooks is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#serverless-gpu-for-clean-room-notebooks-is-now-generally-available",
+    "published": "2026-10-28",
+    "first_seen": "2026-10-28",
+    "summary": "You can now run clean room notebooks on serverless GPU compute for model inference and training over shared data. GPU notebooks run on AI Runtime and use the same approval flow, data access, and output tables as other clean room notebooks. See Run a notebook on serverless GPU.",
+    "category": "Sharing",
+    "tags": []
+  },
+  {
     "id": "25e1d0a22c0f8ae2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -158,6 +199,37 @@
     "tags": []
   },
   {
+    "id": "7a2b5b2f758e7c8b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Vital Skills: Upskilling Genie Code with Healthcare and Life Sciences skills",
+    "url": "https://www.databricks.com/blog/vital-skills-upskilling-genie-code-healthcare-and-life-sciences-skills",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-28",
+    "summary": "The blog highlights what Vital Skills, a skill library built by Databricks industry experts, can do for analytical and scientific development with Genie Code. We explain the development and evaluation process, highlight some specific skills, and show how customers can find and use these skills.",
+    "category": "AI Assistant",
+    "tags": [
+      "Industries",
+      "Solutions",
+      "News",
+      "Best Practices",
+      "Healthcare & Life Sciences",
+      "Solution Accelerators"
+    ]
+  },
+  {
+    "id": "f639718a3f1798ca",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Gateway Usage Dashboard v1.0",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#unity-gateway-usage-dashboard-v10",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-28",
+    "summary": "The Unity Gateway Usage Dashboard v1.0 is now available. Explore coding-agent adoption, harness usage, and estimated session spend. The dashboard offers expanded model and user spend analysis and tag-based spend attribution.\n\nSee Usage dashboard.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
     "id": "097628ee6459aa75",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -281,6 +353,18 @@
     "first_seen": "2026-10-27",
     "summary": "Lakeflow Jobs now show query performance metrics and insights at the job level for supported tasks. You can view job-level data volume metrics and use the Optimize button to open Genie Code to help improve queries with performance insights. See View query performance metrics for serverless jobs.",
     "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "11ec4ad5c3e4d173",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Account-level security features are now available by default at GA",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#account-level-security-features-are-now-available-by-default-at-ga",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-28",
+    "summary": "Going forward, account-level security features will be available to all accounts immediately upon General Availability (GA), without requiring account admins to manually enable them on the Previews page. Account admins must still configure these features before they take effect.\n\nThis includes features for network connectivity (such as private connectivity), network security (such as ingress and egress controls), encryption, and enhanced security and compliance.\n\nWhy are we making this change?\n\nThis change makes it easier for platform teams to discover and adopt security best practices as soon as new security capabilities become generally available. Making these features available does not automatically change an account's security configuration or enforce new controls. Account admins retain full control over whether and how to adopt them.",
+    "category": "Security",
     "tags": []
   },
   {
@@ -817,6 +901,20 @@
     ]
   },
   {
+    "id": "acc6254c9fe7dbb9",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.0.5",
+    "url": "https://github.com/apache/spark/releases/tag/v4.0.5",
+    "published": "2026-10-21",
+    "first_seen": "2026-10-28",
+    "summary": "Preparing Spark release v4.0.5-rc3",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
     "id": "dca2db5ccf1527ff",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -1326,6 +1424,18 @@
     "first_seen": "2026-10-22",
     "summary": "Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions:\n\n- Payment card and financial data: Card security codes, card expiration dates, card track data, card PINs, SWIFT codes, and credit scores.\n\n- Personal and employee data: Gender, residency status, disability data, sexual data, street addresses, geographic coordinates, compensation, and employment status.\n\n- Software security secrets: Credentials and secrets used by software.\n\n- Regional identifiers: Added 35 new classes and expanded coverage in existing classes across 18 countries and regions, including China, Mexico, the UK, other European countries, and more. See the documentation for details.\n\nRegional tags are available in select regions. See Supported classification tags.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "429aa76448ebe398",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Migrate is generally available for SQL conversion",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-migrate-is-generally-available-for-sql-conversion",
+    "published": "2026-10-15",
+    "first_seen": "2026-10-28",
+    "summary": "Genie Migrate, formerly the agentic code converter, is now generally available for the SQL target framework. Powered by Genie Code, it converts SQL from dialects such as T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata into Databricks SQL queries. You organize the work in a migration project, and Genie Migrate validates the output and fixes errors before writing the results to a workspace folder. After a conversion, you can continue chatting with Genie Code about the converted files to address action items or summarize the changes.\n\nSee Convert SQL with Genie Migrate.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -7980,106 +8090,5 @@
     "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18 LTS\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
     "category": "Platform Overview",
     "tags": []
-  },
-  {
-    "id": "bbc68d0ebee77b53",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Sharing Delta tables with Iceberg reads enabled is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-delta-tables-with-iceberg-reads-enabled-is-now-generally-available",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-06",
-    "summary": "Sharing Delta tables with Iceberg reads enabled is now generally available. See Delta Lake feature support matrix.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "f44122f4b780c520",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Sharing Delta tables with deletion vectors and column mapping is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-delta-tables-with-deletion-vectors-and-column-mapping-is-now-generally-available",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-06",
-    "summary": "Sharing Delta tables with deletion vectors or column mapping enabled is now generally available. See Add tables with deletion vectors or column mapping to a share.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "7423e7cab6c1082e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Format AI/BI dashboard widget titles and descriptions with rich text",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#format-aibi-dashboard-widget-titles-and-descriptions-with-rich-text",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-07",
-    "summary": "Visualization widget titles and descriptions support rich text formatting. Click a widget's title or description to open a formatting toolbar, where you can apply text styling, links, and tables, or type markdown directly.\n\nSee Format widget titles and descriptions.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "1e0efebc3defe94c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "NetSuite connector (GA)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#netsuite-connector-ga",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-12",
-    "summary": "The managed NetSuite connector in Lakeflow Connect is now generally available. The connector allows you to ingest ERP and financial data from Oracle NetSuite into Databricks. See NetSuite connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "8a68b199424ee5b9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unity Gateway is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-gateway-is-now-generally-available",
-    "published": "2026-08-04",
-    "first_seen": "2026-09-02",
-    "summary": "Unity Gateway is now generally available. Unity Gateway is the Databricks governance solution for enterprise AI, part of Unity Catalog. With Unity Gateway you can:\n\n- Control which AI services teams can use.\n\n- Route and manage AI traffic across providers.\n\n- Govern MCP servers to control access and costs.\n\n- Monitor usage, cost, access, and lineage from one place.\n\nSome capabilities, including service policies and agent services, remain in Beta.\n\nSee AI governance with Unity AI Gateway and AI governance guide.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "cf8858325a713aed",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Schema-level HTTP connections in Unity Catalog are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#schema-level-http-connections-in-unity-catalog-are-now-generally-available",
-    "published": "2026-08-04",
-    "first_seen": "2026-09-02",
-    "summary": "HTTP connections in Unity Catalog are now generally available at the schema level. You can create an HTTP connection inside a schema instead of only at the metastore level. A schema-level connection uses the three-level namespace (catalog.schema.connection) and inherits Unity Catalog privileges from its parent schema, so you can apply the same access controls and auditing that you use for other data assets. Metastore-level HTTP connections remain in Public Preview. See Connect to external HTTP services.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "356d1091b3335815",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "The New Monday Morning Report: How Generative AI can deliver the insights your executives need.",
-    "url": "https://www.databricks.com/blog/new-monday-morning-report-how-generative-ai-can-deliver-insights-your-executives-need",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-03",
-    "summary": "A VP",
-    "category": "Platform Overview",
-    "tags": [
-      "Retail & Consumer Goods"
-    ]
-  },
-  {
-    "id": "54ec4d1782a26278",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Ingest semi-structured data faster and more efficiently with Variant - Now Generally Available",
-    "url": "https://www.databricks.com/blog/ingest-semi-structured-data-faster-and-more-efficiently-variant-now-generally-available",
-    "published": "2026-08-03",
-    "first_seen": "2026-08-03",
-    "summary": "For years, ingesting",
-    "category": "Data Engineering",
-    "tags": [
-      "Platform",
-      "Product"
-    ]
   }
 ]
