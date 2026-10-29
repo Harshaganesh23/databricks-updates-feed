@@ -1,5 +1,63 @@
 [
   {
+    "id": "c74502ac0df6ef40",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Smarter cost controls for serverless",
+    "url": "https://www.databricks.com/blog/smarter-cost-controls-serverless",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-29",
+    "summary": "Discover how Databricks brings cost controls including attribution, access controls, and smarter spend limits to serverless.",
+    "category": "Governance",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "8006f2172a93c733",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Procore is powering construction analytics with OpenSharing",
+    "url": "https://www.databricks.com/blog/how-procore-powering-construction-analytics-opensharing-0",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-29",
+    "summary": "How Procore uses Databricks OpenSharing to share hundreds of governed tables with construction companies and lift the once-a-day refresh ceiling so customers can refresh hourly.",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "5cb774a46375959a",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.158.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.158.0",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-29",
+    "summary": "## Release v0.158.0 (2026-10-29)\n\n### API Changes\n\n* Add `get_budget_spend_status()` and `list_budget_spend_statuses()` methods for [a.budgets](https://databricks-sdk-py.readthedocs.io/en/latest/account/billing/budgets.html) account-level service.\n\n### Bug Fixes\n\n* Fix `WorkspaceClient.files.download_to` with `use_parallel=True` always falling back to the Files API for files above the parallel download threshold, instead of downloading byte ranges from presigned URLs (or from the storage proxy when `experimental_files_ext_enable_storage_proxy` is set). A byte range that fails after another range was received now raises, and expired GCP presigned URLs are refreshed like AWS and Azure ones.\n\n* Fix `WorkspaceClient.files.download_to` with `use_parallel=True` requesting the wrong path from the Files API when the file path contains characters such as `#`, `?` or `%`.\n\n* Fix Databricks CLI authentication rejecting small wrappers around the CLI (e.g. launcher scripts or version manager shims) as the legacy Python CLI. Small files found in `PATH` are now only rejected if they are the entry point pip installs for the legacy Python CLI.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "4204470004f2fd0f",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.23.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.23.0",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-29",
+    "summary": "CLI\n\n- Fix GitHub API rate limit errors in aitools list and plugin installs by pinning skills to 0.2.32. (#7159)\n\n- databricks ssh connect now makes claude and codex available on dedicated clusters. (#7190)\n\n- databricks ssh connect on serverless now makes claude and codex available in IDE sessions (--ide) and to non-interactive commands (e.g. databricks ssh connect -- 'claude -p \"...\"'). (#7123)\n\nAI Runtime\n\n- Add workload support for the GPU_1xRTX6000 accelerator type in enabled workspaces. (#7214)\n\n- Show only the accelerator types available in the current workspace in databricks air run -h config.compute. (#6993)\n\nBundles\n\n- Fixed bundle validate failing with \"expected a map to index\" when a job schedule, trigger or continuous is a reference to a whole block, such as ${resources.jobs.base.schedule}. (#7225)\n\n- Added lifecycle.depends_on to order resources without referencing their fields. (#7120)\n\n- Immutable-folder deploys now refuse to deploy onto a snapshot that was modified outside the bundle (break glass); bundle deploy --force moves the deployment to a fresh snapshot. (#6774)\n\n- Fix --include-locations failing when a resource is missing a required field. (#7185)\n\n- Removed spurious \"required field is not set\" warnings for a field whose value is a reference to a whole block, such as schedule: ${resources.jobs.base.schedule}. (#7226)\n\n- Revert bundle file uploads to the legacy /workspace-files/import-file endpoint, rolling back #6149 and #7034 released in v1.21.0. This fixes notebooks being uploaded as plain files and deployments failing (for example SQL notebooks in #7216). A remote file or notebook whose type differs from the local one is now deleted and replaced instead of blocking the deploy. (#7218)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
     "id": "9f8010789ea0c3e2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -38,6 +96,18 @@
     "first_seen": "2026-10-28",
     "summary": "You can now run clean room notebooks on serverless GPU compute for model inference and training over shared data. GPU notebooks run on AI Runtime and use the same approval flow, data access, and output tables as other clean room notebooks. See Run a notebook on serverless GPU.",
     "category": "Sharing",
+    "tags": []
+  },
+  {
+    "id": "ccfb3a8425a30ecf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "View personal and shared spend limits with the ug CLI",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#view-personal-and-shared-spend-limits-with-the-ug-cli",
+    "published": "2026-10-28",
+    "first_seen": "2026-10-29",
+    "summary": "ug usage now shows up to five personal and shared spend limits, starting with the highest percentage used. Run ug usage --all to see all applicable limits. See Check your usage.",
+    "category": "Application Development",
     "tags": []
   },
   {
@@ -368,6 +438,18 @@
     "tags": []
   },
   {
+    "id": "58bdb3ee8458e963",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Check budget usage with the Spend Status API",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#check-budget-usage-with-the-spend-status-api",
+    "published": "2026-10-26",
+    "first_seen": "2026-10-29",
+    "summary": "Use the Spend Status API to check your usage against Unity Gateway budget limits. Retrieve a single budget's spend status or list statuses across budgets. See Budget Spend Status API.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "335dbb6690fc805c",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -665,6 +747,18 @@
     "published": "2026-10-22",
     "first_seen": "2026-10-24",
     "summary": "With Shared Serverless for Asset Bundles, notebooks and files in the same bundle can share serverless compute and an environment defined in the bundle-root pyproject.toml file. Workspace admins can enable Project-Scoped Shared Compute on the Previews page. See Shared Serverless for Asset Bundles.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "3f5614934c717562",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Shared Serverless (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#shared-serverless-beta",
+    "published": "2026-10-22",
+    "first_seen": "2026-10-29",
+    "summary": "With Shared Serverless, notebooks and files in the same bundle can share serverless compute and an environment defined in the bundle-root pyproject.toml file. Workspace admins can enable Project-Scoped Shared Compute on the Previews page. See Use Shared Serverless in bundles.",
     "category": "Application Development",
     "tags": []
   },
@@ -5465,6 +5559,18 @@
     "tags": []
   },
   {
+    "id": "64b8eb19664c90db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Shared Serverless is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#shared-serverless-is-in-beta",
+    "published": "2026-09-02",
+    "first_seen": "2026-10-29",
+    "summary": "You can now use Shared Serverless to share serverless compute and a pyproject.toml-managed environment across notebooks and files in a Git folder. See Use Shared Serverless for Git folders and bundles.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
     "id": "d3736787702b53b6",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -7986,109 +8092,6 @@
     "first_seen": "2026-08-08",
     "summary": "Lakebase is now available by default for workspaces with the compliance security profile enabled and either HIPAA, C5, or TISAX controls selected, and for workspaces with the compliance security profile enabled without a compliance standard. See Data protection.",
     "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "0f1af7da8d935b32",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Unity AI Gateway is Generally Available",
-    "url": "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-05",
-    "summary": "The",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Announcements",
-      "Product"
-    ]
-  },
-  {
-    "id": "c84c93e6b3f1f5ca",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Databricks joins the Open Secure AI Alliance to advance AI safety and security",
-    "url": "https://www.databricks.com/blog/databricks-joins-open-secure-ai-alliance-advance-ai-safety-and-security",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-05",
-    "summary": "Databricks is an inaugural member of the Open Secure AI Alliance with NVIDIA and other organizations, a coalition built on the premise that defenders are stronger when the models, harnesses, and tooling they depend on are open to study, adapt, and run. Our own work follows that principle: Omnigent, Databricks AI Security Framework (DASF), Databricks AI Governance Framework (DAGF), and BlackIce are all open source and available to the community. On the defense side, Lakewatch leverages the Databricks Open Security Lakehouse foundation, enabling security teams to run open weight and proprietary models, custom tools, and threat intelligence seamlessly.",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Partners"
-    ]
-  },
-  {
-    "id": "45b5af470327b2f4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unity AI Gateway is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-ai-gateway-is-now-generally-available",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-05",
-    "summary": "Unity AI Gateway is now generally available. Unity AI Gateway is the Databricks governance solution for enterprise AI, part of Unity Catalog. With Unity AI Gateway you can:\n\n- Control which AI services teams can use.\n\n- Route and manage AI traffic across providers.\n\n- Govern MCP servers to control access and costs.\n\n- Monitor usage, cost, access, and lineage from one place.\n\nSome capabilities, including service policies and agent services, remain in Beta.\n\nSee AI governance with Unity AI Gateway and AI governance guide.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "2816e1d695667e3e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "SharePoint connector (GA)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharepoint-connector-ga",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-05",
-    "summary": "The SharePoint connector in Lakeflow Connect is now Generally Available. See SharePoint connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "222b5d2842cb9ab5",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "PagerDuty connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#pagerduty-connector-beta",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-05",
-    "summary": "The managed PagerDuty connector in Lakeflow Connect is now available in Beta. The connector ingests incident, on-call, service, and audit data from PagerDuty into Databricks. See PagerDuty connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "d2503c75710a856d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Drive connector (GA)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-connector-ga",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-05",
-    "summary": "The Google Drive connector in Lakeflow Connect is now Generally Available. See Google Drive connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "2b4c8b3eacbc91ca",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Full page Genie Code is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#full-page-genie-code-is-now-generally-available",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-05",
-    "summary": "Full page Genie Code is now generally available. Full page Genie Code is a command center experience where the active chat is shown prominently, notebooks and files open as tabs alongside it, and you can run multiple chats in parallel. Start work directly from Genie Code, and personalize how it works with skills, instructions, and MCP servers. See Full page Genie Code.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "bfadf1bec854947d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks Runtime maintenance updates (08/04)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#databricks-runtime-maintenance-updates-0804",
-    "published": "2026-08-04",
-    "first_seen": "2026-08-05",
-    "summary": "New maintenance updates are available for supported Databricks Runtime versions. These updates include bug fixes, security patches, and performance improvements. For details, see:\n\n- Databricks Runtime 18 LTS\n\n- Databricks Runtime 18.2\n\n- Databricks Runtime 18.1\n\n- Databricks Runtime 17.3 LTS\n\n- Databricks Runtime 16.4 LTS\n\n- Databricks Runtime 15.4 LTS\n\n- Databricks Runtime 14.3 LTS\n\n- Databricks Runtime 13.3 LTS",
-    "category": "Platform Overview",
     "tags": []
   }
 ]
