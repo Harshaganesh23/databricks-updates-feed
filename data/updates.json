@@ -1,5 +1,67 @@
 [
   {
+    "id": "88d86ea1e173dae1",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: V0.9.1",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.9.1",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-30",
+    "summary": "OntoBricks — Release Notes V0.9.1\n\nRelease window: October 2026\n\nType: Patch release (v0.9.0 → v0.9.1)\n\nTest status: uv run --frozen pytest -q -m \"not scenario\": 9625 passed, 326 skipped, 8 deselected. Live campaign on ontobricks-09x (2026-10-29): make scenario-campaign 7 passed in 22m; validation 13 passed, 0 failed.\n\nThis release is additive on v0.9.0. Lakehouse//RT queries, staged Ontology\n\nGenerate, Knowledge Store, Studio, SPARQL playground, entity quality / SWRL /\n\nJobs, GitHub mirror, and the 0.9.0 security hardening remain as documented in\n\nreleases/ReleaseNotes_V0.9.0.md.\n\nHighlights\n\n- Viewers can search Explorer and use Graph Chat — those POSTs only read;\n\nwrites (load, node actions) stay blocked. (#190)\n\n- SWRL swrlb: builtins apply on inference and materialization — datatype\n\nfilters no longer infer zero triples. (#171 /\n\n#172)\n\n- Auto-Map emits Unity Catalog Metric View SQL — MEASURE(...) plus\n\nGROUP BY dimensions, with a submit-time guard against SELECT *.\n\n- Faster bulk Data Quality — the R2RML gateway VIEW is CTAS'd once into a\n\ntask-scoped Delta snapshot; checks run in parallel against the copy, with a\n\nlive activity log that stays visible when the run finishes.\n\n- Entity Data Quality Checks stream a live log — Explorer starts a\n\nbackground task and polls log_entries; MCP and the public GET stay\n\nsynchronous.\n\n- Lakebase quality SQL stays on the Build warehouse — quality no longer\n\nfollows a Lakehouse//RT query warehouse (Thrift + Apps OAuth retry).\n\n- Dependabot floors raised in pyproject.toml (Pillow, certifi, GitPython,\n\nMLflow, setuptools, fastmcp, OpenTelemetry, filelock, black). uv.lock\n\nregeneration is still required before the alerts clear.\n\n- Planning trees stay local — .planning/ is gitignored; the eval gate…",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
+    "id": "52e2a8d270ef975c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Track Unity Gateway skill usage with audit logs and the usage dashboard",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#track-unity-gateway-skill-usage-with-audit-logs-and-the-usage-dashboard",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-30",
+    "summary": "You can now track usage of Unity Gateway Skills, which are in Beta. Audit logs record skill list, load, and file fetch events under the aiGatewaySkills service. The Skills tab of the usage dashboard shows downloads, loads, and activity by user.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "59fc1e62457cfccf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Microsoft Graph Logs connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#microsoft-graph-logs-connector-is-available-in-beta",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-30",
+    "summary": "The managed Microsoft Graph Logs connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest security alerts from Microsoft Defender XDR, Microsoft Sentinel, and other Microsoft security products into Databricks. The connector uses OAuth machine-to-machine authentication with a Microsoft Entra ID application and supports incremental ingestion.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "ec488c28a72f22f4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Relationships between metric views (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#relationships-between-metric-views-beta",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-30",
+    "summary": "Relationships between Unity Catalog metric views are in Beta. Use ALTER VIEW ... ADD CONSTRAINT ... RELATIONSHIP to record how a source metric view joins to a target metric view, including the cardinality and the join condition, so that AI assistants and BI tools choose the right join path. Relationships require Databricks Runtime 19 and above, or a SQL warehouse. See Relationships between metric views.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "d13b20764c8b7ddf",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Claude Code auto mode for Anthropic and non-Anthropic models",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#claude-code-auto-mode-for-anthropic-and-non-anthropic-models",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-30",
+    "summary": "Claude Code auto mode is now supported for both Anthropic and non-Anthropic models hosted by Databricks. Auto mode reviews tool calls to reduce routine permission prompts. See Auto mode.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "c74502ac0df6ef40",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -58,6 +120,73 @@
     ]
   },
   {
+    "id": "e14cf7d8e2c636d9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Announcing General Availability of Real-Time Mode for Spark Declarative Pipelines on Databricks",
+    "url": "https://www.databricks.com/blog/announcing-general-availability-real-time-mode-spark-declarative-pipelines-databricks",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-30",
+    "summary": "We",
+    "category": "Data Engineering",
+    "tags": [
+      "Platform",
+      "Data Streaming",
+      "Data Engineering",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "f3e2f9629c3c4288",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.17.1",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.17.1",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-30",
+    "summary": "What's Changed\n\nDQX Core\n\n- Improved check performance on Photon compute (#1641). Building the _errors and _warnings result columns no longer uses a struct-to-struct cast, so checks stay in Photon on any Photon-enabled cluster.\n\n- Fixed has_json_keys accepting JSON values that are not objects (#1615). JSON arrays, scalars, and JSON null (e.g. [], 1, null) previously passed the check; they now fail with an is not a JSON object message, in both ANSI and legacy mode.\n\n- Required certifi>=2026.10.19 (#1632). DQX and the MCP server now declare a minimum certifi version, so installs pick up the CA bundle that removes the distrusted \"emSign ECC Root CA - G3\" root.\n\nDQX Studio\n\n- DQX Studio: fixed approving a monitored table deleting other tables' checks (#1640). Cleanup of orphaned checks is now limited to the approved table, so approved checks for other tables stay in dq_resolved_rules and dq_rules_core.\n\nContributors: @alexott, @berrybluecode, @james-smith-uk, @mattfaltyn, @ghanse",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "b17e114b30597d75",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Xero connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#xero-connector-is-available-in-beta",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-30",
+    "summary": "The managed Xero connector is now available in Beta in Databricks Lakeflow Connect. Workspace admins can enable it from the Previews page.\n\nUse the connector to ingest accounting data such as invoices, payments, and contacts from Xero into Databricks. The connector uses OAuth user authorization, ingests transaction tables such as invoices and payments incrementally, and removes deleted records for supported tables.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "53426de991f4d539",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Simba JDBC Driver (Legacy) 2.8.6 is available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#simba-jdbc-driver-legacy-286-is-available",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-30",
+    "summary": "Simba JDBC Driver (Legacy) 2.8.6 prevents pending Cloud Fetch downloads from delaying the last connection from closing. It also updates lz4-java, Jackson, and libthrift. Download it from the JDBC drivers archive under All JDBC Driver Versions (Simba).",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "f4a2870d8a33b959",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Real-time mode in Lakeflow pipelines is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#real-time-mode-in-lakeflow-pipelines-is-now-generally-available",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-30",
+    "summary": "Real-time mode in Lakeflow pipelines is now generally available on classic compute and serverless compute. Use it for operational workloads that need end-to-end latency as low as five milliseconds, such as fraud detection. See Use real-time mode in Lakeflow pipelines.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
     "id": "9f8010789ea0c3e2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -108,6 +237,18 @@
     "first_seen": "2026-10-29",
     "summary": "ug usage now shows up to five personal and shared spend limits, starting with the highest percentage used. Run ug usage --all to see all applicable limits. See Check your usage.",
     "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "3dd45819a9a4c6a2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Multiple real-time flows per serverless pipeline and source stage adaptive repartitioning are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#multiple-real-time-flows-per-serverless-pipeline-and-source-stage-adaptive-repartitioning-are-in-beta",
+    "published": "2026-10-28",
+    "first_seen": "2026-10-30",
+    "summary": "On serverless pipelines that use the preview channel, you can run multiple real-time mode flows in one pipeline without the flows competing for task slots. Source stage adaptive repartitioning automatically adjusts the number of tasks that read from each Kafka or Kinesis source to match its traffic, so you don't need to set maxPartitions or shardsPerTask. Both capabilities are in Beta. See Serverless pipelines on the preview channel.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -298,6 +439,20 @@
     "summary": "The Unity Gateway Usage Dashboard v1.0 is now available. Explore coding-agent adoption, harness usage, and estimated session spend. The dashboard offers expanded model and user spend analysis and tag-based spend attribution.\n\nSee Usage dashboard.",
     "category": "Business Intelligence",
     "tags": []
+  },
+  {
+    "id": "429377dd50f788ab",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v4.3.0",
+    "url": "https://github.com/apache/spark/releases/tag/v4.3.0",
+    "published": "2026-10-27",
+    "first_seen": "2026-10-30",
+    "summary": "Preparing Spark release v4.3.0-rc3",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
   },
   {
     "id": "097628ee6459aa75",
@@ -7943,154 +8098,6 @@
     "published": "2026-08-06",
     "first_seen": "2026-08-21",
     "summary": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled. See Zerobus Ingest overview.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "cd526345e0208e31",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unity Gateway API: Manage resources with SDKs, the CLI, and Terraform",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-gateway-api-manage-resources-with-sdks-the-cli-and-terraform",
-    "published": "2026-08-06",
-    "first_seen": "2026-09-02",
-    "summary": "You can manage Unity Gateway resources programmatically instead of clicking through the UI, with full create, read, update, list, and delete support for endpoints, model providers, and MCP servers. The API is available across standard Databricks developer tools:\n\n- Python SDK: databricks-sdk 0.125.0 and later\n\n- Go SDK: databricks-sdk-go v0.170.0 and later\n\n- Java SDK: databricks-sdk-java 0.143.0 and later\n\n- Databricks CLI: v1.11.0 and later\n\n- Terraform provider: 1.124.0 and later\n\nSee the Unity Gateway API reference.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "5b1fe6d171bcbbda",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks-managed MCP connectors are now integrated with Unity Gateway (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#databricks-managed-mcp-connectors-are-now-integrated-with-unity-gateway-beta",
-    "published": "2026-08-06",
-    "first_seen": "2026-09-02",
-    "summary": "All Databricks-managed MCP connectors for Genie One and Genie Code have migrated to the Unity Gateway. This brings Databricks-managed connectors under Unity Gateway, enabling centralized governance, access controls, and visibility alongside your other MCP servers and tools.\n\nUsers must reauthenticate their connectors to continue using them with Genie One and Genie Code. A notification in Genie prompts impacted users to reconnect.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "d7743aa9dba54f61",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Moonshot AI Kimi K3 is now available on Unity Gateway",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#moonshot-ai-kimi-k3-is-now-available-on-unity-gateway",
-    "published": "2026-08-06",
-    "first_seen": "2026-09-02",
-    "summary": "Moonshot AI Kimi K3 is now available on Unity Gateway for long-horizon coding, knowledge work, and reasoning, with native vision. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nTo query the model and see supported regions, see Use foundation models.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "25b26bf2969fe32e",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.124.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.124.0",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-05",
-    "summary": "## Release v0.124.0 (2026-08-04)\n\n### API Changes\n\n* Add `group_id` field for `databricks.sdk.service.iamv2.Group`.\n\n* Add `service_principal_id` field for `databricks.sdk.service.iamv2.ServicePrincipal`.\n\n* Add `user_id` field for `databricks.sdk.service.iamv2.User`.\n\n* Add `kinesis_stream_config` field for `databricks.sdk.service.ml.StreamSourceConfig`.\n\n* Add `mode` field for `databricks.sdk.service.pipelines.UpdateInfo`.\n\n* [Breaking] Change `state` field for `databricks.sdk.service.bundledeployments.Operation` to type `str` dataclass.\n\n* [Breaking] Change `state` field for `databricks.sdk.service.bundledeployments.Resource` to type `str` dataclass.\n\n* [Breaking] Remove `aws_access_key_id` and `aws_secret_access_key` fields for `databricks.sdk.service.catalog.ModelProviderServiceConfigAmazonBedrockProviderDirectConfig`.\n\n* [Breaking] Remove `client_id`, `client_secret` and `tenant_id` fields for `databricks.sdk.service.catalog.ModelProviderServiceConfigAzureOpenAiProviderDirectConfig`.\n\n* [Breaking] Remove `client_id`, `client_secret` and `tenant_id` fields for `databricks.sdk.service.catalog.ModelProviderServiceConfigMicrosoftFoundryProviderDirectConfig`.\n\n* [Breaking] Remove `internal_id` field for `databricks.sdk.service.iamv2.Group`.\n\n* [Breaking] Remove `internal_id` field for `databricks.sdk.service.iamv2.ServicePrincipal`.\n\n* [Breaking] Remove `internal_id` field for `databricks.sdk.service.iamv2.User`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "6cb40b2bb410f203",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.125.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.125.0",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-06",
-    "summary": "## Release v0.125.0 (2026-08-05)\n\n### API Changes\n\n* Add `principal_overrides` and `scope_type` fields for `databricks.sdk.service.billing.AlertConfiguration`.\n\n* Add `resource_type` field for `databricks.sdk.service.billing.BudgetConfiguration`.\n\n* Add `resource_type` field for `databricks.sdk.service.billing.CreateBudgetConfigurationBudget`.\n\n* Add `principal_overrides` and `scope_type` fields for `databricks.sdk.service.billing.CreateBudgetConfigurationBudgetAlertConfigurations`.\n\n* Add `resource_type` field for `databricks.sdk.service.billing.UpdateBudgetConfigurationBudget`.\n\n* Add `grant` field for `databricks.sdk.service.catalog.PolicyInfo`.\n\n* Add `input_column` and `output_column` fields for `databricks.sdk.service.pipelines.Transformer`.\n\n* Add `block_usage` enum value for `databricks.sdk.service.billing.ActionConfigurationType`.\n\n* Add `netsuite` enum value for `databricks.sdk.service.catalog.ConnectionType`.\n\n* Add `policy_type_grant` enum value for `databricks.sdk.service.catalog.PolicyType`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "bcfb70a1ee8af0ea",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Window measures on a numeric index column in metric views",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#window-measures-on-a-numeric-index-column-in-metric-views",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-06",
-    "summary": "Window measures in metric views support a unitless numeric offset and numeric trailing and leading ranges on a consecutive integer order column. Use a numeric index to compare along a business period that is not a calendar date, such as a fiscal week or a 4-4-5 accounting period. See Window measures on a numeric index column.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "4ae71b308b8093ec",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie One is now available in Google Sheets",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-one-is-now-available-in-google-sheets",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-06",
-    "summary": "You can now use Genie One directly in the Databricks Connector for Google Sheets. Query your governed Databricks data in natural language and import the results into Google Sheets as native rows and columns. See Use Genie in Google Sheets.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "457f79d36f809a34",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie One is now available in Microsoft Excel",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-one-is-now-available-in-microsoft-excel",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-06",
-    "summary": "You can now use Genie One directly in the Databricks Excel Add-in. Query your governed Databricks data in natural language and import the results into Microsoft Excel as native rows and columns. See Use Genie in Microsoft Excel.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "01b30a6a6c4194dc",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "JAR tasks on serverless compute are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#jar-tasks-on-serverless-compute-are-now-generally-available",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-08",
-    "summary": "Package Scala or Java code as a JAR and run it as a task in a Lakeflow Job on serverless compute, without provisioning or managing clusters. See Create and run JARs on serverless compute.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "5146d17c8040288c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "REPLACE USING flows for pipelines (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#replace-using-flows-for-pipelines-beta",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-08",
-    "summary": "REPLACE USING flows are now available in Lakeflow pipelines in Beta.\n\nUse a REPLACE USING flow when your source is a series of partial snapshots keyed by column. On each update, the flow replaces all rows that match the specified key columns and leaves all other rows unchanged. A SEQUENCE BY column orders the updates, so the highest sequence for a key always wins, even when updates arrive out of order. REPLACE USING doesn't require a change data capture feed with explicit insert, update, and delete operations, and it doesn't require a primary key.\n\nSee Partial snapshot replacement with REPLACE USING flows.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "460abd135d48c89c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Search and replace text across files",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#search-and-replace-text-across-files",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-08",
-    "summary": "You can now search and replace text across files in a Databricks Git folder or Declarative Automation Bundles project from the Search pane. See Search and replace across files.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "29fef06dd35656f9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase support for compliance security profile standards",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakebase-support-for-compliance-security-profile-standards",
-    "published": "2026-08-05",
-    "first_seen": "2026-08-08",
-    "summary": "Lakebase is now available by default for workspaces with the compliance security profile enabled and either HIPAA, C5, or TISAX controls selected, and for workspaces with the compliance security profile enabled without a compliance standard. See Data protection.",
     "category": "Security",
     "tags": []
   }
