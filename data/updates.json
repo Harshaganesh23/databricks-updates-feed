@@ -1,5 +1,19 @@
 [
   {
+    "id": "38c324f55041b249",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Managed warehouse for MLflow (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#managed-warehouse-for-mlflow-beta",
+    "published": "2026-11-30",
+    "first_seen": "2026-10-31",
+    "summary": "Databricks platform update — November 2026.",
+    "category": "Data Warehousing",
+    "tags": [
+      "approx-date"
+    ]
+  },
+  {
     "id": "88d86ea1e173dae1",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/ontobricks",
@@ -59,6 +73,91 @@
     "first_seen": "2026-10-30",
     "summary": "Claude Code auto mode is now supported for both Anthropic and non-Anthropic models hosted by Databricks. Auto mode reviews tool calls to reduce routine permission prompts. See Auto mode.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "0fcb48d7b86dff5e",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks and SAP unleash end-to-end data & AI capabilities to level up enterprise AI transformation",
+    "url": "https://www.databricks.com/blog/databricks-and-sap-unleash-end-end-data-ai-capabilities-level-enterprise-ai-transformation",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-31",
+    "summary": "SAP Databricks accelerates AI transformation with more performant data access from SAP Application Data Foundation to leverage the new Databricks capabilities: Genie, Lakeflow, Agent Bricks, Unity Gateway, and Lakebase. The new SAP Application Data Foundation eases access to on-premises and cloud SAP data in SAP Business Data Cloud (SAP BDC) and SAP Databricks.",
+    "category": "Database",
+    "tags": [
+      "Platform",
+      "Partners"
+    ]
+  },
+  {
+    "id": "bda2ca88f48f8801",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Wealth Management Client Onboarding Needs More Than AI",
+    "url": "https://www.databricks.com/blog/wealth-management-client-onboarding-needs-more-ai",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-31",
+    "summary": "Why AI alone can't fix fragmented wealth management client onboarding, and how governed case context connects evidence, agents, and human review.",
+    "category": "Application Development",
+    "tags": [
+      "Industries",
+      "Solutions",
+      "Customers",
+      "Data Leader",
+      "Financial Services",
+      "Data Science and ML"
+    ]
+  },
+  {
+    "id": "641f763280ab5ea8",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Deliberate decisions and enterprise AI value",
+    "url": "https://www.databricks.com/blog/deliberate-decisions-and-enterprise-ai-value",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-31",
+    "summary": "Explore how grounded AI leadership helps organizations make better investment choices, clarify ownership and turn AI ambition into sustained enterprise value.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data Strategy",
+      "Data Leader"
+    ]
+  },
+  {
+    "id": "2ea723b415a3f02b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Moonshot AI Kimi K2.7 is retired",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#moonshot-ai-kimi-k27-is-retired",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-31",
+    "summary": "Moonshot AI Kimi K2.7 was retired on October 30, 2026. Kimi K3 is the recommended replacement. See Deprecated and retired models for migration guidance.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "b094e849c1fc0738",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Thinking Machine Labs Inkling is retired",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#thinking-machine-labs-inkling-is-retired",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-31",
+    "summary": "Thinking Machine Labs Inkling was retired on October 30, 2026. GLM 5.3 or Kimi K3 is the recommended replacement. See Deprecated and retired models for migration guidance.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "fe5bc602cfd671bd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4 Pro (0813) is retired",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#deepseek-v4-pro-0813-is-retired",
+    "published": "2026-10-30",
+    "first_seen": "2026-10-31",
+    "summary": "DeepSeek V4 Pro (0813) was retired on October 30, 2026. DeepSeek V4.1 Flash (1017) is the recommended replacement. See Deprecated and retired models for migration guidance.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -183,6 +282,18 @@
     "published": "2026-10-29",
     "first_seen": "2026-10-30",
     "summary": "Real-time mode in Lakeflow pipelines is now generally available on classic compute and serverless compute. Use it for operational workloads that need end-to-end latency as low as five milliseconds, such as fraud detection. See Use real-time mode in Lakeflow pipelines.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "fe95d2d15738302e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Native XML file format support is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#native-xml-file-format-support-is-now-generally-available",
+    "published": "2026-10-29",
+    "first_seen": "2026-10-31",
+    "summary": "Native XML file format support is now generally available. You can ingest, query, and parse XML files in batch or streaming workloads with Auto Loader, read_files, and COPY INTO, and use the from_xml and schema_of_xml SQL functions. See Read and write XML files.",
     "category": "Data Engineering",
     "tags": []
   },
@@ -7994,111 +8105,5 @@
       "Solutions",
       "Data Strategy"
     ]
-  },
-  {
-    "id": "377ecc37a688b076",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.11.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.11.0",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-06",
-    "summary": "CLI\n\n- Fixed databricks repos get/update/delete failing with object at path \"...\" is not a repo for Git-CLI-enabled folders (currently in preview), which the workspace API reports as directories rather than repos (#6181).\n\n- Support dbfs:/Skills/... paths in databricks fs commands, routed to the Files API. (#6147)\n\nBundles\n\n- For jobs where ai_runtime_task.code_source_path is a relative path to a local directory, the directory is now packaged into a tarball (honoring .gitignore and sync.include/sync.exclude), uploaded during deployment, and code_source_path is rewritten to the uploaded workspace path. (#6110)\n\n- Added JSON output to bundle init. Running databricks bundle init <template> -o json now reports the files the template wrote, relative to the output directory. This lets callers that pass --output-dir learn where the template materialized instead of assuming the output is a single directory named after the project. The default text output is unchanged. (#6161)\n\n- The terraform deployment engine is deprecated and will stop working in a future version of the CLI. Setting bundle.engine: terraform now emits a deprecation warning. See https://docs.databricks.com/aws/en/dev-tools/bundles/direct for how to migrate to the direct deployment engine. (#6099)\n\n- Fixed the direct deployment engine planning a spurious create for an empty grants: [] list. Terraform records no grants resource for such a list, so bundle plan after bundle deployment migrate no longer reports an action for it. Emptying a previously deployed list still revokes the grants, after which the node is dropped from the deployment state instead of being reported as unchanged forever. (#6039)…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "d855e124a36f8272",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "What are Agentic Workflows?",
-    "url": "https://www.databricks.com/blog/agentic-workflows",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-07",
-    "summary": "Learn what agentic workflows are, how they complete complex tasks, and what enterprises need to deploy them successfully.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "a99e3d25a72da73b",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "What is Tool Calling?",
-    "url": "https://www.databricks.com/blog/what-is-tool-calling",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-07",
-    "summary": "Tool calling allows an AI model to choose and operate the right resource for a task. Explore how Databricks supports governed tool-calling agents.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "5d7328432b4ceb46",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
-    "url": "https://www.databricks.com/blog/kimi-k3-moonshot-ai-now-available-databricks-through-unity-ai-gateway",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-07",
-    "summary": "A ye Kimi K3, Moonshot AI's 2.8T-parameter open-weight model with 1M context window and native multimodal support, is now available on Databricks with enterprise governance through Unity AI Gateway.",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Announcements",
-      "Platform & Partners"
-    ]
-  },
-  {
-    "id": "f0f2b1ec7613ade7",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Databricks-managed MCP connectors are now integrated with Unity AI Gateway (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#databricks-managed-mcp-connectors-are-now-integrated-with-unity-ai-gateway-beta",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-07",
-    "summary": "All Databricks-managed MCP connectors for Genie One and Genie Code have migrated to the Unity AI Gateway. This brings Databricks-managed connectors under Unity AI Gateway, enabling centralized governance, access controls, and visibility alongside your other MCP servers and tools.\n\nUsers must reauthenticate their connectors to continue using them with Genie One and Genie Code. A notification in Genie prompts impacted users to reconnect.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "21b5ee64f10c0b8b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code web search is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-web-search-is-in-beta",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-07",
-    "summary": "Genie Code can now search the public web to answer questions that need current information. Web search is disabled by default during the beta for eligible workspaces and must be turned on from the Previews page. See Search the web.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "41448aca282b2858",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Moonshot AI Kimi K3 now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#moonshot-ai-kimi-k3-now-available-as-a-databricks-hosted-model",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-08",
-    "summary": "Model Serving now supports Kimi K3 as a Databricks-hosted model. This 2.8-trillion-parameter mixture of experts (MoE) model has native vision capabilities, supports a 1 million token context window, and is designed for long-horizon coding, knowledge work, and reasoning. You can access this model using Foundation Model APIs.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "1bbbe363bf4c14f0",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zerobus Ingest is now enabled by default for workspaces with the compliance security profile",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zerobus-ingest-is-now-enabled-by-default-for-workspaces-with-the-compliance-security-profile",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-21",
-    "summary": "The Zerobus Ingest connector in Lakeflow Connect is now enabled by default for workspaces with the compliance security profile enabled. See Zerobus Ingest overview.",
-    "category": "Security",
-    "tags": []
   }
 ]
