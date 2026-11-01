@@ -14,6 +14,21 @@
     ]
   },
   {
+    "id": "7b70f75132a73149",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Lakebase branching for CI/CD: lessons from 100 PR databases",
+    "url": "https://www.databricks.com/blog/lakebase-branching-cicd-lessons-100-pr-databases",
+    "published": "2026-10-31",
+    "first_seen": "2026-11-01",
+    "summary": "Snorkel’s CI provisions an ephemeral Kubernetes environment for every open PR and ad-hoc commit, and each namespace greatly benefits from a near-instant access to a full secure copy of the production database with Lakebase branching.",
+    "category": "Database",
+    "tags": [
+      "Industries",
+      "Technology"
+    ]
+  },
+  {
     "id": "88d86ea1e173dae1",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/ontobricks",
@@ -8089,21 +8104,6 @@
       "Insights",
       "Company",
       "Events"
-    ]
-  },
-  {
-    "id": "38ea556d8f3f5cef",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "BigQuery to Databricks: A Strategic Framework for Modern Migration",
-    "url": "https://www.databricks.com/blog/bigquery-databricks-strategic-framework-modern-migration",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-06",
-    "summary": "Discover best practices for migrating BigQuery data, scripts, and stacks to Databricks. Learn to optimize ROI and governance during your architectural evolution.",
-    "category": "Platform Overview",
-    "tags": [
-      "Solutions",
-      "Data Strategy"
     ]
   }
 ]
