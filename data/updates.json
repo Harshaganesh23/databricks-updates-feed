@@ -14,6 +14,61 @@
     ]
   },
   {
+    "id": "7afea58e30fbf8b7",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Lakebase Postgres is now generally available on Google Cloud",
+    "url": "https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud",
+    "published": "2026-11-02",
+    "first_seen": "2026-11-02",
+    "summary": "Teams building on Google Cloud can now run production-grade, serverless Postgres directly on the Databricks Data + AI Platform.",
+    "category": "Database",
+    "tags": [
+      "Platform",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "1faf2a795c169746",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.159.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.159.0",
+    "published": "2026-11-02",
+    "first_seen": "2026-11-02",
+    "summary": "## Release v0.159.0 (2026-11-02)\n\n### API Changes\n\n* Add `databricks.sdk.service.computemigrations` and `databricks.sdk.service.genieagents` packages.\n\n* Add [w.compute_migrations](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/computemigrations/compute_migrations.html) workspace-level service.\n\n* Add [w.genie_agents](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/genieagents/genie_agents.html) workspace-level service.\n\n* Add `download_file()` and `upload_file()` methods for [w.sandbox](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/sandbox/sandbox.html) workspace-level service.\n\n* Add `update_network_connectivity_config()` method for [a.network_connectivity](https://databricks-sdk-py.readthedocs.io/en/latest/account/settings/network_connectivity.html) account-level service.\n\n* [Breaking] Add `parent` field for `databricks.sdk.service.iamv2.CreateDirectGroupMemberProxyRequest`.\n\n* [Breaking] Add `parent` field for `databricks.sdk.service.iamv2.CreateDirectGroupMemberRequest`.\n\n* Add `parent` field for `databricks.sdk.service.iamv2.CreateGroupProxyRequest`.\n\n* [Breaking] Add `parent` field for `databricks.sdk.service.iamv2.CreateGroupRequest`.\n\n* Add `parent` field for `databricks.sdk.service.iamv2.CreateServicePrincipalProxyRequest`.\n\n* [Breaking] Add `parent` field for `databricks.sdk.service.iamv2.CreateServicePrincipalRequest`.\n\n* Add `parent` field for `databricks.sdk.service.iamv2.CreateUserProxyRequest`.\n\n* [Breaking] Add `parent` field for `databricks.sdk.service.iamv2.CreateUserRequest`.\n\n* Add `parent` field for `databricks.sdk.service.iamv2.CreateWorkspaceAssignmentProxyRequest`.\n\n* [Breaking] Add `parent` field for `databricks.sdk.service.iamv2.CreateWorkspaceAssignmentRequest`.…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "c93db15ea0331e98",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/impulse",
+    "title": "databrickslabs/impulse: v0.11.0",
+    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.11.0",
+    "published": "2026-11-02",
+    "first_seen": "2026-11-02",
+    "summary": "What's Changed\n\n- feat(app): Adding Impulse Databricks App by @MaximHammer in #132\n\n- feat(e2e): add end-to-end test job on Databricks serverless by @tombonfert in #131\n\n- perf(query): build calculated-channel UDF output from numpy arrays by @tombonfert in #137\n\n- feat(e2e): add performance benchmark on the Renumics fleet dataset by @tombonfert in #135\n\n- docs(tsal): add UDF correctness rules and prefer native functionality over UDFs by @tombonfert in #133\n\n- bump release version to v0.11.0 by @tombonfert in #138\n\nFull Changelog: v0.10.0...v0.11.0\n\nWhat's Changed\n\n- docs(tsal): add UDF correctness rules and prefer native functionality over UDFs by @tombonfert in #133\n\n- feat(app): Adding Impulse Databricks App by @MaximHammer in #132\n\n- feat(e2e): add end-to-end test job on Databricks serverless by @tombonfert in #131\n\n- perf(query): build calculated-channel UDF output from numpy arrays by @tombonfert in #137\n\n- feat(e2e): add performance benchmark on the Renumics fleet dataset by @tombonfert in #135\n\n- bump release version to v0.11.0 by @tombonfert in #138\n\nFull Changelog: v0.10.0...v0.11.0",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/impulse"
+    ]
+  },
+  {
+    "id": "96d8554b65b40f4a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Higher limits and BROWSE support for Unity Catalog secrets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#higher-limits-and-browse-support-for-unity-catalog-secrets",
+    "published": "2026-11-02",
+    "first_seen": "2026-11-02",
+    "summary": "A schema can now hold up to 1,000 Unity Catalog secrets, and a metastore up to 10,000, up from 100 and 1,000. The limits apply to Databricks-managed secrets and secrets backed by AWS Secrets Manager. BROWSE on a catalog now applies to Unity Catalog secrets, so users can discover secrets and their metadata without being able to read the values or reference the secrets in code. See Privileges for Unity Catalog secrets.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "7b70f75132a73149",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -313,6 +368,21 @@
     "tags": []
   },
   {
+    "id": "41c65b50ffb55417",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Procore is powering construction analytics with OpenSharing",
+    "url": "https://www.databricks.com/blog/how-procore-powering-construction-analytics-opensharing",
+    "published": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "summary": "How Procore uses Databricks OpenSharing to share hundreds of governed tables with construction companies and lift the once-a-day refresh ceiling so customers can refresh hourly.",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "Customers"
+    ]
+  },
+  {
     "id": "9f8010789ea0c3e2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -375,6 +445,18 @@
     "first_seen": "2026-10-30",
     "summary": "On serverless pipelines that use the preview channel, you can run multiple real-time mode flows in one pipeline without the flows competing for task slots. Source stage adaptive repartitioning automatically adjusts the number of tasks that read from each Kafka or Kinesis source to match its traffic, so you don't need to set maxPartitions or shardsPerTask. Both capabilities are in Beta. See Serverless pipelines on the preview channel.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "ef7b265d998b5a24",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Serverless log delivery to Unity Catalog volumes (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#serverless-log-delivery-to-unity-catalog-volumes-beta",
+    "published": "2026-10-28",
+    "first_seen": "2026-11-02",
+    "summary": "Workspace admins can now deliver serverless job application logs to a Unity Catalog volume for retention and analysis. See Deliver serverless logs to Unity Catalog volumes.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -581,6 +663,18 @@
     ]
   },
   {
+    "id": "4f7e839dad4be223",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakeflow Designer October release",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#lakeflow-designer-october-release",
+    "published": "2026-10-27",
+    "first_seen": "2026-11-02",
+    "summary": "The Lakeflow Designer October release adds new AI Function and Prepare capabilities, an HTML operator, shareable full-screen previews, and tools for organizing large flows. The following updates are now available:\n\n- Find operators by category: The Operators pane groups operators into input and output, clean, combine, transform, code, report, and canvas tools. See Built-in operators in Lakeflow Designer.\n\n- Use ai_decide in the AI Function operator (Beta): Answer questions about text or parsed documents with probabilities, choices, or scores. See ai_decide function.\n\n- Publish a custom operator to your workspace: In the operator panel, open a custom operator's actions menu and select Publish. The file switches to the published copy so you can reuse the operator in other visual data prep files. See Custom operators in Lakeflow Designer. _Note: user-defined operators are now called custom operators. See _Custom operators.\n\n- Auto layout a group: Use Auto layout group in the group toolbar to arrange only the operators inside that group and leave the rest of the canvas unchanged. See Group.\n\n- Parameter usage in the Parameters panel: The Parameters side panel now shows which operators use each parameter. Select an operator name to focus it on the canvas. See Parameters.\n\n- Favorite operators: Right-click an operator or click in the table of contents to add it to your favorites. To show only favorites, select Filter by > Status > Favorited in the table of contents. See Use the table of contents in Lakeflow Designer.\n\n- HTML operator: Render a custom HTML page, including embedded CSS and JavaScript, in the output pane. Connect upstream operators to display their data as charts, tables, or other views. See HTML.…",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
     "id": "097628ee6459aa75",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -754,6 +848,18 @@
     "first_seen": "2026-10-26",
     "summary": "The managed PayPal connector is now available in Beta in Databricks Lakeflow Connect.\n\nUse the connector to ingest payments data such as transactions, disputes, invoices, balances, catalog products, and billing plans from PayPal into Databricks. The connector uses OAuth client credentials and supports incremental ingestion.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "e8ce42d209abd6be",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use Claude desktop and ChatGPT desktop work agents with Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#use-claude-desktop-and-chatgpt-desktop-work-agents-with-unity-gateway",
+    "published": "2026-10-24",
+    "first_seen": "2026-11-02",
+    "summary": "You can now use ug to configure the Claude desktop and ChatGPT desktop work agents with governed models, MCP servers, and skills. Subscription relay is available only in Claude desktop. Learn more.",
+    "category": "Artificial Intelligence",
     "tags": []
   },
   {
@@ -7985,125 +8091,6 @@
     "category": "Database",
     "tags": [
       "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "0e8d9b79182e774c",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakemeter-oss",
-    "title": "databrickslabs/lakemeter-oss: Lakemeter OSS v0.1.2",
-    "url": "https://github.com/databrickslabs/lakemeter-oss/releases/tag/v0.1.2",
-    "published": "2026-08-08",
-    "first_seen": "2026-08-09",
-    "summary": "Code-only patch release focused on calculation accuracy, estimate persistence, and safer release validation. No Lakebase schema change, data migration, or pricing refresh is required.\n\nBug fixes\n\n- Issue #10: Fixed AI-generated estimate application so authenticated requests persist supported workload configuration and roll back cleanly on failure.\n\n- Issue #11: Fixed regional VM pricing parity across the UI and Excel exports for Jobs, All-Purpose, DLT/Lakeflow, and DBSQL workloads.\n\n- Issue #9: Fixed daily, monthly, and run-based usage normalization across calculation APIs.\n\n- Issue #7: Fixed Databricks Apps estimates to use the correct serverless compute SKU and reject unsupported workload types instead of silently falling back.\n\n- Fixed AI Parse and Shutterstock ImageAI quantity fields so saved estimates, cloned estimates, and Excel exports retain the entered values.\n\n- Fixed Lakebase responses to report the effective billable hours used by the calculation.\n\nSecurity and release reliability\n\n- Updated frontend and documentation dependencies to address known security alerts.\n\n- Added tested installation, upgrade, end-to-end, and rollback release validation.\n\nUpgrade notes\n\n- Supports code-only upgrades from v0.1.0 and v0.1.1.\n\n- Leaves Lakebase online and does not modify existing estimates, database schema, or pricing data.\n\n- Follow the Upgrade Guide and verify downloaded files with SHA256SUMS.",
-    "category": "Data Warehousing",
-    "tags": [
-      "databrickslabs/lakemeter-oss"
-    ]
-  },
-  {
-    "id": "3b63c8afae5dac89",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.4.0",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.4.0",
-    "published": "2026-08-07",
-    "first_seen": "2026-08-07",
-    "summary": "What's Changed\n\n- Add optional cleanup of batch-solving temp tables after successful persist by @tombonfert in #74\n\n- Bump version to 0.4.0 in VERSION file by @tombonfert in #75\n\nFull Changelog: v0.3.0...v0.4.0\n\nWhat's Changed\n\n- Add optional cleanup of batch-solving temp tables after successful persist by @tombonfert in #74\n\n- Bump version to 0.4.0 in VERSION file by @tombonfert in #75\n\nFull Changelog: v0.3.0...v0.4.0",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "4fffe919132d1d30",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Managing AI Coding Costs at Scale",
-    "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
-    "published": "2026-08-07",
-    "first_seen": "2026-08-08",
-    "summary": "AI coding tools deli",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Announcements",
-      "Data Strategy",
-      "Best Practices"
-    ]
-  },
-  {
-    "id": "39a8a938632cd894",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "What is an AI Assistant?",
-    "url": "https://www.databricks.com/blog/what-is-an-ai-assistant",
-    "published": "2026-08-07",
-    "first_seen": "2026-08-08",
-    "summary": "Learn how AI assistants understand requests, automate tasks, and support enterprise workflows, plus what to consider when choosing one.",
-    "category": "AI Assistant",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "3f5bcd78773deafa",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Tag automations (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#tag-automations-beta",
-    "published": "2026-08-07",
-    "first_seen": "2026-08-08",
-    "summary": "Tag automations are now in Beta. A tag automation assigns or removes governed tags on the Unity Catalog tables or volumes that match conditions you define, so tags stay accurate as your data and metadata change. Use them to certify trusted data, deprecate stale data, roll up column sensitivity to a table-level tier, flag assets that are missing required tags, and clean up outdated tags.\n\nYou can build an automation by describing your rule to Genie in natural language, or by filling in the scope, conditions, and action yourself. Saving an automation starts a dry run, which records the assets it would match without assigning any tags.\n\nSee Automate tag assignment.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "ff82615ba47717e9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Change data feed on materialized views (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#change-data-feed-on-materialized-views-beta",
-    "published": "2026-08-07",
-    "first_seen": "2026-08-08",
-    "summary": "You can now read a change data feed from a materialized view created in a Lakeflow pipeline or in Databricks SQL, using Databricks Runtime 18 LTS or above. Use this to replicate materialized view changes to destinations outside Databricks, or to keep a history of materialized view changes for auditing and reporting. Materialized views use automatic change data feed, so the change data feed is available for any materialized view with row tracking enabled, without configuring each materialized view. This feature is in Beta.\n\nSee Read a change data feed from a materialized view.",
-    "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "027b2c1d6f5ef570",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ai_search function (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai",
-    "published": "2026-08-07",
-    "first_seen": "2026-08-08",
-    "summary": "The ai_search() SQL function retrieves information from one or more AI Search indexes configured as knowledge sources. Given a natural-language query, the function generates optimized search queries, retrieves and deduplicates results across sources, reranks them by relevance, and returns the most relevant documents. By default, it also synthesizes a grounded natural-language answer over those documents.\n\nUse ai_search to enrich operational data with relevant context at scale, build batch retrieval-augmented generation (RAG) pipelines, or expose retrieval as a tool to a compound AI system. This feature is in Beta.\n\nSee ai_search function.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "bac4517942c6ead5",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
-    "url": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning",
-    "published": "2026-08-06",
-    "first_seen": "2026-08-06",
-    "summary": "Meet OfficeQA Pro V2, a new benchmark built from 120,000 U.S. Treasury pages to test AI agents on unseen enterprise grounded-reasoning tasks.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Platform",
-      "Product",
-      "Engineering",
-      "Data Science and ML",
-      "Databricks AI",
-      "Industries",
-      "Technology",
-      "Data Strategy",
-      "Insights",
-      "Company",
-      "Events"
     ]
   }
 ]
