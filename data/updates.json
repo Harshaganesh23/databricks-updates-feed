@@ -14,6 +14,126 @@
     ]
   },
   {
+    "id": "ac708a4278d06a41",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.160.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.160.0",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "## Release v0.160.0 (2026-11-03)\n\n### API Changes\n\n* Add `view_name` field for `databricks.sdk.service.ml.IngestionDestination`.\n\n* Add `notifications` field for `databricks.sdk.service.ml.MaterializationSet`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "3e1cff7cfb7ba3f7",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lsql",
+    "title": "databrickslabs/lsql: v0.18.0",
+    "url": "https://github.com/databrickslabs/lsql/releases/tag/v0.18.0",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "LSQL 0.18.0\n\nWhat’s changed\n\n- Updated SQLGlot to 30.11.0, with compatibility updates for dashboard handling. (#553)\n\n- Updated certificate bundle requirements: installs now require certifi>=2026.10.19 and pip>=26.2.2, which no longer trust the distrusted eMudhra “emSign ECC Root CA - G3” certificate. (#565)\n\n- Refreshed development and test dependencies: mypy 2.1.0, pytest 9.1.1, Ruff 0.15.18, and coverage support through 7.14.x. (#547, #548, #552, #556, #558)\n\nThanks to @mohamed-hashi-db for their first contribution.\n\nFull changelog",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/lsql"
+    ]
+  },
+  {
+    "id": "0979a149c1281714",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/blueprint",
+    "title": "databrickslabs/blueprint: v0.13.0",
+    "url": "https://github.com/databrickslabs/blueprint/releases/tag/v0.13.0",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "BluePrint 0.13.0\n\nHighlights\n\n- Migrated the project’s development toolchain from Hatch to uv and refreshed dependency management and locking. Python 3.10 is now the project default (#336, #338, #386, #337).\n\n- Fixed pip output capture in verbose mode (#332).\n\nDependency and tooling updates\n\n- Updated Databricks SDK to 0.119.0 (#389, #399).\n\n- Updated development tools, including pytest 9.1.1, pytest-asyncio 1.4.0, pytest-cov 7.1.0, ruff 0.15.18, mypy 2.1.0, and pylint 4.0.6 (#391, #394, #395, #396, #397, #401, #402).\n\n- Updated type-stub dependencies and adjusted coverage and hatchling requirements (#387, #388, #390, #393).\n\n- Updated pip and raised the minimum requirements for pip and certifi (#398, #411).\n\nNew Contributors\n\n- @mwojtyczka made their first contribution in #377\n\n- @mohamed-hashi-db made their first contribution in #411\n\nFull Changelog: v0.12.0...v0.13.0",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/blueprint"
+    ]
+  },
+  {
+    "id": "77f3ba7226e2317c",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: studio-v0.1.2",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/studio-v0.1.2",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "DQX Studio 0.1.2",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
+    "id": "42b20448b0dc79e4",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.9.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.9.0",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "Brings the ingress helper's PrivateLink handling in line with dbx-migrate-ip-acls v0.3.0 (\"no daylight\" between the two tools), per the CBI product team's review, plus fail-closed assigned-policy reads and several fixes found in live testing on AWS (evidence in PR #49).\n\nChanged\n\n- Ingress private access now mirrors dbx-migrate-ip-acls exactly (AWS/GCP). Reference\n\nimplementation: dbx-migrate-ip-acls v0.3.0. The workspace's legacy private access posture is recreated faithfully in the generated policy's private_access:\n\n- No PAS attached is now \"private access = no endpoints\", not \"nothing to migrate\". A no-PAS\n\nworkspace accepts no private endpoints today, so the policy gets a RESTRICTED_ACCESS private\n\nblock with no front-end allow rule (deny-all private) instead of being left at CBI's allow-all\n\ndefault — which would have loosened the posture once CBI is the source of truth for private\n\naccess. Like an endpoint-scoped PAS, it counts as migrating restrictive private for the\n\ncreate-and-assign conflict gate (abort over an existing restrictive CBI private block).\n\n- Rule names are now fixed. The PAS-migrated rule is labelled \"Inbound private endpoints\"\n\n(previously the PAS name verbatim) and the back-end rule \"Classic compute REST API endpoint\"\n\n(previously \"back-end PrivateLink (data-plane relay + REST)\").\n\n- The back-end rule carries only the REST API endpoint. The network config's secure cluster\n\nconnectivity relay endpoint is no longer added — it doesn't carry ingress to the workspace's REST\n\nAPI, so it has no place in a CBI private_access rule.\n\n- An account-level (allow-all) PAS over an existing restrictive CBI private block still keeps the\n\nstricter existing block (no abort) — unchanged, now documented as the agreed behaviour.…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "9d8d419c9ddbc653",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/migrate-ip-acls",
+    "title": "databrickslabs/migrate-ip-acls: v0.3.0",
+    "url": "https://github.com/databrickslabs/migrate-ip-acls/releases/tag/v0.3.0",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "Behaviour changes agreed with the CBI product team; flag surface unchanged (minor bump).\n\nChanged\n\n- No Private Access Settings (AWS / GCP) is migrated as deny-all private access. A PAS is\n\nrequired for any PrivateLink / PSC connectivity to a workspace, so a workspace with no PAS attached\n\ncan't be reached by any private endpoint today. Previously the tool treated that as \"nothing to\n\nmigrate for private\" and left the generated policy's private_access to the CBI default (allow all\n\nregistered endpoints) or to whatever the existing CBI policy had — a loosening. Now the legacy\n\nposture is recreated as-is: private_access becomes RESTRICTED_ACCESS with no front-end\n\nendpoints (plus the classic compute REST API endpoint, if the network config has one). This also\n\nmeans a no-PAS AWS / GCP workspace with no IP access lists is no longer \"nothing to migrate\" — the\n\npolicy is still generated for its private access. The same-dimension conflict gate applies: no PAS\n\nover an existing restrictive CBI private block aborts (when assigning), exactly like an\n\nendpoint-scoped PAS. On a cloud the tool can't determine, the mapping isn't applied and it warns.\n\n- Enforcement mode is inherited from the existing CBI policy. A network policy supports a single\n\nenforcement mode, so when the workspace's existing assigned CBI policy has restrictive ingress rules\n\n(public, private or cross-workspace) that are carried into the new policy, the new policy is created\n\nin that policy's mode — dry run or enforced — and --policy-mode is ignored with a warning if it\n\ndiffers. When the inherited mode is dry run, --disable-existing-ip-acls is also ignored (with a\n\nwarning): a dry-run policy blocks nothing, so the legacy IP access lists must stay on. When the…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/migrate-ip-acls"
+    ]
+  },
+  {
+    "id": "bcfd79c54e70da9e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Okta connector is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#okta-connector-is-available-in-beta",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "The managed Okta connector is now available in Beta in Databricks Lakeflow Connect. Workspace admins can enable Lakeflow Connect for Okta on the Previews page.\n\nUse the connector to ingest identity and access data from Okta into Databricks, including users, groups, group memberships, app integrations, devices, policies, and administrator roles. The connector uses SSWS API token authentication and supports incremental ingestion.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "32a3a1ac7a04466a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Control Lakebase sink upserts with merge strategies",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#control-lakebase-sink-upserts-with-merge-strategies",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "When you write to Lakebase from Structured Streaming, you can use merge strategies to control how upserts update individual columns. Keep the first or last value, ignore nulls, or select values by an ordering column. Merge strategies require Databricks Runtime 19 and above. See Merge strategies for upserts.",
+    "category": "Database",
+    "tags": []
+  },
+  {
+    "id": "b3876ab95955aac6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Trigger Lakeflow Jobs when upstream jobs complete (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#trigger-lakeflow-jobs-when-upstream-jobs-complete-beta",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-03",
+    "summary": "You can now run a Lakeflow Job when one or more upstream jobs complete, including across workspaces attached to the same Unity Catalog metastore. Configure dependencies on the downstream job. See Trigger jobs when upstream jobs complete.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "7afea58e30fbf8b7",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -66,6 +186,42 @@
     "first_seen": "2026-11-02",
     "summary": "A schema can now hold up to 1,000 Unity Catalog secrets, and a metastore up to 10,000, up from 100 and 1,000. The limits apply to Databricks-managed secrets and secrets backed by AWS Secrets Manager. BROWSE on a catalog now applies to Unity Catalog secrets, so users can discover secrets and their metadata without being able to read the values or reference the secrets in code. See Privileges for Unity Catalog secrets.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "2a789c2225d4a4d4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zerobus Ingest into default storage is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#zerobus-ingest-into-default-storage-is-now-generally-available",
+    "published": "2026-11-02",
+    "first_seen": "2026-11-03",
+    "summary": "Ingesting into tables backed by default storage with Zerobus Ingest in Lakeflow Connect is now generally available. See Create or identify the target table.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "400ce8dc02041c19",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Simba JDBC Driver (Legacy) 2.8.7 is available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#simba-jdbc-driver-legacy-287-is-available",
+    "published": "2026-11-02",
+    "first_seen": "2026-11-03",
+    "summary": "Simba JDBC Driver (Legacy) 2.8.7 updates jackson-core, jackson-databind, and jackson-datatype-jsr310 to 2.21.8. Download it from the JDBC drivers archive under All JDBC Driver Versions (Simba).",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "2d27b539ebe884d7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Functions usage is now included in Unity Gateway budgets",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-functions-usage-is-now-included-in-unity-gateway-budgets",
+    "published": "2026-11-01",
+    "first_seen": "2026-11-03",
+    "summary": "Beginning November 1, 2026, Unity Gateway budgets include spend from task-specific AI Functions such as ai_parse_document, ai_extract, and ai_classify across batch and real-time execution paths. See Manage budgets for Unity Gateway.On this page\n- Okta connector is available in Beta\n- Control Lakebase sink upserts with merge strategies\n- Trigger Lakeflow Jobs when upstream jobs complete (Beta)\n- Zerobus Ingest into default storage is now generally available\n- Higher limits and BROWSE support for Unity Catalog secrets\n- Simba JDBC Driver (Legacy) 2.8.7 is available\n- Managed warehouse for MLflow (Beta)\n- AI Functions usage is now included in Unity Gateway budgetsPrivacy NoticeÂ·Terms of UseÂ·<a href=https://www.databricks.com/legal/modern-slavery-policy-statement target=_blank rel=\"noopener nore",
+    "category": "Data Warehousing",
     "tags": []
   },
   {
@@ -231,6 +387,18 @@
     "tags": []
   },
   {
+    "id": "f1a4eccb30ba93c6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Monitor data freshness in Lakeflow Connect database connector pipelines (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#monitor-data-freshness-in-lakeflow-connect-database-connector-pipelines-public-preview",
+    "published": "2026-10-30",
+    "first_seen": "2026-11-03",
+    "summary": "You can now see how current each destination table is in Lakeflow Connect database connector pipelines, in Public Preview. The new Data freshness column in the pipeline's tables list shows the time since the latest source commit that the pipeline ingested for each change data capture (CDC) table. Data freshness is available for SQL Server, PostgreSQL, MySQL, and Oracle sources.\n\nYou can also query data freshness and end-to-end lag from the ingestion pipeline's event log, and create alerts on them. See Monitor data freshness for change data capture (CDC) tables.",
+    "category": "Database",
+    "tags": []
+  },
+  {
     "id": "c74502ac0df6ef40",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -383,6 +551,18 @@
     ]
   },
   {
+    "id": "7ba7a23c3afcfee9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data quality monitoring anomaly detection is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#data-quality-monitoring-anomaly-detection-is-now-generally-available",
+    "published": "2026-10-29",
+    "first_seen": "2026-11-03",
+    "summary": "Anomaly detection for data quality monitoring is now generally available. Enable it at the schema level to monitor the freshness and completeness of every table in the schema, based on historical data patterns. Results for all monitored tables are stored in the system.data_quality_monitoring.table_results system table, which is also now generally available. See Anomaly detection.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "9f8010789ea0c3e2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -456,6 +636,18 @@
     "published": "2026-10-28",
     "first_seen": "2026-11-02",
     "summary": "Workspace admins can now deliver serverless job application logs to a Unity Catalog volume for retention and analysis. See Deliver serverless logs to Unity Catalog volumes.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "1ac0ddf30514ade2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Request for access is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#request-for-access-is-now-generally-available",
+    "published": "2026-10-28",
+    "first_seen": "2026-11-03",
+    "summary": "Request for access is now generally available. Users can request privileges on Unity Catalog objects from anywhere in Databricks and track request status in Catalog Explorer. See Access requests.",
     "category": "Governance",
     "tags": []
   },
@@ -7898,199 +8090,6 @@
     "category": "Data Engineering",
     "tags": [
       "delta-io/delta"
-    ]
-  },
-  {
-    "id": "28923378ac69fa4c",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: v3.3.3",
-    "url": "https://github.com/delta-io/delta/releases/tag/v3.3.3",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-12",
-    "summary": "Release version 3.3.3",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "766a9cacb0bad3f3",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakebridge",
-    "title": "databrickslabs/lakebridge: Release v0.15.0",
-    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.15.0",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-12",
-    "summary": "Highlights\n\n- Entra ID authentication for SQL Server. The MSSQL connector and configurators now support Microsoft Entra ID auth (service principal (SPN), Active Directory password, and interactive sign-in) in addition to the existing methods.\n\n- Reconcile root-cause analysis dashboard. A new RCA dashboard helps you diagnose why rows mismatch during reconciliation, not just that they do.\n\n- Serverless by default for reconcile. The deployed reconcile job now runs on serverless compute out of the box, removing a manual cluster-provisioning step.\n\n- Large-source Snowflake profiling is more robust. The Snowflake profiler now streams query results as Arrow directly into DuckDB, sharply reducing out-of-memory failures on big accounts.\n\nProfilers\n\nEnhancements\n\n- Entra ID authentication for SQL Server (#2336)\n\nAdds Microsoft Entra ID auth across the MSSQL connector and configurators, covering service principal (SPN), Active Directory password, and interactive flows.\n\n- DuckDB native compression for profiler extracts (#2568)\n\nProfiler extracts now use DuckDB's native compression, reducing the on-disk size of extract files.\n\nSnowflake Profiler\n\n- Stream query results as Arrow into DuckDB (#2610)\n\nSnowflake query results are now streamed as Arrow directly into DuckDB instead of being buffered in memory, substantially reducing out-of-memory errors when profiling large sources.\n\nSynapse Profiler\n\n- CPU/DWU utilization for legacy_synapse via Azure Monitor (#2576)\n\nThe legacy_synapse profiler now collects CPU/DWU utilization metrics through Azure Monitor.\n\nRedshift\n\n- Removed variant selection from the Redshift profiler (#2558)\n\nThe Redshift profiler no longer prompts for a variant selection.\n\nConverters\n\nMorpheus…",
-    "category": "Business Intelligence",
-    "tags": [
-      "databrickslabs/lakebridge"
-    ]
-  },
-  {
-    "id": "1fddfe1df85ae21b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unity Catalog ABAC GRANT policies support more securable types in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-catalog-abac-grant-policies-support-more-securable-types-in-beta",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-12",
-    "summary": "ABAC GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition. These policies were previously only available for models, but now also support model services, model provider services, Model Context Protocol (MCP) services, agent services, and skills. All supported types are in Beta.\n\nFor more information, see ABAC GRANT policies (Beta).",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "1baf10fb13b581f3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "REPLACE USING flows for standalone streaming tables (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#replace-using-flows-for-standalone-streaming-tables-beta",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-18",
-    "summary": "REPLACE USING flows are now available for standalone streaming tables in Beta.\n\nUse a REPLACE USING flow when your source is a series of partial snapshots keyed by column. On each update, the flow replaces all rows that match the specified key columns and leaves all other rows unchanged. A SEQUENCE BY column orders the updates, so the highest sequence for a key always wins, even when updates arrive out of order. REPLACE USING doesn't require a change data capture feed with explicit insert, update, and delete operations, and it doesn't require a primary key.\n\nSee Apply partial snapshot replacement with REPLACE USING flows.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "b16d27992b8c89f8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ABAC GRANT policies now cover Unity Gateway resource types (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#abac-grant-policies-now-cover-unity-gateway-resource-types-beta",
-    "published": "2026-08-11",
-    "first_seen": "2026-09-02",
-    "summary": "Attribute-based access control (ABAC) GRANT policies dynamically grant Unity Catalog privileges to securables whose governed tags match a condition. They now support model services, model provider services, Model Context Protocol (MCP) services, and agent services, which are the resource types Unity Gateway governs. This lets you grant access to gateway resources by tag instead of one at a time. All supported types are in Beta.\n\nSee ABAC GRANT policies.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "13aa163b225a9845",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How to ground Genie Agents in both structured data and documents without losing governance",
-    "url": "https://www.databricks.com/blog/how-ground-genie-agents-both-structured-data-and-documents-without-losing-governance",
-    "published": "2026-08-10",
-    "first_seen": "2026-08-11",
-    "summary": "BuilBuild Genie Agents grounded in both structured and unstructured data while Unity Catalog enforces per-user access governance.",
-    "category": "Business Intelligence",
-    "tags": [
-      "All",
-      "Best Practices"
-    ]
-  },
-  {
-    "id": "202ffbef33608f9a",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Innocent until combined: Blocking the lethal trifecta with Omnigent Contextual Policies",
-    "url": "https://www.databricks.com/blog/innocent-until-combined-blocking-lethal-trifecta-omnigent-contextual-policies",
-    "published": "2026-08-10",
-    "first_seen": "2026-08-11",
-    "summary": "In earlier posts, we",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "2466f0876fe18f11",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Introducing FILE type: a native column type for multimodal data",
-    "url": "https://www.databricks.com/blog/introducing-file-type-native-column-type-multimodal-data",
-    "published": "2026-08-10",
-    "first_seen": "2026-08-11",
-    "summary": "Your data estate hol",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "8080e6151ffc4853",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Orchestrate continuous pipelines with continuous jobs",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#orchestrate-continuous-pipelines-with-continuous-jobs",
-    "published": "2026-08-10",
-    "first_seen": "2026-08-11",
-    "summary": "You can now run a continuous Lakeflow pipeline with a continuous job. When a continuous job orchestrates a pipeline, the job determines the execution mode, and the pipeline can use job-level features such as serverless Standard performance mode and additional notification destinations. Databricks recommends this pattern over the pipeline's built-in continuous setting, which is not being removed.\n\nSee Run a continuous pipeline with a continuous job and Run a pipeline continuously with a continuous job.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "5d8fb8c77616b4b9",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Alert system tables are in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#alert-system-tables-are-in-public-preview",
-    "published": "2026-08-10",
-    "first_seen": "2026-08-11",
-    "summary": "The system.alert schema is in Public Preview. This schema contains the alerts table, which records the configuration of every alert, and the alert_evaluation_history table, which records one row per alert evaluation. Use these tables to audit alert definitions, analyze evaluation trends, and monitor alert workloads at scale.\n\nSee Alert system tables reference.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "856a446dfd93db12",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "READ METADATA privilege is GA",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#read-metadata-privilege-is-ga",
-    "published": "2026-08-10",
-    "first_seen": "2026-08-12",
-    "summary": "The READ METADATA privilege is now generally available in Unity Catalog.\n\nREAD METADATA provides read-only visibility into the same metadata available to the object's owner or a user with MANAGE, including security-sensitive information that BROWSE doesn't expose, such as privilege grants, row filters and column masks, and ABAC policies. It's intended for users who inspect and debug access controls, such as security auditors, data governance teams, and SREs.\n\nYou can grant READ METADATA on a range of object types. For the full list of applicable object types, see READ METADATA.\n\nSee READ METADATA.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "a229e71dd7d6f362",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Notion connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#notion-connector-beta",
-    "published": "2026-08-10",
-    "first_seen": "2026-08-13",
-    "summary": "The managed Notion connector in Lakeflow Connect is now available in Beta. The connector ingests pages, data sources, databases, blocks, comments, and users from Notion into Databricks. See Notion connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "0b0ba643fe5f376b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "DeepSeek V4 Flash (0731) now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-flash-0731-now-available-as-a-databricks-hosted-model",
-    "published": "2026-08-10",
-    "first_seen": "2026-08-13",
-    "summary": "Model Serving now supports DeepSeek V4 Flash (0731) as a Databricks-hosted model in the us-west-2 region. This hybrid mixture of experts (MoE) model has 284 billion total parameters and 13 billion active parameters and is optimized for fast, cost-efficient reasoning, coding, and agentic tool use. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "4927d886ff9deb53",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "DeepSeek V4 Flash (0731) is now available on Unity Gateway",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-flash-0731-is-now-available-on-unity-gateway",
-    "published": "2026-08-10",
-    "first_seen": "2026-09-02",
-    "summary": "DeepSeek V4 Flash (0731) is now available on Unity Gateway for fast, cost-efficient reasoning, coding, and agentic tool use. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with applicable terms.\n\nTo query the model and see supported regions, see Use foundation models.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "f822875620b18efc",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.7.0: Merge pull request #130 from databrickslabs/develop",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.7.0",
-    "published": "2026-08-08",
-    "first_seen": "2026-08-08",
-    "summary": "OntoBricks — Release Notes V0.7.0\n\nRelease window: July – August, 2026\n\nTest status: all changes shipped with the suite green (4787 passed, 276 skipped, 5 deselected, 1 xfailed).\n\nHighlights\n\n- Neo4j graph backend (GA): Neo4j (Community, Enterprise, AuraDB) joins Delta Lake and Lakebase as a full typed property-graph engine — nodes/relationships instead of flat triples, named connection profiles in Settings → Neo4j (master–detail Connections + Objects, live Bolt + Cypher Test connection), per-domain binding via Domain → Knowledge Graph, and documentation/neo4j-requirements.md for flavor compatibility.\n\n- Graph Chat confirmation-gated Class Actions: Graph Chat reaches MCP parity for Datasets / Bridges / Actions (get_entity_context, request_entity_action) with an explicit Confirm/Cancel card before any UC function runs — Graph Chat never exposes direct invoke_entity_action.\n\n- Branded backend icons: dedicated Lakehouse glyph in Domain / Registry chrome; Databricks branding reserved for Settings / workspace identity controls.\n\n- Graph backend selection moved per-domain: choosing Lakebase / Lakehouse (Delta) / Neo4j is now a mandatory per-domain setting on Domain → Information → Knowledge Graph (large selectable cards), not a workspace-wide Settings toggle; the old Settings → Back End page is gone.…",
-    "category": "Database",
-    "tags": [
-      "databrickslabs/ontobricks"
     ]
   }
 ]
