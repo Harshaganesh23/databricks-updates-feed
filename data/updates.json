@@ -14,6 +14,63 @@
     ]
   },
   {
+    "id": "0e072c9f8e9dff5a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The Enterprise Case for Open-Weight Models on Databricks",
+    "url": "https://www.databricks.com/blog/enterprise-case-open-weight-models-databricks",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-04",
+    "summary": "Learn how open-weight models, Unity AI Gateway and Omnigent help enterprises lower AI costs, retain control and adapt as model leaders change.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "AI Research"
+    ]
+  },
+  {
+    "id": "680c1238248a75e4",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: MLflow 3.18.0",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.18.0",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-04",
+    "summary": "MLflow 3.18.0 helps you reuse agent expertise, find regressions before shipping, and monitor quality in production.\n\nMajor New Features\n\n- Automatic Issue Detection: Turn recurring agent failures into issues you can investigate and fix. The dedicated Issues tab groups related problems and links findings to trace evidence; schedule detection to keep checking new traffic. (#27193, #26751, #26754, #26791, #26919, #26955, #26961, #26967, #27009, #27002, #27003, #27006, #27137, #27181, #27249, @tanghaoji; #27070, @B-Step62)\n\n- Skill Registry: Share your team's expertise across agents and projects with a central catalog of reusable skills. Discover existing skills and choose the version or alias to use in each agent. Experimental. (#26736, @mprahl; #26900, @bardenr; #27088, @Rohitkanithi)\n\n- Revamped Evaluation and Trace Comparisons for Finding Regressions: Find the regressions hidden behind aggregate scores before you ship an agent update. The redesigned comparison UI takes you from score changes to the inputs, conversations, and trace steps behind them. An experimental Python API adds statistical comparisons to help distinguish improvements from noise. (#26991, #26733, #26739, #26740, #26770, #26771, #26782, #26783, #26784, #26927, #26799, #26803, #26808, #26868, #26880, #26889, #26896, #27011, #27014, #27015, @joshuawong-db; #27332, @filip-urbanski; #26396, @AbdulAliMamnun)\n\n- Online Evaluation: Catch production quality regressions with custom code-based checks that automatically assess new traces and multi-turn conversations as they arrive. Code-based online evaluation is experimental and requires a self-hosted server configured with job containers. (#26689, #26430, #26684, #26685, #26687, @kriscon-db)\n\nBreaking Changes…",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "e8c590c862846f9e",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.161.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.161.0",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-04",
+    "summary": "## Release v0.161.0 (2026-11-04)\n\n### New Features and Improvements\n\n* `WorkspaceClient.files` uploads and downloads move to the next transfer endpoint whenever an attempt fails before any data was committed: presigned URLs, then the Files API on the workspace. Once data was committed, the transfer stays on its endpoint and raises. Before commit, a failure is retried only on the last endpoint.\n\n* With the experimental `experimental_files_ext_enable_endpoints_api` config option, `WorkspaceClient.files` follows the transfer endpoints the workspace lists (`GET /api/2.0/fs/endpoints`), including the storage proxy and Files API 3.0 endpoints.\n\n* `experimental_files_ext_enable_storage_proxy` is deprecated and has no effect: the storage proxy is used when the workspace lists it, with `experimental_files_ext_enable_endpoints_api`.\n\n* `WorkspaceClient.files.download_to` writes a new file through a temp file next to it, so a failed download leaves no partial file. An existing destination (a file, a symlink, a pipe or a device) is written in place as before, and a parallel download to anything other than a regular file is sequential.\n\n### API Changes\n\n* Add `databricks.sdk.service.lakewatch` package.\n\n* Add [w.lakewatch](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/lakewatch/lakewatch.html) workspace-level service.\n\n* Add `cancel_batch()`, `create_batch()`, `get_batch()` and `list_batches()` methods for [w.ai_functions](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/aifunctions/ai_functions.html) workspace-level service.\n\n* Add `create_feature_spec()`, `delete_feature_spec()` and `get_feature_spec()` methods for [w.feature_engineering](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/ml/feature_engineering.html) workspace-level service.…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "50516f63140ecccf",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.24.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.24.0",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-04",
+    "summary": "Notable Changes\n\n- A variable used as the value of a secret is now sensitive: referencing it from any other field, such as a job parameter or a secret's comment, is an error because the value would be used in plain text. Mark other secret-holding variables with sensitive: true to get the same protection. (#7288)\n\nCLI\n\n- Fix databricks auth login and databricks configure overwriting the parent profile's host and token when saving a profile with a dotted name such as team.prod next to an existing [team]. (#7266)\n\n- databricks auth login and databricks auth token now reject the name of an existing profile after \"Create a new profile\" instead of logging in to that profile. (#7196)\n\n- databricks auth login and databricks auth token now reject a host that is not a URL with a hostname, such as /, ?o=123 or https://, instead of falling back to DATABRICKS_HOST or failing later. An empty host after \"Enter a host URL manually\" in the login profile picker no longer starts discovery login. (#7195)\n\n- Prompts that validate their input, such as the databricks configure host prompt, no longer open with a red cross before anything is typed. (#7314)\n\n- databricks ssh connect now documents --environment-version for choosing the serverless environment version, starts a separate default-named server for each version, and rejects the flag together with --cluster. Default connection names also include the environment version in their hash, so the default name when --environment-version is not specified changes with this release. Configuration associated with the old connection name (secret scope, SSH keys and known hosts in your local .databricks folder) will no longer be used and can be safely removed. (#7310)\n\nAI Runtime…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
     "id": "ac708a4278d06a41",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -132,6 +189,36 @@
     "summary": "You can now run a Lakeflow Job when one or more upstream jobs complete, including across workspaces attached to the same Unity Catalog metastore. Configure dependencies on the downstream job. See Trigger jobs when upstream jobs complete.",
     "category": "Governance",
     "tags": []
+  },
+  {
+    "id": "1581d1c3b7bdda12",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Claude Platform now supports native OpenTelemetry observability in Databricks MLflow",
+    "url": "https://www.databricks.com/blog/claude-platform-now-supports-native-opentelemetry-observability-databricks-mlflow",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-04",
+    "summary": "Send Claude traces to Databricks MLflow with OpenTelemetry. Find recurring issues, debug agent behavior, and evaluate changes against real cases.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Engineering",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "16d6b636aa3ae8d9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Declare and optimize with UNIQUE constraints on Databricks",
+    "url": "https://www.databricks.com/blog/declare-and-optimize-unique-constraints-databricks",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-04",
+    "summary": "Databricks UNIQUE constraints let teams declare multiple nullable or composite uniqueness guarantees beyond a table’s single PRIMARY KEY, and reference them with foreign keys.",
+    "category": "Platform Overview",
+    "tags": [
+      "Engineering",
+      "Data Warehousing"
+    ]
   },
   {
     "id": "7afea58e30fbf8b7",
@@ -563,6 +650,20 @@
     "tags": []
   },
   {
+    "id": "b567b2f5e39eff84",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist",
+    "url": "https://www.databricks.com/blog/postgres-managed-service",
+    "published": "2026-10-29",
+    "first_seen": "2026-11-04",
+    "summary": "Traditional managed Postgres excels at transactional workloads but compromises on analytics queries—and most evaluation checklists miss this gap. If you're evaluating Postgres as a hybrid transactional-analytical engine, you need different criteria. Here's what to test and what questions most evaluations skip.",
+    "category": "Database",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
     "id": "9f8010789ea0c3e2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -649,6 +750,18 @@
     "first_seen": "2026-11-03",
     "summary": "Request for access is now generally available. Users can request privileges on Unity Catalog objects from anywhere in Databricks and track request status in Catalog Explorer. See Access requests.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "2bcd2c1f29ecc728",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "User-aware workspace instructions for Genie One",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#user-aware-workspace-instructions-for-genie-one",
+    "published": "2026-10-28",
+    "first_seen": "2026-11-04",
+    "summary": "Workspace admins can now tailor Genie One chat behavior by group. Add the recommended instruction to load a user's group memberships, then define behavior for relevant groups. See Add workspace instructions for chat.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
@@ -7317,6 +7430,20 @@
     "tags": []
   },
   {
+    "id": "f822875620b18efc",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: v0.7.0",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.7.0",
+    "published": "2026-08-19",
+    "first_seen": "2026-11-04",
+    "summary": "OntoBricks — Release Notes V0.7.0\n\nRelease window: July – August, 2026\n\nTest status: all changes shipped with the suite green (4787 passed, 276 skipped, 5 deselected, 1 xfailed).\n\nHighlights\n\n- Neo4j graph backend (GA): Neo4j (Community, Enterprise, AuraDB) joins Delta Lake and Lakebase as a full typed property-graph engine — nodes/relationships instead of flat triples, named connection profiles in Settings → Neo4j (master–detail Connections + Objects, live Bolt + Cypher Test connection), per-domain binding via Domain → Knowledge Graph, and documentation/neo4j-requirements.md for flavor compatibility.\n\n- Graph Chat confirmation-gated Class Actions: Graph Chat reaches MCP parity for Datasets / Bridges / Actions (get_entity_context, request_entity_action) with an explicit Confirm/Cancel card before any UC function runs — Graph Chat never exposes direct invoke_entity_action.\n\n- Branded backend icons: dedicated Lakehouse glyph in Domain / Registry chrome; Databricks branding reserved for Settings / workspace identity controls.\n\n- Graph backend selection moved per-domain: choosing Lakebase / Lakehouse (Delta) / Neo4j is now a mandatory per-domain setting on Domain → Information → Knowledge Graph (large selectable cards), not a workspace-wide Settings toggle; the old Settings → Back End page is gone.…",
+    "category": "Database",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
     "id": "c6a5bcc79540ffba",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -7966,130 +8093,5 @@
     "summary": "The managed Google Search Console connector is now available in Beta in Databricks Lakeflow Connect. Use it to ingest search performance data, site metadata, and sitemap information from Google Search Console into Databricks.\n\nThe connector supports daily and hourly search analytics dimensions (date, country, device, page, query), as well as verified sites and submitted sitemaps. Incremental ingestion is supported for all search analytics tables.",
     "category": "Data Engineering",
     "tags": []
-  },
-  {
-    "id": "6669eadd8d0b61c3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Custom trace views in the MLflow trace explorer are in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#custom-trace-views-in-the-mlflow-trace-explorer-are-in-beta",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-14",
-    "summary": "You can now build custom trace views in the Databricks MLflow trace explorer. Describe the layout you want in plain language, and Genie generates a reusable view that surfaces the trace fields, metrics, and feedback controls most relevant to your review workflow. See Build a custom trace view.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "956144f622154a4e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Amplitude connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#amplitude-connector-beta",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-15",
-    "summary": "The Amplitude connector in Lakeflow Connect is now in Beta. Ingest product analytics event data along with event, cohort, and annotation metadata from Amplitude. See Amplitude connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "79c7699876a17716",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Glean connector in Lakeflow Connect (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#glean-connector-in-lakeflow-connect-beta",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-31",
-    "summary": "You can now ingest data from Glean into Databricks using the managed Glean connector in Lakeflow Connect. The connector ingests company-wide usage insights for search, Assistant, and agents, along with the shortcuts (go links) defined in your Glean deployment, using a Glean Client API token. This feature is in Beta.\n\nSee Glean connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "186fce5f8de07501",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Modern Risk Demands a Real-Time Foundation: The CRO’s Mandate",
-    "url": "https://www.databricks.com/blog/modern-risk-demands-real-time-foundation-cros-mandate",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-11",
-    "summary": "Explore how an AI-driven, real-time unified data foundation enables CROs to tackle systemic risks, manage compliance, and turn risk into a strategic growth driver.",
-    "category": "Security",
-    "tags": [
-      "Platform",
-      "Solutions",
-      "Industries",
-      "Financial Services"
-    ]
-  },
-  {
-    "id": "8b18bfa54356aa2e",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Electric joins Databricks to bring WASM Postgres to AI agent sandboxes",
-    "url": "https://www.databricks.com/blog/electric-joins-databricks-bring-wasm-postgres-ai-agent-sandboxes",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-11",
-    "summary": "Electric is joining Databricks to extend Databricks’ Postgres capabilities from the lakehouse to the edge, allowing for an abundance of lightweight open-source databases that can all be synced back to Lakebase Postgres for centralization and control on cheap, durable object storage.",
-    "category": "Database",
-    "tags": [
-      "Platform",
-      "Announcements"
-    ]
-  },
-  {
-    "id": "842e435a7bc162d9",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.126.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.126.0",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-11",
-    "summary": "## Release v0.126.0 (2026-08-11)\n\n### API Changes\n\n* Add `forward_user_access_token` field for `databricks.sdk.service.apps.App`.\n\n* Add `forward_user_access_token` field for `databricks.sdk.service.apps.AppUpdate`.\n\n* Add `include_value` field for `databricks.sdk.service.catalog.GetSecretRequest`.\n\n* Add `docker_image_url` field for `databricks.sdk.service.jobs.AiRuntimeTask`.\n\n* Add `gpu_xlarge_8` enum value for `databricks.sdk.service.serving.ServedModelInputWorkloadType`.\n\n* Add `gpu_xlarge_8` enum value for `databricks.sdk.service.serving.ServingModelWorkloadType`.\n\n* Add `legacy_mode` enum value for `databricks.sdk.service.settings.CustomerFacingIngressNetworkPolicyCrossWorkspaceAccessRestrictionMode`.\n\n* Change `account_sp_status` and `display_name` fields for `databricks.sdk.service.iamv2.ServicePrincipal` to be required.\n\n* Change `account_user_status`, `full_name` and `username` fields for `databricks.sdk.service.iamv2.User` to be required.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.GetMcpServiceRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.GetModelProviderServiceRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.GetModelServiceRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.ListMcpServicesRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.ListModelProviderServicesRequest`.\n\n* [Breaking] Remove `include_browse` field for `databricks.sdk.service.catalog.ListModelServicesRequest`.\n\n* [Breaking] Remove `browse_only` field for `databricks.sdk.service.catalog.McpService`.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "2d3ea9ff80a0be1d",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Taking AUTO CDC to the next level: Solving the hardest real-world use cases",
-    "url": "https://www.databricks.com/blog/taking-auto-cdc-next-level-solving-hardest-real-world-use-cases",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-12",
-    "summary": "Discover how AUTO CDC adds Bitemporal support, Partial Updates, and open-source contributions to Apache Spark 4.2 for scalable change data capture.",
-    "category": "Data Engineering",
-    "tags": [
-      "Platform",
-      "Product"
-    ]
-  },
-  {
-    "id": "b54d76a4ad9cef48",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Open-sourcing Metals v2: Databricks’ Java and Scala language server for multi‑million line codebases",
-    "url": "https://www.databricks.com/blog/open-sourcing-metals-v2-databricks-java-and-scala-language-server-multi-million-line-codebases",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-12",
-    "summary": "A look at how Databricks moved its JVM development onto lightweight editors: the platform flywheel behind standardizing on one IDE, the adoption data showing the shift, and the engineering inside Metals v2, including a build-free repo index, compiler-backed pipelines, and a metadata-first build integration.",
-    "category": "Data Engineering",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "232e1b305a602511",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: v4.4.0rc1",
-    "url": "https://github.com/delta-io/delta/releases/tag/v4.4.0rc1",
-    "published": "2026-08-11",
-    "first_seen": "2026-08-12",
-    "summary": "Releasing 4.4.0rc1",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
   }
 ]
