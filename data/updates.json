@@ -14,6 +14,154 @@
     ]
   },
   {
+    "id": "80e286c97311002f",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "A builder’s guide to scaling Databricks Apps",
+    "url": "https://www.databricks.com/blog/builders-guide-scaling-databricks-apps",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "Scale Databricks Apps from design to production: set latency targets, keep state recoverable, load test, and size instances, workers and connections.",
+    "category": "Application Development",
+    "tags": [
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "113acad34f57c0eb",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Which Data Collaboration Tool: OpenSharing, Clean Rooms, Marketplace",
+    "url": "https://www.databricks.com/blog/which-data-collaboration-tool-opensharing-clean-rooms-marketplace",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "OpenSharing, Clean Rooms, or Marketplace? Learn which Databricks data collaboration tool fits your use case based on who is on the other side of the data.",
+    "category": "Sharing",
+    "tags": [
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "b822b2d4aa6bbfdd",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "From Delta Sharing to OpenSharing: what changed, what's next",
+    "url": "https://www.databricks.com/blog/delta-sharing-opensharing-what-changed-whats-next",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "Delta Sharing is now OpenSharing: an open protocol for sharing tables, agent skills, AI models, and unstructured data across platforms.",
+    "category": "Sharing",
+    "tags": [
+      "Data Strategy",
+      "Insights"
+    ]
+  },
+  {
+    "id": "3592738bc5c57469",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Push-based CDC into Unity Catalog with Zerobus Ingest and Debezium",
+    "url": "https://www.databricks.com/blog/push-based-cdc-unity-catalog-zerobus-ingest-and-debezium",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "Debezium Server and Databricks Zerobus Ingest combine to stream CDC events directly into Unity Catalog Delta tables through a push-based architecture.",
+    "category": "Governance",
+    "tags": [
+      "Engineering"
+    ]
+  },
+  {
+    "id": "2a1356b4e85e3526",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing Apache Spark® 4.3 - Now available in Databricks Runtime 19",
+    "url": "https://www.databricks.com/blog/introducing-apache-spark-43-now-available-databricks-runtime-19",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "Apache Spark 4.3 brings stateful streaming with millisecond-scale latency, history-preserving Auto CDC, and faster data and AI development.",
+    "category": "Data Engineering",
+    "tags": [
+      "Engineering",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "5290febc4e26fa6f",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.162.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.162.0",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "## Release v0.162.0 (2026-11-05)\n\n### API Changes\n\n* Add `undrop_metastore_by_id()` method for [w.metastores](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/catalog/metastores.html) workspace-level service.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "fc7b761cf3a3c686",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Run Claude Code and Codex in the SSH tunnel",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#run-claude-code-and-codex-in-the-ssh-tunnel",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "Claude Code and Codex are now available in SSH tunnel sessions. The agents send model requests through Unity Gateway and authenticate with the credentials of your SSH session. This requires Databricks CLI version 1.23.0 or above. See Run coding agents in an SSH session.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "813ef555b8fc1975",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Allow partner platforms in context-based ingress policies",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#allow-partner-platforms-in-context-based-ingress-policies",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "Context-based ingress policies can now allow traffic from Power BI, Tableau Cloud, dbt Cloud, and the Genie apps for Slack and Microsoft Teams. Databricks keeps partner details current, so you don't track IPs. See Allow partner platforms in context-based ingress policies.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "0b5cf858c86f76d8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "External knowledge sources are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#external-knowledge-sources-are-in-beta",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "External knowledge sources are in Beta. You can pull metadata from Power BI semantic models into Databricks, and Genie can use your Power BI measure definitions when it answers questions. To use external knowledge sources, an account admin turns on External knowledge from the account console Previews page. See Manage account-level previews.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "702e609db42ced3e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "DeepSeek V4 Flash (0731) is retired",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#deepseek-v4-flash-0731-is-retired",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "DeepSeek V4 Flash (0731) is retired as of November 5, 2026. DeepSeek V4.1 Flash (1017) is the recommended replacement. See Deprecated and retired models for migration guidance.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "0ceefcef857f1eab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Upcoming removal of AI Functions support on older runtimes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#upcoming-removal-of-ai-functions-support-on-older-runtimes",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-05",
+    "summary": "Starting in January 2027, AI Functions in SQL queries will no longer be supported on Databricks Runtime versions below 17.3 LTS. This change doesn't affect ai_similarity or the AI Functions REST API. To continue using AI Functions in SQL, use Databricks Runtime 17.3 LTS and above.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
     "id": "0e072c9f8e9dff5a",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -69,6 +217,44 @@
     "tags": [
       "databricks/cli"
     ]
+  },
+  {
+    "id": "b899d84fb8d3ffdc",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: dbi-20261104-51093c778: [Kernel] Stamp version 4.5.0-20261104-dbrbuild",
+    "url": "https://github.com/delta-io/delta/releases/tag/dbi-20261104-51093c778",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-05",
+    "summary": "",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "b51dcfbe9625933c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Publish Unity Gateway Skills with a GitHub Action in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#publish-unity-gateway-skills-with-a-github-action-in-beta",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-05",
+    "summary": "Publish Git-managed skills to Unity Catalog with a GitHub Action in Beta. Map folders to skills and publish updates on merges to your publishing branch. See Publish skills from your GitHub repository.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "1e2f226299c65ccd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Function tasks for jobs (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-tasks-for-jobs-beta",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-05",
+    "summary": "You can now add AI Function tasks to your Databricks jobs to run ai_parse_document, ai_extract, or ai_classify on the files in a volume or the rows of a table, without writing SQL. Each run processes only the inputs that are new or changed since the previous run and writes the results to a Unity Catalog table that later tasks can read. This feature is in Beta.\n\nSee AI Function tasks for jobs.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "ac708a4278d06a41",
@@ -219,6 +405,30 @@
       "Engineering",
       "Data Warehousing"
     ]
+  },
+  {
+    "id": "d4a7c52f97173f3d",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakehouse//RT supports fine-grained access control (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#lakehousert-supports-fine-grained-access-control-beta",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-05",
+    "summary": "You can now run read queries on tables protected by row filters, column masks, and attribute-based access control (ABAC) policies with Lakehouse//RT. See Fine-grained access control.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "de0676eaa77fc96e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Approve Genie tool actions in Slack and Microsoft Teams (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#approve-genie-tool-actions-in-slack-and-microsoft-teams-public-preview",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-05",
+    "summary": "When Genie needs approval to run a connected external tool, the Databricks Genie apps for Slack and Microsoft Teams now show an approval prompt in the reply, so you can allow or deny the action without leaving the chat. See Approve tool actions and Approve tool actions.",
+    "category": "Platform Overview",
+    "tags": []
   },
   {
     "id": "7afea58e30fbf8b7",
@@ -662,6 +872,18 @@
     "tags": [
       "Data + AI Foundations"
     ]
+  },
+  {
+    "id": "4a329942da4e503b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Apply ABAC policies to shared views, materialized views, and streaming tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#apply-abac-policies-to-shared-views-materialized-views-and-streaming-tables",
+    "published": "2026-10-29",
+    "first_seen": "2026-11-05",
+    "summary": "You can now apply attribute-based access control (ABAC) row filters and column masks to views, materialized views, and streaming tables shared through OpenSharing. Shared views are in Beta and require the ABAC on views preview. See OpenSharing and ABAC.",
+    "category": "Governance",
+    "tags": []
   },
   {
     "id": "9f8010789ea0c3e2",
@@ -3369,6 +3591,18 @@
     "first_seen": "2026-10-07",
     "summary": "DeepSeek V4 Flash (0731) will be retired on November 5, 2026. DeepSeek V4.1 Flash is the recommended replacement. See Deprecated and retired models for migration guidance.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "77d95626d3fedd83",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie visualizations in Microsoft Teams replies (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#genie-visualizations-in-microsoft-teams-replies-public-preview",
+    "published": "2026-10-06",
+    "first_seen": "2026-11-05",
+    "summary": "When a Genie response includes a chart, the visualization now appears as an image in the Microsoft Teams reply. See Databricks Genie app in Microsoft Teams.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
@@ -7857,241 +8091,6 @@
     "first_seen": "2026-08-14",
     "summary": "The managed Google Drive Audit Logs connector in Lakeflow Connect is now available in Beta. You can use the connector to ingest Google Drive audit activity events such as file views, edits, downloads, and sharing changes from Google Workspace into Databricks. See Google Drive Audit Logs connector.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "24561325011045cc",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 3.7 Flash now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-gemini-37-flash-now-available-as-a-databricks-hosted-model",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-14",
-    "summary": "Model Serving now supports Google Gemini 3.7 Flash as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "83dd77b60232d914",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Tags page in Governance Hub (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#tags-page-in-governance-hub-beta",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-15",
-    "summary": "The Tags page in Governance Hub is now in Beta. The Tags page provides a centralized view of how tags are applied across your account. It summarizes governed tag usage, shows recent tag assignments and their sources, and surfaces recommendations to fix invalid tag values and add tags to important assets that are missing them.\n\nAccount admins can enable Governance Hub from the account console Previews page. See Tags overview.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "c7a9bfe765267b2e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Sharing tables backed by default storage is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-tables-backed-by-default-storage-is-now-generally-available",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-15",
-    "summary": "OpenSharing support for tables backed by default storage is now generally available and is being enabled by default for accounts on a rolling basis. Providers can share these tables with any recipient, whether open or Databricks, including recipients that use classic compute. If the feature is not yet on by default for your account, an account admin can enable it in the account console.\n\nFor more details about the feature, see Limitations and Create shares for OpenSharing. For more details about enablement, see Sharing tables backed by default storage will be enabled by default for all accounts.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "2e35d91b0ebe3b78",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Identity attributes (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#identity-attributes-beta",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-18",
-    "summary": "Identity attributes are in Beta. Databricks can store nine IdP-sourced attributes, such as title, department, and cost center, on account users, so they can be referenced in Unity Catalog ABAC column-masking policies. Account admins provision these attributes from their identity provider using automatic identity management or account SCIM 2.1, and use the Identity Attribute Control List to govern which attributes can be written.\n\nSee Identity attributes.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "47c05251a1604fbb",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Smart Routing: Cut AI costs by routing each task to the right model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#smart-routing-cut-ai-costs-by-routing-each-task-to-the-right-model",
-    "published": "2026-08-13",
-    "first_seen": "2026-09-02",
-    "summary": "Smart Routing (Beta) automatically picks the right model and agent harness for each task, based on complexity, permissions, and budget. It shifts routine work to lower-cost models and reserves frontier models for hard problems, and every routing decision is visible and auditable. Smart Routing works with Claude Code and Codex when you run them through Omnigent or ucode, and routes across both proprietary and open models. Only Omnigent can route across coding harnesses, not just models. In internal benchmarks, it matched frontier-level quality while cutting overall task cost by more than 30%.\n\nSee Smart Routing for coding agents.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "f357376691f793be",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Block or redact sensitive data in requests and responses",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#block-or-redact-sensitive-data-in-requests-and-responses",
-    "published": "2026-08-13",
-    "first_seen": "2026-09-02",
-    "summary": "The Sensitive Data Detection guardrail (Beta) detects structured sensitive data (such as Social Security numbers, credit card numbers, IBANs, and phone numbers) and either blocks the interaction or redacts the matched values in place. Detection is deterministic (regular expressions plus checksums and context keywords, with no evaluator model), so it adds under 50 ms for a 100-turn conversation and returns the same result every time. To use it, enable the Enhanced Unity Gateway preview on the account console Previews page.\n\nThis release also includes the following improvements:\n\n- Blocked interactions now return a standard HTTP 200 response with the block reason, instead of a 4xx error, so coding agents that resend history don't re-trigger the same block every turn.\n\n- Built-in LLM-as-a-judge guardrails can now evaluate a window of recent conversation turns, or the entire conversation history, instead of only the latest message.\n\n- A new execution flow view shows the order in which guardrails run, end to end.\n\nSee Detect sensitive data with a service policy.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "77f218680b56509d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 3.7 Flash is now available on Unity Gateway",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-gemini-37-flash-is-now-available-on-unity-gateway",
-    "published": "2026-08-13",
-    "first_seen": "2026-09-02",
-    "summary": "Google Gemini 3.7 Flash is now available on Unity Gateway for fast, cost-efficient everyday tasks. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with applicable terms.\n\nTo query the model and see supported regions, see Use foundation models.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "98e13699385590e0",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Cross-workspace access for serverless (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#cross-workspace-access-for-serverless-beta",
-    "published": "2026-08-13",
-    "first_seen": "2026-09-02",
-    "summary": "You can now control serverless network traffic between Databricks workspaces. Account admins use cross-workspace access to set which source workspaces can reach a workspace (ingress) and which destination workspaces a workspace's serverless workloads can send traffic to (egress). Traffic flows only when both the source workspace's egress rules and the destination workspace's ingress rules permit it. See Cross-workspace access.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "944f4d659fcdaadd",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "The Future of Data Analytics: Why AI is rewriting the Analyst’s Job Description",
-    "url": "https://www.databricks.com/blog/future-data-analytics-why-ai-rewriting-analysts-job-description",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-12",
-    "summary": "AI is automating SQL, dashboards, and ad-hoc analysis. The future of data analytics isn't fewer analysts — it's analysts who lead with judgment, not queries.",
-    "category": "Business Intelligence",
-    "tags": [
-      "Data Strategy"
-    ]
-  },
-  {
-    "id": "097143c32f1342fe",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.127.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.127.0",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-12",
-    "summary": "## Release v0.127.0 (2026-08-12)\n\n### API Changes\n\n* Add `mlflow_artifact_location` field for `databricks.sdk.service.jobs.AiRuntimeTask`.\n\n* Add `trigger_details` field for `databricks.sdk.service.jobs.BaseJob`.\n\n* Add `triggers` field for `databricks.sdk.service.jobs.CreateJob`.\n\n* Add `trigger_details` field for `databricks.sdk.service.jobs.Job`.\n\n* Add `triggers` field for `databricks.sdk.service.jobs.JobSettings`.\n\n* Add `api_source_connector_options` field for `databricks.sdk.service.pipelines.ConnectorOptions`.\n\n* Add `api_source_connector_config` field for `databricks.sdk.service.pipelines.SourceConfig`.\n\n* Add `all_vpc_sc_services` and `google_api_endpoints` fields for `databricks.sdk.service.settings.GcpEndpoint`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "2f013238bb3cd57a",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.12.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.12.0",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-12",
-    "summary": "Release v1.12.0\n\nCLI\n\n- databricks aitools install now supports Gemini CLI, installing Databricks agent skills into its skills directory.\n\n- databricks aitools install now supports Pi, installing Databricks agent skills into its skills directory.\n\n- A locally built CLI (go build, without release flags) now reports the next release version with a -dev prerelease, e.g. 1.12.0-dev+abcdef123456, instead of 0.0.0-dev+abcdef123456. The old string sorted below every published release even though a local build is newer than the latest release; the new one sorts above the latest release and below the release it will become, matching what goreleaser already produces for snapshot builds.\n\n- Added the databricks environments setup-local command, which provisions (or updates) a local Python environment matched to a Databricks compute target. It resolves the target to an environment key, fetches the pinned Python version, databricks-connect version, and dependency constraints published for that key, then provisions a matched .venv with uv.\n\nBundles\n\n- Added a cascade_on_destroy field to the pipeline resource to control whether destroying a pipeline also deletes its datasets (MVs, STs, Views). When unset, the server default applies; set cascade_on_destroy: false to retain the datasets on destroy. Supported with the direct deployment engine (#5846).\n\n- Fix bundle.deployment.lock.force being ignored. The --force-lock flag's default value overwrote the value configured in databricks.yml, so setting the field had no effect and a stale deployment lock could only be overridden with the flag. (#6188)…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "4d0529319f993998",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/dqx",
-    "title": "databrickslabs/dqx: New Release v0.16.0 (#1463)",
-    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.16.0",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-12",
-    "summary": "Changes\n\nPrepares the v0.16.0 release.\n\n- Bumps the library version to 0.16.0\n\n(src/databricks/labs/dqx/__about__.py).\n\n- Updates CHANGELOG.md with all 45 user-facing PRs merged since\n\nv0.15.0, grouped as changes + a BREAKING CHANGES! section.\n\n- Propagates the version to the references that are safe to move ahead\n\nof publish: docs GitHub source URLs (v0.16.0) and the MCP server's\n\ndqx_version bundle variable.\n\nVersion-sync note (why the app pins stay at 0.15.0)\n\nThe DQX Studio app and its task runner install databricks-labs-dqx\n\nfrom the PyPI registry through the app's frozen uv.lock, and app\n\nCI runs uv sync. Pinning them to 0.16.0 before it is published would\n\nbreak CI, so those pins are intentionally left at 0.15.0 and bumped at\n\nrelease-publish time. docs/dqx/sync_versions.py was updated to stop\n\nauto-bumping the app-side pins (it now bumps only the MCP\n\ndqx_version), so make fmt no longer re-introduces the failing state.\n\nThe pin_files list is kept as the extensible seam.\n\nBreaking changes\n\n- is_in_list / is_not_in_list / is_not_null_and_is_in_list now\n\nresolve allowed/forbidden string values as column expressions, not\n\nliterals (#1419).\n\n- user_metadata on the Delta table backend is now JSON-encoded at rest\n\n(#1319).\n\nSee CHANGELOG.md for the full list.",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/dqx"
-    ]
-  },
-  {
-    "id": "a0f95b1672f71039",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Databricks Network Configuration delivery to Tens of Millions of Serverless VMs",
-    "url": "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-13",
-    "summary": "Learn how Databricks re-architected serverless network config delivery with event-driven pre-computation: 98.5% lower latency, 99.99% uptime at scale.",
-    "category": "Platform Overview",
-    "tags": [
-      "Engineering",
-      "Data Engineering"
-    ]
-  },
-  {
-    "id": "6d7c7b773b2066c6",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How Amtrak is building the data backbone for its largest transformation in over 50 years",
-    "url": "https://www.databricks.com/blog/how-amtrak-building-data-backbone-its-largest-transformation-over-50-years",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-13",
-    "summary": "Learn how Amtrak uses Databricks to centralize railroad data, enable predictive maintenance, and transform operations for safer, on-time train travel.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Public Sector"
-    ]
-  },
-  {
-    "id": "9e222714c5d884cc",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How a major freight railroad scaled pipeline creation with Genie Code",
-    "url": "https://www.databricks.com/blog/how-major-freight-railroad-scaled-pipeline-creation-genie-code",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-13",
-    "summary": "One",
-    "category": "AI Assistant",
-    "tags": [
-      "Company",
-      "Customers"
-    ]
-  },
-  {
-    "id": "25e178a847d4d61a",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.12.1",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.12.1",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-13",
-    "summary": "Release v1.12.1\n\nDependency Updates\n\n- Bump github.com/databricks/databricks-sdk-go from v0.166.0 to v0.170.0 (#6251).",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "ff4a681f89d8c7e8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Define business concepts with Pages (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#define-business-concepts-with-pages-beta",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-13",
-    "summary": "You can now use Pages to give business terms, acronyms, and KPIs a single governed definition. Part of Unity Catalog semantics, Pages form the human-modeled layer of the Genie Ontology that Genie One draws on to ground its answers. See Pages.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "ad3d3d5f9322f2e4",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Search Console connector is available in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-search-console-connector-is-available-in-beta",
-    "published": "2026-08-12",
-    "first_seen": "2026-08-13",
-    "summary": "The managed Google Search Console connector is now available in Beta in Databricks Lakeflow Connect. Use it to ingest search performance data, site metadata, and sitemap information from Google Search Console into Databricks.\n\nThe connector supports daily and hourly search analytics dimensions (date, country, device, page, query), as well as verified sites and submitted sitemaps. Incremental ingestion is supported for all search analytics tables.",
-    "category": "Data Engineering",
     "tags": []
   }
 ]
