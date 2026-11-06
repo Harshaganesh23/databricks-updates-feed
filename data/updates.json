@@ -14,6 +14,88 @@
     ]
   },
   {
+    "id": "971de4c0be5cc066",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How public sector organizations can govern AI at scale",
+    "url": "https://www.databricks.com/blog/how-public-sector-organizations-can-govern-ai-scale",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-06",
+    "summary": "Unity Gateway provides clear answers on cost, compliance, and data residency let public sector teams move AI projects forward.",
+    "category": "Security",
+    "tags": [
+      "Industries",
+      "Unity Gateway",
+      "Public Sector"
+    ]
+  },
+  {
+    "id": "071307c1b3f6f30e",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: dbr-20261105-5dc258adf: [Spark] Remove unused V2 streaming snapshot code (#8040)",
+    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20261105-5dc258adf",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-06",
+    "summary": "Which Delta project/connector is this regarding?\n\n- Spark\n\n- Standalone\n\n- Flink\n\n- Kernel\n\n- Other (fill in here)\n\nDescription\n\nV2 streaming now reuses the V1 initial-snapshot implementation. Remove\n\nthe unused\n\nsnapshot cache, scan-file RDD, serializable snapshot wrappers, row\n\nconverters,\n\nand their tests.\n\nAlso remove the unused distributed-initial-snapshot setting, duplicate\n\nsuite\n\nvariants, obsolete parity test, and filtered\n\nStreamingHelper.getAddFile\n\noverload. Keep coverage for getAddFileWithDataChange, which is still\n\nused by\n\ncommit processing.\n\nHow was this patch tested?\n\n- Verified the patch applies cleanly and passes git diff --check.\n\n- Searched the repository for the removed classes and setting; no\n\nreferences remain.\n\n- Unit tests have not been rerun in this checkout; CI will validate the\n\nchange.\n\nDoes this PR introduce any user-facing changes?\n\nNo. This removes unused code and obsolete tests.",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "dfa870be4d3d941f",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.11.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.11.0",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-06",
+    "summary": "Added\n\n- Cross-workspace egress destinations. Observed serverless egress to other Databricks\n\nworkspaces (Apps, AI-gateway, Azure/GCP workspace hosts, and AWS deployment names resolved through\n\nthe account API's workspace list) is turned into allowed_databricks_destinations by workspace id\n\ninstead of being flagged as un-allow-listable. Interactive runs get a pre-checked selector;\n\n--yes includes all verified ids; --no-cross-workspace-destinations flags only. Inferred ids are\n\nverified against system.access.workspaces_latest and the account API's workspace list; unverified\n\nids (another account's workspace, or digits that aren't an id) start unticked and are never added\n\nunder --yes. Same-workspace traffic — a workspace calling its own App / AI gateway — and this\n\nworkspace are never destinations; Lakebase endpoints, platform hosts and other accounts' workspaces stay flagged\n\nwith a reason. Updating an existing policy's egress preserves workspace ids already on it. The run\n\nreminds you that the destination workspace's ingress policy must also allow this one.\n\n- egress --uc-schema <catalog.schema>. Persists the outbound analysis like ingress does:\n\ndbx_nwp_egress_daily (per-day destination aggregate of system.access.outbound_network, built\n\nserver-side and synced incrementally) is re-aggregated instead of re-scanning the table, and each\n\nrun's destinations and their fate (allowed, blocked, deselected, capped, excluded_*,\n\nunresolved_workspace) are appended to dbx_nwp_egress_suggestions. --refresh-persisted rebuilds.\n\nThe guided wizard asks for the schema and the cross-workspace choice.\n\nChanged\n\n- Consolidation is offered before the first ingress preview is printed, so a truncated policy\n\nthat is about to be rebuilt is never rendered in full and then discarded.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "3e9939325e41f63d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/databricks-network-policy-helper",
+    "title": "databrickslabs/databricks-network-policy-helper: v0.10.0",
+    "url": "https://github.com/databrickslabs/databricks-network-policy-helper/releases/tag/v0.10.0",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-06",
+    "summary": "Scale release for large environments (thousands of source IPs / hundreds of owner groups).\n\nAdded\n\n- Rule consolidation instead of dropping (ingress). When the proposed allow rules exceed the\n\nper-policy 50-rule cap, the run now offers to consolidate: the highest-traffic owner groups\n\nkeep their own labelled rules and the remainder are folded into Consolidated-Observed-IPs\n\nrule(s) — one per destination/identity shape, adjacent CIDRs merged losslessly, Databricks-owned,\n\npartner-platform and migrated-IP-ACL rules never folded, room reserved for deny rules. Every observed IP stays in the\n\npolicy unless the 2,000-CIDR cap itself is exceeded. Interactive runs are prompted (default\n\nyes); --yes consolidates automatically; --consolidate-rules / --no-consolidate-rules decide up\n\nfront. (Previously a 276-owner environment silently kept 50 rules and dropped 226.)\n\n- Partner-platform hand-off. Whenever a policy cap is hit and the allow-list contains\n\npartner-platform rules (Power BI / dbt / Tableau), an interactive run offers to leave those rules out\n\nand reminds you to add the partners via the console's managed Partner platforms source\n\n(console-only — the SDK and Terraform provider don't expose it). Default keeps the rules.\n\n- --uc-schema <catalog.schema> — persist the ingress analysis to Unity Catalog. Maintains\n\ndbx_nwp_ingress_daily, a per-(day, workspace, source IP, outcome) aggregate of\n\nsystem.access.audit built server-side and updated incrementally (only missing days plus the\n\ntwo most recent are re-aggregated), and reads the candidate / denied views from it instead of\n\nre-scanning the audit log. Also appends each run's proposed rules and their fate (kept,\n\nconsolidated, dropped, deselected, excluded_*) to dbx_nwp_ingress_suggestions.…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/databricks-network-policy-helper"
+    ]
+  },
+  {
+    "id": "9a6af130aa9cb7d4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Restore a deleted Unity Catalog metastore with the REST API (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#restore-a-deleted-unity-catalog-metastore-with-the-rest-api-public-preview",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-06",
+    "summary": "Account admins can now restore a deleted Unity Catalog metastore by its ID. You can restore a metastore for up to 5 days after it's deleted. See Restore a deleted metastore.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "1e3f31ba7f3be2b5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Install drivers for JDBC Unity Catalog connections from Maven",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#install-drivers-for-jdbc-unity-catalog-connections-from-maven",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-06",
+    "summary": "You can now install the JDBC driver for a JDBC Unity Catalog connection from a Maven coordinate instead of uploading it to a volume. This requires serverless compute, Databricks Runtime 19 or above, or SQL warehouses 2026.43 or above. See Maven coordinates.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
     "id": "80e286c97311002f",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -162,6 +244,49 @@
     "tags": []
   },
   {
+    "id": "f5ad08875fd278ae",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Real-time fraud detection with Feature Views",
+    "url": "https://www.databricks.com/blog/real-time-fraud-detection-feature-views",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-06",
+    "summary": "Feature Views define fraud features once and reuse them for point-in-time training and online scoring, reducing data leakage and training-serving skew.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Data Science and ML"
+    ]
+  },
+  {
+    "id": "c5d45592e55c38cb",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: dbr-20261105-5ac199240: [Spark] Comment out idle source-build CI jobs (#8022)",
+    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20261105-5ac199240",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-06",
+    "summary": "Which Delta project/connector is this regarding?\n\n- Spark\n\n- Standalone\n\n- Flink\n\n- Kernel\n\n- Other (fill in here)\n\nDescription\n\nAfter #7989, Spark 4.0 through 4.3 all use published artifacts. The source-build matrix is empty, but each Spark workflow run still shows two skipped source-build checks.\n\nComment out the source-cache preparation job and the source-test job in spark_test.yaml. Keep their definitions, inputs, and matrix outputs for the next Spark snapshot. A note explains that both jobs must be uncommented when adding that snapshot. The published-artifact test job keeps all 32 shards.\n\nHow was this patch tested?\n\n- actionlint 1.7.12 passed for the active workflow and for a copy with both source-build jobs uncommented.\n\n- Compared the parsed workflows. Only the two source-build jobs are inactive. Uncommenting them restores the original workflow exactly.\n\n- Ran the matrix-generation step and checked that all 32 published Spark test combinations remain.\n\n- Checked metadata and matrix expansion with a simulated 4.4.0-SNAPSHOT. After uncommenting, it selects one source-cache job and eight non-blocking source-test shards.\n\n- Five focused Spark metadata tests passed: JSON format, all versions, released versions, source-build versions, and non-source-build versions.\n\n- git diff --check passed.\n\nThe matrix and metadata checks used cached output from an identical CrossSparkVersions.scala.\n\nDoes this PR introduce any user-facing changes?\n\nNo.",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "095ffec5a9804598",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/dqx",
+    "title": "databrickslabs/dqx: v0.17.2",
+    "url": "https://github.com/databrickslabs/dqx/releases/tag/v0.17.2",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-06",
+    "summary": "What's Changed\n\nDQX Core\n\n- Added the is_greater_than and is_less_than row-level checks (#1644). These are the strict counterparts of is_not_less_than and is_not_greater_than and accept the same limit types (number, date, timestamp, column name, or SQL expression) and the same allow_nulls option.\n\n- Added support for datacontract-cli 1.x (#1648). The datacontract extra now requires datacontract-cli>=1.2.0,<2.0, so DQX can be installed alongside current datacontract-cli releases. generate_rules_from_contract now also accepts DataContract(data_contract=<ODCS model>), which previously raised ParameterError. Rules generated from contract files, strings, and models are unchanged.\n\n- Fixed date and timestamp format rules generated from ODCS contracts (#1625). logicalTypeOptions.format is now passed to is_valid_date / is_valid_timestamp unchanged instead of being converted to a Python strftime pattern, which Spark rejected or used to flag every valid value as invalid. Contract formats written as strftime patterns (containing %) are skipped with a warning. If you generated or imported rules from a contract before this fix (e.g. in DQX Studio), regenerate them and remove the old format rules.\n\n- Fixed checks that require a minimum Databricks Runtime version failing inside Lakeflow Declarative Pipelines (#1620). The dlt: prefix on the pipeline runtime version is now ignored, so geospatial checks no longer fail with Cannot parse Databricks Runtime version.\n\n- Fixed import databricks.labs.dqx failing with older Blueprint versions (#1671, #1679). DQX now requires databricks-labs-blueprint>=0.10.2,<=0.13, avoiding the install_logger() got an unexpected keyword argument 'root' error and allowing Blueprint 0.13.\n\nDQX Studio…",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/dqx"
+    ]
+  },
+  {
     "id": "0e072c9f8e9dff5a",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -253,6 +378,18 @@
     "published": "2026-11-04",
     "first_seen": "2026-11-05",
     "summary": "You can now add AI Function tasks to your Databricks jobs to run ai_parse_document, ai_extract, or ai_classify on the files in a volume or the rows of a table, without writing SQL. Each run processes only the inputs that are new or changed since the previous run and writes the results to a Unity Catalog table that later tasks can read. This feature is in Beta.\n\nSee AI Function tasks for jobs.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "942bce74abe3d628",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#moonshot-ai-kimi-k31-pro-is-now-available-on-unity-gateway",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-06",
+    "summary": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway for coding, knowledge work, and agentic tool use, with native vision and reasoning. It is available on pay-per-token endpoints in us-east-1.\n\nTo query the model and see supported regions, see Use foundation models.",
     "category": "Governance",
     "tags": []
   },
@@ -428,6 +565,54 @@
     "first_seen": "2026-11-05",
     "summary": "When Genie needs approval to run a connected external tool, the Databricks Genie apps for Slack and Microsoft Teams now show an approval prompt in the reply, so you can allow or deny the action without leaving the chat. See Approve tool actions and Approve tool actions.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "1550ef2d2a68b5f2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Start Lakeflow Designer workflows from suggested or recent tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#start-lakeflow-designer-workflows-from-suggested-or-recent-tables",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-06",
+    "summary": "Start a visual data prep in Lakeflow Designer from suggested, favorite, or recently used tables on the welcome screen. See Browse existing tables.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "4d643648b5866f14",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Edit shared Lakeflow Designer operators with Genie Code",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#edit-shared-lakeflow-designer-operators-with-genie-code",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-06",
+    "summary": "Use Genie Code in Lakeflow Designer to create shared custom operators or edit them by workspace YAML file path. See Build a shared custom operator.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "85660f504176b0ab",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Write Lakeflow Designer results to Google Drive or SharePoint",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#write-lakeflow-designer-results-to-google-drive-or-sharepoint",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-06",
+    "summary": "Write Lakeflow Designer results to Google Drive or SharePoint with the Output operator. Each run creates or replaces a file of up to 2.75 MiB. See Output.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "d657f1c448b23c21",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Set checkpoints across a Lakeflow Designer file",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#set-checkpoints-across-a-lakeflow-designer-file",
+    "published": "2026-11-03",
+    "first_seen": "2026-11-06",
+    "summary": "Set checkpoint options across a visual data prep file with Set all to Auto or Set all to On. See Configure operator checkpoints.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -6758,6 +6943,18 @@
     "tags": []
   },
   {
+    "id": "01e477cde43e63da",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New AWS Graviton instance types: M9g and M9gd",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#new-aws-graviton-instance-types-m9g-and-m9gd",
+    "published": "2026-08-31",
+    "first_seen": "2026-11-06",
+    "summary": "You can now use Graviton-based M9g and M9gd instances (xlarge to 8xlarge) for classic compute. M9gd instances include local NVMe storage. See Worker node type.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "8e9c991c04aba408",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -7898,198 +8095,6 @@
     "published": "2026-08-14",
     "first_seen": "2026-08-15",
     "summary": "The Workiva connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests audit activity, users, and roles from your Workiva organization into Databricks. Authentication uses Workiva OAuth2 client credentials.\n\nSee Workiva connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "785921013066e2de",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code supports file uploads",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-supports-file-uploads",
-    "published": "2026-08-14",
-    "first_seen": "2026-08-15",
-    "summary": "You can now upload files to Genie Code to use as context for the current chat. See Attach files.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "6aa898d798119cd6",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Sharing managed Iceberg tables is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sharing-managed-iceberg-tables-is-now-generally-available",
-    "published": "2026-08-14",
-    "first_seen": "2026-08-18",
-    "summary": "Sharing managed Iceberg tables in Databricks-to-Databricks sharing and open sharing is now generally available. Providers can now also share managed Iceberg tables to external Iceberg clients. See Add managed Iceberg tables to a share and Read shared managed Iceberg tables.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "c4a913bce5bd23ef",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase Postgres APIs are now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakebase-postgres-apis-are-now-generally-available",
-    "published": "2026-08-14",
-    "first_seen": "2026-08-20",
-    "summary": "Programmatic management of Lakebase Postgres is now generally available through the REST API, Databricks CLI, and Databricks SDKs (Python, Java, Go). These interfaces support operations for projects, branches, endpoints, databases, roles, credentials, synced tables, and catalogs. See Lakebase Autoscaling API guide.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "dd98f117c0a12170",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "DeepSeek V4 Pro (0813) now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-pro-0813-now-available-as-a-databricks-hosted-model",
-    "published": "2026-08-14",
-    "first_seen": "2026-08-20",
-    "summary": "Model Serving now supports DeepSeek V4 Pro (0813) as a Databricks-hosted model in the us-west-2 region. This large mixture-of-experts language model supports reasoning and function calling for complex coding and agentic workflows. You can access this model using Foundation Model APIs.",
-    "category": "Artificial Intelligence",
-    "tags": []
-  },
-  {
-    "id": "46ccda755867f05b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "DeepSeek V4 Pro (0813) is now available on Unity Gateway",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#deepseek-v4-pro-0813-is-now-available-on-unity-gateway",
-    "published": "2026-08-14",
-    "first_seen": "2026-09-02",
-    "summary": "DeepSeek V4 Pro (0813) is now available on Unity Gateway for complex reasoning and agentic coding workflows. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nTo query the model and see supported regions, see Use foundation models.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "271988316ab2552e",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.128.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.128.0",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-13",
-    "summary": "## Release v0.128.0 (2026-08-13)\n\n### API Changes\n\n* Add `create_direct_group_member()`, `create_group()`, `create_service_principal()`, `create_user()`, `create_workspace_assignment()`, `delete_direct_group_member()`, `delete_group()`, `delete_service_principal()`, `delete_user()`, `delete_workspace_assignment()`, `get_direct_group_member()`, `get_group()`, `get_service_principal()`, `get_user()`, `get_workspace_assignment()`, `list_direct_group_members()`, `list_groups()`, `list_service_principals()`, `list_transitive_parent_groups()`, `list_users()`, `list_workspace_assignments()`, `update_group()`, `update_service_principal()`, `update_user()` and `update_workspace_assignment()` methods for [a.account_iam_v2](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html) account-level service.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "7311e1516add037c",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.5.0",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.5.0",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-13",
-    "summary": "What's Changed\n\n- Add optional calculated_channel_metrics table with configurable KPIs by @tombonfert in #73\n\n- Batch calculated-channel solve into temp tables, mirroring aggregations/events by @tombonfert in #80\n\n- Bump version to 0.5.0 in VERSION file by @tombonfert in #81\n\nFull Changelog: v0.4.0...v0.5.0\n\nWhat's Changed\n\n- Add optional calculated_channel_metrics table with configurable KPIs by @tombonfert in #73\n\n- Batch calculated-channel solve into temp tables, mirroring aggregations/events by @tombonfert in #80\n\n- Bump version to 0.5.0 in VERSION file by @tombonfert in #81\n\nFull Changelog: v0.4.0...v0.5.0",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "0038830f31908271",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Gmail connector in Lakeflow Connect (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#gmail-connector-in-lakeflow-connect-beta",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-13",
-    "summary": "You can now ingest data from a Gmail mailbox into Databricks using the managed Gmail connector in Lakeflow Connect. The connector ingests messages, labels, drafts, filters, and profile data using a Google service account, and syncs the messages and message_labels tables incrementally through the Gmail History API. This feature is in Beta.\n\nSee Gmail connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "5a84e2d944a4de21",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How Scottish Water Made Its Capital Investment Data Conversational With Databricks Genie",
-    "url": "https://www.databricks.com/blog/how-scottish-water-made-its-capital-investment-data-conversational-databricks-genie",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-14",
-    "summary": "Scottish Water used Databricks Genie to turn fragmented project reporting into a conversational experience, letting Capital Investment teams ask questions in plain English in Microsoft Teams and get answers grounded in governed data. This was made trustworthy and scalable through curated data and a governed semantic layer, tuning for accuracy, ongoing monitoring, and repeatable deployment across environments.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Public Sector"
-    ]
-  },
-  {
-    "id": "181ab4b88db4dc7c",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "What are AI Hallucinations?",
-    "url": "https://www.databricks.com/blog/ai-hallucinations",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-14",
-    "summary": "AI hallucinations are false or unsupported outputs presented as fact. Learn why they happen, the risks they create and how organizations can reduce them.",
-    "category": "Platform Overview",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "c738d47a27ab3521",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Smart Routing in Unity AI Gateway: Match frontier quality with 30%+ lower cost per task",
-    "url": "https://www.databricks.com/blog/smart-routing-unity-ai-gateway-match-frontier-quality-30-lower-cost-task",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-14",
-    "summary": "The",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Product"
-    ]
-  },
-  {
-    "id": "d3ee0b0d1948fe6e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "SQL alert task in Lakeflow Jobs is now available by default for workspaces with the compliance security profile enabled",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sql-alert-task-in-lakeflow-jobs-is-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-14",
-    "summary": "The SQL alert task in Lakeflow Jobs now supports all compliance security profile standards that Databricks supports and is available by default for workspaces with the compliance security profile enabled.\n\nUse the task to evaluate a Databricks SQL alert as part of a Lakeflow Job. The task returns its evaluation state as a task output value, so downstream tasks can branch on the result.\n\nSee SQL alert task for jobs.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "04bc55c7257cb08e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "SendGrid connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#sendgrid-connector-beta",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-14",
-    "summary": "The SendGrid connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests the SendGrid subuser directory and IP access-management activity for the parent account and each subuser into Databricks. Authentication uses a SendGrid parent-account API key, with support for both the global and EU data-residency endpoints.\n\nSee SendGrid connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "c7e4a85623bc478c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Share data behind a firewall with SecureConnect is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#share-data-behind-a-firewall-with-secureconnect-is-generally-available",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-14",
-    "summary": "OpenSharing SecureConnect is now generally available. Providers can share data from cloud storage behind a firewall or private endpoint without adding each recipient's network to an allowlist, and recipients access the shares using their existing OpenSharing setup. See Share data behind a firewall with SecureConnect and OpenSharing recipient firewall configuration for SecureConnect.\n\nDatabricks is expanding SecureConnect networking billing to more charge types and access scenarios, including charges for recipients. See Expanded networking billing for OpenSharing SecureConnect.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "a700a9a16e6ac5fa",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Drive Audit Logs connector is now available in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#google-drive-audit-logs-connector-is-now-available-in-beta",
-    "published": "2026-08-13",
-    "first_seen": "2026-08-14",
-    "summary": "The managed Google Drive Audit Logs connector in Lakeflow Connect is now available in Beta. You can use the connector to ingest Google Drive audit activity events such as file views, edits, downloads, and sharing changes from Google Workspace into Databricks. See Google Drive Audit Logs connector.",
     "category": "Governance",
     "tags": []
   }
