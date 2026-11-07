@@ -14,6 +14,18 @@
     ]
   },
   {
+    "id": "f7075cfbca96ab69",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New jobs compute defaults to Auto access mode",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#new-jobs-compute-defaults-to-auto-access-mode",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-07",
+    "summary": "When you create new jobs compute in the UI, the access mode now defaults to Auto instead of Dedicated. Auto uses Standard access mode unless a machine learning runtime, a GPU instance type, or a Databricks Runtime version lower than 14.3 is selected. A cluster policy that enforces a different access mode still takes precedence. Existing jobs are not changed.\n\nFor workspaces with the compliance security profile enabled, this change takes effect in December 2026. See What's coming.\n\nSee Use standard access mode.",
+    "category": "Security",
+    "tags": []
+  },
+  {
     "id": "971de4c0be5cc066",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -93,6 +105,90 @@
     "first_seen": "2026-11-06",
     "summary": "You can now install the JDBC driver for a JDBC Unity Catalog connection from a Maven coordinate instead of uploading it to a volume. This requires serverless compute, Databricks Runtime 19 or above, or SQL warehouses 2026.43 or above. See Maven coordinates.",
     "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "cc92abe3a3cc0b4c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Read, don't copy: replacing file feeds with OpenSharing - Part 2 (How to Implement)",
+    "url": "https://www.databricks.com/blog/read-dont-copy-replacing-file-feeds-opensharing-part-2-how-implement",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-07",
+    "summary": "Replace scheduled file and API feeds with a live shared Delta table: set up the share, query it directly, or read it incrementally.",
+    "category": "Platform Overview",
+    "tags": [
+      "Engineering",
+      "Tutorials"
+    ]
+  },
+  {
+    "id": "9295acc142454cd8",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Read, don't copy: replacing file and API feeds with OpenSharing - Part 1 (The Why)",
+    "url": "https://www.databricks.com/blog/read-dont-copy-replacing-file-and-api-feeds-opensharing-part-1-why",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-07",
+    "summary": "Replace SFTP and API feeds with OpenSharing: read customer tables in place, pull only new changes with change data feed, and make backfills a simple query.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data Strategy",
+      "Insights"
+    ]
+  },
+  {
+    "id": "fc9c708543d51d08",
+    "source": "github_release",
+    "source_label": "GitHub · delta-io/delta",
+    "title": "delta-io/delta: dbr-20261106-ae8430c6f",
+    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20261106-ae8430c6f",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-07",
+    "summary": "Delta Kernel dependency build 4.5.0-20261106-dbrbuild",
+    "category": "Data Engineering",
+    "tags": [
+      "delta-io/delta"
+    ]
+  },
+  {
+    "id": "e97e1f10225e6449",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ucx",
+    "title": "databrickslabs/ucx: v0.61.0",
+    "url": "https://github.com/databrickslabs/ucx/releases/tag/v0.61.0",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-07",
+    "summary": "What's Changed\n\nImprovements\n\n- UCX now recognizes additional PySpark DataFrame write calls, including saveAsTable, when linting tables. (#4664)\n\n- Improve pagination across workspace listings so large accounts return all account groups, rather than only the first page. (#4732)\n\n- Fix API compatibility with DBR 16 in table migration workflows. (#4712)\n\nDocumentation\n\n- Explain the prompts users see during UCX installation. (#4399)\n\n- Clarify storage-location support in create-catalogs-schemas, including how to set per-schema locations manually. (#4854)\n\nReliability and security\n\n- Update certifi to remove trust in a distrusted root certificate. (#4996)\n\n- Make CI’s LSQL installation resilient to GitHub API rate limits by using an offline cache. (#4865)\n\nBuild and maintenance\n\n- Update the integration test configuration to use the current service principal ID. (#4704)\n\n- Harden dependency installation and modernize the build workflow by moving from Hatch to uv; update uv to 0.13 for development and CI. (#4739, #4999)\n\n- Upgrade Blueprint to 0.13.0. (#4998)\n\nFull changelog: v0.60.1...v0.61.0",
+    "category": "Governance",
+    "tags": [
+      "databrickslabs/ucx"
+    ]
+  },
+  {
+    "id": "35f705c7e4ae7071",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/pytester",
+    "title": "databrickslabs/pytester: Release v0.7.5",
+    "url": "https://github.com/databrickslabs/pytester/releases/tag/v0.7.5",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-07",
+    "summary": "pytester v0.7.5\n\nFeatures and fixes\n\n- Require name in the serving configuration, fixing issue #216. (#224)\n\n- Allow make_job to accept serverless environments. (#227)\n\n- Add explicit support and tests for Python 3.13 and 3.14. (#228)\n\n- Fix failing unit tests. (#282)\n\nCI and build maintenance\n\n- Pin GitHub Actions and update the workflows. (#230, #231, #232)\n\nDependency updates\n\n- Upgrade databricks-labs-pylint from 0.4.0 to 0.5.0. (#277)\n\n- Upgrade databricks-connect from 15.4.25 to 16.1.7. (#278)\n\n- Upgrade pytest from 9.0.3 to 9.1.1. (#279, #291)\n\n- Upgrade pytest-cov from 7.0.0 to 7.1.0. (#280)\n\n- Upgrade ruff from 0.3.7 to 0.15.18. (#276, #287)\n\n- Upgrade black to 26.5.1. (#290)\n\n- Upgrade mypy to 2.1.0. (#288)\n\n- Update the coverage[toml] requirement to >=7.13.4,<7.15.0. (#289)\n\n- Require certifi>=2026.10.19. (#302)\n\n- Upgrade uv from 0.11 to 0.13. (#304)\n\nNew contributors\n\n- @alexott in #224\n\n- @ghanse in #227\n\n- @mohamed-hashi-db in #302\n\nFull Changelog: v0.7.4...v0.7.5",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/pytester"
+    ]
+  },
+  {
+    "id": "579af4cd8754250e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Unity Catalog wikis are in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#unity-catalog-wikis-are-in-beta",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-07",
+    "summary": "Unity Catalog wikis are in Beta. A wiki lets your team document a table's meaning, intended use, and sources, then collaborate on that information. Data owners and stewards draft and publish wikis in Catalog Explorer, manually or with Genie Code, and anyone who can view the table's metadata can comment on, suggest edits to, and react to published wikis. Account admins can control access to this feature from the Previews page.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -285,6 +381,18 @@
     "tags": [
       "databrickslabs/dqx"
     ]
+  },
+  {
+    "id": "21c2e88ca81c7fa1",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Metric view listings are generally available in Databricks Marketplace",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#metric-view-listings-are-generally-available-in-databricks-marketplace",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-07",
+    "summary": "Providers can publish governed business metrics in Databricks Marketplace by adding metric views. Only Databricks recipients can use shared metric views. See Create a Marketplace listing and Add metric views to a share.",
+    "category": "Business Intelligence",
+    "tags": []
   },
   {
     "id": "0e072c9f8e9dff5a",
@@ -7995,107 +8103,5 @@
       "Industries",
       "Healthcare & Life Sciences"
     ]
-  },
-  {
-    "id": "44216d2ab9ec7e47",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Session restore for serverless jobs is now in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#session-restore-for-serverless-jobs-is-now-in-beta",
-    "published": "2026-08-17",
-    "first_seen": "2026-08-18",
-    "summary": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the job. Databricks automatically captures a state snapshot when an eligible run fails, runs 30 minutes or longer, or is cancelled, and keeps it for 7 days after the run completes. This feature is in Beta. See Session restore for serverless jobs.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "73f3d57810b0f88a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Base environments are now supported on classic compute (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#base-environments-are-now-supported-on-classic-compute-beta",
-    "published": "2026-08-17",
-    "first_seen": "2026-08-18",
-    "summary": "You can now use base environments to manage Python dependencies on classic compute. You can use Databricks-provided environments or custom workspace-level environments. See Manage dependencies using environments.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "c5d472be9ab7f14a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Identity attributes in ABAC column mask policies (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#identity-attributes-in-abac-column-mask-policies-beta",
-    "published": "2026-08-17",
-    "first_seen": "2026-08-19",
-    "summary": "Identity attributes are in Beta. You can now write Unity Catalog ABAC column mask policy conditions that target users by attributes synced from your identity provider, such as department or country, in addition to group membership. The has_identity_attribute_value and has_identity_attribute_tag_match functions are supported in the WHEN clause of column mask policies.\n\nSee identity attributes.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "47d16c9fabd97667",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Manage project environments with %uv commands",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#manage-project-environments-with-uv-commands",
-    "published": "2026-08-17",
-    "first_seen": "2026-09-05",
-    "summary": "You can now use %uv init, %uv add, and %uv sync in serverless notebooks running environment version 5 or above to create a Python project, add dependencies, and sync its environment. See Manage a project environment with %uv.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "24f0c107eb57f05e",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.130.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.130.0",
-    "published": "2026-08-16",
-    "first_seen": "2026-08-16",
-    "summary": "## Release v0.130.0 (2026-08-16)\n\n### API Changes\n\n* Add `linkedin_ads_options` and `marketo_options` fields for `databricks.sdk.service.pipelines.ConnectorOptions`.\n\n* Add `pg_specific_type_halfvec` and `pg_specific_type_varchar` enum values for `databricks.sdk.service.database.SyncedTableSpecPgSpecificType`.\n\n* Add `pg_specific_type_halfvec` and `pg_specific_type_varchar` enum values for `databricks.sdk.service.postgres.SyncedTableSyncedTableSpecPgSpecificType`.\n\n* [Breaking] Add pagination for [AccountIamV2API.list_workspace_assignments](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html#databricks.sdk.service.iamv2.AccountIamV2API.list_workspace_assignments) method.\n\n* [Breaking] Add pagination for [WorkspaceIamV2API.list_workspace_assignments_proxy](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/iamv2/workspace_iam_v2.html#databricks.sdk.service.iamv2.WorkspaceIamV2API.list_workspace_assignments_proxy) method.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "a07489245d4a376c",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.129.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.129.0",
-    "published": "2026-08-15",
-    "first_seen": "2026-08-15",
-    "summary": "## Release v0.129.0 (2026-08-15)\n\n### API Changes\n\n* Add `agent_type` field for `databricks.sdk.service.dashboards.GenieConversationSummary`.\n\n* Add `group_id` field for `databricks.sdk.service.iamv2.DirectGroupMember`.\n\n* Add `effective_serverless_compute_id` field for `databricks.sdk.service.jobs.RunTask`.\n\n* Add `pipeline_channel` field for `databricks.sdk.service.postgres.NewPipelineSpec`.\n\n* Add `text_attachment_purpose_answer` enum value for `databricks.sdk.service.dashboards.TextAttachmentPurpose`.\n\n* [Breaking] Add pagination for [AccountIamV2API.list_direct_group_members](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html#databricks.sdk.service.iamv2.AccountIamV2API.list_direct_group_members) method.\n\n* [Breaking] Add pagination for [AccountIamV2API.list_workspace_assignment_details](https://databricks-sdk-py.readthedocs.io/en/latest/account/iamv2/account_iam_v2.html#databricks.sdk.service.iamv2.AccountIamV2API.list_workspace_assignment_details) method.\n\n* [Breaking] Add pagination for [WorkspaceIamV2API.list_direct_group_members_proxy](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/iamv2/workspace_iam_v2.html#databricks.sdk.service.iamv2.WorkspaceIamV2API.list_direct_group_members_proxy) method.\n\n* [Breaking] Add pagination for [WorkspaceIamV2API.list_workspace_assignment_details_proxy](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/iamv2/workspace_iam_v2.html#databricks.sdk.service.iamv2.WorkspaceIamV2API.list_workspace_assignment_details_proxy) method.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "6be2619171b04f9f",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Using AI_Functions in Your Data Warehouse: Top Use Cases",
-    "url": "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases",
-    "published": "2026-08-14",
-    "first_seen": "2026-08-15",
-    "summary": "In most organization",
-    "category": "Data Warehousing",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "541d54514c11a985",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Workiva connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#workiva-connector-beta",
-    "published": "2026-08-14",
-    "first_seen": "2026-08-15",
-    "summary": "The Workiva connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests audit activity, users, and roles from your Workiva organization into Databricks. Authentication uses Workiva OAuth2 client credentials.\n\nSee Workiva connector.",
-    "category": "Governance",
-    "tags": []
   }
 ]
