@@ -26,6 +26,184 @@
     "tags": []
   },
   {
+    "id": "ebeaac6b8411b5f5",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks' Commitment to European Sovereignty",
+    "url": "https://www.databricks.com/blog/databricks-commitment-european-sovereignty",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "Databricks is expanding its European sovereignty capabilities across both AWS and Azure, enabling organizations to meet evolving data-residency and sovereignty requirements on the cloud of their choice.",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "News",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "31b8963e342b2698",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Accelerate GPU training on Unity Catalog tables with UCDataset",
+    "url": "https://www.databricks.com/blog/accelerate-gpu-training-unity-catalog-tables-ucdataset",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "UCDataset, now in Beta on AI Runtime, streams Unity Catalog tables directly to every GPU in a PyTorch training job, with no exports or custom loader code.",
+    "category": "Governance",
+    "tags": [
+      "Platform",
+      "Announcements",
+      "Unity Catalog",
+      "Data Science and ML",
+      "AI Research"
+    ]
+  },
+  {
+    "id": "eb33a64ccb678af9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Turn buying signals into pipeline with Sendoso gifts in Genie One",
+    "url": "https://www.databricks.com/blog/turn-buying-signals-pipeline-sendoso-gifts-genie-one",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "Sales, marketing and customer success teams can turn intent signals into approved gifts in Genie One with Sendoso's MCP server, and track what they drive.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Industries"
+    ]
+  },
+  {
+    "id": "116323e15143fb38",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.163.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.163.0",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "## Release v0.163.0 (2026-11-09)\n\n### New Features and Improvements\n\n* `experimental_files_ext_enable_endpoints_api` is now enabled by default: `WorkspaceClient.files` follows the transfer endpoints the workspace lists, and keeps the built-in order when the workspace has no usable answer. To always use the built-in order, set `config.experimental_files_ext_enable_endpoints_api = False` on the `Config` before creating the `WorkspaceClient`; it can't be passed to the `Config` constructor.\n\n### API Changes\n\n* Add `databricks.sdk.service.softwareartifacts` package.\n\n* Add [w.serverless_compute_service](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/compute/serverless_compute_service.html) workspace-level service.\n\n* Add [w.software_artifacts](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/softwareartifacts/software_artifacts.html) workspace-level service.\n\n* Add `trigger_materialization_set()` method for [w.feature_engineering](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/ml/feature_engineering.html) workspace-level service.\n\n* Add `acknowledge_assessment_warnings()`, `assess_migration()`, `create_migration()`, `delete_migration()`, `get_assessment()`, `get_migration()`, `list_assessments()`, `list_migrations()`, `start_migration()`, `undelete_migration()` and `update_migration()` methods for [w.postgres](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/postgres/postgres.html) workspace-level service.\n\n* Add `delayed_reason`, `estimated_completion_time`, `index_initialization_percentage`, `phase` and `target_qps_change_allowed_after_time` fields for `databricks.sdk.service.aisearch.EndpointScalingInfo`.\n\n* Add `delta_table` field for `databricks.sdk.service.jobs.ResolvedValuesAiFunctionTaskResolvedValues`.…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "5984da9d454ed870",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.25.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.25.0",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "CLI\n\n- databricks aitools install --output json now reports a more specific error_category (MANIFEST_NOT_FOUND, PERMISSION_DENIED, FILESYSTEM) for some failures it reported as UNCATEGORIZED. (#7380)\n\n- Suggest databricks auth logout --profile <profile-name> --delete when multiple profiles match the same workspace in databricks auth docker commands. (#7363)\n\n- Fix %pip in Jupyter notebooks opened over databricks ssh connect on serverless environment versions 5 and 6 and on dedicated clusters running recent Databricks Runtime versions, which fell back to the stock IPython magic instead of the Databricks one. (#7263)\n\nAI Runtime\n\n- databricks air run now validates the config server-side while it uploads the run artifacts, instead of before, which shortens submission. (#7368)\n\n- Remove CRITICAL as a valid compute.priority_class value; the AI Runtime API no longer accepts it. (#7371)\n\nBundles\n\n- Built-in templates add the workspace ID to workspace.host (?w=<id>) when the profile or an environment variable sets it, so generated bundles select the right workspace on hosts shared by several workspaces. Welcome messages show the same URL, and dbt-sql also adds ?o=<id> to the HTTP path it suggests for dbt init. (#7350)\n\n- Fix grants of a renamed or recreated catalog, schema, volume or other UC resource staying recorded under the old name, which made the next bundle plan propose to apply them again. (#7345)\n\n- Fix permissions of a recreated pipeline, app, dashboard, model serving endpoint or other resource staying recorded under the old ID, which made every later bundle plan propose to apply them again. (#7361)\n\n- Add the postgres_data_apis resource (Private Preview) for enabling and configuring the Data API of a Lakebase Postgres database. (#7160)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "cd97a0443c3aa9ab",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/sdp-meta",
+    "title": "databrickslabs/sdp-meta: v0.1.1",
+    "url": "https://github.com/databrickslabs/sdp-meta/releases/tag/v0.1.1",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "v0.1.1 — SDP-META\n\nInstall the current package:\n\npip install databricks-labs-sdp-meta==0.1.1\nExisting dlt-meta users can upgrade without changing their package coordinate:\n\npip install dlt-meta==0.1.1\n⚠️ Compatibility warnings\n\n- Python 3.10+ is required. Upgrade Python 3.8 and 3.9 environments before installing either v0.1.1 distribution.\n\n- Append-flow custom transformations now run on every input. Ensure transformations handle every append source and produce a target-compatible schema. Issue #445\n\n- Load persisted specifications through the supported readers. Use DataflowSpecUtils.get_bronze_dataflow_spec() and get_silver_dataflow_spec() so fields added since v0.0.10 are backfilled.\n\n- expect_or_quarantine is unsupported with multi-source Auto CDC flow groups. This combination now fails early with an actionable validation error.\n\nSee the v0.1.1 migration guidance and upgrade checklist.\n\nAdded\n\n- Multiple pipeline topologies per DAB bundle. bundle-add-pipeline supports independent bronze, silver, split, and combined pipelines with separate data-flow groups and target schemas. Issue #446\n\n- Auto Loader schema-evolution demos. Added focused and 100-table demonstrations covering additive evolution, strict-mode failures, metadata-driven onboarding, validation, and Gold outputs. PR #490\n\nFixed\n\nDatabricks App\n\n- Onboarding, pipeline deployment, and demo workflows run asynchronously with concurrent progress tracking and retained Databricks resource links. Backend exceptions and subprocess details are no longer exposed to browsers. Issue #491, Issue #508\n\n- Deployment staging includes examples/ and wheel-build dependencies. Issue #500\n\nData quality and CDC\n\n- Quarantine-only DQE flows now declare their bronze and silver primary targets. Issue #496…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/sdp-meta"
+    ]
+  },
+  {
+    "id": "cf9b7d7c06a167b0",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontos",
+    "title": "databrickslabs/ontos: Ontos v1.1.0",
+    "url": "https://github.com/databrickslabs/ontos/releases/tag/v1.1.0",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "Highlights\n\nOntos 1.1.0 expands governance coverage, integration options, and operational readiness across the application, API, documentation site, and CI system.\n\nConcept v2 and semantic governance\n\n- Introduced the Concept v2 model and versioning engine for governed business concepts.\n\n- Added concept version history, lifecycle management, publishing, status transitions, and version-aware APIs.\n\n- Added concept diffs and change-set review flows for inspecting semantic changes before publication.\n\n- Added concept relationships, linked objects, knowledge-graph exploration, and semantic links to governed data assets.\n\n- Added guided concept generation, RDF import, promotion, deprecation, and request/review workflows.\n\n- Added RDF/Turtle serialization, semantic-model refresh, caching, and migration support for the new concept model.\n\n- Added frontend concept editing, summary, search, version-history, publishing, and knowledge-graph experiences.\n\nMulti-domain governance\n\n- Added multi-domain assignment for teams, data contracts, data products, and assets.\n\n- Added primary/additional domain semantics, multi-select controls, domain badges, any-of filtering, domain-aware search, and domain-detail inventory.\n\n- Added ODCS/ODPS round-trip support for additional domains and Unity Catalog domain import/export synchronization.\n\n- Added deletion-impact checks that prevent deleting domains with blocking primary assignments.\n\n- Added migration and backfill support for the entity-domain association model.\n\nMCP and integrations\n\n- Added keyless read-only MCP access using a default token.\n\n- Added the Genie One ↔ Ontos MCP connection guide.\n\n- Added BigQuery to the connection selector.\n\n- Improved Unity Catalog domain synchronization and metadata handling.\n\nSchema importer…",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/ontos"
+    ]
+  },
+  {
+    "id": "029d438e3fe88781",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontobricks",
+    "title": "databrickslabs/ontobricks: v0.9.2",
+    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.9.2",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "OntoBricks — Release Notes V0.9.2\n\nRelease window: October – November 2026\n\nType: Patch release (v0.9.1 → v0.9.2)\n\nTest status: uv run --frozen pytest -q -m \"not scenario\": 9664 passed, 326 skipped, 8 deselected.\n\nThis release is a patch on v0.9.1. It fixes MCP identity and domain resolution, SPARQL value filters, Apps deployment scopes, local setup on machines whose default python3 is too old, and dependency security floors. It also backports one feature from 0.10.0: several Unity Catalog datasets per ontology class, including metric views (issue #221).\n\nHighlights\n\n- MCP graph tools are authorised as the end user again — Builders no longer get You are not a member of this domain's team through the MCP server. (#208)\n\n- MCP tools work without a sticky session — AI Playground opens a new session per tool call, so domain-scoped tools accept an explicit domain_name. (#209)\n\n- SPARQL value FILTERs are applied — typed BGP filters such as FILTER(STR(?v) = \"…\") and CONTAINS(LCASE(STR(?v)), …) compile to SQL instead of producing WHERE 1=1. Unmapped filters now fail closed. (#210)\n\n- Databricks Apps deploy fixed — user_api_scopes lists only sql; the identity scopes are platform defaults and are rejected when declared explicitly.\n\n- Dependency security floors raised and lockfiles regenerated — Authlib, dnspython, msgpack, nltk, pyasn1, graphql-core, joserfc, and others, with uv.lock and src/mcp-server/uv.lock regenerated.\n\n- Several datasets per class, metric views included — Ontology Studio lets a class link multiple Unity Catalog tables, views, or metric views instead of one. Graph Explorer, Graph Chat, and MCP surface all of them. (#221)\n\nMCP identity and domain resolution\n\nEnd-user identity forwarded past the Apps proxy…",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/ontobricks"
+    ]
+  },
+  {
+    "id": "a3de2e471f35a8b4",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Genie app in Microsoft Teams is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#databricks-genie-app-in-microsoft-teams-is-now-generally-available",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "The Databricks Genie app in Microsoft Teams is now generally available. Chat with the app in a direct message or mention @Databricks Genie in a channel or group chat to get answers to data questions without leaving Microsoft Teams. See Databricks Genie app in Microsoft Teams.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "bcd919e8cfcafa1e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks Genie app for Slack is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#databricks-genie-app-for-slack-is-now-generally-available",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "The Databricks Genie app for Slack is now generally available. Send a direct message to the app or mention @Genie in a channel or group DM to get answers to data questions without leaving Slack. See Databricks Genie app for Slack.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "d9eaf4828ddfae29",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Shift dates in Lakeflow Jobs parameters with date arithmetic (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#shift-dates-in-lakeflow-jobs-parameters-with-date-arithmetic-beta",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "Dynamic value references in Lakeflow Jobs can now shift a date by a duration before formatting it. For example, {{(job.start_time - 1.day).iso_date}} passes the date of the day before the run started to a task. Date arithmetic is in Beta.\n\nSee Shift dates with date arithmetic.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "9682071a795a91ac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Provision Claude desktop with MDM using Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#provision-claude-desktop-with-mdm-using-unity-gateway",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-09",
+    "summary": "Admins can use ug configure --global from their mobile device management (MDM) software to provision the Claude desktop app machine-wide with governed models, MCP servers, and skills, and users can import their claude.ai projects and chats. This is available on macOS only. Learn more.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "41d4e4decef00df2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Recover dropped Unity Catalog volumes with UNDROP VOLUME",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#recover-dropped-unity-catalog-volumes-with-undrop-volume",
+    "published": "2026-11-07",
+    "first_seen": "2026-11-09",
+    "summary": "You can now recover a dropped Unity Catalog volume within 7 days. Find its ID with SHOW VOLUMES DROPPED, then run UNDROP VOLUME WITH ID to restore it with its privileges and tags. Requires Databricks Runtime 19 and above. See UNDROP VOLUME.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "971de4c0be5cc066",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -189,6 +367,30 @@
     "first_seen": "2026-11-07",
     "summary": "Unity Catalog wikis are in Beta. A wiki lets your team document a table's meaning, intended use, and sources, then collaborate on that information. Data owners and stewards draft and publish wikis in Catalog Explorer, manually or with Genie Code, and anyone who can view the table's metadata can comment on, suggest edits to, and react to published wikis. Account admins can control access to this feature from the Previews page.",
     "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "f1ab11f0449226a2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Zhipu AI GLM 5.2 is scheduled for retirement",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#zhipu-ai-glm-52-is-scheduled-for-retirement",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-09",
+    "summary": "Zhipu AI GLM 5.2 is deprecated and will be retired on February 4, 2027. GLM 5.3 is the recommended replacement. See Legacy, deprecated, and retired models for migration guidance.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "70238ada21756521",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Load Unity Catalog tables into PyTorch on AI Runtime (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#load-unity-catalog-tables-into-pytorch-on-ai-runtime-beta",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-09",
+    "summary": "UCDataset streams rows from Unity Catalog tables directly into PyTorch training loops on AI Runtime, without Spark or a SQL warehouse. It applies filter expressions and deletion vectors as it reads, and splits the matching rows across GPUs and data loader workers. See Load Unity Catalog tables into PyTorch with UCDataset.",
+    "category": "Data Warehousing",
     "tags": []
   },
   {
@@ -392,6 +594,18 @@
     "first_seen": "2026-11-07",
     "summary": "Providers can publish governed business metrics in Databricks Marketplace by adding metric views. Only Databricks recipients can use shared metric views. See Create a Marketplace listing and Add metric views to a share.",
     "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "5bf6d1a2f0c51d4c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Smart Routing is faster and lower cost, and now routes subagents only (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#smart-routing-is-faster-and-lower-cost-and-now-routes-subagents-only-beta",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-09",
+    "summary": "Smart Routing now routes only subagents, not the first prompt. It costs up to 70% less in internal benchmarks and cuts p90 routing latency from 9 seconds to 2 seconds. Smart Routing for Codex is paused. See Select models or use Smart Routing.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -7862,246 +8076,6 @@
     "category": "Data Warehousing",
     "tags": [
       "Product"
-    ]
-  },
-  {
-    "id": "0944769f76c766c2",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Write data back to Databricks from Google Sheets",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#write-data-back-to-databricks-from-google-sheets",
-    "published": "2026-08-20",
-    "first_seen": "2026-08-21",
-    "summary": "The Databricks Connector for Google Sheets now lets you write data from Google Sheets back to a Unity Catalog table. You can create a new table or overwrite an existing table without leaving Google Sheets. See Write data back to Databricks from Google Sheets.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "776d11fb4b6f1d23",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Performance mode now applies to materialized view and streaming table refreshes from dbt tasks",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#performance-mode-now-applies-to-materialized-view-and-streaming-table-refreshes-from-dbt-tasks",
-    "published": "2026-08-20",
-    "first_seen": "2026-08-22",
-    "summary": "The job-level performance mode setting now propagates to materialized view and streaming table refreshes triggered by dbt tasks. You can set these jobs to Standard mode to optimize for cost, or keep the default Performance-optimized mode for faster startup. Previously, dbt tasks always ran refreshes in Performance-optimized mode.\n\nStandard mode can increase refresh startup latency from under a minute to four to six minutes in exchange for lower compute costs. This change affects only refreshes that materialize as an materialized view or streaming table, so most dbt projects, which create regular tables, are unaffected.\n\nSee Select a performance mode for scheduled refreshes.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "497155b8e843e9cb",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Salesforce connector mTLS authentication is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#salesforce-connector-mtls-authentication-is-now-generally-available",
-    "published": "2026-08-20",
-    "first_seen": "2026-09-19",
-    "summary": "Mutual TLS (mTLS) authentication for the Salesforce connector in Lakeflow Connect is now generally available. With mTLS, Databricks and Salesforce exchange and verify client certificates to establish two-way trust, combined with the OAuth client credentials flow. Choose it for API-only users or when your organization requires mTLS. See Mutual TLS (mTLS) authentication.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "a46c8e498c10dc2b",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.133.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.133.0",
-    "published": "2026-08-19",
-    "first_seen": "2026-08-19",
-    "summary": "## Release v0.133.0 (2026-08-19)\n\n### API Changes\n\n* Add `enabled_telemetry_features` field for `databricks.sdk.service.serving.TelemetryConfig`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "7faa1d59cc9f84dd",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: V0.7.1",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.7.1",
-    "published": "2026-08-19",
-    "first_seen": "2026-08-19",
-    "summary": "OntoBricks — Release Notes V0.7.1\n\nRelease window: August, 2026\n\nType: Patch release (v0.7.0 → v0.7.1)\n\nTest status: all changes shipped with the suite green (4798 passed, 276 skipped, 5 deselected, 1 xfailed).\n\nSummary\n\nv0.7.1 is a focused deploy / first-time onboarding patch on top of v0.7.0.\n\nIt clears five GitHub issues that blocked or confused new Databricks Apps\n\ninstalls: broken bootstrap script paths after the scripts/bootstrap/ reorg,\n\nincorrect DAB app-permission nesting, stale Lakebase segment docs, a forced\n\nNeo4j secret binding that most workspaces do not have, and Registry → Initialize\n\nlooking up the wrong MCP app name on instance-suffixed deploys.\n\nNo product-feature changes. No schema migrations. No breaking API changes.\n\nHighlights\n\n- Bootstrap scripts find the repo root again (#133) —\n\nsetup-lakebase.sh, app-permissions.sh, and lakebase-perms.sh cd to the\n\nrepository root after the scripts/bootstrap/ move so deploy.config.sh and\n\nsibling helpers resolve correctly.\n\n- DAB app permissions nesting (#134) —\n\nCAN_MANAGE / CAN_USE for both apps live under resources.apps.* in\n\ndatabricks.yml (bundle top-level permissions are invalid / ignored).\n\n- Lakebase deploy-config docs (#135) —\n\ndocumentation matches auto-resolved LAKEBASE_DATABASE_RESOURCE_SEGMENT and\n\nthe current DEFAULT_LAKEBASE_DATABASE / _SCHEMA knobs.\n\n- Neo4j secret no longer required at deploy (#136) —\n\nDAB no longer binds neo4j-password / ontobricks-secrets; Neo4j stays\n\noptional via Settings → Neo4j (Secrets API).\n\n- MCP SP + UC grants on first Initialize (#137) —\n\nregistry/graph grants derive mcp-{APP_NAME} (e.g. mcp-ontobricks-07x);\n\nMCP_APP_NAME is injected into app.yaml; UC catalog ALL_PRIVILEGES runs\n\nin lakebase-perms.sh before the schema-existence guard so first deploy…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "00a29d18e1f01598",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Designing effective Genie Agents from a single prompt",
-    "url": "https://www.databricks.com/blog/designing-effective-genie-agents-single-prompt",
-    "published": "2026-08-19",
-    "first_seen": "2026-08-20",
-    "summary": "Ask",
-    "category": "Business Intelligence",
-    "tags": [
-      "All",
-      "Data Strategy",
-      "Best Practices"
-    ]
-  },
-  {
-    "id": "a22b7d6936e5ee1b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Role-based access control (RBAC) is generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#role-based-access-control-rbac-is-generally-available",
-    "published": "2026-08-19",
-    "first_seen": "2026-08-20",
-    "summary": "Role-based access control (RBAC) is now generally available. RBAC lets users assume a role in Databricks. When a user assumes a role, only that role's permissions apply, rather than the user's accumulated permissions. This enables exclusive access. Users must actively assume a role to access sensitive data, preventing them from accessing it under their own identity and from mixing data across use cases, clinical trials, projects, or clients.\n\nTo enable RBAC, an account admin must turn on the feature at the account level. Workspace admins then enable it in each workspace.\n\nSee Role-based access control (RBAC).",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "b9df16d76ba9e719",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Choose an effort level in Genie Code",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#choose-an-effort-level-in-genie-code",
-    "published": "2026-08-19",
-    "first_seen": "2026-08-20",
-    "summary": "You can now set the effort level for Genie Code to balance response quality and cost. Auto (default) gives you the highest quality responses. For simpler tasks, select Low to use a faster, lower-cost model. See Select a level of effort.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "f822875620b18efc",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.7.0",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.7.0",
-    "published": "2026-08-19",
-    "first_seen": "2026-11-04",
-    "summary": "OntoBricks — Release Notes V0.7.0\n\nRelease window: July – August, 2026\n\nTest status: all changes shipped with the suite green (4787 passed, 276 skipped, 5 deselected, 1 xfailed).\n\nHighlights\n\n- Neo4j graph backend (GA): Neo4j (Community, Enterprise, AuraDB) joins Delta Lake and Lakebase as a full typed property-graph engine — nodes/relationships instead of flat triples, named connection profiles in Settings → Neo4j (master–detail Connections + Objects, live Bolt + Cypher Test connection), per-domain binding via Domain → Knowledge Graph, and documentation/neo4j-requirements.md for flavor compatibility.\n\n- Graph Chat confirmation-gated Class Actions: Graph Chat reaches MCP parity for Datasets / Bridges / Actions (get_entity_context, request_entity_action) with an explicit Confirm/Cancel card before any UC function runs — Graph Chat never exposes direct invoke_entity_action.\n\n- Branded backend icons: dedicated Lakehouse glyph in Domain / Registry chrome; Databricks branding reserved for Settings / workspace identity controls.\n\n- Graph backend selection moved per-domain: choosing Lakebase / Lakehouse (Delta) / Neo4j is now a mandatory per-domain setting on Domain → Information → Knowledge Graph (large selectable cards), not a workspace-wide Settings toggle; the old Settings → Back End page is gone.…",
-    "category": "Database",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "c6a5bcc79540ffba",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Evaluating AI Agents Live at the Grounded Reasoning Cup",
-    "url": "https://www.databricks.com/blog/evaluating-ai-agents-live-grounded-reasoning-cup",
-    "published": "2026-08-18",
-    "first_seen": "2026-08-18",
-    "summary": "Lessons from the Grounded Reasoning Cup, where leading academic teams evaluated AI agents live on a newly released enterprise grounded-reasoning benchmark.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Platform",
-      "Product",
-      "Engineering",
-      "Data Science and ML",
-      "Databricks AI",
-      "Industries",
-      "Technology",
-      "Data Strategy",
-      "Insights",
-      "Company",
-      "Events"
-    ]
-  },
-  {
-    "id": "a02b8844042dc89e",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.132.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.132.0",
-    "published": "2026-08-18",
-    "first_seen": "2026-08-18",
-    "summary": "## Release v0.132.0 (2026-08-18)\n\n### API Changes\n\n* Add `default_git_source`, `git_source` and `source_code_path` fields for `databricks.sdk.service.apps.App`.\n\n* Add `auto_deploy` and `caller_credential_id` fields for `databricks.sdk.service.apps.GitRepository`.\n\n* Add `custom_udf` field for `databricks.sdk.service.ml.Function`.\n\n* Add `effective_serverless_compute_id` field for `databricks.sdk.service.pipelines.GetPipelineResponse`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "75b521df8a21aaaa",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Databricks Document Intelligence: pushing the frontier for complex document extraction",
-    "url": "https://www.databricks.com/blog/databricks-document-intelligence-pushing-frontier-complex-document-extraction",
-    "published": "2026-08-18",
-    "first_seen": "2026-08-19",
-    "summary": "Enterprise document extraction breaks down on 100+ page documents, large outputs, and schemas requiring complex reasoning. We introduce Precision Mode in our document extraction API, ai_extract, which pairs custom fine-tuned extraction models with an agentic harness to beat frontier models on accuracy and cost.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Engineering",
-      "Data Science and ML",
-      "Databricks AI"
-    ]
-  },
-  {
-    "id": "b451e9e9a1ff3eea",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "When it comes to Governance, Retailers need a control plane for context",
-    "url": "https://www.databricks.com/blog/when-it-comes-governance-retailers-need-control-plane-context",
-    "published": "2026-08-18",
-    "first_seen": "2026-08-19",
-    "summary": "Reta",
-    "category": "Platform Overview",
-    "tags": [
-      "Retail & Consumer Goods"
-    ]
-  },
-  {
-    "id": "b62ca403ca877dfb",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.131.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.131.0",
-    "published": "2026-08-17",
-    "first_seen": "2026-08-17",
-    "summary": "## Release v0.131.0 (2026-08-17)\n\n### API Changes\n\n* [Breaking] Change `action_type` and `status` fields for `databricks.sdk.service.bundledeployments.Operation` to no longer be required.\n\n* Change `action_type` and `status` fields for `databricks.sdk.service.bundledeployments.Operation` to no longer be required.\n\n* [Breaking] Remove `create_operation()` method for [w.bundle_deployments](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/bundledeployments/bundle_deployments.html) workspace-level service.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "ccf1ae1d5f9e7166",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How Databricks Feature Store serves features with sub-second freshness",
-    "url": "https://www.databricks.com/blog/how-databricks-feature-store-serves-features-sub-second-freshness",
-    "published": "2026-08-17",
-    "first_seen": "2026-08-18",
-    "summary": "Machine learning mod",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Product",
-      "Engineering",
-      "Data Science and ML",
-      "Databricks AI",
-      "AI Engineering",
-      "Industries",
-      "Financial Services",
-      "Data Strategy",
-      "Data Leader",
-      "Company",
-      "News"
-    ]
-  },
-  {
-    "id": "ef06b870e476280f",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "The prototyping tax is killing your AI roadmap",
-    "url": "https://www.databricks.com/blog/prototyping-tax-killing-your-ai-roadmap",
-    "published": "2026-08-17",
-    "first_seen": "2026-08-18",
-    "summary": "You",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Healthcare & Life Sciences"
     ]
   }
 ]
