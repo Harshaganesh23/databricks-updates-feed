@@ -14,6 +14,34 @@
     ]
   },
   {
+    "id": "778dcbe662308003",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI",
+    "url": "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting",
+    "published": "2026-11-10",
+    "first_seen": "2026-11-10",
+    "summary": "Make Databricks the home of your semantics: Keep metric views, relationships, Pages, and other modeling metadata in one governed place with Unity Catalog Semantics, not scattered across different tools.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "cafda8b2496c1e9f",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.164.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.164.0",
+    "published": "2026-11-10",
+    "first_seen": "2026-11-10",
+    "summary": "## Release v0.164.0 (2026-11-10)\n\n### API Changes\n\n* Add `output_type_text` field for `databricks.sdk.service.ml.Feature`.\n\n* Add `service_principal` field for `databricks.sdk.service.postgres.CdfConfig`.\n\n* Add `group_name` field for `databricks.sdk.service.postgres.GenerateDatabaseCredentialRequest`.\n\n* [Breaking] Change `notebook_content` field for `databricks.sdk.service.cleanrooms.CleanRoomAssetNotebook` to no longer be required.\n\n* Change `notebook_content` field for `databricks.sdk.service.cleanrooms.CleanRoomAssetNotebook` to no longer be required.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "f7075cfbca96ab69",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -189,6 +217,30 @@
     "first_seen": "2026-11-09",
     "summary": "Admins can use ug configure --global from their mobile device management (MDM) software to provision the Claude desktop app machine-wide with governed models, MCP servers, and skills, and users can import their claude.ai projects and chats. This is available on macOS only. Learn more.",
     "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "811e64298ab8b263",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Search is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-search-is-now-generally-available",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-10",
+    "summary": "Genie Search is now generally available. Genie Search indexes your organization's knowledge in sources such as Google Drive, Jira, Confluence, and Workday, so Genie One can search all of that knowledge in one place. Databricks indexes each document's permissions with its content and keeps both current, so users see only the documents that they can already access in the source.\n\nGenie Search also powers the following features in Genie One:\n\n- Org directories: Find teammates, browse the org chart, and view profiles from Workday. See Browse org directories in Genie One.\n\n- Search in Discover: Search Databricks assets and content from connected sources in one place. See Use Genie Search in Genie One.\n\nDatabricks recommends using Genie Search together with MCP connectors, which let Genie One access live data and take action in the applications your team uses.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "5b8eeded087a3ba3",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Ontology is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-ontology-is-now-generally-available",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-10",
+    "summary": "Genie Ontology is now generally available. Genie Ontology is the context layer that gives Genie One, Genie Code, and other AI agents a business-aware map of your organization. It combines modeled knowledge that you define in Unity Catalog semantics with learned knowledge that Genie extracts from your assets and usage.",
+    "category": "AI Assistant",
     "tags": []
   },
   {
@@ -8020,62 +8072,6 @@
     "category": "Data Engineering",
     "tags": [
       "delta-io/delta"
-    ]
-  },
-  {
-    "id": "d758a900c02c6286",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: ## Release v1.13.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.13.0",
-    "published": "2026-08-20",
-    "first_seen": "2026-08-20",
-    "summary": "Notable Changes\n\n- bundle deploy now reports the per-resource actions it took, how many files it synced, and a summary of created/changed/deleted/unchanged resources; bundle destroy reports how many resources it deleted. -q prints only the summaries, -qq only warnings and errors. (#5720)\n\nCLI\n\n- databricks aitools install now supports Goose, installing Databricks agent skills into its skills directory.\n\n- Error messages for failed key lookups and variable references now suggest the closest matching key if one is found. (#6208)\n\n- Released binaries are now built against the FIPS 140-3 validated Go Cryptographic Module, with FIPS 140-3 mode enabled by default. TLS connections negotiate only FIPS-approved cipher suites, which drops ChaCha20 and CBC from what the client offers. FIPS mode can be disabled at startup with GODEBUG=fips140=off, which restores the previous TLS behaviour (#6262).\n\n- databricks environments setup-local now removes a databricks-connect pin from [project].dependencies, an optional-dependency extra, or a dependency group when its version range conflicts with the compute target's databricks-connect version, so uv sync no longer fails with an unsatisfiable resolution when a template ships a conflicting pin. A pin that co-resolves, carries no version, or is marker-gated is left untouched, and each removed pin is reported with the new W_DBCONNECT_CONSOLIDATED warning. Wildcard version pins such as ==15.1.* are now also checked for conflicts with the environment's constraints.\n\nBundles\n\n- Allow dashes in the catalog and schema names prompted by databricks bundle init, and backtick-quote the catalog and schema identifiers in the SQL generated by the built-in templates so names with dashes work at runtime.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "c07499c49cf5cdc6",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.5.1",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.5.1",
-    "published": "2026-08-20",
-    "first_seen": "2026-08-20",
-    "summary": "What's Changed\n\n- Feature/metric expression array support by @adefabian in #77\n\n- Fix container-event event_instance_id mismatch between stats_aggregator_fact and event_instance_fact by @tombonfert in #83\n\n- Bump version to 0.5.1 in VERSION file by @tombonfert in #84\n\nFull Changelog: v0.5.0...v0.5.1\n\nWhat's Changed\n\n- Feature/metric expression array support by @adefabian in #77\n\n- Fix container-event event_instance_id mismatch between stats_aggregator_fact and event_instance_fact by @tombonfert in #83\n\n- Bump version to 0.5.1 in VERSION file by @tombonfert in #84\n\nFull Changelog: v0.5.0...v0.5.1",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "0dc9608761430461",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Inbound Private Link now supports account-level Genie One, the account console, and custom URLs",
-    "url": "https://www.databricks.com/blog/inbound-private-link-now-supports-account-level-genie-one-account-console-and-custom-urls",
-    "published": "2026-08-20",
-    "first_seen": "2026-08-21",
-    "summary": "Enterprises adopting",
-    "category": "Business Intelligence",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "848a21ea8bf109db",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Busting SQL Migration Myths: How New SQL Features Make Lift-and-Shift to Lakehouse Easier",
-    "url": "https://www.databricks.com/blog/busting-sql-migration-myths-how-new-sql-features-make-lift-and-shift-lakehouse-easier",
-    "published": "2026-08-20",
-    "first_seen": "2026-08-21",
-    "summary": "Cursors. Temp tables. Multi-statement transactions. The procedural code your data warehouse runs on now lives on the lakehouse – translated, not rewritten.",
-    "category": "Data Warehousing",
-    "tags": [
-      "Product"
     ]
   }
 ]
