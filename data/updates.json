@@ -14,6 +14,252 @@
     ]
   },
   {
+    "id": "99142d0df48db68c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie ZeroOps is available in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-zeroops-is-available-in-beta",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-11",
+    "summary": "Genie ZeroOps is now available in Beta. It monitors jobs, pipelines, and tables in the background, detects failures and data quality issues, investigates the root cause, and proposes a fix. See Get started with Genie ZeroOps.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "aca7868bdfdf4aa2",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks Doubles Down on AI Products, Opens New 235,000-Square-Foot San Francisco Headquarters",
+    "url": "https://www.databricks.com/blog/databricks-doubles-down-ai-products-opens-new-235000-square-foot-san-francisco-headquarters",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Databricks doubles down on AI products and opens One Sansome, its new 235,000 sq ft San Francisco HQ, as part of its $1B+ commitment to the city.",
+    "category": "Platform Overview",
+    "tags": [
+      "Company",
+      "News"
+    ]
+  },
+  {
+    "id": "d4ccd90e7ccc316c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Air gapped, not data dark: how Bright Machines gives customers live factory dashboards without opening the plant",
+    "url": "https://www.databricks.com/blog/air-gapped-not-data-dark-how-bright-machines-gives-customers-live-factory-dashboards-without",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "See how Bright Machines shares live, governed factory dashboards from air-gapped plants using Debezium, Iceberg and Unity Catalog, with zero inbound ports. (154 characters)",
+    "category": "Business Intelligence",
+    "tags": [
+      "Industries",
+      "Solutions",
+      "Customers",
+      "Best Practices",
+      "Manufacturing",
+      "Data Engineering"
+    ]
+  },
+  {
+    "id": "8adb861e613ee485",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The new Genie: autonomous AI for complex enterprise work",
+    "url": "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Genie is now an autonomous AI coworker that handles long-running tasks on your behalf, operating within the guardrails you set. Genie now takes on long-running work, grounded in business context. Unity Gateway keeps every action governed and traced.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "eb5eac5cf38a2b86",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Announcing GA of Genie Ontology",
+    "url": "https://www.databricks.com/blog/announcing-ga-genie-ontology",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Genie Ontology is now Generally Available. Built by agents from everyday work, governed by people, and shared across every AI agent in the enterprise.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "59aed4baaa6bfd7b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "From enterprise context to action: Genie Agents now analyze more data sources to transform your work",
+    "url": "https://www.databricks.com/blog/enterprise-context-action-genie-agents-now-analyze-more-data-sources-transform-your-work",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Genie Agents now analyze documents in Unity Catalog volumes, act in tools like Slack and Jira through MCP connectors, and can be shared with partners.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "a6614434830120e3",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Bring your business context to ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot",
+    "url": "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Databricks Genie plugins bring governed business context from Genie Ontology to ChatGPT, Claude, Copilot Cowork and Grok Bot",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "38f994e55751e69d",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Genie with Genie Ontology Delivers 1.6× the Accuracy with Less than Half the Tokens",
+    "url": "https://www.databricks.com/blog/genie-genie-ontology-delivers-16-accuracy-less-half-tokens",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "See how Genie Ontology helps Genie answer enterprise data questions with higher accuracy and lower cost during an enterprise benchmark run, developed with Turing. Genie had a 91% pass rate, compared with 45% and 58% for the other frontier agents, while using fewer than half the tokens.",
+    "category": "Governance",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "a9495cf1a97cf642",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Genie One: The AI cowork home for everyone",
+    "url": "https://www.databricks.com/blog/genie-one-ai-cowork-home-everyone",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Genie One brings enterprise search, organizational directories, dynamic artifacts, an autonomous agent, MCP actions, and shareable skills into one home that works in your browser, desktop, mobile, Slack, Teams, and the AI tools you already use—all governed by Unity Gateway.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "e0d87dbc87a30eb2",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.165.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.165.0",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "## Release v0.165.0 (2026-11-11)\n\n### API Changes\n\n* Add `pt_term` field for `databricks.sdk.service.serving.PtServedModel`.\n\n* [Breaking] Remove `custom_content_pack_path` and `custom_presets_path` fields for `databricks.sdk.service.lakewatch.CommonConfig`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "50c729a06cf79631",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.26.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.26.0",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Release v1.26.0 (2026-11-11)\n\nAI Runtime\n\n- air run reuses its existing workspace connection for config validation instead of opening a second one, which saves a TCP and TLS handshake per submission. (#7210)\n\n- Speed up databricks air run for git-pinned code_source snapshots by compressing the archive in parallel, which substantially shortens packaging on large repositories. (#7402)\n\n- Point the air run -h config agent-skill hint at the stable databricks-ai-runtime skill. (#7454)\n\nBundles\n\n- Add DATABRICKS_BUNDLE_INIT_WORKSPACE_HOST_PROFILE, which names a profile whose host the workspace_host template helper returns instead of the selected profile's host. The profile must have the selected profile's workspace ID. (#7410)\n\n- Fixed an explicit false on optional boolean fields (variables.*.sensitive, artifacts.*.dynamic_version, bundle.deployment.lock.force, workspace.azure_use_msi, replace_existing on postgres endpoints, databases and roles, and the experimental.* flags) being dropped, which hid it from bundle validate -o json and kept a target from overriding true with it. (#7412)\n\n- Stop sending compute_size in the app update mask when the bundle does not declare it, so a deploy no longer resets a manually resized app to the default size. (#7461)\n\n- lifecycle.depends_on can now target the grants or permissions of a resource, as schemas.foo.grants. (#7435)\n\n- Add support for the feature_specs resource type, including UC grants on a feature spec. (#7364)\n\nDependency Updates\n\n- Update the Go SDK to v0.197.0. (#7457)\n\n- Bump Go toolchain to 1.27.4. (#7458)",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "db3eb1df62112966",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Pages are generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#pages-are-generally-available",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Pages, governed definitions of business concepts organized by domain on the Discover page, are generally available. Curators can certify and deprecate Pages, and the new MANAGE PAGES permission controls who can publish and manage Pages in a domain. You can also manage Pages with the REST API. See Pages.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "5e1be63e8f9cdd73",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect Grok Bot/Cursor to Genie One with the Databricks Genie plugin",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#connect-grok-botcursor-to-genie-one-with-the-databricks-genie-plugin",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "The Databricks Genie plugin connects Grok Bot/Cursor to the Genie One MCP, so users can ask questions about their data from Grok Bot/Cursor. A Cursor team admin publishes the plugin for the team, and each user connects by signing in with their Databricks account. See Databricks Genie plugins for ChatGPT, Claude, and Grok Bot/Cursor.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "012121d88b5097f5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect ChatGPT to Genie One with the Databricks Genie plugin",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#connect-chatgpt-to-genie-one-with-the-databricks-genie-plugin",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "The Databricks Genie plugin connects ChatGPT to the Genie One MCP, so users can ask questions about their data from ChatGPT. A ChatGPT admin sets up the plugin for the ChatGPT workspace, and each user connects by signing in with their Databricks account. See Databricks Genie plugins for ChatGPT, Claude, and Grok Bot/Cursor.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "c92d803b334e695c",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Genie One desktop app for Windows is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#the-genie-one-desktop-app-for-windows-is-in-beta",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "The Genie One desktop app is now available for Windows in Beta, in addition to macOS. The native app opens Genie One on your desktop instead of in a browser tab, so business users can chat with data in natural language, work with their threads and documents, and use Genie Agents without a browser. See Windows.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "7e3e809f0ce8b614",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect Claude to Genie One with the Databricks Genie connector",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#connect-claude-to-genie-one-with-the-databricks-genie-connector",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "The Databricks Genie connector connects Claude to the Genie One MCP, so users can ask questions about their data from Claude. A Claude admin connects it for the team, and each user connects by signing in with their Databricks account. See Databricks Genie plugins for ChatGPT, Claude, and Grok Bot/Cursor.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "ccb8876ca3c16cff",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Feature Views are now available by default for workspaces with the compliance security profile enabled",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#feature-views-are-now-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "Feature Views are now available by default for workspaces with the compliance security profile enabled.\n\nSee Feature Views.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "2f4dfebcbf104760",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Write custom service policies in Python (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#write-custom-service-policies-in-python-beta",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-11",
+    "summary": "You can now write a custom service policy as a Python function in Unity Catalog. Use it for rules that SQL can't express, such as regular expressions, Python packages, or calls to an external guardrail through a service credential. It's available in select regions. See Write a custom Python service policy.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "778dcbe662308003",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -40,6 +286,54 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "b460471431f54e27",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Text and binary inputs for protobuf requests to custom model serving endpoints (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#text-and-binary-inputs-for-protobuf-requests-to-custom-model-serving-endpoints-public-preview",
+    "published": "2026-11-10",
+    "first_seen": "2026-11-11",
+    "summary": "Protobuf requests to custom model serving endpoints can now carry text and binary data, such as titles, images, audio, and documents, as KServe v2 BYTES tensors alongside numeric tensors in the same request. Text and binary model outputs are returned as BYTES tensors.\n\nThis feature is in Public Preview and is only available on endpoints deployed after November 10, 2026. See Protobuf tensor input.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "f3f0839edcdf2515",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Allow ChatGPT and Claude as partner platforms in context-based ingress policies",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#allow-chatgpt-and-claude-as-partner-platforms-in-context-based-ingress-policies",
+    "published": "2026-11-10",
+    "first_seen": "2026-11-11",
+    "summary": "Context-based ingress policies can now allow traffic from ChatGPT and Claude as partner platforms. Databricks keeps their published IP ranges current, so you don't track the IPs yourself. Use these rules to allow hosted Model Context Protocol (MCP) clients, such as the Databricks Genie plugins for ChatGPT and Claude, to reach your workspace. See Allow partner platforms in context-based ingress policies.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "d1eb121b2c346840",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "The Genie One Chrome extension is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#the-genie-one-chrome-extension-is-in-beta",
+    "published": "2026-11-10",
+    "first_seen": "2026-11-11",
+    "summary": "The Genie One Chrome extension is now available in Beta. The extension makes every new Chrome tab open Genie One in your workspace, so asking a question, searching across your tools, or opening a dashboard takes one click. Install it from the Chrome Web Store. See Use Genie One as your Chrome new tab page.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "5b1ce2c28c98352e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 4 Carbon is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-4-carbon-is-now-available-on-unity-gateway",
+    "published": "2026-11-10",
+    "first_seen": "2026-11-11",
+    "summary": "Google Gemini 4 Carbon is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
   },
   {
     "id": "f7075cfbca96ab69",
@@ -244,6 +538,30 @@
     "tags": []
   },
   {
+    "id": "d20834b1623ebcac",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Use cleaned AI answers in Lakeflow Designer (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#use-cleaned-ai-answers-in-lakeflow-designer-public-preview",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-11",
+    "summary": "Clean supported AI Function outputs in Lakeflow Designer for downstream transformations. Cleaned results include answer values, error messages, and raw responses in separate columns. See AI Function.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "288d9405efd48623",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Anthropic Claude Fable 5.2 is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#anthropic-claude-fable-52-is-now-available-on-unity-gateway",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-11",
+    "summary": "Anthropic Claude Fable 5.2 is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
     "id": "41d4e4decef00df2",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -443,6 +761,18 @@
     "first_seen": "2026-11-09",
     "summary": "UCDataset streams rows from Unity Catalog tables directly into PyTorch training loops on AI Runtime, without Spark or a SQL warehouse. It applies filter expressions and deletion vectors as it reads, and splits the matching rows across GPUs and data loader workers. See Load Unity Catalog tables into PyTorch with UCDataset.",
     "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "036bdac0d5916ae8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Distinguish Lakeflow Designer Python previews from full runs (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#distinguish-lakeflow-designer-python-previews-from-full-runs-public-preview",
+    "published": "2026-11-06",
+    "first_seen": "2026-11-11",
+    "summary": "Python operators in Lakeflow Designer now expose config[\"is_preview\"] so your code can skip side effects during previews. See Python preview mode.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -661,6 +991,18 @@
     "tags": []
   },
   {
+    "id": "27e16a25eb1e51bc",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Calculate across rows in Lakeflow Designer (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#calculate-across-rows-in-lakeflow-designer-public-preview",
+    "published": "2026-11-05",
+    "first_seen": "2026-11-11",
+    "summary": "Use the Multi-Row Formula operator in Lakeflow Designer for running totals, ranks, moving averages, and other calculations across ordered rows. See Multi-Row Formula.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
     "id": "0e072c9f8e9dff5a",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -765,6 +1107,42 @@
     "first_seen": "2026-11-06",
     "summary": "Moonshot AI Kimi K3.1 Pro is now available on Unity Gateway for coding, knowledge work, and agentic tool use, with native vision and reasoning. It is available on pay-per-token endpoints in us-east-1.\n\nTo query the model and see supported regions, see Use foundation models.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "fba7725021659e09",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Detect CSV delimiters in Lakeflow Designer (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#detect-csv-delimiters-in-lakeflow-designer-public-preview",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-11",
+    "summary": "When you add a CSV file, Lakeflow Designer samples it to detect comma, tab, semicolon, or pipe delimiters. You can set the delimiter manually when detection does not match your file. See Drag and drop a file.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "ebe67b0c0466ba0f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Create Lakeflow Designer parameters while configuring fields (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#create-lakeflow-designer-parameters-while-configuring-fields-public-preview",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-11",
+    "summary": "Create a parameter from a supported operator field in Lakeflow Designer, then use it in the field. See Reference a parameter from an operator.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "dea4316e6f66741a",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Add aggregations for several Lakeflow Designer columns (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#add-aggregations-for-several-lakeflow-designer-columns-public-preview",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-11",
+    "summary": "Select multiple columns when adding an aggregation in Lakeflow Designer. The Aggregate operator creates a separate aggregation for each selected column. See Aggregate.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -1069,6 +1447,18 @@
     "tags": []
   },
   {
+    "id": "1f5e7ba2f196867f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ai_decide (Beta) now delivers higher answer accuracy",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai",
+    "published": "2026-11-02",
+    "first_seen": "2026-11-11",
+    "summary": "ai_decide (Beta) now uses a new model that answers questions 33% more accurately, while maintaining existing low latency. See ai_decide function.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "2d27b539ebe884d7",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -1252,6 +1642,18 @@
     "first_seen": "2026-11-03",
     "summary": "You can now see how current each destination table is in Lakeflow Connect database connector pipelines, in Public Preview. The new Data freshness column in the pipeline's tables list shows the time since the latest source commit that the pipeline ingested for each change data capture (CDC) table. Data freshness is available for SQL Server, PostgreSQL, MySQL, and Oracle sources.\n\nYou can also query data freshness and end-to-end lag from the ingestion pipeline's event log, and create alerts on them. See Monitor data freshness for change data capture (CDC) tables.",
     "category": "Database",
+    "tags": []
+  },
+  {
+    "id": "aba4e28167aaf144",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Authorize headless machines with the OAuth device code flow (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#authorize-headless-machines-with-the-oauth-device-code-flow-beta",
+    "published": "2026-10-30",
+    "first_seen": "2026-11-11",
+    "summary": "You can now get a workspace-level OAuth token on a headless machine, such as a remote VM or container, by finishing sign-in in a browser on another device. Workspace admins can turn this on from the Previews page. See Authorize headless access with the OAuth device code flow.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -1442,6 +1844,18 @@
     "first_seen": "2026-11-05",
     "summary": "You can now apply attribute-based access control (ABAC) row filters and column masks to views, materialized views, and streaming tables shared through OpenSharing. Shared views are in Beta and require the ABAC on views preview. See OpenSharing and ABAC.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "7d80a8059ddea210",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Edit Lakeflow Designer parameter expressions inline (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#edit-lakeflow-designer-parameter-expressions-inline-public-preview",
+    "published": "2026-10-29",
+    "first_seen": "2026-11-11",
+    "summary": "Edit parameter expressions directly in supported operator fields in Lakeflow Designer. See Reference a parameter from an operator.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -7651,427 +8065,6 @@
     "tags": [
       "Platform",
       "Announcements"
-    ]
-  },
-  {
-    "id": "459ecafd8553b490",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Leveraging Databricks to Support FISC Security Guidelines",
-    "url": "https://www.databricks.com/blog/leveraging-databricks-support-fisc-security-guidelines",
-    "published": "2026-08-26",
-    "first_seen": "2026-08-26",
-    "summary": "Financial institutions in Japan can configure the Databricks Platform to support requirements from the Japanese Center for Financial Industry Systems (FISC) Security Guidelines.",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Security and Trust",
-      "Data Strategy",
-      "Insights"
-    ]
-  },
-  {
-    "id": "76fbf4f674a10d7d",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: v3.15.2",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/v3.15.2",
-    "published": "2026-08-26",
-    "first_seen": "2026-08-26",
-    "summary": "MLflow 3.15.2 is a patch release that includes several major features and improvements.\n\nFeatures:\n\n- [Evaluation] Support immutable evaluation dataset versions (#24845, @danielseong1)\n\n- [Evaluation] Add scorer_ensemble primitive for combining scorer results (#24749, @alkispoly-db)\n\nBug fixes:\n\n- [Evaluation] Preserve base judge invocation flow in MemAlign aligned judges (#24883, @veronicalyu320)\n\n- [Tracking] Pre-import databricks.sdk in Databricks to avoid telemetry deadlock (#24841, @aaronteo-db)\n\n- [Build / Tracking] Align runs.status constraint metadata (#24890, @joshuawong-db)",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "58b073d40504db04",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.14.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.14.0",
-    "published": "2026-08-26",
-    "first_seen": "2026-08-26",
-    "summary": "Notable Changes\n\n- Bundles still on Terraform state are now migrated to the direct engine automatically, after a deploy whose dry-run conversion comes back clean. To opt out, set engine: terraform under bundle or DATABRICKS_BUNDLE_ENGINE=terraform. See https://docs.databricks.com/aws/en/dev-tools/bundles/direct\n\nCLI\n\n- Fixed idle databricks ssh connect sessions disconnecting after a few minutes, on dedicated clusters and on serverless. The tunnel now keeps itself warm: the SSH client and the SSH server on the compute exchange keepalives every 30 seconds, and the CLI's proxy pings the tunnel's websocket every 20 seconds. A session nobody is typing into stays connected, with no need to set ServerAliveInterval by hand.\n\nBundles\n\n- bundle plan no longer reports a permanent, unconvergeable update on securable_kind for Unity Catalog TABLE securables declared under an app's resources. The field is computed by the backend (output-only), so it is now ignored during drift detection. Direct engine only (#6342).\n\n- Add support for the cluster_policies resource type in Declarative Automation Bundles. Cluster policies are only supported in direct deployment mode.\n\n- bundle destroy no longer counts resources that are already gone remotely in its Destroy: N deleted summary. Such deletes only clean up stale state and are not listed under the deletion prompt, so they are now excluded from the count as well, matching the terraform engine.…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "af5928e95f5d45d3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Query text is now masked by default in system tables and APIs",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#query-text-is-now-masked-by-default-in-system-tables-and-apis",
-    "published": "2026-08-26",
-    "first_seen": "2026-08-27",
-    "summary": "Because SQL statements can contain sensitive information, Databricks now masks query text in the following places:\n\n- statement_text in system.query.history returns <REDACTED>.\n\n- query_text in the Query History API and the List Queries API returns <REDACTED>.\n\n- Keys in request_params in system.access.audit that contain SQL definitions are omitted.\n\nAccount admins and members of the databricks_pii_access account group can read unmasked query text. To grant access, an account admin creates the group and adds members. See Access masked statement text and Access masked request parameters.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "8e5ac956808dca70",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "xAI Grok 4.6 now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#xai-grok-46-now-available-as-a-databricks-hosted-model",
-    "published": "2026-08-26",
-    "first_seen": "2026-08-27",
-    "summary": "Model Serving now supports xAI Grok 4.6 as a Databricks-hosted model. This reasoning model has a 500,000-token context window and supports configurable reasoning effort and function calling for coding, agentic workflows, and other complex tasks. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "9d476b373e1a5c74",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zhipu AI GLM 5.3 Flash now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zhipu-ai-glm-53-flash-now-available-as-a-databricks-hosted-model",
-    "published": "2026-08-26",
-    "first_seen": "2026-08-27",
-    "summary": "Model Serving now supports GLM 5.3 Flash as a Databricks-hosted model. This natively multimodal mixture of experts (MoE) model has 320 billion total parameters and 18 billion active parameters. It supports text and image input, a 1 million token context window, reasoning, coding, and agentic tool use. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "a994109e18eabe21",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zerobus Ingest into streaming tables is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zerobus-ingest-into-streaming-tables-is-now-generally-available",
-    "published": "2026-08-26",
-    "first_seen": "2026-08-28",
-    "summary": "Ingesting into streaming tables with Zerobus Ingest in Lakeflow Connect is now generally available. Writing to a streaming table works the same way as writing to a managed Delta table, with the same limits and quotas. See Create or identify the target table.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "c760a1a872d56588",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "xAI Grok 4.6 is now available on Unity Gateway",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#xai-grok-46-is-now-available-on-unity-gateway",
-    "published": "2026-08-26",
-    "first_seen": "2026-09-02",
-    "summary": "xAI Grok 4.6 is now available on Unity Gateway for reasoning-heavy coding and agentic workflows. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with applicable terms.\n\nTo query the model and see supported regions, see Use foundation models.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "70e6151ae641003a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zhipu-ai-glm-53-flash-is-now-available-on-unity-gateway",
-    "published": "2026-08-26",
-    "first_seen": "2026-09-02",
-    "summary": "Zhipu AI GLM 5.3 Flash is now available on Unity Gateway for multimodal reasoning, coding, and agentic workloads. Access it through the same governed API as other models, with centralized permissions, guardrails, spend controls, and observability, and switch models without changing application code.\n\nCustomers are responsible for ensuring their compliance with applicable terms.\n\nTo query the model and see supported regions, see Use foundation models.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "0ed8ed36ce84ebb3",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How Capital Markets Finance Protects Balance Sheet Returns",
-    "url": "https://www.databricks.com/blog/how-capital-markets-finance-protects-balance-sheet-returns",
-    "published": "2026-08-25",
-    "first_seen": "2026-08-26",
-    "summary": "An insurer settles a",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Financial Services"
-    ]
-  },
-  {
-    "id": "bb38e3a277177a86",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Choosing Data Governance Tools for Enterprise Data Governance",
-    "url": "https://www.databricks.com/blog/data-governance-tools",
-    "published": "2026-08-25",
-    "first_seen": "2026-08-26",
-    "summary": "Data governance tools explained: core capabilities, tool types, and a practical framework for evaluating and choosing the right one for your stack.",
-    "category": "Platform Overview",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "c83a9c88981db10c",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Data Mesh vs. Data Fabric: Key Differences and How the Lakehouse Resolves the Debate",
-    "url": "https://www.databricks.com/blog/data-mesh-vs-data-fabric",
-    "published": "2026-08-25",
-    "first_seen": "2026-08-26",
-    "summary": "Data mesh decentralizes data ownership; data fabric automates integration. Learn the key differences, when to choose each, and why most enterprises adopt hybrid approaches combining domain autonomy with centralized governance.",
-    "category": "Platform Overview",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "d11360bb1a3d7603",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Modernizing SQL ETL in Lakehouse with Declarative Patterns",
-    "url": "https://www.databricks.com/blog/modernizing-sql-etl-lakehouse-declarative-patterns",
-    "published": "2026-08-25",
-    "first_seen": "2026-08-26",
-    "summary": "Databricks brings declarative ETL to the SQL Editor with APPEND, AUTO CDC, and REPLACE WHERE flows in Lakehouswe.",
-    "category": "Data Engineering",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "0e4d0d4d14e13e89",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Open Table Formats Explained: Iceberg vs. Delta vs. Hudi",
-    "url": "https://www.databricks.com/blog/open-table-formats",
-    "published": "2026-08-25",
-    "first_seen": "2026-08-26",
-    "summary": "Open table formats bring ACID transactions, schema evolution, and time travel to data lakes. Compare Apache Iceberg, Delta Lake, and Apache Hudi today.",
-    "category": "Data Engineering",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "58ca7efa1d80b84d",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/lakebridge",
-    "title": "databrickslabs/lakebridge: Release v0.15.1",
-    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.15.1",
-    "published": "2026-08-25",
-    "first_seen": "2026-08-26",
-    "summary": "Release v0.15.1\n\nHighlights\n\n- Key pair authentication for the Snowflake profiler. The Snowflake profiler now supports key pair (JWT) authentication in addition to the existing methods.\n\n- Run metadata embedded in every profiler extract. Each profiler DuckDB extract now carries a profiler_run_metadata table, so consumers can identify the source, pipeline, environment, and run outcome without parsing filenames or logs.\n\n- More accurate Redshift concurrency metrics. Fixed a bug where concurrent-user metrics collapsed activity across multiple days into a single hour-of-day profile, inflating the counts.\n\nProfilers\n\nEnhancements\n\n- profiler_run_metadata added to DuckDB extracts (#2596)\n\nEvery profiler run now writes a source-independent, single-row profiler_run_metadata table at the end of the run, capturing source, pipeline, environment, and outcome fields. It's written best-effort even when a run aborts early.\n\n- Removed unnecessary ORDER BY clauses from source queries (#2624)\n\nProfiler queries no longer issue ORDER BY clauses that don't affect the extracted data, reducing load on the source systems.\n\nSnowflake Profiler\n\n- Key pair authentication support (#2618)\n\nAdds key pair (JWT) authentication for the Snowflake profiler.\n\n- Improved logging during profiler runs (#2620)\n\nLogging during the streaming of Snowflake results now surfaces clearer progress information and better indicates which code paths are taken.\n\nRedshift\n\n- Fixed concurrent-users metrics collapsing across days (#2602)\n\nchart_concurrent_users_by_hour and rs_avg_concurrent_users now count distinct users within each calendar day before reducing to an hour-of-day profile. The chart reports the busiest day per hour; the KPI averages the per-day/hour counts.\n\nTeradata…",
-    "category": "Data Engineering",
-    "tags": [
-      "databrickslabs/lakebridge"
-    ]
-  },
-  {
-    "id": "1b468b056b6f2652",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/geobrix",
-    "title": "databrickslabs/geobrix: GeoBrix v0.5.0",
-    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.5.0",
-    "published": "2026-08-25",
-    "first_seen": "2026-08-26",
-    "summary": "GeoBrix v0.5.0\n\nGeoBrix 0.5.0 introduces virtual tiles — a bytes-free way to read and process huge rasters without running out of memory — unifies both execution tiers on a single v2 tile struct, and adds the COG preparation lane (file_gbx + cog_gbx) with VRT mosaics for large-raster workflows — tapping the Databricks FILE type for governed, memory-safe file access where the runtime provides it. It also adds four VectorX geometry families (antimeridian, validity, cleaning, coverage validity) and both-tier CRS families, on top of v0.4.3. This release contains breaking changes — see below. Full change list: Release Notes → What's new in v0.5.0.\n\nHighlights\n\n- Virtual tiles — bytes-free windowed reads for large rasters. The lightweight cog_gbx / raster_gbx / gtiff_gbx readers can emit virtual tiles: each row carries a source path + pixel window instead of the raster bytes, and pixels are read lazily, one window at a time, only when an operation needs them. A virtual row is ~100 B versus 148–527 KB materialized (~1,400–5,000× smaller), so fanning a multi-gigabyte raster into many tiles no longer accumulates into a Serverless out-of-memory failure. Every lightweight rst_* is virtual-tile-aware through one shared open path (header-only accessors answer without reading pixels; reference/passthrough ops stay virtual; pixel ops materialize only their window), with new force-output params virtualize_dir / virtualize_prefix / materialize. See Virtual Tiles.…",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/geobrix"
-    ]
-  },
-  {
-    "id": "c9365e5b84823bdc",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "The Genie One desktop app for macOS is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#the-genie-one-desktop-app-for-macos-is-in-beta",
-    "published": "2026-08-25",
-    "first_seen": "2026-08-26",
-    "summary": "The Genie One desktop app is now in Beta. The native macOS app opens Genie One on your desktop instead of in a browser tab, so business users can chat with data in natural language, work with their threads and documents, and use Genie Agents without a browser. See Use Genie One on desktop.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "bc4cc14aa2ccad18",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Anysphere Audit Logs connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#anysphere-audit-logs-connector-beta",
-    "published": "2026-08-25",
-    "first_seen": "2026-09-09",
-    "summary": "The Anysphere Audit Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses the Anysphere (Cursor) Admin API to incrementally ingest team audit-log events into Databricks. Authentication uses a Cursor Admin API key.\n\nSee Anysphere Audit Logs connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "9e0202f24c769d53",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Run, debug, and scale Databricks workloads from your local IDE",
-    "url": "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide",
-    "published": "2026-08-24",
-    "first_seen": "2026-08-25",
-    "summary": "Customers can now connect local IDEs to Databricks to interactively run workloads and edit workspace files. We’re also sharing the latest updates to the Databricks IDE Extension.",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "0744436aa0d3b008",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How Databricks Uses AI to Accelerate Incident Investigation",
-    "url": "https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation",
-    "published": "2026-08-24",
-    "first_seen": "2026-08-25",
-    "summary": "Discover how Databricks uses AI SRE to accelerate incident investigation. Our AI-powered agent automates context assembly and runbook execution, helping on-call engineers identify root causes faster across complex microservice environments.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Engineering"
-    ]
-  },
-  {
-    "id": "0f84bb593d10ce16",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Connect to the Databricks Genie app in Microsoft Teams with your workspace URL (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#connect-to-the-databricks-genie-app-in-microsoft-teams-with-your-workspace-url-public-preview",
-    "published": "2026-08-24",
-    "first_seen": "2026-08-25",
-    "summary": "When you sign in to the Databricks Genie app in Microsoft Teams, you can now enter your workspace URL instead of a server hostname to connect to your Databricks account. See Databricks Genie app in Microsoft Teams.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "3cfe914ca3efd734",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "The INSERT, UPDATE, and DELETE privileges are in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#the-insert-update-and-delete-privileges-are-in-beta",
-    "published": "2026-08-24",
-    "first_seen": "2026-08-25",
-    "summary": "The INSERT, UPDATE, and DELETE privileges are in Beta in Unity Catalog. These privileges are least-privilege alternatives to MODIFY that let you grant write access to a table's data without also granting the ability to change its schema or other metadata.\n\nThe privileges require Databricks Runtime 18.1 or above.\n\nFor details, see Fine-grained DML privileges.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "81ead8015ec72191",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Relational vs Non-Relational Database: Choosing the Right Data Store",
-    "url": "https://www.databricks.com/blog/relational-vs-non-relational-database",
-    "published": "2026-08-24",
-    "first_seen": "2026-08-26",
-    "summary": "Choosing between relational and non-relational databases is one of the most consequential architectural decisions teams make when building data systems, and the right choice depends on whether your workload prioritizes structured data integrity or flexible, distributed scalability.",
-    "category": "Platform Overview",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "ab5e6a2ed864e3dd",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Private network gateway is in Private Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#private-network-gateway-is-in-private-preview",
-    "published": "2026-08-24",
-    "first_seen": "2026-08-27",
-    "summary": "Private network gateway is in Private Preview. A private network gateway connects Databricks serverless compute to resources in your VPC, on-premises systems, and the internet through a single managed gateway, reusing your existing network connectivity configuration (NCC). Use it for broad private connectivity without onboarding each resource individually, to route serverless egress through your own security appliances for content inspection, or to send egress from a stable set of IP addresses. See Private network gateway.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "d131dd235566962e",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unity Gateway now supports Provisioned Throughput",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-gateway-now-supports-provisioned-throughput",
-    "published": "2026-08-24",
-    "first_seen": "2026-09-02",
-    "summary": "Govern Provisioned Throughput (PT) traffic through Unity Gateway, bringing PT models under the same access controls, usage tracking, rate limits, payload logging, and guardrails as other model traffic.\n\nSee AI governance with Unity AI Gateway.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "f9b05229692780bc",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Verkada connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#verkada-connector-beta",
-    "published": "2026-08-24",
-    "first_seen": "2026-09-09",
-    "summary": "The Verkada connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests organization audit logs and access users from your Verkada organization into Databricks. Authentication uses a Verkada organization API key.\n\nSee Verkada connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "83ef82d736588746",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.5.2",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.5.2",
-    "published": "2026-08-21",
-    "first_seen": "2026-08-21",
-    "summary": "What's Changed\n\n- Use xxHash64 for event_instance_id to prevent hash collisions by @tombonfert in #85\n\n- Bump version to 0.5.2 in VERSION file by @tombonfert in #86\n\nFull Changelog: v0.5.1...v0.5.2\n\nWhat's Changed\n\n- Use xxHash64 for event_instance_id to prevent hash collisions by @tombonfert in #85\n\n- Bump version to 0.5.2 in VERSION file by @tombonfert in #86\n\nFull Changelog: v0.5.1...v0.5.2",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "b01ab86ac52d1880",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Connecting retail demand planning to campaign and store execution",
-    "url": "https://www.databricks.com/blog/connecting-retail-demand-planning-campaign-and-store-execution",
-    "published": "2026-08-21",
-    "first_seen": "2026-08-22",
-    "summary": "See how unified retail data, AI, and governance connect demand planning, campaigns, store execution, and measurement in one end-to-end workflow.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Retail & Consumer Goods"
-    ]
-  },
-  {
-    "id": "ba0c112665ccc1f5",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Default Python package repositories are GA for Lakeflow pipelines and classic compute",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#default-python-package-repositories-are-ga-for-lakeflow-pipelines-and-classic-compute",
-    "published": "2026-08-21",
-    "first_seen": "2026-08-22",
-    "summary": "Configuring default Python package repositories is now generally available for Lakeflow pipelines and for classic compute created via the UI and API. Workspace admins can set private or authenticated registries as the workspace default for these workloads. See Configure default package repositories.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "b677cb419508b873",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Context attributes in ABAC column mask and row filter policies (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#context-attributes-in-abac-column-mask-and-row-filter-policies-beta",
-    "published": "2026-08-21",
-    "first_seen": "2026-08-22",
-    "summary": "Context attributes for attribute-based access control (ABAC) policies are in Beta. You can now write Unity Catalog ABAC policy conditions that target the context of a request, such as which OAuth application is calling (request.client_id) and whether the request runs on behalf of a user (request.is_on_behalf_of). The has_context_attribute and has_context_attribute_value functions are supported in the WHEN clause of row filter and column mask policies.\n\nA common use is to restrict the data an agent reads on a user's behalf when it connects through a registered OAuth application, while the user can still read the full data when they query it directly in the workspace.\n\nSee Context attribute functions (Beta).",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "666b28435cb7e4e3",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Monitor all AI activity with the unified trace table (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#monitor-all-ai-activity-with-the-unified-trace-table-beta",
-    "published": "2026-08-21",
-    "first_seen": "2026-08-28",
-    "summary": "The unified trace table is in Beta. It captures every request and response across your Unity AI Gateway services into one Unity Catalog table in OpenTelemetry format, giving you a single place to monitor, debug, secure, and audit all AI activity.\n\nSee Monitor all AI activity using the unified trace table.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "5480dbb2e2b7d137",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: v4.4.0: [Release] Prepare version 4.4.0 for release (#7493)",
-    "url": "https://github.com/delta-io/delta/releases/tag/v4.4.0",
-    "published": "2026-08-20",
-    "first_seen": "2026-08-20",
-    "summary": "Which Delta project/connector is this regarding?\n\n- Spark\n\n- Standalone\n\n- Flink\n\n- Kernel\n\n- Other (release)\n\nDescription\n\nThe release branch normally uses version 4.4.0-SNAPSHOT. That would give\n\npublished artifacts a development version instead of the final 4.4.0\n\nversion.\n\nThis PR changes version.sbt to 4.4.0 for the release. It also allows\n\nlocal Maven overwrites during cross-Spark release publishing. The\n\nrelease workflow publishes unsuffixed modules such as delta-contribs in\n\nboth the backward-compatible step and the per-Spark-version steps. SBT\n\nrejects those identical local writes for a non-snapshot version unless\n\noverwrite is enabled. This setting affects local publishLocal and\n\npublishM2 operations only; it does not allow overwriting artifacts on\n\nMaven Central.\n\nAfter this PR merges, tag its merge commit as v4.4.0 before merging the\n\nsnapshot-restoration PR.\n\nHow was this patch tested?\n\n- Ran the published-artifact test with Python 3.9.\n\n- Verified the default and backward-compatible artifact layouts, each\n\nwith all 12 expected version 4.4.0 JARs.\n\n- Verified the full release workflow completed the Spark 4.0, 4.1, and\n\n4.2 publish stages. The run was stopped during the later Flink stage to\n\npush the requested update.\n\n- Ran git diff --check.\n\nDoes this PR introduce any user-facing changes?\n\nNo runtime behavior changes. This sets the version and local publishing\n\nbehavior needed to produce the Delta Lake 4.4.0 release artifacts.",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
     ]
   }
 ]
