@@ -26,6 +26,142 @@
     "tags": []
   },
   {
+    "id": "e3fe80c2b63d00e4",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Constellation is building a governed data foundation on Databricks",
+    "url": "https://www.databricks.com/blog/how-constellation-building-governed-data-foundation-databricks",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "Learn how Constellation is building an Enterprise Data Platform on Databricks to establish unified data governance and shared semantics, creating a reliable foundation for AI applications across engineering, operations, and sales.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Solutions",
+      "Data Science and ML",
+      "Energy",
+      "Insights",
+      "Events"
+    ]
+  },
+  {
+    "id": "8154a879ee3ae834",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Eclipse Aerospace simplifies flight-data ingestion with Databricks",
+    "url": "https://www.databricks.com/blog/eclipse-aerospace-simplifies-flight-data-ingestion-databricks",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "See how Eclipse Aerospace partnered with Databricks to modernize flight data processing, saving time and costs while making decades of telemetry easier to use.",
+    "category": "Data Engineering",
+    "tags": [
+      "Industries",
+      "Manufacturing"
+    ]
+  },
+  {
+    "id": "099abfed4830b40b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How H6.ai builds AI-powered financial automation with Lakebase Postgres",
+    "url": "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "H6.ai tests every change to its invoice-processing AI against frozen copies of real customer databases. Each copy is a Lakebase Postgres branch. It holds the exact financial state behind a real invoice, and we can replay it as often as we like without touching the customer's live data.",
+    "category": "Database",
+    "tags": [
+      "Company",
+      "Customers"
+    ]
+  },
+  {
+    "id": "ac1f37cc67969913",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Lakehouse//RT: Scale real-time analytics, not your bill",
+    "url": "https://www.databricks.com/blog/lakehousert-scale-real-time-analytics-not-your-bill",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "Lakehouse//RT is built to absorb growing real-time query volume without a matching jump in cost, and to replace separate real-time serving stacks.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Data Warehousing",
+      "Lakehouse"
+    ]
+  },
+  {
+    "id": "f14cef6883eef56b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Genie in Slack is now Generally Available: Governed AI cowork, right where work happens",
+    "url": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "Genie in Slack is now generally available. DM Genie or @mention it in a channel to get answers grounded in your business context and take action across your MCP connectors, with the same governance and permissions you use in Genie One.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "1796045f9ab887ae",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How Block powers collaborative AI agents with Buzz and Unity Gateway",
+    "url": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "Inside Block, Buzz brings employees and AI agents into a shared workspace. With Databricks Unity Gateway, employees who use Buzz can access frontier and open-weight models, experiment with different agent harnesses, and find the right combination based on the efficiency frontier for each task.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Industries",
+      "Unity Gateway",
+      "Customers"
+    ]
+  },
+  {
+    "id": "4eeb2fdafc8fb92d",
+    "source": "github_release",
+    "source_label": "GitHub · mlflow/mlflow",
+    "title": "mlflow/mlflow: ts/v0.5.0",
+    "url": "https://github.com/mlflow/mlflow/releases/tag/ts%2Fv0.5.0",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "MLflow TypeScript SDK 0.5.0",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "mlflow/mlflow"
+    ]
+  },
+  {
+    "id": "a39f6eb3c90b3f28",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.166.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.166.0",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "## Release v0.166.0 (2026-11-12)\n\n### API Changes\n\n* Add [w.assume_group](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/iam/assume_group.html) workspace-level service.\n\n* Add `effective_resources` field for `databricks.sdk.service.apps.App`.\n\n* Change `output_ref` field for `databricks.sdk.service.aifunctions.Batch` to be required.\n\n* [Breaking] Change `output_ref` field for `databricks.sdk.service.aifunctions.Batch` to be required.\n\n* [Breaking] Remove `continuous` field for `databricks.sdk.service.lakewatch.RuleSchedule`.\n\n* [Breaking] Remove `expired` enum value for `databricks.sdk.service.aifunctions.BatchStatus`.\n\n### Bug Fixes\n\n* `WorkspaceClient.files` now sends the SDK User-Agent on Files API requests made outside the API client: endpoint discovery, multipart complete and abort, and Files API 3.0 data transfers.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "fff4c4e524e04a64",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ABAC DENY policies support AI securables and attachment to individual objects (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#abac-deny-policies-support-ai-securables-and-attachment-to-individual-objects-beta",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-12",
+    "summary": "- Expanded FOR clause support: DENY policies can now apply to model services, model provider services, MCP services, agent services, and skills.\n\n- Expanded ON clause support: DENY policies can now be attached directly on tables, volumes, functions, models, secrets, model services, model provider services, MCP services, agent services, and skills.\n\nSee Supported securable types and privileges.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "aca7868bdfdf4aa2",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -260,6 +396,72 @@
     "tags": []
   },
   {
+    "id": "54119b2d0be374f2",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Detecting credential-driven attacks on Databricks",
+    "url": "https://www.databricks.com/blog/detecting-credential-driven-attacks-databricks",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-12",
+    "summary": "Learn how to detect and scope an adversary who signs in to Databricks with a credential, using system tables, audit logs, and the Detection App's Genie agent.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Platform",
+      "Security and Trust",
+      "Security Threat Research"
+    ]
+  },
+  {
+    "id": "aa68bb6e04785333",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Brickster Voices: Meet Alasdair Anderson",
+    "url": "https://www.databricks.com/blog/brickster-voices-meet-alasdair-anderson",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-12",
+    "summary": "The Databricks Field Engineering team helps our customers build and scale AI solutions. A spotlight on Databricks’ Field Engineering team in Financial Services, showing how Lead Solutions Architects build and scale AI solutions like Agentbricks, Lakebase, and Document Intelligence directly with executive leaders.",
+    "category": "Database",
+    "tags": [
+      "Company"
+    ]
+  },
+  {
+    "id": "371109d86594688e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Standalone pipelines on serverless general compute are now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#standalone-pipelines-on-serverless-general-compute-are-now-generally-available",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-12",
+    "summary": "Creating and refreshing standalone materialized views and streaming tables from a notebook on serverless general compute is now generally available. You can define them with SQL through spark.sql() or with the Python pipelines decorators. See Notebooks and Use Python with standalone pipelines.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "8b538abbdbde6b96",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Connect GitHub Copilot CLI and GitHub Copilot in Visual Studio Code with Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#connect-github-copilot-cli-and-github-copilot-in-visual-studio-code-with-unity-gateway",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-12",
+    "summary": "ug configure --agents copilot now sets up GitHub Copilot in Visual Studio Code alongside GitHub Copilot CLI, with Claude, GPT, and open-source models. Admins can add GitHub Copilot to the coding agent configuration to set its models, default model, HTTP headers, and tracing for both Copilot CLI and Copilot in Visual Studio Code, and turn Copilot in Visual Studio Code on or off. Developers must use the latest ug.\n\nSee Connect GitHub Copilot.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
+    "id": "128b0223c9233db8",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Bring your own ChatGPT subscription to Codex with Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#bring-your-own-chatgpt-subscription-to-codex-with-unity-gateway",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-12",
+    "summary": "You can now use your own ChatGPT Go, Plus, Pro, or Enterprise subscription with Codex and ChatGPT desktop through Unity Gateway. Requests are billed to your subscription, and Unity Gateway governs access and usage. See ChatGPT subscription support.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "778dcbe662308003",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -333,6 +535,18 @@
     "first_seen": "2026-11-11",
     "summary": "Google Gemini 4 Carbon is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "ef3aacf9801616f2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Budget alerts can now trigger webhooks (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#budget-alerts-can-now-trigger-webhooks-beta",
+    "published": "2026-11-10",
+    "first_seen": "2026-11-12",
+    "summary": "You can now configure budgets to trigger webhooks when spend thresholds are exhausted, so budget events can be routed to incident, ticketing, or automation tools. See Trigger custom webhooks.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -559,6 +773,18 @@
     "first_seen": "2026-11-11",
     "summary": "Anthropic Claude Fable 5.2 is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "1a8f65f247a5a437",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Functions Asynchronous API (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-functions-asynchronous-api-beta",
+    "published": "2026-11-09",
+    "first_seen": "2026-11-12",
+    "summary": "You can now use the AI Functions Asynchronous API to run ai_parse_document, ai_extract, or ai_classify asynchronously on up to 50,000 requests from a JSONL file in a Unity Catalog volume. The batch writes one result for each request to a file in a volume. Workspace admins can turn on the AI Functions Asynchronous API preview from the Previews page. This feature is in Beta.\n\nSee the Asynchronous API reference. For examples, see document parsing, information extraction, and classification.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -7233,6 +7459,20 @@
     "tags": []
   },
   {
+    "id": "1b468b056b6f2652",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/geobrix",
+    "title": "databrickslabs/geobrix: GeoBrix v0.5.0",
+    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.5.0",
+    "published": "2026-09-04",
+    "first_seen": "2026-11-12",
+    "summary": "GeoBrix v0.5.0\n\nGeoBrix 0.5.0 introduces virtual tiles — a bytes-free way to read and process huge rasters without running out of memory — unifies both execution tiers on a single v2 tile struct, and adds the COG preparation lane (file_gbx + cog_gbx) with VRT mosaics for large-raster workflows — tapping the Databricks FILE type for governed, memory-safe file access where the runtime provides it. It also adds four VectorX geometry families (antimeridian, validity, cleaning, coverage validity) and both-tier CRS families, on top of v0.4.3. This release contains breaking changes — see below. Full change list: Release Notes → What's new in v0.5.0. The v0.5.0 release artifacts (wheel, JAR, docs bundle, GDAL tarball) were regenerated against this update to refresh the light-tier extras' dependency pins — see the Highlights below for details.\n\nHighlights\n\n- Virtual tiles — bytes-free windowed reads for large rasters. The lightweight cog_gbx / raster_gbx / gtiff_gbx readers can emit virtual tiles: each row carries a source path + pixel window instead of the raster bytes, and pixels are read lazily, one window at a time, only when an operation needs them. A virtual row is ~100 B versus 148–527 KB materialized (~1,400–5,000× smaller), so fanning a multi-gigabyte raster into many tiles no longer accumulates into a Serverless out-of-memory failure. Every lightweight rst_* is virtual-tile-aware through one shared open path (header-only accessors answer without reading pixels; reference/passthrough ops stay virtual; pixel ops materialize only their window), with new force-output params virtualize_dir / virtualize_prefix / materialize. See Virtual Tiles.…",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/geobrix"
+    ]
+  },
+  {
     "id": "8be23db10cee79bc",
     "source": "github_release",
     "source_label": "GitHub · databricks/cli",
@@ -7839,232 +8079,6 @@
       "Data Science and ML",
       "Databricks AI",
       "AI Engineering"
-    ]
-  },
-  {
-    "id": "3d0fa61951ae42d0",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.14.1",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.14.1",
-    "published": "2026-08-28",
-    "first_seen": "2026-08-28",
-    "summary": "Release v1.14.1\n\nBundles\n\n- Fix bundle deploy failing with deployment_source.source_code_path cannot be set on UpdateApp (400) when updating an app that has an active deployment (#6401).\n\n- Fixed ${resources...} references to resource keys starting with an underscore (e.g. _my_job). On the direct engine, deploying such a resource with permissions or grants failed with cannot parse \"/jobs/${resources.jobs._my_job.id}\", and user-written references to it were silently left unresolved (#6422)",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "8c503268e98981a9",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "What is an AI Copilot?",
-    "url": "https://www.databricks.com/blog/ai-copilot",
-    "published": "2026-08-28",
-    "first_seen": "2026-08-31",
-    "summary": "An AI copilot is an assistant embedded in software that helps users complete tasks. Learn how copilots work, where they add value and what adoption requires.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "b059effc5e01f646",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unity Catalog Skills (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#unity-catalog-skills-beta",
-    "published": "2026-08-28",
-    "first_seen": "2026-08-31",
-    "summary": "You can now publish, govern, and share agent skills with Unity Catalog. A skill is a first-class Unity Catalog securable (catalog.schema.skill) that follows the SKILL.md specification, so you register it once and control who can discover, use, and update it with the same permissions, tags, and audit that protect your tables. Coding agents download published skills or load them live over MCP. See What are Unity Catalog Skills.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "979930d2c3ec2cbf",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Monitor and cap external provider costs",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#monitor-and-cap-external-provider-costs",
-    "published": "2026-08-28",
-    "first_seen": "2026-09-02",
-    "summary": "Unity Gateway can now track and cap spend on external model providers, such as Amazon Bedrock and Azure AI Foundry, not just Databricks-provided models. If your organization already has capacity commitments directly with a provider, Unity Gateway becomes the single point to track that usage and enforce spend limits across teams and use cases. To turn it on, enable External Model Spend in Budgets (Beta) on the account console Previews page, then select Include external model usage when you create a budget scoped to the Unity Gateway resource type.\n\nSee Include external model usage.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "dc5c2ff719f280f9",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Building for the AI Era: Lakebase, Streaming, and Lakehouse Innovations  at VLDB 2026",
-    "url": "https://www.databricks.com/blog/building-ai-era-lakebase-streaming-and-lakehouse-innovations-vldb-2026",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-27",
-    "summary": "We a",
-    "category": "Database",
-    "tags": [
-      "Company"
-    ]
-  },
-  {
-    "id": "530949a58cd7d518",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "What QSR reports miss about the decisions matter the most",
-    "url": "https://www.databricks.com/blog/what-qsr-reports-miss-about-decisions-matter-most",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-27",
-    "summary": "Limi",
-    "category": "Platform Overview",
-    "tags": [
-      "Retail & Consumer Goods"
-    ]
-  },
-  {
-    "id": "c5227fe0bc2dbaf1",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Enhancing Agent Retrieval with Structured Chart Extraction",
-    "url": "https://www.databricks.com/blog/enhancing-agent-retrieval-structured-chart-extraction",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-27",
-    "summary": "The Motivation",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Mosaic Research"
-    ]
-  },
-  {
-    "id": "14c3eb378998a26c",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Vertical Advantage: Transforming Industries with Lakebase and Agentic AI",
-    "url": "https://www.databricks.com/blog/vertical-advantage-transforming-industries-lakebase-and-agentic-ai",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-27",
-    "summary": "In t",
-    "category": "Database",
-    "tags": [
-      "Partners",
-      "Customers",
-      "Company & Customers",
-      "Platform & Partners"
-    ]
-  },
-  {
-    "id": "bc0c7be7bc534424",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Object Storage + WAL: Lakebase Postgres for the agentic era",
-    "url": "https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-27",
-    "summary": "Agents that interact",
-    "category": "Database",
-    "tags": [
-      "Engineering"
-    ]
-  },
-  {
-    "id": "f93a646cb64171cb",
-    "source": "github_release",
-    "source_label": "GitHub · mlflow/mlflow",
-    "title": "mlflow/mlflow: ts/v0.4.0",
-    "url": "https://github.com/mlflow/mlflow/releases/tag/ts%2Fv0.4.0",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-27",
-    "summary": "MLflow TypeScript SDK 0.4.0",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "mlflow/mlflow"
-    ]
-  },
-  {
-    "id": "a711657fb67329ca",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code is now available as a Lakeflow Jobs task (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-is-now-available-as-a-lakeflow-jobs-task-beta",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-27",
-    "summary": "You can now run prompts with Genie Code as a task in a Lakeflow Job. Genie Code runs your prompt autonomously. It can read upstream task outputs and call tools as needed. The task returns a link to the resulting Genie Code conversation with its response. See Genie Code task for jobs.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "d97fee844ad10e3a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Share foreign Delta tables with OpenSharing (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#share-foreign-delta-tables-with-opensharing-public-preview",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-27",
-    "summary": "You can now use OpenSharing to share foreign Delta tables, which are Delta-format tables registered in a foreign catalog such as OneLake, a Hive metastore, or AWS Glue. Providers add foreign Delta tables to a share, and recipients access the shared data in read-only format. See Add foreign Delta tables to a share and Read data in a shared foreign Delta table.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "173ca4d6401d82a8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakeflow Designer August Release",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#lakeflow-designer-august-release",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-28",
-    "summary": "The Lakeflow Designer August release adds the Unique operator, expands the Aggregate, Select, and Python operators, and improves the canvas, preview, and version-history experience. The following updates are now available:\n\n- Unique operator: Use the new Unique operator to remove duplicate rows, optionally keying on a subset of columns and ordering the rows to control which duplicate is kept. See Unique.\n\n- Count distinct: The Aggregate operator now supports a COUNT DISTINCT function to count the unique values in a column. See Aggregate.\n\n- Dynamic column selection: The Select operator can now choose columns dynamically by data type, name pattern, or formula, so the output adapts as the input schema changes. See Select.\n\n- Python preview mode: The Python operator can run different code during previews than during full runs by checking config[\"is_preview\"], so you can skip side effects such as writes and notifications while previewing. See Python preview mode.\n\n- Streaming Python output: Python operator output now streams into the output pane as the operator runs, so you can see results before the run finishes. See Python.\n\n- Enable and disable operators and groups: Disable individual operators or entire groups to exclude them from runs, then enable them again when you need them. See Group.\n\n- Operator lineage highlighting: Select an operator to highlight its lineage from upstream sources to downstream sinks on the canvas. See Operators.\n\n- Run all: Run every operator in the visual data prep at once with the new Run all button. See Run the full visual data prep.…",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "c72654cc15001d2c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code for AI Runtime (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#genie-code-for-ai-runtime-public-preview",
-    "published": "2026-08-27",
-    "first_seen": "2026-08-28",
-    "summary": "Use Genie Code to develop and troubleshoot deep learning workloads in notebooks connected to AI Runtime. Now in Public Preview, it generates distributed training code, resolves environment and dependency issues, and debugs GPU and distributed workload failures. See Use Genie Code with AI Runtime.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "de4c6994f88a50a8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Atlassian Audit Logs connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#atlassian-audit-logs-connector-beta",
-    "published": "2026-08-27",
-    "first_seen": "2026-09-10",
-    "summary": "The Atlassian Audit Logs connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests organization audit log events, such as user, security, and configuration changes, from Atlassian into Databricks. Authentication uses an Atlassian organization API key.\n\nSee Atlassian Audit Logs connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "1d72e9d6203cdc0d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "AI Functions REST API is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#ai-functions-rest-api-is-now-generally-available",
-    "published": "2026-08-27",
-    "first_seen": "2026-09-10",
-    "summary": "You can now call ai_parse_document, ai_extract, and ai_classify through the AI Functions REST API. See intelligent document processing for more details.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "3d8012e1730aa15a",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Introducing Governance Hub: Intelligent, account-level governance over your Databricks estate",
-    "url": "https://www.databricks.com/blog/introducing-governance-hub-intelligent-account-level-governance-over-your-databricks-estate",
-    "published": "2026-08-26",
-    "first_seen": "2026-08-26",
-    "summary": "Governance Hub is a new account-level experience that gives administrators and governance teams a unified view of data health, AI usage, and cost, with agentic insights and actionable recommendations.",
-    "category": "Governance",
-    "tags": [
-      "Platform",
-      "Announcements"
     ]
   }
 ]
