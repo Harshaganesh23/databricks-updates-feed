@@ -14,6 +14,61 @@
     ]
   },
   {
+    "id": "6c9a9771d5ee8bb1",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Apache Spark vs Apache Flink: which should you use?",
+    "url": "https://www.databricks.com/blog/spark-vs-flink",
+    "published": "2026-11-14",
+    "first_seen": "2026-11-13",
+    "summary": "Apache Spark vs Apache Flink in 2026: Spark Real-Time Mode reaches millisecond latency on the same engine as batch, SQL and AI. Compare features, benchmarks and use cases.",
+    "category": "Platform Overview",
+    "tags": [
+      "Data + AI Foundations"
+    ]
+  },
+  {
+    "id": "e9b07587749c0ff4",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "OpenAI and Databricks: Enterprise AI on your governed data",
+    "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
+    "published": "2026-11-13",
+    "first_seen": "2026-11-13",
+    "summary": "How enterprises use OpenAI ChatGPT, Codex, and GPT models on governed Databricks data.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Partners"
+    ]
+  },
+  {
+    "id": "98c8bb239c029097",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v3.5.10-rc1",
+    "url": "https://github.com/apache/spark/releases/tag/v3.5.10-rc1",
+    "published": "2026-11-13",
+    "first_seen": "2026-11-13",
+    "summary": "Preparing Spark release v3.5.10-rc1",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
+  },
+  {
+    "id": "d4a3e9e46504b64e",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "AI Function task support in Declarative Automation Bundles (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-task-support-in-declarative-automation-bundles-beta",
+    "published": "2026-11-13",
+    "first_seen": "2026-11-13",
+    "summary": "Support for AI Function tasks in Declarative Automation Bundles is now in Beta. See AI Function task.",
+    "category": "Application Development",
+    "tags": []
+  },
+  {
     "id": "99142d0df48db68c",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -159,6 +214,69 @@
     "first_seen": "2026-11-12",
     "summary": "- Expanded FOR clause support: DENY policies can now apply to model services, model provider services, MCP services, agent services, and skills.\n\n- Expanded ON clause support: DENY policies can now be attached directly on tables, volumes, functions, models, secrets, model services, model provider services, MCP services, agent services, and skills.\n\nSee Supported securable types and privileges.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "d21c5f6d9d9413f6",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Dispelling LTAP myths",
+    "url": "https://www.databricks.com/blog/dispelling-ltap-myths",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-13",
+    "summary": "Lakebase's LTAP design makes the lake the database's storage, not a replica: one Delta or Iceberg table, one catalog, with Postgres caches and pageservers in front for speed.",
+    "category": "Governance",
+    "tags": [
+      "Engineering",
+      "Lakebase"
+    ]
+  },
+  {
+    "id": "97f935243ad3a6a0",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Flows are securable objects in Unity Catalog (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#flows-are-securable-objects-in-unity-catalog-beta",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-13",
+    "summary": "Pipeline flows are now securable objects in Unity Catalog. You can grant READ FLOW, REFRESH FLOW, WRITE FLOW, APPLY TAG, and MANAGE on individual flows, and CREATE FLOW on schemas. To participate in the Beta, contact your Databricks account team. See Flows in Unity Catalog.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "cb4c41a77a496c21",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OAuth on-behalf-of for service principals is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#oauth-on-behalf-of-for-service-principals-is-generally-available",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-13",
+    "summary": "OAuth on-behalf-of (OBO) for service principals is now generally available and turned on by default. With OBO, you use the standard user-to-machine (U2M) OAuth flow to act as a service principal you manage, without creating an OAuth secret. You must have the Service Principal Manager role on the service principal. A workspace admin no longer needs to turn on the feature from the Previews page.\n\nSee Authenticate as a service principal using OAuth OBO.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "3f9b5712bee383db",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 4 Hydrogen is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-4-hydrogen-is-now-available-on-unity-gateway",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-13",
+    "summary": "Google Gemini 4 Hydrogen is now available on Unity Gateway. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
+  },
+  {
+    "id": "c78f07f1f4577212",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Gemini 3.6 Flash will be retired on November 19, 2026",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#gemini-36-flash-will-be-retired-on-november-19-2026",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-13",
+    "summary": "Google Gemini 3.6 Flash will be retired on November 19, 2026. Starting on that date, API calls to Gemini 3.6 Flash will be automatically redirected to Gemini 3.8 Flash at the same price. Gemini 3.8 Flash is the recommended replacement. See Legacy, deprecated, and retired models for migration guidance.",
+    "category": "Artificial Intelligence",
     "tags": []
   },
   {
@@ -7957,128 +8075,5 @@
     "summary": "The pipeline_events system table is in Beta. This table records Lakeflow pipelines event log entries for pipelines in your account, capturing lifecycle transitions, flow progress, data quality metrics, errors, and other operational data across all pipelines and workspaces in a region. Use it to query historical pipeline activity, build alerts on pipeline failures, and correlate pipeline behavior with other Lakeflow system tables.\n\nSee Pipeline events system table reference.",
     "category": "Data Engineering",
     "tags": []
-  },
-  {
-    "id": "6c950da070388059",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ABAC GRANT policies are generally available for models and services",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#abac-grant-policies-are-generally-available-for-models-and-services",
-    "published": "2026-08-31",
-    "first_seen": "2026-09-02",
-    "summary": "ABAC GRANT policies for models, model services, model provider services, Model Context Protocol (MCP) services, and agent services are now generally available. These policies dynamically grant Unity Catalog privileges to securable objects whose governed tags match a condition, instead of granting privileges on each object individually. See ABAC GRANT policies.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "01e477cde43e63da",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "New AWS Graviton instance types: M9g and M9gd",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#new-aws-graviton-instance-types-m9g-and-m9gd",
-    "published": "2026-08-31",
-    "first_seen": "2026-11-06",
-    "summary": "You can now use Graviton-based M9g and M9gd instances (xlarge to 8xlarge) for classic compute. M9gd instances include local NVMe storage. See Worker node type.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "8e9c991c04aba408",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Nanosecond-precision timestamps (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#nanosecond-precision-timestamps-beta",
-    "published": "2026-08-30",
-    "first_seen": "2026-10-06",
-    "summary": "You can now use TIMESTAMP(9) and TIMESTAMP_NTZ(9) for nanosecond-precision timestamps in Databricks SQL and Databricks Runtime 19 and above.\n\nSee TIMESTAMP type and TIMESTAMP_NTZ type.",
-    "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "a6fab8368d96c2fd",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Restrict service principal OAuth secrets to specific API scopes",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#restrict-service-principal-oauth-secrets-to-specific-api-scopes",
-    "published": "2026-08-29",
-    "first_seen": "2026-08-31",
-    "summary": "You can now restrict a service principal's OAuth secret to specific API scopes, such as sql or jobs, instead of all APIs. A token minted from a scoped secret can't exceed those scopes, which limits the impact of a leaked secret. See Authorize service principal access to Databricks with OAuth.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "02fa52f8ed9e774a",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Zhipu AI GLM 5.3 now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/august#zhipu-ai-glm-53-now-available-as-a-databricks-hosted-model",
-    "published": "2026-08-29",
-    "first_seen": "2026-09-02",
-    "summary": "Model Serving now supports GLM 5.3 as a Databricks-hosted model in supported US and Americas regions. This text-only mixture of experts (MoE) model supports a context window of up to 1,048,576 tokens, up to 65,536 output tokens, function calling, structured output, coding, agentic tool use, and always-on reasoning. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "ad53b50abd4f520b",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Beyond answers: New Genie One features to turn insights into action",
-    "url": "https://www.databricks.com/blog/beyond-answers-new-genie-one-features-turn-insights-action",
-    "published": "2026-08-28",
-    "first_seen": "2026-08-28",
-    "summary": "We a",
-    "category": "Business Intelligence",
-    "tags": [
-      "All",
-      "Platform",
-      "Product"
-    ]
-  },
-  {
-    "id": "078c9699f9be16c2",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How Trackunit turns construction data into decisions with AI",
-    "url": "https://www.databricks.com/blog/how-trackunit-turns-construction-data-decisions-ai",
-    "published": "2026-08-28",
-    "first_seen": "2026-08-28",
-    "summary": "Learn how Trackunit uses IrisX, built on Databricks, to connect construction data and turn equipment signals into actionable decisions.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Manufacturing"
-    ]
-  },
-  {
-    "id": "a6070956dc645ddf",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How Indra unified EV charging data on Databricks",
-    "url": "https://www.databricks.com/blog/how-indra-unified-ev-charging-data-databricks",
-    "published": "2026-08-28",
-    "first_seen": "2026-08-28",
-    "summary": "See how Indra unified EV charging data on Databricks, cut costs, automated reporting, and enabled governed self-service analytics.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Energy"
-    ]
-  },
-  {
-    "id": "f2d9d49479b0a2c1",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Fast, fault-tolerant PyTorch training on AI Runtime",
-    "url": "https://www.databricks.com/blog/fast-fault-tolerant-pytorch-training-ai-runtime",
-    "published": "2026-08-28",
-    "first_seen": "2026-08-28",
-    "summary": "At GPU scale, failures are routine. See how smart dataloading and checkpointing keep training fast between failures and cheap to recover after them.",
-    "category": "Data Engineering",
-    "tags": [
-      "Engineering",
-      "Data Science and ML",
-      "Databricks AI",
-      "AI Engineering"
-    ]
   }
 ]
