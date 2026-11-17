@@ -26,6 +26,117 @@
     "tags": []
   },
   {
+    "id": "36cf6bd3aa89187d",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Azure Databricks sessions at Microsoft Ignite 2026",
+    "url": "https://www.databricks.com/blog/azure-databricks-sessions-microsoft-ignite-2026",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-17",
+    "summary": "Azure Databricks at Microsoft Ignite 2026: sessions, demos and meetings on governed AI, delivered in the Microsoft tools your teams use every day.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Partners"
+    ]
+  },
+  {
+    "id": "ba3ca5dd5d2eafa0",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Branch, sync, serve: What our Lakebase Hackathon taught us about building on Lakebase",
+    "url": "https://www.databricks.com/blog/branch-sync-serve-what-our-lakebase-hackathon-taught-us-about-building-lakebase",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-17",
+    "summary": "Eleven customer projects from our Lakebase Hackathon show how teams build with database branching, synced tables, and real-time serving on Lakebase.",
+    "category": "Database",
+    "tags": [
+      "Platform",
+      "Solutions",
+      "Events",
+      "Insights",
+      "Data Engineering"
+    ]
+  },
+  {
+    "id": "b462a598ffcd1a33",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "The new Azure Databricks on Azure Government is now in Beta",
+    "url": "https://www.databricks.com/blog/new-azure-databricks-azure-government-now-beta",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-17",
+    "summary": "Azure Databricks on Azure Government is in Beta. See what agencies can achieve today and what's next for AI as we work toward FedRAMP Class D and IL5.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Security and Trust"
+    ]
+  },
+  {
+    "id": "7de69a6096bc9aa7",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Advancing Catalog Interoperability with Unity Catalog and Google Cloud’s Borderless Lakehouse",
+    "url": "https://www.databricks.com/blog/advancing-catalog-interoperability-unity-catalog-and-google-clouds-borderless-lakehouse",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-17",
+    "summary": "Learn how Databricks and Google Cloud enable zero-copy data access through catalog federation and advance open business and governance metadata.",
+    "category": "Governance",
+    "tags": [
+      "Platform",
+      "Unity Catalog",
+      "Lakehouse",
+      "Announcements",
+      "Partners"
+    ]
+  },
+  {
+    "id": "465ac18de6b1756d",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How packaged clean rooms bring RampID to your lakehouse",
+    "url": "https://www.databricks.com/blog/liveramp-rampid-identity-resolution-packaged-clean-rooms",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-17",
+    "summary": "Learn how LiveRamp identity resolution runs in a Databricks packaged clean room, with live OpenSharing access and secure results.",
+    "category": "Sharing",
+    "tags": [
+      "Platform",
+      "Partners",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "f6b9a40efa359f5a",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Built on object storage, served from cache",
+    "url": "https://www.databricks.com/blog/built-object-storage-served-cache",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-17",
+    "summary": "Object storage gives Lakebase Postgres its foundation: durable, bottomless storage, instant branches and restores, and one copy of data for transactions and analytics (LTAP).",
+    "category": "Database",
+    "tags": [
+      "Engineering",
+      "Lakebase"
+    ]
+  },
+  {
+    "id": "042aac4bf3594b2d",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/geobrix",
+    "title": "databrickslabs/geobrix: GeoBrix v0.6.0",
+    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.6.0",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-17",
+    "summary": "GeoBrix v0.6.0\n\nGeoBrix 0.6.0 restructures how you install, register and call the library. It moves to GDAL 3.13 (3.13.3, with PROJ 9.9.0 and GEOS 3.15.0). One env wheel per runtime carries the whole native stack (without init scripts): GDAL, PROJ, GEOS, the Rust module and the JAR. Every function runs on every compute, and one call, gbx.register(spark), registers every function and reader. It also adds Unity Catalog functions for SQL warehouses, dashboards and Genie, FILE-value raster reads, incremental ingestion with a multi-format Lakeflow connector, transactional, versioned Zarr stores and a Databricks Container Service image. This release has breaking changes: see Behavior changes and the migration guide. Full change list: Release Notes → v0.6.0.\n\nHighlights\n\n- One install per runtime — the env wheel. geobrix-<version>+env6-py3-none-any.whl serves Serverless environment 6, DBR 19, SQL warehouses and Unity Catalog functions. geobrix-<version>+env5-py3-none-any.whl serves Serverless environment 5, DBR 17.3, DBR 18 and Lakeflow pipelines on the CURRENT channel. Each carries GDAL 3.13.3, PROJ 9.9.0, GEOS 3.15.0, the Rust module and the JAR, so there is no init script and no GDAL bundle. See Installation.\n\n- Every function on every compute. Every function runs at the Python level on Serverless, standard and dedicated clusters, Lakeflow pipelines and the Unity Catalog sandbox, with no JAR. The JVM level (dedicated compute) keeps a function only where it measured at least 1.2x faster, with the same output. gbx.register(spark) picks the best level for each function and prints why it falls back. See Surfaces & Levels.…",
+    "category": "Business Intelligence",
+    "tags": [
+      "databrickslabs/geobrix"
+    ]
+  },
+  {
     "id": "ea83950bc17561ab",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -288,6 +399,18 @@
     "published": "2026-11-13",
     "first_seen": "2026-11-16",
     "summary": "External Iceberg engines can now query Unity Catalog views over Iceberg-compatible tables through the Iceberg REST catalog. This feature is in Beta. See External access to views.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "4cd938917ba3b1e5",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Migrate can convert T-SQL to Lakeflow pipelines (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-migrate-can-convert-t-sql-to-lakeflow-pipelines-beta",
+    "published": "2026-11-13",
+    "first_seen": "2026-11-17",
+    "summary": "Genie Migrate can convert T-SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines. This target framework is in Beta. In a T-SQL migration project, choose the Spark Declarative Pipelines target framework, organize your files into groups, and choose a catalog and schema for each group. Each group becomes one serverless pipeline that Genie Migrate validates with a dry run. To use this target, a workspace admin turns on Migration Projects Experimental Features from the Previews page. See Manage Databricks previews.\n\nSee Supported source dialects and target frameworks.",
     "category": "Governance",
     "tags": []
   },
@@ -7957,121 +8080,6 @@
     "first_seen": "2026-09-05",
     "summary": "You can now select environment version 6 as your base environment for serverless and standard classic compute. See Environment version 6.",
     "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "1f70dd38b3b35287",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Announcing the Databricks Big Book of AgentOps",
-    "url": "https://www.databricks.com/blog/announcing-databricks-big-book-agentops",
-    "published": "2026-09-02",
-    "first_seen": "2026-09-02",
-    "summary": "A practical guide to deploying governed, reliable agents on Databricks — covering the technology, people, processes, and frameworks behind enterprise AI.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Platform"
-    ]
-  },
-  {
-    "id": "ddddc4600e91ba41",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/impulse",
-    "title": "databrickslabs/impulse: v0.6.0",
-    "url": "https://github.com/databrickslabs/impulse/releases/tag/v0.6.0",
-    "published": "2026-09-02",
-    "first_seen": "2026-09-02",
-    "summary": "What's Changed\n\n- Feature/poi support by @adefabian in #79\n\n- Add container tags and metrics access to solver UDFs by @tombonfert in #82\n\n- docs: regenerate API reference for container metadata hooks; bump version to 0.6.0 by @tombonfert in #89\n\nFull Changelog: v0.5.2...v0.6.0\n\nWhat's Changed\n\n- Feature/poi support by @adefabian in #79\n\n- Add container tags and metrics access to solver UDFs by @tombonfert in #82\n\n- docs: regenerate API reference for container metadata hooks; bump version to 0.6.0 by @tombonfert in #89\n\nFull Changelog: v0.5.2...v0.6.0",
-    "category": "Platform Overview",
-    "tags": [
-      "databrickslabs/impulse"
-    ]
-  },
-  {
-    "id": "5d53b829e5fad63c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Git Folder Serverless is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#git-folder-serverless-is-in-beta",
-    "published": "2026-09-02",
-    "first_seen": "2026-09-02",
-    "summary": "You can now use Git Folder Serverless to share serverless compute and a pyproject.toml-managed environment across notebooks and files in a Git folder. See Git Folder Serverless.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "d2f779bdbf41a571",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Google Gemini 3.8 Flash now available as a Databricks-hosted model",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#google-gemini-38-flash-now-available-as-a-databricks-hosted-model",
-    "published": "2026-09-02",
-    "first_seen": "2026-09-02",
-    "summary": "Model Serving now supports Google Gemini 3.8 Flash as a Databricks-hosted model. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "96c74a92e873c06f",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Southern Company’s SCOUT: Completing the Storm Intelligence Story",
-    "url": "https://www.databricks.com/blog/southern-companys-scout-completing-storm-intelligence-story",
-    "published": "2026-09-02",
-    "first_seen": "2026-09-03",
-    "summary": "Learn how Southern Company built SCOUT on the Databricks Platform to deliver real-time storm intelligence and improve outage restoration decisions.",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Product",
-      "Engineering",
-      "Data Engineering",
-      "Industries",
-      "Energy",
-      "Data Strategy",
-      "Insights",
-      "Company",
-      "Customers"
-    ]
-  },
-  {
-    "id": "7543d7ccc5757e7e",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Expanding Genie Agents: Deep analysis, file reasoning, and more",
-    "url": "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more",
-    "published": "2026-09-02",
-    "first_seen": "2026-09-03",
-    "summary": "At D",
-    "category": "Business Intelligence",
-    "tags": [
-      "All",
-      "Platform",
-      "Product"
-    ]
-  },
-  {
-    "id": "c9c9f453700ac20d",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "AI Search supports struct and map columns and filter-only queries",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#ai-search-supports-struct-and-map-columns-and-filter-only-queries",
-    "published": "2026-09-02",
-    "first_seen": "2026-09-03",
-    "summary": "You can now index and filter struct and map columns in AI Search, and run filter-only queries that return rows matching a filter without vector or keyword retrieval. See Query an AI Search index.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "4ef3103c038986e8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Shared Serverless for Git Folders is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#shared-serverless-for-git-folders-is-in-beta",
-    "published": "2026-09-02",
-    "first_seen": "2026-10-16",
-    "summary": "You can now use Shared Serverless for Git Folders to share serverless compute and a pyproject.toml-managed environment across notebooks and files in a Git folder. See Shared Serverless for Git Folders.",
-    "category": "Application Development",
     "tags": []
   }
 ]
