@@ -26,6 +26,141 @@
     "tags": []
   },
   {
+    "id": "112c49c74f6ea87f",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Four AI Architecture Patterns for Regulated Industries",
+    "url": "https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "Learn four AI architecture patterns for combining enterprise agents with deterministic controls, human authority and bounded autonomy in regulated industries.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data Strategy"
+    ]
+  },
+  {
+    "id": "78f93c9eecdab503",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "How partners use Genie's free tier on Azure Databricks",
+    "url": "https://www.databricks.com/blog/how-partners-use-genies-free-tier-azure-databricks",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "Every Azure Databricks user gets $10 of free Genie usage a month. See how partners use Genie budgets to roll out AI to every user with predictable costs.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Genie",
+      "Unity Catalog",
+      "Partners"
+    ]
+  },
+  {
+    "id": "b0b6d7557d223926",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Java4Shell vulnerability (CVE-2026-114938) assessment",
+    "url": "https://www.databricks.com/blog/java4shell-vulnerability-cve-2026-114938-assessment",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "Databricks Java4Shell (CVE-2026-114938) assessment. Databricks addresses the industry-wide OpenJDK vulnerability.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "9c1e88ec72d08368",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Bulk migrate your dashboards to AI/BI with Genie Code",
+    "url": "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "Migrate Tableau and Power BI reports to Databricks AI/BI in bulk with Genie Code: prepare your files, run one /importBI command, then review and refine.",
+    "category": "AI Assistant",
+    "tags": [
+      "Platform",
+      "Customers",
+      "Best Practices",
+      "Data Warehousing"
+    ]
+  },
+  {
+    "id": "1f1e0e6e3eceff6c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Introducing CustomerLake Conversions: Improve advertising performance with first-party customer context",
+    "url": "https://www.databricks.com/blog/customerlake-conversions",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "Connect first-party customer data and ML models in Databricks to advertising platforms via CAPI, helping brands and agencies improve ROAS and measurement.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform",
+      "Marketing",
+      "Announcements"
+    ]
+  },
+  {
+    "id": "d3a4d540aba33e48",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Databricks Wins A-Team Award for AI in Capital Markets",
+    "url": "https://www.databricks.com/blog/databricks-wins-team-award-ai-capital-markets-0",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "Databricks won Best AI Solution for Data Intelligence & Governance at the A-Team AI in Capital Markets Awards 2026. It's our first A-Team AI in Capital Markets award, and the winners were selected by the industry's practitioner community.",
+    "category": "Platform Overview",
+    "tags": [
+      "Industries",
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "db9675264659df03",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.169.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.169.0",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "## Release v0.169.0 (2026-11-19)\n\n### API Changes\n\n* Add `delete_software_artifact()` and `delete_software_artifact_version()` methods for [w.software_artifacts](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/softwareartifacts/software_artifacts.html) workspace-level service.\n\n* Add `high` enum value for `databricks.sdk.service.jobs.AiRuntimeTaskPriorityClass`.\n\n* [Breaking] Remove `best_effort` enum value for `databricks.sdk.service.jobs.AiRuntimeTaskPriorityClass`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "06b1547b861b5bea",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.27.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.27.0",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "Notable Changes\n\n- The Databricks CLI is now available on PyPI as databricks: run it with uvx databricks, or install it with uv tool install databricks, pipx install databricks or pip install databricks. The package contains only the prebuilt CLI binary. Uninstall the legacy databricks-cli package first, since both install a databricks command. (#7704, #7777)\n\nCLI\n\n- Add databricks sandbox fs commands (cp, ls, cat, mkdir, rm) to transfer files between your local filesystem and sandboxes using <sandbox-id>:/path. (#7372)\n\n- databricks fs commands retry reads (stat, list, open) and deletes on DBFS and Volumes when the server returns a transient error or does not respond within the HTTP timeout. (#7556)\n\n- Retry UC Volumes file operations (fs cp, fs ls, fs rm, bundle uploads to Volumes) when the Files API returns HTTP 408, 429, 502, 503 or 504 (for example \"AWS S3 is throttling requests\"), or on a transient network error; this regressed in v1.10.0. (#7559)\n\n- Stop warning when the host metadata request (/.well-known/databricks-config) times out; the CLI already falls back to your config, and the message is still shown with --debug. (#7752)\n\n- Add databricks aitools auto-install disable and enable to turn off (or back on) the automatic installation of Databricks AI tools on CLI upgrades. A global-scope databricks aitools uninstall also turns it off. (#7701)\n\n- Stop printing the Databricks AI tooling install hint on auth, configure, current-user me, version, help, and shell-completion commands. (#7452)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "e6a15fcda6ba4e48",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/ontos",
+    "title": "databrickslabs/ontos: Ontos v1.1.0.1",
+    "url": "https://github.com/databrickslabs/ontos/releases/tag/v1.1.0.1",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "summary": "Release Notes - v1.1.0.1 (2026-11-19)\n\n🐛 Bug Fixes\n\n- deps: align v1.1 locks with Databricks Apps constraints (#1578)",
+    "category": "Application Development",
+    "tags": [
+      "databrickslabs/ontos"
+    ]
+  },
+  {
     "id": "b2a64de569babf87",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -173,6 +308,30 @@
     "first_seen": "2026-11-18",
     "summary": "In the Unity Gateway Managed Configuration beta, Smart Routing can route coding-agent subagents to external models behind a model provider service. Add them to models.sources, alongside system.ai models if needed. See Choose model sources for each agent.",
     "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "6ff6535feca01260",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Configurable retention for system tables is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#configurable-retention-for-system-tables-is-generally-available",
+    "published": "2026-11-18",
+    "first_seen": "2026-11-19",
+    "summary": "Account admins can set an account-wide retention period from 30 to 3,650 days for supported system tables. The first 395 days of retention are free. Data retained for more than 395 days incurs Databricks storage charges. See Configure system table data retention.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "6891266fd81335cd",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OAuth M2M authentication for the Salesforce, ServiceNow, and Jira connectors",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#oauth-m2m-authentication-for-the-salesforce-servicenow-and-jira-connectors",
+    "published": "2026-11-18",
+    "first_seen": "2026-11-19",
+    "summary": "OAuth machine-to-machine (M2M) authentication is now generally available for the Salesforce, ServiceNow, and Jira connectors in Lakeflow Connect. M2M uses the OAuth client credentials flow, so no one signs in interactively. For Jira, M2M supports Jira Cloud only.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -479,6 +638,18 @@
     "tags": []
   },
   {
+    "id": "288d22fecac7da25",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "TIMERANGE_NOW() on the Lakewatch query page uses the selected time range",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#timerange",
+    "published": "2026-11-16",
+    "first_seen": "2026-11-19",
+    "summary": "On the Lakewatch query page, TIMERANGE_NOW() now returns the end of the selected time range instead of the current time, so you can test a detection rule's predicates against historical data. See Reference the run's window with TIMERANGE_NOW().",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
     "id": "95dcb919d8ca3f82",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -634,6 +805,18 @@
     "first_seen": "2026-11-18",
     "summary": "Efficient Column Updates is in Beta. Add and backfill columns without rewriting unchanged columns. Workspace admins enable access from the Previews page. See Efficient column updates in Delta Lake.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "bd0a0c86b01d8a37",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Value lists for AI/BI dashboard parameters are generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#value-lists-for-aibi-dashboard-parameters-are-generally-available",
+    "published": "2026-11-13",
+    "first_seen": "2026-11-19",
+    "summary": "You can add a value list to a SQL dataset or local metric view parameter so that viewers pick from a fixed, ordered set of values in the parameter's filter. Add the list in the Value section of the Parameter details dialog. Viewers can still enter any value that fits the parameter's type. See Add a value list to a parameter.",
+    "category": "Business Intelligence",
     "tags": []
   },
   {
@@ -7890,171 +8073,5 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
-  },
-  {
-    "id": "cca2f047db4fa1cd",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.16.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.16.0",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-09",
-    "summary": "Release v1.16.0\n\nCLI\n\n- aitools install now registers the official Claude marketplace if it is missing before installing the Databricks Claude plugin. (#6485)\n\n- databricks aitools install --output json now reports an error_category for a failed or skipped install (per agent, and at the top level for a failure with no per-agent entry), giving coding agents and CI a stable classification of why an install did not complete. (#6482)\n\n- databricks aitools install honors --output json, emitting a structured {scope, agents[...]} document that reports each agent's delivery and install status so coding agents and CI can consume the result without scraping the text output. JSON mode requires --scope and --agents so the command runs without interactive prompts. (#6481)\n\n- databricks bundle sync now prints sync progress (Action: PUT, Uploaded ...) by default, matching databricks sync. Previously it was silent unless --output was passed. Use --output json for machine-readable output. (#6568)\n\n- Support major-only DBR runtime versions such as 19.x-scala2.13 in the cluster picker used by databricks auth login --configure-cluster and databricks labs. (#6574)\n\n- Deprecated the databricks environments setup-local --constraints-only flag in favour of the orthogonal --no-dbconnect; the flag still works as a hidden alias but is hidden from --help and prints a one-line deprecation notice, and will be removed in a later release. (#6470)\n\n- Add orthogonal --no-constraints and --no-dbconnect flags to databricks environments setup-local: --no-constraints skips writing the remote Python-version and dependency pins, and --no-dbconnect skips the databricks-connect dependency. (#6464)…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "68a1d3f7b02efd3e",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Five AI Questions We're Hearing from Financial Services Leaders",
-    "url": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-10",
-    "summary": "Last year at Sibos F",
-    "category": "Platform Overview",
-    "tags": [
-      "Financial Services"
-    ]
-  },
-  {
-    "id": "81a810af5312c1f6",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "External secrets in Unity Catalog (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#external-secrets-in-unity-catalog-beta",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-11",
-    "summary": "External secrets connect a Unity Catalog schema to AWS Secrets Manager. The secrets appear in Unity Catalog as read-only securable objects that you govern with Unity Catalog privileges. Databricks reads their values from AWS Secrets Manager on demand. See External secrets in Unity Catalog.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "822041aa181c0bec",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Celigo connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#celigo-connector-beta",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-11",
-    "summary": "The Celigo connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests audit log events, such as create, update, and delete operations on resources, from Celigo (integrator.io) into Databricks. Authentication uses a Celigo integrator.io API token.\n\nSee Celigo connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "7b153171df9c6564",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Anysphere Organization connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anysphere-organization-connector-beta",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-11",
-    "summary": "The Anysphere Organization connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector uses the Anysphere (Cursor) Organization Admin API to ingest organization members, groups, and group members into Databricks as daily snapshots. Authentication uses a Cursor Organization Admin API key.\n\nSee Anysphere Organization connector.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "e1954e98915dfd60",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Anaplan connector (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#anaplan-connector-beta",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-11",
-    "summary": "The Anaplan connector is now available in Lakeflow Connect in Beta. Workspace admins can control access to this feature from the Previews page.\n\nThe connector ingests audit trail events and user account records from your Anaplan tenant into Databricks. Authentication uses an Anaplan CA certificate and its paired private key.\n\nSee Anaplan connector.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "bd122bdd16d09646",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Configurable retention for system tables is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#configurable-retention-for-system-tables-is-in-beta",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-14",
-    "summary": "Account admins can now set an account-wide retention period from 30 to 3,650 days for supported system tables. See Configure system table data retention.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "ed92f3d3a494f5b1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie Code adds conversation controls",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-code-adds-conversation-controls",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-17",
-    "summary": "Genie Code now includes conversation controls that let you branch and revise a chat. You can fork a conversation into a new, independent thread from a point you choose, ask a quick side question with /btw without adding it to the thread, and edit an earlier message to regenerate the conversation from that point. See Branch and edit chats.",
-    "category": "AI Assistant",
-    "tags": []
-  },
-  {
-    "id": "3b84c6dab02a0af6",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "SQL Data Types: Reference and Best Practices",
-    "url": "https://www.databricks.com/blog/sql-data-types",
-    "published": "2026-09-08",
-    "first_seen": "2026-09-09",
-    "summary": "SQL data types: numeric, character, date/time, and binary types. Master storage optimization, query performance, data integrity best practices, and cross-vendor differences.",
-    "category": "Platform Overview",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "d491d41c578356d1",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Build durable agents with Temporal and Lakebase",
-    "url": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
-    "published": "2026-09-08",
-    "first_seen": "2026-09-09",
-    "summary": "A personal-loan unde",
-    "category": "Database",
-    "tags": [
-      "Partners"
-    ]
-  },
-  {
-    "id": "74abd4ec095cacaa",
-    "source": "github_release",
-    "source_label": "GitHub · delta-io/delta",
-    "title": "delta-io/delta: dbr-20260908-05680db13",
-    "url": "https://github.com/delta-io/delta/releases/tag/dbr-20260908-05680db13",
-    "published": "2026-09-08",
-    "first_seen": "2026-09-09",
-    "summary": "Set version to 4.1.0-20260908-dbrbuild for DBR kernel build",
-    "category": "Data Engineering",
-    "tags": [
-      "delta-io/delta"
-    ]
-  },
-  {
-    "id": "bc3ff67e9b59835f",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "time_bucket SQL function aligns timestamps to fixed-width time buckets",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#time",
-    "published": "2026-09-08",
-    "first_seen": "2026-09-09",
-    "summary": "time_bucket returns the start of the fixed-width interval a timestamp falls into, aligned to an origin you choose (for example, 15-minute or 3-month buckets). Use it instead of date_trunc when the bucket width or start is not a calendar unit.\n\nSee time_bucket function.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "72b0deab8145125b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ABAC DENY policies are in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#abac-deny-policies-are-in-beta",
-    "published": "2026-09-08",
-    "first_seen": "2026-09-09",
-    "summary": "ABAC DENY policies are in Beta in Unity Catalog. DENY policies can be used to explicitly deny the MANAGE ACCESS CONTROL privilege to prevent specified principals, including object owners, from performing access-management operations. They always take precedence over any grant.\n\nFor details, see ABAC DENY policies (Beta).",
-    "category": "Governance",
-    "tags": []
   }
 ]
