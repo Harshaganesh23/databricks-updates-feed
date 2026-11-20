@@ -14,6 +14,20 @@
     ]
   },
   {
+    "id": "dd538a40072d1c7c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Interactive Databricks Reference Architectures Across 70 Industries",
+    "url": "https://www.databricks.com/blog/interactive-databricks-reference-architectures-across-70-industries",
+    "published": "2026-11-20",
+    "first_seen": "2026-11-20",
+    "summary": "Explore free, interactive Databricks reference architectures for 70 industries, check product availability by region, and export to PowerPoint or Visio.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
     "id": "85941d8cfdca2267",
     "source": "release_notes",
     "source_label": "Release Notes",
@@ -159,6 +173,90 @@
     "tags": [
       "databrickslabs/ontos"
     ]
+  },
+  {
+    "id": "199787dedc8ea561",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Why PostgreSQL 19 shipped late",
+    "url": "https://www.databricks.com/blog/why-postgresql-19-shipped-late",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-20",
+    "summary": "PostgreSQL 19 shipped about a month after the usual September to October window for major PostgreSQL releases. The delay came from the project's focus on quality.",
+    "category": "Database",
+    "tags": [
+      "Engineering",
+      "Lakebase"
+    ]
+  },
+  {
+    "id": "ba5f0f18f1baac3b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
+    "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-20",
+    "summary": "[What the blog will cover and what’s in it for readers, 160 characters max]",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Platform",
+      "Product"
+    ]
+  },
+  {
+    "id": "3fa520eb1854f29b",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Genie One Accuracy: Why Curated Agents Need Governed Context",
+    "url": "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-20",
+    "summary": "See how curated Genie Agents and modeled knowledge in Genie Ontology raised Genie One accuracy to 95% on 125 questions, and how to apply it to your data.",
+    "category": "Business Intelligence",
+    "tags": [
+      "Data Strategy",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "99658be98c831a2c",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "PostgreSQL 19 is available on Lakebase",
+    "url": "https://www.databricks.com/blog/postgresql-19-available-lakebase",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-20",
+    "summary": "PostgreSQL 19 is available on Lakebase the same day the community released it. To try it, create a new Lakebase project and select PostgreSQL 19.",
+    "category": "Database",
+    "tags": [
+      "Engineering",
+      "Lakebase"
+    ]
+  },
+  {
+    "id": "387c418613d8cba6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GPT-5 and GPT-5 mini will be retired on December 11, 2026",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#gpt-5-and-gpt-5-mini-will-be-retired-on-december-11-2026",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-20",
+    "summary": "OpenAI GPT-5 and OpenAI GPT-5 mini will be retired on December 11, 2026. OpenAI GPT-6.1 Sol is the recommended replacement for GPT-5, and OpenAI GPT-6.1 Terra is the recommended replacement for GPT-5 mini. See Legacy, deprecated, and retired models for migration guidance.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "25fc2bd7fa002c60",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Databricks-to-Databricks Delta Sharing across regulatory domains is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#databricks-to-databricks-delta-sharing-across-regulatory-domains-is-now-generally-available",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-20",
+    "summary": "Databricks-to-Databricks Delta Sharing across regulatory domains is now generally available. Commercial workspaces can share with AWS GovCloud, AWS GovCloud DoD, and Azure China. Sharing between Azure China and either AWS GovCloud or AWS GovCloud DoD is not supported. See Databricks-to-Databricks OpenSharing support matrix for cloud environments.",
+    "category": "Sharing",
+    "tags": []
   },
   {
     "id": "b2a64de569babf87",
@@ -1379,6 +1477,18 @@
     "tags": []
   },
   {
+    "id": "ce82640bc93c0ee6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Notifications operator available across clouds in Lakeflow Designer",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#notifications-operator-available-across-clouds-in-lakeflow-designer",
+    "published": "2026-11-11",
+    "first_seen": "2026-11-20",
+    "summary": "The Notifications operator in Lakeflow Designer is now available on Azure, joining AWS and GCP. Send email with table attachments when a visual data prep runs. See Notifications.",
+    "category": "Data Engineering",
+    "tags": []
+  },
+  {
     "id": "778dcbe662308003",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -2322,6 +2432,18 @@
     "first_seen": "2026-11-11",
     "summary": "Select multiple columns when adding an aggregation in Lakeflow Designer. The Aggregate operator creates a separate aggregation for each selected column. See Aggregate.",
     "category": "Data Engineering",
+    "tags": []
+  },
+  {
+    "id": "ac69d9adb784d8e7",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Scope modifiers for personal access tokens and OAuth are generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#scope-modifiers-for-personal-access-tokens-and-oauth-are-generally-available",
+    "published": "2026-11-04",
+    "first_seen": "2026-11-20",
+    "summary": "Scope modifiers narrow an API scope to a subset of its operations, such as clusters:read for read operations or sql:restricted-query for read-only SQL queries, in personal access tokens, OAuth secrets, and OAuth token requests. See Narrow API scopes with scope modifiers.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -7938,140 +8060,6 @@
     "category": "Governance",
     "tags": [
       "Product"
-    ]
-  },
-  {
-    "id": "413e1ab57bab65ca",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Maintenance windows for continuous pipelines",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#maintenance-windows-for-continuous-pipelines",
-    "published": "2026-09-10",
-    "first_seen": "2026-09-11",
-    "summary": "You can now set a maintenance window on a continuous Lakeflow pipeline to control when Databricks applies platform updates that require a restart, such as new runtime versions and serverless infrastructure maintenance. Select a day of the week, a start hour, and a time zone, and Databricks starts maintenance only within that one-hour window. Configure the window in the Jobs UI, the Pipelines UI, or the Jobs REST API.\n\nSee Manage updates for continuous pipelines.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "4ce493e42d2c322c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "The Databricks Excel Add-in is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-databricks-excel-add-in-is-now-generally-available",
-    "published": "2026-09-10",
-    "first_seen": "2026-09-11",
-    "summary": "The Databricks Excel Add-in is now generally available. Connect Microsoft Excel to your Databricks workspace to browse and import governed Unity Catalog tables and views, run SQL queries, build pivot tables, use custom functions, and write data back to Unity Catalog. You can now also enable Live query when building pivot tables to see results as you update the fields.\n\nSee Connect to Databricks from Microsoft Excel.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "57bc120c1def5cfa",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Managed tables in Lakeflow pipelines (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#managed-tables-in-lakeflow-pipelines-beta",
-    "published": "2026-09-10",
-    "first_seen": "2026-09-16",
-    "summary": "You can now create managed tables in Lakeflow pipelines and write to them with one or more append flows. This feature is in Beta. You can also use import_checkpoint on an append flow to migrate an existing Structured Streaming workload into a pipeline without reprocessing the source.\n\nSee create_table, CREATE TABLE ... FLOW (pipelines), and append_flow.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "b6e5be52dc0d3e44",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
-    "url": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-09",
-    "summary": "Discover how Databricks provides a single platform where the full Solvency II reporting cycle can be implemented as one governed workflow, connecting data, models, and AI to streamline compliance and scenario analysis.",
-    "category": "Security",
-    "tags": [
-      "Industries",
-      "Financial Services"
-    ]
-  },
-  {
-    "id": "e5cc8c3f8b22f886",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
-    "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-09",
-    "summary": "One embedded AI/BI Dashboard, safely shared: each viewer sees only their own rows, with group-based row-level security, masking, and default-deny.",
-    "category": "Business Intelligence",
-    "tags": [
-      "Platform",
-      "Product"
-    ]
-  },
-  {
-    "id": "c247a3b25113732b",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Introducing Consort: Test-driven development on a branching database",
-    "url": "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-09",
-    "summary": "Learn how to leverage an open-source agentic framework for test-driven development on a real branching database.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Platform",
-      "Partners"
-    ]
-  },
-  {
-    "id": "d71c12e9c3599d69",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
-    "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-09",
-    "summary": "Adaptive Instructed-Retriever combines the speed of parallel retrieval with the performance of sequential search while maintaining strict cost and latency guarantees.",
-    "category": "Platform Overview",
-    "tags": [
-      "Platform",
-      "Announcements"
-    ]
-  },
-  {
-    "id": "25125979cade5925",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
-    "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-09",
-    "summary": "Evaluation-first AI agents at Zepto: how Databricks + MLflow power reliable, high-ROI agent systems—and a practical blueprint AI builders can apply.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Platform",
-      "Product",
-      "Engineering",
-      "Data Science and ML",
-      "AI Engineering",
-      "Industries",
-      "Retail & Consumer Goods",
-      "Data Strategy",
-      "Best Practices",
-      "Company",
-      "Customers"
-    ]
-  },
-  {
-    "id": "2431018cb9d19247",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.137.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.137.0",
-    "published": "2026-09-09",
-    "first_seen": "2026-09-09",
-    "summary": "## Release v0.137.0 (2026-09-09)\n\n### API Changes\n\n* Add `purge_feature_entities()` method for [w.feature_engineering](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/ml/feature_engineering.html) workspace-level service.\n\n* Add `deny` field for `databricks.sdk.service.catalog.PolicyInfo`.\n\n* Add `budget_policy_id` and `tags` fields for `databricks.sdk.service.ml.IngestionConfig`.\n\n* Add `budget_policy_id` and `tags` fields for `databricks.sdk.service.ml.MaterializedFeature`.\n\n* Add `policy_type_deny` enum value for `databricks.sdk.service.catalog.PolicyType`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
     ]
   }
 ]
