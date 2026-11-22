@@ -4627,6 +4627,20 @@
     "tags": []
   },
   {
+    "id": "e0d1f6cdce633695",
+    "source": "github_release",
+    "source_label": "GitHub · databrickslabs/lakebridge",
+    "title": "databrickslabs/lakebridge: Release v0.15.2",
+    "url": "https://github.com/databrickslabs/lakebridge/releases/tag/v0.15.2",
+    "published": "2026-10-16",
+    "first_seen": "2026-11-22",
+    "summary": "Release v0.15.2\n\nProfilers\n\nTeradata\n\n- Simplified pdcr workload extraction (#2654)\n\nThe pdcr BI workload extract now groups by just QueryType and WorkloadBucket instead of thirteen dimensions, dropping the PDCRINFO.UserInfo join and the organizational/user/hourly breakdowns that the migration model doesn't need. This eliminates the join spool that could stall production runs on large repositories. Adds a new td_pdcr_bi_concurrency_extract tracking total BI queries and average BI query starts per minute over a 180-day window.\n\nReconcile\n\n- Fixed BigQuery timestamp fidelity (#2594)\n\nBigQuery TIMESTAMP and DATETIME columns are now formatted explicitly (FORMAT_TIMESTAMP/FORMAT_DATETIME) so their row hashes match Spark's, instead of relying on a plain CAST(... AS STRING) that emitted timezone offsets and different fractional-second precision. This clears false row/data/all mismatches on any correctly-migrated table containing those types. Also fixes false schema mismatches on multi-field STRUCTs, and adds warnings for width-lossy types (INT64, FLOAT64, DATETIME) that BigQuery cannot distinguish from narrower targets.\n\n- Extracted column transformations into a ColumnTransformer service (#2601)\n\nRefactors the reconcile query builders so column transforms are resolved by a dedicated ColumnTransformer service that holds both the source and target sides, replacing the inline per-type logic previously scattered across the builders. No change to query output — this is a structural change that gives cross-engine numeric rendering a place to live.\n\nFull Changelog: v0.15.1...v0.15.2\n\nFull Changelog: v0.15.1...v0.15.2",
+    "category": "Platform Overview",
+    "tags": [
+      "databrickslabs/lakebridge"
+    ]
+  },
+  {
     "id": "22e0c664486bf1fc",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -8043,18 +8057,6 @@
     "first_seen": "2026-09-12",
     "summary": "DeepSeek V4.1 Flash is now available on Unity Gateway with text and image inputs. See supported regions. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
     "category": "Security",
-    "tags": []
-  },
-  {
-    "id": "781b4ab705319247",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Session restore for serverless jobs is in Public Preview",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#session-restore-for-serverless-jobs-is-in-public-preview",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-15",
-    "summary": "Restore the Python variables and Spark session from a serverless compute job run into a new interactive notebook, so you can debug a failure or explore results without rerunning the entire job. Databricks captures the snapshot automatically for eligible runs. See Session restore for serverless jobs.",
-    "category": "Application Development",
     "tags": []
   }
 ]
