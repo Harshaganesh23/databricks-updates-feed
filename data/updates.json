@@ -14,6 +14,58 @@
     ]
   },
   {
+    "id": "44ddaf13eeadaa75",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Announcing General Availability of native Lakebase Postgres sink for Spark Structured Streaming",
+    "url": "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+    "published": "2026-11-23",
+    "first_seen": "2026-11-24",
+    "summary": "Announcing General Availability of the native Lakebase sink for Apache Spark™ Structured Streaming: stream computed results directly into Lakebase with a single writeStream call, replacing custom foreach writers.",
+    "category": "Database",
+    "tags": [
+      "Engineering"
+    ]
+  },
+  {
+    "id": "554c23824b1d8a18",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.170.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.170.0",
+    "published": "2026-11-23",
+    "first_seen": "2026-11-24",
+    "summary": "## Release v0.170.0 (2026-11-23)\n\n### API Changes\n\n* Add `create_compute_policy()`, `delete_compute_policy()`, `get_compute_policy()` and `update_compute_policy()` methods for [w.serverless_compute_service](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/compute/serverless_compute_service.html) workspace-level service.\n\n* Add `rescan_catalog()` method for [w.data_classification](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/dataclassification/data_classification.html) workspace-level service.\n\n* Add `url_configuration` field for `databricks.sdk.service.catalog.AccessRequestDestinations`.\n\n* Add `streaming` field for `databricks.sdk.service.lakewatch.Rule`.\n\n* Add `lookup` and `secondary_keys` fields for `databricks.sdk.service.ml.Function`.\n\n* Add `compute_policy_id` field for `databricks.sdk.service.postgres.ProjectStatus`.\n\n* Add `network` field for `databricks.sdk.service.sandbox.SandboxSpec`.\n\n* Add `finalizing` enum value for `databricks.sdk.service.aisearch.EndpointScalingInfoPhase`.\n\n* Add `google_ads` enum value for `databricks.sdk.service.catalog.ConnectionType`.\n\n* Add `preemptable` enum value for `databricks.sdk.service.jobs.AiRuntimeTaskPriorityClass`.\n\n* Add `finalizing` enum value for `databricks.sdk.service.vectorsearch.EndpointScalingInfoScalingPhase`.\n\n* Change `schedule` field for `databricks.sdk.service.lakewatch.Rule` to no longer be required.\n\n* [Breaking] Change `schedule` field for `databricks.sdk.service.lakewatch.Rule` to no longer be required.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
+    "id": "0c088d942e903fd6",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Impact analysis in Unity Catalog lineage (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#impact-analysis-in-unity-catalog-lineage-beta",
+    "published": "2026-11-23",
+    "first_seen": "2026-11-24",
+    "summary": "Impact analysis in Unity Catalog lineage shows the downstream assets that depend on a table or column, with each asset's impact level and owner. Genie Code can summarize the impact and export a CSV of owners.\n\nSee Impact analysis.",
+    "category": "AI Assistant",
+    "tags": []
+  },
+  {
+    "id": "8c7e8240a6337ae2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Search SharePoint content with Genie Search (Beta)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#search-sharepoint-content-with-genie-search-beta",
+    "published": "2026-11-23",
+    "first_seen": "2026-11-24",
+    "summary": "Genie Search can now index files in SharePoint Online, so Genie One can search them along with your other connected sources. Users see only the files that they can already access in SharePoint. This feature is in Beta.",
+    "category": "Business Intelligence",
+    "tags": []
+  },
+  {
     "id": "45d870c1a7454789",
     "source": "github_release",
     "source_label": "GitHub · databrickslabs/ontobricks",
@@ -65,6 +117,18 @@
     "first_seen": "2026-11-21",
     "summary": "Warehouse-level statement timeouts are now generally available. Set the timeout with the statement_timeout field in the SQL warehouses API, Databricks SDKs, Terraform, or Declarative Automation Bundles. See Statement timeout.",
     "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "edecf2b28c5e7dd9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "OAuth authentication for webhook notification destinations is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#oauth-authentication-for-webhook-notification-destinations-is-generally-available",
+    "published": "2026-11-20",
+    "first_seen": "2026-11-24",
+    "summary": "Use OAuth 2.0 client credentials to authenticate webhook notifications with an access token from the configured OAuth token endpoint. See OAuth authentication for webhook destinations.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -322,6 +386,18 @@
     "first_seen": "2026-11-21",
     "summary": "You can now manage Lakewatch from the command line with the lakewatch command group in the Databricks CLI. Use it to create and manage datasources, parsers, and detection rules, and to update per-catalog Lakewatch configuration. The command group requires Databricks CLI version 1.25.0 or above, and the parser commands require version 1.27.0 or above. See lakewatch command group.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "fe2dc5e52f7d1b98",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New VARIANT manipulation functions",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#new-variant-manipulation-functions",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-24",
+    "summary": "The following SQL functions for manipulating VARIANT values are now available in Databricks SQL and Databricks Runtime 19 and above:\n\n- variant_insert: Inserts a new object field or array element at the specified path.\n\n- variant_set: Inserts or replaces an object field or array element at the specified path.\n\n- variant_delete: Removes object fields or array elements at the specified paths.\n\n- variant_array_append: Appends a value to the array at the specified path.\n\n- variant_pick: Returns a VARIANT containing only the specified paths, preserving their parent structure.\n\n- variant_strip_nulls: Recursively removes variant null fields from objects and, optionally, variant null elements from arrays.\n\nError-tolerant versions are also available: try_variant_insert, try_variant_set, and try_variant_array_append.\n\nSee Built-in functions.",
+    "category": "Data Warehousing",
     "tags": []
   },
   {
@@ -658,6 +734,30 @@
     "tags": []
   },
   {
+    "id": "fbb299488c1d3bd2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "GPT-5 nano will be retired on December 11, 2026",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#gpt-5-nano-will-be-retired-on-december-11-2026",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-24",
+    "summary": "OpenAI GPT-5 nano will be retired on December 11, 2026. OpenAI GPT-6 Luna is the recommended replacement. API calls to GPT-5 nano are not redirected after that date, so migrate your workloads before December 11, 2026. See Legacy, deprecated, and retired models for migration guidance.",
+    "category": "Artificial Intelligence",
+    "tags": []
+  },
+  {
+    "id": "512af82dce8c5a19",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Data Classification no longer rescans recreated tables or scans short-lived temporary tables",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#data-classification-no-longer-rescans-recreated-tables-or-scans-short-lived-temporary-tables",
+    "published": "2026-11-17",
+    "first_seen": "2026-11-24",
+    "summary": "Data Classification now reduces ongoing scan costs for catalogs with tables that are frequently dropped and recreated or tables that exist only briefly.\n\nThis change is automatic and requires no configuration. See How recreated and temporary tables are scanned.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "ea83950bc17561ab",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -982,6 +1082,20 @@
     "summary": "You can add a value list to a SQL dataset or local metric view parameter so that viewers pick from a fixed, ordered set of values in the parameter's filter. Add the list in the Value section of the Parameter details dialog. Viewers can still enter any value that fits the parameter's type. See Add a value list to a parameter.",
     "category": "Business Intelligence",
     "tags": []
+  },
+  {
+    "id": "325e99c6174b14e1",
+    "source": "github_release",
+    "source_label": "GitHub · apache/spark",
+    "title": "apache/spark: v3.5.10",
+    "url": "https://github.com/apache/spark/releases/tag/v3.5.10",
+    "published": "2026-11-13",
+    "first_seen": "2026-11-24",
+    "summary": "Preparing Spark release v3.5.10-rc1",
+    "category": "Data Engineering",
+    "tags": [
+      "apache/spark"
+    ]
   },
   {
     "id": "99142d0df48db68c",
@@ -7937,126 +8051,6 @@
     "first_seen": "2026-09-18",
     "summary": "Window measures support unitless offset and trailing/leading ranges on a consecutive integer order column. Use a numeric index for non-calendar periods such as fiscal weeks or 4-4-5 periods. See Window measures on a numeric index column.",
     "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "2f48d68e2336cac9",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.139.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.139.0",
-    "published": "2026-09-13",
-    "first_seen": "2026-09-13",
-    "summary": "## Release v0.139.0 (2026-09-13)\n\n### API Changes\n\n* Add `priority_class` field for `databricks.sdk.service.jobs.AiRuntimeTask`.\n\n* Add `uc_service_credential_name` field for `databricks.sdk.service.serving.AmazonBedrockConfig`.\n\n* Add `excluded_scopes` field for `databricks.sdk.service.settings.CustomerFacingIngressNetworkPolicyWorkspaceApiDestination`.\n\n* Add `effective_workspace_label` and `workspace_label` fields for `databricks.sdk.service.settingsv2.Setting`.\n\n* Add `gpu_8x_b300` enum value for `databricks.sdk.service.jobs.ComputeSpecAcceleratorType`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "3db351d6059d31db",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/databricks-sdk-py",
-    "title": "databricks/databricks-sdk-py: v0.138.0",
-    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.138.0",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-11",
-    "summary": "## Release v0.138.0 (2026-09-11)\n\n### API Changes\n\n* Add `unity_catalog_image_path` field for `databricks.sdk.service.jobs.AiRuntimeTask`.\n\n* Add `feature_view_source` field for `databricks.sdk.service.ml.DataSource`.\n\n* Add `budget_policy_id` and `tags` fields for `databricks.sdk.service.ml.PublishSpec`.\n\n* Add `development` field for `databricks.sdk.service.pipelines.StartUpdate`.",
-    "category": "Application Development",
-    "tags": [
-      "databricks/databricks-sdk-py"
-    ]
-  },
-  {
-    "id": "03c44b3cc37d260f",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/ontobricks",
-    "title": "databrickslabs/ontobricks: v0.8.0",
-    "url": "https://github.com/databrickslabs/ontobricks/releases/tag/v0.8.0",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-11",
-    "summary": "OntoBricks — Release Notes V0.8.0\n\nRelease window: August – September 2026\n\nTest status: all changes shipped with the non-scenario suite green: 5860 passed, 304 skipped, 6 deselected, 23 warnings.\n\nHighlights\n\n- Ontology-only domains — a domain can now use No Backend, move through review and publication with an ontology but no materialized graph, and expose describe_ontology through MCP while graph-dependent UI and tools stay unavailable.\n\n- Per-domain MCP policy — each domain controls which graph tools it publishes and whether datasets, bridges, actions, and virtual attributes are normal, preferred, or disabled context.\n\n- Virtual attributes — ontology entities can declare values computed on demand by Unity Catalog functions. Values appear in Graph Explorer, REST, and MCP without entering mappings, R2RML, SHACL, cohorts, or graph materialization.\n\n- Data-source and mapping integrity — metadata refresh now shows column-level changes before applying them, source deletion lists affected mappings, and schema drift is visible in diagnostics and on the Mapping canvas.\n\n- Lakehouse view-only materialization — Lakehouse domains can expose a live pass-through view instead of copying mapped triples into a Delta table; analytics automatically creates and removes a temporary snapshot when required.\n\n- Safer graph operations — Builders can refresh frozen IN-REVIEW and PUBLISHED graphs, inspect and purge generated reasoning/cohort triples without touching mapped source triples, and rely on bounded Graph Chat reads.\n\n- Configurable product branding — administrators can change the application title, primary color, logo, and default entity icon with server-first rendering and immediate accessible preview.…",
-    "category": "Governance",
-    "tags": [
-      "databrickslabs/ontobricks"
-    ]
-  },
-  {
-    "id": "39350de53a5fcccd",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
-    "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-12",
-    "summary": "A he",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Healthcare & Life Sciences"
-    ]
-  },
-  {
-    "id": "238d2cd6ec3faf35",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Unify your marketing data with Lakeflow Connect",
-    "url": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-12",
-    "summary": "This is the firs",
-    "category": "Data Engineering",
-    "tags": [
-      "Product",
-      "Marketing"
-    ]
-  },
-  {
-    "id": "4babc5dee915d0f1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Standard performance mode is now available for one-time runs in the Jobs API",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#standard-performance-mode-is-now-available-for-one-time-runs-in-the-jobs-api",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-12",
-    "summary": "You can now set performance_target to STANDARD in the Jobs API. Apache Airflow's DatabricksSubmitRunOperator also supports this. See Create and trigger a one-time run and Select a performance mode.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "2f1b7d04850de345",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Sharing foreign Iceberg tables with OpenSharing is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-iceberg-tables-with-opensharing-is-now-generally-available",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-12",
-    "summary": "Sharing and reading foreign Iceberg tables with OpenSharing is now generally available. Providers can share Iceberg tables federated from foreign Iceberg catalogs using Lakehouse Federation, including to recipients using external Iceberg clients. See Add foreign Iceberg tables to a share for providers and Read data in a shared foreign Iceberg table for recipients.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "78fc3a855d1f16f1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Sharing foreign schemas and tables with OpenSharing is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-schemas-and-tables-with-opensharing-is-now-generally-available",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-12",
-    "summary": "Sharing and reading foreign schemas and foreign tables with OpenSharing is now generally available. Providers can share foreign schemas and tables federated from external data sources using Lakehouse Federation, without copying data into Databricks. See Add foreign schemas or tables to a share for providers and Read data in a shared foreign table or foreign schema for recipients.\n\nSharing foreign schemas and tables materializes data on the provider's side, which incurs compute and storage costs. See How do I incur and check OpenSharing costs?.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "32fcc6c1c19635b8",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "DeepSeek V4.1 Flash is now available on Unity Gateway",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#deepseek-v41-flash-is-now-available-on-unity-gateway",
-    "published": "2026-09-11",
-    "first_seen": "2026-09-12",
-    "summary": "DeepSeek V4.1 Flash is now available on Unity Gateway with text and image inputs. See supported regions. You can access this model using Foundation Model APIs.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
-    "category": "Security",
     "tags": []
   }
 ]
