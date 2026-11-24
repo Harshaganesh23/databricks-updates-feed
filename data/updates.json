@@ -14,6 +14,89 @@
     ]
   },
   {
+    "id": "75b8cc85fc4f2971",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Data Modeling Best Practices for an Agentic CDP, Part 1: The Data Foundation",
+    "url": "https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-24",
+    "summary": "How should you model customer data for an Agentic CDP? Clean data in a medallion architecture, resolve identity after silver, and build a gold layer that agents can trust.",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Data Strategy",
+      "Marketing",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "4636f6285ae10084",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Sharing catalog metadata across data platforms, engines, and agents",
+    "url": "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-24",
+    "summary": "Databricks and partners advance catalog labels, an open standard to share table and column context for discovery, governance, and agents.",
+    "category": "Governance",
+    "tags": [
+      "Platform",
+      "Product",
+      "Unity Catalog",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "87f40e7d3b1c8583",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/cli",
+    "title": "databricks/cli: v1.28.0",
+    "url": "https://github.com/databricks/cli/releases/tag/v1.28.0",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-24",
+    "summary": "CLI\n\n- Retry transient errors in fs commands: fs cp to a UC Volume from another Volume or DBFS (files up to 8 MiB) on HTTP 503, DBFS uploads when the upload stream is lost, and stat, read and list on UC Volumes on HTTP 500. (#7607, #7763, #7839)\n\n- databricks auth profiles --skip-validate now omits the Valid column instead of reporting NO for every profile. (#7638)\n\n- Fix Ctrl-C taking about 10 seconds to stop databricks aitools install, update or uninstall while it runs a coding agent's CLI, and retry reading an agent's config on Windows while the agent rewrites it. (#7832, #7870)\n\n- Automatic installation of Databricks AI tools no longer asks in containers or installs for the first time without a terminal, no longer runs as root in another user's home, keeps newer skills you installed, no longer hints to install what it is about to install, and on Linux and macOS stops the calling script on Ctrl-C. (#7828, #7834, #7874, #7888, #7890, #7901)\n\n- Wait before retrying a failed automatic install of Databricks AI tools, starting at 5 minutes and doubling after each failure, so a skills source or coding agent CLI that stays broken no longer slows down each of the next commands. (#7900)\n\n- databricks aitools install now cancels the agent picker on Esc. (#7721)\n\n- databricks aitools uninstall --skills now fails when its value names no skill instead of removing every skill, and aitools update and uninstall no longer prompt when a coding agent runs them; with skills in both scopes they fail and ask for --scope. (#7873)…",
+    "category": "Application Development",
+    "tags": [
+      "databricks/cli"
+    ]
+  },
+  {
+    "id": "ba30f69841b415f2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Lakewatch streaming detection rules (Experimental)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#lakewatch-streaming-detection-rules-experimental",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-24",
+    "summary": "Lakewatch now supports streaming detection rules, which evaluate each new row of a source table as it arrives and create a signal for every row that matches a SQL predicate. Use them for low-latency signature, indicator of compromise (IOC), and atomic-signal detections. Lakewatch manages the compute, so you don't select a SQL warehouse or a schedule. Streaming rules are an experimental feature. See Streaming detection rules.",
+    "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "67a4c1a1c7989948",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "New configuration options for classic instance pools",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#new-configuration-options-for-classic-instance-pools",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-24",
+    "summary": "Instance pools now support auto-AZ for all instance types and spot with fallback. You can also change an existing pool's availability zone, availability, and max spot price. See Pool configuration reference.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "a70fb516613677a9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Genie Migrate conversion to Lakeflow pipelines is generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-migrate-conversion-to-lakeflow-pipelines-is-generally-available",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-24",
+    "summary": "Genie Migrate conversion of T-SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into Lakeflow pipelines is now generally available. In a T-SQL migration project, choose the Spark Declarative Pipelines target framework, organize your files into groups, and choose a catalog and schema for each group. Each group becomes one serverless pipeline that Genie Migrate validates with a dry run.\n\nTo use the Spark Declarative Pipelines target framework, a workspace admin must turn on Migration Projects Experimental Features from the Previews page. See Manage Databricks previews.\n\nSee Supported source dialects and target frameworks.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "44ddaf13eeadaa75",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -63,6 +146,32 @@
     "first_seen": "2026-11-24",
     "summary": "Genie Search can now index files in SharePoint Online, so Genie One can search them along with your other connected sources. Users see only the files that they can already access in SharePoint. This feature is in Beta.",
     "category": "Business Intelligence",
+    "tags": []
+  },
+  {
+    "id": "169410fc3238cfd9",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "What 5,400 Malicious npm Packages Reveal about Software Supply Chain Risk in 2026",
+    "url": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
+    "published": "2026-11-23",
+    "first_seen": "2026-11-24",
+    "summary": "Hijacked real packages cause nearly all the exposure. Compromised legitimate packages are only 7% of the 5,400 malicious packages, but they account for over 99% of downloads.",
+    "category": "Platform Overview",
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": "f46de2d8448428ae",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Outbound IP addresses for serverless compute are generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#outbound-ip-addresses-for-serverless-compute-are-generally-available",
+    "published": "2026-11-23",
+    "first_seen": "2026-11-24",
+    "summary": "Published outbound IP addresses for serverless compute are now generally available. Previously, they were in Public Preview. Databricks publishes the outbound IP addresses in ip-ranges.json. To allow serverless compute through a firewall that protects your resources, add these IP addresses to its allowlist and automate updates as the IP addresses change. See Configure access to other resources using outbound IP addresses.",
+    "category": "Platform Overview",
     "tags": []
   },
   {
@@ -7946,111 +8055,6 @@
     "first_seen": "2026-09-16",
     "summary": "Data Classification can now scan Unity Catalog views in addition to tables, classifying columns for sensitive data using the same detection engine. This is a Beta feature. See Classify views.",
     "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "ddc61e4c70ded462",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "ABAC on views is in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#abac-on-views-is-in-beta",
-    "published": "2026-09-15",
-    "first_seen": "2026-09-16",
-    "summary": "Attribute-based access control (ABAC) row filters and column masks now extend to views, in addition to tables. This lets you use ABAC policies to control access to sensitive data exposed through views.\n\nAccount admins can enable the ABAC on Views preview from the account console's Previews page. This feature requires Databricks Runtime 19 or above.\n\nSee Attribute-based access control in Unity Catalog.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "c52ed0ba8c64db73",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Data Ontology defined: The context layer your AI agents are missing",
-    "url": "https://www.databricks.com/blog/data-ontology-defined-context-layer-your-ai-agents-are-missing",
-    "published": "2026-09-15",
-    "first_seen": "2026-09-22",
-    "summary": "A data ontology defines what your data means, not just how it's structured. Learn the definition, why agents need one, and how it differs from a schema.",
-    "category": "Artificial Intelligence",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "0093acb56d286835",
-    "source": "github_release",
-    "source_label": "GitHub · databrickslabs/geobrix",
-    "title": "databrickslabs/geobrix: GeoBrix v0.5.1",
-    "url": "https://github.com/databrickslabs/geobrix/releases/tag/v0.5.1",
-    "published": "2026-09-14",
-    "first_seen": "2026-09-14",
-    "summary": "GeoBrix v0.5.1\n\nGeoBrix 0.5.1 makes the discrete-grid families geometry-aware and fidelity-consistent: geometry-aware kring/kloop now span all four grids (H3, quadbin, BNG, custom), and the raster-to-grid family gains area-weighted coverage and single-cell assignment controls, grid-native cell-space fill, and cross-raster combine + alignment. It also adds multi-dimension NetCDF reading (time/level) and fixes two field-reported bugs in the lightweight raster reader and heavyweight rst_updatetype, on top of v0.5.0. This release contains breaking changes — see below. Full change list: Release Notes → What's new in v0.5.1.\n\nHighlights\n\n- Geometry-aware kring / kloop across all grid families. geomkring / geomkloop (and their explode variants) now work on H3, quadbin, BNG, and custom grids from one geometry-taking surface — geomkring(geom, resolution, k [, mode]) — callable identically from SQL and PySpark. All six dilation modes are supported, including the hole-aware variants (hole-in, hole-out, hole-out-ignore-geom); geometry input is WKB BINARY or WKT STRING. See GridX Functions and the grid & raster tessellation model.\n\n- Raster-to-grid: coverage and assignment controls. The gbx_rst_{h3,quadbin,bng,custom}_rastertogrid* and *_tessellate functions gain an area-weighted coverage mode and a single-cell assignment mode, so cell aggregates and tessellations can weight or assign boundary cells consistently across grids. See grid & raster tessellation.\n\n- Grid-native cell-space fill and cross-tier grid parity. New cell-space fill fills gaps directly in grid space, and grid operations are brought to parity across the heavyweight and lightweight tiers.…",
-    "category": "Data Engineering",
-    "tags": [
-      "databrickslabs/geobrix"
-    ]
-  },
-  {
-    "id": "b42185f9f43bd8d1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Genie visualizations in Slack replies (Public Preview)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#genie-visualizations-in-slack-replies-public-preview",
-    "published": "2026-09-14",
-    "first_seen": "2026-09-14",
-    "summary": "When a Genie response includes a chart, the visualization now appears as an image in the Slack reply. If you installed the Databricks Genie app for Slack previously, reinstall it to enable this. See Visualizations.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "ca2f35c19c99a452",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Managed Postgres: What Lakebase Actually Takes Off Your Plate",
-    "url": "https://www.databricks.com/blog/managed-postgres",
-    "published": "2026-09-14",
-    "first_seen": "2026-09-15",
-    "summary": "See what Lakebase actually automates in managed Postgres — patching, scaling, failover, and backups — and where responsibility still sits with you.",
-    "category": "Database",
-    "tags": [
-      "Data + AI Foundations"
-    ]
-  },
-  {
-    "id": "c6e9fc42b35e04f1",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks",
-    "url": "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks",
-    "published": "2026-09-14",
-    "first_seen": "2026-09-15",
-    "summary": "Anyone running state",
-    "category": "Data Engineering",
-    "tags": [
-      "Engineering",
-      "Data Engineering"
-    ]
-  },
-  {
-    "id": "326c896ac883f106",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "The counter_diff SQL window function is now available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-counter",
-    "published": "2026-09-14",
-    "first_seen": "2026-09-17",
-    "summary": "The counter_diff window function calculates differences between consecutive cumulative counter values and handles counter resets, for time-series analysis of counter data. It is available in Databricks SQL and Databricks Runtime 19 and above. See counter_diff analytic window function.",
-    "category": "Data Warehousing",
-    "tags": []
-  },
-  {
-    "id": "4b88526acef3bf65",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Window measures on a numeric index column in metric views",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#window-measures-on-a-numeric-index-column-in-metric-views",
-    "published": "2026-09-14",
-    "first_seen": "2026-09-18",
-    "summary": "Window measures support unitless offset and trailing/leading ranges on a consecutive integer order column. Use a numeric index for non-calendar periods such as fiscal weeks or 4-4-5 periods. See Window measures on a numeric index column.",
-    "category": "Business Intelligence",
     "tags": []
   }
 ]
