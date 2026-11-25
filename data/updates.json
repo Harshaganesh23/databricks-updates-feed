@@ -14,6 +14,20 @@
     ]
   },
   {
+    "id": "fa64362e47a8b117",
+    "source": "github_release",
+    "source_label": "GitHub · databricks/databricks-sdk-py",
+    "title": "databricks/databricks-sdk-py: v0.171.0",
+    "url": "https://github.com/databricks/databricks-sdk-py/releases/tag/v0.171.0",
+    "published": "2026-11-25",
+    "first_seen": "2026-11-25",
+    "summary": "## Release v0.171.0 (2026-11-25)\n\n### API Changes\n\n* Add `databricks.sdk.service.geniemigrate` package.\n\n* Add [w.genie_migrate](https://databricks-sdk-py.readthedocs.io/en/latest/workspace/geniemigrate/genie_migrate.html) workspace-level service.\n\n* Add `resources` field for `databricks.sdk.service.genieagents.GenieAgentDefinition`.\n\n* Add `text_instruction` field for `databricks.sdk.service.genieagents.GenieAgentInstructions`.\n\n* Add `asset_type_metric_view` and `asset_type_agent_skill` enum values for `databricks.sdk.service.marketplace.AssetType`.\n\n* [Breaking] Remove `data_sources` field for `databricks.sdk.service.genieagents.GenieAgentDefinition`.\n\n* [Breaking] Remove `sql_functions` and `text_instructions` fields for `databricks.sdk.service.genieagents.GenieAgentInstructions`.\n\n* [Breaking] Remove `notifications` field for `databricks.sdk.service.ml.MaterializationSet`.",
+    "category": "Application Development",
+    "tags": [
+      "databricks/databricks-sdk-py"
+    ]
+  },
+  {
     "id": "75b8cc85fc4f2971",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -97,6 +111,42 @@
     "tags": []
   },
   {
+    "id": "c8d0bf673d74f893",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Directory-based access for OpenSharing SecureConnect (Public Preview)",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#directory-based-access-for-opensharing-secureconnect-public-preview",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-25",
+    "summary": "OpenSharing SecureConnect can now deliver eligible tables and views to Databricks recipients using serverless compute with directory-based access instead of per-file pre-signed URLs, for better performance. This feature is in Public Preview. Account admins can manage the OpenSharing SecureConnect Directory Based Access preview from the account console Previews page. See Directory-based access for SecureConnect.",
+    "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "d8ee8ac9f721368b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Recipient-specific URLs for OpenSharing open recipients",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#recipient-specific-urls-for-opensharing-open-recipients",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-25",
+    "summary": "In most regions, OpenSharing open recipients now use a recipient-specific URL that includes the recipient ID in the host name. Bearer tokens created or rotated since September 2026 use the new URL, and the OpenSharing UI shows the new URL for OpenID Connect (OIDC) federation recipients. Recipients can allow egress to their recipient-specific host name instead of the shared regional host name. Existing URLs and tokens continue to work until they expire. See Changes to OpenSharing (formerly Delta Sharing) open recipient tokens.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "c044f8b41e75984f",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Latest automatic expiration date for legacy OpenSharing open recipient tokens moved to February 25, 2027",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#latest-automatic-expiration-date-for-legacy-opensharing-open-recipient-tokens-moved-to-february-25-2027",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-25",
+    "summary": "OpenSharing open recipient tokens issued before February 25, 2026, with expiration dates after February 25, 2027, or with no expiration date, now automatically expire on February 25, 2027, instead of December 8, 2026. Data providers should rotate these tokens before February 25, 2027, to avoid breaking changes. Rotated tokens use the new recipient-specific URL format. See Changes to OpenSharing (formerly Delta Sharing) open recipient tokens.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "44ddaf13eeadaa75",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -172,6 +222,18 @@
     "first_seen": "2026-11-24",
     "summary": "Published outbound IP addresses for serverless compute are now generally available. Previously, they were in Public Preview. Databricks publishes the outbound IP addresses in ip-ranges.json. To allow serverless compute through a firewall that protects your resources, add these IP addresses to its allowlist and automate updates as the IP addresses change. See Configure access to other resources using outbound IP addresses.",
     "category": "Platform Overview",
+    "tags": []
+  },
+  {
+    "id": "a6504c7ab90e4dd2",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Artifact Registry is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#artifact-registry-is-now-generally-available",
+    "published": "2026-11-23",
+    "first_seen": "2026-11-25",
+    "summary": "Artifact Registry is now generally available. Store container images as governed assets in Unity Catalog, browse images and versions in Catalog Explorer, list and manage images with the databricks software-artifacts Databricks CLI commands, and delete images through the Software Artifacts API. See Artifact Registry.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -507,6 +569,18 @@
     "first_seen": "2026-11-24",
     "summary": "The following SQL functions for manipulating VARIANT values are now available in Databricks SQL and Databricks Runtime 19 and above:\n\n- variant_insert: Inserts a new object field or array element at the specified path.\n\n- variant_set: Inserts or replaces an object field or array element at the specified path.\n\n- variant_delete: Removes object fields or array elements at the specified paths.\n\n- variant_array_append: Appends a value to the array at the specified path.\n\n- variant_pick: Returns a VARIANT containing only the specified paths, preserving their parent structure.\n\n- variant_strip_nulls: Recursively removes variant null fields from objects and, optionally, variant null elements from arrays.\n\nError-tolerant versions are also available: try_variant_insert, try_variant_set, and try_variant_array_append.\n\nSee Built-in functions.",
     "category": "Data Warehousing",
+    "tags": []
+  },
+  {
+    "id": "31cf4ef97aef7ac9",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Moonshot AI Kimi K3.1 Pro Fast is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#moonshot-ai-kimi-k31-pro-fast-is-now-available-on-unity-gateway",
+    "published": "2026-11-19",
+    "first_seen": "2026-11-25",
+    "summary": "Moonshot AI Kimi K3.1 Pro Fast is now available on Unity Gateway. It serves the same model as Kimi K3.1 Pro on a separate endpoint, with native vision and reasoning for coding, knowledge work, and agentic tool use. It's available on pay-per-token endpoints in us-east-1.\n\nTo query the model and see supported regions, see Use foundation models.",
+    "category": "Governance",
     "tags": []
   },
   {
@@ -6920,6 +6994,18 @@
     ]
   },
   {
+    "id": "ddc61e4c70ded462",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "ABAC on views is in Beta",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#abac-on-views-is-in-beta",
+    "published": "2026-09-29",
+    "first_seen": "2026-11-25",
+    "summary": "Attribute-based access control (ABAC) row filters and column masks now extend to views, in addition to tables. This lets you use ABAC policies to control access to sensitive data exposed through views.\n\nWorkspace admins can enable the ABAC on Views preview from the workspace settings Previews page. This feature requires Databricks Runtime 19 or above.\n\nSee Attribute-based access control in Unity Catalog.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
     "id": "5fca8d7babdc63f0",
     "source": "databricks_blog",
     "source_label": "Databricks Blog",
@@ -7965,96 +8051,6 @@
     "first_seen": "2026-09-19",
     "summary": "Genie One now supports account-only users, so users in a registered identity provider can access account-level Genie One without being assigned to a workspace or granted consumer access. When enabled, eligible users are enrolled automatically. Unity Catalog continues to govern what each user can see. See Account-only user access to Genie One.",
     "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "c2c1e0ae2b6abe51",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "VARIANT cast extends to ARRAY and MAP columns in ABAC column masks",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#variant-cast-extends-to-array-and-map-columns-in-abac-column-masks",
-    "published": "2026-09-16",
-    "first_seen": "2026-09-21",
-    "summary": "You can now use a single VARIANT function to mask columns of type ARRAY and MAP, in addition to STRUCT and other types. This requires Databricks Runtime 19 or above. See Masking multiple column types with a single function.",
-    "category": "Data Engineering",
-    "tags": []
-  },
-  {
-    "id": "36014e9f5050276b",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Managed agent memory and sessions are in Beta",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#managed-agent-memory-and-sessions-are-in-beta",
-    "published": "2026-09-16",
-    "first_seen": "2026-09-23",
-    "summary": "Managed agent memory and managed agent sessions are in Beta. Databricks now provides two fully managed, Lakebase-backed stores for agent state, both usable from agents built on any framework:\n\n- Managed agent memory gives agents durable, long-term memory that persists across conversations, with semantic search. See Managed agent memory.\n\n- Managed agent sessions store durable conversation history that an agent reads at the start of a turn and appends to as it runs. See Managed agent sessions.",
-    "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "d434fda9e8d3bee0",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How energy teams turn theft detection into governed action with Genie and AI business processes",
-    "url": "https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes",
-    "published": "2026-09-15",
-    "first_seen": "2026-09-15",
-    "summary": "Turn energy theft detection into governed action with Databricks, connecting ML insights to investigations, recovery, trusted analytics, and reporting.",
-    "category": "Platform Overview",
-    "tags": [
-      "Industries",
-      "Energy"
-    ]
-  },
-  {
-    "id": "f6dacea9be17fca8",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant",
-    "url": "https://www.databricks.com/blog/databricks-marketers-use-data-3x-genie-ai-analytics-assistant",
-    "published": "2026-09-15",
-    "first_seen": "2026-09-15",
-    "summary": "Learn how Databricks built a trusted marketing Genie, increased data use 3x, reached 85% adoption, and scaled self-service analytics without adding headcount.",
-    "category": "Platform Overview",
-    "tags": [
-      "Marketing",
-      "Best Practices"
-    ]
-  },
-  {
-    "id": "a6836dfa4ac039e1",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Lakebase snapshots API (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#lakebase-snapshots-api-beta",
-    "published": "2026-09-15",
-    "first_seen": "2026-09-15",
-    "summary": "You can now manage Lakebase snapshots programmatically. The snapshots API lets you create, get, list, and delete point-in-time snapshots of a project branch, and restore a snapshot by creating a new branch from it. This API is in Beta. See Create a snapshot.",
-    "category": "Database",
-    "tags": []
-  },
-  {
-    "id": "82ba2d2262f3d887",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Sharing foreign Delta tables with OpenSharing is now generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#sharing-foreign-delta-tables-with-opensharing-is-now-generally-available",
-    "published": "2026-09-15",
-    "first_seen": "2026-09-16",
-    "summary": "Sharing and reading foreign Delta tables with OpenSharing is now generally available. Providers can share Delta-format tables federated from OneLake, a Hive metastore, or AWS Glue, without copying data into Databricks. See Add foreign Delta tables to a share.",
-    "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "98e7831e036eb78c",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Data Classification now scans Unity Catalog views (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#data-classification-now-scans-unity-catalog-views-beta",
-    "published": "2026-09-15",
-    "first_seen": "2026-09-16",
-    "summary": "Data Classification can now scan Unity Catalog views in addition to tables, classifying columns for sensitive data using the same detection engine. This is a Beta feature. See Classify views.",
-    "category": "Governance",
     "tags": []
   }
 ]
