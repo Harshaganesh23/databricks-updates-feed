@@ -14,6 +14,21 @@
     ]
   },
   {
+    "id": "a7f2fedd6ab493d5",
+    "source": "databricks_blog",
+    "source_label": "Databricks Blog",
+    "title": "Rethinking read replicas for the lakebase architecture",
+    "url": "https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture",
+    "published": "2026-11-26",
+    "first_seen": "2026-11-26",
+    "summary": "In a traditional Postgres deployment, every read replica is a full clone of the primary, with its own instance and storage. That makes replicas slow to create, expensive to keep, and hard to use for scaling reads.",
+    "category": "Database",
+    "tags": [
+      "Engineering",
+      "Lakebase"
+    ]
+  },
+  {
     "id": "fa64362e47a8b117",
     "source": "github_release",
     "source_label": "GitHub · databricks/databricks-sdk-py",
@@ -26,6 +41,30 @@
     "tags": [
       "databricks/databricks-sdk-py"
     ]
+  },
+  {
+    "id": "f82d7a0a8c993d96",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Table metrics history system table is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#table-metrics-history-system-table-is-now-generally-available",
+    "published": "2026-11-25",
+    "first_seen": "2026-11-26",
+    "summary": "The table metrics history system table (system.storage.table_metrics_history) is now generally available. Use it to track the daily storage size of your Unity Catalog managed tables, attribute storage costs, and find tables to clean up. See Table metrics history system table reference.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "d7187f70293afa3b",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini 4 Neon is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-4-neon-is-now-available-on-unity-gateway",
+    "published": "2026-11-25",
+    "first_seen": "2026-11-26",
+    "summary": "Google Gemini 4 Neon is now available on Unity Gateway. Use the model service name system.ai.gemini-4-neon in your requests.\n\nCustomers are responsible for ensuring their compliance with applicable terms.",
+    "category": "Security",
+    "tags": []
   },
   {
     "id": "75b8cc85fc4f2971",
@@ -144,6 +183,30 @@
     "first_seen": "2026-11-25",
     "summary": "OpenSharing open recipient tokens issued before February 25, 2026, with expiration dates after February 25, 2027, or with no expiration date, now automatically expire on February 25, 2027, instead of December 8, 2026. Data providers should rotate these tokens before February 25, 2027, to avoid breaking changes. Rotated tokens use the new recipient-specific URL format. See Changes to OpenSharing (formerly Delta Sharing) open recipient tokens.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "665f17eda70e1689",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Sharing Unity Catalog agent skills with OpenSharing and Databricks Marketplace is now generally available",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#sharing-unity-catalog-agent-skills-with-opensharing-and-databricks-marketplace-is-now-generally-available",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-26",
+    "summary": "Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings, and Databricks recipients can use them. In some accounts, an account admin must turn on the Agent Skill Sharing preview. Sharing and using skills also requires the Enhanced Unity AI Gateway preview, which is in Beta. See Add agent skills to a share and Create a Marketplace listing.",
+    "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "095bd2d46addfabe",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Google Gemini Nano Banana 2.1 is now available on Unity Gateway",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-nano-banana-21-is-now-available-on-unity-gateway",
+    "published": "2026-11-24",
+    "first_seen": "2026-11-26",
+    "summary": "Google Gemini Nano Banana 2.1 is available on Unity Gateway. Use Foundation Model APIs to generate images from text and image inputs.",
+    "category": "Artificial Intelligence",
     "tags": []
   },
   {
@@ -755,6 +818,18 @@
     "first_seen": "2026-11-19",
     "summary": "OAuth machine-to-machine (M2M) authentication is now generally available for the Salesforce, ServiceNow, and Jira connectors in Lakeflow Connect. M2M uses the OAuth client credentials flow, so no one signs in interactively. For Jira, M2M supports Jira Cloud only.",
     "category": "Governance",
+    "tags": []
+  },
+  {
+    "id": "d7a61ddf56188261",
+    "source": "release_notes",
+    "source_label": "Release Notes",
+    "title": "Delete an operator and reconnect its neighbors in Lakeflow Designer",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#delete-an-operator-and-reconnect-its-neighbors-in-lakeflow-designer",
+    "published": "2026-11-18",
+    "first_seen": "2026-11-26",
+    "summary": "Use Delete and reconnect in Lakeflow Designer to remove an operator and connect its upstream output directly to its downstream operators. See Rename, copy, delete, and disable operators.",
+    "category": "Data Engineering",
     "tags": []
   },
   {
@@ -7975,82 +8050,6 @@
     "first_seen": "2026-09-19",
     "summary": "You can now use base environments to manage Python dependencies on classic compute. You can use Databricks-provided environments or custom workspace-level environments. See Manage dependencies using environments.",
     "category": "Platform Overview",
-    "tags": []
-  },
-  {
-    "id": "ca535b6e9f79bf33",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Finer level of detail measures in metric views are generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#finer-level-of-detail-measures-in-metric-views-are-generally-available",
-    "published": "2026-09-17",
-    "first_seen": "2026-11-18",
-    "summary": "Finer level of detail (LOD) measures in metric views are now generally available. A finer LOD measure uses a partition block with an include list and an outer_aggregate function. It computes an aggregate at a finer grain than the query, then reaggregates the result back to the query's grain. Finer LOD measures require Databricks Runtime 19 or above. See Finer level of detail.",
-    "category": "Business Intelligence",
-    "tags": []
-  },
-  {
-    "id": "ca97fa1f4be73c4f",
-    "source": "github_release",
-    "source_label": "GitHub · databricks/cli",
-    "title": "databricks/cli: v1.17.0",
-    "url": "https://github.com/databricks/cli/releases/tag/v1.17.0",
-    "published": "2026-09-16",
-    "first_seen": "2026-09-16",
-    "summary": "Release v1.17.0\n\nNotable Changes\n\n- Bump the direct deployment state version to 3. Clients older than v1.8.0 will reject bundles deployed with this release. (#6713)\n\nCLI\n\n- Add an INVALID_REFRESH_TOKEN error code to databricks auth token --output json failures. (#6684)\n\n- Add experimental databricks auth docker configure to configure Docker credential helper access for Databricks Artifact Registry. (#6700)\n\n- Add experimental databricks auth docker token to generate Docker credentials for Databricks Artifact Registry. (#6699)\n\n- databricks environments setup-local now reports the E_PROVISION_CONFLICT error code instead of the generic E_PROVISION when uv sync fails to resolve a dependency conflict. (#6666)\n\n- Preserve SSH sessions across temporary tunnel disconnects, with bounded replay and backpressure for large transfers. (#6650)\n\n- Allow OAuth U2M logins to override the CLI client ID with --client-id, profile client_id, or DATABRICKS_CLIENT_ID. (#6594)\n\nBundles\n\n- direct: Store a dashboard's serialized_dashboard in state as a content hash instead of its full contents. (#6105)\n\n- direct: Fix pipelines recreation when the whole ingestion_definition block is added or removed. (#6589)\n\n- bundle plan, deploy, and destroy no longer report removing permissions, grants, or secret scope ACLs from a bundle as a deletion, since it leaves the resource untouched. (#6647)\n\n- bundle plan and deploy no longer list or count a resource that was already deleted remotely as a deletion, matching bundle destroy; applying still cleans up its stale state entry. (#6675)…",
-    "category": "Application Development",
-    "tags": [
-      "databricks/cli"
-    ]
-  },
-  {
-    "id": "957733573e7d0d5a",
-    "source": "databricks_blog",
-    "source_label": "Databricks Blog",
-    "title": "\"Regex for Rows\": Simplifying Pattern Detection in SQL with MATCH_RECOGNIZE",
-    "url": "https://www.databricks.com/blog/regex-rows-simplifying-pattern-detection-sql-matchrecognize",
-    "published": "2026-09-16",
-    "first_seen": "2026-09-17",
-    "summary": "Databricks solves complex sequence detection with MATCH_RECOGNIZE, bringing regex-style pattern matching to relational data, without self-joins or chained CTEs.",
-    "category": "Platform Overview",
-    "tags": [
-      "Product"
-    ]
-  },
-  {
-    "id": "c0aa7582891f78ea",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unity Gateway API and developer tools are generally available",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unity-gateway-api-and-developer-tools-are-generally-available",
-    "published": "2026-09-16",
-    "first_seen": "2026-09-17",
-    "summary": "The Unity Gateway API for managing model services, model provider services, and MCP services is now generally available, with create, read, update, list, and delete support across Databricks developer tools:\n\n- Terraform provider: 1.132.0 and later\n\n- Databricks CLI: v1.17.0 and later\n\n- Python SDK: databricks-sdk 0.136.0 and later\n\n- Go SDK: databricks-sdk-go v0.178.0 and later\n\n- Java SDK: databricks-sdk-java 0.153.0 and later\n\n- JavaScript SDK: @databricks/sdk-aigateway 0.19.0 and later\n\nDeclarative Automation Bundles support, through the Databricks CLI 1.17.0 and later, is in Beta.\n\nFor API documentation, see the Unity Gateway API reference.\n\nFor examples and tutorials, see the following:\n\n- Create and manage model APIs (model services)\n\n- Create and manage external model providers (model provider services)\n\n- Register an external MCP server.",
-    "category": "Application Development",
-    "tags": []
-  },
-  {
-    "id": "fca7f226bf8c93ce",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Unused OAuth client secrets are automatically deleted after 90 days",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#unused-oauth-client-secrets-are-automatically-deleted-after-90-days",
-    "published": "2026-09-16",
-    "first_seen": "2026-09-18",
-    "summary": "Databricks now automatically deletes a service principal's OAuth client secret after 90 days without use, consistent with unused access token cleanup. If a deleted secret is still needed, create a new OAuth secret.",
-    "category": "Governance",
-    "tags": []
-  },
-  {
-    "id": "b0ec22757a866439",
-    "source": "release_notes",
-    "source_label": "Release Notes",
-    "title": "Account-only user access to Genie One (Beta)",
-    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/september#account-only-user-access-to-genie-one-beta",
-    "published": "2026-09-16",
-    "first_seen": "2026-09-19",
-    "summary": "Genie One now supports account-only users, so users in a registered identity provider can access account-level Genie One without being assigned to a workspace or granted consumer access. When enabled, eligible users are enrolled automatically. Unity Catalog continues to govern what each user can see. See Account-only user access to Genie One.",
-    "category": "Business Intelligence",
     "tags": []
   }
 ]
